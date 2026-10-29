@@ -1,0 +1,12 @@
+FROM node:24-bookworm-slim
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm ci
+
+COPY tsconfig.json ./
+COPY src/shared ./src/shared
+COPY src/api ./src/api
+
+CMD ["node", "--experimental-strip-types", "src/api/index.ts"]

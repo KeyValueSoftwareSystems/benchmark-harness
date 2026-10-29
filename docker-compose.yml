@@ -1,0 +1,30 @@
+x-netra: &netra
+  NETRA_OTLP_ENDPOINT: ${NETRA_OTLP_ENDPOINT:-}
+  NETRA_API_KEY: ${NETRA_API_KEY:-}
+  NETRA_ENV: ${NETRA_ENV:-local}
+  NETRA_DEBUG: ${NETRA_DEBUG:-}
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.api
+    env_file:
+      - path: .env
+        required: false
+    ports:
+      - "3000:3000"
+
+  # One service per benchmark; scaled to one replica per model by `npm run up`.
+  minimal:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.minimal
+    environment:
+      <<: *netra
+      BENCHMARK: minimal
+      API_URL: http://api:3000
+    depends_on:
+      - api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
