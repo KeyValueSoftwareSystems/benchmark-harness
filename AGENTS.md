@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Benchmark harness on pi agents (`@earendil-works/pi-coding-agent`): per-benchmark Docker images, one replica per model config, an express API that registers replicas and dispatches prompts. See `README.md` for architecture and usage.
+Benchmark harness on pi agents (`@earendil-works/pi-coding-agent`): per-benchmark Docker images, an express API that queues jobs (Redis streams) and provisions an agent container, plus any benchmark services, per job. See `README.md` for architecture and usage.
 
 ## Rules
 
@@ -20,6 +20,8 @@ Benchmark harness on pi agents (`@earendil-works/pi-coding-agent`): per-benchmar
 
 ## Gotchas
 
-- A pi RPC/session process hosts one session; concurrency comes from compose replicas, which can't see their own index, hence the register handshake with the API.
+- A pi session process hosts one session, so every job gets its own agent container, started by the API (`src/api/docker/agent.ts`). The agent learns its model by calling `/register {jobId}`; keys never go in container env.
+- Each benchmark has a handler in `src/api/benchmarks/` that owns everything it provisions and must tear it down. Cyber challenges live in `resources/cyber/challenges/` and must stay self-contained (no `container_name`, published ports or external networks).
+- The API shells out to the docker CLI through the mounted socket (never give agents the socket) and mounts `resources/` at its host path, because compose projects run against the host daemon.
 - `session_start` only fires after `session.bindExtensions()` (done in `src/agent/server.ts`).
 - A custom baseUrl/apiKey provider can't be set over RPC; it comes from a generated `models.json` (`writeModelsJson` in `src/agent/config.ts`).
