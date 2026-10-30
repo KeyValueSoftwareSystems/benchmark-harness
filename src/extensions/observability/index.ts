@@ -54,8 +54,8 @@ export default function (pi: ExtensionAPI) {
 		};
 
 	pi.on("session_start", async (_event, ctx) => {
-		if (!process.env.NETRA_OTLP_ENDPOINT) {
-			console.error("[observability] NETRA_OTLP_ENDPOINT not set; tracing disabled");
+		if (!process.env.NETRA_OTLP_ENDPOINT || !process.env.NETRA_TENANT_ID) {
+			console.error("[observability] NETRA_OTLP_ENDPOINT or NETRA_TENANT_ID not set; tracing disabled");
 			return;
 		}
 		try {
@@ -67,6 +67,7 @@ export default function (pi: ExtensionAPI) {
 				resourceAttributes: { "benchmark.model": ctx.model?.id ?? "unknown" },
 			});
 			Netra.setSessionId(randomUUID());
+			Netra.setTenantId(process.env.NETRA_TENANT_ID);
 			enabled = true;
 			console.error(`[observability] tracing enabled (${process.env.NETRA_APP_NAME})`);
 		} catch (err) {
