@@ -1,4 +1,3 @@
-import os from "node:os";
 import express from "express";
 import type { ModelConfig, ReplicaStatus } from "../shared/types.ts";
 import { redact } from "../shared/types.ts";
@@ -7,7 +6,8 @@ import { createSession } from "./config.ts";
 const PORT = Number(process.env.PORT ?? 8080);
 const API_URL = process.env.API_URL ?? "http://api:3000";
 const BENCHMARK = process.env.BENCHMARK ?? "minimal";
-const selfUrl = `http://${os.hostname()}:${PORT}`;
+const JOB_ID = process.env.JOB_ID;
+if (!JOB_ID) throw new Error("JOB_ID is required: agents are started by the api for a job");
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -17,13 +17,11 @@ async function register(): Promise<ModelConfig> {
 			const res = await fetch(`${API_URL}/register`, {
 				method: "POST",
 				headers: { "content-type": "application/json" },
-				body: JSON.stringify({ benchmark: BENCHMARK, url: selfUrl, jobId: process.env.JOB_ID }),
+				body: JSON.stringify({ jobId: JOB_ID }),
 			});
 			if (res.ok) return ((await res.json()) as { model: ModelConfig }).model;
-			if (res.status === 409) throw new Error(`no model config left for benchmark ${BENCHMARK}`);
 			console.error(`[agent] register failed: ${res.status}`);
 		} catch (err) {
-			if (err instanceof Error && err.message.startsWith("no model config")) throw err;
 			console.error(`[agent] register error: ${err}`);
 		}
 		await sleep(delay);

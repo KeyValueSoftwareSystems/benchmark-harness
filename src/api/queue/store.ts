@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 import type { Redis } from "ioredis";
-import type { Job, JobStatus } from "../shared/types.ts";
+import type { Job, JobStatus } from "../../shared/types.ts";
 
 const key = (id: string) => `job:${id}`;
 const INDEX = "job-ids";

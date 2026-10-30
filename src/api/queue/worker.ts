@@ -1,24 +1,29 @@
 import type { Redis } from "ioredis";
 
-const STREAM = "jobs";
 const GROUP = "workers";
 
-export const enqueue = (redis: Redis, jobId: string) => redis.call("XADD", STREAM, "*", "jobId", jobId);
+/** Each benchmark has its own stream, so it gets its own worker and concurrency limit. */
+const streamFor = (benchmark: string) => `jobs:${benchmark}`;
+
+export const enqueue = (redis: Redis, benchmark: string, jobId: string) =>
+	redis.call("XADD", streamFor(benchmark), "*", "jobId", jobId);
 
 type Entry = [entryId: string, fields: string[]];
 
 const toJobs = (entries: Entry[]) => entries.map(([entryId, fields]) => ({ entryId, jobId: fields[fields.indexOf("jobId") + 1] }));
 
 /**
- * Consumes the job stream with a consumer group, running at most `concurrency` handlers at once.
+ * Consumes one benchmark's job stream with a consumer group, running at most `concurrency` handlers at once.
  * Entries are acked only after the handler settles; entries left pending by a crashed instance are
  * re-claimed on startup and run again.
  */
 export async function startWorker(
 	redis: Redis,
+	benchmark: string,
 	handle: (jobId: string) => Promise<void>,
 	{ concurrency, consumer }: { concurrency: number; consumer: string },
 ) {
+	const STREAM = streamFor(benchmark);
 	try {
 		await redis.call("XGROUP", "CREATE", STREAM, GROUP, "0", "MKSTREAM");
 	} catch (err) {
@@ -30,9 +35,9 @@ export async function startWorker(
 	let wake: (() => void) | undefined;
 	const dispatch = ({ entryId, jobId }: { entryId: string; jobId: string }) => {
 		inflight++;
-		console.log(`[queue] job ${jobId} claimed (${inflight}/${concurrency} running)`);
+		console.log(`[queue] ${benchmark}: job ${jobId} claimed (${inflight}/${concurrency} running)`);
 		handle(jobId)
-			.catch((err) => console.error(`[queue] job ${jobId} failed: ${err}`))
+			.catch((err) => console.error(`[queue] ${benchmark}: job ${jobId} failed: ${err}`))
 			.finally(async () => {
 				await redis.call("XACK", STREAM, GROUP, entryId);
 				await redis.call("XDEL", STREAM, entryId);
@@ -45,7 +50,7 @@ export async function startWorker(
 	let cursor = "0-0";
 	do {
 		const [next, entries] = (await redis.call("XAUTOCLAIM", STREAM, GROUP, consumer, 0, cursor, "COUNT", 100)) as [string, Entry[]];
-		if (entries.length) console.log(`[queue] re-claiming ${entries.length} pending job(s) from a previous run`);
+		if (entries.length) console.log(`[queue] ${benchmark}: re-claiming ${entries.length} pending job(s) from a previous run`);
 		toJobs(entries).forEach(dispatch);
 		cursor = next;
 	} while (cursor !== "0-0");
@@ -62,7 +67,7 @@ export async function startWorker(
 			// Single stream, so ioredis returns [stream, entries] rather than a list of those pairs.
 			if (res) toJobs(res[1]).forEach(dispatch);
 		} catch (err) {
-			console.error(`[queue] read failed: ${err}`);
+			console.error(`[queue] ${benchmark}: read failed: ${err}`);
 			await new Promise((r) => setTimeout(r, 1000));
 		}
 	}
