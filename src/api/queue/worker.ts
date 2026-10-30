@@ -30,6 +30,7 @@ export async function startWorker(
 		if (!String(err).includes("BUSYGROUP")) throw err;
 	}
 	const reader = redis.duplicate();
+	reader.on("error", (err) => console.error(`[queue] ${benchmark}: redis ${err.message}`));
 
 	let inflight = 0;
 	let wake: (() => void) | undefined;

@@ -18,4 +18,13 @@ for (const b of benchmarks.values()) {
 	void startWorker(redis, b.name, runJob, { concurrency: concurrencyFor(b.name, b.concurrency), consumer: os.hostname() });
 }
 
-app.listen(PORT, () => console.error(`[api] listening on ${PORT}, ${MODELS.length} model(s) configured`));
+const server = app.listen(PORT, () => console.error(`[api] listening on ${PORT}, ${MODELS.length} model(s) configured`));
+
+// PID 1 ignores SIGTERM unless handled. Jobs interrupted here are re-run from the stream and swept on next start.
+for (const signal of ["SIGTERM", "SIGINT"]) {
+	process.on(signal, () => {
+		console.error(`[api] ${signal} received, shutting down`);
+		server.closeAllConnections();
+		process.exit(0);
+	});
+}

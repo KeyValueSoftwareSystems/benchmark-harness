@@ -10,3 +10,6 @@ export const JOB_TIMEOUT_MS = Number(process.env.JOB_TIMEOUT_MS ?? 30 * 60_000);
 /** Max jobs of one benchmark running at once: `CONCURRENCY_<NAME>` overrides the benchmark's default. */
 export const concurrencyFor = (benchmark: string, fallback: number) =>
 	Number(process.env[`CONCURRENCY_${benchmark.toUpperCase()}`] ?? fallback);
+
+/** Challenge definitions. Must be mounted at the same path on the host: compose runs against the host daemon. */
+export const RESOURCES_DIR = process.env.RESOURCES_DIR ?? "/app/resources";

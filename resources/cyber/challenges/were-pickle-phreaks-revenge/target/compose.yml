@@ -1,0 +1,13 @@
+services:
+  pickle_revenge:
+    build: .
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - nc -z localhost 1337 || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    user: 1337:1337
+    privileged: false
+    read_only: true

@@ -5,15 +5,17 @@ import type { Job, JobStatus } from "../../shared/types.ts";
 const key = (id: string) => `job:${id}`;
 const INDEX = "job-ids";
 
-export async function createJob(redis: Redis, input: Pick<Job, "benchmark" | "prompt" | "model">): Promise<Job> {
+export async function createJob(redis: Redis, input: Pick<Job, "benchmark" | "prompt" | "model" | "params">): Promise<Job> {
 	const job: Job = { id: randomUUID().slice(0, 8), ...input, status: "queued", createdAt: new Date().toISOString() };
-	await redis.multi().hset(key(job.id), job).rpush(INDEX, job.id).exec();
+	const { params, ...fields } = job;
+	await redis.multi().hset(key(job.id), { ...fields, ...(params && { params: JSON.stringify(params) }) }).rpush(INDEX, job.id).exec();
 	return job;
 }
 
 export async function getJob(redis: Redis, id: string): Promise<Job | undefined> {
 	const data = await redis.hgetall(key(id));
-	return data.id ? (data as unknown as Job) : undefined;
+	if (!data.id) return undefined;
+	return { ...data, params: data.params ? JSON.parse(data.params) : undefined } as unknown as Job;
 }
 
 export async function listJobs(redis: Redis): Promise<Job[]> {
@@ -27,3 +29,7 @@ export async function setStatus(redis: Redis, id: string, status: JobStatus, err
 
 export const requestCancel = (redis: Redis, id: string) => redis.hset(key(id), "cancelRequested", "1");
 export const isCancelRequested = async (redis: Redis, id: string) => (await redis.hget(key(id), "cancelRequested")) === "1";
+
+/** Context can be fetched once per run, so a process in the agent container can't just ask for it again. */
+export const claimContext = async (redis: Redis, id: string) => (await redis.hsetnx(key(id), "contextServed", "1")) === 1;
+export const resetContextClaim = (redis: Redis, id: string) => redis.hdel(key(id), "contextServed");

@@ -1,0 +1,10 @@
+services:
+  frogwaf:
+    build: ./metadata/challenge
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - nc -z localhost 1337 || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 3

@@ -6,6 +6,8 @@ import { createSession } from "./config.ts";
 const PORT = Number(process.env.PORT ?? 8080);
 const API_URL = process.env.API_URL ?? "http://api:3000";
 const BENCHMARK = process.env.BENCHMARK ?? "minimal";
+/** Model turns allowed per run; 0 means unlimited. */
+const MAX_TURNS = Number(process.env.MAX_TURNS ?? 0);
 const JOB_ID = process.env.JOB_ID;
 if (!JOB_ID) throw new Error("JOB_ID is required: agents are started by the api for a job");
 
@@ -36,6 +38,14 @@ await runtime.session.bindExtensions({ onError: (e) => console.error(`[agent] ex
 
 let status: ReplicaStatus = "idle";
 let lastError: string | undefined;
+let turns = 0;
+
+runtime.session.subscribe((event) => {
+	if (event.type !== "turn_start" || !MAX_TURNS || ++turns <= MAX_TURNS) return;
+	lastError = `max turns (${MAX_TURNS}) exceeded`;
+	console.error(`[agent] ${lastError}, aborting`);
+	void runtime.session.abort();
+});
 
 const app = express();
 app.use(express.json());
@@ -49,9 +59,10 @@ app.post("/run", (req, res) => {
 	if (status === "running") return void res.status(409).json({ error: "already running" });
 	status = "running";
 	lastError = undefined;
+	turns = 0;
 	runtime.session
 		.prompt(prompt)
-		.then(() => void (status = "done"))
+		.then(() => void (status = lastError ? "error" : "done"))
 		.catch((err: unknown) => {
 			status = "error";
 			lastError = String(err);

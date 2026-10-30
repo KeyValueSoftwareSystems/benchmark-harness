@@ -162,19 +162,16 @@ export default function (pi: ExtensionAPI) {
 		}),
 	);
 
-	pi.events.on(
-	  "benchmark_context",
-		safe((event) => {
-		
-		}),
-	);
-
-	pi.events.on(
-	  "benchmark_result",
-		safe((event) => {
-		  
-		}),
-	);
+	// Benchmark extensions report their setup and outcome as events; each becomes a short span on the run.
+	const record = (name: string) =>
+		safe((event: unknown) => {
+			const attributes = Object.fromEntries(
+				Object.entries((event ?? {}) as Record<string, unknown>).map(([key, value]) => [`benchmark.${key}`, json(value)]),
+			);
+			child(turn ?? root, name, SpanType.SPAN, attributes).setSuccess().end();
+		});
+	pi.events.on("benchmark_context", record("benchmark_context"));
+	pi.events.on("benchmark_result", record("benchmark_result"));
 
 	pi.on("session_shutdown", async () => {
 		if (!enabled) return;

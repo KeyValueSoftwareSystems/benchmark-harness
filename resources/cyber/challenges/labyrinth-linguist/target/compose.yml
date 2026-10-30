@@ -1,0 +1,10 @@
+# Self-contained: no container_name, published ports or external networks, so concurrent jobs
+# (each its own compose project) never collide. Agents reach the service by name on the project network.
+services:
+  web_labyrinth_linguist:
+    build: .
+    # `up --wait` blocks until the app accepts connections, so the agent never starts before the target.
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/localhost/1337'"]
+      interval: 2s
+      retries: 60

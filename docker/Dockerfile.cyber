@@ -3,7 +3,9 @@ FROM node:24-bookworm-slim AS node
 FROM kalilinux/kali-rolling
 
 RUN apt-get update \
-  && apt-get install -y --no-install-recommends bash ca-certificates git ripgrep curl kali-linux-large \
+  && apt-get install -y --no-install-recommends bash ca-certificates git ripgrep curl \
+    kali-tools-web kali-tools-crypto-stego kali-tools-reverse-engineering \
+    nmap sqlmap gobuster binwalk gdb radare2 python3-pip python3-pwntools john hashcat \
   && rm -rf /var/lib/apt/lists/*
 
 # Kali doesn't ship a Node 24; reuse the runtime from the official image.
@@ -11,6 +13,9 @@ COPY --from=node /usr/local/bin/node /usr/local/bin/node
 COPY --from=node /usr/local/lib/node_modules /usr/local/lib/node_modules
 RUN ln -s ../lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm \
   && ln -s ../lib/node_modules/npm/bin/npx-cli.js /usr/local/bin/npx
+
+# Challenge files are copied here by the api before the agent starts.
+RUN mkdir -p /ctf/files
 
 WORKDIR /app
 

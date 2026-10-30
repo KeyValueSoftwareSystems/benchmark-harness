@@ -29,10 +29,15 @@ services:
     environment:
       <<: *netra
       REDIS_URL: redis://redis:6379
+      RESOURCES_DIR: ${PWD}/resources
+      # Model turns an agent may take per run before it is aborted; unset or 0 means unlimited.
+      MAX_TURNS: ${MAX_TURNS:-}
     depends_on:
       - redis
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      # Same path as on the host: challenge compose files run against the host's docker daemon.
+      - ${PWD}/resources:${PWD}/resources:ro
     ports:
       - "3000:3000"
 
@@ -51,3 +56,10 @@ services:
       - api
     extra_hosts:
       - "host.docker.internal:host-gateway"
+
+  cyber:
+    image: bench/cyber
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.cyber

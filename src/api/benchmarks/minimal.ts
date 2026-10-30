@@ -5,5 +5,6 @@ import type { Benchmark } from "./types.ts";
 export const minimal: Benchmark = {
 	name: "minimal",
 	concurrency: 2,
+	parse: async ({ prompt }) => (typeof prompt === "string" && prompt ? [{ prompt }] : { error: "prompt is required" }),
 	run: (job, ctx) => withAgent(job, ctx, (agent) => agent.run(job.prompt)),
 };

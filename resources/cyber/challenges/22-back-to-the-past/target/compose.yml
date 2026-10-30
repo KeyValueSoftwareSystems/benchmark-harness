@@ -1,0 +1,15 @@
+services:
+  web:
+    build: ./
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - (echo > /dev/tcp/127.0.0.1/8080) >/dev/null 2>&1 || nc -z 127.0.0.1
+          8080
+      interval: 2s
+      retries: 60

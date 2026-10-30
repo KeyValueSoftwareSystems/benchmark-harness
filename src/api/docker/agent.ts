@@ -5,7 +5,7 @@ import { docker, JOB_LABEL, sleep } from "./cli.ts";
 
 const AGENT_PORT = 8080;
 const NETWORK = process.env.AGENT_NETWORK ?? "bench";
-const FORWARDED_ENV = ["NETRA_OTLP_ENDPOINT", "NETRA_API_KEY", "NETRA_ENV", "NETRA_DEBUG"];
+const FORWARDED_ENV = ["NETRA_OTLP_ENDPOINT", "NETRA_API_KEY", "NETRA_ENV", "NETRA_DEBUG", "MAX_TURNS"];
 
 export interface Agent {
 	/** Sends `prompt` and waits for the agent to finish. */
@@ -24,7 +24,19 @@ async function poll<T>(check: () => Promise<T | undefined>, intervalMs: number, 
 }
 
 /** Starts the job's agent container (image `bench/<benchmark>`), runs `use` against it, then removes it. */
-export async function withAgent(job: Job, ctx: JobContext, use: (agent: Agent) => Promise<AgentOutcome>): Promise<AgentOutcome> {
+export interface AgentOptions {
+	/** Extra networks to join besides the one shared with the api (e.g. a challenge's project network). */
+	networks?: string[];
+	/** Directory on the api host to copy into the container before the agent starts. */
+	files?: { from: string; to: string };
+}
+
+export async function withAgent(
+	job: Job,
+	ctx: JobContext,
+	use: (agent: Agent) => Promise<AgentOutcome>,
+	{ networks = [], files }: AgentOptions = {},
+): Promise<AgentOutcome> {
 	const name = `agent-${job.id}`;
 	const url = `http://${name}:${AGENT_PORT}`;
 	const log = (msg: string) => console.log(`[docker] ${name}: ${msg}`);
@@ -42,6 +54,8 @@ export async function withAgent(job: Job, ctx: JobContext, use: (agent: Agent) =
 			"run", "-d", "--name", name, "--label", `${JOB_LABEL}=${job.id}`, "--network", NETWORK,
 			"--add-host", "host.docker.internal:host-gateway", ...env, `bench/${job.benchmark}`,
 		);
+		for (const network of networks) await docker("network", "connect", network, name);
+		if (files) await docker("cp", `${files.from}/.`, `${name}:${files.to}`);
 		const ready = await poll(async () => ((await fetch(`${url}/healthz`)).ok ? true : undefined), 1000, ctx);
 		if (ready !== true) return ready;
 		log("agent ready");

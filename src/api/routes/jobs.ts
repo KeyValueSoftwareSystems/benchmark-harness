@@ -8,18 +8,22 @@ import { redis } from "../redis.ts";
 export const jobs = Router();
 
 jobs.post("/jobs", async (req, res) => {
-	const { benchmark, prompt, models } = req.body ?? {};
-	if (!benchmarks.has(benchmark)) return void res.status(404).json({ error: "unknown benchmark" });
-	if (typeof prompt !== "string" || !prompt) return void res.status(400).json({ error: "prompt is required" });
+	const { benchmark: name, models } = req.body ?? {};
+	const benchmark = benchmarks.get(name);
+	if (!benchmark) return void res.status(404).json({ error: "unknown benchmark" });
+	const input = await benchmark.parse(req.body);
+	if ("error" in input) return void res.status(400).json({ error: input.error });
 	const selected = Array.isArray(models) ? MODELS.filter((m) => models.includes(m.name)) : MODELS;
 	if (!selected.length) return void res.status(404).json({ error: "no matching models" });
 
 	const created = [];
-	for (const m of selected) {
-		const job = await createJob(redis, { benchmark, prompt, model: m.name });
-		await enqueue(redis, benchmark, job.id);
-		console.log(`[api] job ${job.id} queued (${benchmark}, ${m.name})`);
-		created.push(job);
+	for (const item of input) {
+		for (const m of selected) {
+			const job = await createJob(redis, { benchmark: name, ...item, model: m.name });
+			await enqueue(redis, name, job.id);
+			console.log(`[api] job ${job.id} queued (${name}, ${m.name})`);
+			created.push(job);
+		}
 	}
 	res.status(202).json({ jobs: created });
 });

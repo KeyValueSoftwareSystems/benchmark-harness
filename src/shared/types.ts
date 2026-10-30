@@ -19,6 +19,8 @@ export interface Job {
 	prompt: string;
 	/** Model name; resolved against MODELS in the API so no keys are stored with the job. */
 	model: string;
+	/** Benchmark-specific input, e.g. which challenge to run. */
+	params?: Record<string, string>;
 	status: JobStatus;
 	error?: string;
 	createdAt: string;

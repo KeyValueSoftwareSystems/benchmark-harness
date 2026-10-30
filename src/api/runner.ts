@@ -1,7 +1,7 @@
 import { benchmarks } from "./benchmarks/index.ts";
-import type { JobContext } from "./benchmarks/types.ts";
+import type { AgentOutcome, JobContext } from "./benchmarks/types.ts";
 import { JOB_TIMEOUT_MS } from "./config.ts";
-import { getJob, isCancelRequested, setStatus } from "./queue/store.ts";
+import { getJob, isCancelRequested, resetContextClaim, setStatus } from "./queue/store.ts";
 import { redis } from "./redis.ts";
 
 /** Runs one queued job on its benchmark's handler and records the outcome. */
@@ -20,9 +20,10 @@ export async function runJob(id: string) {
 		cancelled: () => isCancelRequested(redis, id),
 		setStatus: (status) => setStatus(redis, id, status),
 	};
+	await resetContextClaim(redis, id);
 	await setStatus(redis, id, "provisioning");
 	console.log(`[api] job ${id} (${job.benchmark}, ${job.model}) provisioning`);
-	const outcome = await benchmark.run(job, ctx);
+	const outcome = await benchmark.run(job, ctx).catch((err): AgentOutcome => ({ status: "error", error: String(err) }));
 	await setStatus(redis, id, outcome.status, outcome.error);
 	console.log(`[api] job ${id} ${outcome.status}`);
 }
