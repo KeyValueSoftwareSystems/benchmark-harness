@@ -1,0 +1,29 @@
+FROM node:24-bookworm-slim AS node
+
+FROM kalilinux/kali-rolling
+
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends bash ca-certificates git ripgrep curl kali-linux-large \
+  && rm -rf /var/lib/apt/lists/*
+
+# Kali doesn't ship a Node 24; reuse the runtime from the official image.
+COPY --from=node /usr/local/bin/node /usr/local/bin/node
+COPY --from=node /usr/local/lib/node_modules /usr/local/lib/node_modules
+RUN ln -s ../lib/node_modules/npm/bin/npm-cli.js /usr/local/bin/npm \
+  && ln -s ../lib/node_modules/npm/bin/npx-cli.js /usr/local/bin/npx
+
+WORKDIR /app
+
+ENV NETRA_APP_NAME=cyber
+ENV NETRA_TENANT_ID=cyber
+
+COPY package.json package-lock.json ./
+RUN npm ci
+
+COPY tsconfig.json ./
+COPY src/shared ./src/shared
+COPY src/agent ./src/agent
+COPY src/extensions/observability ./extensions/observability
+COPY src/extensions/cyber ./extensions/cyber
+
+ENTRYPOINT ["node", "--experimental-strip-types", "src/agent/server.ts"]

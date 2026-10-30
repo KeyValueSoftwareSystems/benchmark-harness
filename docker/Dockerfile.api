@@ -1,5 +1,7 @@
 FROM node:24-bookworm-slim
 
+COPY --from=docker:27-cli /usr/local/bin/docker /usr/local/bin/docker
+
 WORKDIR /app
 
 COPY package.json package-lock.json ./

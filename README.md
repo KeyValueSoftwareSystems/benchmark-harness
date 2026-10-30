@@ -70,4 +70,3 @@ Everything runs through Docker Compose; images contain the code (no bind mounts)
 | `src/shared/` | types shared by agent and API |
 | `src/extensions/` | one directory per pi extension (`observability`, benchmarks) |
 | `docker/` | `Dockerfile.api` and one `Dockerfile.<benchmark>` each |
-| `scripts/up.mjs` | computes the replica count from `MODELS` and runs `docker compose up --scale` |

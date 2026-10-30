@@ -17,7 +17,7 @@ async function register(): Promise<ModelConfig> {
 			const res = await fetch(`${API_URL}/register`, {
 				method: "POST",
 				headers: { "content-type": "application/json" },
-				body: JSON.stringify({ benchmark: BENCHMARK, url: selfUrl }),
+				body: JSON.stringify({ benchmark: BENCHMARK, url: selfUrl, jobId: process.env.JOB_ID }),
 			});
 			if (res.ok) return ((await res.json()) as { model: ModelConfig }).model;
 			if (res.status === 409) throw new Error(`no model config left for benchmark ${BENCHMARK}`);
@@ -60,6 +60,14 @@ app.post("/run", (req, res) => {
 			console.error(`[agent] run failed: ${err}`);
 		});
 	res.status(202).json({ status });
+});
+
+// Fires session_shutdown so observability flushes its spans before the container goes away.
+process.on("SIGTERM", () => {
+	runtime
+		.dispose()
+		.catch((err) => console.error(`[agent] shutdown failed: ${err}`))
+		.finally(() => process.exit(0));
 });
 
 app.listen(PORT, () => console.error(`[agent] ${BENCHMARK}/${model.name} listening on ${PORT}`));

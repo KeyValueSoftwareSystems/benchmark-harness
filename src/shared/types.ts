@@ -10,3 +10,16 @@ export interface ModelConfig {
 export type ReplicaStatus = "idle" | "running" | "done" | "error";
 
 export const redact = ({ apiKey: _apiKey, ...rest }: ModelConfig) => rest;
+
+export type JobStatus = "queued" | "provisioning" | "running" | "done" | "error" | "cancelled";
+
+export interface Job {
+	id: string;
+	benchmark: string;
+	prompt: string;
+	/** Model name; resolved against MODELS in the API so no keys are stored with the job. */
+	model: string;
+	status: JobStatus;
+	error?: string;
+	createdAt: string;
+}

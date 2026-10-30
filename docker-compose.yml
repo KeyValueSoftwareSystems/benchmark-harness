@@ -4,7 +4,21 @@ x-netra: &netra
   NETRA_ENV: ${NETRA_ENV:-local}
   NETRA_DEBUG: ${NETRA_DEBUG:-}
 
+networks:
+  default:
+    name: bench
+
+volumes:
+  redis-data:
+
 services:
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+
+  # Provisions one agent container per job via the docker socket (agent containers never get it).
   api:
     build:
       context: .
@@ -12,11 +26,20 @@ services:
     env_file:
       - path: .env
         required: false
+    environment:
+      <<: *netra
+      REDIS_URL: redis://redis:6379
+    depends_on:
+      - redis
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "3000:3000"
 
-  # One service per benchmark; scaled to one replica per model by `npm run up`.
+  # Agent images only: built by `npm run up`, started per job by the api (never as a compose service).
   minimal:
+    image: bench/minimal
+    profiles: ["agents"]
     build:
       context: .
       dockerfile: docker/Dockerfile.minimal

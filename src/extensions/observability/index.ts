@@ -162,6 +162,20 @@ export default function (pi: ExtensionAPI) {
 		}),
 	);
 
+	pi.events.on(
+	  "benchmark_context",
+		safe((event) => {
+		
+		}),
+	);
+
+	pi.events.on(
+	  "benchmark_result",
+		safe((event) => {
+		  
+		}),
+	);
+
 	pi.on("session_shutdown", async () => {
 		if (!enabled) return;
 		try {

@@ -4,7 +4,7 @@ Benchmark harness on pi agents (`@earendil-works/pi-coding-agent`): per-benchmar
 
 ## Rules
 
-- **Development is always through Docker Compose.** Build and run with `docker compose` / `npm run up -- <benchmark>`; don't run the agent or API directly on the host. Images contain the code (no bind mounts), so rebuild after changes.
+- **Development is always through Docker Compose.** Build and run with `docker compose` / `npm run up`; don't run the agent or API directly on the host. Images contain the code (no bind mounts), so rebuild after changes.
 - **Dockerfiles live in `docker/`, one per benchmark** (`Dockerfile.<benchmark>`, plus `Dockerfile.api`). Each benchmark Dockerfile copies only `observability` and its own extension into `./extensions`, and sets `ENV NETRA_APP_NAME=<benchmark>`.
 - **Extension source lives in `src/extensions/<name>/`** (each with an `index.ts`); in the container they sit at `/app/extensions/<name>`. `src/agent/config.ts` loads each subdirectory as its own extension.
 - Agent processes keep **stdout clean** for protocol output; log to stderr (`console.error`).
