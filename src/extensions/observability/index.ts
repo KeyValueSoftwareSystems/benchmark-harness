@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
-import { Netra, NetraInstruments, SpanType } from "netra-sdk";
+import { ConversationType, Netra, NetraInstruments, SpanType } from "netra-sdk";
 
 type Span = ReturnType<typeof Netra.startSpan>;
 
@@ -28,6 +28,12 @@ export default function (pi: ExtensionAPI) {
 	let turn: Span | undefined;
 	let generation: Span | undefined;
 	const tools = new Map<string, Span>();
+	// Messages the model has not yet answered (the prompt, tool results); they are the next generation's input.
+	let pending: { role: string; content: string }[] = [];
+
+	// addConversation writes to the active span, so run it inside the one it belongs to.
+	const converse = (span: Span | undefined, type: ConversationType, role: string, content: string) =>
+		span?.withActive(() => Netra.addConversation(type, role, content));
 
 	const child = (parent: Span | undefined, name: string, asType: SpanType, attributes?: Record<string, string>) => {
 		const make = () => Netra.startSpan(name, { asType, attributes });
@@ -80,6 +86,7 @@ export default function (pi: ExtensionAPI) {
 		safe(() => {
 			root = Netra.startSpan("agent_run", { asType: SpanType.AGENT });
 			root.setAttribute("agent.input", prompt);
+			converse(root, ConversationType.INPUT, "user", prompt);
 		}),
 	);
 
@@ -100,7 +107,10 @@ export default function (pi: ExtensionAPI) {
 	pi.on(
 		"message_start",
 		safe((event) => {
-			if (event.message.role === "assistant") generation = child(turn ?? root, "generation", SpanType.GENERATION);
+			if (event.message.role !== "assistant") return;
+			generation = child(turn ?? root, "generation", SpanType.GENERATION);
+			for (const { role, content } of pending) converse(generation, ConversationType.INPUT, role, content);
+			pending = [];
 		}),
 	);
 
@@ -108,9 +118,11 @@ export default function (pi: ExtensionAPI) {
 		"message_end",
 		safe((event) => {
 			const m = event.message;
-			if (m.role !== "assistant" || !generation) return;
+			if (m.role !== "assistant") return void pending.push({ role: m.role, content: text("content" in m ? m.content : "") });
+			if (!generation) return;
 			generation.setModel(m.model).setLlmSystem(m.provider);
 			generation.setAttribute("gen_ai.completion", text(m.content));
+			converse(generation, ConversationType.OUTPUT, "assistant", text(m.content));
 			generation.setUsage([
 				{ model: m.model, usage_type: "input", units_used: m.usage.input },
 				{ model: m.model, usage_type: "output", units_used: m.usage.output, cost_in_usd: m.usage.cost.total },
@@ -156,7 +168,10 @@ export default function (pi: ExtensionAPI) {
 		"agent_end",
 		safe((event) => {
 			const last = [...event.messages].reverse().find((m) => m.role === "assistant");
-			if (last) root?.setAttribute("agent.output", text(last.content));
+			if (last) {
+				root?.setAttribute("agent.output", text(last.content));
+				converse(root, ConversationType.OUTPUT, "assistant", text(last.content));
+			}
 			root?.setSuccess();
 			endAll();
 		}),
