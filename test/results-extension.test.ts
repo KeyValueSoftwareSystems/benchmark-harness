@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildPayload, postResult } from "../src/extensions/results/payload.ts";
+import { buildPayload, fetchResultToken, postResult } from "../src/extensions/results/payload.ts";
 
 const state = {
 	usages: [
@@ -52,4 +52,26 @@ test("postResult treats 409 (already reported) as done", async () => {
 		attempts: 3,
 	});
 	assert.equal(ok, true);
+});
+
+test("postResult sends the job's token in x-result-token", async () => {
+	let header: string | null = null;
+	const fetchFn = async (_url: unknown, init?: RequestInit) => {
+		header = new Headers(init?.headers).get("x-result-token");
+		return new Response(null, { status: 202 });
+	};
+	await postResult("http://api/x", buildPayload(state), { fetchFn, sleep: async () => {}, token: "tok-1" });
+	assert.equal(header, "tok-1");
+});
+
+test("fetchResultToken returns the token, retries failures, and does not retry a refusal", async () => {
+	let calls = 0;
+	const flaky = async () => (++calls < 3 ? new Response(null, { status: 500 }) : Response.json({ token: "t" }));
+	assert.equal(await fetchResultToken("http://api/t", { fetchFn: flaky, sleep: async () => {}, attempts: 5 }), "t");
+	assert.equal(calls, 3);
+
+	let refused = 0;
+	const no = async () => (refused++, new Response(null, { status: 403 }));
+	assert.equal(await fetchResultToken("http://api/t", { fetchFn: no, sleep: async () => {}, attempts: 5 }), undefined);
+	assert.equal(refused, 1);
 });

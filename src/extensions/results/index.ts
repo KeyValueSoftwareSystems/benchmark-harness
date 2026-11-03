@@ -1,5 +1,5 @@
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
-import { buildPayload, postResult, type CollectedState } from "./payload.ts";
+import { buildPayload, fetchResultToken, postResult, type CollectedState } from "./payload.ts";
 
 /**
  * Benchmark-agnostic result reporter. Any extension that emits `benchmark_result` is covered; a run that emits none
@@ -8,6 +8,15 @@ import { buildPayload, postResult, type CollectedState } from "./payload.ts";
 export default function (pi: ExtensionAPI) {
 	const state: CollectedState = { usages: [], turns: 0, startedAt: Date.now(), endedAt: Date.now(), outcome: null };
 	let reported = false;
+	let token: string | undefined;
+
+	// Served once per job, before the model can run anything, so the model never holds it (it is not in the environment).
+	pi.on("session_start", async () => {
+		const { API_URL, JOB_ID } = process.env;
+		if (!API_URL || !JOB_ID) return;
+		token = await fetchResultToken(`${API_URL}/jobs/${JOB_ID}/result-token`);
+		if (!token) console.error("[results] no result token; result will not be accepted");
+	});
 
 	pi.events.on("benchmark_result", (event: unknown) => {
 		state.outcome = (event ?? null) as Record<string, unknown> | null;
@@ -37,7 +46,7 @@ export default function (pi: ExtensionAPI) {
 		state.endedAt = Date.now();
 		const { API_URL, JOB_ID } = process.env;
 		if (!API_URL || !JOB_ID) return void console.error("[results] API_URL or JOB_ID not set; result not reported");
-		const ok = await postResult(`${API_URL}/jobs/${JOB_ID}/result`, buildPayload(state));
+		const ok = await postResult(`${API_URL}/jobs/${JOB_ID}/result`, buildPayload(state), { token });
 		console.error(ok ? "[results] result reported" : "[results] could not report result");
 	});
 }

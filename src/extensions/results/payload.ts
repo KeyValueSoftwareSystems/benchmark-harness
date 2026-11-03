@@ -31,16 +31,38 @@ export interface PostOptions {
 	fetchFn?: typeof fetch;
 	sleep?: (ms: number) => Promise<void>;
 	attempts?: number;
+	/** The job's one-time result token; the api refuses results without it. */
+	token?: string;
+}
+
+/**
+ * Fetches the job's result token (served once, so the model can't claim it later). A refusal (403/404) is final;
+ * other failures are retried. Never throws.
+ */
+export async function fetchResultToken(url: string, opts: PostOptions = {}): Promise<string | undefined> {
+	const { fetchFn = fetch, sleep = (ms) => new Promise<void>((r) => setTimeout(r, ms)), attempts = 5 } = opts;
+	for (let attempt = 1; attempt <= attempts; attempt++) {
+		try {
+			const res = await fetchFn(url);
+			if (res.ok) return ((await res.json()) as { token?: string }).token;
+			if (res.status === 403 || res.status === 404) return undefined;
+			console.error(`[results] token request returned ${res.status} (attempt ${attempt}/${attempts})`);
+		} catch (err) {
+			console.error(`[results] token request failed (attempt ${attempt}/${attempts}): ${err}`);
+		}
+		if (attempt < attempts) await sleep(500 * 2 ** (attempt - 1));
+	}
+	return undefined;
 }
 
 /** POSTs the payload, retrying with backoff. 409 means the api already has this job's result. Never throws. */
 export async function postResult(url: string, payload: ResultPayload, opts: PostOptions = {}): Promise<boolean> {
-	const { fetchFn = fetch, sleep = (ms) => new Promise<void>((r) => setTimeout(r, ms)), attempts = 5 } = opts;
+	const { fetchFn = fetch, sleep = (ms) => new Promise<void>((r) => setTimeout(r, ms)), attempts = 5, token } = opts;
 	for (let attempt = 1; attempt <= attempts; attempt++) {
 		try {
 			const res = await fetchFn(url, {
 				method: "POST",
-				headers: { "content-type": "application/json" },
+				headers: { "content-type": "application/json", ...(token ? { "x-result-token": token } : {}) },
 				body: JSON.stringify(payload),
 			});
 			if (res.ok || res.status === 409) return true;

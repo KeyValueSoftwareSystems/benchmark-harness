@@ -19,12 +19,24 @@ function parsePayload(body: unknown): ResultPayload | undefined {
 export function createResultsRouter(deps: {
 	jobExists(id: string): Promise<boolean>;
 	saveResult(id: string, payload: ResultPayload): Promise<boolean>;
+	/** Returns a fresh one-time token for the job, or undefined if it was already issued. */
+	issueToken(id: string): Promise<string | undefined>;
+	verifyToken(id: string, token: string): Promise<boolean>;
 }) {
 	const router = Router();
+	// Like /jobs/:id/context: served once, to the extension at startup. Without it a model could post its own verdict.
+	router.get("/jobs/:id/result-token", async (req, res) => {
+		if (!(await deps.jobExists(req.params.id))) return void res.status(404).json({ error: "unknown job" });
+		const token = await deps.issueToken(req.params.id);
+		if (!token) return void res.status(403).json({ error: "token already served" });
+		res.json({ token });
+	});
 	router.post("/jobs/:id/result", async (req, res) => {
+		if (!(await deps.jobExists(req.params.id))) return void res.status(404).json({ error: "unknown job" });
+		const token = req.header("x-result-token") ?? "";
+		if (!token || !(await deps.verifyToken(req.params.id, token))) return void res.status(403).json({ error: "invalid result token" });
 		const payload = parsePayload(req.body);
 		if (!payload) return void res.status(400).json({ error: "invalid result payload" });
-		if (!(await deps.jobExists(req.params.id))) return void res.status(404).json({ error: "unknown job" });
 		if (!(await deps.saveResult(req.params.id, payload))) return void res.status(409).json({ error: "result already reported" });
 		res.status(202).json({ id: req.params.id });
 	});
