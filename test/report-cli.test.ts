@@ -77,3 +77,21 @@ test("runs made under different conditions are labelled as mixed", async () => {
 	const out = await generateReport({ benchmark: "cyber", models: ["alpha"], ...f });
 	assert.equal(JSON.parse(readFileSync(out.jsonPath, "utf8")).conditions, "Mixed run conditions");
 });
+
+test("Netra insights from the stored runs reach the report and the sidecar", async () => {
+	const f = await fixture();
+	await appendRun(f.resultsDir, {
+		...run("gamma", "gamma1", "c1", true),
+		netraMetadata: { traces: [{ latency_ms: 2000, prompt_tokens: "100", completion_tokens: "10", has_error: false }] },
+	});
+	const out = await generateReport({ benchmark: "cyber", models: ["alpha", "gamma"], ...f });
+	assert.ok(readFileSync(out.htmlPath, "utf8").includes("Netra insights"));
+	const sidecar = JSON.parse(readFileSync(out.jsonPath, "utf8"));
+	assert.equal(sidecar.netra.find((n: { model: string }) => n.model === "gamma").avgLatencyMs, 2000);
+});
+
+test("without any Netra data the report has no Netra section", async () => {
+	const f = await fixture();
+	const out = await generateReport({ benchmark: "cyber", models: ["alpha"], ...f });
+	assert.ok(!readFileSync(out.htmlPath, "utf8").includes("Netra insights"));
+});

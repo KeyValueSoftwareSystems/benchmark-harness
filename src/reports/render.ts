@@ -1,4 +1,5 @@
 import type { ModelMetrics } from "./metrics.ts";
+import type { NetraSummary } from "./netra.ts";
 
 export interface ReportInput {
 	title: string;
@@ -6,6 +7,8 @@ export interface ReportInput {
 	challengeCount: number;
 	conditions: string;
 	models: ModelMetrics[];
+	/** Netra insights per model; the section is left out when no model has any. */
+	netra?: NetraSummary[];
 	narrative?: string;
 }
 
@@ -14,6 +17,8 @@ const esc = (value: unknown) =>
 
 const duration = (ms: number | null) => (ms === null ? "–" : ms < 60_000 ? `${Math.round(ms / 1000)} s` : `${Math.round(ms / 60_000)} min`);
 const cost = (usd: number | null) => (usd === null ? "–" : `$${usd.toFixed(2)}`);
+const seconds = (ms: number | null) => (ms === null ? "–" : `${(ms / 1000).toFixed(1)} s`);
+const count = (n: number | null) => (n === null ? "–" : Math.round(n).toLocaleString("en-US"));
 const label = (m: ModelMetrics) => `${m.solved}/${m.total} · ${m.successRate}%`;
 
 const CSS = `
@@ -34,6 +39,7 @@ th:first-child,td:first-child{text-align:left}th{font-weight:700}.narrative{whit
 /** One self-contained HTML document: title card with bars (best first), then the metrics table and optional narrative. */
 export function renderReport(input: ReportInput): string {
 	const models = [...input.models].sort((a, b) => b.successRate - a.successRate);
+	const netraOf = (m: ModelMetrics) => input.netra?.find((n) => n.model === m.model);
 	const bars = models
 		.map(
 			(m, i) => `<div class="${i === 0 ? "best" : ""}"><div class="row"><span>${esc(m.model)}</span><span class="v">${esc(label(m))}${m.total < input.challengeCount ? " (partial)" : ""}</span></div>
@@ -49,6 +55,17 @@ export function renderReport(input: ReportInput): string {
 		line("Average cost per task", models.map((m) => cost(m.avgCostUsd))),
 		line("Repeat-run reliability", models.map(() => "To measure")),
 	].join("\n");
+	const netraRows = (input.netra ?? []).length
+		? [
+				line("Traced runs", models.map((m) => netraOf(m)?.traces.toString() ?? "–")),
+				line("Avg latency", models.map((m) => seconds(netraOf(m)?.avgLatencyMs ?? null))),
+				line("Avg tokens (in / out)", models.map((m) => (netraOf(m) ? `${count(netraOf(m)?.avgInputTokens ?? null)} / ${count(netraOf(m)?.avgOutputTokens ?? null)}` : "–"))),
+				line("Traces with errors", models.map((m) => (netraOf(m) ? `${netraOf(m)?.errorTraces} of ${netraOf(m)?.traces}` : "–"))),
+			].join("\n")
+		: "";
+	const netraSection = netraRows
+		? `\n<p class="lead">Netra insights from the traced runs:</p>\n<table><thead><tr><th>Metric</th>${head}</tr></thead><tbody>\n${netraRows}\n</tbody></table>`
+		: "";
 	return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(input.title)}</title><style>${CSS}</style></head>
@@ -60,6 +77,6 @@ ${bars}
 <p class="lead">That gives you the ranking. A useful benchmark report contains more than a single score:</p>
 <table><thead><tr><th>Metric</th>${head}</tr></thead><tbody>
 ${rows}
-</tbody></table>${input.narrative ? `\n<h2>Insights</h2>\n<p class="narrative">${esc(input.narrative)}</p>` : ""}
+</tbody></table>${netraSection}${input.narrative ? `\n<h2>Insights</h2>\n<p class="narrative">${esc(input.narrative)}</p>` : ""}
 </main></body></html>`;
 }

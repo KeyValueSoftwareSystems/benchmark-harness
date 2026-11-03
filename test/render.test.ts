@@ -55,3 +55,24 @@ test("a lead-in sentence introduces the metrics table, as in the reference layou
 	assert.ok(html.includes("A useful benchmark report contains more than a single score:"));
 	assert.ok(html.indexOf("more than a single score") < html.indexOf("<table>"));
 });
+
+const netra = { model: "Agent A", traces: 2, avgLatencyMs: 2000, avgInputTokens: 1250, avgOutputTokens: 20, errorTraces: 1 };
+
+test("renders a Netra insights table when models have Netra data", () => {
+	const html = renderReport({ ...input, netra: [netra] });
+	assert.ok(html.includes("Netra insights"));
+	assert.ok(html.includes("2.0 s"));
+	assert.ok(html.includes("1,250 / 20"));
+	assert.ok(html.includes("1 of 2"));
+});
+
+test("shows a dash for a model without Netra data, and nothing at all when no model has any", () => {
+	const html = renderReport({ ...input, netra: [netra] });
+	assert.ok(html.split("<tr>").some((row) => row.includes("Avg latency") && row.includes("–")));
+	assert.ok(!renderReport(input).includes("Netra insights"));
+});
+
+test("Netra values are escaped", () => {
+	const html = renderReport({ ...input, netra: [{ ...netra, model: "<b>x</b>" }] });
+	assert.ok(!html.includes("<b>x</b>"));
+});

@@ -5,6 +5,7 @@ import { readModelFile } from "../api/db/modelFiles.ts";
 import type { ModelFile } from "../shared/results.ts";
 import { slug } from "../shared/results.ts";
 import { computeMetrics, type ModelMetrics } from "./metrics.ts";
+import { type NetraSummary, summarizeNetra } from "./netra.ts";
 import { renderReport } from "./render.ts";
 
 export type Narrator = (metrics: ModelMetrics[]) => Promise<string | undefined>;
@@ -43,6 +44,7 @@ export async function generateReport(args: GenerateArgs): Promise<{ id: string; 
 		files.push(file);
 	}
 	const metrics = files.map(computeMetrics);
+	const netra = files.map(summarizeNetra).filter((n): n is NetraSummary => n !== null);
 	const narrative = await args.narrate?.(metrics).catch((err) => (console.error(`[reports] narrative failed: ${err}`), undefined));
 	const count = challengeCount(files);
 	const conditions = describeConditions(files);
@@ -53,11 +55,11 @@ export async function generateReport(args: GenerateArgs): Promise<{ id: string; 
 	const jsonPath = path.join(args.reportsDir, `${id}.json`);
 	await writeFile(
 		htmlPath,
-		renderReport({ title: `${titleCase(args.benchmark)} Benchmark Results`, benchmark: args.benchmark, challengeCount: count, conditions, models: metrics, narrative }),
+		renderReport({ title: `${titleCase(args.benchmark)} Benchmark Results`, benchmark: args.benchmark, challengeCount: count, conditions, models: metrics, netra, narrative }),
 	);
 	await writeFile(
 		jsonPath,
-		JSON.stringify({ id, benchmark: args.benchmark, generatedAt: new Date().toISOString(), challengeCount: count, conditions, models: metrics, narrative: narrative ?? null }, null, 2),
+		JSON.stringify({ id, benchmark: args.benchmark, generatedAt: new Date().toISOString(), challengeCount: count, conditions, models: metrics, netra, narrative: narrative ?? null }, null, 2),
 	);
 	return { id, htmlPath, jsonPath };
 }
