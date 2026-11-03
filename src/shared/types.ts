@@ -4,6 +4,8 @@ export interface ModelConfig {
 	apiKey: string;
 	api: string;
 	modelId: string;
+	/** USD per million tokens. Without it pi cannot price the model, so runs report a cost of 0. */
+	cost?: { input: number; output: number; cacheRead?: number; cacheWrite?: number };
 	thinkingLevel?: "off" | "minimal" | "low" | "medium" | "high" | "xhigh" | "max";
 }
 
