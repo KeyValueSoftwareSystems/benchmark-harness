@@ -1,8 +1,10 @@
 import { benchmarks } from "./benchmarks/index.ts";
 import type { AgentOutcome, JobContext } from "./benchmarks/types.ts";
-import { CONDITIONS, JOB_TIMEOUT_MS, MODELS, RESULTS_DIR } from "./config.ts";
+import { CONDITIONS, JOB_TIMEOUT_MS, MODELS, NETRA_API_KEY, NETRA_MCP_ENDPOINT, RESULTS_DIR } from "./config.ts";
 import { db } from "./db/instance.ts";
 import { finalizeRun } from "./finalize.ts";
+import { enrichRun } from "./netra/enrich.ts";
+import { createNetraClient } from "./netra/mcp.ts";
 import { getJob, getResult, isCancelRequested, resetContextClaim, setStatus } from "./queue/store.ts";
 import { redis } from "./redis.ts";
 
@@ -31,7 +33,7 @@ export async function runJob(id: string) {
 
 	// Store the result before Netra sees the final data; never let a storage problem change the job's status.
 	try {
-		await finalizeRun(
+		const run = await finalizeRun(
 			{
 				db,
 				resultsDir: RESULTS_DIR,
@@ -42,6 +44,11 @@ export async function runJob(id: string) {
 			job,
 			outcome,
 		);
+		// Insights arrive once Netra has the trace; run in the background and never block the queue.
+		if (NETRA_API_KEY) {
+			const client = createNetraClient(NETRA_MCP_ENDPOINT, NETRA_API_KEY);
+			void enrichRun({ db, resultsDir: RESULTS_DIR, client }, run);
+		}
 	} catch (err) {
 		console.error(`[api] job ${id}: could not store result: ${err}`);
 	}
