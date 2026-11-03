@@ -1,0 +1,14 @@
+{
+  "persona_id": "T23_T17_time_limited_external_advisor_retainer_d",
+  "name": "Sven Lindgren",
+  "email": "sven.lindgren@personal.gmail.com",
+  "role": "",
+  "organization": "Personal",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "finance",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-03"
+}

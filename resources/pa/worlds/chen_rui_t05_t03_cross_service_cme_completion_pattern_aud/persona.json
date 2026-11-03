@@ -1,0 +1,17 @@
+{
+  "persona_id": "T05_T03_cross_service_cme_completion_pattern_aud",
+  "name": "Chen Rui",
+  "email": "chen.rui@pumch.cn",
+  "role": "Emergency Department, Peking Union Medical College Hospital",
+  "organization": "chen.rui@pumch.cn",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "client management",
+    "finance",
+    "proactive patrol",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-06"
+}

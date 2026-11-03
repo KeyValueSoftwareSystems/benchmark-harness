@@ -1,0 +1,16 @@
+{
+  "persona_id": "T28_T13_bnp_paribas_q2_poc_demo_environment_prov",
+  "name": "Sarah Fletcher",
+  "email": "sarah.fletcher@hsbc.com",
+  "role": "",
+  "organization": "Hsbc",
+  "communication_style": "collaborative, inclusive",
+  "domain_knowledge": [
+    "client management",
+    "constraint solving",
+    "finance",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-02"
+}

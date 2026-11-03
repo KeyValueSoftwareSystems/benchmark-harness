@@ -63,3 +63,18 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.cyber
+
+  pa:
+    image: bench/pa
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.pa
+    environment:
+      <<: *netra
+      BENCHMARK: pa
+      API_URL: http://api:3000
+    depends_on:
+      - api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
