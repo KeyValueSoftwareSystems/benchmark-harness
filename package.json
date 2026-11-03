@@ -13,6 +13,7 @@
     "start": "node --experimental-strip-types src/agent/index.ts",
     "up": "docker compose --profile agents build && docker compose up --build api redis",
     "typecheck": "tsc",
+    "report": "docker compose run --rm reports",
     "test": "node --experimental-strip-types --test test/*.test.ts"
   },
   "devDependencies": {

@@ -1,0 +1,13 @@
+FROM node:24-bookworm-slim
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
+
+COPY tsconfig.json ./
+COPY src/shared ./src/shared
+COPY src/api/db ./src/api/db
+COPY src/reports ./src/reports
+
+ENTRYPOINT ["node", "--experimental-strip-types", "src/reports/index.ts"]

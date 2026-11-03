@@ -10,6 +10,8 @@ networks:
 
 volumes:
   redis-data:
+  # SQLite (runs), per-model result JSON and generated reports; shared by api, reports and the Slack bot.
+  harness-data:
 
 services:
   redis:
@@ -35,11 +37,26 @@ services:
     depends_on:
       - redis
     volumes:
+      - harness-data:/data
       - /var/run/docker.sock:/var/run/docker.sock
       # Same path as on the host: challenge compose files run against the host's docker daemon.
       - ${PWD}/resources:${PWD}/resources:ro
     ports:
       - "3000:3000"
+
+  # Builds an HTML report from chosen models' results: `docker compose run --rm reports --benchmark cyber --models a,b`.
+  reports:
+    profiles: ["tools"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.reports
+    environment:
+      RESULTS_DIR: /data/results
+      REPORTS_DIR: /data/reports
+      # Optional: one model config as JSON to write the report narrative (never the api's MODELS).
+      NARRATIVE_MODEL: ${NARRATIVE_MODEL:-}
+    volumes:
+      - harness-data:/data
 
   # Agent images only: built by `npm run up`, started per job by the api (never as a compose service).
   minimal:
