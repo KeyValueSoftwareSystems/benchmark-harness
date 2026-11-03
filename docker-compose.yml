@@ -58,6 +58,21 @@ services:
     volumes:
       - harness-data:/data
 
+  # AI Scout Slack bot (../Quartermaster): reads the harness SQLite and reports read-only.
+  # Publish: `docker compose --profile bot run --rm quartermaster python publish.py --report /data/reports/<id>.html --model <name>`
+  quartermaster:
+    profiles: ["bot"]
+    build:
+      context: ../Quartermaster
+    restart: unless-stopped
+    env_file:
+      - path: ../Quartermaster/.env
+        required: false
+    environment:
+      QUARTERMASTER_DB_PATH: /data/harness.db
+    volumes:
+      - harness-data:/data:ro
+
   # Agent images only: built by `npm run up`, started per job by the api (never as a compose service).
   minimal:
     image: bench/minimal
