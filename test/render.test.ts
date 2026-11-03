@@ -49,3 +49,9 @@ test("a model that attempted fewer challenges than the benchmark has is flagged 
 	assert.ok(html.includes("8/10 · 80% (partial)"));
 	assert.ok(!renderReport(input).includes("(partial)"));
 });
+
+test("a lead-in sentence introduces the metrics table, as in the reference layout", () => {
+	const html = renderReport(input);
+	assert.ok(html.includes("A useful benchmark report contains more than a single score:"));
+	assert.ok(html.indexOf("more than a single score") < html.indexOf("<table>"));
+});

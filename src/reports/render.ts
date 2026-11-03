@@ -19,16 +19,17 @@ const label = (m: ModelMetrics) => `${m.solved}/${m.total} · ${m.successRate}%`
 const CSS = `
 :root{--bg:#fff;--fg:#14161a;--muted:#6b7280;--line:#e6e8eb;--card:#fff;--track:#f3f4f6;--best:#4ca555;--bar:#6b7690}
 @media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#f1f3f5;--muted:#9aa3b2;--line:#262a31;--card:#161920;--track:#232731;--bar:#8792ad}}
-*{box-sizing:border-box}body{margin:0;padding:32px 16px;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
-main{max-width:860px;margin:0 auto}.card{border:1px solid var(--line);border-radius:20px;padding:28px;background:var(--card)}
-h1{margin:0 0 12px;font-size:26px}.sub{color:var(--muted);margin:0 0 24px}
-.row{display:flex;justify-content:space-between;align-items:baseline;margin-top:18px;font-weight:600}.row .v{font-variant-numeric:tabular-nums}
-.best .v{color:var(--best)}.track{height:10px;border-radius:6px;background:var(--track);margin-top:8px;overflow:hidden}
+*{box-sizing:border-box}body{margin:0;padding:40px 16px;background:var(--bg);color:var(--fg);font:17px/1.5 Inter,-apple-system,"Segoe UI","Helvetica Neue",Arial,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:860px;margin:0 auto}.card{border:1px solid var(--line);border-radius:22px;padding:28px 28px 26px;background:var(--card)}
+h1{margin:0 0 14px;font-size:27px;line-height:1.2;font-weight:700;letter-spacing:-.01em}.sub{color:var(--muted);margin:0 0 26px;font-size:16px}
+.row{display:flex;justify-content:space-between;align-items:baseline;margin-top:26px;font-size:20px;font-weight:600}.row .v{font-variant-numeric:tabular-nums;font-weight:700}
+.best .v{color:var(--best)}.track{height:11px;border-radius:6px;background:var(--track);margin-top:10px;overflow:hidden}
 .fill{height:100%;border-radius:6px;background:var(--bar)}.best .fill{background:var(--best)}
-.note{margin:24px 0 0;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
-h2{margin:32px 0 12px;font-size:20px}table{width:100%;border-collapse:collapse}th,td{padding:12px 8px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
-th:first-child,td:first-child{text-align:left}th{font-weight:600}.narrative{white-space:pre-wrap}
-@media (max-width:520px){body{padding:16px}.card{padding:18px}th,td{padding:10px 4px;font-size:14px}}`;
+.note{margin:28px 0 0;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:16px}
+.lead{margin:34px 0 18px;font-size:19px}h2{margin:34px 0 12px;font-size:20px}
+table{width:100%;border-collapse:collapse;font-size:17px}th,td{padding:16px 8px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+th:first-child,td:first-child{text-align:left}th{font-weight:700}.narrative{white-space:pre-wrap}
+@media (max-width:560px){body{padding:16px}.card{padding:18px}h1{font-size:22px}.row{font-size:17px}th,td{padding:12px 4px;font-size:14px}}`;
 
 /** One self-contained HTML document: title card with bars (best first), then the metrics table and optional narrative. */
 export function renderReport(input: ReportInput): string {
@@ -56,7 +57,7 @@ export function renderReport(input: ReportInput): string {
 <p class="sub">${esc(input.challengeCount)} challenges · ${esc(input.conditions)}</p>
 ${bars}
 <p class="note">Primary metric: successful challenges ÷ total valid challenges × 100.</p></section>
-<h2>Metrics</h2>
+<p class="lead">That gives you the ranking. A useful benchmark report contains more than a single score:</p>
 <table><thead><tr><th>Metric</th>${head}</tr></thead><tbody>
 ${rows}
 </tbody></table>${input.narrative ? `\n<h2>Insights</h2>\n<p class="narrative">${esc(input.narrative)}</p>` : ""}
