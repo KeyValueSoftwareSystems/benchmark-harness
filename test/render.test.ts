@@ -43,3 +43,9 @@ test("zero total challenges renders without NaN", () => {
 	assert.ok(!html.includes("NaN"));
 	assert.ok(html.includes("0/0 · 0%"));
 });
+
+test("a model that attempted fewer challenges than the benchmark has is flagged partial", () => {
+	const html = renderReport({ ...input, models: [{ model: "Short", solved: 8, total: 10, successRate: 80, medianSolveMs: 1000, avgCostUsd: 0.1 }] });
+	assert.ok(html.includes("8/10 · 80% (partial)"));
+	assert.ok(!renderReport(input).includes("(partial)"));
+});

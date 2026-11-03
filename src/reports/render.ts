@@ -35,7 +35,7 @@ export function renderReport(input: ReportInput): string {
 	const models = [...input.models].sort((a, b) => b.successRate - a.successRate);
 	const bars = models
 		.map(
-			(m, i) => `<div class="${i === 0 ? "best" : ""}"><div class="row"><span>${esc(m.model)}</span><span class="v">${esc(label(m))}</span></div>
+			(m, i) => `<div class="${i === 0 ? "best" : ""}"><div class="row"><span>${esc(m.model)}</span><span class="v">${esc(label(m))}${m.total < input.challengeCount ? " (partial)" : ""}</span></div>
 <div class="track"><div class="fill" style="width:${Math.min(100, Math.max(0, m.successRate))}%"></div></div></div>`,
 		)
 		.join("\n");

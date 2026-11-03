@@ -70,3 +70,10 @@ test("the narrative is included when the narrator returns one", async () => {
 	const out = await generateReport({ benchmark: "cyber", models: ["alpha"], ...f, narrate: async () => "Alpha cruised." });
 	assert.ok(readFileSync(out.htmlPath, "utf8").includes("Alpha cruised."));
 });
+
+test("runs made under different conditions are labelled as mixed", async () => {
+	const f = await fixture();
+	await appendRun(f.resultsDir, { ...run("alpha", "alpha3", "c3", true), conditions: { maxTurns: 10, jobTimeoutMs: 60_000 } });
+	const out = await generateReport({ benchmark: "cyber", models: ["alpha"], ...f });
+	assert.equal(JSON.parse(readFileSync(out.jsonPath, "utf8")).conditions, "Mixed run conditions");
+});

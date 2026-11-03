@@ -26,7 +26,9 @@ function challengeCount(files: ModelFile[]): number {
 }
 
 function describeConditions(files: ModelFile[]): string {
-	const c = files.flatMap((f) => f.runs)[0]?.conditions ?? {};
+	const runs = files.flatMap((f) => f.runs);
+	if (new Set(runs.map((r) => JSON.stringify(r.conditions))).size > 1) return "Mixed run conditions";
+	const c = runs[0]?.conditions ?? {};
 	const turns = typeof c.maxTurns === "number" ? `${c.maxTurns} turns max` : "unlimited turns";
 	const limit = typeof c.jobTimeoutMs === "number" ? `${Math.round(c.jobTimeoutMs / 60_000)} min limit` : "no time limit";
 	return `Same tools · ${turns} · ${limit}`;
