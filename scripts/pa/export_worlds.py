@@ -4,13 +4,16 @@
 Each CLaw-Anything scenario (benchmark/skill/{task_id}/) becomes a self-contained
 world under resources/pa/worlds/{world_id}/ with:
 
-    world.yaml      – API-side: prompt, tools, scoring, safety, rubric (like challenge.json in cyber)
-    persona.json    – agent-side: identity, role, communication style (copied into container)
-    fixtures/       – agent-side: mock service data (copied into container)
-    logs/           – agent-side: work journal + timelines (copied into container)
+    world.yaml      – API-side: prompt, tools, services, environment (setup only)
+    grading.yaml    – API-side: scoring, safety, rubric, reference solution (grading only)
+    agent/          – copied into the PI agent container (nothing that grades)
+        persona.json    – identity, role, communication style
+        fixtures/       – mock service data
+        logs/           – work journal + timelines
 
-The split mirrors cyber's challenge.json pattern: grading data stays on the API,
-only persona + fixtures + logs go into the agent container.
+The API reads both YAML files; only agent/ is mounted into the container.
+Grading data never leaves the API, following the cyber pattern where the flag
+stays in challenge.json and only files/ go into the agent.
 
 Usage:
     python scripts/pa/export_worlds.py <claw-anything-root> [--only <task_id>] [--force]
@@ -175,11 +178,9 @@ def build_persona(task_yaml: dict, fixtures_dir: Path, logs_dir: Path) -> dict:
 
 
 def build_world(task_yaml: dict) -> dict:
-    """Build world.yaml — API-side data (prompt, tools, scoring, safety, rubric).
+    """Build world.yaml — API-side setup data (prompt, tools, services, environment).
 
-    This mirrors challenge.json in the cyber benchmark: it stays on the API,
-    never copied into the agent container. Contains everything needed to
-    set up the run and grade the result.
+    Contains everything needed to configure the run. No grading fields.
     """
     return {
         "task_id": task_yaml.get("task_id"),
@@ -198,7 +199,16 @@ def build_world(task_yaml: dict) -> dict:
             for s in task_yaml.get("services", [])
         ],
         "environment": task_yaml.get("environment", {}),
-        # --- Grading data (API-side only, never sent to agent) ---
+    }
+
+
+def build_grading(task_yaml: dict) -> dict:
+    """Build grading.yaml — API-side scoring data (rubric, expected actions, safety).
+
+    Only the API reads this file; it is never copied into any agent container.
+    """
+    return {
+        "task_id": task_yaml.get("task_id"),
         "scoring_components": task_yaml.get("scoring_components", []),
         "safety_checks": task_yaml.get("safety_checks", []),
         "expected_actions": task_yaml.get("expected_actions", []),
@@ -251,27 +261,37 @@ def export_scenario(scenario_dir: Path, output_base: Path, force: bool = False) 
         shutil.rmtree(world_dir)
     world_dir.mkdir(parents=True)
 
-    # 1. Write world.yaml — API-side grading data (like challenge.json in cyber)
+    # agent/ subfolder — everything that gets copied into the PI container
+    agent_dir = world_dir / "agent"
+    agent_dir.mkdir()
+
+    # 1. Write world.yaml — API-side setup (prompt, tools, services, environment)
     world_out = build_world(task_yaml)
     with open(world_dir / "world.yaml", "w") as f:
         yaml.dump(world_out, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
-    print(f"  Created world.yaml (API-side: prompt, scoring, safety, rubric)")
+    print(f"  Created world.yaml (API-side: setup only)")
 
-    # 2. Write persona.json — agent-side identity
-    with open(world_dir / "persona.json", "w") as f:
+    # 2. Write grading.yaml — API-side scoring (rubric, expected actions, safety)
+    grading_out = build_grading(task_yaml)
+    with open(world_dir / "grading.yaml", "w") as f:
+        yaml.dump(grading_out, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
+    print(f"  Created grading.yaml (API-side: scoring only)")
+
+    # 3. Write persona.json — agent-side identity (inside agent/)
+    with open(agent_dir / "persona.json", "w") as f:
         json.dump(persona, f, indent=2)
-    print(f"  Created persona.json: {persona['name']} ({persona['role']})")
+    print(f"  Created agent/persona.json: {persona['name']} ({persona['role']})")
 
-    # 3. Copy fixtures — agent-side mock service data
-    dest_fixtures = world_dir / "fixtures"
+    # 4. Copy fixtures — agent-side mock service data (inside agent/)
+    dest_fixtures = agent_dir / "fixtures"
     shutil.copytree(fixtures_dir, dest_fixtures)
-    print(f"  Copied fixtures/ ({sum(1 for _ in dest_fixtures.rglob('*') if _.is_file())} files)")
+    print(f"  Copied agent/fixtures/ ({sum(1 for _ in dest_fixtures.rglob('*') if _.is_file())} files)")
 
-    # 4. Copy logs — agent-side persona context
+    # 5. Copy logs — agent-side persona context (inside agent/)
     if logs_dir.exists():
-        dest_logs = world_dir / "logs"
+        dest_logs = agent_dir / "logs"
         shutil.copytree(logs_dir, dest_logs)
-        print(f"  Copied logs/ ({sum(1 for _ in dest_logs.rglob('*') if _.is_file())} files)")
+        print(f"  Copied agent/logs/ ({sum(1 for _ in dest_logs.rglob('*') if _.is_file())} files)")
 
     return world_id
 

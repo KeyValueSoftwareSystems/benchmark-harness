@@ -123,10 +123,11 @@ export const pa: Benchmark = {
 	async run(job, ctx) {
 		const id = job.params?.world ?? "";
 		const dir = worldDir(id);
+		const agentDir = path.join(dir, "agent");
 		console.log(`[pa] job-${job.id}: starting world ${id}`);
 
 		return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
-			files: { from: dir, to: AGENT_WORLD_DIR },
+			files: { from: agentDir, to: AGENT_WORLD_DIR },
 		});
 	},
 };
