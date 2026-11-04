@@ -29,6 +29,23 @@ flowchart LR
 - **Agents.** The API runs `bench/<benchmark>` containers on the `bench` network via the docker socket (only the API has it). The agent registers with `POST /register {jobId}` and receives its model config; model API keys never enter agent container environments or `docker inspect`. `POST /run` starts the prompt (202); `GET /state` reports `idle | running | done | error`. Set `MAX_TURNS` to abort runs that exceed that many model turns.
 - **Extensions.** Each subdirectory of `./extensions` in the container is loaded as one pi extension. Observability is exported to Netra; results are viewed there. Benchmarks emit `benchmark_context` and `benchmark_result` events on the pi event bus, which observability records as spans.
 
+### Results, insights and reports
+
+Every settled job is stored, whatever the benchmark:
+
+- Each agent image loads the `results` extension, which collects the run's `benchmark_result` outcome and usage (turns, tokens, cost, duration) and `POST`s it to `/jobs/:id/result` (internal, like `/register`) once, when the agent shuts down, so an outcome emitted late is still included. A one-time token (`GET /jobs/:id/result-token`, fetched at startup) authorises the post.
+- When the job settles the API writes a row to the SQLite `runs` table (`/data/harness.db`) and appends the run to `/data/results/<benchmark>/<model>.json` (one file per model, one entry per run/trace).
+- Once the trace is visible in Netra, the API pulls the session through the [Netra MCP](https://docs.getnetra.ai/mcp/overview) and saves it as `netra_metadata` in both places. This needs `NETRA_API_KEY` (set `NETRA_MCP_ENDPOINT` for EU projects) and is skipped without it; a failure never affects the stored result.
+- Build an HTML report for the models you choose (optionally set `NARRATIVE_MODEL` to a single model config as JSON for a short written summary):
+
+  ```bash
+  docker compose run --rm reports --benchmark cyber --models gpt-x,claude-y
+  ```
+
+  It writes `/data/reports/<id>.html` and an `<id>.json` with the computed numbers. The Slack bot in `../Quartermaster` publishes it.
+
+All of this lives on the `harness-data` volume, shared by `api`, `reports` and the bot.
+
 ### Cyber benchmark
 
 Challenges live in `resources/cyber/challenges/<id>/`:
@@ -45,7 +62,7 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 ## Quick start
 
 1. `cp .env.example .env` and fill in:
-   - `MODELS`: JSON list of `{ name, baseUrl, apiKey, api, modelId, thinkingLevel? }` (`api` e.g. `openai-completions`, `anthropic-messages`).
+   - `MODELS`: JSON list of `{ name, baseUrl, apiKey, api, modelId, cost?, thinkingLevel? }` (`cost` is `{ input, output, cacheRead?, cacheWrite? }` in USD per million tokens; without it runs report a cost of 0) (`api` e.g. `openai-completions`, `anthropic-messages`).
    - `NETRA_OTLP_ENDPOINT`, `NETRA_API_KEY` (shared by all agents; tracing is skipped if the endpoint is unset). Optional `NETRA_ENV`, `NETRA_DEBUG`.
    - Optional `MAX_TURNS` (model turns per run; empty or `0` is unlimited).
 2. `npm run up` builds the benchmark images and starts the API and Redis (`bench/cyber` is large because it installs Kali tooling). Runs spend real model credits.

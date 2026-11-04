@@ -24,6 +24,7 @@ const json = (value: unknown): string => {
 export default function (pi: ExtensionAPI) {
 	let enabled = false;
 	let prompt = "";
+	let sessionId: string | undefined;
 	let root: Span | undefined;
 	let turn: Span | undefined;
 	let generation: Span | undefined;
@@ -72,7 +73,8 @@ export default function (pi: ExtensionAPI) {
 				traceContent: true,
 				resourceAttributes: { "benchmark.model": ctx.model?.id ?? "unknown" },
 			});
-			Netra.setSessionId(randomUUID());
+			sessionId = randomUUID();
+			Netra.setSessionId(sessionId);
 			Netra.setTenantId(process.env.NETRA_TENANT_ID);
 			enabled = true;
 			console.error(`[observability] tracing enabled (${process.env.NETRA_APP_NAME})`);
@@ -86,6 +88,8 @@ export default function (pi: ExtensionAPI) {
 		safe(() => {
 			root = Netra.startSpan("agent_run", { asType: SpanType.AGENT });
 			root.setAttribute("agent.input", prompt);
+			// Lets the results extension record which Netra session holds this run's traces.
+			pi.events.emit("observability_session", { sessionId });
 			converse(root, ConversationType.INPUT, "user", prompt);
 		}),
 	);

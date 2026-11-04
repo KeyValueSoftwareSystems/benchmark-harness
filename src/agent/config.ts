@@ -20,7 +20,7 @@ export async function writeModelsJson(model: ModelConfig): Promise<string> {
 				baseUrl: model.baseUrl,
 				api: model.api,
 				apiKey: model.apiKey,
-				models: [{ id: model.modelId }],
+				models: [{ id: model.modelId, ...(model.cost && { cost: { cacheRead: 0, cacheWrite: 0, ...model.cost } }) }],
 			},
 		},
 	};

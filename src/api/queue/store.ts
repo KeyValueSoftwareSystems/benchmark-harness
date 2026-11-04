@@ -1,5 +1,6 @@
-import { randomUUID } from "node:crypto";
+import { randomUUID, timingSafeEqual } from "node:crypto";
 import type { Redis } from "ioredis";
+import type { ResultPayload } from "../../shared/results.ts";
 import type { Job, JobStatus } from "../../shared/types.ts";
 
 const key = (id: string) => `job:${id}`;
@@ -32,4 +33,29 @@ export const isCancelRequested = async (redis: Redis, id: string) => (await redi
 
 /** Context can be fetched once per run, so a process in the agent container can't just ask for it again. */
 export const claimContext = async (redis: Redis, id: string) => (await redis.hsetnx(key(id), "contextServed", "1")) === 1;
-export const resetContextClaim = (redis: Redis, id: string) => redis.hdel(key(id), "contextServed");
+/** A (re-)run starts clean: the context claim, any result a previous attempt reported, and its token. */
+export const resetContextClaim = (redis: Redis, id: string) => redis.hdel(key(id), "contextServed", "result", "resultToken");
+
+/** The agent's reported result for a job; the first report wins, a repeat returns false. */
+export async function saveResult(redis: Redis, id: string, payload: ResultPayload): Promise<boolean> {
+	return (await redis.hsetnx(key(id), "result", JSON.stringify(payload))) === 1;
+}
+
+export async function getResult(redis: Redis, id: string): Promise<ResultPayload | undefined> {
+	const raw = await redis.hget(key(id), "result");
+	return raw ? (JSON.parse(raw) as ResultPayload) : undefined;
+}
+
+/** One-time token the agent needs to report a result; undefined when already issued. */
+export async function issueResultToken(redis: Redis, id: string): Promise<string | undefined> {
+	const token = randomUUID();
+	return (await redis.hsetnx(key(id), "resultToken", token)) === 1 ? token : undefined;
+}
+
+export async function verifyResultToken(redis: Redis, id: string, token: string): Promise<boolean> {
+	const expected = await redis.hget(key(id), "resultToken");
+	if (!expected) return false;
+	const a = Buffer.from(token);
+	const b = Buffer.from(expected);
+	return a.length === b.length && timingSafeEqual(a, b);
+}
