@@ -39,14 +39,17 @@ async function mutate(dir: string, run: RunRecord, edit: (file: ModelFile) => vo
 	});
 }
 
-/** Adds the run unless its job is already in the file. */
-export const appendRun = (dir: string, run: RunRecord) =>
-	mutate(dir, run, (file) => {
-		if (!file.runs.some((r) => r.jobId === run.jobId)) file.runs.push(run);
-	});
-
-export const updateRunInFile = (dir: string, run: RunRecord) =>
+/** Adds the run, or replaces the entry of the same job (a re-run: the latest attempt wins). */
+export const upsertRunInFile = (dir: string, run: RunRecord) =>
 	mutate(dir, run, (file) => {
 		const i = file.runs.findIndex((r) => r.jobId === run.jobId);
 		if (i >= 0) file.runs[i] = run;
+		else file.runs.push(run);
+	});
+
+/** Updates an existing entry (e.g. with Netra data), unless a newer attempt of the job has replaced it meanwhile. */
+export const updateRunInFile = (dir: string, run: RunRecord) =>
+	mutate(dir, run, (file) => {
+		const i = file.runs.findIndex((r) => r.jobId === run.jobId);
+		if (i >= 0 && file.runs[i].sessionId === run.sessionId) file.runs[i] = run;
 	});

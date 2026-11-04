@@ -33,7 +33,7 @@ flowchart LR
 
 Every settled job is stored, whatever the benchmark:
 
-- Each agent image loads the `results` extension, which collects the run's `benchmark_result` outcome and usage (turns, tokens, cost, duration) and `POST`s it to `/jobs/:id/result` (internal, like `/register`).
+- Each agent image loads the `results` extension, which collects the run's `benchmark_result` outcome and usage (turns, tokens, cost, duration) and `POST`s it to `/jobs/:id/result` (internal, like `/register`) once, when the agent shuts down, so an outcome emitted late is still included. A one-time token (`GET /jobs/:id/result-token`, fetched at startup) authorises the post.
 - When the job settles the API writes a row to the SQLite `runs` table (`/data/harness.db`) and appends the run to `/data/results/<benchmark>/<model>.json` (one file per model, one entry per run/trace).
 - Once the trace is visible in Netra, the API pulls the session through the [Netra MCP](https://docs.getnetra.ai/mcp/overview) and saves it as `netra_metadata` in both places. This needs `NETRA_API_KEY` (set `NETRA_MCP_ENDPOINT` for EU projects) and is skipped without it; a failure never affects the stored result.
 - Build an HTML report for the models you choose (optionally set `NARRATIVE_MODEL` to a single model config as JSON for a short written summary):

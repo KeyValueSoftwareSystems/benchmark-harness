@@ -75,3 +75,103 @@ test("fetchResultToken returns the token, retries failures, and does not retry a
 	assert.equal(await fetchResultToken("http://api/t", { fetchFn: no, sleep: async () => {}, attempts: 5 }), undefined);
 	assert.equal(refused, 1);
 });
+
+// ---- the extension itself, driven by a fake pi
+type Handler = (event?: unknown) => unknown;
+function fakePi() {
+	const handlers = new Map<string, Handler[]>();
+	const bus = new Map<string, Handler[]>();
+	const add = (map: Map<string, Handler[]>, name: string, h: Handler) => void map.set(name, [...(map.get(name) ?? []), h]);
+	return {
+		on: (name: string, h: Handler) => add(handlers, name, h),
+		events: { on: (name: string, h: Handler) => add(bus, name, h), emit: (name: string, data: unknown) => (bus.get(name) ?? []).forEach((h) => h(data)) },
+		fire: async (name: string, event?: unknown) => {
+			for (const h of handlers.get(name) ?? []) await h(event);
+		},
+	};
+}
+
+async function withEnvAndFetch<T>(tokenReplies: Response[], run: (posts: { headers: Headers; body: any }[]) => Promise<T>) {
+	const saved = { fetch: globalThis.fetch, api: process.env.API_URL, job: process.env.JOB_ID };
+	process.env.API_URL = "http://api";
+	process.env.JOB_ID = "j1";
+	const posts: { headers: Headers; body: any }[] = [];
+	const replies = [...tokenReplies];
+	globalThis.fetch = (async (_url: unknown, init?: RequestInit) => {
+		if (init?.method === "POST") {
+			posts.push({ headers: new Headers(init.headers), body: JSON.parse(String(init.body)) });
+			return new Response(null, { status: 202 });
+		}
+		return replies.shift() ?? new Response(null, { status: 403 });
+	}) as typeof fetch;
+	try {
+		return await run(posts);
+	} finally {
+		globalThis.fetch = saved.fetch;
+		process.env.API_URL = saved.api;
+		process.env.JOB_ID = saved.job;
+	}
+}
+
+const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+const msg = { message: { role: "assistant", usage: { input: 5, output: 2, cost: { total: 0.1 } } } };
+
+test("an outcome emitted after agent_end (after an async step) still reaches the api", async () => {
+	const { default: extension } = await import("../src/extensions/results/index.ts");
+	await withEnvAndFetch([Response.json({ token: "tok" })], async (posts) => {
+		const pi = fakePi();
+		extension(pi as never);
+		await pi.fire("session_start");
+		await pi.fire("agent_start");
+		await pi.fire("turn_start");
+		await pi.fire("message_end", msg);
+		await pi.fire("agent_end");
+		await sleep(30);
+		pi.events.emit("benchmark_result", { correct: true, flag: "f" });
+		assert.equal(posts.length, 0); // nothing is sent until the session shuts down
+		await pi.fire("session_shutdown");
+		assert.equal(posts.length, 1);
+		assert.deepEqual(posts[0].body.outcome, { correct: true, flag: "f" });
+		assert.equal(posts[0].body.metrics.turns, 1);
+		assert.equal(posts[0].headers.get("x-result-token"), "tok");
+	});
+});
+
+test("a second session_start does not lose the token the first one fetched", async () => {
+	const { default: extension } = await import("../src/extensions/results/index.ts");
+	await withEnvAndFetch([Response.json({ token: "tok" })], async (posts) => {
+		const pi = fakePi();
+		extension(pi as never);
+		await pi.fire("session_start");
+		await pi.fire("session_start"); // the api would now answer 403
+		await pi.fire("agent_end");
+		await pi.fire("session_shutdown");
+		assert.equal(posts[0].headers.get("x-result-token"), "tok");
+	});
+});
+
+test("the result is reported once even if shutdown fires twice", async () => {
+	const { default: extension } = await import("../src/extensions/results/index.ts");
+	await withEnvAndFetch([Response.json({ token: "tok" })], async (posts) => {
+		const pi = fakePi();
+		extension(pi as never);
+		await pi.fire("session_start");
+		await pi.fire("session_shutdown");
+		await pi.fire("session_shutdown");
+		assert.equal(posts.length, 1);
+	});
+});
+
+test("a run that never reached agent_end still reports its usage at shutdown", async () => {
+	const { default: extension } = await import("../src/extensions/results/index.ts");
+	await withEnvAndFetch([Response.json({ token: "tok" })], async (posts) => {
+		const pi = fakePi();
+		extension(pi as never);
+		await pi.fire("session_start");
+		await pi.fire("turn_start");
+		await pi.fire("message_end", msg);
+		await pi.fire("session_shutdown");
+		assert.equal(posts[0].body.outcome, null);
+		assert.equal(posts[0].body.metrics.inputTokens, 5);
+	});
+});

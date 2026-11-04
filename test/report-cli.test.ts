@@ -3,7 +3,7 @@ import { existsSync, mkdtempSync, readdirSync, readFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
-import { appendRun } from "../src/api/db/modelFiles.ts";
+import { upsertRunInFile } from "../src/api/db/modelFiles.ts";
 import { generateReport } from "../src/reports/generate.ts";
 import type { RunRecord } from "../src/shared/results.ts";
 
@@ -29,8 +29,8 @@ async function fixture() {
 	const resultsDir = mkdtempSync(join(tmpdir(), "res-"));
 	const reportsDir = join(mkdtempSync(join(tmpdir(), "rep-")), "out");
 	for (const m of ["alpha", "beta"]) {
-		await appendRun(resultsDir, run(m, `${m}1`, "c1", true));
-		await appendRun(resultsDir, run(m, `${m}2`, "c2", m === "alpha"));
+		await upsertRunInFile(resultsDir, run(m, `${m}1`, "c1", true));
+		await upsertRunInFile(resultsDir, run(m, `${m}2`, "c2", m === "alpha"));
 	}
 	return { resultsDir, reportsDir };
 }
@@ -73,14 +73,14 @@ test("the narrative is included when the narrator returns one", async () => {
 
 test("runs made under different conditions are labelled as mixed", async () => {
 	const f = await fixture();
-	await appendRun(f.resultsDir, { ...run("alpha", "alpha3", "c3", true), conditions: { maxTurns: 10, jobTimeoutMs: 60_000 } });
+	await upsertRunInFile(f.resultsDir, { ...run("alpha", "alpha3", "c3", true), conditions: { maxTurns: 10, jobTimeoutMs: 60_000 } });
 	const out = await generateReport({ benchmark: "cyber", models: ["alpha"], ...f });
 	assert.equal(JSON.parse(readFileSync(out.jsonPath, "utf8")).conditions, "Mixed run conditions");
 });
 
 test("Netra insights from the stored runs reach the report and the sidecar", async () => {
 	const f = await fixture();
-	await appendRun(f.resultsDir, {
+	await upsertRunInFile(f.resultsDir, {
 		...run("gamma", "gamma1", "c1", true),
 		netraMetadata: { traces: [{ latency_ms: 2000, prompt_tokens: "100", completion_tokens: "10", has_error: false }] },
 	});

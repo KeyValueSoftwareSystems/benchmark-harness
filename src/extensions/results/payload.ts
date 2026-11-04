@@ -55,6 +55,27 @@ export async function fetchResultToken(url: string, opts: PostOptions = {}): Pro
 	return undefined;
 }
 
+/**
+ * Holds the job's result token. `load()` fetches it once (concurrent and repeated calls share the one request) and a
+ * later refusal never replaces a token already held, so a second `session_start` cannot lose it.
+ */
+export function createTokenLoader(url: string, opts: PostOptions = {}) {
+	let token: string | undefined;
+	let pending: Promise<string | undefined> | undefined;
+	return {
+		load(): Promise<string | undefined> {
+			if (token) return Promise.resolve(token);
+			pending ??= fetchResultToken(url, opts).then((fetched) => {
+				if (fetched) token = fetched;
+				pending = undefined;
+				return token;
+			});
+			return pending;
+		},
+		token: () => token,
+	};
+}
+
 /** POSTs the payload, retrying with backoff. 409 means the api already has this job's result. Never throws. */
 export async function postResult(url: string, payload: ResultPayload, opts: PostOptions = {}): Promise<boolean> {
 	const { fetchFn = fetch, sleep = (ms) => new Promise<void>((r) => setTimeout(r, ms)), attempts = 5, token } = opts;

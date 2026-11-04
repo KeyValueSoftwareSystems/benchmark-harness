@@ -1,7 +1,9 @@
 import os from "node:os";
 import express from "express";
 import { benchmarks } from "./benchmarks/index.ts";
-import { concurrencyFor, MODELS, PORT } from "./config.ts";
+import { concurrencyFor, MODELS, PORT, RESULTS_DIR } from "./config.ts";
+import { db } from "./db/instance.ts";
+import { reconcileModelFiles } from "./db/reconcile.ts";
 import { sweep } from "./docker/cli.ts";
 import { startWorker } from "./queue/worker.ts";
 import { redis } from "./redis.ts";
@@ -16,6 +18,9 @@ app.use(express.json());
 app.use(agents, jobs);
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
 
+await reconcileModelFiles(db, RESULTS_DIR)
+	.then((n) => n && console.log(`[api] reconciled ${n} run(s) into the model result files`))
+	.catch((err) => console.error(`[api] could not reconcile result files: ${err}`));
 await sweep().catch((err) => console.error(`[api] startup sweep failed: ${err}`));
 for (const b of benchmarks.values()) {
 	void startWorker(redis, b.name, runJob, { concurrency: concurrencyFor(b.name, b.concurrency), consumer: os.hostname() });

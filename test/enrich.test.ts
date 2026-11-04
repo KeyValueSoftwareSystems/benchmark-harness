@@ -3,8 +3,8 @@ import { mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
-import { appendRun, readModelFile } from "../src/api/db/modelFiles.ts";
-import { insertRun, listRuns, openDb } from "../src/api/db/runs.ts";
+import { readModelFile, upsertRunInFile } from "../src/api/db/modelFiles.ts";
+import { listRuns, openDb, upsertRun } from "../src/api/db/runs.ts";
 import { enrichRun } from "../src/api/netra/enrich.ts";
 import type { RunRecord } from "../src/shared/results.ts";
 
@@ -29,8 +29,8 @@ const base: RunRecord = {
 async function setup(run: RunRecord = base) {
 	const db = openDb(":memory:");
 	const resultsDir = mkdtempSync(join(tmpdir(), "en-"));
-	insertRun(db, run);
-	await appendRun(resultsDir, run);
+	upsertRun(db, run);
+	await upsertRunInFile(resultsDir, run);
 	return { db, resultsDir };
 }
 
@@ -66,4 +66,15 @@ test("a run without a session id is skipped immediately", async () => {
 	const client = { sessionDetails: async () => (calls++, undefined) };
 	assert.equal(await enrichRun({ db, resultsDir, client, sleep: async () => {} }, run), false);
 	assert.equal(calls, 0);
+});
+
+test("enrichment from an earlier attempt is dropped once the job has been re-run", async () => {
+	const { db, resultsDir } = await setup();
+	const rerun = { ...base, sessionId: "sess-2", correct: false };
+	upsertRun(db, rerun);
+	await upsertRunInFile(resultsDir, rerun);
+	const client = { sessionDetails: async () => ({ traceIds: ["old"], data: { stale: true } }) };
+	assert.equal(await enrichRun({ db, resultsDir, client, sleep: async () => {} }, base, { attempts: 1 }), false);
+	assert.equal(listRuns(db, {})[0].netraMetadata, null);
+	assert.equal((await readModelFile(resultsDir, "cyber", "gpt-x"))?.runs[0].netraMetadata, null);
 });

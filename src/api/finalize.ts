@@ -2,8 +2,8 @@ import type { DatabaseSync } from "node:sqlite";
 import type { ResultPayload, RunRecord } from "../shared/results.ts";
 import type { Job } from "../shared/types.ts";
 import type { AgentOutcome } from "./benchmarks/types.ts";
-import { appendRun } from "./db/modelFiles.ts";
-import { insertRun } from "./db/runs.ts";
+import { upsertRunInFile } from "./db/modelFiles.ts";
+import { upsertRun } from "./db/runs.ts";
 
 export interface FinalizeDeps {
 	db: DatabaseSync;
@@ -11,6 +11,8 @@ export interface FinalizeDeps {
 	getResult: (jobId: string) => Promise<ResultPayload | undefined>;
 	modelIdFor: (model: string) => string;
 	conditions: Record<string, unknown>;
+	/** Writes the run to its model file; defaults to the real writer (injectable for tests). */
+	writeRun?: (dir: string, run: RunRecord) => Promise<void>;
 }
 
 const EMPTY_METRICS = { turns: 0, durationMs: 0, inputTokens: 0, outputTokens: 0, costUsd: 0 };
@@ -28,13 +30,19 @@ async function waitForResult(deps: FinalizeDeps, jobId: string, waitMs: number, 
 
 /**
  * Writes a settled job to SQLite and to its model's JSON file. Benchmark-agnostic: `outcome` is whatever the
- * benchmark reported (`correct` is read from it when it is a boolean). Safe to call twice for one job.
+ * benchmark reported (`correct` is read from it when it is a boolean). A re-run of the same job replaces the earlier
+ * attempt in both stores; calling it twice for one attempt is harmless.
  */
 export async function finalizeRun(
 	deps: FinalizeDeps,
 	job: Job,
 	outcome: AgentOutcome,
-	{ waitMs = 5000, pollMs = 250 }: { waitMs?: number; pollMs?: number } = {},
+	{
+		waitMs = 5000,
+		pollMs = 250,
+		writeAttempts = 3,
+		writeDelayMs = 200,
+	}: { waitMs?: number; pollMs?: number; writeAttempts?: number; writeDelayMs?: number } = {},
 ): Promise<RunRecord> {
 	const result = await waitForResult(deps, job.id, waitMs, pollMs);
 	const reported = result?.outcome ?? null;
@@ -55,6 +63,17 @@ export async function finalizeRun(
 		createdAt: job.createdAt,
 		finishedAt: new Date().toISOString(),
 	};
-	if (insertRun(deps.db, run)) await appendRun(deps.resultsDir, run);
+	upsertRun(deps.db, run);
+	const write = deps.writeRun ?? upsertRunInFile;
+	for (let attempt = 1; ; attempt++) {
+		try {
+			await write(deps.resultsDir, run);
+			break;
+		} catch (err) {
+			// SQLite already has the run; a failed file write is retried, and `reconcileModelFiles` heals what is left.
+			if (attempt >= writeAttempts) throw err;
+			await sleep(writeDelayMs);
+		}
+	}
 	return run;
 }

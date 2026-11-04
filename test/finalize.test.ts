@@ -3,7 +3,7 @@ import { mkdtempSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
-import { readModelFile } from "../src/api/db/modelFiles.ts";
+import { readModelFile, upsertRunInFile } from "../src/api/db/modelFiles.ts";
 import { listRuns, openDb } from "../src/api/db/runs.ts";
 import { finalizeRun } from "../src/api/finalize.ts";
 import type { ResultPayload } from "../src/shared/results.ts";
@@ -32,6 +32,7 @@ const setup = (result?: ResultPayload) => {
 			getResult: async () => result,
 			modelIdFor: () => "gpt-x-2026",
 			conditions: { maxTurns: 50, jobTimeoutMs: 1800000 },
+			writeRun: upsertRunInFile,
 		},
 	};
 };
@@ -79,4 +80,38 @@ test("finalizeRun waits for a result that arrives late", async () => {
 	deps.getResult = async () => (++calls >= 3 ? { outcome: { correct: true }, metrics } : undefined);
 	const run = await finalizeRun(deps, job, { status: "done" }, { waitMs: 2000, pollMs: 5 });
 	assert.equal(run.correct, true);
+});
+
+test("a re-run of the same job replaces the first result in SQLite and in the file", async () => {
+	const { db, resultsDir, deps } = setup({ outcome: { correct: false }, metrics });
+	await finalizeRun(deps, job, { status: "done" }, { waitMs: 0 });
+	deps.getResult = async () => ({ outcome: { correct: true }, metrics, sessionId: "s2" });
+	await finalizeRun(deps, job, { status: "done" }, { waitMs: 0 });
+	const rows = listRuns(db, {});
+	assert.deepEqual(rows.map((r) => [r.correct, r.sessionId]), [[true, "s2"]]);
+	const runs = (await readModelFile(resultsDir, "cyber", "gpt-x"))?.runs ?? [];
+	assert.deepEqual(runs.map((r) => r.correct), [true]);
+});
+
+test("a failing file write is retried, so the run still reaches the JSON", async () => {
+	const { db, resultsDir, deps } = setup({ outcome: { correct: true }, metrics });
+	let calls = 0;
+	const write = deps.writeRun;
+	deps.writeRun = async (dir, run) => {
+		if (++calls < 3) throw new Error("disk full");
+		await write(dir, run);
+	};
+	await finalizeRun(deps, job, { status: "done" }, { waitMs: 0, writeDelayMs: 1 });
+	assert.equal(calls, 3);
+	assert.equal((await readModelFile(resultsDir, "cyber", "gpt-x"))?.runs.length, 1);
+	assert.equal(listRuns(db, {}).length, 1);
+});
+
+test("a file write that keeps failing surfaces the error but keeps the SQLite row", async () => {
+	const { db, deps } = setup({ outcome: { correct: true }, metrics });
+	deps.writeRun = async () => {
+		throw new Error("disk full");
+	};
+	await assert.rejects(finalizeRun(deps, job, { status: "done" }, { waitMs: 0, writeDelayMs: 1 }), /disk full/);
+	assert.equal(listRuns(db, {}).length, 1);
 });

@@ -30,7 +30,10 @@ export async function enrichRun(
 		try {
 			const details = await client.sessionDetails(run.sessionId);
 			if (details) {
-				updateNetraMetadata(db, run.jobId, details.data, details.traceIds);
+				if (!updateNetraMetadata(db, run.jobId, run.sessionId, details.data, details.traceIds)) {
+					console.error(`[netra] job ${run.jobId}: the job was re-run meanwhile; dropping the earlier attempt's insights`);
+					return false;
+				}
 				await updateRunInFile(resultsDir, { ...run, netraMetadata: details.data, traceIds: details.traceIds });
 				console.log(`[netra] job ${run.jobId}: stored session insights (${details.traceIds.length} trace(s))`);
 				return true;
