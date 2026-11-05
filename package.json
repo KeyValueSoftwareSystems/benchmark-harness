@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@earendil-works/pi-coding-agent": "^1.4.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
     "express": "^5.3.0",
     "ioredis": "^6.0.0",
     "netra-sdk": "^1.12.0",

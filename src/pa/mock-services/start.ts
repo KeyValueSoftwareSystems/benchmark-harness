@@ -33,6 +33,7 @@ import { clawSlackRoutes } from "./claw_slack.ts";
 import { clawWechatRoutes } from "./claw_wechat.ts";
 import { sheetRoutes } from "./sheet.ts";
 import { slideRoutes } from "./slide.ts";
+import { mcpRouter, type ToolDef, type ToolEndpoint } from "./mcp.ts";
 import type { FixtureLoader } from "./types.ts";
 
 const ROUTE_FACTORIES: Record<string, (load: FixtureLoader) => express.Router> =
@@ -88,6 +89,8 @@ async function main() {
 	const worldYaml = path.join(worldDir, "world.yaml");
 	const world = YAML.parse(readFileSync(worldYaml, "utf8"));
 	const services: Service[] = world.services || [];
+	const tools: ToolDef[] = world.tools || [];
+	const toolEndpoints: ToolEndpoint[] = world.tool_endpoints || [];
 
 	if (services.length === 0) {
 		console.error("No services found in world.yaml");
@@ -108,6 +111,10 @@ async function main() {
 		const app = express();
 		app.use(express.json());
 		app.use(factory(load));
+
+		const endpoints = toolEndpoints.filter((e) => new URL(e.url).port === String(svc.port));
+		const names = new Set(endpoints.map((e) => e.tool_name));
+		app.use(mcpRouter(svc.name, tools.filter((t) => names.has(t.name)), endpoints));
 
 		const promise = new Promise<void>((resolve) => {
 			app.listen(svc.port, () => {
