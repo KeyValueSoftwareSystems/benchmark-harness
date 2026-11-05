@@ -42,6 +42,7 @@ interface Persona {
 // ---------------------------------------------------------------------------
 
 const worldDir = (id: string) => path.join(WORLDS_DIR, id);
+const agentDir = (id: string) => path.join(worldDir(id), "agent");
 
 async function loadWorld(id: string): Promise<World> {
 	if (!/^[\w.-]+$/.test(id)) throw new Error(`invalid world id ${id}`);
@@ -50,7 +51,7 @@ async function loadWorld(id: string): Promise<World> {
 }
 
 async function loadPersona(id: string): Promise<Persona> {
-	return JSON.parse(await readFile(path.join(worldDir(id), "persona.json"), "utf8"));
+	return JSON.parse(await readFile(path.join(agentDir(id), "persona.json"), "utf8"));
 }
 
 // ---------------------------------------------------------------------------
@@ -122,12 +123,10 @@ export const pa: Benchmark = {
 
 	async run(job, ctx) {
 		const id = job.params?.world ?? "";
-		const dir = worldDir(id);
-		const agentDir = path.join(dir, "agent");
 		console.log(`[pa] job-${job.id}: starting world ${id}`);
 
 		return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
-			files: { from: agentDir, to: AGENT_WORLD_DIR },
+			files: { from: agentDir(id), to: AGENT_WORLD_DIR },
 		});
 	},
 };
