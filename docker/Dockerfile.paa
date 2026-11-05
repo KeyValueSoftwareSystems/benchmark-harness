@@ -39,10 +39,16 @@ COPY src/pa/chat-adapter  ./src/pa/chat-adapter
 # Entrypoint script
 COPY --chmod=755 docker/paa-entrypoint.sh /usr/local/bin/paa-entrypoint.sh
 
-# Ensure the OpenClaw writable directory exists and is owned by node
-RUN mkdir -p /home/node/.openclaw && chown -R node:node /home/node/.openclaw \
-  && chown -R node:node /paa
+# Ensure the OpenClaw writable directory exists and is owned by node. It is the only
+# writable path at runtime, so the world directory (WORLD_DIR=/pa/world) points into it.
+RUN mkdir -p /home/node/.openclaw /pa && chown -R node:node /home/node/.openclaw \
+  && chown -R node:node /paa \
+  && ln -s /home/node/.openclaw/world /pa/world
 
 USER node
+
+# The root filesystem is read-only at runtime and OpenClaw rejects the world-writable /tmp
+# for its private temp dir, so keep its cache inside the writable scratch directory.
+ENV XDG_CACHE_HOME=/home/node/.openclaw/cache
 
 ENTRYPOINT ["/usr/local/bin/paa-entrypoint.sh"]

@@ -6,21 +6,42 @@
 # for any one of them to exit and then tears everything down.
 #
 # Required env:
-#   WORLD_DIR          – path to the world directory (contains world.yaml + agent/)
+#   WORLD_DIR          – world directory; the API copies world.yaml + agent/ in, then creates .ready
 #   LLM_BASE_URL       – API proxy URL for model calls
 #   LLM_TOKEN          – job-scoped bearer token for model calls
+#   LLM_API            – model API format (e.g. openai-completions, anthropic-messages)
 #   OPENCLAW_GATEWAY_TOKEN – bearer token for OpenClaw gateway
+# Optional env:
+#   LLM_CONTEXT_WINDOW, LLM_MAX_TOKENS – model limits, when MODELS sets them
 
 set -euo pipefail
 
 log() { echo "[paa-entrypoint] $*" >&2; }
 
+: "${WORLD_DIR:?}" "${LLM_BASE_URL:?}" "${LLM_TOKEN:?}" "${LLM_API:?}" "${OPENCLAW_GATEWAY_TOKEN:?}"
+
+MOCK_PID=""
+OPENCLAW_PID=""
+ADAPTER_PID=""
+
 cleanup() {
 	log "Shutting down..."
-	kill "$MOCK_PID" "$OPENCLAW_PID" "$ADAPTER_PID" 2>/dev/null || true
+	[ -n "$MOCK_PID" ] && kill "$MOCK_PID" 2>/dev/null || true
+	[ -n "$OPENCLAW_PID" ] && kill "$OPENCLAW_PID" 2>/dev/null || true
+	[ -n "$ADAPTER_PID" ] && kill "$ADAPTER_PID" 2>/dev/null || true
 	wait 2>/dev/null || true
 }
 trap cleanup EXIT SIGTERM SIGINT
+
+# ---------- 0. Wait for the world files ----------
+for i in $(seq 1 60); do
+	[ -f "${WORLD_DIR}/.ready" ] && break
+	if [ "$i" -eq 60 ]; then
+		log "ERROR: world files were not delivered to ${WORLD_DIR} within 30 s"
+		exit 1
+	fi
+	sleep 0.5
+done
 
 # ---------- 1. Start mock services ----------
 log "Starting mock services..."
@@ -45,10 +66,17 @@ log "Mock services ready"
 
 # ---------- 2. Configure OpenClaw ----------
 log "Configuring OpenClaw..."
+mkdir -p -m 700 "${XDG_CACHE_HOME:-$HOME/.cache}"
 openclaw config set gateway.http.endpoints.chatCompletions.enabled true
 openclaw config set update.checkOnStart false
-openclaw config set models.providers.benchmark \
-	"{\"baseUrl\":\"${LLM_BASE_URL}\",\"apiKey\":\"${LLM_TOKEN}\",\"models\":[{\"id\":\"proxy-model\",\"name\":\"Proxy Model\"}]}"
+PROVIDER_JSON=$(node -e '
+  const e = process.env;
+  const model = { id: "proxy-model", name: "Proxy Model" };
+  if (e.LLM_CONTEXT_WINDOW) model.contextWindow = Number(e.LLM_CONTEXT_WINDOW);
+  if (e.LLM_MAX_TOKENS) model.maxTokens = Number(e.LLM_MAX_TOKENS);
+  console.log(JSON.stringify({ baseUrl: e.LLM_BASE_URL, apiKey: e.LLM_TOKEN, api: e.LLM_API, models: [model] }));
+')
+openclaw config set models.providers.benchmark "$PROVIDER_JSON"
 
 # Register each mock service as an MCP server
 log "Registering MCP servers..."
@@ -60,7 +88,7 @@ node --experimental-strip-types -e "
     console.log(svc.name + ' ' + svc.port);
 " | while read -r name port; do
 	openclaw config set "mcp.servers.${name}" \
-		"{\"type\":\"http\",\"url\":\"http://localhost:${port}/mcp\"}"
+		"{\"transport\":\"streamable-http\",\"url\":\"http://localhost:${port}/mcp\"}"
 	log "  registered ${name} → :${port}"
 done
 

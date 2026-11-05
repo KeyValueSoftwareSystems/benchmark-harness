@@ -1,3 +1,5 @@
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { API_URL } from "../config.ts";
 import type { AgentOutcome, JobContext } from "../benchmarks/types.ts";
 import type { Job } from "../../shared/types.ts";
@@ -84,6 +86,15 @@ export async function withAgent(
 		log(`${outcome.status} after ${Math.round((Date.now() - startedAt) / 1000)}s${outcome.error ? `: ${outcome.error}` : ""}`);
 		return outcome;
 	} finally {
+		// Capture agent logs (stderr) so the caller can see the conversation exchanges.
+		try {
+			const { stderr } = await promisify(execFile)("docker", ["logs", name]);
+			if (stderr.trim()) {
+				for (const line of stderr.split("\n")) {
+					if (line.trim()) console.error(`[agent-log] ${name}: ${line}`);
+				}
+			}
+		} catch { /* container may already be gone */ }
 		// Stop gracefully (SIGTERM) first so the agent can flush its traces; `rm -f` would kill it outright.
 		await docker("stop", "--time", "30", name)
 			.then(() => docker("rm", name))

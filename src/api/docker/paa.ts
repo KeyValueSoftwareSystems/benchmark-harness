@@ -6,42 +6,60 @@
  */
 
 import { randomBytes } from "node:crypto";
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import type { AgentOutcome, JobContext } from "../benchmarks/types.ts";
-import type { Job } from "../../shared/types.ts";
+import type { Job, ModelConfig } from "../../shared/types.ts";
 import { API_URL, RESOURCES_DIR } from "../config.ts";
 import { docker, JOB_LABEL, sleep } from "./cli.ts";
 
 const PAA_IMAGE = "bench/pa-paa";
 const OPENCLAW_PORT = 18789;
-const NETWORK = process.env.AGENT_NETWORK ?? "bench";
+/** The only writable path in the container (OpenClaw's state), owned by the image's `node` user. */
+const SCRATCH_DIR = "/home/node/.openclaw";
+/** A symlink in the image to `${SCRATCH_DIR}/world`. */
+const WORLD_DIR = "/pa/world";
 
 export interface PaaOptions {
 	/** The job-scoped LLM proxy token for the PAA container. */
 	llmToken: string;
-	/** Extra networks to join (e.g. a per-job internal network). */
-	networks?: string[];
+	/** The per-job internal network; the only network the PAA joins. */
+	network: string;
+	/** The job's model; only its API format and limits reach the container, never its key. */
+	model: ModelConfig;
 }
 
-/** Polls `check` every `intervalMs` until truthy or ctx expires. */
+/** Polls `check` every `intervalMs` until truthy or ctx expires; an error from `check` ends the wait. */
 async function poll(check: () => Promise<boolean>, intervalMs: number, ctx: JobContext): Promise<boolean> {
 	while (true) {
 		if (await ctx.cancelled()) return false;
 		if (Date.now() > ctx.deadline) return false;
-		if (await check().catch(() => false)) return true;
+		if (await check()) return true;
 		await sleep(intervalMs);
 	}
 }
 
 /**
- * Starts the PAA container for `job`, waits until healthy, runs `use`,
- * then removes the container.  The world directory is bind-mounted at
- * `/pa/world` so the mock services and entrypoint can read world.yaml
- * and agent/fixtures.
+ * Streams the world's `world.yaml` and `agent/` (never `grading.yaml`) into the
+ * container's scratch directory, then marks it ready for the entrypoint.
+ * `docker cp` can't write to a container with a read-only root filesystem.
+ */
+async function copyWorld(hostWorldDir: string, name: string): Promise<void> {
+	await promisify(execFile)("bash", [
+		"-o", "pipefail", "-c",
+		`tar -C "$1" -cf - agent world.yaml | docker exec -i "$2" sh -c 'mkdir -p "$1" && tar -x -C "$1"' sh "$3" && docker exec "$2" touch "$3/.ready"`,
+		"copy-world", hostWorldDir, name, `${SCRATCH_DIR}/world`,
+	]);
+}
+
+/**
+ * Starts the PAA container for `job`, copies the world in, waits until
+ * healthy, runs `use`, then removes the container.
  */
 export async function withPaa(
 	job: Job,
 	ctx: JobContext,
-	{ llmToken, networks = [] }: PaaOptions,
+	{ llmToken, network, model }: PaaOptions,
 	use: () => Promise<AgentOutcome>,
 ): Promise<AgentOutcome> {
 	const name = `paa-job-${job.id}`;
@@ -52,11 +70,14 @@ export async function withPaa(
 	const hostWorldDir = `${RESOURCES_DIR}/pa/worlds/${worldId}`;
 
 	const env = [
-		"-e", `LLM_BASE_URL=${API_URL}/llm/v1`,
-		"-e", `LLM_TOKEN=${llmToken}`,
-		"-e", `OPENCLAW_GATEWAY_TOKEN=${openclawToken}`,
-		"-e", "WORLD_DIR=/pa/world",
-	];
+		["LLM_BASE_URL", `${API_URL}/llm/v1`],
+		["LLM_TOKEN", llmToken],
+		["LLM_API", model.api],
+		["LLM_CONTEXT_WINDOW", model.contextWindow?.toString()],
+		["LLM_MAX_TOKENS", model.maxTokens?.toString()],
+		["OPENCLAW_GATEWAY_TOKEN", openclawToken],
+		["WORLD_DIR", WORLD_DIR],
+	].flatMap(([k, v]) => (v ? ["-e", `${k}=${v}`] : []));
 
 	try {
 		log("starting PAA container");
@@ -64,19 +85,20 @@ export async function withPaa(
 			"run", "-d",
 			"--name", name,
 			"--label", `${JOB_LABEL}=${job.id}`,
-			"--network", NETWORK,
+			"--network", network,
 			"--read-only",
-			"--tmpfs", "/tmp",
-			"--tmpfs", "/home/node/.openclaw",
-			"-v", `${hostWorldDir}:/pa/world:ro`,
+			"--tmpfs", `${SCRATCH_DIR}:uid=1000,gid=1000`,
 			...env,
 			PAA_IMAGE,
 		);
-		for (const net of networks) await docker("network", "connect", net, name);
+		await copyWorld(hostWorldDir, name);
 
 		log("waiting for OpenClaw gateway to be healthy");
 		const healthy = await poll(
 			async () => {
+				if ((await docker("inspect", "-f", "{{.State.Running}}", name)) !== "true") {
+					throw new Error("PAA container exited during startup");
+				}
 				const out = await docker(
 					"exec", name, "curl", "-sf", `http://localhost:${OPENCLAW_PORT}/healthz`,
 				).catch(() => "");
@@ -93,6 +115,16 @@ export async function withPaa(
 
 		return await use();
 	} finally {
+		// Capture PAA logs (chat adapter, OpenClaw, mock services) before removal.
+		try {
+			const { stdout, stderr } = await promisify(execFile)("docker", ["logs", "--tail", "50", name]);
+			const combined = (stderr || stdout || "").trim();
+			if (combined) {
+				for (const line of combined.split("\n")) {
+					if (line.trim()) console.error(`[paa-log] ${name}: ${line}`);
+				}
+			}
+		} catch { /* container may already be gone */ }
 		await docker("stop", "--time", "10", name)
 			.then(() => docker("rm", name))
 			.then(() => log("container removed"))

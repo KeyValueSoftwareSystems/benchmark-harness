@@ -5,6 +5,9 @@ export interface ModelConfig {
 	api: string;
 	modelId: string;
 	thinkingLevel?: "off" | "minimal" | "low" | "medium" | "high" | "xhigh" | "max";
+	/** Model limits for harnesses that can't look the model up themselves (the PA assistant sees it as `proxy-model`). */
+	contextWindow?: number;
+	maxTokens?: number;
 }
 
 export type ReplicaStatus = "idle" | "running" | "done" | "error";
