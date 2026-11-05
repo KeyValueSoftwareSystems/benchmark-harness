@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { benchmarks } from "../benchmarks/index.ts";
 import { MODELS } from "../config.ts";
+import { jobNetworkAddresses } from "../jobNetworks.ts";
 import { createJob, getJob, listJobs, requestCancel } from "../queue/store.ts";
 import { enqueue } from "../queue/worker.ts";
 import { redis } from "../redis.ts";
@@ -15,6 +16,10 @@ export const jobs = Router();
  */
 const MGMT_KEY = process.env.MGMT_KEY;
 jobs.use((req, res, next) => {
+	// The agent routes are mounted before this router, so anything reaching it from a job network is refused.
+	if (jobNetworkAddresses.has(req.socket.localAddress?.replace(/^::ffff:/, "") ?? "")) {
+		return void res.status(403).json({ error: "forbidden: job containers may only use agent routes" });
+	}
 	if (!MGMT_KEY) return next();
 	const auth = req.headers.authorization ?? "";
 	const header = req.headers["x-mgmt-key"];

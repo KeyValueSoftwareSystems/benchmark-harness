@@ -27,6 +27,10 @@ async function poll<T>(check: () => Promise<T | undefined>, intervalMs: number, 
 
 /** Starts the job's agent container (image `bench/<benchmark>`), runs `use` against it, then removes it. */
 export interface AgentOptions {
+	/** Container name; defaults to `agent-<jobId>`. */
+	name?: string;
+	/** Network shared with the api; defaults to `AGENT_NETWORK` (the compose network). */
+	network?: string;
 	/** Extra networks to join besides the one shared with the api (e.g. a challenge's project network). */
 	networks?: string[];
 	/** Directory on the api host to copy into the container before the agent starts. */
@@ -37,9 +41,8 @@ export async function withAgent(
 	job: Job,
 	ctx: JobContext,
 	use: (agent: Agent) => Promise<AgentOutcome>,
-	{ networks = [], files }: AgentOptions = {},
+	{ name = `agent-${job.id}`, network = NETWORK, networks = [], files }: AgentOptions = {},
 ): Promise<AgentOutcome> {
-	const name = `agent-${job.id}`;
 	const url = `http://${name}:${AGENT_PORT}`;
 	const log = (msg: string) => console.log(`[docker] ${name}: ${msg}`);
 	const env = [
@@ -53,7 +56,7 @@ export async function withAgent(
 	try {
 		log(`starting bench/${job.benchmark}`);
 		await docker(
-			"run", "-d", "--name", name, "--label", `${JOB_LABEL}=${job.id}`, "--network", NETWORK,
+			"run", "-d", "--name", name, "--label", `${JOB_LABEL}=${job.id}`, "--network", network,
 			"--add-host", "host.docker.internal:host-gateway", ...env, `bench/${job.benchmark}`,
 		);
 		for (const network of networks) await docker("network", "connect", network, name);

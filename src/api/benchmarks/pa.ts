@@ -6,6 +6,7 @@ import { MODELS, RESOURCES_DIR } from "../config.ts";
 import { withAgent } from "../docker/agent.ts";
 import { docker } from "../docker/cli.ts";
 import { withPaa } from "../docker/paa.ts";
+import { jobNetworkAddresses } from "../jobNetworks.ts";
 import { PROXY_APIS, storeLlmToken, removeLlmToken } from "../routes/llm.ts";
 import { redis } from "../redis.ts";
 import type { Benchmark } from "./types.ts";
@@ -146,24 +147,31 @@ export const pa: Benchmark = {
 		// Store the agent token so /register can return it in proxy mode.
 		await redis.set(`agent-llm-token:${job.id}`, agentToken, "EX", 3600);
 
-		// Create an internal (no-internet) network for this job. The PAA joins only
-		// this network; the pi agent joins it too, to reach the PAA.
+		// Create an internal (no-internet) network for this job. The PAA and the
+		// pi agent join only this network.
 		const jobNet = `pa-job-${job.id}`;
-		await docker("network", "create", "--internal", jobNet);
-		// Connect the API container (as `api`, like on the compose network) so the PAA can reach /llm/v1.
 		const apiContainer = process.env.HOSTNAME ?? "api";
-		await docker("network", "connect", "--alias", "api", jobNet, apiContainer).catch(() => {});
+		let apiAddress = "";
 
 		try {
+			await docker("network", "create", "--internal", jobNet);
+			// Connect the API container (as `api`, like on the compose network) so both containers reach it.
+			await docker("network", "connect", "--alias", "api", jobNet, apiContainer);
+			apiAddress = await docker("inspect", "-f", `{{(index .NetworkSettings.Networks "${jobNet}").IPAddress}}`, apiContainer);
+			if (!/^[\d.]+$/.test(apiAddress)) throw new Error(`no api address on ${jobNet}: ${apiAddress}`);
+			jobNetworkAddresses.add(apiAddress);
+
 			// Start the PAA container first (waits for healthy), then
 			// start the Pi agent inside the callback so both are alive.
 			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model }, async () => {
 				return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
-					networks: [jobNet],
+					name: `agent-job-${job.id}`,
+					network: jobNet,
 					files: { from: agentDir(id), to: AGENT_WORLD_DIR },
 				});
 			});
 		} finally {
+			jobNetworkAddresses.delete(apiAddress);
 			await removeLlmToken(redis, paaToken).catch(() => {});
 			await removeLlmToken(redis, agentToken).catch(() => {});
 			await redis.del(`agent-llm-token:${job.id}`).catch(() => {});
