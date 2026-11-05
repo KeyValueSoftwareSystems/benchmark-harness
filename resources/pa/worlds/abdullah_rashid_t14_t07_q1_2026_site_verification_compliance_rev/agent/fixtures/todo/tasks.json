@@ -792,7 +792,7 @@
   {
     "task_id": "TODO-557",
     "title": "Create reimbursement claim reminder if direct transfer path selected",
-    "description": "If direct bank transfer payment method is selected for Zone 5C marine equipment (5% discount, net $399K), create calendar reminder to submit manual reimbursement claim to Leila Mansour (leila.mansour@dar.com) within 45 days of payment date. Required documentation: original invoice from Bosphorus Marine, bank transfer confirmation, project code authorization, technical justification memo, consortium procurement approval. Processing time is 15-20 business days, so factor into cash flow planning.",
+    "description": "If direct bank transfer payment method is selected for Zone 5C marine equipment (5% discount, net $399K), create calendar reminder to submit manual reimbursement claim to Leila Mansour (leila.mansour@dar.example) within 45 days of payment date. Required documentation: original invoice from Bosphorus Marine, bank transfer confirmation, project code authorization, technical justification memo, consortium procurement approval. Processing time is 15-20 business days, so factor into cash flow planning.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-23",

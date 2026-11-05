@@ -8,7 +8,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder",
@@ -28,7 +28,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_inventory_reminder",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder",
@@ -48,7 +48,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "dario@solettaliving.com",
+    "created_by": "davide@solettaliving.example",
     "tags": [
       "marketing",
       "trends",
@@ -68,7 +68,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_inventory_alert",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder",
@@ -88,7 +88,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "reminder",
       "trends",
@@ -108,7 +108,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_inventory_reminder",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder",
@@ -128,7 +128,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder",
@@ -148,7 +148,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder"
@@ -167,7 +167,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder"
@@ -186,7 +186,7 @@
     "last_status": "not_run",
     "last_run": null,
     "action": "send_inventory_notification",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "inventory",
       "reminder",
@@ -206,7 +206,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "check_amazon_reviews",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "amazon",
       "reviews",
@@ -226,7 +226,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Dario Marini",
+    "created_by": "Davide Morani",
     "tags": [
       "pricing",
       "competitor",

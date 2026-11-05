@@ -37,7 +37,7 @@
     "merchant": "TranscriptPro Services",
     "category": "professional_services",
     "description": "Expedited transcription service - 2x interview sessions (Marcus Chen, Vincent Zhao) - non-refundable prepayment",
-    "receipt_url": "https://transcriptpro.com/invoice/TP-2026-8847"
+    "receipt_url": "https://transcriptpro.example/invoice/TP-2026-8847"
   },
   {
     "transaction_id": "TXN-6005",
@@ -47,6 +47,6 @@
     "merchant": "Lloyd's Register Digital Services",
     "category": "research_materials",
     "description": "Vessel survey report access - IMO 9467234 preliminary inquiry",
-    "receipt_url": "https://lloydsregister.com/receipt/LR-2026-3421"
+    "receipt_url": "https://lloydsregister.example/receipt/LR-2026-3421"
   }
 ]

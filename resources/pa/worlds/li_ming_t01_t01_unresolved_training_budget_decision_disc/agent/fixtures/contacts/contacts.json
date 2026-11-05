@@ -4,17 +4,17 @@
     "name": "Dr. Wang Jian",
     "department": "Algorithm Research",
     "title": "Senior Algorithm Engineer (Mentor)",
-    "email": "wang.jian@bytedance.com",
+    "email": "wang.jian@bytedance.example",
     "phone": "+86 13800138001",
     "location": "ByteDance Beijing Office",
-    "note": "Li Ming's mentor, specializes in recommendation algorithms and distributed systems. Prefers detailed technical discussions."
+    "note": "Liu Hao's mentor, specializes in recommendation algorithms and distributed systems. Prefers detailed technical discussions."
   },
   {
     "contact_id": "CON-202",
     "name": "Chen Hui",
     "department": "Algorithm Research",
     "title": "Staff Engineer",
-    "email": "chen.hui@bytedance.com",
+    "email": "chen.hui@bytedance.example",
     "phone": "+86 13800138002",
     "location": "ByteDance Beijing Office",
     "note": "Code review lead for algorithm team, very thorough but fair reviewer."
@@ -24,7 +24,7 @@
     "name": "Zhang Lin",
     "department": "Product Engineering",
     "title": "Senior Product Manager",
-    "email": "zhang.lin@bytedance.com",
+    "email": "zhang.lin@bytedance.example",
     "phone": "+86 13800138003",
     "location": "ByteDance Beijing Office",
     "note": "Project lead for recommendation system optimization, coordinates cross-team deliverables."
@@ -34,7 +34,7 @@
     "name": "Liu Yang",
     "department": "HR",
     "title": "Intern Coordinator",
-    "email": "liu.yang@bytedance.com",
+    "email": "liu.yang@bytedance.example",
     "phone": "+86 13800138004",
     "location": "ByteDance Beijing Office",
     "note": "Handles intern onboarding and administrative matters."
@@ -44,17 +44,17 @@
     "name": "Dr. Wang Jian",
     "department": "Algorithm Research",
     "title": "Senior Algorithm Researcher / Mentor",
-    "email": "wang.jian@bytedance.com",
+    "email": "wang.jian@bytedance.example",
     "phone": "+86 13800138001",
     "location": "ByteDance Beijing Office",
-    "note": "Li Ming's mentor for recommendation algorithm optimization project. Prefers structured technical discussions with prepared materials."
+    "note": "Liu Hao's mentor for recommendation algorithm optimization project. Prefers structured technical discussions with prepared materials."
   },
   {
     "contact_id": "CON-206",
     "name": "System Alerts",
     "department": "IT Operations",
     "title": "Automated Monitoring",
-    "email": "system-alerts@bytedance.com",
+    "email": "system-alerts@bytedance.example",
     "phone": "",
     "location": "Bytedance HQ",
     "note": "Automated system for employee wellness and work pattern monitoring"
@@ -64,7 +64,7 @@
     "name": "Liu Yang",
     "department": "Algorithm Engineering",
     "title": "Senior Algorithm Engineer",
-    "email": "liu.yang@bytedance.com",
+    "email": "liu.yang@bytedance.example",
     "phone": "+86 13698745321",
     "location": "ByteDance Beijing Office - Building 3",
     "note": "Senior engineer on recommendation team, specializes in model optimization and performance engineering. Peer-level colleague, collaborated on Q4 2025 inference optimization project."
@@ -74,27 +74,27 @@
     "name": "Chen Hui",
     "department": "Algorithm Engineering",
     "title": "Staff Engineer",
-    "email": "chen.hui@bytedance.com",
+    "email": "chen.hui@bytedance.example",
     "phone": "+86 13698745632",
     "location": "ByteDance Beijing Office",
-    "note": "Hardware tinkering expert, helped Li Ming with GPU driver issue in November 2025. Currently leading caching layer refactor project. Known for being helpful but has heavy code review workload. Prefers Lark messages for quick questions."
+    "note": "Hardware tinkering expert, helped Liu Hao with GPU driver issue in November 2025. Currently leading caching layer refactor project. Known for being helpful but has heavy code review workload. Prefers Lark messages for quick questions."
   },
   {
     "contact_id": "CON-209",
     "name": "IT Support Team",
     "department": "Information Technology",
     "title": "IT Support",
-    "email": "it-support@bytedance.com",
+    "email": "it-support@bytedance.example",
     "phone": "+86 10-8888-1234",
     "location": "ByteDance HQ - IT Department",
-    "note": "Handles VPN access requests, requires mentor approval before processing. Processing time: 3-5 business days. Ticket system: https://it.bytedance.com/tickets"
+    "note": "Handles VPN access requests, requires mentor approval before processing. Processing time: 3-5 business days. Ticket system: https://it.bytedance.example/tickets"
   },
   {
     "contact_id": "CON-210",
     "name": "Compute Infrastructure Team",
     "department": "Infrastructure",
     "title": "GPU Cluster Admin",
-    "email": "compute-admin@bytedance.com",
+    "email": "compute-admin@bytedance.example",
     "phone": "+86 10-8888-5678",
     "location": "ByteDance HQ - Infrastructure",
     "note": "Manages GPU cluster permissions. Requires valid security training certificate (14-day validity). Processing time: 1-2 business days after cert verification."
@@ -104,7 +104,7 @@
     "name": "HR Onboarding Team",
     "department": "Human Resources",
     "title": "Onboarding Coordinator",
-    "email": "hr.onboarding@bytedance.com",
+    "email": "hr.onboarding@bytedance.example",
     "phone": "+86 10-8888-9012",
     "location": "ByteDance HQ - HR",
     "note": "Handles new hire onboarding. HR portal completion unlocks security training and KB access. First point of contact for credential setup questions."
@@ -114,7 +114,7 @@
     "name": "Zhang Lin",
     "department": "Algorithm Team",
     "title": "Senior Algorithm Engineer",
-    "email": "zhang.lin@bytedance.com",
+    "email": "zhang.lin@bytedance.example",
     "phone": "+86 13698745632",
     "location": "ByteDance Beijing Office, Building 2, 8F",
     "note": "Teammate working on recommendation pipeline. Submitted PR #2956 for memory optimization. Friendly and collaborative, often asks for code reviews."
@@ -124,7 +124,7 @@
     "name": "GitLab Bot",
     "department": "Engineering Infrastructure",
     "title": "Automated System",
-    "email": "gitlab-bot@bytedance.com",
+    "email": "gitlab-bot@bytedance.example",
     "phone": "",
     "location": "Automated Service",
     "note": "GitLab CI/CD notification system. Sends pipeline status updates, merge request notifications, and mentions. Can be noisy during active development periods."
@@ -134,7 +134,7 @@
     "name": "Monitoring System",
     "department": "SRE",
     "title": "Automated Alert System",
-    "email": "monitoring@bytedance.com",
+    "email": "monitoring@bytedance.example",
     "phone": "",
     "location": "Automated Service",
     "note": "Production monitoring and alerting system. Sends alerts for service degradation, latency spikes, and infrastructure issues. Critical alerts require immediate attention."
@@ -144,7 +144,7 @@
     "name": "GPU Cluster Admin Team",
     "department": "Infrastructure",
     "title": "Compute Infrastructure",
-    "email": "gpu-cluster-admin@bytedance.com",
+    "email": "gpu-cluster-admin@bytedance.example",
     "phone": "+86 10-8888-5500",
     "location": "Beijing HQ - Infrastructure Wing",
     "note": "Manages GPU cluster allocation and job scheduling. Contact for priority queue requests or technical issues with training jobs."
@@ -154,7 +154,7 @@
     "name": "Compute Infrastructure Team",
     "department": "Infrastructure Operations",
     "title": "GPU Cluster Administration",
-    "email": "compute-admin@bytedance.com",
+    "email": "compute-admin@bytedance.example",
     "phone": "+86 10-8888-6600",
     "location": "ByteDance HQ - Infrastructure Wing",
     "note": "Primary contact for GPU cluster allocation requests, compute budget management, and job scheduling. Response time typically 24-48 hours for allocation requests. Escalation path through Dr. Wang Jian for urgent cases."
@@ -164,7 +164,7 @@
     "name": "System Monitoring",
     "department": "Infrastructure Operations",
     "title": "Automated Monitoring Service",
-    "email": "system-alerts@bytedance.com",
+    "email": "system-alerts@bytedance.example",
     "phone": "",
     "location": "Automated Service",
     "note": "Automated notification system for compute budget alerts, job completion status, and infrastructure maintenance windows. No direct replies - contact compute-admin for issues."
@@ -174,7 +174,7 @@
     "name": "Compute Infrastructure Team",
     "department": "Engineering Infrastructure",
     "title": "Resource Management",
-    "email": "compute-admin@bytedance.com",
+    "email": "compute-admin@bytedance.example",
     "phone": "+86 10-8888-5500",
     "location": "ByteDance Beijing HQ - Infrastructure Wing",
     "note": "Manages GPU cluster allocations, budget tracking, and maintenance windows. Send budget increase requests through mentor approval first. Automated alerts sent for 60% and 80% budget depletion thresholds."
@@ -184,7 +184,7 @@
     "name": "Finance Operations",
     "department": "Finance",
     "title": "Budget Administration",
-    "email": "finance-ops@bytedance.com",
+    "email": "finance-ops@bytedance.example",
     "phone": "+86 10-8888-6100",
     "location": "ByteDance Beijing HQ - Finance Floor",
     "note": "Handles quarterly budget reviews and reallocation requests. Mid-quarter reviews typically occur around day 45-50 of quarter (mid-February for Q1). Requires mentor/team lead approval for intern budget adjustments."
@@ -194,7 +194,7 @@
     "name": "Compute Infrastructure Admin",
     "department": "Infrastructure",
     "title": "GPU Cluster Administrator",
-    "email": "compute-admin@bytedance.com",
+    "email": "compute-admin@bytedance.example",
     "phone": "+86 10-12345678",
     "location": "Building 3, Room 401",
     "note": "Handles GPU cluster allocation requests, team pooling approvals, and pricing policy questions. Office hours: Tuesdays 2-4 PM. Typical approval turnaround: 2-3 business days for team pooling requests."
@@ -204,7 +204,7 @@
     "name": "GPU Cluster Admin Team",
     "department": "Compute Infrastructure",
     "title": "Infrastructure Operations",
-    "email": "compute-admin@bytedance.com",
+    "email": "compute-admin@bytedance.example",
     "phone": "+86 10-5821-6600",
     "location": "ByteDance Beijing HQ - Infrastructure Wing",
     "note": "Handles GPU cluster policy, job management, and billing. Response time typically 2-4 hours during business hours. Emergency contact for job failures or billing issues."
@@ -214,7 +214,7 @@
     "name": "Intern Portal Support",
     "department": "Compute Infrastructure",
     "title": "Intern Services",
-    "email": "intern-portal-support@bytedance.com",
+    "email": "intern-portal-support@bytedance.example",
     "phone": "+86 10-5821-6650",
     "location": "ByteDance Beijing HQ",
     "note": "New intern-specific GPU portal support team. Launched Feb 2026. Handles portal access issues, discount verification, and queue priority questions."
@@ -224,7 +224,7 @@
     "name": "Compute Infrastructure Team",
     "department": "Infrastructure",
     "title": "GPU Cluster Operations",
-    "email": "compute-admin@bytedance.com",
+    "email": "compute-admin@bytedance.example",
     "phone": "+86 10-5820-8888",
     "location": "ByteDance HQ - Infrastructure Wing",
     "note": "Manages GPU cluster pricing policy, quota allocations, and billing. Contact for quota issues or policy clarifications. KB-410 is maintained by this team."
@@ -234,7 +234,7 @@
     "name": "Compute Infrastructure Team",
     "department": "Infrastructure",
     "title": "GPU Cluster Administration",
-    "email": "compute-admin@bytedance.com",
+    "email": "compute-admin@bytedance.example",
     "phone": "+86 10-8888-5500",
     "location": "ByteDance Beijing HQ - Infrastructure Wing",
     "note": "Manages GPU cluster policies, quota allocation, and tier pricing. Sent the Jan 15 policy update about 48-hour limit for Intern Discount Bundle. Contact for policy questions or quota increase requests."

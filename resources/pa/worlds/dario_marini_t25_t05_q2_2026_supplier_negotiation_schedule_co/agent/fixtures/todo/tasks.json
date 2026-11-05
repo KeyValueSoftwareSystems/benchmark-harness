@@ -183,7 +183,7 @@
   {
     "task_id": "TODO-514",
     "title": "Request manufacturing quotes for Q2 new SKU candidates from Meihao + Yongxin",
-    "description": "Get quotes for: (1) Lavender Dreams Room Spray 150ml, (2) Refill 6-pack (Lavender + Citrus), (3) Ceramic Diffuser Black Matte finish, (4) Sampler Set 3x singles. Include MOQ, unit cost, lead time, tooling fees. Owner: Dario (supplier negotiations).",
+    "description": "Get quotes for: (1) Lavender Dreams Room Spray 150ml, (2) Refill 6-pack (Lavender + Citrus), (3) Ceramic Diffuser Black Matte finish, (4) Sampler Set 3x singles. Include MOQ, unit cost, lead time, tooling fees. Owner: Davide (supplier negotiations).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-05",
@@ -197,7 +197,7 @@
   {
     "task_id": "TODO-515",
     "title": "Order sample sets from Jinlong Manufacturing for Q2 backup supplier evaluation",
-    "description": "Follow up with Wang Jianhua (Jinlong) to order 5-unit sample set (ceramic diffusers + refills) for quality testing. Budget: USD 200. Need samples by Feb 15 to inform Q2 supplier diversification decision. Owner: Dario.",
+    "description": "Follow up with Wang Jianhua (Jinlong) to order 5-unit sample set (ceramic diffusers + refills) for quality testing. Budget: USD 200. Need samples by Feb 15 to inform Q2 supplier diversification decision. Owner: Davide.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-01-30",
@@ -211,7 +211,7 @@
   {
     "task_id": "TODO-516",
     "title": "Break down Q2 product roadmap into weekly task assignments with owners",
-    "description": "After Mar 26 strategic planning session, decompose Q2 roadmap (new SKU development, supplier diversification, 3PL upgrades, marketing tests) into specific weekly tasks. Assign clear owners: Jessica (listing optimization, ad creative), Mike (ops setup, sample coordination, 3PL negotiations), Dario (supplier contracts, budget approval). Target completion: Mar 28.",
+    "description": "After Mar 26 strategic planning session, decompose Q2 roadmap (new SKU development, supplier diversification, 3PL upgrades, marketing tests) into specific weekly tasks. Assign clear owners: Jessica (listing optimization, ad creative), Mike (ops setup, sample coordination, 3PL negotiations), Davide (supplier contracts, budget approval). Target completion: Mar 28.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -239,7 +239,7 @@
   {
     "task_id": "TODO-518",
     "title": "Prepare Q2 marketing strategy: retargeting audience growth + TikTok ads pilot",
-    "description": "Q1 learning: retargeting capped at USD 200/day due to small audience. Q2 plan: (1) implement email capture on Shopify to grow retargeting pool, (2) test TikTok ads pilot (USD 5K budget) for prospecting. Owner: Jessica. Coordinate with Dario on budget allocation.",
+    "description": "Q1 learning: retargeting capped at USD 200/day due to small audience. Q2 plan: (1) implement email capture on Shopify to grow retargeting pool, (2) test TikTok ads pilot (USD 5K budget) for prospecting. Owner: Jessica. Coordinate with Davide on budget allocation.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-20",
@@ -254,7 +254,7 @@
   {
     "task_id": "TODO-519",
     "title": "Schedule Slack check-ins with Manila/Lisbon team for Q2 execution alignment",
-    "description": "Set up recurring Slack huddles (weekly or bi-weekly) to align remote team on Q2 roadmap execution. Topics: task progress, blockers, supplier updates, marketing performance. First check-in: week of Feb 3. Owner: Dario.",
+    "description": "Set up recurring Slack huddles (weekly or bi-weekly) to align remote team on Q2 roadmap execution. Topics: task progress, blockers, supplier updates, marketing performance. First check-in: week of Feb 3. Owner: Davide.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-02-03",
@@ -728,7 +728,7 @@
   {
     "task_id": "TODO-552",
     "title": "Verify Yongxin environmental regulation cost claim",
-    "description": "Cross-check Chen Xiaoming's 18% price increase justification:\n- Review KB-401 Zhejiang environmental regulation timeline (shows June 2026 deadline)\n- Contact other Yiwu suppliers (Zhang Lin, Li Ming) to verify industry-wide impact\n- Check if Yongxin actually completed compliance or just passing through anticipated costs\n- Determine if 18% pass-through is reasonable or opportunistic\n\nUse findings to counter-negotiate or validate pricing in strategy session.",
+    "description": "Cross-check Chen Xiaoming's 18% price increase justification:\n- Review KB-401 Zhejiang environmental regulation timeline (shows June 2026 deadline)\n- Contact other Yiwu suppliers (Zhang Lin, Liu Hao) to verify industry-wide impact\n- Check if Yongxin actually completed compliance or just passing through anticipated costs\n- Determine if 18% pass-through is reasonable or opportunistic\n\nUse findings to counter-negotiate or validate pricing in strategy session.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-09",
@@ -785,7 +785,7 @@
   {
     "task_id": "TODO-556",
     "title": "Reply to Sarah Chen with confirmed QC inspection slot",
-    "description": "Once calendar conflict analysis is complete, send email to sarah.chen@3plnj.com confirming the selected slot (likely March 13 Thu 2pm-6pm based on preliminary review). Include travel ETA and any specific QC protocol questions for the room spray samples.",
+    "description": "Once calendar conflict analysis is complete, send email to sarah.chen@3plnj.example confirming the selected slot (likely March 13 Thu 2pm-6pm based on preliminary review). Include travel ETA and any specific QC protocol questions for the room spray samples.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-28",
@@ -1176,7 +1176,7 @@
   {
     "task_id": "TODO-583",
     "title": "Draft response to Liu Wei - confirm selected production slot",
-    "description": "Once decision is finalized, send confirmation to Liu Wei (liu.wei@yiwumeihao.com) via WeChat and email specifying: (1) selected production slot (expedited or standard), (2) deposit wire timeline, (3) container coordination requirements with 3PL. Include deposit payment confirmation and request production schedule confirmation.",
+    "description": "Once decision is finalized, send confirmation to Liu Wei (liu.wei@yiwumeihao.example) via WeChat and email specifying: (1) selected production slot (expedited or standard), (2) deposit wire timeline, (3) container coordination requirements with 3PL. Include deposit payment confirmation and request production schedule confirmation.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-08",
@@ -2615,7 +2615,7 @@
   {
     "task_id": "TODO-684",
     "title": "URGENT: Wire Meihao deposit USD 7,200 by April 3 5PM Beijing time",
-    "description": "Execute wire transfer to Yiwu Meihao Ceramics for Q2 ceramic diffuser production deposit. CRITICAL: Real deadline is April 3 per WeChat (not April 10 per email). Slot will be forfeited if payment not confirmed by internal production planning meeting April 4.\n\nWire details:\n- Amount: USD 7,200\n- Recipient: Yiwu Meihao Ceramics Co., Ltd.\n- Bank: Industrial and Commercial Bank of China (ICBC)\n- Account: [from previous transactions TXN-6032]\n- Reference: Q2-2026-SKU101-DEPOSIT\n- Order: 3,000 units SKU-101 White Marble Ceramic Diffuser\n\nPost-wire actions:\n1. Screenshot confirmation and send to Liu Wei via WeChat\n2. Forward bank receipt to liu.wei@yiwumeihao.com\n3. Request formal production schedule confirmation\n4. Update WB-6 deposit allocation tracker\n\nCash flow impact: USD 38,200 → USD 31,000 (stays above USD 25K reserve floor)",
+    "description": "Execute wire transfer to Yiwu Meihao Ceramics for Q2 ceramic diffuser production deposit. CRITICAL: Real deadline is April 3 per WeChat (not April 10 per email). Slot will be forfeited if payment not confirmed by internal production planning meeting April 4.\n\nWire details:\n- Amount: USD 7,200\n- Recipient: Yiwu Meihao Ceramics Co., Ltd.\n- Bank: Industrial and Commercial Bank of China (ICBC)\n- Account: [from previous transactions TXN-6032]\n- Reference: Q2-2026-SKU101-DEPOSIT\n- Order: 3,000 units SKU-101 White Marble Ceramic Diffuser\n\nPost-wire actions:\n1. Screenshot confirmation and send to Liu Wei via WeChat\n2. Forward bank receipt to liu.wei@yiwumeihao.example\n3. Request formal production schedule confirmation\n4. Update WB-6 deposit allocation tracker\n\nCash flow impact: USD 38,200 → USD 31,000 (stays above USD 25K reserve floor)",
     "status": "pending",
     "priority": "critical",
     "due_date": "2026-04-03",
@@ -3171,7 +3171,7 @@
   {
     "task_id": "TODO-722",
     "title": "Request COI from Amanda Rodriguez for Nordstrom facility inspection",
-    "description": "If Marcus Chen accepts April 2-7 in-person inspection dates, immediately contact Amanda Rodriguez (amanda.rodriguez@3plnj.com) to process Certificate of Insurance. Need $2M general liability naming 3PL Logistics NJ as additional insured. Processing time: 2-3 business days. Attach to follow-up email to Marcus with confirmed inspection slot.",
+    "description": "If Marcus Chen accepts April 2-7 in-person inspection dates, immediately contact Amanda Rodriguez (amanda.rodriguez@3plnj.example) to process Certificate of Insurance. Need $2M general liability naming 3PL Logistics NJ as additional insured. Processing time: 2-3 business days. Attach to follow-up email to Marcus with confirmed inspection slot.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-03",
@@ -3284,7 +3284,7 @@
   {
     "task_id": "TODO-730",
     "title": "Respond to James Park (Provider B) with decision by April 7 deadline",
-    "description": "If selecting Provider B, respond to james.park@priorityfulfillment.com by April 7 to meet onboarding timeline (10 business days = operational by April 21, ahead of late-April container arrival). If selecting different provider or staying with current, send courtesy decline email.",
+    "description": "If selecting Provider B, respond to james.park@priorityfulfillment.example by April 7 to meet onboarding timeline (10 business days = operational by April 21, ahead of late-April container arrival). If selecting different provider or staying with current, send courtesy decline email.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-07",
@@ -3432,7 +3432,7 @@
   {
     "task_id": "TODO-740",
     "title": "Validate third-party urgency signals in Yiwu supplier group chat (WCC-113)",
-    "description": "Review WeChat supplier group messages to validate Liu Wei and Chen Xiaoming's private claims. Zhang Lin and Li Ming confirmed: (1) Jingdezhen Clay enforcing early deposit deadlines with USD 15K penalties, (2) Two Yiwu factories already lost allocations last week, (3) Yongxin facing May slot competition from European buyer. Assess credibility of raw material crisis and kiln booking pressure claims.",
+    "description": "Review WeChat supplier group messages to validate Liu Wei and Chen Xiaoming's private claims. Zhang Lin and Liu Hao confirmed: (1) Jingdezhen Clay enforcing early deposit deadlines with USD 15K penalties, (2) Two Yiwu factories already lost allocations last week, (3) Yongxin facing May slot competition from European buyer. Assess credibility of raw material crisis and kiln booking pressure claims.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-02",
@@ -3647,7 +3647,7 @@
   {
     "task_id": "TODO-755",
     "title": "If reverting to Meihao: Wire USD 8,025 deposit to secure expedited slot",
-    "description": "Wire transfer to Yiwu Meihao Ceramics for 30% deposit on expedited SKU-101 production (2,500 units × USD 10.70 = USD 26,750 total). Deadline April 4 per Liu Wei's MSG-5197. Verify wire instructions with liu.wei@yiwumeihao.com before sending. Update TXN ledger and WB-34 cash flow timeline.",
+    "description": "Wire transfer to Yiwu Meihao Ceramics for 30% deposit on expedited SKU-101 production (2,500 units × USD 10.70 = USD 26,750 total). Deadline April 4 per Liu Wei's MSG-5197. Verify wire instructions with liu.wei@yiwumeihao.example before sending. Update TXN ledger and WB-34 cash flow timeline.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-04",

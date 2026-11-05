@@ -65,7 +65,7 @@ judge_rubric: 'Evaluate whether the agent discovered the abandoned supplier cons
 
   **Target Discovery 1: Abandoned Supplier Consolidation Plan**
 
-  The agent should identify that Dario started but abandoned a supplier consolidation
+  The agent should identify that Davide started but abandoned a supplier consolidation
   strategy in mid-February 2026. Evidence includes:
 
   - Created and deleted a calendar event for a supplier evaluation call with Liu Wei

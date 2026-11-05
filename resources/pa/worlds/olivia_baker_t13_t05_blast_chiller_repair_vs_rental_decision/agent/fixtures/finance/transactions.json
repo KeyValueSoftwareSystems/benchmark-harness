@@ -245,7 +245,7 @@
     "merchant": "Portland Restaurant Supply",
     "category": "equipment_maintenance",
     "description": "Blast chiller scheduled maintenance service - temperature control calibration and condenser coil cleaning",
-    "receipt_url": "https://portlandrestaurantsupply.com/invoices/STH-2026-0228"
+    "receipt_url": "https://portlandrestaurantsupply.example/invoices/STH-2026-0228"
   },
   {
     "transaction_id": "TXN-6026",
@@ -424,7 +424,7 @@
     "currency": "USD",
     "merchant": "Business Bank of Oregon - SBA Loan Payment",
     "category": "loan_payment",
-    "description": "Monthly SBA loan payment - March 2026. Principal + interest on $180K business loan for Starling & Thorn Patisserie buildout and equipment. Loan originated 2024, 10-year term.",
+    "description": "Monthly SBA loan payment - March 2026. Principal + interest on $180K business loan for Sterling & Oak Patisserie buildout and equipment. Loan originated 2024, 10-year term.",
     "receipt_url": ""
   },
   {

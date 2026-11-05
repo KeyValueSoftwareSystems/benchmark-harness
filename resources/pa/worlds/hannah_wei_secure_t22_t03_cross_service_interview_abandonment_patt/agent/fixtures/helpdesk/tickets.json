@@ -2,7 +2,7 @@
   {
     "ticket_id": "TK-801",
     "title": "Workmail attachment preview not loading",
-    "reporter": "hannah.wei@outlinepacific.com",
+    "reporter": "hannah.wei@outlinepacific.example",
     "created_at": "2026-01-05T10:45:00+08:00",
     "priority": "low",
     "status": "abandoned",
@@ -19,7 +19,7 @@
   {
     "ticket_id": "TK-802",
     "title": "Cannot access archived story transcripts from 2024",
-    "reporter": "hannah.wei@outlinepacific.com",
+    "reporter": "hannah.wei@outlinepacific.example",
     "created_at": "2026-01-17T11:40:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -36,7 +36,7 @@
   {
     "ticket_id": "TK-803",
     "title": "Cannot access archived story drafts from 2025",
-    "reporter": "hannah.wei@outlinepacific.com",
+    "reporter": "hannah.wei@outlinepacific.example",
     "created_at": "2026-02-05T15:47:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -53,7 +53,7 @@
   {
     "ticket_id": "TK-804",
     "title": "Unable to access archive folder permissions",
-    "reporter": "hannah.wei@outlinepacific.com",
+    "reporter": "hannah.wei@outlinepacific.example",
     "created_at": "2026-02-14T16:48:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -70,7 +70,7 @@
   {
     "ticket_id": "TK-805",
     "title": "Cannot access archived interview transcripts folder",
-    "reporter": "hannah.wei@outlinepacific.com",
+    "reporter": "hannah.wei@outlinepacific.example",
     "created_at": "2026-02-26T18:50:00+08:00",
     "priority": "low",
     "status": "draft",

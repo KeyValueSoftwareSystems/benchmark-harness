@@ -414,7 +414,7 @@
 - **Key actions**:
   - Verified March 11 conference presentation slot criticality via calendar [EVT-383, EVT-384, EVT-385] — confirmed keynote timing requires Frankfurt attendance
   - Assessed conference registration payment status [TXN-6023, TXN-6024] — €620 voucher + €230 reimbursement split-payment still pending travel admin approval
-  - Reviewed travel.admin@milanbank.eu workmail threads [WMSG-5095, WMSG-5096, WMSG-5097, WMSG-5098] estimating 72-hour approval window vs. 48-hour rail discount expiration
+  - Reviewed travel.admin@milanbank.example workmail threads [WMSG-5095, WMSG-5096, WMSG-5097, WMSG-5098] estimating 72-hour approval window vs. 48-hour rail discount expiration
   - Quantified expected loss scenarios in decision workbook [WB-18]: €285 sunk cost if registration fails vs. €135 opportunity cost if discount expires during approval wait
   - Documented risk framework [NOTE-134, NOTE-135, OBSN-28] with Marco Bellini contact check [CON-233] confirming conference is mission-critical for Basel IV franchise positioning
   - Created conditional execution tasks [TODO-613, TODO-614, TODO-615, TODO-616] and sent status inquiry [MSG-5017, MSG-5018] to travel admin

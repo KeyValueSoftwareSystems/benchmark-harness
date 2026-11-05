@@ -5,7 +5,7 @@
     "start_time": "2026-02-21T09:00:00-08:00",
     "end_time": "2026-02-21T12:00:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com"
+      "jorge.alvarez@crucible.example"
     ],
     "location": "Blocked - Focus Time",
     "recurring": "none"
@@ -16,10 +16,10 @@
     "start_time": "2026-02-24T14:00:00-08:00",
     "end_time": "2026-02-24T15:00:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com",
-      "platform-team@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example",
+      "platform-team@crucible.example"
     ],
     "location": "Conference Room B / Zoom",
     "recurring": "weekly"
@@ -30,9 +30,9 @@
     "start_time": "2026-02-25T15:00:00-08:00",
     "end_time": "2026-02-25T16:00:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example"
     ],
     "location": "TBD - may cancel if no exceptions needed",
     "recurring": "none"
@@ -43,9 +43,9 @@
     "start_time": "2026-02-26T13:00:00-08:00",
     "end_time": "2026-02-26T14:30:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com",
-      "leadership-team@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example",
+      "leadership-team@crucible.example"
     ],
     "location": "Executive Conference Room",
     "recurring": "none"
@@ -56,10 +56,10 @@
     "start_time": "2026-04-11T14:00:00-07:00",
     "end_time": "2026-04-11T15:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com",
-      "sarah.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example",
+      "sarah.kim@crucible.example"
     ],
     "location": "Zoom - platform-team-room",
     "recurring": "none"
@@ -70,8 +70,8 @@
     "start_time": "2026-04-07T15:00:00-07:00",
     "end_time": "2026-04-07T15:45:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example"
     ],
     "location": "Jorge's office",
     "recurring": "none"
@@ -82,7 +82,7 @@
     "start_time": "2026-04-06T09:00:00-07:00",
     "end_time": "2026-04-06T11:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com"
+      "jorge.alvarez@crucible.example"
     ],
     "location": "Focus block - no meetings",
     "recurring": "none"
@@ -93,7 +93,7 @@
     "start_time": "2026-04-07T09:00:00-07:00",
     "end_time": "2026-04-07T09:30:00-07:00",
     "attendees": [
-      "platform-team@crucible.com"
+      "platform-team@crucible.example"
     ],
     "location": "3F main conference room",
     "recurring": "daily"
@@ -104,9 +104,9 @@
     "start_time": "2026-04-05T09:00:00-07:00",
     "end_time": "2026-04-05T10:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com",
-      "david.torres@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example",
+      "david.torres@crucible.example"
     ],
     "location": "Conference Room 4B / Zoom hybrid",
     "recurring": "none"
@@ -117,9 +117,9 @@
     "start_time": "2026-04-05T14:00:00-07:00",
     "end_time": "2026-04-05T15:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "rachel.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "rachel.kim@crucible.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -130,7 +130,7 @@
     "start_time": "2026-04-03T09:00:00-07:00",
     "end_time": "2026-04-03T12:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com"
+      "jorge.alvarez@crucible.example"
     ],
     "location": "Focus time - no meetings",
     "recurring": "none"
@@ -141,10 +141,10 @@
     "start_time": "2026-04-15T14:00:00-07:00",
     "end_time": "2026-04-15T16:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "vp-engineering@crucible.com",
-      "ceo@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "vp-engineering@crucible.example",
+      "ceo@crucible.example"
     ],
     "location": "Executive Conference Room",
     "recurring": "none"
@@ -155,10 +155,10 @@
     "start_time": "2026-04-23T10:00:00-07:00",
     "end_time": "2026-04-23T11:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com",
-      "marcus.chen@crucible.com",
-      "david.torres@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example",
+      "marcus.chen@crucible.example",
+      "david.torres@crucible.example"
     ],
     "location": "Platform War Room (Zoom)",
     "recurring": "none"
@@ -169,9 +169,9 @@
     "start_time": "2026-04-28T08:30:00-07:00",
     "end_time": "2026-04-28T18:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example"
     ],
     "location": "Platform War Room",
     "recurring": "none"
@@ -182,7 +182,7 @@
     "start_time": "2026-04-04T09:00:00-07:00",
     "end_time": "2026-04-04T11:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com"
+      "jorge.alvarez@crucible.example"
     ],
     "location": "Focus room 3B",
     "recurring": "none"
@@ -193,10 +193,10 @@
     "start_time": "2026-04-04T16:00:00-07:00",
     "end_time": "2026-04-04T16:45:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com",
-      "david.torres@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example",
+      "david.torres@crucible.example"
     ],
     "location": "Conference room 5A",
     "recurring": "weekly"
@@ -207,9 +207,9 @@
     "start_time": "2026-04-08T14:00:00-07:00",
     "end_time": "2026-04-08T14:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com",
-      "priya.sharma@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example",
+      "parul.shankar@crucible.example"
     ],
     "location": "Sarah's office",
     "recurring": "none"
@@ -220,8 +220,8 @@
     "start_time": "2026-04-03T14:00:00-07:00",
     "end_time": "2026-04-03T15:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -232,11 +232,11 @@
     "start_time": "2026-04-08T10:00:00-07:00",
     "end_time": "2026-04-08T11:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com",
-      "david.torres@crucible.com",
-      "sarah.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example",
+      "david.torres@crucible.example",
+      "sarah.kim@crucible.example"
     ],
     "location": "Conference Room B",
     "recurring": "none"
@@ -247,11 +247,11 @@
     "start_time": "2026-04-07T14:00:00-07:00",
     "end_time": "2026-04-07T15:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com",
-      "david.torres@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example",
+      "david.torres@crucible.example"
     ],
     "location": "Conference Room 3B",
     "recurring": "none"
@@ -262,9 +262,9 @@
     "start_time": "2026-04-02T09:00:00-07:00",
     "end_time": "2026-04-02T11:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example"
     ],
     "location": "Conference Room 2A",
     "recurring": "none"
@@ -275,10 +275,10 @@
     "start_time": "2026-04-07T09:00:00-07:00",
     "end_time": "2026-04-07T10:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "rachel.kim@crucible.com",
-      "marcus.chen@crucible.com",
-      "priya.sharma@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "rachel.kim@crucible.example",
+      "marcus.chen@crucible.example",
+      "parul.shankar@crucible.example"
     ],
     "location": "Zoom (Platform Team)",
     "recurring": "none"
@@ -289,7 +289,7 @@
     "start_time": "2026-04-05T09:00:00-07:00",
     "end_time": "2026-04-05T12:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com"
+      "jorge.alvarez@crucible.example"
     ],
     "location": "Focus block - no meetings",
     "recurring": "none"
@@ -300,11 +300,11 @@
     "start_time": "2026-04-07T14:00:00-07:00",
     "end_time": "2026-04-07T15:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com",
-      "sarah.kim@crucible.com",
-      "vp-engineering@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example",
+      "sarah.kim@crucible.example",
+      "vp-engineering@crucible.example"
     ],
     "location": "Executive Conference Room 2A",
     "recurring": "none"
@@ -315,10 +315,10 @@
     "start_time": "2026-04-08T13:00:00-07:00",
     "end_time": "2026-04-08T14:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "rachel.kim@crucible.com",
-      "amanda.rodriguez@techflow.com",
-      "james.park@meridianhealth.com"
+      "jorge.alvarez@crucible.example",
+      "rachel.kim@crucible.example",
+      "amanda.rodriguez@techflow.example",
+      "james.park@meridianhealth.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -329,7 +329,7 @@
     "start_time": "2026-04-09T09:00:00-07:00",
     "end_time": "2026-04-09T12:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com"
+      "jorge.alvarez@crucible.example"
     ],
     "location": "Focus Room 3B",
     "recurring": "none"
@@ -340,10 +340,10 @@
     "start_time": "2026-04-10T10:00:00-07:00",
     "end_time": "2026-04-10T11:30:00-07:00",
     "attendees": [
-      "platform-team@crucible.com",
-      "jorge.alvarez@crucible.com",
-      "priya.sharma@crucible.com",
-      "marcus.chen@crucible.com"
+      "platform-team@crucible.example",
+      "jorge.alvarez@crucible.example",
+      "parul.shankar@crucible.example",
+      "marcus.chen@crucible.example"
     ],
     "location": "Main Auditorium",
     "recurring": "none"
@@ -354,9 +354,9 @@
     "start_time": "2026-04-08T15:00:00-07:00",
     "end_time": "2026-04-08T15:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "marcus.chen@crucible.com",
-      "sre-team@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "marcus.chen@crucible.example",
+      "sre-team@crucible.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -367,9 +367,9 @@
     "start_time": "2026-04-07T10:00:00-07:00",
     "end_time": "2026-04-07T10:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "marcus.chen@crucible.com",
-      "rachel.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "marcus.chen@crucible.example",
+      "rachel.kim@crucible.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -380,10 +380,10 @@
     "start_time": "2026-04-08T14:00:00-07:00",
     "end_time": "2026-04-08T15:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "david.torres@crucible.com",
-      "marcus.chen@crucible.com",
-      "priya.sharma@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "david.torres@crucible.example",
+      "marcus.chen@crucible.example",
+      "parul.shankar@crucible.example"
     ],
     "location": "Conference Room 3B",
     "recurring": "none"
@@ -394,10 +394,10 @@
     "start_time": "2026-04-07T09:00:00-07:00",
     "end_time": "2026-04-07T11:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "marcus.chen@crucible.com",
-      "priya.sharma@crucible.com",
-      "platform-team@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "marcus.chen@crucible.example",
+      "parul.shankar@crucible.example",
+      "platform-team@crucible.example"
     ],
     "location": "Conference Room B / Zoom",
     "recurring": "none"
@@ -408,7 +408,7 @@
     "start_time": "2026-04-04T09:00:00-07:00",
     "end_time": "2026-04-04T12:00:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com"
+      "jorge.alvarez@crucible.example"
     ],
     "location": "Focus block - no meetings",
     "recurring": "none"
@@ -419,8 +419,8 @@
     "start_time": "2026-04-03T14:00:00-07:00",
     "end_time": "2026-04-03T14:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "david.torres@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "david.torres@crucible.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -431,8 +431,8 @@
     "start_time": "2026-04-07T10:00:00-07:00",
     "end_time": "2026-04-07T11:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "alex.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "alex.kim@crucible.example"
     ],
     "location": "Jorge's office / Zoom",
     "recurring": "none"
@@ -443,8 +443,8 @@
     "start_time": "2026-04-08T14:00:00-07:00",
     "end_time": "2026-04-08T14:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "sarah.kim@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "sarah.kim@crucible.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -455,7 +455,7 @@
     "start_time": "2026-04-04T15:00:00-07:00",
     "end_time": "2026-04-04T16:00:00-07:00",
     "attendees": [
-      "platform-team@crucible.com"
+      "platform-team@crucible.example"
     ],
     "location": "Conference Room B",
     "recurring": "weekly"
@@ -466,8 +466,8 @@
     "start_time": "2026-04-07T14:00:00-07:00",
     "end_time": "2026-04-07T14:45:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "marcus.chen@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "marcus.chen@crucible.example"
     ],
     "location": "Jorge's office / Zoom hybrid",
     "recurring": "none"
@@ -478,8 +478,8 @@
     "start_time": "2026-04-28T09:00:00-07:00",
     "end_time": "2026-04-28T17:00:00-07:00",
     "attendees": [
-      "marcus.chen@crucible.com",
-      "infrastructure-team@crucible.com"
+      "marcus.chen@crucible.example",
+      "infrastructure-team@crucible.example"
     ],
     "location": "Off-site - Mission Bay Conference Center",
     "recurring": "none"
@@ -490,8 +490,8 @@
     "start_time": "2026-04-29T09:00:00-07:00",
     "end_time": "2026-04-29T15:00:00-07:00",
     "attendees": [
-      "marcus.chen@crucible.com",
-      "infrastructure-team@crucible.com"
+      "marcus.chen@crucible.example",
+      "infrastructure-team@crucible.example"
     ],
     "location": "Off-site - Mission Bay Conference Center",
     "recurring": "none"
@@ -502,8 +502,8 @@
     "start_time": "2026-04-04T15:30:00-07:00",
     "end_time": "2026-04-04T16:30:00-07:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "platform-team@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "platform-team@crucible.example"
     ],
     "location": "3F Conference Room B",
     "recurring": "biweekly"
@@ -514,14 +514,14 @@
     "start_time": "2026-02-27T10:00:00-08:00",
     "end_time": "2026-02-27T11:00:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "jennifer.wu@crucible.com",
-      "kevin.zhao@crucible.com",
-      "lisa.park@crucible.com",
-      "thomas.chen@crucible.com",
-      "dan.martinez@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "jennifer.wu@crucible.example",
+      "kevin.zhao@crucible.example",
+      "lisa.park@crucible.example",
+      "thomas.chen@crucible.example",
+      "dan.martinez@crucible.example"
     ],
-    "location": "Zoom - meet.crucible.com/sentinel-onboarding",
+    "location": "Zoom - meet.crucible.example/sentinel-onboarding",
     "recurring": "none"
   },
   {
@@ -530,9 +530,9 @@
     "start_time": "2026-03-03T16:00:00-08:00",
     "end_time": "2026-03-03T16:30:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "kevin.zhao@crucible.com",
-      "jennifer.wu@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "kevin.zhao@crucible.example",
+      "jennifer.wu@crucible.example"
     ],
     "location": "Calendar Reminder",
     "recurring": "none"
@@ -543,10 +543,10 @@
     "start_time": "2026-03-12T16:00:00-08:00",
     "end_time": "2026-03-12T16:30:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "jennifer.wu@crucible.com",
-      "kevin.zhao@crucible.com",
-      "thomas.chen@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "jennifer.wu@crucible.example",
+      "kevin.zhao@crucible.example",
+      "thomas.chen@crucible.example"
     ],
     "location": "Calendar Reminder",
     "recurring": "none"
@@ -557,9 +557,9 @@
     "start_time": "2026-03-26T16:00:00-08:00",
     "end_time": "2026-03-26T16:30:00-08:00",
     "attendees": [
-      "jorge.alvarez@crucible.com",
-      "kevin.zhao@crucible.com",
-      "thomas.chen@crucible.com"
+      "jorge.alvarez@crucible.example",
+      "kevin.zhao@crucible.example",
+      "thomas.chen@crucible.example"
     ],
     "location": "Calendar Reminder",
     "recurring": "none"

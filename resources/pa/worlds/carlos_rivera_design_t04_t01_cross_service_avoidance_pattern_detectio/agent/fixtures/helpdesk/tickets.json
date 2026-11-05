@@ -2,7 +2,7 @@
   {
     "ticket_id": "TK-801",
     "title": "Adobe CC license activation issue",
-    "reporter": "carlos.rivera@freelance.design",
+    "reporter": "cristian.ruiz@freelance.design",
     "created_at": "2026-01-19T16:30:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -19,7 +19,7 @@
   {
     "ticket_id": "TK-802",
     "title": "File export format issue",
-    "reporter": "carlos.rivera@selfemployed.com",
+    "reporter": "cristian.ruiz@selfemployed.example",
     "created_at": "2026-01-23T16:10:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -35,7 +35,7 @@
   {
     "ticket_id": "TK-803",
     "title": "Font rendering issue in exported PDF",
-    "reporter": "carlos.rivera.design@gmail.com",
+    "reporter": "cristian.ruiz.design@gmail.example",
     "created_at": "2026-01-27T15:15:00+08:00",
     "priority": "low",
     "status": "abandoned",
@@ -51,7 +51,7 @@
   {
     "ticket_id": "TK-804",
     "title": "Font rendering issue in design software",
-    "reporter": "carlos.rivera@freelance.com",
+    "reporter": "cristian.ruiz@freelance.example",
     "created_at": "2026-01-29T11:20:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -67,7 +67,7 @@
   {
     "ticket_id": "TK-805",
     "title": "Font rendering issue in design software",
-    "reporter": "carlos.rivera@self-employed.com",
+    "reporter": "cristian.ruiz@self-employed.example",
     "created_at": "2026-02-09T11:05:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -84,7 +84,7 @@
   {
     "ticket_id": "TK-806",
     "title": "Font rendering issue in exported PDF",
-    "reporter": "carlos.rivera@freelance.com",
+    "reporter": "cristian.ruiz@freelance.example",
     "created_at": "2026-02-12T10:45:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -101,7 +101,7 @@
   {
     "ticket_id": "TK-807",
     "title": "Design software export settings issue",
-    "reporter": "carlos.rivera@self-employed.com",
+    "reporter": "cristian.ruiz@self-employed.example",
     "created_at": "2026-02-18T10:45:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -118,7 +118,7 @@
   {
     "ticket_id": "TK-808",
     "title": "Font rendering issue in design software",
-    "reporter": "carlos.rivera@freelance.com",
+    "reporter": "cristian.ruiz@freelance.example",
     "created_at": "2026-03-25T14:50:00+08:00",
     "priority": "low",
     "status": "draft",

@@ -6,8 +6,8 @@
     "currency": "SEK",
     "merchant": "Linklaters Stockholm",
     "category": "external_advisor_invoice",
-    "description": "Legal advisory services - Finnish M&A diligence phase (Project Aurora). Invoice LK-2026-00847. Period: Dec 16, 2025 - Jan 15, 2026. 70 billable hours across corporate structure review, contract analysis, regulatory compliance, and management interviews. PENDING APPROVAL - exceeds Sven Lindgren authority ceiling of SEK 200,000 by SEK 140,000.",
-    "receipt_url": "https://vasaholm.sharepoint.com/finance/invoices/2026/01/LK-2026-00847.pdf"
+    "description": "Legal advisory services - Finnish M&A diligence phase (Project Aurora). Invoice LK-2026-00847. Period: Dec 16, 2025 - Jan 15, 2026. 70 billable hours across corporate structure review, contract analysis, regulatory compliance, and management interviews. PENDING APPROVAL - exceeds Stefan Ljungberg authority ceiling of SEK 200,000 by SEK 140,000.",
+    "receipt_url": "https://vasaholm.sharepoint.example/finance/invoices/2026/01/LK-2026-00847.pdf"
   },
   {
     "transaction_id": "TXN-6002",
@@ -17,7 +17,7 @@
     "merchant": "Nordic Strategy Advisors AB",
     "category": "consulting_services",
     "description": "BU portfolio benchmarking analysis - Phase 1 deliverable. Approved by S. Lindgren.",
-    "receipt_url": "https://vasaholm.sharepoint.com/finance/invoices/2026/01/NSA-2026-0012.pdf"
+    "receipt_url": "https://vasaholm.sharepoint.example/finance/invoices/2026/01/NSA-2026-0012.pdf"
   },
   {
     "transaction_id": "TXN-6003",
@@ -27,7 +27,7 @@
     "merchant": "Linklaters Stockholm",
     "category": "external_advisor_invoice",
     "description": "Legal advisory services - Finnish M&A preliminary assessment. Invoice LK-2025-01203. Approved by S. Lindgren (within authority).",
-    "receipt_url": "https://vasaholm.sharepoint.com/finance/invoices/2026/01/LK-2025-01203.pdf"
+    "receipt_url": "https://vasaholm.sharepoint.example/finance/invoices/2026/01/LK-2025-01203.pdf"
   },
   {
     "transaction_id": "TXN-6004",
@@ -67,7 +67,7 @@
     "merchant": "Linklaters Stockholm",
     "category": "external_advisor",
     "description": "Q1 External Advisor - Unplanned legal escalation related to Finnish M&A diligence (additional IP and regulatory work)",
-    "receipt_url": "https://vasaholm.invoices.net/lk-2026-00891"
+    "receipt_url": "https://vasaholm.invoices.example/lk-2026-00891"
   },
   {
     "transaction_id": "TXN-6008",
@@ -77,7 +77,7 @@
     "merchant": "Nordic Strategy Advisors AB",
     "category": "external_advisor",
     "description": "Q1 External Advisor - Committed invoice for BU portfolio analysis (Phase 1 of 2)",
-    "receipt_url": "https://vasaholm.invoices.net/nsa-2026-00234"
+    "receipt_url": "https://vasaholm.invoices.example/nsa-2026-00234"
   },
   {
     "transaction_id": "TXN-6009",
@@ -87,7 +87,7 @@
     "merchant": "Competitive Intelligence Partners AB",
     "category": "external_advisor",
     "description": "Q1 External Advisor - Competitive intelligence on German rival Nordic expansion (Phase 1 reduced scope)",
-    "receipt_url": "https://vasaholm.invoices.net/cip-2026-00089"
+    "receipt_url": "https://vasaholm.invoices.example/cip-2026-00089"
   },
   {
     "transaction_id": "TXN-6010",

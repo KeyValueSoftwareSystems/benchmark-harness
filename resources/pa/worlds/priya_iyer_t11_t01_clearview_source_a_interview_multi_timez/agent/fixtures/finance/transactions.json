@@ -7,7 +7,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "investigative_services",
     "description": "ECI Premium Bulk Registry Access Package - 200 queries covering Cyprus, Malta, Jersey jurisdictions. Invoice ECI-2026-0847. CLEARVIEW investigation. Package expiration: 2026-07-28.",
-    "receipt_url": "https://portal.eci-registry.com/invoices/ECI-2026-0847.pdf"
+    "receipt_url": "https://portal.eci-registry.example/invoices/ECI-2026-0847.pdf"
   },
   {
     "transaction_id": "TXN-6002",
@@ -26,8 +26,8 @@
     "currency": "EUR",
     "merchant": "European Corporate Intelligence Ltd",
     "category": "research_services",
-    "description": "CLEARVIEW Investigation - Bulk registry access package: 200 queries across Cyprus, Malta, Jersey jurisdictions. Package expires 2026-04-18 (90 days). Account: TML-2026-047. Contact: Thomas Patel (thomas.patel@eci-registry.com)",
-    "receipt_url": "https://eci-registry.com/invoices/TML-2026-047-20260118.pdf"
+    "description": "CLEARVIEW Investigation - Bulk registry access package: 200 queries across Cyprus, Malta, Jersey jurisdictions. Package expires 2026-04-18 (90 days). Account: TML-2026-047. Contact: Thomas Patel (thomas.patel@eci-registry.example)",
+    "receipt_url": "https://eci-registry.example/invoices/TML-2026-047-20260118.pdf"
   },
   {
     "transaction_id": "TXN-6004",
@@ -37,7 +37,7 @@
     "merchant": "Global Registry Direct",
     "category": "research_services",
     "description": "GRD trial queries - 10x Panama beneficial ownership lookups at €2.50/query for CLEARVIEW investigation quality assessment. 24hr turnaround service. Reference: GRD-TRIAL-20260123",
-    "receipt_url": "https://globalregistrydirect.com/receipts/GRD-TRIAL-20260123.pdf"
+    "receipt_url": "https://globalregistrydirect.example/receipts/GRD-TRIAL-20260123.pdf"
   },
   {
     "transaction_id": "TXN-6005",
@@ -57,7 +57,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "vendor_services",
     "description": "ECI bulk registry package - Cyprus/Malta/Jersey (200 queries, 12-month access) - Previous purchase for CLEARVIEW investigation. Standard pricing. Account activated Feb 10. ToS §4.2 no-refund policy applies. Transaction includes full Terms of Service document.",
-    "receipt_url": "https://eci-registry.com/receipts/TXN-ML-20260210-450EUR.pdf"
+    "receipt_url": "https://eci-registry.example/receipts/TXN-ML-20260210-450EUR.pdf"
   },
   {
     "transaction_id": "TXN-6007",
@@ -67,7 +67,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "investigation_vendor",
     "description": "CLEARVIEW investigation - ECI bulk registry package (Cyprus/Malta/Jersey, 200 queries) - 127 queries remaining as of March 12",
-    "receipt_url": "https://eci-registry.com/invoices/INV-2026-02-450"
+    "receipt_url": "https://eci-registry.example/invoices/INV-2026-02-450"
   },
   {
     "transaction_id": "TXN-6008",
@@ -77,7 +77,7 @@
     "merchant": "SecureComm Services",
     "category": "investigation_infrastructure",
     "description": "CLEARVIEW investigation - Encrypted communications infrastructure (Signal premium, PGP key management, secure file transfer)",
-    "receipt_url": "https://securecomm.io/receipts/SC-2026-85"
+    "receipt_url": "https://securecomm.example/receipts/SC-2026-85"
   },
   {
     "transaction_id": "TXN-6009",
@@ -87,7 +87,7 @@
     "merchant": "Global Registry Direct",
     "category": "investigation_vendor",
     "description": "CLEARVIEW investigation - Premium Panama registry search (3 entities, 24-hour turnaround) - PARTIAL ALLOCATION within budget cap",
-    "receipt_url": "https://globalregistrydirect.com/inv/GRD-2026-180"
+    "receipt_url": "https://globalregistrydirect.example/inv/GRD-2026-180"
   },
   {
     "transaction_id": "TXN-6010",
@@ -107,7 +107,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "investigation_services",
     "description": "ECI bulk registry package - 200 queries Cyprus/Malta/Jersey, 5-7 day turnaround, CLEARVIEW investigation",
-    "receipt_url": "https://eci-registry.com/invoices/INV-2026-01-0847"
+    "receipt_url": "https://eci-registry.example/invoices/INV-2026-01-0847"
   },
   {
     "transaction_id": "TXN-6012",
@@ -117,7 +117,7 @@
     "merchant": "Global Registry Direct",
     "category": "investigation_services",
     "description": "GRD premium Panama searches - 7 queries @ €25/query, 24-hour guaranteed turnaround, CLEARVIEW investigation",
-    "receipt_url": "https://globalregistrydirect.com/receipts/GRD-2026-03-0521"
+    "receipt_url": "https://globalregistrydirect.example/receipts/GRD-2026-03-0521"
   },
   {
     "transaction_id": "TXN-6013",
@@ -145,7 +145,7 @@
     "currency": "EUR",
     "merchant": "Panama Registry Agent (Escrow - Pending)",
     "category": "registry_search",
-    "description": "CLEARVIEW Investigation - Panama beneficial ownership search via local agent. ESCROW ARRANGEMENT: Payment authorized pending entity confirmation. Legal counsel escrow authorization letter provided. Agent: secure.panama.agent@protonmail.com. Processing: 7-10 days. PENDING FINANCE APPROVAL."
+    "description": "CLEARVIEW Investigation - Panama beneficial ownership search via local agent. ESCROW ARRANGEMENT: Payment authorized pending entity confirmation. Legal counsel escrow authorization letter provided. Agent: secure.panama.agent@protonmail.example. Processing: 7-10 days. PENDING FINANCE APPROVAL."
   },
   {
     "transaction_id": "TXN-6016",
@@ -155,7 +155,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "registry_services",
     "description": "ECI bulk registry package - 200 queries (Cyprus/Malta/Jersey jurisdictions), 5-7 day turnaround. Package ID: ECI-BULK-2025-1218. Queries remaining: 127 of 200 as of 2026-01-08.",
-    "receipt_url": "https://eci-registry.com/invoices/ECI-BULK-2025-1218.pdf"
+    "receipt_url": "https://eci-registry.example/invoices/ECI-BULK-2025-1218.pdf"
   },
   {
     "transaction_id": "TXN-6017",
@@ -165,7 +165,7 @@
     "merchant": "Global Registry Direct",
     "category": "registry_services",
     "description": "GRD premium query - Panama beneficial ownership verification: Sentinel Holdings S.A. (Panama entity ID: PA-2024-089456). 24-hour turnaround service.",
-    "receipt_url": "https://grd-premium.com/receipt/GRD-20260107-001.pdf"
+    "receipt_url": "https://grd-premium.example/receipt/GRD-20260107-001.pdf"
   },
   {
     "transaction_id": "TXN-6018",
@@ -175,7 +175,7 @@
     "merchant": "Global Registry Direct",
     "category": "registry_services",
     "description": "GRD premium queries (2x) - Panama beneficial ownership: Clearwater Investments Ltd (PA-2023-076234) and Pacific Trade Corp (PA-2024-012789). CLEARVIEW investigation priority allocation.",
-    "receipt_url": "https://grd-premium.com/receipt/GRD-20260108-002.pdf"
+    "receipt_url": "https://grd-premium.example/receipt/GRD-20260108-002.pdf"
   },
   {
     "transaction_id": "TXN-6019",
@@ -195,7 +195,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "registry_services",
     "description": "ECI bulk registry package - Cyprus/Malta/Jersey (200 queries) - supplemental queries beyond initial package",
-    "receipt_url": "https://eci-registry.com/invoices/INV-2026-0108-ML-IYER"
+    "receipt_url": "https://eci-registry.example/invoices/INV-2026-0108-ML-IYER"
   },
   {
     "transaction_id": "TXN-6021",
@@ -205,7 +205,7 @@
     "merchant": "Global Registry Direct",
     "category": "registry_services",
     "description": "GRD premium query package - Panama corporate registry (5 queries, 24hr turnaround)",
-    "receipt_url": "https://grd-premium.com/receipts/GRD-20260115-3847"
+    "receipt_url": "https://grd-premium.example/receipts/GRD-20260115-3847"
   },
   {
     "transaction_id": "TXN-6022",
@@ -215,7 +215,7 @@
     "merchant": "Global Registry Direct",
     "category": "registry_services",
     "description": "GRD standard query package - Cayman Islands registry (3 queries, 72hr turnaround)",
-    "receipt_url": "https://grd-premium.com/receipts/GRD-20260122-4102"
+    "receipt_url": "https://grd-premium.example/receipts/GRD-20260122-4102"
   },
   {
     "transaction_id": "TXN-6023",
@@ -235,7 +235,7 @@
     "merchant": "Global Registry Direct - Premium Services",
     "category": "registry_vendor",
     "description": "Panama beneficial ownership searches - 7 entities for CLEARVIEW investigation (Clearview Maritime Holdings SA, Apex Consolidated SA, Sentinel Holdings Corp, Pacific Trade Facilitators Inc, Coastal Investment Partners SA, Maritime Services Group Ltd, Offshore Consulting Associates SA). 24-hour turnaround service for March 18 Source A interview preparation. Invoice #GRD-2026-1847.",
-    "receipt_url": "https://grd-premium.com/invoices/GRD-2026-1847.pdf"
+    "receipt_url": "https://grd-premium.example/invoices/GRD-2026-1847.pdf"
   },
   {
     "transaction_id": "TXN-6025",
@@ -255,7 +255,7 @@
     "merchant": "Global Registry Direct - Trial Query",
     "category": "investigation_expenses",
     "description": "GRD trial query - Clearview Maritime Holdings SA (Panama) - beneficial ownership verification quality assessment before full vendor commitment. Query returned complete beneficial ownership chain to 3 natural persons within 68 hours, confirming 87% success rate claim. Data quality sufficient for legal review standards per Rajesh Mehta guidance.",
-    "receipt_url": "https://grd-premium.com/invoices/trial-query-2026-01-30-PI847"
+    "receipt_url": "https://grd-premium.example/invoices/trial-query-2026-01-30-PI847"
   },
   {
     "transaction_id": "TXN-6027",
@@ -265,7 +265,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "investigation_expenses",
     "description": "CLEARVIEW investigation - ECI bulk registry package (200 queries, Cyprus/Jersey/Malta coverage). Allocated for 30 queries: Cyprus (18 critical-path queries for Source A interview prep) + Jersey (12 follow-up verification queries). 5-7 day standard turnaround. Part of hybrid vendor allocation strategy approved by Marcus Chen Feb 3.",
-    "receipt_url": "https://eci-registry.com/invoices/bulk-package-ML-2026-02-04"
+    "receipt_url": "https://eci-registry.example/invoices/bulk-package-ML-2026-02-04"
   },
   {
     "transaction_id": "TXN-6028",
@@ -275,7 +275,7 @@
     "merchant": "Global Registry Direct - Premium Services",
     "category": "investigation_expenses",
     "description": "CLEARVIEW investigation - GRD premium Panama beneficial ownership queries (11 queries @ €12/query). 48-72 hour turnaround guarantee. Panama specialization selected for superior data quality (87% success rate) meeting legal review dual-source waiver threshold. Part of hybrid vendor allocation strategy.",
-    "receipt_url": "https://grd-premium.com/invoices/panama-queries-ML-2026-02-04"
+    "receipt_url": "https://grd-premium.example/invoices/panama-queries-ML-2026-02-04"
   },
   {
     "transaction_id": "TXN-6029",
@@ -285,7 +285,7 @@
     "merchant": "European Corporate Intelligence Ltd - Expedited Processing",
     "category": "investigation_expenses",
     "description": "CLEARVIEW investigation - ECI expedited processing fee for 18 Cyprus critical-path queries. Reduces turnaround from 5-7 days to 3-4 days (delivery by Feb 8-9 vs Feb 11-12), creating 12-day buffer for legal review before Source A interview (Feb 21). Approved by Marcus Chen per Rajesh Mehta timeline risk assessment.",
-    "receipt_url": "https://eci-registry.com/invoices/expedited-fee-ML-2026-02-05"
+    "receipt_url": "https://eci-registry.example/invoices/expedited-fee-ML-2026-02-05"
   },
   {
     "transaction_id": "TXN-6030",
@@ -295,7 +295,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "registry_services",
     "description": "ECI Bulk Registry Package - Cyprus/Malta/Jersey - 200 queries (CLEARVIEW investigation)",
-    "receipt_url": "https://eci-registry.com/invoices/INV-2026-04751.pdf"
+    "receipt_url": "https://eci-registry.example/invoices/INV-2026-04751.pdf"
   },
   {
     "transaction_id": "TXN-6031",
@@ -305,7 +305,7 @@
     "merchant": "Global Registry Direct",
     "category": "registry_services",
     "description": "GRD Premium - 3x Panama registry queries (trial verification for Source A timeline)",
-    "receipt_url": "https://grd-premium.com/receipts/GRD-2026-02-0847.pdf"
+    "receipt_url": "https://grd-premium.example/receipts/GRD-2026-02-0847.pdf"
   },
   {
     "transaction_id": "TXN-6032",
@@ -315,7 +315,7 @@
     "merchant": "Global Registry Direct",
     "category": "registry_services",
     "description": "GRD Premium - 1x Panama expedited query (Sentinel Holdings subsidiary verification)",
-    "receipt_url": "https://grd-premium.com/receipts/GRD-2026-02-1293.pdf"
+    "receipt_url": "https://grd-premium.example/receipts/GRD-2026-02-1293.pdf"
   },
   {
     "transaction_id": "TXN-6033",
@@ -325,7 +325,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "vendor_services",
     "description": "CLEARVIEW investigation - ECI bulk registry package (200 queries: Cyprus/Malta/Jersey coverage, 5-7 day turnaround). Prepaid package expires April 18, 2026. 127 queries used as of Feb 14, 73 queries remaining.",
-    "receipt_url": "https://finance.morningledger.news/receipts/2026/TXN-6033.pdf"
+    "receipt_url": "https://finance.morningledger.example/receipts/2026/TXN-6033.pdf"
   },
   {
     "transaction_id": "TXN-6034",
@@ -335,7 +335,7 @@
     "merchant": "Global Registry Direct - Premium Services",
     "category": "vendor_services",
     "description": "CLEARVIEW investigation - GRD premium service trial (3 Panama queries, 24hr turnaround guarantee). Testing service quality for potential larger batch allocation.",
-    "receipt_url": "https://finance.morningledger.news/receipts/2026/TXN-6034.pdf"
+    "receipt_url": "https://finance.morningledger.example/receipts/2026/TXN-6034.pdf"
   },
   {
     "transaction_id": "TXN-6035",
@@ -345,7 +345,7 @@
     "merchant": "Global Registry Direct",
     "category": "vendor_services",
     "description": "CLEARVIEW investigation - GRD standard service (3 Cayman queries, 72hr turnaround). Cost comparison test vs premium service.",
-    "receipt_url": "https://finance.morningledger.news/receipts/2026/TXN-6035.pdf"
+    "receipt_url": "https://finance.morningledger.example/receipts/2026/TXN-6035.pdf"
   },
   {
     "transaction_id": "TXN-6036",
@@ -355,7 +355,7 @@
     "merchant": "Global Registry Direct - Premium Services",
     "category": "registry_verification",
     "description": "CLEARVIEW investigation - Panama registry priority queries (6 entities) + Cayman Islands queries (4 entities). 24-hour turnaround premium service. Invoice #GRD-2026-0847. Total: 10 entities × €25 = €250. Delivered March 23, 22-hour actual turnaround.",
-    "receipt_url": "https://grd-premium.com/invoices/GRD-2026-0847.pdf"
+    "receipt_url": "https://grd-premium.example/invoices/GRD-2026-0847.pdf"
   },
   {
     "transaction_id": "TXN-6037",
@@ -365,7 +365,7 @@
     "merchant": "European Corporate Intelligence Ltd - Expedited Processing",
     "category": "registry_verification",
     "description": "CLEARVIEW investigation - Expedited processing fee for Cyprus Companies House (5 remaining entities) and Jersey FSC (5 remaining entities) batches. Guarantees March 26 delivery vs March 27-28 standard turnaround. Invoice #ECI-2026-1243. Approved for timeline risk mitigation - legal review deadline March 28.",
-    "receipt_url": "https://eci-registry.com/invoices/ECI-2026-1243.pdf"
+    "receipt_url": "https://eci-registry.example/invoices/ECI-2026-1243.pdf"
   },
   {
     "transaction_id": "TXN-6038",
@@ -385,7 +385,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "registry_services",
     "description": "CLEARVIEW Week 12 - Cyprus/Malta registry bulk query package (batch #ECI-2026-0394)",
-    "receipt_url": "https://receipts.morningledger.news/TXN-6039-ECI-bulk-query.pdf"
+    "receipt_url": "https://receipts.morningledger.example/TXN-6039-ECI-bulk-query.pdf"
   },
   {
     "transaction_id": "TXN-6040",
@@ -395,7 +395,7 @@
     "merchant": "Global Registry Direct - Premium Services",
     "category": "registry_services",
     "description": "CLEARVIEW Week 12 - Jersey FSC expedited beneficial ownership queries (3 entities, 24-hour turnaround)",
-    "receipt_url": "https://receipts.morningledger.news/TXN-6040-GRD-premium.pdf"
+    "receipt_url": "https://receipts.morningledger.example/TXN-6040-GRD-premium.pdf"
   },
   {
     "transaction_id": "TXN-6041",
@@ -405,7 +405,7 @@
     "merchant": "Global Registry Direct - Premium Services",
     "category": "registry_services",
     "description": "CLEARVIEW investigation - GRD premium registry access (final vendor selection after ECI/GRD/Registry Intelligence evaluation). Per-query pricing model, 24-48hr turnaround guarantee.",
-    "receipt_url": "https://receipts.morningledger.news/TXN-6041.pdf"
+    "receipt_url": "https://receipts.morningledger.example/TXN-6041.pdf"
   },
   {
     "transaction_id": "TXN-6042",
@@ -415,7 +415,7 @@
     "merchant": "European Corporate Intelligence Ltd",
     "category": "vendor_services",
     "description": "ECI bulk registry package - 200 queries (Cyprus/Malta/Jersey coverage), 5-7 day turnaround. Invoice #ECI-2026-0847. Package expires 2026-04-18.",
-    "receipt_url": "https://eci-registry.com/invoices/ECI-2026-0847.pdf"
+    "receipt_url": "https://eci-registry.example/invoices/ECI-2026-0847.pdf"
   },
   {
     "transaction_id": "TXN-6043",
@@ -435,7 +435,7 @@
     "merchant": "Global Registry Direct - Trial Query",
     "category": "vendor_services",
     "description": "GRD trial query - Panama entity beneficial ownership verification (Clearview Maritime Holdings SA). 24-hour premium service test for vendor quality assessment.",
-    "receipt_url": "https://grd-premium.com/receipts/GRD-TRIAL-2847.pdf"
+    "receipt_url": "https://grd-premium.example/receipts/GRD-TRIAL-2847.pdf"
   },
   {
     "transaction_id": "TXN-6045",

@@ -2,7 +2,7 @@
   {
     "workbook_id": "WB-1",
     "name": "Q1 2026 Inventory Economics",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-001",
@@ -211,7 +211,7 @@
   {
     "workbook_id": "WB-2",
     "name": "Q1 2026 Facebook Ads Budget Optimization",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-2001",
@@ -353,7 +353,7 @@
   {
     "workbook_id": "WB-3",
     "name": "Q1 2026 3PL Fulfillment Timeline Coordination",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-3001",
@@ -520,7 +520,7 @@
             "2026-02-12",
             "$950",
             "APPROVED",
-            "Dario",
+            "Davide",
             "David Morrison confirmation",
             "Container hits weekend maintenance closure"
           ],
@@ -538,7 +538,7 @@
             "2026-02-18",
             "$0",
             "CONFIRMED",
-            "Dario",
+            "Davide",
             "Container arrival by Feb 22",
             "QC slots fill up, pushed to Feb 26-27"
           ],
@@ -565,7 +565,7 @@
             "2026-02-18",
             "$15,400",
             "PENDING",
-            "Dario",
+            "Davide",
             "Container departure approval",
             "Container departure delayed"
           ],
@@ -642,7 +642,7 @@
   {
     "workbook_id": "WB-4",
     "name": "Q2 2026 Product Line Expansion Roadmap",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-401",
@@ -668,7 +668,7 @@
             "500",
             "Meihao/Yongxin",
             "Quote Pending",
-            "Dario"
+            "Davide"
           ],
           [
             "SKU-105",
@@ -679,7 +679,7 @@
             "300",
             "Yongxin",
             "Quote Pending",
-            "Dario"
+            "Davide"
           ],
           [
             "SKU-106",
@@ -690,7 +690,7 @@
             "300",
             "Yongxin",
             "Quote Pending",
-            "Dario"
+            "Davide"
           ],
           [
             "SKU-107",
@@ -701,7 +701,7 @@
             "500",
             "Meihao",
             "Quote Pending",
-            "Dario"
+            "Davide"
           ],
           [
             "SKU-108",
@@ -731,14 +731,14 @@
             "Supplier",
             "Deposit lock-in limited switching flexibility",
             "Add 2 pre-vetted backup suppliers",
-            "Dario",
+            "Davide",
             "2026-03-15"
           ],
           [
             "Supplier",
             "No price leverage with sole-source factories",
             "Negotiate volume discounts using competitive quotes",
-            "Dario",
+            "Davide",
             "2026-02-28"
           ],
           [
@@ -773,14 +773,14 @@
             "Product",
             "Reed diffuser bundles underperformed (1.4x ROAS)",
             "Discontinued - focus on top performers",
-            "Dario",
+            "Davide",
             "Complete"
           ],
           [
             "Product",
             "Customer requests for larger refill packs",
             "Launch 6-pack refills in Q2",
-            "Dario",
+            "Davide",
             "2026-05-15"
           ]
         ]
@@ -800,7 +800,7 @@
           [
             "W5 (Jan 27)",
             "Pull Q1 SKU performance data",
-            "Dario",
+            "Davide",
             "In Progress",
             "None",
             "Due Jan 28"
@@ -808,7 +808,7 @@
           [
             "W6 (Feb 3)",
             "Request Q2 SKU quotes from suppliers",
-            "Dario",
+            "Davide",
             "Pending",
             "SKU data analysis",
             "Due Feb 5"
@@ -816,7 +816,7 @@
           [
             "W6 (Feb 3)",
             "Order Jinlong sample set",
-            "Dario",
+            "Davide",
             "Pending",
             "None",
             "Due Jan 30"
@@ -832,7 +832,7 @@
           [
             "W8 (Feb 17)",
             "Evaluate Jinlong samples",
-            "Dario + Mike",
+            "Davide + Mike",
             "Pending",
             "Sample arrival",
             "Quality check"
@@ -840,7 +840,7 @@
           [
             "W9 (Feb 24)",
             "Finalize Q2 supplier contracts",
-            "Dario",
+            "Davide",
             "Pending",
             "Quote comparison",
             "Sign by Feb 28"
@@ -864,7 +864,7 @@
           [
             "W13 (Mar 24)",
             "Break down Q2 roadmap into weekly tasks",
-            "Dario",
+            "Davide",
             "Pending",
             "Planning session",
             "Due Mar 28"
@@ -878,7 +878,7 @@
   {
     "workbook_id": "WB-5",
     "name": "Q2 2026 Supplier Decision Analysis",
-    "owner": "jessica.torres@solettaliving.com",
+    "owner": "jessica.torres@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-5001",
@@ -1082,7 +1082,7 @@
   {
     "workbook_id": "WB-6",
     "name": "Q2 2026 Production Deposit Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-6-1",
@@ -1302,7 +1302,7 @@
   {
     "workbook_id": "WB-7",
     "name": "Q1 2026 Freight Expedite Decision Analysis - Container TCLU8834521",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-701",
@@ -1971,7 +1971,7 @@
   {
     "workbook_id": "WB-8",
     "name": "Q2 2026 Supplier Pricing Verification Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Yongxin Price Increase Claims",
@@ -1994,7 +1994,7 @@
             "April 1 regulatory deadline",
             "Chen Xiaoming WeChat 3/23",
             "Contradicted",
-            "Wang Jianhua: Sept 1 deadline, Li Ming: June 1 for new contracts",
+            "Wang Jianhua: Sept 1 deadline, Liu Hao: June 1 for new contracts",
             "Low"
           ],
           [
@@ -2151,7 +2151,7 @@
   {
     "workbook_id": "WB-9",
     "name": "Q2 2026 Supplier Deposit Decision - Cash Flow Scenarios",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-9001",
@@ -2343,7 +2343,7 @@
   {
     "workbook_id": "WB-10",
     "name": "Q2 2026 Production Order Dependency Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-1001",
@@ -2617,7 +2617,7 @@
   {
     "workbook_id": "WB-11",
     "name": "Q2 2026 Supplier Negotiation Decision Framework",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Deposit Scenarios",
@@ -2884,7 +2884,7 @@
   {
     "workbook_id": "WB-12",
     "name": "SKU-104 QC Inspection Scheduling - March 12-14 Conflict Matrix",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-12-01",
@@ -2979,7 +2979,7 @@
   {
     "workbook_id": "WB-13",
     "name": "Weekly Operations Dashboard - Jan 17, 2026",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Critical Path Items",
@@ -3195,7 +3195,7 @@
   {
     "workbook_id": "WB-14",
     "name": "Q1 2026 Task Cognitive Load Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-14-1",
@@ -3390,7 +3390,7 @@
   {
     "workbook_id": "WB-15",
     "name": "Q2 2026 Yongxin Price Increase Decision Model",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-15-1",
@@ -3543,7 +3543,7 @@
   {
     "workbook_id": "WB-16",
     "name": "Q2 Production Deposit Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-16-1",
@@ -3677,7 +3677,7 @@
   {
     "workbook_id": "WB-17",
     "name": "Q2 Supplier Deposit Decision - Cash Flow Constraint Scenarios",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-17-1",
@@ -4098,7 +4098,7 @@
   {
     "workbook_id": "WB-18",
     "name": "Q1 2026 Marketing Budget Reconciliation",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-18-1",
@@ -4138,7 +4138,7 @@
   {
     "workbook_id": "WB-19",
     "name": "Q2 2026 Amazon Lightning Deal Promotion Stacking Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Cost Structure",
@@ -4424,7 +4424,7 @@
   {
     "workbook_id": "WB-20",
     "name": "Q2 2026 Production Dependency Chain - Critical Path Model",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-20-1",
@@ -4448,7 +4448,7 @@
           },
           {
             "Task": "Meihao Deposit Payment",
-            "Owner": "Dario",
+            "Owner": "Davide",
             "Deadline": "2026-02-09",
             "Status": "Conditional",
             "Downstream Impact": "Ceramic production",
@@ -4464,7 +4464,7 @@
           },
           {
             "Task": "Yongxin Deposit Decision Checkpoint",
-            "Owner": "Dario",
+            "Owner": "Davide",
             "Deadline": "2026-02-08",
             "Status": "Gated",
             "Downstream Impact": "Refill production",
@@ -4472,7 +4472,7 @@
           },
           {
             "Task": "Yongxin Deposit Payment",
-            "Owner": "Dario",
+            "Owner": "Davide",
             "Deadline": "2026-02-10",
             "Status": "Conditional",
             "Downstream Impact": "Refill slot (USD 5K)",
@@ -4591,7 +4591,7 @@
   {
     "workbook_id": "WB-21",
     "name": "Q1 2026 Amazon Performance Dashboard",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-21001",
@@ -4640,7 +4640,7 @@
   {
     "workbook_id": "WB-22",
     "name": "Q2 2026 Supplier Deposit Decision - Cash Flow Constraint Scenarios",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-001",
@@ -4905,7 +4905,7 @@
   {
     "workbook_id": "WB-23",
     "name": "Q2 2026 Deposit Allocation Decision Matrix",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-23-1",
@@ -5156,7 +5156,7 @@
   {
     "workbook_id": "WB-24",
     "name": "Q2 Production Slot Risk Assessment",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-24-1",
@@ -5245,7 +5245,7 @@
   {
     "workbook_id": "WB-25",
     "name": "Q2 2026 Deposit Sequencing - Policy Compliance Scenarios",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-25-1",
@@ -5456,7 +5456,7 @@
   {
     "workbook_id": "WB-26",
     "name": "Wholesale Partnership Facility Inspection Tracker",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Buyer Requests Log",
@@ -5588,7 +5588,7 @@
   {
     "workbook_id": "WB-27",
     "name": "Q2 2026 Supplier Deposit Commitment Chain Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-27-1",
@@ -5826,7 +5826,7 @@
   {
     "workbook_id": "WB-28",
     "name": "Q1 2026 Customs Delay Impact Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-28-1",
@@ -5873,7 +5873,7 @@
   {
     "workbook_id": "WB-29",
     "name": "Q2 2026 Production Slot Collision Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Supplier Timeline Overlap",
@@ -6080,7 +6080,7 @@
   {
     "workbook_id": "WB-30",
     "name": "Q2 2026 Supplier Deposit Allocation - Multi-dimensional Optimization",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-301",
@@ -6419,7 +6419,7 @@
   {
     "workbook_id": "WB-31",
     "name": "Q2 2026 Mother's Day Revenue Model - SKU-101 Velocity Projection",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-311",
@@ -6524,7 +6524,7 @@
   {
     "workbook_id": "WB-32",
     "name": "Q2 2026 Supplier Call Prep - Pricing & Timeline Verification",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Yongxin Refill Pricing Analysis",
@@ -6712,7 +6712,7 @@
   {
     "workbook_id": "WB-33",
     "name": "Q2 2026 Jinlong vs Meihao Decision Analysis - Sunk Cost Model",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "1",
@@ -6896,7 +6896,7 @@
   {
     "workbook_id": "WB-34",
     "name": "Q2 2026 Cash Flow - Meihao Deposit Timing",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "1",
@@ -6967,7 +6967,7 @@
   {
     "workbook_id": "WB-35",
     "name": "Q2 2026 Lightning Deal Promotion Economics - SKU-101",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Velocity Scenarios",
@@ -7228,7 +7228,7 @@
   {
     "workbook_id": "WB-36",
     "name": "Q1-2026 Supplier Deposit Allocation Combinatorial Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Scenario Matrix",
@@ -7421,7 +7421,7 @@
   {
     "workbook_id": "WB-37",
     "name": "Q2 2026 Supplier Deposit Commitment Chain Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-37-1",
@@ -7545,7 +7545,7 @@
   {
     "workbook_id": "WB-38",
     "name": "Q2 2026 Supplier Commitment Chain Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Violation Cost Matrix",
@@ -7654,7 +7654,7 @@
   {
     "workbook_id": "WB-39",
     "name": "Q2 2026 Supplier Deposit Allocation - Cash Flow Execution Plan",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-001",
@@ -7835,7 +7835,7 @@
   {
     "workbook_id": "WB-40",
     "name": "Q2 Supplier Deposit Wire Execution Tracker",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-101",
@@ -7978,7 +7978,7 @@
   {
     "workbook_id": "WB-41",
     "name": "Q2 2026 Supplier Deposit Urgency Matrix - Post-CNY Triage",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-201",
@@ -8131,7 +8131,7 @@
   {
     "workbook_id": "WB-42",
     "name": "Q1 2026 Supplier Relationship Health Scorecard",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-001",
@@ -8296,7 +8296,7 @@
   {
     "workbook_id": "WB-43",
     "name": "Q2 2026 Supplier Deposit Allocation - Multi-Constraint Optimization",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-43-1",
@@ -8592,7 +8592,7 @@
   {
     "workbook_id": "WB-44",
     "name": "Q2 2026 Supplier Relationship Capital Assessment",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-44-1",
@@ -8647,7 +8647,7 @@
   {
     "workbook_id": "WB-45",
     "name": "Weekly Calendar Prep - Apr 3-9 Supplier Call Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-001",
@@ -8910,7 +8910,7 @@
   {
     "workbook_id": "WB-46",
     "name": "Q2 2026 Supplier Information Asymmetry Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-001",
@@ -9046,7 +9046,7 @@
   {
     "workbook_id": "WB-47",
     "name": "Q2 2026 Supplier Deposit Triage - Information Asymmetry Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-47-1",
@@ -9238,7 +9238,7 @@
   {
     "workbook_id": "WB-48",
     "name": "Q2 2026 Deposit Allocation Decision Model",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-48-1",
@@ -9344,7 +9344,7 @@
   {
     "workbook_id": "WB-49",
     "name": "Q2 2026 Production Critical Path Timeline - Dependency Mapping",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-001",
@@ -9761,7 +9761,7 @@
   {
     "workbook_id": "WB-50",
     "name": "Nordstrom Wholesale Partnership - Inspection Path Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Timeline Comparison",
@@ -9903,7 +9903,7 @@
   {
     "workbook_id": "WB-51",
     "name": "Q2 2026 3PL Partner Decision Matrix",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Provider Comparison",
@@ -10112,7 +10112,7 @@
   {
     "workbook_id": "WB-52",
     "name": "Q2 2026 Supplier Deposit Crisis - Information Asymmetry Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-001",
@@ -10208,7 +10208,7 @@
           ],
           [
             "Ceramic glaze price lock expires April 7",
-            "Li Ming (Yiwu Suppliers Group)",
+            "Liu Hao (Yiwu Suppliers Group)",
             "CONFIRMED",
             "Validates Meihao material cost pressure"
           ],
@@ -10317,7 +10317,7 @@
   {
     "workbook_id": "WB-53",
     "name": "Q2 2026 Supplier Deposit Triage - Urgency Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-1",
@@ -10469,7 +10469,7 @@
   {
     "workbook_id": "WB-54",
     "name": "Q2 2026 Supplier Deposit Crisis - Forfeiture Cost Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-54-1",
@@ -10686,7 +10686,7 @@
   {
     "workbook_id": "WB-55",
     "name": "Q2 2026 Supplier Deposit Crisis - Information Asymmetry Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-001",
@@ -10894,7 +10894,7 @@
   {
     "workbook_id": "WB-56",
     "name": "Q2 2026 3PL Partner Selection - Facility Tour Scheduling Matrix",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Tour Slot Feasibility Analysis",
@@ -11085,7 +11085,7 @@
   {
     "workbook_id": "WB-57",
     "name": "Q2 2026 Jinlong vs Meihao Decision Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_name": "Sunk Cost Analysis",
@@ -11269,7 +11269,7 @@
   {
     "workbook_id": "WB-58",
     "name": "Q1 2026 Freight Expedite Decision Analysis - Container TCLU8834521",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-58-1",
@@ -11466,7 +11466,7 @@
   {
     "workbook_id": "WB-59",
     "name": "Q2 2026 Supplier Deposit Crisis - Priority Decision Matrix",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "1",
@@ -11675,7 +11675,7 @@
   {
     "workbook_id": "WB-60",
     "name": "Q2 2026 Supplier Deposit Allocation - Cash Flow Scenarios",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-001",
@@ -11909,7 +11909,7 @@
   {
     "workbook_id": "WB-61",
     "name": "Q2 2026 Production Dependency Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-001",
@@ -12020,7 +12020,7 @@
   {
     "workbook_id": "WB-62",
     "name": "Q2 2026 Supplier Deposit Allocation - Policy Compliance Analysis",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SH-62-1",
@@ -12226,7 +12226,7 @@
   {
     "workbook_id": "WB-63",
     "name": "Q1 2026 Supplier Relationship Health Scorecard",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-001",
@@ -12428,7 +12428,7 @@
   {
     "workbook_id": "WB-64",
     "name": "Q2 2026 Supplier Negotiation Timeline - Conflict Resolution Matrix",
-    "owner": "dario@solettaliving.com",
+    "owner": "davide@solettaliving.example",
     "sheets": [
       {
         "sheet_id": "SHT-001",
@@ -12450,7 +12450,7 @@
             "2026-04-05",
             "09:00 EST",
             "09:00 EST",
-            "Dario, Jessica",
+            "Davide, Jessica",
             "Finance Checkpoint",
             "CRITICAL",
             "Blocks Meihao wire",
@@ -12472,7 +12472,7 @@
             "2026-04-06",
             "15:00 EST",
             "15:00 EST",
-            "Dario, Jessica",
+            "Davide, Jessica",
             "Finance Review",
             "HIGH",
             "Meihao wire complete",
@@ -12483,7 +12483,7 @@
             "2026-04-07",
             "10:00 Beijing",
             "21:00 EST (Apr 6)",
-            "Dario, Liu Wei",
+            "Davide, Liu Wei",
             "Supplier Call",
             "CRITICAL",
             "Wire confirmed",
@@ -12494,7 +12494,7 @@
             "2026-04-03",
             "14:00 EST",
             "14:00 EST",
-            "Dario, Sarah Chen",
+            "Davide, Sarah Chen",
             "Logistics",
             "MEDIUM",
             "Production timing",
@@ -12505,7 +12505,7 @@
             "2026-04-04",
             "10:00 EST",
             "10:00 EST",
-            "Dario, Jessica, Mike",
+            "Davide, Jessica, Mike",
             "Team Coordination",
             "HIGH",
             "Decision alignment",
@@ -12516,7 +12516,7 @@
             "2026-04-08",
             "14:00 Beijing",
             "01:00 EST (Apr 8)",
-            "Dario, Chen Xiaoming",
+            "Davide, Chen Xiaoming",
             "Supplier Call",
             "HIGH",
             "Meihao secured",
@@ -12527,7 +12527,7 @@
             "2026-04-09",
             "15:00 Beijing",
             "02:00 EST (Apr 9)",
-            "Dario, Wang Jianhua",
+            "Davide, Wang Jianhua",
             "Supplier Call",
             "LOW",
             "Meihao/Yongxin status",

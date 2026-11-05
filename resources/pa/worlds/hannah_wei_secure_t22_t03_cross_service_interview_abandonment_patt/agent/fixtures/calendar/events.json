@@ -5,8 +5,8 @@
     "start_time": "2026-02-26T15:00:00+08:00",
     "end_time": "2026-02-26T16:30:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com",
-      "richard.tan.marine@protonmail.com"
+      "hannah.wei@theoutlinepacific.example",
+      "richard.tan.marine@protonmail.example"
     ],
     "location": "Signal call (secure)",
     "recurring": ""
@@ -17,9 +17,9 @@
     "start_time": "2026-03-03T14:00:00+08:00",
     "end_time": "2026-03-03T16:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com",
-      "james.kuo@theoutlinepacific.com",
-      "legal@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example",
+      "james.kuo@theoutlinepacific.example",
+      "legal@theoutlinepacific.example"
     ],
     "location": "Taipei office, conference room B",
     "recurring": ""
@@ -30,9 +30,9 @@
     "start_time": "2026-02-24T10:00:00+08:00",
     "end_time": "2026-02-24T11:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com",
-      "james.kuo@theoutlinepacific.com",
-      "accountability-desk@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example",
+      "james.kuo@theoutlinepacific.example",
+      "accountability-desk@theoutlinepacific.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"
@@ -43,7 +43,7 @@
     "start_time": "2026-02-28T11:00:00+08:00",
     "end_time": "2026-02-28T12:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Phone",
     "recurring": ""
@@ -54,9 +54,9 @@
     "start_time": "2026-01-07T15:00:00+08:00",
     "end_time": "2026-01-07T15:45:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com",
-      "legal@theoutlinepacific.com",
-      "james.kuo@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example",
+      "legal@theoutlinepacific.example",
+      "james.kuo@theoutlinepacific.example"
     ],
     "location": "Conference Room 2B / Zoom hybrid",
     "recurring": ""
@@ -67,8 +67,8 @@
     "start_time": "2026-03-28T15:00:00+08:00",
     "end_time": "2026-03-28T16:00:00+08:00",
     "attendees": [
-      "james.kuo@theoutlinepacific.com",
-      "legal@theoutlinepacific.com"
+      "james.kuo@theoutlinepacific.example",
+      "legal@theoutlinepacific.example"
     ],
     "location": "Conference Room B / Zoom hybrid",
     "recurring": ""
@@ -79,7 +79,7 @@
     "start_time": "2026-03-27T11:00:00+08:00",
     "end_time": "2026-03-27T12:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Desk work block",
     "recurring": ""
@@ -91,7 +91,7 @@
     "end_time": "2026-03-10T16:00:00+08:00",
     "attendees": [
       "Marcus Chen",
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Signal video call (secure)",
     "recurring": ""
@@ -103,7 +103,7 @@
     "end_time": "2026-03-12T11:30:00+08:00",
     "attendees": [
       "Thomas Lin",
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Zoom (standard)",
     "recurring": ""
@@ -115,7 +115,7 @@
     "end_time": "2026-03-13T16:30:00+08:00",
     "attendees": [
       "Jennifer Wu",
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Signal audio call (background sourcing)",
     "recurring": ""
@@ -126,7 +126,7 @@
     "start_time": "2026-03-14T16:00:00+08:00",
     "end_time": "2026-03-14T17:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "TBD",
     "recurring": ""
@@ -137,8 +137,8 @@
     "start_time": "2026-02-06T10:00:00+08:00",
     "end_time": "2026-02-06T10:30:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com",
-      "james.kuo@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example",
+      "james.kuo@theoutlinepacific.example"
     ],
     "location": "Editorial conference room",
     "recurring": "none"
@@ -150,7 +150,7 @@
     "end_time": "2026-03-04T15:30:00+08:00",
     "attendees": [
       "Marcus Leung",
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Central, Hong Kong (location TBD by source)",
     "recurring": "none"
@@ -162,7 +162,7 @@
     "end_time": "2026-03-06T11:30:00+08:00",
     "attendees": [
       "Sarah Okonkwo",
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Video call - Zoom link TBD",
     "recurring": "none"
@@ -175,7 +175,7 @@
     "attendees": [
       "Angela Reyes",
       "James Kuo",
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "The Outline Pacific office - conference room B",
     "recurring": "none"
@@ -186,7 +186,7 @@
     "start_time": "2026-03-04T11:00:00+08:00",
     "end_time": "2026-03-04T13:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Working block - no meetings",
     "recurring": "none"
@@ -197,7 +197,7 @@
     "start_time": "2026-03-04T15:30:00+08:00",
     "end_time": "2026-03-04T17:30:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Working block - no meetings",
     "recurring": "none"
@@ -209,7 +209,7 @@
     "end_time": "2026-03-06T16:30:00+08:00",
     "attendees": [
       "James Kuo",
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "The Outline Pacific office - James's desk",
     "recurring": "none"
@@ -220,7 +220,7 @@
     "start_time": "2026-01-09T15:00:00+08:00",
     "end_time": "2026-01-09T16:30:00+08:00",
     "attendees": [
-      "Sarah Okonkwo (s.okonkwo@pacificmaritimeins.com)"
+      "Sarah Okonkwo (s.okonkwo@pacificmaritimeins.example)"
     ],
     "location": "Zoom (secure link to be sent)",
     "recurring": ""
@@ -249,7 +249,7 @@
     "start_time": "2026-01-13T14:00:00+08:00",
     "end_time": "2026-01-13T15:30:00+08:00",
     "attendees": [
-      "Marcus Chen (m.chen.hk@protonmail.com)"
+      "Marcus Chen (m.chen.hk@protonmail.example)"
     ],
     "location": "Zoom (secure link to be sent)",
     "recurring": ""
@@ -318,7 +318,7 @@
     "start_time": "2026-02-12T13:00:00+08:00",
     "end_time": "2026-02-12T15:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Desk - investigation vault",
     "recurring": ""
@@ -329,8 +329,8 @@
     "start_time": "2026-02-12T16:00:00+08:00",
     "end_time": "2026-02-12T16:30:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com",
-      "james.kuo@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example",
+      "james.kuo@theoutlinepacific.example"
     ],
     "location": "James's office",
     "recurring": ""
@@ -341,7 +341,7 @@
     "start_time": "2026-02-13T14:00:00+08:00",
     "end_time": "2026-02-13T16:30:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Desk - investigation vault",
     "recurring": ""
@@ -352,7 +352,7 @@
     "start_time": "2026-01-16T14:00:00+08:00",
     "end_time": "2026-01-16T15:30:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Focus block - investigation vault",
     "recurring": "none"
@@ -363,7 +363,7 @@
     "start_time": "2026-01-15T15:00:00+08:00",
     "end_time": "2026-01-15T17:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Focus block - Obsidian vault",
     "recurring": "none"
@@ -489,7 +489,7 @@
     "start_time": "2026-01-25T16:30:00+08:00",
     "end_time": "2026-01-25T17:00:00+08:00",
     "attendees": [
-      "hannah.wei@theoutlinepacific.com"
+      "hannah.wei@theoutlinepacific.example"
     ],
     "location": "Desk - investigation vault review",
     "recurring": "none"

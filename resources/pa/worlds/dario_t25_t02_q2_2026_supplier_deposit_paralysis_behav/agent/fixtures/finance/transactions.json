@@ -7,7 +7,7 @@
     "merchant": "Yiwu Meihao Ceramics Co., Ltd.",
     "category": "supplier_deposit",
     "description": "Deposit payment for SKU-101 ceramic diffuser production (2,000 units). CNY production slot reservation. Factory A - Liu Wei. Total order value USD 17,000, balance USD 12,000 due 2026-01-18. Alibaba Trade Assurance order #TA-YM-20251228-447.",
-    "receipt_url": "https://payment.alibaba.com/receipt/TA-YM-20251228-447"
+    "receipt_url": "https://payment.alibaba.example/receipt/TA-YM-20251228-447"
   },
   {
     "transaction_id": "TXN-6002",
@@ -17,7 +17,7 @@
     "merchant": "Yongxin Homeware Co., Ltd.",
     "category": "supplier_deposit",
     "description": "Deposit payment for SKU-102 (1,500 units) and SKU-103 (1,200 units) refill sets production. Factory B - Chen Xiaoming. Total order value USD 10,860, balance USD 7,200 due 2026-01-15 after loyalty discount. Alibaba order #TA-YX-20251227-892.",
-    "receipt_url": "https://payment.alibaba.com/receipt/TA-YX-20251227-892"
+    "receipt_url": "https://payment.alibaba.example/receipt/TA-YX-20251227-892"
   },
   {
     "transaction_id": "TXN-6003",
@@ -47,7 +47,7 @@
     "merchant": "Meta Platforms Inc.",
     "category": "advertising",
     "description": "Facebook Ads - Q1 2026 January spend (prospecting CBO campaigns, retargeting ABO campaigns, lookalike expansion)",
-    "receipt_url": "https://business.facebook.com/billing/TXN-6005"
+    "receipt_url": "https://business.facebook.example/billing/TXN-6005"
   },
   {
     "transaction_id": "TXN-6006",
@@ -57,7 +57,7 @@
     "merchant": "Meta Platforms Inc.",
     "category": "advertising",
     "description": "Facebook Ads - Q1 2026 early February spend (partial month)",
-    "receipt_url": "https://business.facebook.com/billing/TXN-6006"
+    "receipt_url": "https://business.facebook.example/billing/TXN-6006"
   },
   {
     "transaction_id": "TXN-6007",
@@ -67,7 +67,7 @@
     "merchant": "Meta Platforms Inc.",
     "category": "advertising",
     "description": "Facebook Ads - Q1 2026 early January spend (prospecting and retargeting campaigns)",
-    "receipt_url": "https://business.facebook.com/billing/TXN-6007"
+    "receipt_url": "https://business.facebook.example/billing/TXN-6007"
   },
   {
     "transaction_id": "TXN-6008",
@@ -417,7 +417,7 @@
     "merchant": "Yongxin Homeware Co., Ltd.",
     "category": "supplier_deposit",
     "description": "Q2 Production Deposit - SKU-102/103 Refill Sets (5,500 units reserved at USD 4.20/unit, total order value USD 23,100). Deposit secures production slot for March-April manufacturing window. Balance USD 18,100 due upon container loading.",
-    "receipt_url": "https://wise.com/receipt/YX-DEP-20260203"
+    "receipt_url": "https://wise.example/receipt/YX-DEP-20260203"
   },
   {
     "transaction_id": "TXN-6043",
@@ -427,7 +427,7 @@
     "merchant": "Jinlong Manufacturing (Wang Jianhua)",
     "category": "supplier_sample",
     "description": "Sample order - SKU-102/103 quality verification (100 units at USD 4.50/unit including expedited shipping). Testing alternative supplier capability and quality standards before potential Q2 switch decision.",
-    "receipt_url": "https://paypal.com/receipt/JL-SAMPLE-20260226"
+    "receipt_url": "https://paypal.example/receipt/JL-SAMPLE-20260226"
   },
   {
     "transaction_id": "TXN-6044",
@@ -887,7 +887,7 @@
     "merchant": "Jinlong Manufacturing (Wang Jianhua)",
     "category": "supplier_deposit",
     "description": "Non-refundable trial order deposit - SKU-101 ceramic diffusers (2,500 units) Q2 production. Contract ref: JL-2026-001. 30% deposit per trial order terms.",
-    "receipt_url": "https://bank.solettaliving.com/receipts/TXN-6089.pdf"
+    "receipt_url": "https://bank.solettaliving.example/receipts/TXN-6089.pdf"
   },
   {
     "transaction_id": "TXN-6090",
@@ -897,7 +897,7 @@
     "merchant": "Yiwu Meihao Ceramics Co., Ltd.",
     "category": "supplier_balance_payment",
     "description": "Balance payment - SKU-101 ceramic diffusers Q1 production batch (1,800 units). Original deposit TXN-6015. Container TCLU8834521.",
-    "receipt_url": "https://bank.solettaliving.com/receipts/TXN-6090.pdf"
+    "receipt_url": "https://bank.solettaliving.example/receipts/TXN-6090.pdf"
   },
   {
     "transaction_id": "TXN-6091",

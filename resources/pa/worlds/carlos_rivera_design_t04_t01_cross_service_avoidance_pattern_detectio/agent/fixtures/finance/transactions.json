@@ -147,7 +147,7 @@
     "merchant": "DesignSoftwareHub",
     "category": "software_subscription",
     "description": "MockupStudio Basic monthly subscription - commercial license for client mockups",
-    "receipt_url": "https://designsoftwarehub.com/receipts/TXN-6015"
+    "receipt_url": "https://designsoftwarehub.example/receipts/TXN-6015"
   },
   {
     "transaction_id": "TXN-6016",
@@ -254,7 +254,7 @@
     "merchant": "BloomBox Botanicals",
     "category": "client_payment",
     "description": "Payment received - Sustainable packaging design project (Phase 2: Illustrative style revisions). Invoice #INV-2603.",
-    "receipt_url": "https://invoices.freelanceplatform.com/INV-2603"
+    "receipt_url": "https://invoices.freelanceplatform.example/INV-2603"
   },
   {
     "transaction_id": "TXN-6027",
@@ -264,7 +264,7 @@
     "merchant": "BloomBox Botanicals",
     "category": "client_payment",
     "description": "BloomBox Botanicals - Packaging Revisions Project - 50% deposit payment (Project total: $4,500)",
-    "receipt_url": "https://invoices.freelanceplatform.com/inv-2026-02-013"
+    "receipt_url": "https://invoices.freelanceplatform.example/inv-2026-02-013"
   },
   {
     "transaction_id": "TXN-6028",
@@ -284,7 +284,7 @@
     "merchant": "DesignSoftwareHub",
     "category": "software",
     "description": "DesignPro Suite 2025 - Annual License Renewal",
-    "receipt_url": "https://designsoftwarehub.com/receipt/TXN-DSH-20260115-450"
+    "receipt_url": "https://designsoftwarehub.example/receipt/TXN-DSH-20260115-450"
   },
   {
     "transaction_id": "TXN-6030",
@@ -294,7 +294,7 @@
     "merchant": "DesignSoftwareHub",
     "category": "software",
     "description": "VectorWorks Standard License - February Purchase",
-    "receipt_url": "https://designsoftwarehub.com/receipt/TXN-DSH-20260228-320"
+    "receipt_url": "https://designsoftwarehub.example/receipt/TXN-DSH-20260228-320"
   },
   {
     "transaction_id": "TXN-6031",
@@ -304,7 +304,7 @@
     "merchant": "CreativeTools",
     "category": "software",
     "description": "FontLibrary Basic - Monthly subscription (3 months prepaid)",
-    "receipt_url": "https://creativetools.com/invoice/CT-2026-0310"
+    "receipt_url": "https://creativetools.example/invoice/CT-2026-0310"
   },
   {
     "transaction_id": "TXN-6032",
@@ -314,7 +314,7 @@
     "merchant": "DesignSoftwareHub",
     "category": "software",
     "description": "Holiday Sale - Design Tools Bundle (25% off $800+ promotion)",
-    "receipt_url": "https://designsoftwarehub.com/receipt/TXN-DSH-20251220-380"
+    "receipt_url": "https://designsoftwarehub.example/receipt/TXN-DSH-20251220-380"
   },
   {
     "transaction_id": "TXN-6033",
@@ -344,7 +344,7 @@
     "merchant": "DesignSoftwareHub",
     "category": "software_license",
     "description": "FontMaster Pro Standard Edition - Annual license (non-commercial use only). License violation identified March 2026 - commercial upgrade required.",
-    "receipt_url": "https://designsoftwarehub.com/receipts/TXN-20260115-8847"
+    "receipt_url": "https://designsoftwarehub.example/receipts/TXN-20260115-8847"
   },
   {
     "transaction_id": "TXN-6036",
@@ -624,7 +624,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software_subscription",
     "description": "Adobe Creative Cloud All Apps monthly subscription - auto-renewal scheduled March 21, 2026",
-    "receipt_url": "https://adobe.com/receipt/feb2026"
+    "receipt_url": "https://adobe.example/receipt/feb2026"
   },
   {
     "transaction_id": "TXN-6064",
@@ -664,7 +664,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software_subscription",
     "description": "Adobe Creative Cloud monthly subscription - due again March 15, 2026",
-    "receipt_url": "https://adobe.com/receipt/feb2026"
+    "receipt_url": "https://adobe.example/receipt/feb2026"
   },
   {
     "transaction_id": "TXN-6068",
@@ -704,7 +704,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software_subscription",
     "description": "Monthly Adobe Creative Cloud subscription - February 2026",
-    "receipt_url": "https://adobe.com/receipt/202602-CC-89"
+    "receipt_url": "https://adobe.example/receipt/202602-CC-89"
   },
   {
     "transaction_id": "TXN-6072",
@@ -724,7 +724,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software",
     "description": "Adobe Creative Cloud monthly subscription - January 2026",
-    "receipt_url": "https://adobe.com/receipt/202601-CC"
+    "receipt_url": "https://adobe.example/receipt/202601-CC"
   },
   {
     "transaction_id": "TXN-6074",
@@ -734,7 +734,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software",
     "description": "Adobe Creative Cloud monthly subscription - February 2026",
-    "receipt_url": "https://adobe.com/receipt/202602-CC"
+    "receipt_url": "https://adobe.example/receipt/202602-CC"
   },
   {
     "transaction_id": "TXN-6075",
@@ -744,7 +744,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software",
     "description": "Adobe Creative Cloud monthly subscription - March 2026",
-    "receipt_url": "https://adobe.com/receipt/202603-CC"
+    "receipt_url": "https://adobe.example/receipt/202603-CC"
   },
   {
     "transaction_id": "TXN-6076",
@@ -754,7 +754,7 @@
     "merchant": "DesignAssets Library",
     "category": "software",
     "description": "Stock design assets - icon pack and texture bundle",
-    "receipt_url": "https://designsoftwarehub.com/receipt/TXN-001-2601"
+    "receipt_url": "https://designsoftwarehub.example/receipt/TXN-001-2601"
   },
   {
     "transaction_id": "TXN-6077",
@@ -764,7 +764,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software_subscription",
     "description": "Adobe Creative Cloud monthly subscription - February 2026",
-    "receipt_url": "https://adobe.com/receipt/feb2026"
+    "receipt_url": "https://adobe.example/receipt/feb2026"
   },
   {
     "transaction_id": "TXN-6078",
@@ -914,7 +914,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software_subscription",
     "description": "Adobe Creative Cloud monthly subscription - March 2026",
-    "receipt_url": "https://adobe.com/receipt/2026-03-ACC"
+    "receipt_url": "https://adobe.example/receipt/2026-03-ACC"
   },
   {
     "transaction_id": "TXN-6093",
@@ -924,7 +924,7 @@
     "merchant": "DesignSoftwareHub",
     "category": "software_tools",
     "description": "VectorPro Annual License renewal - design software",
-    "receipt_url": "https://designsoftwarehub.com/receipt/DSH-2026-0305"
+    "receipt_url": "https://designsoftwarehub.example/receipt/DSH-2026-0305"
   },
   {
     "transaction_id": "TXN-6094",
@@ -944,7 +944,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software_subscription",
     "description": "Adobe Creative Cloud monthly subscription - March 2026",
-    "receipt_url": "https://adobe.com/receipt/202603-carlos"
+    "receipt_url": "https://adobe.example/receipt/202603-carlos"
   },
   {
     "transaction_id": "TXN-6096",
@@ -964,7 +964,7 @@
     "merchant": "ProMockup Studio",
     "category": "software_subscription",
     "description": "ProMockup Studio - Annual Subscription (12 months) - Purchased for GreenLeaf Startup 3D mockup requirements",
-    "receipt_url": "https://promockupstudio.com/receipts/2025-05-15-CR-480"
+    "receipt_url": "https://promockupstudio.example/receipts/2025-05-15-CR-480"
   },
   {
     "transaction_id": "TXN-6098",
@@ -974,7 +974,7 @@
     "merchant": "Adobe Creative Cloud",
     "category": "software_subscription",
     "description": "Adobe Creative Cloud - Monthly Subscription - Photography Plan",
-    "receipt_url": "https://adobe.com/receipts/2026-02-28-CC-52"
+    "receipt_url": "https://adobe.example/receipts/2026-02-28-CC-52"
   },
   {
     "transaction_id": "TXN-6099",
@@ -994,7 +994,7 @@
     "merchant": "MockupCloud",
     "category": "software_subscription",
     "description": "MockupCloud - Monthly Subscription - Basic Plan (alternative mockup tool)",
-    "receipt_url": "https://mockupcloud.com/receipts/2026-01-20-MC-29"
+    "receipt_url": "https://mockupcloud.example/receipts/2026-01-20-MC-29"
   },
   {
     "transaction_id": "TXN-6101",

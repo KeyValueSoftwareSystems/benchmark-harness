@@ -5,9 +5,9 @@
     "start_time": "2026-01-08T10:00:00+00:00",
     "end_time": "2026-01-08T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
-      "raj.patel@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
+      "raj.patel@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"
@@ -18,9 +18,9 @@
     "start_time": "2026-01-08T14:00:00+00:00",
     "end_time": "2026-01-08T15:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "sarah.mitchell@barclays.com",
-      "james.chen@barclays.com"
+      "arjun.menon@snowflake.example",
+      "sarah.mitchell@barclays.example",
+      "james.chen@barclays.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -31,7 +31,7 @@
     "start_time": "2026-01-14T10:00:00+00:00",
     "end_time": "2026-01-14T12:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "klaus.weber@allianz.de",
       "heinrich.schneider@allianz.de"
     ],
@@ -44,7 +44,7 @@
     "start_time": "2026-01-18T11:00:00+00:00",
     "end_time": "2026-01-18T12:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "marcus.bauer@allianz.de",
       "emma.rousseau@allianz.de"
     ],
@@ -57,7 +57,7 @@
     "start_time": "2026-01-22T14:00:00+00:00",
     "end_time": "2026-01-22T15:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "emma.rousseau@allianz.de"
     ],
     "location": "Slack Connect / Zoom backup",
@@ -133,8 +133,8 @@
     "start_time": "2026-01-15T09:00:00+00:00",
     "end_time": "2026-01-15T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
       "klaus.weber@allianz.de",
       "marcus.bauer@allianz.de",
       "emma.rousseau@allianz.de"
@@ -148,9 +148,9 @@
     "start_time": "2026-03-17T14:00:00+00:00",
     "end_time": "2026-03-17T16:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
-      "regional-leads@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
+      "regional-leads@snowflake.example"
     ],
     "location": "Snowflake London Office - Conference Room 3B",
     "recurring": "none"
@@ -161,9 +161,9 @@
     "start_time": "2026-03-18T10:00:00+00:00",
     "end_time": "2026-03-18T11:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "david.wong@hsbc.com",
-      "hsbc-ml-team@hsbc.com"
+      "arjun.menon@snowflake.example",
+      "david.wong@hsbc.example",
+      "hsbc-ml-team@hsbc.example"
     ],
     "location": "Virtual - Zoom",
     "recurring": "none"
@@ -174,9 +174,9 @@
     "start_time": "2026-03-20T09:00:00+00:00",
     "end_time": "2026-03-20T10:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "anjali.kumar@sc.com",
-      "sc-exec-team@sc.com"
+      "arjun.menon@snowflake.example",
+      "anjali.kumar@sc.example",
+      "sc-exec-team@sc.example"
     ],
     "location": "Standard Chartered Singapore Office",
     "recurring": "none"
@@ -187,9 +187,9 @@
     "start_time": "2026-03-20T09:30:00+01:00",
     "end_time": "2026-03-20T11:00:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "sarah.mitchell@barclays.com",
-      "barclays-security-team@barclays.com"
+      "arjun.menon@snowflake.example",
+      "sarah.mitchell@barclays.example",
+      "barclays-security-team@barclays.example"
     ],
     "location": "Virtual - Slack Connect Huddle",
     "recurring": "none"
@@ -200,7 +200,7 @@
     "start_time": "2026-03-18T18:00:00+00:00",
     "end_time": "2026-03-18T21:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Home Office",
     "recurring": "none"
@@ -211,7 +211,7 @@
     "start_time": "2026-03-21T14:00:00+01:00",
     "end_time": "2026-03-21T15:00:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "emma.rousseau@allianz.de",
       "marcus.bauer@allianz.de"
     ],
@@ -224,7 +224,7 @@
     "start_time": "2026-01-05T14:00:00+00:00",
     "end_time": "2026-01-05T16:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Focus time - no meetings",
     "recurring": "none"
@@ -235,8 +235,8 @@
     "start_time": "2026-01-06T09:00:00+00:00",
     "end_time": "2026-01-06T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Virtual - Zoom",
     "recurring": "none"
@@ -247,9 +247,9 @@
     "start_time": "2026-01-08T15:00:00+00:00",
     "end_time": "2026-01-08T16:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "anjali.kumar@sc.com",
-      "rajesh.patel@sc.com"
+      "arjun.menon@snowflake.example",
+      "anjali.kumar@sc.example",
+      "rajesh.patel@sc.example"
     ],
     "location": "Virtual - Slack Connect",
     "recurring": "none"
@@ -260,7 +260,7 @@
     "start_time": "2026-01-30T10:00:00+00:00",
     "end_time": "2026-01-30T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Personal review - no attendees",
     "recurring": "none"
@@ -271,9 +271,9 @@
     "start_time": "2026-02-12T10:00:00+00:00",
     "end_time": "2026-02-12T11:30:00+00:00",
     "attendees": [
-      "david.wong@hsbc.com",
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "david.wong@hsbc.example",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -284,10 +284,10 @@
     "start_time": "2026-02-20T14:00:00+00:00",
     "end_time": "2026-02-20T15:30:00+00:00",
     "attendees": [
-      "david.wong@hsbc.com",
-      "hsbc-cdo@hsbc.com",
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "david.wong@hsbc.example",
+      "hsbc-cdo@hsbc.example",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "HSBC London HQ - Executive Boardroom 3",
     "recurring": "none"
@@ -298,8 +298,8 @@
     "start_time": "2026-02-11T15:00:00+00:00",
     "end_time": "2026-02-11T15:45:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Snowflake London Office - Meeting Room 2B",
     "recurring": "none"
@@ -310,8 +310,8 @@
     "start_time": "2026-01-08T14:00:00Z",
     "end_time": "2026-01-08T15:30:00Z",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom (internal)",
     "recurring": ""
@@ -322,7 +322,7 @@
     "start_time": "2026-01-10T13:00:00Z",
     "end_time": "2026-01-10T14:30:00Z",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "marcus.bauer@allianz.de",
       "klaus.weber@allianz.de"
     ],
@@ -335,8 +335,8 @@
     "start_time": "2026-01-14T09:00:00Z",
     "end_time": "2026-01-14T11:00:00Z",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
       "heinrich.schneider@allianz.de",
       "klaus.weber@allianz.de",
       "emma.rousseau@allianz.de"
@@ -350,9 +350,9 @@
     "start_time": "2026-03-27T14:00:00+00:00",
     "end_time": "2026-03-27T15:30:00+00:00",
     "attendees": [
-      "sarah.mitchell@barclays.com",
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "sarah.mitchell@barclays.example",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -363,9 +363,9 @@
     "start_time": "2026-03-26T10:00:00+00:00",
     "end_time": "2026-03-26T11:30:00+00:00",
     "attendees": [
-      "anjali.kumar@sc.com",
-      "rajesh.patel@sc.com",
-      "arjun.menon@snowflake.com"
+      "anjali.kumar@sc.example",
+      "rajesh.patel@sc.example",
+      "arjun.menon@snowflake.example"
     ],
     "location": "Standard Chartered London Office",
     "recurring": "none"
@@ -376,9 +376,9 @@
     "start_time": "2026-03-26T14:00:00+00:00",
     "end_time": "2026-03-26T15:00:00+00:00",
     "attendees": [
-      "david.wong@hsbc.com",
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "david.wong@hsbc.example",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Slack huddle",
     "recurring": "none"
@@ -389,7 +389,7 @@
     "start_time": "2026-03-26T07:30:00+00:00",
     "end_time": "2026-03-26T08:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Home",
     "recurring": "daily"
@@ -401,7 +401,7 @@
     "end_time": "2026-03-28T09:30:00+00:00",
     "attendees": [
       "emma.rousseau@allianz.de",
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Phone",
     "recurring": "none"
@@ -413,7 +413,7 @@
     "end_time": "2026-03-31T16:30:00+00:00",
     "attendees": [
       "klaus.weber@allianz.de",
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -424,8 +424,8 @@
     "start_time": "2026-02-19T09:30:00+00:00",
     "end_time": "2026-02-19T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Slack / Phone (standby for Sarah Mitchell callback)",
     "recurring": "none"
@@ -436,9 +436,9 @@
     "start_time": "2026-02-21T14:00:00+00:00",
     "end_time": "2026-02-21T15:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
-      "delivery-team@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
+      "delivery-team@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -449,9 +449,9 @@
     "start_time": "2026-01-07T10:00:00+00:00",
     "end_time": "2026-01-07T10:45:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "anjali.kumar@sc.com",
-      "rajesh.patel@sc.com"
+      "arjun.menon@snowflake.example",
+      "anjali.kumar@sc.example",
+      "rajesh.patel@sc.example"
     ],
     "location": "Slack Connect Video Call",
     "recurring": "none"
@@ -462,8 +462,8 @@
     "start_time": "2026-01-08T14:00:00+00:00",
     "end_time": "2026-01-08T14:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Slack Huddle",
     "recurring": "none"
@@ -474,7 +474,7 @@
     "start_time": "2026-01-07T16:00:00+00:00",
     "end_time": "2026-01-07T17:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "EMEA SE Team"
     ],
     "location": "Zoom",
@@ -486,11 +486,11 @@
     "start_time": "2026-01-28T14:00:00+00:00",
     "end_time": "2026-01-28T15:30:00+00:00",
     "attendees": [
-      "sarah.mitchell@barclays.com",
-      "richard.thompson@barclays.com",
-      "patricia.obrien@barclays.com",
-      "james.wilson@barclays.com",
-      "arjun.menon@snowflake.com"
+      "sarah.mitchell@barclays.example",
+      "richard.thompson@barclays.example",
+      "patricia.obrien@barclays.example",
+      "james.wilson@barclays.example",
+      "arjun.menon@snowflake.example"
     ],
     "location": "Zoom (Customer-hosted)",
     "recurring": "none"
@@ -501,11 +501,11 @@
     "start_time": "2026-01-28T14:30:00+00:00",
     "end_time": "2026-01-28T16:00:00+00:00",
     "attendees": [
-      "david.wong@hsbc.com",
-      "sarah.chen@hsbc.com",
-      "michael.park@hsbc.com",
-      "jennifer.liu@hsbc.com",
-      "arjun.menon@snowflake.com"
+      "david.wong@hsbc.example",
+      "sarah.chen@hsbc.example",
+      "michael.park@hsbc.example",
+      "jennifer.liu@hsbc.example",
+      "arjun.menon@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -518,7 +518,7 @@
     "attendees": [
       "emma.rousseau@allianz.de",
       "heinrich.schneider@allianz.de",
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -529,7 +529,7 @@
     "start_time": "2026-01-28T11:00:00+00:00",
     "end_time": "2026-01-28T13:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Home office - London",
     "recurring": "none"
@@ -540,10 +540,10 @@
     "start_time": "2026-02-18T10:00:00+00:00",
     "end_time": "2026-02-18T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "sarah.mitchell@barclays.com",
-      "james.patterson@barclays.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "sarah.mitchell@barclays.example",
+      "james.patterson@barclays.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -554,10 +554,10 @@
     "start_time": "2026-03-05T14:00:00+00:00",
     "end_time": "2026-03-05T15:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "james.patterson@barclays.com",
-      "sarah.mitchell@barclays.com",
-      "governance-pm@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "james.patterson@barclays.example",
+      "sarah.mitchell@barclays.example",
+      "governance-pm@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -568,10 +568,10 @@
     "start_time": "2026-03-04T14:00:00+00:00",
     "end_time": "2026-03-04T15:30:00+00:00",
     "attendees": [
-      "david.wong@hsbc.com",
-      "sarah.chen@hsbc.com",
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "david.wong@hsbc.example",
+      "sarah.chen@hsbc.example",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "HSBC Canary Wharf - Executive Briefing Center + Virtual",
     "recurring": null
@@ -582,7 +582,7 @@
     "start_time": "2026-03-04T11:00:00+00:00",
     "end_time": "2026-03-04T12:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Remote - Demo Environment",
     "recurring": null
@@ -593,8 +593,8 @@
     "start_time": "2026-02-28T10:00:00+00:00",
     "end_time": "2026-02-28T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Snowflake London Office - War Room",
     "recurring": null
@@ -605,11 +605,11 @@
     "start_time": "2026-02-26T11:00:00+01:00",
     "end_time": "2026-02-26T12:30:00+01:00",
     "attendees": [
-      "claire.dubois@bnpparibas.com",
-      "jean-pierre.laurent@bnpparibas.com",
-      "marie.leclerc@bnpparibas.com",
-      "thomas.renault@bnpparibas.com",
-      "arjun.menon@snowflake.com"
+      "claire.dubois@bnpparibas.example",
+      "jean-pierre.laurent@bnpparibas.example",
+      "marie.leclerc@bnpparibas.example",
+      "thomas.renault@bnpparibas.example",
+      "arjun.menon@snowflake.example"
     ],
     "location": "BNP Paribas HQ, 16 Boulevard des Italiens, 75009 Paris",
     "recurring": ""
@@ -620,10 +620,10 @@
     "start_time": "2026-02-25T14:00:00+00:00",
     "end_time": "2026-02-25T16:00:00+00:00",
     "attendees": [
-      "sarah.mitchell@barclays.com",
-      "james.thornton@barclays.com",
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "sarah.mitchell@barclays.example",
+      "james.thornton@barclays.example",
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom (Barclays Slack Connect)",
     "recurring": ""
@@ -634,8 +634,8 @@
     "start_time": "2026-02-25T16:00:00+00:00",
     "end_time": "2026-02-25T17:30:00+00:00",
     "attendees": [
-      "emea-finserv-team@snowflake.com",
-      "arjun.menon@snowflake.com"
+      "emea-finserv-team@snowflake.example",
+      "arjun.menon@snowflake.example"
     ],
     "location": "Zoom (Internal)",
     "recurring": "weekly"
@@ -646,7 +646,7 @@
     "start_time": "2026-02-26T06:30:00+00:00",
     "end_time": "2026-02-26T09:45:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "St Pancras International → Gare du Nord",
     "recurring": ""
@@ -657,7 +657,7 @@
     "start_time": "2026-02-26T09:45:00+01:00",
     "end_time": "2026-02-26T11:00:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Café near BNP Paribas HQ",
     "recurring": ""
@@ -668,7 +668,7 @@
     "start_time": "2026-02-26T14:00:00+01:00",
     "end_time": "2026-02-26T17:15:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Gare du Nord → St Pancras International",
     "recurring": ""
@@ -679,7 +679,7 @@
     "start_time": "2026-02-16T00:00:00+00:00",
     "end_time": "2026-03-01T23:59:59+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "On-call rotation",
     "recurring": "none"
@@ -690,9 +690,9 @@
     "start_time": "2026-02-19T09:00:00+00:00",
     "end_time": "2026-02-19T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "sarah.mitchell@barclays.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "sarah.mitchell@barclays.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Barclays Tower, London",
     "recurring": "none"
@@ -703,9 +703,9 @@
     "start_time": "2026-02-20T14:00:00+00:00",
     "end_time": "2026-02-20T16:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "david.wong@hsbc.com",
-      "sarah.chen@hsbc.com"
+      "arjun.menon@snowflake.example",
+      "david.wong@hsbc.example",
+      "sarah.chen@hsbc.example"
     ],
     "location": "HSBC Tower, Canary Wharf",
     "recurring": "none"
@@ -716,7 +716,7 @@
     "start_time": "2026-02-21T09:00:00+01:00",
     "end_time": "2026-02-21T11:00:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "heinrich.schneider@allianz.de",
       "emma.rousseau@allianz.de"
     ],
@@ -729,10 +729,10 @@
     "start_time": "2026-04-03T14:00:00+01:00",
     "end_time": "2026-04-03T15:30:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "claire.dubois@bnpparibas.com",
-      "isabelle.moreau@bnpparibas.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "claire.dubois@bnpparibas.example",
+      "isabelle.moreau@bnpparibas.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom (Slack Connect scheduled)",
     "recurring": "none"
@@ -743,10 +743,10 @@
     "start_time": "2026-04-07T10:00:00+01:00",
     "end_time": "2026-04-07T10:30:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "rachel.patel@santander.co.uk",
-      "james.patterson@santander.co.uk",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "rachel.patel@santander.example.uk",
+      "james.patterson@santander.example.uk",
+      "tom.harris@snowflake.example"
     ],
     "location": "Santander London Office / Hybrid",
     "recurring": "none"
@@ -757,7 +757,7 @@
     "start_time": "2026-04-04T15:00:00+02:00",
     "end_time": "2026-04-04T16:30:00+02:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
+      "arjun.menon@snowflake.example",
       "francois.bernard@axa.fr",
       "marie.leclerc@axa.fr"
     ],
@@ -770,8 +770,8 @@
     "start_time": "2026-03-31T09:00:00+00:00",
     "end_time": "2026-03-31T09:45:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -782,8 +782,8 @@
     "start_time": "2026-04-02T14:00:00+00:00",
     "end_time": "2026-04-02T15:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -794,7 +794,7 @@
     "start_time": "2026-04-02T10:00:00+00:00",
     "end_time": "2026-04-02T12:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Focus block",
     "recurring": "none"
@@ -805,7 +805,7 @@
     "start_time": "2026-03-31T08:00:00+00:00",
     "end_time": "2026-03-31T18:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Remote - Focus Block",
     "recurring": "none"
@@ -816,8 +816,8 @@
     "start_time": "2026-04-01T08:00:00+00:00",
     "end_time": "2026-04-01T12:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "sophie.laurent@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "sophie.laurent@snowflake.example"
     ],
     "location": "Remote - Collaboration",
     "recurring": "none"
@@ -828,7 +828,7 @@
     "start_time": "2026-04-01T14:00:00+00:00",
     "end_time": "2026-04-01T17:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Remote - Prep Block",
     "recurring": "none"
@@ -839,10 +839,10 @@
     "start_time": "2026-04-02T10:00:00+01:00",
     "end_time": "2026-04-02T11:30:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
-      "jean-pierre.laurent@bnpparibas.com",
-      "isabelle.moreau@bnpparibas.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
+      "jean-pierre.laurent@bnpparibas.example",
+      "isabelle.moreau@bnpparibas.example"
     ],
     "location": "BNP Paribas Paris HQ - Executive Boardroom",
     "recurring": "none"
@@ -855,8 +855,8 @@
     "attendees": [
       "Claire Dubois (CDO)",
       "Jean-Pierre Laurent (CTO)",
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "BNP Paribas Paris HQ - Executive Boardroom",
     "recurring": "none"
@@ -867,7 +867,7 @@
     "start_time": "2026-02-26T06:30:00+00:00",
     "end_time": "2026-02-26T09:45:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "London St Pancras → Paris Gare du Nord",
     "recurring": "none"
@@ -878,8 +878,8 @@
     "start_time": "2026-02-16T14:00:00+00:00",
     "end_time": "2026-02-16T16:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Snowflake London Office - War Room 3",
     "recurring": "none"
@@ -890,7 +890,7 @@
     "start_time": "2026-02-10T09:00:00+00:00",
     "end_time": "2026-02-10T09:30:00+00:00",
     "attendees": [
-      "emea-sa-team@snowflake.com"
+      "emea-sa-team@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"
@@ -901,10 +901,10 @@
     "start_time": "2026-02-26T10:00:00+01:00",
     "end_time": "2026-02-26T12:00:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "claire.dubois@bnpparibas.com",
-      "jean-pierre.laurent@bnpparibas.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "claire.dubois@bnpparibas.example",
+      "jean-pierre.laurent@bnpparibas.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "BNP Paribas Paris HQ, 16 Boulevard des Italiens, 75009 Paris",
     "recurring": "none"
@@ -915,7 +915,7 @@
     "start_time": "2026-02-24T14:00:00+00:00",
     "end_time": "2026-02-24T16:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Remote - Snowflake Demo Environment",
     "recurring": "none"
@@ -926,8 +926,8 @@
     "start_time": "2026-02-14T15:00:00+00:00",
     "end_time": "2026-02-14T15:30:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -938,9 +938,9 @@
     "start_time": "2026-02-17T09:00:00+00:00",
     "end_time": "2026-02-17T10:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
-      "sophie.laurent@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
+      "sophie.laurent@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"
@@ -951,13 +951,13 @@
     "start_time": "2026-02-26T10:00:00+01:00",
     "end_time": "2026-02-26T12:00:00+01:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
-      "claire.dubois@bnpparibas.com",
-      "jp.laurent@bnpparibas.com",
-      "rachel.patel@bnpparibas.com",
-      "marc.fontaine@bnpparibas.com",
-      "sophie.moreau@bnpparibas.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
+      "claire.dubois@bnpparibas.example",
+      "jp.laurent@bnpparibas.example",
+      "rachel.patel@bnpparibas.example",
+      "marc.fontaine@bnpparibas.example",
+      "sophie.moreau@bnpparibas.example"
     ],
     "location": "BNP Paribas Paris HQ - Executive Briefing Center, Level 12",
     "recurring": "none"
@@ -968,9 +968,9 @@
     "start_time": "2026-03-18T14:00:00+00:00",
     "end_time": "2026-03-18T16:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "rachel.patel@bnpparibas.com",
-      "jp.laurent@bnpparibas.com"
+      "arjun.menon@snowflake.example",
+      "rachel.patel@bnpparibas.example",
+      "jp.laurent@bnpparibas.example"
     ],
     "location": "Zoom - BNP Paribas compliance review",
     "recurring": "none"
@@ -981,8 +981,8 @@
     "start_time": "2026-03-25T09:00:00+00:00",
     "end_time": "2026-03-25T11:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example"
     ],
     "location": "Snowflake London Office - Demo Lab",
     "recurring": "none"
@@ -993,7 +993,7 @@
     "start_time": "2026-04-02T08:00:00+08:00",
     "end_time": "2026-04-02T10:30:00+08:00",
     "attendees": [
-      "arjun.menon@snowflake.com"
+      "arjun.menon@snowflake.example"
     ],
     "location": "Remote - Demo Environment Monitoring",
     "recurring": "none"
@@ -1004,9 +1004,9 @@
     "start_time": "2026-04-03T14:00:00+00:00",
     "end_time": "2026-04-03T15:00:00+00:00",
     "attendees": [
-      "arjun.menon@snowflake.com",
-      "tom.harris@snowflake.com",
-      "sophie.laurent@snowflake.com"
+      "arjun.menon@snowflake.example",
+      "tom.harris@snowflake.example",
+      "sophie.laurent@snowflake.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"

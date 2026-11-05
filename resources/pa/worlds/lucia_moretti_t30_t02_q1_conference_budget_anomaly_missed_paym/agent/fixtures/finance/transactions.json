@@ -65,7 +65,7 @@
     "merchant": "PresentPro Milano - Presentation Design Services",
     "category": "professional_services",
     "description": "Green Taxonomy Impact Deck - Investor Presentation Design (25 slides, delivered Jan 31 2026)",
-    "receipt_url": "https://finance.milanbank.eu/receipts/txn-6007.pdf"
+    "receipt_url": "https://finance.milanbank.example/receipts/txn-6007.pdf"
   },
   {
     "transaction_id": "TXN-6008",
@@ -95,7 +95,7 @@
     "merchant": "European Banking Conference 2026",
     "category": "conference_registration",
     "description": "Registration fee - European Banking Conference 2026, Frankfurt (March 11-12). Speaker slot confirmed. Payment via corporate Amex. Reimbursement pending submission.",
-    "receipt_url": "https://eurobanking.org/receipts/2026/lucia-moretti-reg-conf2026.pdf"
+    "receipt_url": "https://eurobanking.example/receipts/2026/lucia-moretti-reg-conf2026.pdf"
   },
   {
     "transaction_id": "TXN-6011",
@@ -155,7 +155,7 @@
     "merchant": "Trenitalia - Milan-Frankfurt",
     "category": "corporate_travel_voucher",
     "description": "Q1 corporate travel voucher - Train ticket Milan-Frankfurt for European Banking Conference prep meeting",
-    "receipt_url": "https://voucher.milanbank.eu/receipts/TXN-6016.pdf"
+    "receipt_url": "https://voucher.milanbank.example/receipts/TXN-6016.pdf"
   },
   {
     "transaction_id": "TXN-6017",
@@ -165,7 +165,7 @@
     "merchant": "Hotel Booking - London",
     "category": "corporate_travel_voucher",
     "description": "Q1 corporate travel voucher - Hotel accommodation London roadshow March 24-25",
-    "receipt_url": "https://voucher.milanbank.eu/receipts/TXN-6017.pdf"
+    "receipt_url": "https://voucher.milanbank.example/receipts/TXN-6017.pdf"
   },
   {
     "transaction_id": "TXN-6018",
@@ -175,7 +175,7 @@
     "merchant": "Trenitalia - Milan-Rome",
     "category": "corporate_travel_voucher",
     "description": "Q1 corporate travel voucher - Train ticket Milan-Rome client meeting",
-    "receipt_url": "https://voucher.milanbank.eu/receipts/TXN-6018.pdf"
+    "receipt_url": "https://voucher.milanbank.example/receipts/TXN-6018.pdf"
   },
   {
     "transaction_id": "TXN-6019",
@@ -185,7 +185,7 @@
     "merchant": "European Banking Conference 2026",
     "category": "conference_registration",
     "description": "Conference registration fee - Frankfurt Feb 26-27, 2026. Includes presentation slot, networking events, conference materials.",
-    "receipt_url": "https://eurobanking.org/receipts/2026-02-20-450EUR.pdf"
+    "receipt_url": "https://eurobanking.example/receipts/2026-02-20-450EUR.pdf"
   },
   {
     "transaction_id": "TXN-6020",
@@ -195,7 +195,7 @@
     "merchant": "Frankfurt Marriott Hotel",
     "category": "business_travel",
     "description": "Hotel booking - Frankfurt Marriott, Feb 25-26, 2026 (1 night). Late check-in confirmed for midnight arrival.",
-    "receipt_url": "https://marriott.com/receipts/FRA-20260221.pdf"
+    "receipt_url": "https://marriott.example/receipts/FRA-20260221.pdf"
   },
   {
     "transaction_id": "TXN-6021",
@@ -205,7 +205,7 @@
     "merchant": "Eurostar Premium Rail",
     "category": "business_travel",
     "description": "Premium rail booking - Frankfurt to London St Pancras, Feb 26, 15:00 departure. Business class with WiFi and power outlets for work during travel.",
-    "receipt_url": "https://eurostar.com/tickets/FRA-LON-20260226.pdf"
+    "receipt_url": "https://eurostar.example/tickets/FRA-LON-20260226.pdf"
   },
   {
     "transaction_id": "TXN-6022",
@@ -225,7 +225,7 @@
     "merchant": "Corporate Travel Voucher Card",
     "category": "conference_registration_partial",
     "description": "European Banking Conference 2026 - Voucher payment (first tranche of split payment, €620 of €850 total). Awaiting approval for €230 direct reimbursement balance.",
-    "receipt_url": "https://milanbank.eu/finance/receipts/TXN-6023.pdf"
+    "receipt_url": "https://milanbank.example/finance/receipts/TXN-6023.pdf"
   },
   {
     "transaction_id": "TXN-6024",
@@ -245,7 +245,7 @@
     "merchant": "European Banking Conference 2026",
     "category": "corporate_voucher",
     "description": "European Banking Conference 2026 - Partial registration payment (corporate travel voucher card, Q1 2026 balance exhaustion)",
-    "receipt_url": "https://eurobanking.org/receipts/EBC2026-LM-620EUR"
+    "receipt_url": "https://eurobanking.example/receipts/EBC2026-LM-620EUR"
   },
   {
     "transaction_id": "TXN-6026",
@@ -255,7 +255,7 @@
     "merchant": "European Banking Conference 2026",
     "category": "conference_registration",
     "description": "European Banking Conference 2026 - Remaining registration payment (personal Visa card, pending reimbursement claim TRV-2026-0847)",
-    "receipt_url": "https://eurobanking.org/receipts/EBC2026-LM-230EUR"
+    "receipt_url": "https://eurobanking.example/receipts/EBC2026-LM-230EUR"
   },
   {
     "transaction_id": "TXN-6027",
@@ -275,7 +275,7 @@
     "merchant": "Hotel Booking - Frankfurt",
     "category": "corporate_voucher",
     "description": "Marriott Frankfurt - March 10-12, 2026 (European Banking Conference accommodation, corporate voucher)",
-    "receipt_url": "https://marriott.com/bookings/conf-2026-03-LM"
+    "receipt_url": "https://marriott.example/bookings/conf-2026-03-LM"
   },
   {
     "transaction_id": "TXN-6029",
@@ -325,7 +325,7 @@
     "merchant": "European Finance Association",
     "category": "professional_membership",
     "description": "Annual EFA membership renewal 2026 - includes 15% conference discounts",
-    "receipt_url": "https://efa.org/receipts/2026/moretti-membership"
+    "receipt_url": "https://efa.example/receipts/2026/moretti-membership"
   },
   {
     "transaction_id": "TXN-6034",
@@ -335,7 +335,7 @@
     "merchant": "Corporate Travel Portal - Frankfurt Summit Registration",
     "category": "conference_registration",
     "description": "Frankfurt Banking Summit (Feb 18-19) - Split payment: €620 corporate voucher + €260 personal card",
-    "receipt_url": "https://portal.milanbank.eu/receipts/TXN-6034"
+    "receipt_url": "https://portal.milanbank.example/receipts/TXN-6034"
   },
   {
     "transaction_id": "TXN-6035",
@@ -345,7 +345,7 @@
     "merchant": "Frankfurt Banking Summit 2026 - Pre-Sale Deposit",
     "category": "conference_registration",
     "description": "Non-refundable deposit for Frankfurt Banking Summit 2026 (Feb 24-26) - Early-bird pre-sale phase. Final payment €395 due by Jan 31. Original booking channel: direct conference website.",
-    "receipt_url": "https://frankfurtbankingsummit.com/receipt/FBS2026-LM-001"
+    "receipt_url": "https://frankfurtbankingsummit.example/receipt/FBS2026-LM-001"
   },
   {
     "transaction_id": "TXN-6036",
@@ -355,7 +355,7 @@
     "merchant": "European Banking Conference Vienna 2026 - Pre-Sale Deposit",
     "category": "conference_registration",
     "description": "Non-refundable deposit for European Banking Conference Vienna 2026 (Mar 17-19) - Early-bird pre-sale phase. Final payment €565 due by Mar 10. Original booking channel: direct conference website.",
-    "receipt_url": "https://eurobanking.org/receipt/EBC2026-VIE-LM-003"
+    "receipt_url": "https://eurobanking.example/receipt/EBC2026-VIE-LM-003"
   },
   {
     "transaction_id": "TXN-6037",
@@ -385,7 +385,7 @@
     "merchant": "Frankfurt Banking Summit - Early Bird Deposit",
     "category": "conference_registration",
     "description": "Non-refundable early-bird deposit - Frankfurt Banking Summit Feb 2026 (Registration FBS2026-LM-4782)",
-    "receipt_url": "https://receipts.frankfurtbankingsummit.eu/2025/FBS-LM-4782-deposit.pdf"
+    "receipt_url": "https://receipts.frankfurtbankingsummit.example/2025/FBS-LM-4782-deposit.pdf"
   },
   {
     "transaction_id": "TXN-6040",
@@ -424,8 +424,8 @@
     "currency": "EUR",
     "merchant": "European Finance Association",
     "category": "professional_membership",
-    "description": "EFA Annual Membership Renewal 2026 - Lucia Moretti",
-    "receipt_url": "https://efa.org/receipts/2026-LM-450"
+    "description": "EFA Annual Membership Renewal 2026 - Lorena Mancini",
+    "receipt_url": "https://efa.example/receipts/2026-LM-450"
   },
   {
     "transaction_id": "TXN-6044",
@@ -445,7 +445,7 @@
     "merchant": "European Banking Conference 2026",
     "category": "conference_registration",
     "description": "European Banking Conference 2026 - Full Access Pass (2 days), Frankfurt - Registration via direct booking portal",
-    "receipt_url": "https://eurobanking.org/receipts/2026/EBC-REG-45782"
+    "receipt_url": "https://eurobanking.example/receipts/2026/EBC-REG-45782"
   },
   {
     "transaction_id": "TXN-6046",
@@ -475,7 +475,7 @@
     "merchant": "Frankfurt Banking Summit 2026",
     "category": "conference_registration",
     "description": "Frankfurt Banking Summit - Early Bird Registration via Corporate Travel Voucher Card (full voucher balance applied)",
-    "receipt_url": "https://frankfurtsummit.com/receipts/FBS-2026-8834"
+    "receipt_url": "https://frankfurtsummit.example/receipts/FBS-2026-8834"
   },
   {
     "transaction_id": "TXN-6049",
@@ -505,7 +505,7 @@
     "merchant": "Lufthansa - Corporate Travel",
     "category": "conference_travel",
     "description": "Flight booking LH 242/247 Milan-Frankfurt return (Feb 17-19, 2026) - Frankfurt Banking Summit. Corporate voucher utilized. Booking ref: LH8K9P",
-    "receipt_url": "https://booking.lufthansa.com/receipt/LH8K9P"
+    "receipt_url": "https://booking.lufthansa.example/receipt/LH8K9P"
   },
   {
     "transaction_id": "TXN-6052",
@@ -515,7 +515,7 @@
     "merchant": "InterContinental Frankfurt",
     "category": "conference_accommodation",
     "description": "Hotel reservation Feb 17-19, 2026 (2 nights) - Frankfurt Banking Summit corporate rate. Confirmation: ICF-928471. Includes city tax €29.60",
-    "receipt_url": "https://reservations.ihg.com/ICF-928471"
+    "receipt_url": "https://reservations.ihg.example/ICF-928471"
   },
   {
     "transaction_id": "TXN-6053",
@@ -545,7 +545,7 @@
     "merchant": "SAS Scandinavian Airlines",
     "category": "conference_travel",
     "description": "Flight booking Milan-Helsinki return (Mar 25-27, 2026) - Nordic Financial Services Forum. Corporate voucher utilized.",
-    "receipt_url": "https://booking.flysas.com/receipt/SAS-MXP-HEL-2026-03"
+    "receipt_url": "https://booking.flysas.example/receipt/SAS-MXP-HEL-2026-03"
   },
   {
     "transaction_id": "TXN-6056",
@@ -555,7 +555,7 @@
     "merchant": "European Banking Conference 2026",
     "category": "conference_registration",
     "description": "Speaker registration fee - European Banking Conference 2026, Vienna, March 11-12. Registration ID: EBC2026-SP-1847. Speaker rate applied.",
-    "receipt_url": "https://receipts.milanbank.eu/TXN-6056.pdf"
+    "receipt_url": "https://receipts.milanbank.example/TXN-6056.pdf"
   },
   {
     "transaction_id": "TXN-6057",
@@ -565,7 +565,7 @@
     "merchant": "Grand Hotel Vienna",
     "category": "business_accommodation",
     "description": "Hotel booking - European Banking Conference 2026. Grand Hotel Vienna, 2 nights (March 10-12), Superior Room. Corporate rate.",
-    "receipt_url": "https://receipts.milanbank.eu/TXN-6057.pdf"
+    "receipt_url": "https://receipts.milanbank.example/TXN-6057.pdf"
   },
   {
     "transaction_id": "TXN-6058",
@@ -575,7 +575,7 @@
     "merchant": "Trenitalia - Overnight Frankfurt-Milan",
     "category": "business_travel",
     "description": "Overnight train ticket Frankfurt Hbf to Milano Centrale (Feb 1-2), arrived 6:45am. Minimal sleep (4.5 hours) due to uncomfortable seating - impacting next-day cognitive capacity.",
-    "receipt_url": "https://trenitalia.com/receipt/TI-2026-02-01-987654"
+    "receipt_url": "https://trenitalia.example/receipt/TI-2026-02-01-987654"
   },
   {
     "transaction_id": "TXN-6059",
@@ -605,7 +605,7 @@
     "merchant": "Frankfurt Banking Summit 2026 - Direct Registration",
     "category": "conference_registration",
     "description": "Frankfurt Banking Summit Feb 18-19 early-bird registration - paid via corporate travel voucher (partial: €595 of €620 voucher balance)",
-    "receipt_url": "https://frankfurtbankingsummit.org/receipt/FBS-2026-001847"
+    "receipt_url": "https://frankfurtbankingsummit.example/receipt/FBS-2026-001847"
   },
   {
     "transaction_id": "TXN-6062",
@@ -625,7 +625,7 @@
     "merchant": "European Banking Conference 2026",
     "category": "conference_deposit",
     "description": "Early-bird non-refundable deposit - Frankfurt conference Mar 11-12",
-    "receipt_url": "https://payments.eurobanking.org/receipt/2025-12-18-LM-50"
+    "receipt_url": "https://payments.eurobanking.example/receipt/2025-12-18-LM-50"
   },
   {
     "transaction_id": "TXN-6064",

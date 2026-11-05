@@ -7,7 +7,7 @@
     "merchant": "CloudWatch SRE Services",
     "category": "contractor_services",
     "description": "Weekend on-call coverage for auth migration checkpoint (March 15-16) - contracted SRE support",
-    "receipt_url": "https://finance.crucible.com/receipts/TXN-6001"
+    "receipt_url": "https://finance.crucible.example/receipts/TXN-6001"
   },
   {
     "transaction_id": "TXN-6002",
@@ -17,7 +17,7 @@
     "merchant": "CloudWatch SRE Services",
     "category": "contractor_services_quote",
     "description": "QUOTE: Weekend on-call coverage for Polaris v1 GA launch (April 28-29) - 24-hour coverage, two SRE engineers, includes runbook review and escalation path setup",
-    "receipt_url": "https://finance.crucible.com/quotes/TXN-6002"
+    "receipt_url": "https://finance.crucible.example/quotes/TXN-6002"
   },
   {
     "transaction_id": "TXN-6003",
@@ -27,7 +27,7 @@
     "merchant": "Sentinel Financial Services",
     "category": "sales_contract",
     "description": "Sentinel Financial Services - Enterprise annual contract (MSA signed Feb 20, 2026). DPA pending finalization. Contract value: $2.4M annual.",
-    "receipt_url": "https://crucible.com/contracts/sentinel-financial-2026"
+    "receipt_url": "https://crucible.example/contracts/sentinel-financial-2026"
   },
   {
     "transaction_id": "TXN-6004",

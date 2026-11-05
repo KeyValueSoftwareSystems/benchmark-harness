@@ -627,7 +627,7 @@
   {
     "task_id": "TODO-546",
     "title": "Send BloomBox Botanicals invoice #BB-2026-Q1 to AP",
-    "description": "Create and send invoice for sustainable packaging design project ($4,200) to ap@bloomboxbotanicals.com. Project approved by Jessica Moore on March 10. Payment terms: Net-30.",
+    "description": "Create and send invoice for sustainable packaging design project ($4,200) to ap@bloomboxbotanicals.example. Project approved by Jessica Moore on March 10. Payment terms: Net-30.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-20",
@@ -1815,7 +1815,7 @@
   {
     "task_id": "TODO-629",
     "title": "Verify BloomBox payment request authenticity",
-    "description": "URGENT: Received suspicious payment update email from 'accounting@bloomboxbotanical.com' (note: missing 's' in domain). Need to verify legitimacy before taking any action. Cross-reference with CRM records showing verified contacts are jessica.moore@bloomboxbotanicals.com and rachel.kim@bloomboxbotanicals.com. Check for domain spoofing and phishing indicators. DO NOT click any links until verified.",
+    "description": "URGENT: Received suspicious payment update email from 'accounting@bloomboxbotanical.example' (note: missing 's' in domain). Need to verify legitimacy before taking any action. Cross-reference with CRM records showing verified contacts are jessica.moore@bloomboxbotanicals.example and rachel.kim@bloomboxbotanicals.example. Check for domain spoofing and phishing indicators. DO NOT click any links until verified.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-18",
@@ -1830,7 +1830,7 @@
   {
     "task_id": "TODO-630",
     "title": "Contact Jessica Moore to verify Invoice #BB-2026-Q1 payment status",
-    "description": "After identifying suspicious payment email, contact Jessica Moore directly at jessica.moore@bloomboxbotanicals.com (verified contact from CRM) to confirm legitimate payment process for Invoice #BB-2026-Q1. Ask about expected payment timeline and verify if any payment method updates are actually needed.",
+    "description": "After identifying suspicious payment email, contact Jessica Moore directly at jessica.moore@bloomboxbotanicals.example (verified contact from CRM) to confirm legitimate payment process for Invoice #BB-2026-Q1. Ask about expected payment timeline and verify if any payment method updates are actually needed.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-19",
@@ -2390,7 +2390,7 @@
   {
     "task_id": "TODO-669",
     "title": "Submit UrbanNest software reimbursement invoice",
-    "description": "After purchasing DesignSoftwareHub bundle, submit invoice to Amanda Park (amanda.park@urbannest.com) for 60% reimbursement ($500 capped). Must submit within 30 days of purchase date. Include itemized receipt showing ProVector Suite, ColorFlow Pro, TypeMaster Premium, MockupStudio Enterprise. Reimbursement processes in 15 business days.",
+    "description": "After purchasing DesignSoftwareHub bundle, submit invoice to Amanda Park (amanda.park@urbannest.example) for 60% reimbursement ($500 capped). Must submit within 30 days of purchase date. Include itemized receipt showing ProVector Suite, ColorFlow Pro, TypeMaster Premium, MockupStudio Enterprise. Reimbursement processes in 15 business days.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-17",
@@ -2648,7 +2648,7 @@
   {
     "task_id": "TODO-687",
     "title": "Request DesignSoftwareHub discount extension until UrbanNest legal confirms",
-    "description": "Contact DesignSoftwareHub sales team to request 5-7 day discount extension while awaiting client legal review of FontMaster Pro licensing compatibility.\n\nEmail points:\n- Explain situation: Major client legal team reviewing commercial license requirements\n- Request: Extend Feb 28 deadline to Mar 5-7\n- Emphasize: Ready to purchase immediately once licensing confirmed\n- Offer: Commit to purchase if extension granted\n\nAlternative: Ask about payment plan options (deposit now, balance after confirmation)\n\nContact: sales@designsoftwarehub.com",
+    "description": "Contact DesignSoftwareHub sales team to request 5-7 day discount extension while awaiting client legal review of FontMaster Pro licensing compatibility.\n\nEmail points:\n- Explain situation: Major client legal team reviewing commercial license requirements\n- Request: Extend Feb 28 deadline to Mar 5-7\n- Emphasize: Ready to purchase immediately once licensing confirmed\n- Offer: Commit to purchase if extension granted\n\nAlternative: Ask about payment plan options (deposit now, balance after confirmation)\n\nContact: sales@designsoftwarehub.example",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-26",
@@ -2676,7 +2676,7 @@
   {
     "task_id": "TODO-689",
     "title": "Follow up with Amanda Park - UrbanNest legal review timeline",
-    "description": "Check in with Amanda Park about UrbanNest legal team's FontMaster Pro licensing review:\n\n- Ask if legal team can prioritize review (currently 5-7 days)\n- Request interim guidance: Are there specific licensing concerns?\n- Explore alternative: Can UrbanNest provide approved font library for brand guidelines?\n- Explain time pressure: Software discount expires Feb 28, affects project timeline\n\nBalance: Don't pressure too hard (conflict-avoidant tendency) but communicate legitimate constraints\n\nContact: amanda.park@urbannest.com",
+    "description": "Check in with Amanda Park about UrbanNest legal team's FontMaster Pro licensing review:\n\n- Ask if legal team can prioritize review (currently 5-7 days)\n- Request interim guidance: Are there specific licensing concerns?\n- Explore alternative: Can UrbanNest provide approved font library for brand guidelines?\n- Explain time pressure: Software discount expires Feb 28, affects project timeline\n\nBalance: Don't pressure too hard (conflict-avoidant tendency) but communicate legitimate constraints\n\nContact: amanda.park@urbannest.example",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-26",

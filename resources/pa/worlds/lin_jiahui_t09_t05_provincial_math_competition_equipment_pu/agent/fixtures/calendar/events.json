@@ -383,7 +383,7 @@
     "start_time": "2026-02-19T14:00:00+08:00",
     "end_time": "2026-02-19T16:30:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Teacher Office - Building 3, Room 205",
     "recurring": "none"
@@ -395,7 +395,7 @@
     "end_time": "2026-02-20T11:00:00+08:00",
     "attendees": [
       "all_homeroom_teachers",
-      "academic.affairs@szexperimental.edu.cn"
+      "academic.affairs@szexperimental.example"
     ],
     "location": "Main Conference Room - Administration Building",
     "recurring": "none"
@@ -406,8 +406,8 @@
     "start_time": "2026-02-21T15:30:00+08:00",
     "end_time": "2026-02-21T17:00:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn",
-      "wang.coach@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example",
+      "wang.coach@szexperimental.example"
     ],
     "location": "Math Department Office",
     "recurring": "none"
@@ -418,7 +418,7 @@
     "start_time": "2026-02-18T16:00:00+08:00",
     "end_time": "2026-02-18T17:00:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn",
+      "liang.jiayi@szexperimental.example",
       "Liu Yan (parent)"
     ],
     "location": "Class 10A Homeroom Office",
@@ -516,7 +516,7 @@
     "end_time": "2026-03-18T18:00:00+08:00",
     "attendees": [
       "Wang Zihan",
-      "lin.jiahui@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Class 10A Classroom",
     "recurring": "none"
@@ -528,7 +528,7 @@
     "end_time": "2026-03-18T18:00:00+08:00",
     "attendees": [
       "Li Hua",
-      "lin.jiahui@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Class 10A Classroom",
     "recurring": "none"
@@ -540,7 +540,7 @@
     "end_time": "2026-03-18T18:00:00+08:00",
     "attendees": [
       "Chen Ming",
-      "lin.jiahui@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Class 10A Classroom",
     "recurring": "none"
@@ -551,7 +551,7 @@
     "start_time": "2026-03-18T15:00:00+08:00",
     "end_time": "2026-03-18T17:00:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn",
+      "liang.jiayi@szexperimental.example",
       "Primary School Parents"
     ],
     "location": "Luohu District Primary School Auditorium",
@@ -563,7 +563,7 @@
     "start_time": "2026-03-18T15:30:00+08:00",
     "end_time": "2026-03-18T17:30:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn",
+      "liang.jiayi@szexperimental.example",
       "Class 10B students"
     ],
     "location": "Class 10B Classroom",
@@ -576,7 +576,7 @@
     "end_time": "2026-03-18T10:35:00+08:00",
     "attendees": [
       "Class 10A students",
-      "lin.jiahui@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Class 10A Classroom",
     "recurring": "weekly"
@@ -925,12 +925,12 @@
     "start_time": "2026-04-03T14:00:00+08:00",
     "end_time": "2026-04-03T16:00:00+08:00",
     "attendees": [
-      "chen.jing@szexperimental.edu.cn",
-      "zhou.ming@szexperimental.edu.cn",
-      "wang.li@szexperimental.edu.cn",
-      "liu.yang@szexperimental.edu.cn",
-      "academic.affairs@szexperimental.edu.cn",
-      "lin.jiahui@szexperimental.edu.cn"
+      "chen.jing@szexperimental.example",
+      "zhou.ming@szexperimental.example",
+      "wang.li@szexperimental.example",
+      "liu.yang@szexperimental.example",
+      "academic.affairs@szexperimental.example",
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Academic Affairs Conference Room 2F",
     "recurring": ""
@@ -952,8 +952,8 @@
     "start_time": "2026-03-28T10:00:00+08:00",
     "end_time": "2026-03-28T11:00:00+08:00",
     "attendees": [
-      "academic.affairs@szexperimental.edu.cn",
-      "grade10.teachers@szexperimental.edu.cn"
+      "academic.affairs@szexperimental.example",
+      "grade10.teachers@szexperimental.example"
     ],
     "location": "Academic Affairs Office",
     "recurring": ""
@@ -1409,7 +1409,7 @@
     "attendees": [
       "Competition team students",
       "Coach Wang",
-      "lin.jiahui@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Math Lab Room 302",
     "recurring": ""
@@ -1420,8 +1420,8 @@
     "start_time": "2026-04-03T14:00:00+08:00",
     "end_time": "2026-04-03T15:00:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn",
-      "finance.office@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example",
+      "finance.office@szexperimental.example"
     ],
     "location": "Finance Office Room 108",
     "recurring": ""
@@ -1776,8 +1776,8 @@
     "start_time": "2026-03-31T15:00:00+08:00",
     "end_time": "2026-03-31T16:30:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn",
-      "wang.coach@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example",
+      "wang.coach@szexperimental.example"
     ],
     "location": "Math Department Office",
     "recurring": "none"
@@ -1788,7 +1788,7 @@
     "start_time": "2026-04-01T10:00:00+08:00",
     "end_time": "2026-04-01T10:30:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn"
+      "liang.jiayi@szexperimental.example"
     ],
     "location": "Finance Office - 2F",
     "recurring": "none"
@@ -1810,8 +1810,8 @@
     "start_time": "2026-04-03T14:00:00+08:00",
     "end_time": "2026-04-03T16:00:00+08:00",
     "attendees": [
-      "lin.jiahui@szexperimental.edu.cn",
-      "husband.lin@techcompany.com"
+      "liang.jiayi@szexperimental.example",
+      "husband.lin@techcompany.example"
     ],
     "location": "Shenzhen Primary School - Grade 3 Building",
     "recurring": "none"
@@ -2112,7 +2112,7 @@
   },
   {
     "event_id": "EVT-476",
-    "title": "Emergency Parent Meeting - Li Ming's Mother (Requested)",
+    "title": "Emergency Parent Meeting - Liu Hao's Mother (Requested)",
     "start_time": "2026-04-04T15:30:00+08:00",
     "end_time": "2026-04-04T16:30:00+08:00",
     "attendees": [

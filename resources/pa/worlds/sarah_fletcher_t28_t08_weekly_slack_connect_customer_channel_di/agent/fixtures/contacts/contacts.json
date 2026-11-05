@@ -4,7 +4,7 @@
     "name": "Sarah Mitchell",
     "department": "Data Engineering",
     "title": "Head of Data Platform",
-    "email": "sarah.mitchell@barclays.com",
+    "email": "sarah.mitchell@barclays.example",
     "phone": "+44 20 7116 8800",
     "location": "Barclays, London",
     "note": "Technical decision maker for Barclays POC. Focused on security and compliance. Key stakeholder for Q1 deal closure."
@@ -34,7 +34,7 @@
     "name": "David Wong",
     "department": "Analytics",
     "title": "Head of Enterprise Analytics",
-    "email": "david.wong@hsbc.com",
+    "email": "david.wong@hsbc.example",
     "phone": "+852 2822 1111",
     "location": "HSBC, Hong Kong",
     "note": "HSBC technical lead. Currently evaluating competitive offers from Databricks. Deal at risk - requires competitive response."
@@ -44,7 +44,7 @@
     "name": "Anjali Kumar",
     "department": "Data Science",
     "title": "Lead Data Scientist",
-    "email": "anjali.kumar@sc.com",
+    "email": "anjali.kumar@sc.example",
     "phone": "+65 6747 7000",
     "location": "Standard Chartered, Singapore",
     "note": "Technical evaluator for ML platform at Standard Chartered. Interested in Snowpark Python capabilities."
@@ -84,7 +84,7 @@
     "name": "Tom Harris",
     "department": "Sales",
     "title": "Account Executive - EMEA Financial Services",
-    "email": "tom.harris@snowflake.com",
+    "email": "tom.harris@snowflake.example",
     "phone": "+44 20 7123 4567",
     "location": "Snowflake London Office",
     "note": "AE partner for EMEA FinServ accounts. Strong relationship builder, less technical depth on advanced Snowpark/governance architecture. Paired with Arjun on Deutsche Bank (Allianz) deal."
@@ -94,7 +94,7 @@
     "name": "Priya Menon",
     "department": "",
     "title": "",
-    "email": "priya.menon@gmail.com",
+    "email": "priya.menon@gmail.example",
     "phone": "+44 7890 123456",
     "location": "London",
     "note": "Arjun's wife. Mother of Zara (9 years old). Has expressed concern about work-life balance and missed family events in Q1 2026."
@@ -114,7 +114,7 @@
     "name": "Rajesh Patel",
     "department": "Data Engineering",
     "title": "VP Data Engineering",
-    "email": "rajesh.patel@sc.com",
+    "email": "rajesh.patel@sc.example",
     "phone": "+65 9123 4567",
     "location": "Standard Chartered Singapore HQ",
     "note": "Technical decision-maker for SC Q2 expansion. Reports to Anjali Kumar. Strong Python background, interested in Snowpark for ML workloads."
@@ -124,7 +124,7 @@
     "name": "Lisa Chen",
     "department": "Security & Compliance",
     "title": "Chief Information Security Officer",
-    "email": "lisa.chen@barclays.com",
+    "email": "lisa.chen@barclays.example",
     "phone": "+44 20 7116 8899",
     "location": "Barclays London Office",
     "note": "Final sign-off authority for Barclays data masking policies. Works closely with Sarah Mitchell. Very detail-oriented on GDPR compliance."
@@ -134,7 +134,7 @@
     "name": "Rajesh Patel",
     "department": "Data Engineering",
     "title": "Senior Data Engineer",
-    "email": "rajesh.patel@sc.com",
+    "email": "rajesh.patel@sc.example",
     "phone": "+65 6225 8888",
     "location": "Standard Chartered Singapore",
     "note": "Technical lead for Standard Chartered Q2 ML platform expansion. Works closely with Anjali Kumar on Snowpark Python real-time inference requirements. Key stakeholder for fraud detection use case benchmarks."
@@ -144,7 +144,7 @@
     "name": "David Wong",
     "department": "Data Platform Engineering",
     "title": "VP Data Platform",
-    "email": "david.wong@hsbc.com",
+    "email": "david.wong@hsbc.example",
     "phone": "+44 20 7991 8888",
     "location": "HSBC London HQ",
     "note": "HSBC Q1 POC primary technical contact. Strong advocate for Snowflake ML capabilities but constrained by enterprise procurement policies. Reports to CDO (not yet introduced). Prefers detailed technical documentation and architecture diagrams. Responsive to email, prefers morning GMT calls. Key concern: demonstrating production-ready ML at scale within POC budget constraints."
@@ -154,7 +154,7 @@
     "name": "Rachel Chen",
     "department": "Procurement",
     "title": "Senior Procurement Manager",
-    "email": "rachel.chen@hsbc.com",
+    "email": "rachel.chen@hsbc.example",
     "phone": "+44 20 7991 7654",
     "location": "HSBC London HQ",
     "note": "HSBC enterprise tier contract administrator. Enforces GPU resource cap (8 nodes) without executive approval. Mentioned potential pathway for post-POC change orders if business case is strong. Prefers formal documentation for any contract amendments. CC on all SOW and credit allocation discussions."
@@ -184,7 +184,7 @@
     "name": "Sarah Mitchell",
     "department": "Data & Analytics",
     "title": "Chief Data Officer",
-    "email": "sarah.mitchell@barclays.com",
+    "email": "sarah.mitchell@barclays.example",
     "phone": "+44 20 7116 XXXX",
     "location": "Barclays Bank PLC, London",
     "note": "CDO at Barclays, executive sponsor for £2.8M data platform POC (Q1 2026 close target). Key decision criteria: data masking/governance capabilities vs. Databricks, UK FinServ reference customers. CISO influence on technical evaluation - competitive pressure from Databricks demo. Executive session scheduled Thu 27 March 14:00 GMT. Prefers structured executive briefings with clear competitive differentiation and customer proof points."
@@ -194,7 +194,7 @@
     "name": "Sarah Mitchell",
     "department": "Data & Analytics",
     "title": "Chief Data Officer",
-    "email": "sarah.mitchell@barclays.com",
+    "email": "sarah.mitchell@barclays.example",
     "phone": "+44 20 7116 1000",
     "location": "Barclays London HQ",
     "note": "CDO at Barclays. Leading Q1 2026 data masking & governance POC. Requested Pareto analysis of three architecture options. Key priorities: Q1 urgency (March 31 deadline), FCA audit readiness (April 2026), cost containment (€100K procurement cap). Technical decision-maker for €2.8M expansion deal. Prefers data-driven trade-off analysis with explicit dimension weighting."
@@ -204,7 +204,7 @@
     "name": "James Thornton",
     "department": "Data Governance",
     "title": "Head of Data Governance",
-    "email": "james.thornton@barclays.com",
+    "email": "james.thornton@barclays.example",
     "phone": "+44 20 7116 1045",
     "location": "Barclays London HQ",
     "note": "Reports to Sarah Mitchell. Technical evaluator for data masking POC. Strong preference for audit-ready solutions due to FCA compliance pressure. Concerned about operational complexity and long-term maintenance burden. Influential voice in architecture selection committee."
@@ -214,7 +214,7 @@
     "name": "Anjali Kumar",
     "department": "Data Engineering",
     "title": "Technical Lead - ML Platform",
-    "email": "anjali.kumar@sc.com",
+    "email": "anjali.kumar@sc.example",
     "phone": "+44 20 7885 4321",
     "location": "Standard Chartered London Office",
     "note": "Technical champion for SC Q2 expansion POC. Strong advocate for Snowpark Python capabilities. Reports to VP of Data Platform. Key decision influencer for ML infrastructure standardization."
@@ -224,7 +224,7 @@
     "name": "Rajesh Patel",
     "department": "Data Platform",
     "title": "Senior Data Engineer",
-    "email": "rajesh.patel@sc.com",
+    "email": "rajesh.patel@sc.example",
     "phone": "+44 20 7885 4389",
     "location": "Standard Chartered London Office",
     "note": "Supporting Anjali Kumar on POC technical validation. Focus on infrastructure provisioning and cost optimization."
@@ -234,7 +234,7 @@
     "name": "Sarah Chen",
     "department": "Technology",
     "title": "Chief Technology Officer",
-    "email": "sarah.chen@hsbc.com",
+    "email": "sarah.chen@hsbc.example",
     "phone": "+44 20 7991 8888",
     "location": "HSBC Tower, Canary Wharf, London",
     "note": "HSBC CTO - final decision maker on GPU infrastructure investment. Joining Tuesday 28th architecture review. Very technical, expects production-scale architecture discussions."
@@ -244,7 +244,7 @@
     "name": "Richard Thompson",
     "department": "Data Platform",
     "title": "VP Data Platform",
-    "email": "richard.thompson@barclays.com",
+    "email": "richard.thompson@barclays.example",
     "phone": "+44 20 7116 1000",
     "location": "Barclays Campus, Canary Wharf, London",
     "note": "Barclays VP Data Platform - final architecture decision maker. Skeptical of Snowflake vs Databricks Unity Catalog. Attending Tuesday 28th masking demo. Needs to see policy management simplicity at scale."
@@ -254,7 +254,7 @@
     "name": "Patricia O'Brien",
     "department": "Security Architecture",
     "title": "Lead Security Architect",
-    "email": "patricia.obrien@barclays.com",
+    "email": "patricia.obrien@barclays.example",
     "phone": "+44 20 7116 2200",
     "location": "Barclays Campus, Canary Wharf, London",
     "note": "Barclays Lead Security Architect - technical champion for data masking POC. Strong advocate for Snowflake approach. Key ally in Tuesday demo."
@@ -264,7 +264,7 @@
     "name": "James Patterson",
     "department": "Information Security",
     "title": "Head of Data Security",
-    "email": "james.patterson@barclays.com",
+    "email": "james.patterson@barclays.example",
     "phone": "+44 20 7116 2340",
     "location": "Barclays London HQ",
     "note": "Barclays security team lead. Strong preference for vendor-neutral security architecture. Concerned about Snowflake-native data masking creating lock-in. Key blocker for Option A approval. Reports to CISO. Must be addressed in final recommendation to CDO Sarah Mitchell."
@@ -274,7 +274,7 @@
     "name": "Sarah Chen",
     "department": "Technology",
     "title": "CTO - Analytics & Data Platform",
-    "email": "sarah.chen@hsbc.com",
+    "email": "sarah.chen@hsbc.example",
     "phone": "+44 20 7991 4523",
     "location": "HSBC Canary Wharf, London",
     "note": "HSBC CTO reporting to David Wong (CDO). Technical decision-maker for analytics modernization POC. Strong background in distributed systems and ML infrastructure. Prefers hands-on technical demos over slide decks."
@@ -284,7 +284,7 @@
     "name": "Claire Dubois",
     "department": "CDO Office - Data Platform Strategy",
     "title": "Senior Manager, Data Platform Strategy",
-    "email": "claire.dubois@bnpparibas.com",
+    "email": "claire.dubois@bnpparibas.example",
     "phone": "+33 1 42 98 12 34",
     "location": "BNP Paribas HQ, Paris",
     "note": "Primary contact for Q2 2026 data platform modernization initiative. Reports to CDO Jean-Pierre Laurent. Coordinates executive briefings and technical evaluations. Strategic opportunity €5-7M initial, €15M+ expansion potential."
@@ -294,7 +294,7 @@
     "name": "Jean-Pierre Laurent",
     "department": "CDO Office",
     "title": "Chief Data Officer",
-    "email": "jean-pierre.laurent@bnpparibas.com",
+    "email": "jean-pierre.laurent@bnpparibas.example",
     "phone": "+33 1 42 98 10 00",
     "location": "BNP Paribas HQ, Paris",
     "note": "CDO of BNP Paribas. Executive sponsor for Q2 data platform modernization. Key decision maker for €5-7M Snowflake evaluation. Prioritizes data residency, real-time analytics for trading, ML for fraud detection. Databricks competitive threat active since Q4 2025."
@@ -304,7 +304,7 @@
     "name": "Marie Leclerc",
     "department": "Data Architecture",
     "title": "VP of Data Architecture",
-    "email": "marie.leclerc@bnpparibas.com",
+    "email": "marie.leclerc@bnpparibas.example",
     "phone": "+33 1 42 98 15 67",
     "location": "BNP Paribas HQ, Paris",
     "note": "Technical stakeholder for BNP Paribas data platform evaluation. Focus on architecture patterns, data residency, and governance frameworks. Attending Feb 26 executive briefing."
@@ -314,7 +314,7 @@
     "name": "Thomas Renault",
     "department": "Analytics Platform",
     "title": "Head of Analytics Platform",
-    "email": "thomas.renault@bnpparibas.com",
+    "email": "thomas.renault@bnpparibas.example",
     "phone": "+33 1 42 98 18 92",
     "location": "BNP Paribas HQ, Paris",
     "note": "Analytics platform lead for BNP Paribas. Owns real-time analytics requirements for trading desk and ML workload optimization. Key technical evaluator for Snowflake vs. Databricks comparison."
@@ -324,7 +324,7 @@
     "name": "James Parker",
     "department": "Procurement",
     "title": "Senior Procurement Manager",
-    "email": "james.parker@barclays.com",
+    "email": "james.parker@barclays.example",
     "phone": "+44 20 7116 4567",
     "location": "Barclays London HQ",
     "note": "Barclays procurement lead for Snowflake POC, works closely with Sarah Mitchell on contract negotiations"
@@ -334,7 +334,7 @@
     "name": "Lisa Chen",
     "department": "Data Science",
     "title": "Senior Data Scientist",
-    "email": "lisa.chen@hsbc.com",
+    "email": "lisa.chen@hsbc.example",
     "phone": "+852 2822 3456",
     "location": "HSBC Hong Kong",
     "note": "HSBC ML workload technical lead, reports to David Wong"
@@ -344,7 +344,7 @@
     "name": "Sophie Laurent",
     "department": "Solutions Architecture",
     "title": "Senior Solutions Architect - EMEA FinServ",
-    "email": "sophie.laurent@snowflake.com",
+    "email": "sophie.laurent@snowflake.example",
     "phone": "+33 6 12 34 56 78",
     "location": "Snowflake Paris Office",
     "note": "EMEA FinServ SA team, specializes in data governance and compliance frameworks, fluent in French/German, available for on-call rotation swaps"
@@ -354,7 +354,7 @@
     "name": "Raj Krishnan",
     "department": "Solutions Architecture",
     "title": "Principal Solutions Architect - EMEA FinServ",
-    "email": "raj.krishnan@snowflake.com",
+    "email": "raj.krishnan@snowflake.example",
     "phone": "+44 20 7123 4567",
     "location": "Snowflake London Office",
     "note": "EMEA FinServ SA team, expert in Snowpark ML and GPU architecture, based in London, on-call rotation eligible"
@@ -364,7 +364,7 @@
     "name": "Michael Becker",
     "department": "Solutions Architecture",
     "title": "Staff Solutions Architect - EMEA FinServ",
-    "email": "michael.becker@snowflake.com",
+    "email": "michael.becker@snowflake.example",
     "phone": "+49 89 1234 5678",
     "location": "Snowflake Munich Office",
     "note": "EMEA FinServ SA team, specializes in Snowpark Python and data governance, German-speaking, limited on-call availability due to existing Q1 commitments"
@@ -374,7 +374,7 @@
     "name": "Claire Dubois",
     "department": "Data Architecture",
     "title": "Chief Data Architect",
-    "email": "claire.dubois@bnpparibas.com",
+    "email": "claire.dubois@bnpparibas.example",
     "phone": "+33 1 42 98 12 34",
     "location": "BNP Paribas Paris HQ",
     "note": "BNP Paribas technical champion for Q1 2026 data mesh POC. Reports to CDO Isabelle Moreau. Key decision-maker for architecture approval."
@@ -384,7 +384,7 @@
     "name": "Jean-Pierre Laurent",
     "department": "Data Engineering",
     "title": "Lead Data Engineer",
-    "email": "jean-pierre.laurent@bnpparibas.com",
+    "email": "jean-pierre.laurent@bnpparibas.example",
     "phone": "+33 1 42 98 15 67",
     "location": "BNP Paribas Paris HQ",
     "note": "BNP Paribas hands-on technical lead for POC implementation. Handles day-to-day technical questions."
@@ -394,7 +394,7 @@
     "name": "Rachel Patel",
     "department": "Enterprise Architecture",
     "title": "VP Enterprise Architecture",
-    "email": "rachel.patel@santander.co.uk",
+    "email": "rachel.patel@santander.example.uk",
     "phone": "+44 20 7756 3421",
     "location": "Santander UK London Office",
     "note": "Santander UK executive sponsor for analytics migration POC. Direct line to CTO James Patterson. Critical for board approval."
@@ -414,7 +414,7 @@
     "name": "Rachel Patel",
     "department": "Data Platform Engineering",
     "title": "VP Data Architecture",
-    "email": "rachel.patel@natwest.com",
+    "email": "rachel.patel@natwest.example",
     "phone": "+44 20 7123 4567",
     "location": "London, UK",
     "note": "NatWest VP Data Architecture, leading Q2 2026 data lakehouse POC vendor selection. Reports to CDO James Morrison. Key decision criteria: time-to-production (highest priority due to Q2 deadline pressure), regulatory compliance (FCA audit June deadline), cost optimization. Technical background - prefers detailed architecture trade-off analysis over sales pitches."
@@ -424,7 +424,7 @@
     "name": "James Morrison",
     "department": "Executive",
     "title": "Chief Data Officer",
-    "email": "james.morrison@natwest.com",
+    "email": "james.morrison@natwest.example",
     "phone": "+44 20 7123 4500",
     "location": "London, UK",
     "note": "NatWest CDO, final approval authority for data lakehouse POC vendor selection. Strategic focus on regulatory compliance and operational efficiency. Prefers concise executive summaries with explicit trade-off rationale."
@@ -434,7 +434,7 @@
     "name": "Sophie Chen",
     "department": "Procurement",
     "title": "Senior Procurement Manager",
-    "email": "sophie.chen@natwest.com",
+    "email": "sophie.chen@natwest.example",
     "phone": "+44 20 7123 4590",
     "location": "London, UK",
     "note": "NatWest procurement lead for data lakehouse POC. Enforcing €350K budget cap. Requires detailed cost breakdown and compliance documentation for vendor approval."
@@ -444,7 +444,7 @@
     "name": "Jean-Pierre Laurent",
     "department": "Technology",
     "title": "Chief Data Officer",
-    "email": "jean-pierre.laurent@bnpparibas.com",
+    "email": "jean-pierre.laurent@bnpparibas.example",
     "phone": "+33 1 42 98 12 34",
     "location": "BNP Paribas Paris HQ",
     "note": "CDO at BNP Paribas. Executive sponsor for Q2 2026 modernization POC. Strategic priority: cross-border analytics capabilities for European expansion. Key stakeholder for April 2 executive briefing. Positioned multi-region data replication as board-level differentiator vs competitors."
@@ -454,7 +454,7 @@
     "name": "Isabelle Moreau",
     "department": "Procurement",
     "title": "Senior Procurement Manager",
-    "email": "isabelle.moreau@bnpparibas.com",
+    "email": "isabelle.moreau@bnpparibas.example",
     "phone": "+33 1 42 98 45 67",
     "location": "BNP Paribas Paris HQ",
     "note": "Procurement contact for BNP Paribas POC. Manages vendor compliance and contract terms. Flagged CNIL data residency directive on March 30 via Slack Connect. Authority confirmed in CRM procurement records. Critical liaison for compliance-related architecture changes."
@@ -464,7 +464,7 @@
     "name": "Sophie Laurent",
     "department": "Solutions Engineering",
     "title": "Senior Solutions Engineer - EMEA FinServ",
-    "email": "sophie.laurent@snowflake.com",
+    "email": "sophie.laurent@snowflake.example",
     "phone": "+44 20 7123 4567",
     "location": "Snowflake London Office",
     "note": "EMEA FinServ SA team member. Covers France region accounts. Technical resource for BNP Paribas POC coordination. Can provide backup coverage for customer briefings and demo environment support."
@@ -474,7 +474,7 @@
     "name": "Claire Dubois",
     "department": "Office of the CDO",
     "title": "Chief Data Officer",
-    "email": "claire.dubois@bnpparibas.com",
+    "email": "claire.dubois@bnpparibas.example",
     "phone": "+33 1 42 98 12 34",
     "location": "BNP Paribas Paris HQ",
     "note": "CDO sponsor for Q2 modernization POC. Specifically requested data residency compliance demonstration for France/UK cross-border analytics. Executive briefing Feb 26 in Paris. Critical for Q1 pipeline."
@@ -484,7 +484,7 @@
     "name": "Jean-Pierre Laurent",
     "department": "Technology",
     "title": "Chief Technology Officer",
-    "email": "jp.laurent@bnpparibas.com",
+    "email": "jp.laurent@bnpparibas.example",
     "phone": "+33 1 42 98 45 67",
     "location": "BNP Paribas Paris HQ",
     "note": "Technical stakeholder for BNP Paribas POC. Reports to Claire Dubois. Focused on multi-region architecture feasibility and compliance validation."
@@ -494,7 +494,7 @@
     "name": "Rachel Patel",
     "department": "Data Platform Engineering",
     "title": "Lead Data Architect",
-    "email": "rachel.patel@bnpparibas.com",
+    "email": "rachel.patel@bnpparibas.example",
     "phone": "+44 20 7595 8800",
     "location": "BNP Paribas London Office",
     "note": "UK-side technical contact for BNP Paribas POC. Responsible for eu-west-2 architecture validation and query performance benchmarking."
@@ -504,7 +504,7 @@
     "name": "Isabelle Moreau",
     "department": "Procurement",
     "title": "Senior Procurement Manager",
-    "email": "isabelle.moreau@bnpparibas.com",
+    "email": "isabelle.moreau@bnpparibas.example",
     "phone": "+33 1 42 98 12 34",
     "location": "BNP Paribas Paris HQ",
     "note": "BNP Paribas procurement lead for Q2 POC. Direct liaison for contract compliance and budget approvals. Escalates CNIL and data residency policy issues."
@@ -514,7 +514,7 @@
     "name": "Philippe Bertrand",
     "department": "IT Infrastructure",
     "title": "Cloud Infrastructure Lead",
-    "email": "philippe.bertrand@bnpparibas.com",
+    "email": "philippe.bertrand@bnpparibas.example",
     "phone": "+33 1 42 98 15 67",
     "location": "BNP Paribas Paris HQ",
     "note": "Technical contact for BNP Paribas cloud infrastructure. Coordinates multi-region architecture deployments."
@@ -524,7 +524,7 @@
     "name": "Claire Dubois",
     "department": "Office of the CDO",
     "title": "Chief Data Officer",
-    "email": "claire.dubois@bnpparibas.com",
+    "email": "claire.dubois@bnpparibas.example",
     "phone": "+33 1 42 98 12 34",
     "location": "BNP Paribas Paris HQ",
     "note": "CDO sponsor for Q2 2026 multi-region POC. Key priorities: data residency compliance (France/UK), cross-border analytics governance, competitive differentiation vs Databricks. Fixed CDO briefing date: Feb 26. Technical credibility critical - expects production-grade architecture demonstration. Reports to Group CTO, influences €8M+ modernization budget."
@@ -534,7 +534,7 @@
     "name": "Jean-Pierre Laurent",
     "department": "Enterprise Architecture",
     "title": "Chief Architect",
-    "email": "jp.laurent@bnpparibas.com",
+    "email": "jp.laurent@bnpparibas.example",
     "phone": "+33 1 42 98 15 67",
     "location": "BNP Paribas Paris HQ",
     "note": "Technical evaluator for BNP Paribas Q2 POC. Deep expertise in multi-region data platform architecture. Concerned about operational complexity of cross-border replication and latency. Strong relationship with Claire Dubois, influences architecture selection. Prefers detailed technical documentation."
@@ -544,7 +544,7 @@
     "name": "Rachel Patel",
     "department": "Data Governance & Compliance",
     "title": "Head of Data Governance",
-    "email": "rachel.patel@bnpparibas.com",
+    "email": "rachel.patel@bnpparibas.example",
     "phone": "+44 20 7595 4321",
     "location": "BNP Paribas London Office",
     "note": "Compliance gatekeeper for BNP Paribas Q2 POC. Primary concern: GDPR data residency requirements for France/UK operations. Must validate that UK customer data stays in eu-west-2 region, French data in eu-west-3. Requires explicit documentation of data sovereignty controls. Based in London, represents UK regulatory perspective."
@@ -554,7 +554,7 @@
     "name": "Anjali Kumar",
     "department": "Data Engineering",
     "title": "Head of Data Engineering",
-    "email": "anjali.kumar@sc.com",
+    "email": "anjali.kumar@sc.example",
     "phone": "+65 6225 8888",
     "location": "Standard Chartered Singapore",
     "note": "Primary technical contact for Standard Chartered Q2 expansion POC. Based in Singapore (SGT timezone, +8 UTC). Approved four Snowpark Python demo workloads individually over past two weeks. Prefers Slack for technical discussions, email for formal documentation. Expects live POC demo to showcase production-ready ML pipeline orchestration."
@@ -564,7 +564,7 @@
     "name": "Michael Chen",
     "department": "Cloud Infrastructure",
     "title": "Senior Infrastructure Architect",
-    "email": "michael.chen@sc.com",
+    "email": "michael.chen@sc.example",
     "phone": "+65 6225 8899",
     "location": "Standard Chartered Singapore",
     "note": "Secondary contact for Standard Chartered POC. Manages demo environment provisioning and warehouse quota allocation. Escalation point for infrastructure-related issues."
@@ -574,7 +574,7 @@
     "name": "James Cooper",
     "department": "Data Platform Engineering",
     "title": "Senior Data Architect",
-    "email": "james.cooper@barclays.com",
+    "email": "james.cooper@barclays.example",
     "phone": "+44 20 7116 5432",
     "location": "Barclays London HQ",
     "note": "Technical lead for Barclays data platform POC. Reports to Sarah Mitchell. Key decision-maker on architecture choices."
@@ -584,7 +584,7 @@
     "name": "Rachel Tan",
     "department": "Analytics Engineering",
     "title": "Lead Analytics Engineer",
-    "email": "rachel.tan@hsbc.com",
+    "email": "rachel.tan@hsbc.example",
     "phone": "+44 20 7991 8765",
     "location": "HSBC London",
     "note": "HSBC analytics hub technical lead. Working on risk analytics migration. Reports to Simon Clarke."
@@ -594,7 +594,7 @@
     "name": "Sarah Chen",
     "department": "Technology",
     "title": "Chief Technology Officer",
-    "email": "sarah.chen@hsbc.com",
+    "email": "sarah.chen@hsbc.example",
     "phone": "+44 20 7991 1000",
     "location": "HSBC London HQ",
     "note": "HSBC CTO - executive sponsor for analytics hub modernization. Interested in data governance and cross-region compliance. High-priority stakeholder."

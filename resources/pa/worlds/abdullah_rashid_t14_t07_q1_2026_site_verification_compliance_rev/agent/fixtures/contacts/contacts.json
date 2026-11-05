@@ -4,7 +4,7 @@
     "name": "Li Chen",
     "department": "Project Management",
     "title": "Project Director - Middle East Operations",
-    "email": "li.chen@jsbridgeworks.com.cn",
+    "email": "li.chen@jsbridgeworks.example.example",
     "phone": "+86 139 5201 8847",
     "location": "Jiangsu Bridge Works International - Dubai Office",
     "note": "Steel erection subcontractor lead for Bridge Span 7. Crew has tight mobilization window April 8-12 before redeployment to Jeddah Metro project. Critical path dependency."
@@ -24,7 +24,7 @@
     "name": "Ahmed Khalil",
     "department": "Field Operations",
     "title": "Field Operations Manager",
-    "email": "ahmed.khalil@dar.com",
+    "email": "ahmed.khalil@dar.example",
     "phone": "+966 55 123 7654",
     "location": "Coastal Connector Site Office",
     "note": "Direct report managing formwork crews and day-to-day site execution. Coordinates crew deployment and productivity tracking."
@@ -34,9 +34,9 @@
     "name": "Dr. Youssef Ibrahim",
     "department": "Structural Engineering",
     "title": "Lead Structural Engineer",
-    "email": "youssef.ibrahim@dar.com",
+    "email": "youssef.ibrahim@dar.example",
     "phone": "+966 50 887 4421",
-    "location": "Dar Al-Handasah - Riyadh Office",
+    "location": "Darna Engineering - Riyadh Office",
     "note": "Technical authority on concrete strength requirements and accelerated curing protocols. Must sign off on any deviation from standard 28-day cure specifications."
   },
   {
@@ -44,7 +44,7 @@
     "name": "Mustafa Yilmaz",
     "department": "Project Management",
     "title": "Project Manager",
-    "email": "mustafa.yilmaz@bosphorusmarine.com.tr",
+    "email": "mustafa.yilmaz@bosphorusmarine.example.tr",
     "phone": "+90 532 445 7823",
     "location": "Bosphorus Marine Foundations Ltd. - Istanbul (seconded to Neom)",
     "note": "Primary contact for Turkish marine piling subcontractor. English fluent, coordinates between Turkish crew and consortium. Professional and responsive. Mobilization window April 7-14, 2026."
@@ -54,7 +54,7 @@
     "name": "Zeynep Kaya",
     "department": "Quality Assurance",
     "title": "QA/QC Coordinator",
-    "email": "zeynep.kaya@bosphorusmarine.com.tr",
+    "email": "zeynep.kaya@bosphorusmarine.example.tr",
     "phone": "+90 533 287 4156",
     "location": "Bosphorus Marine Foundations Ltd.",
     "note": "QA/QC lead for marine piling works. Detail-oriented, good technical documentation. English proficiency adequate for technical discussions. Has raised valid concerns about seabed bearing capacity assumptions."
@@ -64,7 +64,7 @@
     "name": "Ahmet Demir",
     "department": "Marine Operations",
     "title": "Marine Operations Lead",
-    "email": "ahmet.demir@bosphorusmarine.com.tr",
+    "email": "ahmet.demir@bosphorusmarine.example.tr",
     "phone": "+90 535 612 8934",
     "location": "Bosphorus Marine Foundations Ltd.",
     "note": "Marine operations specialist. Limited English - relies on Mustafa for translation in technical meetings. Experienced with pile driving in challenging seabed conditions. Will need visual aids and simplified technical briefings."
@@ -94,7 +94,7 @@
     "name": "Layla Rashid",
     "department": "Personal",
     "title": "Sister",
-    "email": "layla.rashid@gmail.com",
+    "email": "layla.rashid@gmail.example",
     "phone": "+962 79 555 1234",
     "location": "Amman, Jordan",
     "note": "Primary family contact in Amman. Coordinates father's medical appointments. Nurse at Jordan University Hospital."
@@ -104,7 +104,7 @@
     "name": "Kareem Rashid",
     "department": "Personal",
     "title": "Brother",
-    "email": "kareem.rashid@emirates.com",
+    "email": "kareem.rashid@emirates.example",
     "phone": "+971 50 444 5678",
     "location": "Dubai, UAE",
     "note": "Works in aviation logistics. Travels frequently for work. Secondary family contact."
@@ -124,7 +124,7 @@
     "name": "Dr. Hamza Qureshi",
     "department": "Geotechnical Engineering",
     "title": "Senior Geotechnical Engineer",
-    "email": "dr.hamza.qureshi@geosolutions-mena.com",
+    "email": "dr.hamza.qureshi@geosolutions-mena.example",
     "phone": "+966 50 234 5678",
     "location": "GeoSolutions MENA - Riyadh Office",
     "note": "Lead geotechnical engineer for Neom coastal connector soil investigation contract. PhD from Imperial College London, 15 years Middle East experience. Responsible for Zone 3A marine foundation investigation. Professional and thorough - follows international standards (Eurocode 7, ASTM). Contract period: Q3 2025 - Q2 2026. Reports directly to GeoSolutions regional director but interfaces with Abdullah for technical approvals per project governance."
@@ -164,7 +164,7 @@
     "name": "Dr. Hamza Qureshi",
     "department": "Geotechnical Engineering",
     "title": "Senior Geotechnical Engineer",
-    "email": "dr.hamza.qureshi@geosolutions-mena.com",
+    "email": "dr.hamza.qureshi@geosolutions-mena.example",
     "phone": "+966 50 234 8891",
     "location": "GeoSolutions MENA - Riyadh Office",
     "note": "Lead geotechnical engineer for Zone 3A marine foundation investigation. Highly competent, conservative approach to bearing capacity validation. Has worked on 3 previous NEOM packages."
@@ -184,7 +184,7 @@
     "name": "Dr. Hamza Qureshi",
     "department": "Geotechnical Engineering",
     "title": "Principal Geotechnical Engineer",
-    "email": "dr.hamza.qureshi@geosolutions-mena.com",
+    "email": "dr.hamza.qureshi@geosolutions-mena.example",
     "phone": "+966 50 234 8891",
     "location": "GeoSolutions MENA - Riyadh Office",
     "note": "Lead geotechnical engineer for Zone 3A investigation. Provided comprehensive seabed variability analysis that informed marine foundation best practices research. Excellent technical documentation - reports include detailed case study references and regional context."
@@ -194,7 +194,7 @@
     "name": "Ahmet Demir",
     "department": "Marine Operations",
     "title": "Marine Operations Manager",
-    "email": "ahmet.demir@bosphorusmarine.com.tr",
+    "email": "ahmet.demir@bosphorusmarine.example.tr",
     "phone": "+90 532 678 4523",
     "location": "Bosphorus Marine Construction - Istanbul HQ",
     "note": "Coordinates technical bulletin distribution and case study sharing from Bosphorus Marine's international project portfolio. Valuable resource for Turkish coastal construction precedents and lessons learned."
@@ -204,7 +204,7 @@
     "name": "Dr. Hamza Qureshi",
     "department": "Geotechnical Engineering",
     "title": "Senior Geotechnical Consultant",
-    "email": "dr.hamza.qureshi@geosolutions-mena.com",
+    "email": "dr.hamza.qureshi@geosolutions-mena.example",
     "phone": "+966 50 234 5678",
     "location": "GeoSolutions MENA - Riyadh Office",
     "note": "Lead geotechnical consultant for Zone 3A marine foundation investigation. Expert in seabed bearing capacity analysis and marine soil mechanics. Critical technical reviewer for foundation approval process."
@@ -224,7 +224,7 @@
     "name": "Dr. Karim Hassan",
     "department": "Product Engineering",
     "title": "Regional Technical Engineer - MENA",
-    "email": "eng.karim.hassan@marinepiling-tech.com",
+    "email": "eng.karim.hassan@marinepiling-tech.example",
     "phone": "+971-4-555-8877",
     "location": "MarinePiling Technologies - Dubai Office",
     "note": "Technical specialist for HydroGuard Pro corrosion protection system. Red Sea region expertise. Contact for project-specific marine foundation material specifications."
@@ -264,9 +264,9 @@
     "name": "Leila Mansour",
     "department": "Finance - Reimbursement Claims",
     "title": "Reimbursement Processing Manager",
-    "email": "leila.mansour@dar.com",
+    "email": "leila.mansour@dar.example",
     "phone": "+966 11 234 5678",
-    "location": "Dar Al-Handasah Riyadh Office",
+    "location": "Darna Engineering Riyadh Office",
     "note": "Processes manual reimbursement claims for Neom seconded staff. Requires complete documentation package including payment proof, vendor invoice, project code authorization, and technical justification. Standard processing time: 15-20 business days after submission."
   },
   {
@@ -304,7 +304,7 @@
     "name": "Dr. Elena Petrov",
     "department": "Technical Publications",
     "title": "Technical Publications Manager",
-    "email": "technical.literature@marinetech-global.com",
+    "email": "technical.literature@marinetech-global.example",
     "phone": "+44 20 7946 0958",
     "location": "MarineTech Global - London Office",
     "note": "Technical literature contact for marine foundation equipment specifications. Coordinates publication of technical bulletins covering hydraulic impact hammer systems and marine construction equipment."
@@ -314,7 +314,7 @@
     "name": "James Morrison",
     "department": "Regional Technical Support",
     "title": "Technical Representative - Middle East",
-    "email": "james.morrison@marinetech-global.com",
+    "email": "james.morrison@marinetech-global.example",
     "phone": "+971 4 555 0234",
     "location": "MarineTech Global - Dubai Regional Office",
     "note": "Regional technical representative for MarineTech Global. Available for specification clarification calls regarding HydroForce hydraulic hammer systems. Covers technical support for Saudi Arabia, UAE, and broader Middle East projects."
@@ -323,10 +323,10 @@
     "contact_id": "CON-233",
     "name": "Ahmed Khalil",
     "department": "Finance",
-    "title": "Finance Manager - Dar Al-Handasah Neom Operations",
-    "email": "ahmed.khalil@dar.com",
+    "title": "Finance Manager - Darna Engineering Neom Operations",
+    "email": "ahmed.khalil@dar.example",
     "phone": "+966 50 234 5678",
-    "location": "Dar Al-Handasah Neom Office",
+    "location": "Darna Engineering Neom Office",
     "note": "Primary contact for corporate card limits, payment processing, and budget constraint coordination. Manages Dar's financial interface with consortium credit facilities."
   },
   {
@@ -354,7 +354,7 @@
     "name": "Wei Zhang",
     "department": "Field Operations",
     "title": "Steel Erection Supervisor",
-    "email": "wei.zhang@jsbridgeworks.com.cn",
+    "email": "wei.zhang@jsbridgeworks.example.example",
     "phone": "+86 138 0012 3456",
     "location": "Jiangsu Bridge Works - Neom Site Team",
     "note": "Reports to Li Chen. On-site supervisor for bridge steel erection operations. Speaks limited English, prefers technical coordination through Li Chen."
@@ -364,7 +364,7 @@
     "name": "Dr. Hamza Qureshi",
     "department": "Geotechnical Engineering",
     "title": "Senior Geotechnical Engineer & Lab Director",
-    "email": "dr.hamza.qureshi@geosolutions-mena.com",
+    "email": "dr.hamza.qureshi@geosolutions-mena.example",
     "phone": "+966 12 234 5678",
     "location": "GeoSolutions MENA - Jeddah Laboratory",
     "note": "Strong working relationship established during Zone 3A seabed investigation success (Jan-Feb 2026). Provided exceptional technical support for variable seabed conditions analysis. Relationship capital: moderate positive balance - Abdullah provided early site access coordination for Zone 3A, Dr. Qureshi delivered ahead-of-schedule preliminary findings. Recent interaction frequency: 2-3 emails/month, one site coordination meeting in February. Professional partnership built on mutual technical respect and reliability."
@@ -374,7 +374,7 @@
     "name": "Sarah Mitchell",
     "department": "Laboratory Services",
     "title": "Business Development Manager",
-    "email": "sarah.mitchell@advancedgeolab.com",
+    "email": "sarah.mitchell@advancedgeolab.example",
     "phone": "+966 11 876 5432",
     "location": "Advanced GeoLab Services - Riyadh",
     "note": "External certified geotechnical testing laboratory. Premium pricing tier but offers guaranteed 24-hour turnaround for expedited soil compaction testing. No prior working relationship with Abdullah or Neom consortium. ISO 17025 accredited, approved vendor on consortium master services agreement."
@@ -384,7 +384,7 @@
     "name": "Dr. Hamza Qureshi",
     "department": "Geotechnical Engineering",
     "title": "Senior Geotechnical Consultant",
-    "email": "dr.hamza.qureshi@geosolutions-mena.com",
+    "email": "dr.hamza.qureshi@geosolutions-mena.example",
     "phone": "+966 50 234 5678",
     "location": "GeoSolutions MENA - Jeddah Office (seconded to Neom)",
     "note": "Lead geotechnical consultant for Zone 3A marine foundation investigations. Provided seabed bearing capacity analysis for RFI-MAR-089. Fluent in English and Arabic, technical authority on foundation design parameters."
@@ -394,7 +394,7 @@
     "name": "Ahmet Demir",
     "department": "Marine Foundations - Technical",
     "title": "Site Engineer - Piling Operations",
-    "email": "ahmet.demir@bosphorusmarine.com.tr",
+    "email": "ahmet.demir@bosphorusmarine.example.tr",
     "phone": "+90 532 876 5432",
     "location": "Bosphorus Marine Construction - Neom Site Office",
     "note": "Turkish site engineer for Bosphorus Marine piling operations. Provides Turkish-Arabic-English translation during technical coordination. Reports to Mustafa Yilmaz. Key contact for daily mobilization logistics."
@@ -404,7 +404,7 @@
     "name": "Tariq Al-Mansouri",
     "department": "Geotechnical Engineering",
     "title": "Site Geotechnical Engineer",
-    "email": "tariq.almansouri@geosolutions-mena.com",
+    "email": "tariq.almansouri@geosolutions-mena.example",
     "phone": "+966 55 234 8765",
     "location": "Zone 3A Field Office",
     "note": "Field engineer reporting to Dr. Hamza Qureshi. Responsible for on-site core sampling and real-time geotechnical monitoring. Known for thorough field documentation and early warning alerts. Communicates urgent field observations via WhatsApp group 'Zone 3A Geotech Team' before formal lab reports. High credibility - identified seabed anomaly in Zone 2B that prevented foundation failure in Q4 2025."
@@ -424,7 +424,7 @@
     "name": "Nabil Mansour",
     "department": "Commercial Operations",
     "title": "Finance Director",
-    "email": "nabil.mansour@advancedconcrete-tabuk.com",
+    "email": "nabil.mansour@advancedconcrete-tabuk.example",
     "phone": "+966 50 234 8891",
     "location": "Advanced Concrete Solutions - Tabuk",
     "note": "Finance director for ACS, primary contact for payment terms and invoice coordination. Direct communication style, limited flexibility on payment extensions due to company cash flow constraints. Critical supplier for Q2 access road packages."
@@ -454,9 +454,9 @@
     "name": "Ahmed Khalil",
     "department": "Finance",
     "title": "Finance Manager - Neom Projects",
-    "email": "ahmed.khalil@dar.com",
+    "email": "ahmed.khalil@dar.example",
     "phone": "+966 50 876 5432",
-    "location": "Dar Al-Handasah - Riyadh Office",
+    "location": "Darna Engineering - Riyadh Office",
     "note": "Dar corporate card administration and Q1 spend threshold tracking. Provides detailed transaction breakdowns and reimbursement policy guidance. Tracks parent company volume discount qualification progress."
   },
   {
@@ -464,7 +464,7 @@
     "name": "Dr. Hamza Qureshi",
     "department": "Geotechnical Engineering",
     "title": "Senior Geotechnical Engineer",
-    "email": "dr.hamza.qureshi@geosolutions-mena.com",
+    "email": "dr.hamza.qureshi@geosolutions-mena.example",
     "phone": "+966 50 234 8891",
     "location": "GeoSolutions MENA - Tabuk Office",
     "note": "Lead geotechnical engineer for Zone 3A investigation. PhD from Imperial College London, 15 years Red Sea coastal experience. Highly reliable on seabed bearing capacity analysis. Critical resource for marine foundation approvals - maintains excellent technical documentation standards."
@@ -507,6 +507,6 @@
     "email": "nasser.alharbi@jeddahpremium.sa",
     "phone": "+966 50 329 7654",
     "location": "Jeddah Premium Concrete - Neom Regional Hub",
-    "note": "Long-term supplier relationship (6 years across multiple Dar Al-Handasah projects). Known for flexible payment negotiation for established clients. Historically accommodated 10-14 day extensions without formal penalty. Prefers advance notice (5+ days) for payment timing adjustments. Key supplier for Q2-Q3 structural concrete works."
+    "note": "Long-term supplier relationship (6 years across multiple Darna Engineering projects). Known for flexible payment negotiation for established clients. Historically accommodated 10-14 day extensions without formal penalty. Prefers advance notice (5+ days) for payment timing adjustments. Key supplier for Q2-Q3 structural concrete works."
   }
 ]

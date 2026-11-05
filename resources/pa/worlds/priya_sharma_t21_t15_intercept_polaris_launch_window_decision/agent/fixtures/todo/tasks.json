@@ -127,7 +127,7 @@
   {
     "task_id": "TODO-510",
     "title": "Classify and triage 6 platform-team emails from April 2-4",
-    "description": "Process backlog of cross-functional requests: David Torres Q2 OKR dependency (2 emails with conflicting data), Rachel Kim TechFlow escalation (blocking), Sarah Kim OKR conflict analysis (blocking), Priya Sharma Polaris SSO clarification (medium), Marcus Chen log retention exception (low). Identify urgency tier, flag conflicts, draft responses for blocking items.",
+    "description": "Process backlog of cross-functional requests: David Torres Q2 OKR dependency (2 emails with conflicting data), Rachel Kim TechFlow escalation (blocking), Sarah Kim OKR conflict analysis (blocking), Parul Shankar Polaris SSO clarification (medium), Marcus Chen log retention exception (low). Identify urgency tier, flag conflicts, draft responses for blocking items.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-05",
@@ -585,7 +585,7 @@
   {
     "task_id": "TODO-543",
     "title": "URGENT: Escalate DataSync Solutions churn risk to leadership",
-    "description": "Immediately escalate DataSync Solutions (CUS-105) production-blocking API rate limit issue to David Torres (VP Customer Success) and Priya Sharma (VP Engineering). Customer has issued EOD April 5 deadline. CRM shows 'stable' but reality is active churn threat. Include contradiction evidence and Q1 interview corroboration.",
+    "description": "Immediately escalate DataSync Solutions (CUS-105) production-blocking API rate limit issue to David Torres (VP Customer Success) and Parul Shankar (VP Engineering). Customer has issued EOD April 5 deadline. CRM shows 'stable' but reality is active churn threat. Include contradiction evidence and Q1 interview corroboration.",
     "status": "in_progress",
     "priority": "critical",
     "due_date": "2026-04-05",
@@ -614,7 +614,7 @@
   {
     "task_id": "TODO-545",
     "title": "Draft urgent response to Elena Martinez - DataSync escalation acknowledgment",
-    "description": "Draft Workmail response to Elena Martinez acknowledging DataSync Solutions escalation, confirming platform team ownership, and providing timeline for API rate limit capacity review. CC David Torres and Priya Sharma. Mention war room scheduled for 11 AM April 5.",
+    "description": "Draft Workmail response to Elena Martinez acknowledging DataSync Solutions escalation, confirming platform team ownership, and providing timeline for API rate limit capacity review. CC David Torres and Parul Shankar. Mention war room scheduled for 11 AM April 5.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-05",
@@ -669,7 +669,7 @@
   {
     "task_id": "TODO-549",
     "title": "Notify Priya and David of Q2 sprint allocation decision via Workmail",
-    "description": "Send email to Priya Sharma (VP Engineering) and David Torres (VP Customer Success) with final Q2 sprint allocation decision. Explain compliance veto of high-vote analytics option, selection of accessibility remediation work, and rationale. Include link to Notion decision document and next steps for sprint planning kickoff.",
+    "description": "Send email to Parul Shankar (VP Engineering) and David Torres (VP Customer Success) with final Q2 sprint allocation decision. Explain compliance veto of high-vote analytics option, selection of accessibility remediation work, and rationale. Include link to Notion decision document and next steps for sprint planning kickoff.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-04-05",
@@ -1286,7 +1286,7 @@
   {
     "task_id": "TODO-593",
     "title": "Assess credibility of CDN maintenance claim and cross-verify sources",
-    "description": "Verify Marcus Chen's CDN maintenance alert: (1) Check sender identity and role (SRE lead), (2) Validate timestamp (within 24h), (3) Cross-reference CloudCDN status page (https://status.cloudcdn.com/incidents/2026-0428-emergency), (4) Review Notion page NPAG-56 for corroborating evidence, (5) Confirm with Jennifer Wu if needed.",
+    "description": "Verify Marcus Chen's CDN maintenance alert: (1) Check sender identity and role (SRE lead), (2) Validate timestamp (within 24h), (3) Cross-reference CloudCDN status page (https://status.cloudcdn.example/incidents/2026-0428-emergency), (4) Review Notion page NPAG-56 for corroborating evidence, (5) Confirm with Jennifer Wu if needed.",
     "status": "completed",
     "priority": "urgent",
     "due_date": "2026-04-07",
@@ -1314,7 +1314,7 @@
   {
     "task_id": "TODO-595",
     "title": "Notify engineering and marketing of Polaris launch window change",
-    "description": "Send notifications with full context: (1) Email Priya Sharma (VP Engineering) about Window C hold decision and CDN conflict, (2) Email Sarah Kim (Product Marketing) to delay customer communications scheduled for April 14, (3) Provide alternative window recommendations, (4) Schedule emergency alignment meeting (MTG-7020).",
+    "description": "Send notifications with full context: (1) Email Parul Shankar (VP Engineering) about Window C hold decision and CDN conflict, (2) Email Sarah Kim (Product Marketing) to delay customer communications scheduled for April 14, (3) Provide alternative window recommendations, (4) Schedule emergency alignment meeting (MTG-7020).",
     "status": "pending",
     "priority": "urgent",
     "due_date": "2026-04-07",

@@ -206,7 +206,7 @@
   {
     "task_id": "TODO-514",
     "title": "Triage new UK shell network tip - assess credibility and scope",
-    "description": "Received unsolicited encrypted tip 2026-01-15 from anonymous.tipster.2026@tutanota.com. Claims: UK-based shell network (12+ entities, London/Jersey/Cayman), £47M flow over 18 months, construction procurement fraud, source is UK bank compliance officer with internal memos and recordings. NOT related to CLEARVIEW but potentially larger scale. ASSESS: Source credibility (new/unverified contact), timeline feasibility (internal audit starting Feb 1st - pressure tactic?), resource allocation (CLEARVIEW deadline takes priority), honeypot/phishing risk. Consult Marcus before responding. May be legitimate new investigation thread for post-CLEARVIEW.",
+    "description": "Received unsolicited encrypted tip 2026-01-15 from anonymous.tipster.2026@tutanota.example. Claims: UK-based shell network (12+ entities, London/Jersey/Cayman), £47M flow over 18 months, construction procurement fraud, source is UK bank compliance officer with internal memos and recordings. NOT related to CLEARVIEW but potentially larger scale. ASSESS: Source credibility (new/unverified contact), timeline feasibility (internal audit starting Feb 1st - pressure tactic?), resource allocation (CLEARVIEW deadline takes priority), honeypot/phishing risk. Consult Marcus before responding. May be legitimate new investigation thread for post-CLEARVIEW.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-01-18",
@@ -384,7 +384,7 @@
   {
     "task_id": "TODO-526",
     "title": "Draft encrypted reply to T.W. - confirm March 3rd interview slot",
-    "description": "Send encrypted confirmation via ProtonMail to t.wl.secure.2026@protonmail.com:\n\n- Confirm March 3, 2026, 14:00-16:00 GMT slot\n- Provide Jitsi encrypted video link (generate fresh link day-of)\n- Share Signal backup number: +44-XXX-XXX-XXXX\n- Confirm document list: beneficial ownership chains for Coastal Ventures Ltd, Apex Maritime Holdings, Cayman Trust Services internal records (2019-2024)\n- Remind: interview will be recorded (encrypted storage only, destroyed after publication)\n- Security protocol: use VPN, fresh browser session, no screenshots\n\nSend by end of day Feb 28th to give T.W. 72hr notice.",
+    "description": "Send encrypted confirmation via ProtonMail to t.wl.secure.2026@protonmail.example:\n\n- Confirm March 3, 2026, 14:00-16:00 GMT slot\n- Provide Jitsi encrypted video link (generate fresh link day-of)\n- Share Signal backup number: +44-XXX-XXX-XXXX\n- Confirm document list: beneficial ownership chains for Coastal Ventures Ltd, Apex Maritime Holdings, Cayman Trust Services internal records (2019-2024)\n- Remind: interview will be recorded (encrypted storage only, destroyed after publication)\n- Security protocol: use VPN, fresh browser session, no screenshots\n\nSend by end of day Feb 28th to give T.W. 72hr notice.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-28",
@@ -514,7 +514,7 @@
   {
     "task_id": "TODO-535",
     "title": "Verify Panama registry agent credentials and pricing",
-    "description": "Follow up with secure.panama.agent@protonmail.com to verify legitimacy and negotiate pricing for Apex Consolidated SA registry search in Dubai/Panama nexus. Need confirmation of turnaround time and document authentication process.",
+    "description": "Follow up with secure.panama.agent@protonmail.example to verify legitimacy and negotiate pricing for Apex Consolidated SA registry search in Dubai/Panama nexus. Need confirmation of turnaround time and document authentication process.",
     "status": "in_progress",
     "priority": "medium",
     "due_date": "2026-01-15",
@@ -1398,7 +1398,7 @@
   {
     "task_id": "TODO-595",
     "title": "Execute GRD Panama registry searches - 7 CLEARVIEW entities",
-    "description": "Purchase and execute Global Registry Direct premium Panama searches for 7 critical entities needed for March 18 Source A interview prep: Clearview Maritime Holdings SA, Apex Consolidated SA (Dubai connection), Sentinel Holdings Corp, Pacific Trade Facilitators Inc, Coastal Investment Partners SA, Maritime Services Group Ltd, Offshore Consulting Associates SA. Cost: €175 total (€25/entity, 24hr turnaround). Payment via wire transfer or credit card (3% fee). Delivery: Encrypted PDF bundle + structured JSON. Expected completion: January 19 (provides 6-day prep buffer before Source A interview). Contact: Maria Santos (maria.santos@grd-premium.com, +507 838-4729). PREREQUISITE: Vendor allocation decision (TODO-594) must be finalized and approved by Marcus.",
+    "description": "Purchase and execute Global Registry Direct premium Panama searches for 7 critical entities needed for March 18 Source A interview prep: Clearview Maritime Holdings SA, Apex Consolidated SA (Dubai connection), Sentinel Holdings Corp, Pacific Trade Facilitators Inc, Coastal Investment Partners SA, Maritime Services Group Ltd, Offshore Consulting Associates SA. Cost: €175 total (€25/entity, 24hr turnaround). Payment via wire transfer or credit card (3% fee). Delivery: Encrypted PDF bundle + structured JSON. Expected completion: January 19 (provides 6-day prep buffer before Source A interview). Contact: Maria Santos (maria.santos@grd-premium.example, +507 838-4729). PREREQUISITE: Vendor allocation decision (TODO-594) must be finalized and approved by Marcus.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-18",
@@ -1430,7 +1430,7 @@
   {
     "task_id": "TODO-597",
     "title": "Review ICIJ webinar registration - offshore registry tools (Jan 28)",
-    "description": "ICIJ hosting webinar on AI-assisted entity resolution and cost-effective registry vendor alternatives on January 28, 15:00 UTC. Topics include cross-jurisdiction API integrations and automated beneficial ownership chain mapping. Could provide useful techniques for future investigations, though timing is mid-CLEARVIEW crunch. Evaluate whether to attend live or watch recording post-publication. Speakers include OpenOwnership.org and Panama Papers technical team. CPE credits available.",
+    "description": "ICIJ hosting webinar on AI-assisted entity resolution and cost-effective registry vendor alternatives on January 28, 15:00 UTC. Topics include cross-jurisdiction API integrations and automated beneficial ownership chain mapping. Could provide useful techniques for future investigations, though timing is mid-CLEARVIEW crunch. Evaluate whether to attend live or watch recording post-publication. Speakers include OpenOwnership.example and Panama Papers technical team. CPE credits available.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-01-27",
@@ -1563,7 +1563,7 @@
   {
     "task_id": "TODO-606",
     "title": "Verify Registry Intelligence legitimacy - forward to IJN security team",
-    "description": "Forward Registry Intelligence promotional email (MSG-5100, Feb 14) to IJN security team at security@investigativejournalists.org. Include analysis notes (NOTE-151) documenting red flags and fraud indicators. Request confirmation if other journalists have reported similar solicitations.",
+    "description": "Forward Registry Intelligence promotional email (MSG-5100, Feb 14) to IJN security team at security@investigativejournalists.example. Include analysis notes (NOTE-151) documenting red flags and fraud indicators. Request confirmation if other journalists have reported similar solicitations.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-15",
@@ -1841,7 +1841,7 @@
   {
     "task_id": "TODO-625",
     "title": "Follow up with ECI on Cyprus registry batch 2 delivery timeline",
-    "description": "ECI bulk package: 73 of 200 queries used, Cyprus batch 2 (entities 24-47) delivery expected Feb 18. Confirm delivery timeline to ensure data available for Source A interview Feb 19/20.\n\nContact: Thomas Patel (thomas.patel@eci-registry.com)\nPackage: €450 ECI bulk (Cyprus/Malta/Jersey coverage)\nCritical path: Need Cyprus batch 2 data to validate Source A testimony during interview",
+    "description": "ECI bulk package: 73 of 200 queries used, Cyprus batch 2 (entities 24-47) delivery expected Feb 18. Confirm delivery timeline to ensure data available for Source A interview Feb 19/20.\n\nContact: Thomas Patel (thomas.patel@eci-registry.example)\nPackage: €450 ECI bulk (Cyprus/Malta/Jersey coverage)\nCritical path: Need Cyprus batch 2 data to validate Source A testimony during interview",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-17",
@@ -2182,7 +2182,7 @@
   {
     "task_id": "TODO-649",
     "title": "Draft encrypted confirmation to Source A with selected time slot",
-    "description": "Once feasible interview slot is identified, draft ProtonMail confirmation to secure.contact.a@protonmail.com with: (1) selected time window confirmation in both Cyprus EET and Singapore SGT, (2) Signal backup protocol reminder, (3) encryption setup verification checklist, (4) backup contingency if surveillance risk escalates. Include duress code phrase protocol in case Source A needs emergency cancellation.",
+    "description": "Once feasible interview slot is identified, draft ProtonMail confirmation to secure.contact.a@protonmail.example with: (1) selected time window confirmation in both Cyprus EET and Singapore SGT, (2) Signal backup protocol reminder, (3) encryption setup verification checklist, (4) backup contingency if surveillance risk escalates. Include duress code phrase protocol in case Source A needs emergency cancellation.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-30",

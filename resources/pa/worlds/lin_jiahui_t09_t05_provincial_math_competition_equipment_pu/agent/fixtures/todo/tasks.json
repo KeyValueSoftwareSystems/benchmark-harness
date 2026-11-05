@@ -29,8 +29,8 @@
   },
   {
     "task_id": "TODO-503",
-    "title": "Follow up with Li Ming's parents about behavioral concerns",
-    "description": "Schedule individual meeting with Li Fang (parent) to discuss Li Ming's classroom behavior issues. Need to present specific examples and proposed solutions. Parent requested separate meeting after main conference.",
+    "title": "Follow up with Liu Hao's parents about behavioral concerns",
+    "description": "Schedule individual meeting with Li Fang (parent) to discuss Liu Hao's classroom behavior issues. Need to present specific examples and proposed solutions. Parent requested separate meeting after main conference.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-20",
@@ -183,7 +183,7 @@
   {
     "task_id": "TODO-514",
     "title": "Contact Competition Office about possible deadline extension or refund policy flexibility",
-    "description": "Call or email Guangdong Competition Office (competition.office@gdedu.gov.cn, 020-8765-4321) to inquire if: (1) Early registration deadline can be extended 2-3 days to March 10-11, or (2) Partial refund policy available for student withdrawals before March 15. Explain school's selection timeline conflict.",
+    "description": "Call or email Guangdong Competition Office (competition.office@gdedu.gov.example, 020-8765-4321) to inquire if: (1) Early registration deadline can be extended 2-3 days to March 10-11, or (2) Partial refund policy available for student withdrawals before March 15. Explain school's selection timeline conflict.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-05",
@@ -631,7 +631,7 @@
   {
     "task_id": "TODO-546",
     "title": "Confirm prepaid account balance and year-end spending threshold with Finance Office",
-    "description": "Verify current prepaid account balance (¥2,300 as stated in email) and confirm department's year-to-date spending status relative to ¥12,000 threshold for ¥500 year-end bonus. Need to understand if combined competition expenses from all four teachers (¥10,350 total) will forfeit bonus eligibility. Contact finance.reimbursement@szexperimental.edu.cn.",
+    "description": "Verify current prepaid account balance (¥2,300 as stated in email) and confirm department's year-to-date spending status relative to ¥12,000 threshold for ¥500 year-end bonus. Need to understand if combined competition expenses from all four teachers (¥10,350 total) will forfeit bonus eligibility. Contact finance.reimbursement@szexperimental.example.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-11",
@@ -1142,7 +1142,7 @@
   {
     "task_id": "TODO-582",
     "title": "Contact early-bird vendor for price match negotiation before final payment deadline",
-    "description": "Email sales@earlybird-edu.com (Chen Wei) to request:\n1. Price matching to competitor's ¥398/unit rate while maintaining bundled benefits\n2. Alternative: partial deposit refund if switching vendors becomes necessary\n3. Emphasize value of training materials and priority support, but need to justify cost difference to finance office\n4. Request response by April 2 afternoon (competitor's flash sale expires April 2 at 23:59)\n5. Prepare to make final decision based on vendor response and finance office guidance",
+    "description": "Email sales@earlybird-edu.example (Chen Wei) to request:\n1. Price matching to competitor's ¥398/unit rate while maintaining bundled benefits\n2. Alternative: partial deposit refund if switching vendors becomes necessary\n3. Emphasize value of training materials and priority support, but need to justify cost difference to finance office\n4. Request response by April 2 afternoon (competitor's flash sale expires April 2 at 23:59)\n5. Prepare to make final decision based on vendor response and finance office guidance",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-04-01",
@@ -1498,7 +1498,7 @@
   {
     "task_id": "TODO-607",
     "title": "Confirm attendance for all three daughters' school events with primary school",
-    "description": "Send confirmation email to primary.admin@szprimaryschool.edu.cn confirming attendance at: (1) Art Exhibition Opening - April 7, 9:30-11:30 AM, (2) Science Project Presentation - April 8, 3:00-4:30 PM, (3) Parent Safety Workshop - April 9, 4:30-6:00 PM. Deadline: April 2.",
+    "description": "Send confirmation email to primary.admin@szprimaryschool.example confirming attendance at: (1) Art Exhibition Opening - April 7, 9:30-11:30 AM, (2) Science Project Presentation - April 8, 3:00-4:30 PM, (3) Parent Safety Workshop - April 9, 4:30-6:00 PM. Deadline: April 2.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-02",
@@ -1699,7 +1699,7 @@
   {
     "task_id": "TODO-621",
     "title": "Prepare exam materials for April 14 Math Paper 1 proctoring",
-    "description": "Collect sealed exam papers from Academic Affairs Office, verify student seating chart for Examination Hall B, prepare attendance roster for Class 10A and 10B students, review proctoring guidelines for students with accommodation requests (Li Ming - extra time, Wang Zihan - separate room)",
+    "description": "Collect sealed exam papers from Academic Affairs Office, verify student seating chart for Examination Hall B, prepare attendance roster for Class 10A and 10B students, review proctoring guidelines for students with accommodation requests (Liu Hao - extra time, Wang Zihan - separate room)",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-13",
@@ -1713,7 +1713,7 @@
   {
     "task_id": "TODO-622",
     "title": "Review student accommodation requests for mid-term exam week",
-    "description": "Process accommodation requests submitted by parents: Li Ming (ADHD - extra 30 minutes), Wang Zihan (anxiety - separate quiet room), Zhang Xiaomei (visual impairment - large print paper). Coordinate with Academic Affairs Office to arrange logistics for April 14-18 exam sessions.",
+    "description": "Process accommodation requests submitted by parents: Liu Hao (ADHD - extra 30 minutes), Wang Zihan (anxiety - separate quiet room), Zhang Xiaomei (visual impairment - large print paper). Coordinate with Academic Affairs Office to arrange logistics for April 14-18 exam sessions.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-10",
@@ -2067,7 +2067,7 @@
   {
     "task_id": "TODO-647",
     "title": "Confirm Provincial Competition registration with Competition Office",
-    "description": "Reply to competition.office@gdedu.gov.cn to confirm final team roster and payment details by April 5 deadline. Verify: (1) Final 8-student list, (2) Payment TXN-6028, (3) Principal's authorization letter, (4) All 8 student consent forms. Failure to confirm will forfeit early-bird discount.",
+    "description": "Reply to competition.office@gdedu.gov.example to confirm final team roster and payment details by April 5 deadline. Verify: (1) Final 8-student list, (2) Payment TXN-6028, (3) Principal's authorization letter, (4) All 8 student consent forms. Failure to confirm will forfeit early-bird discount.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-05",
@@ -2401,7 +2401,7 @@
   {
     "task_id": "TODO-670",
     "title": "Contact vendor (EarlyBird Educational) to clarify cancellation options",
-    "description": "Call or email Chen Wei (sales@earlybird-edu.com, +86 755-8234-5678) to confirm: (1) Deposit refund policy - is ¥800 definitively non-refundable? (2) Partial order modification - can we reduce from 12 to 6 units and maintain group discount? (3) Payment deadline extension - any flexibility beyond April 6? (4) Order hold option - can we pause order pending budget approval without losing discount? Need written confirmation of terms for decision analysis.",
+    "description": "Call or email Chen Wei (sales@earlybird-edu.example, +86 755-8234-5678) to confirm: (1) Deposit refund policy - is ¥800 definitively non-refundable? (2) Partial order modification - can we reduce from 12 to 6 units and maintain group discount? (3) Payment deadline extension - any flexibility beyond April 6? (4) Order hold option - can we pause order pending budget approval without losing discount? Need written confirmation of terms for decision analysis.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-04",
@@ -2530,8 +2530,8 @@
   },
   {
     "task_id": "TODO-679",
-    "title": "Prepare for emergency parent meeting - Li Ming's mother",
-    "description": "Li Fang requested urgent meeting April 4, 3:30 PM about Li Ming's recent behavior issues. Review previous notes, prepare specific examples and intervention recommendations. Follow-up from March behavioral concerns.",
+    "title": "Prepare for emergency parent meeting - Liu Hao's mother",
+    "description": "Li Fang requested urgent meeting April 4, 3:30 PM about Liu Hao's recent behavior issues. Review previous notes, prepare specific examples and intervention recommendations. Follow-up from March behavioral concerns.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-04-04",
@@ -2544,7 +2544,7 @@
   {
     "task_id": "TODO-680",
     "title": "Contact Liu Wei (MathTech) to confirm Bulk + Early-bird calculator pricing",
-    "description": "Email Liu Wei at sales@mathtech-supplies.com to confirm final pricing for 18 TI-Nspire CX II calculators using Bulk discount (12%) + Early-bird discount (8%) without prepaid account. Verify early-bird deadline of April 10 and delivery timeline to meet April 7 training start date. Reference MSG-5160 promotional email.",
+    "description": "Email Liu Wei at sales@mathtech-supplies.example to confirm final pricing for 18 TI-Nspire CX II calculators using Bulk discount (12%) + Early-bird discount (8%) without prepaid account. Verify early-bird deadline of April 10 and delivery timeline to meet April 7 training start date. Reference MSG-5160 promotional email.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-01",
@@ -2558,7 +2558,7 @@
   {
     "task_id": "TODO-681",
     "title": "Submit calculator purchase requisition to Finance Office (Zhao Min)",
-    "description": "Prepare and submit purchase requisition for 18 graphing calculators to Zhao Min (finance.office@szexperimental.edu.cn). Include: vendor quote from MathTech, cost-benefit analysis showing Path B selection rationale (NOTE-177), impact on year-end bonus threshold, and delivery timeline. Request approval by April 3 to meet early-bird deadline.",
+    "description": "Prepare and submit purchase requisition for 18 graphing calculators to Zhao Min (finance.office@szexperimental.example). Include: vendor quote from MathTech, cost-benefit analysis showing Path B selection rationale (NOTE-177), impact on year-end bonus threshold, and delivery timeline. Request approval by April 3 to meet early-bird deadline.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-02",

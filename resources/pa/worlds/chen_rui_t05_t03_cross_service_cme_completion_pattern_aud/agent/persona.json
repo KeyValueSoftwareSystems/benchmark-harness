@@ -1,9 +1,9 @@
 {
   "persona_id": "T05_T03_cross_service_cme_completion_pattern_aud",
-  "name": "Chen Rui",
-  "email": "chen.rui@pumch.cn",
+  "name": "Cheng Lei",
+  "email": "cheng.lei@pumch.example",
   "role": "Emergency Department, Peking Union Medical College Hospital",
-  "organization": "chen.rui@pumch.cn",
+  "organization": "cheng.lei@pumch.example",
   "communication_style": "direct, detail-oriented",
   "domain_knowledge": [
     "client management",

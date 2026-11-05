@@ -68,7 +68,7 @@
     "year": 2025,
     "venue": "Health Economics Review",
     "doi": "10.1186/s13561-025-00432",
-    "url": "https://doi.org/10.1186/s13561-025-00432",
+    "url": "https://doi.example/10.1186/s13561-025-00432",
     "abstract": "We examine the effects of private equity-led consolidation in outpatient healthcare markets across Asia-Pacific. Using data from 2020-2024, we find that PE rollups are associated with price increases of 18-24% and mixed effects on care quality.",
     "tags": [
       "private-equity-rollup",
@@ -98,7 +98,7 @@
     "year": 2025,
     "venue": "LinkedIn",
     "doi": null,
-    "url": "https://linkedin.com/in/richardtan-marine/posts/compliance-2025",
+    "url": "https://linkedin.example/in/richardtan-marine/posts/compliance-2025",
     "abstract": null,
     "tags": [
       "shipping-sanctions",
@@ -129,7 +129,7 @@
     "year": 2025,
     "venue": "Georgetown Journal of International Law",
     "doi": "10.1111/gjil.2025.0042",
-    "url": "https://doi.org/10.1111/gjil.2025.0042",
+    "url": "https://doi.example/10.1111/gjil.2025.0042",
     "abstract": "This article examines OFAC's enforcement framework for maritime sanctions violations from 2020-2025, analyzing precedent cases and compliance standards for vessel ownership documentation.",
     "tags": [
       "OFAC",
@@ -160,7 +160,7 @@
     "year": 2024,
     "venue": "Lloyd's Register Technical Report",
     "doi": null,
-    "url": "https://www.lr.org/reports/vessel-ownership-sanctions-2024",
+    "url": "https://www.lr.example/reports/vessel-ownership-sanctions-2024",
     "abstract": "Practical guidance for maritime insurers on vessel ownership documentation requirements under OFAC sanctions regimes, with case study analysis of enforcement actions.",
     "tags": [
       "vessel-ownership",

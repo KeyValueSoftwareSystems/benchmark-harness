@@ -1,10 +1,10 @@
 task_id: T18_T01_wellington_contract_session_cancellation
-task_name: Wellington Contract Session Cancellation After NHS Emergency Activation
+task_name: Westgate Contract Session Cancellation After NHS Emergency Activation
 category: decision_making
 difficulty: simple
 prompt:
   text: I just got an NHS trauma activation for tomorrow afternoon (April 3rd) but
-    I already have a Wellington session booked. Help me figure out what to do.
+    I already have a Westgate session booked. Help me figure out what to do.
   language: en
 execution_date: '2026-04-02'
 tools:

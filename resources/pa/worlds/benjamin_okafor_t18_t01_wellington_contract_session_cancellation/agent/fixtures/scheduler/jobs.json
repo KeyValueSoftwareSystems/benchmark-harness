@@ -8,7 +8,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "appraisal",
@@ -28,7 +28,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "equipment",
@@ -48,7 +48,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "revalidation"
@@ -67,7 +67,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "equipment",
@@ -87,7 +87,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "equipment",
@@ -107,7 +107,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "cme"
@@ -126,7 +126,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "equipment",
@@ -146,7 +146,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "cme",
@@ -166,7 +166,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Benjamin Okafor",
+    "created_by": "Brendan Okoro",
     "tags": [
       "reminder",
       "cme",

@@ -506,7 +506,7 @@ reference_solution: "# Reference Solution: Q2 Supplier Negotiation Schedule Cons
   \ for Q2. Let's revisit for Q3.\"\n\n## Step 9: Generate Consolidated Timeline with\
   \ Conflict Annotations\n\n**Recommended Output Structure** (save to notes or present\
   \ to user):\n\n### April 4 (Today)\n- **10:00 AM EST**: Team Sync - Deposit Strategy\
-  \ (EVT-536)\n  - **Attendees**: Dario, Jessica Torres, Mike Chang\n  - **Agenda**:\
+  \ (EVT-536)\n  - **Attendees**: Davide, Jessica Torres, Mike Chang\n  - **Agenda**:\
   \ Approve Meihao → Yongxin → decline Jinlong sequencing\n  - **Conflict Level**:\
   \ HIGH (decision alignment required)\n\n### April 5 (Saturday)\n- **09:00 AM EST**:\
   \ Amazon Payout Verification (EVT-534)\n  - **Action**: Confirm USD 32K arrival\

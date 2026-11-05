@@ -2,7 +2,7 @@
   {
     "ticket_id": "TK-801",
     "title": "Bloomberg terminal data feed refresh issue",
-    "reporter": "lucia.moretti@milanbank.com",
+    "reporter": "lorena.mancini@milanbank.example",
     "created_at": "2026-01-12T14:45:00+01:00",
     "priority": "medium",
     "status": "draft",
@@ -18,7 +18,7 @@
   {
     "ticket_id": "TK-802",
     "title": "Bloomberg Terminal data feed intermittent connection",
-    "reporter": "lucia.moretti@investbank.eu",
+    "reporter": "lorena.mancini@investbank.example",
     "created_at": "2026-01-19T10:40:00+01:00",
     "priority": "medium",
     "status": "draft",
@@ -35,7 +35,7 @@
   {
     "ticket_id": "TK-803",
     "title": "Bloomberg terminal data feed intermittent lag",
-    "reporter": "lucia.moretti@milanbank.eu",
+    "reporter": "lorena.mancini@milanbank.example",
     "created_at": "2026-02-03T16:35:00+01:00",
     "priority": "medium",
     "status": "draft",
@@ -52,7 +52,7 @@
   {
     "ticket_id": "TK-804",
     "title": "Bloomberg terminal data feed intermittent connection",
-    "reporter": "lucia.moretti@investbank.eu",
+    "reporter": "lorena.mancini@investbank.example",
     "created_at": "2026-02-11T16:35:00+01:00",
     "priority": "medium",
     "status": "draft",
@@ -70,7 +70,7 @@
   {
     "ticket_id": "TK-805",
     "title": "Bloomberg terminal data feed connection issue",
-    "reporter": "lucia.moretti@milanbank.eu",
+    "reporter": "lorena.mancini@milanbank.example",
     "created_at": "2026-02-19T16:35:00+01:00",
     "priority": "medium",
     "status": "draft",
@@ -88,7 +88,7 @@
   {
     "ticket_id": "TK-806",
     "title": "Bloomberg Terminal data feed intermittent connection",
-    "reporter": "lucia.moretti@investbank.it",
+    "reporter": "lorena.mancini@investbank.it",
     "created_at": "2026-02-25T09:35:00+01:00",
     "priority": "medium",
     "status": "draft",
@@ -106,7 +106,7 @@
   {
     "ticket_id": "TK-807",
     "title": "Bloomberg Terminal data export format issue",
-    "reporter": "lucia.moretti@investbank.eu",
+    "reporter": "lorena.mancini@investbank.example",
     "created_at": "2026-03-13T11:45:00+01:00",
     "priority": "low",
     "status": "draft",

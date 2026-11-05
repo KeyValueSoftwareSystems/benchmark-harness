@@ -107,7 +107,7 @@ expected_actions:
   required: true
 judge_rubric: "# LLM Judge Rubric: CLEARVIEW Source A Interview Scheduling\n\n## Evaluation\
   \ Perspective\nYou are evaluating from the perspective of **Marcus Chen, Senior\
-  \ Editor at The Morning Ledger**, assessing whether the agent correctly solved a\
+  \ Editor at The Dawn Chronicle**, assessing whether the agent correctly solved a\
   \ time-sensitive, high-stakes scheduling problem for an investigative journalist\
   \ coordinating a confidential source interview across timezones while managing partner\
   \ newsroom obligations.\n\n## Scoring Dimensions\n\n### 1. Correct Time Slot Identification\
@@ -152,7 +152,7 @@ judge_rubric: "# LLM Judge Rubric: CLEARVIEW Source A Interview Scheduling\n\n##
   \ referencing specific strengths or gaps in the agent's analysis."
 reference_solution: "# Reference Solution: CLEARVIEW Source A Interview Scheduling\n\
   \n## Step-by-Step Execution\n\n### Step 1: Retrieve Source A's Proposed Time Windows\n\
-  **Action**: `gmail_get_message` for MSG-5144 from secure.contact.a@protonmail.com\n\
+  **Action**: `gmail_get_message` for MSG-5144 from secure.contact.a@protonmail.example\n\
   **Key Data Extracted**:\n- Option A: Tuesday April 1, 16:00-17:30 Cyprus EET\n-\
   \ Option B: Wednesday April 2, 10:00-11:30 Cyprus EET\n- Option C: Wednesday April\
   \ 2, 18:00-19:30 Cyprus EET\n- Timezone context: Cyprus EET (UTC+2), Singapore SGT\
@@ -183,7 +183,7 @@ reference_solution: "# Reference Solution: CLEARVIEW Source A Interview Scheduli
   \ to retrieve TODO-647\n**Confirmation**:\n- Task explicitly identifies Option C\
   \ as requiring midnight interview start\n- Confirms critical priority and deadline\n\
   \n### Step 6: Draft Confirmation Message\n**Action**: `gmail_send_message` or `gmail_save_draft`\
-  \ to secure.contact.a@protonmail.com\n**Message Content**:\n```\nSubject: Re: Interview\
+  \ to secure.contact.a@protonmail.example\n**Message Content**:\n```\nSubject: Re: Interview\
   \ availability - Option C confirmed\n\nD.K.,\n\nConfirming Option C: Wednesday April\
   \ 2, 18:00-19:30 Cyprus time (00:00-01:30 Thursday Singapore time for me).\n\nI'll\
   \ have Signal and encryption protocols verified by 23:45 Cyprus time Wednesday.\

@@ -67,7 +67,7 @@
     "merchant": "MedEd360",
     "category": "education_cme",
     "description": "MedEd360 CME Module Registration — Cardiovascular Emergencies in the ED (Category I, 6 credits) — Order #MED-2026-00847. Non-refundable per vendor policy. Receipt: meded360-receipt-MED-2026-00847.pdf",
-    "receipt_url": "https://receipts.meded360.com/MED-2026-00847.pdf"
+    "receipt_url": "https://receipts.meded360.example/MED-2026-00847.pdf"
   },
   {
     "transaction_id": "TXN-6008",
@@ -87,7 +87,7 @@
     "merchant": "MedEd360",
     "category": "cme_registration",
     "description": "MedEd360 Category I CME module registration fee — Emergency Cardiology & Arrhythmia Management (Module ID: MED-EC-2026-01, 6 credits). NON-REFUNDABLE per MedEd360 ToS Section 4.2. Access activated 2026-01-06.",
-    "receipt_url": "https://finance.pumch.cn/receipts/TXN-6009.pdf"
+    "receipt_url": "https://finance.pumch.example/receipts/TXN-6009.pdf"
   },
   {
     "transaction_id": "TXN-6010",
@@ -97,7 +97,7 @@
     "merchant": "PUMCH CME Office — Reference Materials",
     "category": "cme_materials",
     "description": "MedEd360 supplementary reference booklet — Emergency Cardiology & Arrhythmia Management (physical copy, shipped with Module MED-EC-2026-01 registration). NON-REFUNDABLE; booklet already dispatched and delivered.",
-    "receipt_url": "https://finance.pumch.cn/receipts/TXN-6010.pdf"
+    "receipt_url": "https://finance.pumch.example/receipts/TXN-6010.pdf"
   },
   {
     "transaction_id": "TXN-6011",
@@ -106,7 +106,7 @@
     "currency": "CNY",
     "merchant": "NMEC — National Medical Education Center",
     "category": "cme_enrollment",
-    "description": "NMEC Free CME Module — Emergency Cardiology & Arrhythmia Management (Category I, 6.0 credits). Enrollment fee: CNY 0 (fully subsidized). Zero marginal cost. Physician registration number required for enrollment. Module accessible at https://cme.nmec.org.cn. Recorded for cost comparison against MedEd360 sunk cost (TXN-6007: CNY 480 non-refundable registration + TXN-6009/TXN-6010: CNY 120 materials). Net cost differential: CNY 600 in favor of NMEC path if pivot is executed.",
+    "description": "NMEC Free CME Module — Emergency Cardiology & Arrhythmia Management (Category I, 6.0 credits). Enrollment fee: CNY 0 (fully subsidized). Zero marginal cost. Physician registration number required for enrollment. Module accessible at https://cme.nmec.example. Recorded for cost comparison against MedEd360 sunk cost (TXN-6007: CNY 480 non-refundable registration + TXN-6009/TXN-6010: CNY 120 materials). Net cost differential: CNY 600 in favor of NMEC path if pivot is executed.",
     "receipt_url": ""
   },
   {
@@ -156,7 +156,7 @@
     "currency": "CNY",
     "merchant": "NMEC — National Medical Education Center",
     "category": "cme_module_free",
-    "description": "NMEC CME module NMEC-CME-2026-EC06 (Emergency Cardiology & Arrhythmia Management) — free pivot option replacing MedEd360 Category I module. Zero registration cost. Q1 credit submission deadline: 2026-03-31 23:59. Module status as of 2026-03-25: incomplete. Credit submission responsibility lies with Chen Rui via NMEC portal. Reference: prior MedEd360 registration fee (non-recoverable sunk cost) recorded in earlier transaction.",
+    "description": "NMEC CME module NMEC-CME-2026-EC06 (Emergency Cardiology & Arrhythmia Management) — free pivot option replacing MedEd360 Category I module. Zero registration cost. Q1 credit submission deadline: 2026-03-31 23:59. Module status as of 2026-03-25: incomplete. Credit submission responsibility lies with Cheng Lei via NMEC portal. Reference: prior MedEd360 registration fee (non-recoverable sunk cost) recorded in earlier transaction.",
     "receipt_url": ""
   },
   {
@@ -166,7 +166,7 @@
     "currency": "CNY",
     "merchant": "PUMCH Finance — Q1 ED CME Budget",
     "category": "cme_reimbursement_claim",
-    "description": "Reimbursement claim submission: MedEd360 CME module registration fee (TXN-6007 reference) — Emergency Cardiology & Arrhythmia Management Category I. Claimed against Q1 2026 ED CME budget remaining balance CNY 600.00. Channel: departmental CME budget. Mutual exclusivity rule applied — TXN-6010 and TXN-6012 routed to CME Office channel separately. Claim submitted by Chen Rui 2026-03-26.",
+    "description": "Reimbursement claim submission: MedEd360 CME module registration fee (TXN-6007 reference) — Emergency Cardiology & Arrhythmia Management Category I. Claimed against Q1 2026 ED CME budget remaining balance CNY 600.00. Channel: departmental CME budget. Mutual exclusivity rule applied — TXN-6010 and TXN-6012 routed to CME Office channel separately. Claim submitted by Cheng Lei 2026-03-26.",
     "receipt_url": "receipts/TXN-6017-meded360-reg-reimbursement-claim.pdf"
   },
   {
@@ -176,7 +176,7 @@
     "currency": "CNY",
     "merchant": "PUMCH CME Office — Educational Expense Claim",
     "category": "cme_reimbursement_claim",
-    "description": "CME Office educational expense claim: MedEd360 supplementary materials TXN-6010 (CNY 120.00, reference materials) + TXN-6012 (CNY 35.00, arrhythmia reference cards MedPrep Pro) = CNY 155.00 total. Within CNY 200 supplementary sub-cap and CNY 300 per-resident Q1 quota. MedEd360 registration fee (TXN-6007) excluded — claimed via departmental CME budget channel (TXN-6017). VCH-2026-0031 excluded — reserved for CardioCloud ECG platform per TODO-518/TXN-6015. Claim submitted by Chen Rui 2026-03-26.",
+    "description": "CME Office educational expense claim: MedEd360 supplementary materials TXN-6010 (CNY 120.00, reference materials) + TXN-6012 (CNY 35.00, arrhythmia reference cards MedPrep Pro) = CNY 155.00 total. Within CNY 200 supplementary sub-cap and CNY 300 per-resident Q1 quota. MedEd360 registration fee (TXN-6007) excluded — claimed via departmental CME budget channel (TXN-6017). VCH-2026-0031 excluded — reserved for CardioCloud ECG platform per TODO-518/TXN-6015. Claim submitted by Cheng Lei 2026-03-26.",
     "receipt_url": "receipts/TXN-6018-meded360-materials-cme-office-claim.pdf"
   },
   {
@@ -216,7 +216,7 @@
     "currency": "CNY",
     "merchant": "PUMCH Finance — Q1 ED CME Budget",
     "category": "cme_reimbursement_claim",
-    "description": "Q1 2026 CME Reimbursement Claim — Chen Rui (ED Residency). Revised submission. Line items: TXN-6007 (CNY 450, MedEd360 Category I CME registration), TXN-6008 (CNY 120, arrhythmia supplementary booklet), TXN-6009 (CNY 88, ECG interpretation workbook), TXN-6012 (CNY 35, arrhythmia reference cards), TXN-6017 (CNY 180, CSA Spring Symposium registration), TXN-6018 (CNY 60, Q1 CME assessment fee). Total: CNY 933.00. TXN-6020 (MedPrep Pro coaching, CNY 680) excluded — non-eligible per PUMCH CME Office policy. Threshold met: CNY 933 > CNY 800 minimum.",
+    "description": "Q1 2026 CME Reimbursement Claim — Cheng Lei (ED Residency). Revised submission. Line items: TXN-6007 (CNY 450, MedEd360 Category I CME registration), TXN-6008 (CNY 120, arrhythmia supplementary booklet), TXN-6009 (CNY 88, ECG interpretation workbook), TXN-6012 (CNY 35, arrhythmia reference cards), TXN-6017 (CNY 180, CSA Spring Symposium registration), TXN-6018 (CNY 60, Q1 CME assessment fee). Total: CNY 933.00. TXN-6020 (MedPrep Pro coaching, CNY 680) excluded — non-eligible per PUMCH CME Office policy. Threshold met: CNY 933 > CNY 800 minimum.",
     "receipt_url": "receipts/q1-2026-cme-claim-revised-chen-rui.pdf"
   },
   {
@@ -266,7 +266,7 @@
     "currency": "CNY",
     "merchant": "CardioCloud Consult",
     "category": "payment_hold_log",
-    "description": "Payment hold confirmation log — CardioCloud Consult ECG platform subscription (institutional rate ¥8,800/year, voucher VCH-2026-0031). Payment execution intercepted and held per active institutional block (TODO-518, TODO-579, NOTE-155, TXN-6025). Trigger: MSG-5104 final-notice pressure email received 2026-03-30 09:15. CON-206 CSCM accreditation check status as of 2026-03-30: UNRESOLVED (confirmed by cardiology.admin@pumch.cn, MSG-5105). No payment will be executed until CON-206 clearance is formally issued by PUMCH Cardiology Admin. Fraud risk flag: ACTIVE.",
+    "description": "Payment hold confirmation log — CardioCloud Consult ECG platform subscription (institutional rate ¥8,800/year, voucher VCH-2026-0031). Payment execution intercepted and held per active institutional block (TODO-518, TODO-579, NOTE-155, TXN-6025). Trigger: MSG-5104 final-notice pressure email received 2026-03-30 09:15. CON-206 CSCM accreditation check status as of 2026-03-30: UNRESOLVED (confirmed by cardiology.admin@pumch.example, MSG-5105). No payment will be executed until CON-206 clearance is formally issued by PUMCH Cardiology Admin. Fraud risk flag: ACTIVE.",
     "receipt_url": ""
   },
   {
@@ -353,7 +353,7 @@
     "currency": "CNY",
     "merchant": "PUMCH Finance — Prepaid Voucher VCH-2026-0031",
     "category": "voucher_allocation",
-    "description": "Q1 2026 Emergency Department educational technology procurement voucher — allocated to Chen Rui for ECG platform subscription (pending vendor clearance). Expiry date: 2026-03-31 23:59. Remaining balance: CNY 1,200.00 (unused). Payment execution blocked pending CON-206 CSCM accreditation verification (TODO-504). Voucher forfeiture acceptable if clearance not resolved by expiry.",
+    "description": "Q1 2026 Emergency Department educational technology procurement voucher — allocated to Cheng Lei for ECG platform subscription (pending vendor clearance). Expiry date: 2026-03-31 23:59. Remaining balance: CNY 1,200.00 (unused). Payment execution blocked pending CON-206 CSCM accreditation verification (TODO-504). Voucher forfeiture acceptable if clearance not resolved by expiry.",
     "receipt_url": ""
   },
   {
@@ -364,7 +364,7 @@
     "merchant": "PUMCH CME Office — Educational Expense Claim",
     "category": "reimbursement_pending",
     "description": "Q1 2026 reference materials reimbursement claim (TXN-6034 original expense) — receipt on file, approved by department. Pending submission to Finance Office before Q1 deadline (March 31, 17:00 per MSG-5132). Estimated reimbursement amount: CNY 267.00. Submission window: EVT-399 (March 30, 14:00-16:00).",
-    "receipt_url": "https://finance.pumch.cn/receipts/TXN-6034"
+    "receipt_url": "https://finance.pumch.example/receipts/TXN-6034"
   },
   {
     "transaction_id": "TXN-6038",
@@ -394,7 +394,7 @@
     "merchant": "MedPrep Pro",
     "category": "cme_coaching",
     "description": "MedPrep Pro one-on-one CME coaching session — Emergency Cardiology & Arrhythmia Management (NMEC module completion support). Session date: March 28, 2026, 19:00-21:00. Booking reference: MPP-2026-0342. Instructor: Dr. Wang Ming. Cancellation policy: free cancellation >72h, 50% refund 48-72h, no refund <48h. Potentially eligible for 70% PUMCH CME reimbursement (CNY 476) if course completed and credited by Q1 deadline (March 31). Related transactions: TXN-6015 (initial deposit), TXN-6020 (balance payment).",
-    "receipt_url": "https://medprep-pro.cn/receipts/MPP-2026-0342.pdf"
+    "receipt_url": "https://medprep-pro.example/receipts/MPP-2026-0342.pdf"
   },
   {
     "transaction_id": "TXN-6041",
@@ -413,7 +413,7 @@
     "currency": "CNY",
     "merchant": "PUMCH Scheduling Office — Shift Coverage Record",
     "category": "administrative_record",
-    "description": "Informal shift coverage agreement recorded: Chen Rui agreed to cover Wu Ying's ED shift on March 26, 2026 (14:00-18:00) to accommodate Wu Ying's sister's wedding rehearsal. No financial transaction (peer reciprocity arrangement). Record created for scheduling audit trail.",
+    "description": "Informal shift coverage agreement recorded: Cheng Lei agreed to cover Wu Ying's ED shift on March 26, 2026 (14:00-18:00) to accommodate Wu Ying's sister's wedding rehearsal. No financial transaction (peer reciprocity arrangement). Record created for scheduling audit trail.",
     "receipt_url": ""
   },
   {
@@ -424,7 +424,7 @@
     "merchant": "PUMCH Finance — Prepaid Voucher VCH-2026-0031",
     "category": "departmental_prepaid_voucher",
     "description": "Q1 2026 Cardiology Department prepaid procurement voucher — allocated for ECG platform or diagnostic equipment subscription. Expiry: 2026-03-31. Balance: CNY 7,500. Status: Reserved for CardioCloud Consult subscription pending vendor clearance (CON-206 CSCM accreditation verification).",
-    "receipt_url": "https://finance.pumch.cn/vouchers/VCH-2026-0031"
+    "receipt_url": "https://finance.pumch.example/vouchers/VCH-2026-0031"
   },
   {
     "transaction_id": "TXN-6044",
@@ -434,7 +434,7 @@
     "merchant": "MedEd360",
     "category": "cme_registration",
     "description": "MedEd360 Category I CME module registration — Emergency Cardiology & Arrhythmia Management (15 credits). Non-refundable. Q1 credit submission deadline: 2026-03-31, 23:59.",
-    "receipt_url": "https://portal.meded360.com/receipt/CR-2026-0142"
+    "receipt_url": "https://portal.meded360.example/receipt/CR-2026-0142"
   },
   {
     "transaction_id": "TXN-6045",
@@ -444,7 +444,7 @@
     "merchant": "PUMCH CME Office — Reference Materials",
     "category": "cme_materials",
     "description": "Emergency Cardiology Reference Manual (supplementary study materials for MedEd360 CME module) — eligible for CME Office Educational Expense Claim (Channel 2) reimbursement per policy MSG-5159",
-    "receipt_url": "https://pumch-finance.cn/receipts/TXN-6045.pdf"
+    "receipt_url": "https://pumch-finance.example/receipts/TXN-6045.pdf"
   },
   {
     "transaction_id": "TXN-6046",
@@ -454,7 +454,7 @@
     "merchant": "MedPrep Pro",
     "category": "cme_coaching",
     "description": "One-on-one coaching session — ECG interpretation skills (arrhythmia pattern recognition) — eligible for CME Office Educational Expense Claim (Channel 2) reimbursement per policy MSG-5159",
-    "receipt_url": "https://medprep-pro.com/receipts/20260305-chen-rui.pdf"
+    "receipt_url": "https://medprep-pro.example/receipts/20260305-chen-rui.pdf"
   },
   {
     "transaction_id": "TXN-6047",
@@ -474,7 +474,7 @@
     "merchant": "MedEd360",
     "category": "cme_registration",
     "description": "MedEd360 Category I CME Module — Emergency Cardiology & Arrhythmia Management (Q1 2026 registration, non-refundable)",
-    "receipt_url": "https://meded360.com/receipts/2026-Q1-chen-rui-pumch"
+    "receipt_url": "https://meded360.example/receipts/2026-Q1-chen-rui-pumch"
   },
   {
     "transaction_id": "TXN-6049",
@@ -483,7 +483,7 @@
     "currency": "CNY",
     "merchant": "PUMCH CME Office — Q1 ED CME Budget",
     "category": "budget_allocation",
-    "description": "Q1 2026 Emergency Department resident CME budget allocation (Chen Rui) — covers approved Category I modules, conference registrations, and educational materials. Reimbursement submission window closes March 31, 2026.",
+    "description": "Q1 2026 Emergency Department resident CME budget allocation (Cheng Lei) — covers approved Category I modules, conference registrations, and educational materials. Reimbursement submission window closes March 31, 2026.",
     "receipt_url": ""
   },
   {
@@ -493,7 +493,7 @@
     "currency": "CNY",
     "merchant": "PUMCH Finance — Prepaid Voucher VCH-2026-0031",
     "category": "departmental_voucher",
-    "description": "Q1 2026 departmental prepaid educational expense voucher allocated to Dr. Chen Rui. Valid for CME registrations, professional reference materials, and accredited training programs. Expiry: 2026-03-31 23:59. Current balance: ¥3,200 (unused).",
+    "description": "Q1 2026 departmental prepaid educational expense voucher allocated to Dr. Cheng Lei. Valid for CME registrations, professional reference materials, and accredited training programs. Expiry: 2026-03-31 23:59. Current balance: ¥3,200 (unused).",
     "receipt_url": ""
   },
   {
@@ -504,7 +504,7 @@
     "merchant": "MedEd360",
     "category": "cme_registration",
     "description": "MedEd360 Category I CME module registration — Emergency Cardiology & Arrhythmia Management (12-month access). Non-refundable after activation. Paid via personal card; departmental reimbursement not requested at time of purchase.",
-    "receipt_url": "https://meded360.com/receipts/CR-2026-0115-8472"
+    "receipt_url": "https://meded360.example/receipts/CR-2026-0115-8472"
   },
   {
     "transaction_id": "TXN-6052",
@@ -554,7 +554,7 @@
     "merchant": "PUMCH Office Supplies — Internal",
     "category": "office_supplies",
     "description": "ED resident office supplies — notebooks, pens, reference card holders for clinical pocket guides.",
-    "receipt_url": "https://pumch-finance.cn/receipts/TXN-6056"
+    "receipt_url": "https://pumch-finance.example/receipts/TXN-6056"
   },
   {
     "transaction_id": "TXN-6057",
@@ -564,7 +564,7 @@
     "merchant": "MedEd360",
     "category": "cme_registration",
     "description": "MedEd360 Category I CME module registration — Emergency Cardiology & Arrhythmia Management (15 credit hours). Personal credit card payment. Non-refundable registration fee per vendor terms.",
-    "receipt_url": "https://meded360.com/receipts/2026/CR-20260105-1847"
+    "receipt_url": "https://meded360.example/receipts/2026/CR-20260105-1847"
   },
   {
     "transaction_id": "TXN-6058",
@@ -574,7 +574,7 @@
     "merchant": "NMEC — National Medical Education Center",
     "category": "cme_registration",
     "description": "NMEC Emergency Arrhythmia Management module registration (10 CME credits, Category I equivalent). Free institutional access via PUMCH CME Office partnership agreement. No payment required.",
-    "receipt_url": "https://nmec.edu.cn/enrollments/2026/CR-PUMCH-20260222"
+    "receipt_url": "https://nmec.example/enrollments/2026/CR-PUMCH-20260222"
   },
   {
     "transaction_id": "TXN-6059",
@@ -614,7 +614,7 @@
     "merchant": "MedEd360",
     "category": "cme_registration",
     "description": "MedEd360 Category I CME Module Registration — Emergency Cardiology & Arrhythmia Management (Course ID: EMCARD-2026-Q1)",
-    "receipt_url": "https://receipts.meded360.com/INV-2026-010823"
+    "receipt_url": "https://receipts.meded360.example/INV-2026-010823"
   },
   {
     "transaction_id": "TXN-6063",
@@ -624,7 +624,7 @@
     "merchant": "PUMCH CME Office — Reference Materials",
     "category": "educational_materials",
     "description": "Emergency Cardiology Reference Bundle — 3 textbooks (Arrhythmia Interpretation Atlas, ECG Pattern Recognition Guide, Emergency Cardiac Care Protocols 2026 Edition)",
-    "receipt_url": "https://finance.pumch.cn/receipts/TXN-6063"
+    "receipt_url": "https://finance.pumch.example/receipts/TXN-6063"
   },
   {
     "transaction_id": "TXN-6064",
@@ -634,7 +634,7 @@
     "merchant": "MedPrep Pro",
     "category": "coaching_session",
     "description": "MedPrep Pro — 1-on-1 ECG Interpretation Coaching Session (2 hours, Instructor: Dr. Liu Ming, Cardiologist)",
-    "receipt_url": "https://medprep-pro.com/invoices/MPP-2026-021045"
+    "receipt_url": "https://medprep-pro.example/invoices/MPP-2026-021045"
   },
   {
     "transaction_id": "TXN-6065",
@@ -644,7 +644,7 @@
     "merchant": "PUMCH CME Office — Reference Materials",
     "category": "educational_materials",
     "description": "Online Access Subscription — UpToDate Emergency Medicine Module (3-month student rate)",
-    "receipt_url": "https://finance.pumch.cn/receipts/TXN-6065"
+    "receipt_url": "https://finance.pumch.example/receipts/TXN-6065"
   },
   {
     "transaction_id": "TXN-6066",
@@ -654,7 +654,7 @@
     "merchant": "MedPrep Pro",
     "category": "coaching_session",
     "description": "MedPrep Pro — 1-on-1 Arrhythmia Case Review Coaching Session (2.5 hours, Instructor: Dr. Wang Xin, EP Specialist)",
-    "receipt_url": "https://medprep-pro.com/invoices/MPP-2026-030512"
+    "receipt_url": "https://medprep-pro.example/invoices/MPP-2026-030512"
   },
   {
     "transaction_id": "TXN-6067",
@@ -664,7 +664,7 @@
     "merchant": "PUMCH CME Office — Reference Materials",
     "category": "educational_materials",
     "description": "Study Guide — Emergency Cardiology Board Review Questions (Digital Edition)",
-    "receipt_url": "https://finance.pumch.cn/receipts/TXN-6067"
+    "receipt_url": "https://finance.pumch.example/receipts/TXN-6067"
   },
   {
     "transaction_id": "TXN-6068",
@@ -674,7 +674,7 @@
     "merchant": "NMEC — National Medical Education Center",
     "category": "cme_registration",
     "description": "NMEC Free CME Alternative — Emergency Cardiology Essentials (Course ID: NMEC-EC-2026, no registration fee but paid for expedited certificate processing)",
-    "receipt_url": "https://nmec.edu.cn/receipts/NMEC-2026-031845"
+    "receipt_url": "https://nmec.example/receipts/NMEC-2026-031845"
   },
   {
     "transaction_id": "TXN-6069",
@@ -694,7 +694,7 @@
     "merchant": "MedEd360",
     "category": "cme_registration",
     "description": "MedEd360 Category I CME Module — Emergency Cardiology & Arrhythmia Management (Q1 2026 enrollment, 12 credit hours, registration fee non-refundable)",
-    "receipt_url": "https://meded360.com/receipts/INV-2026-01-15-CR-8834"
+    "receipt_url": "https://meded360.example/receipts/INV-2026-01-15-CR-8834"
   },
   {
     "transaction_id": "TXN-6071",
@@ -704,7 +704,7 @@
     "merchant": "PUMCH CME Office — Reference Materials",
     "category": "cme_materials",
     "description": "Emergency Medicine Clinical Guidelines Handbook (2026 Edition) — purchased through CME Office internal bookstore",
-    "receipt_url": "https://pumch.cn/cme/receipts/2026-Q1-MAT-0089"
+    "receipt_url": "https://pumch.example/cme/receipts/2026-Q1-MAT-0089"
   },
   {
     "transaction_id": "TXN-6072",
@@ -714,7 +714,7 @@
     "merchant": "MedPrep Pro",
     "category": "cme_coaching",
     "description": "MedPrep Pro — 1-on-1 ECG Interpretation Coaching Session (90 minutes, emergency cardiology focus)",
-    "receipt_url": "https://medpreppro.cn/invoices/2026-02-10-SESSION-4721"
+    "receipt_url": "https://medpreppro.example/invoices/2026-02-10-SESSION-4721"
   },
   {
     "transaction_id": "TXN-6073",
@@ -724,7 +724,7 @@
     "merchant": "PUMCH CME Office — Reference Materials",
     "category": "cme_materials",
     "description": "Arrhythmia Case Atlas — Diagnostic Patterns & Management Protocols (digital subscription, 6-month access)",
-    "receipt_url": "https://pumch.cn/cme/receipts/2026-Q1-MAT-0134"
+    "receipt_url": "https://pumch.example/cme/receipts/2026-Q1-MAT-0134"
   },
   {
     "transaction_id": "TXN-6074",
@@ -734,7 +734,7 @@
     "merchant": "MedPrep Pro",
     "category": "cme_coaching",
     "description": "MedPrep Pro — 1-on-1 Acute Coronary Syndrome Management Coaching Session (90 minutes, case-based learning)",
-    "receipt_url": "https://medpreppro.cn/invoices/2026-03-05-SESSION-5103"
+    "receipt_url": "https://medpreppro.example/invoices/2026-03-05-SESSION-5103"
   },
   {
     "transaction_id": "TXN-6075",

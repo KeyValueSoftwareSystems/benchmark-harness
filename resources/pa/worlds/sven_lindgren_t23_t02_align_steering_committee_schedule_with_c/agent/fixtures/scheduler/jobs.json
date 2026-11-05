@@ -8,7 +8,7 @@
     "last_status": "deleted",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "portfolio",
@@ -28,7 +28,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "portfolio",
@@ -48,7 +48,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "weekly",
@@ -68,7 +68,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "portfolio",
@@ -88,7 +88,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "portfolio",
@@ -108,7 +108,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "weekly",
@@ -128,7 +128,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "portfolio",
@@ -148,7 +148,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "strategy",
@@ -168,7 +168,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "sven.lindgren@vasaholm.se",
+    "created_by": "stefan.ljungberg@vasaholm.se",
     "tags": [
       "reminder",
       "portfolio",
@@ -188,7 +188,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Sven Lindgren",
+    "created_by": "Stefan Ljungberg",
     "tags": [
       "reminder",
       "portfolio",

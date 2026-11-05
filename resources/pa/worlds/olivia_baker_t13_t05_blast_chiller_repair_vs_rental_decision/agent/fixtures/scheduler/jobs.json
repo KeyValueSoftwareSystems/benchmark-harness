@@ -8,7 +8,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_menu_reminder",
-    "created_by": "Olivia Baker",
+    "created_by": "Orla Bennett",
     "tags": [
       "menu",
       "reminder",
@@ -28,7 +28,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Olivia Baker",
+    "created_by": "Orla Bennett",
     "tags": [
       "menu",
       "reminder",
@@ -48,7 +48,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Olivia Baker",
+    "created_by": "Orla Bennett",
     "tags": [
       "menu",
       "reminder",
@@ -68,7 +68,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Olivia Baker",
+    "created_by": "Orla Bennett",
     "tags": [
       "reminder",
       "marketing"

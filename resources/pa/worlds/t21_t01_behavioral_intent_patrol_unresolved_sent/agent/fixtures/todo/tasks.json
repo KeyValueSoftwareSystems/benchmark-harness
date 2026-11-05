@@ -127,7 +127,7 @@
   {
     "task_id": "TODO-510",
     "title": "Classify and triage 6 platform-team emails from April 2-4",
-    "description": "Process backlog of cross-functional requests: David Torres Q2 OKR dependency (2 emails with conflicting data), Rachel Kim TechFlow escalation (blocking), Sarah Kim OKR conflict analysis (blocking), Priya Sharma Polaris SSO clarification (medium), Marcus Chen log retention exception (low). Identify urgency tier, flag conflicts, draft responses for blocking items.",
+    "description": "Process backlog of cross-functional requests: David Torres Q2 OKR dependency (2 emails with conflicting data), Rachel Kim TechFlow escalation (blocking), Sarah Kim OKR conflict analysis (blocking), Parul Shankar Polaris SSO clarification (medium), Marcus Chen log retention exception (low). Identify urgency tier, flag conflicts, draft responses for blocking items.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-05",
@@ -585,7 +585,7 @@
   {
     "task_id": "TODO-543",
     "title": "URGENT: Escalate DataSync Solutions churn risk to leadership",
-    "description": "Immediately escalate DataSync Solutions (CUS-105) production-blocking API rate limit issue to David Torres (VP Customer Success) and Priya Sharma (VP Engineering). Customer has issued EOD April 5 deadline. CRM shows 'stable' but reality is active churn threat. Include contradiction evidence and Q1 interview corroboration.",
+    "description": "Immediately escalate DataSync Solutions (CUS-105) production-blocking API rate limit issue to David Torres (VP Customer Success) and Parul Shankar (VP Engineering). Customer has issued EOD April 5 deadline. CRM shows 'stable' but reality is active churn threat. Include contradiction evidence and Q1 interview corroboration.",
     "status": "in_progress",
     "priority": "critical",
     "due_date": "2026-04-05",
@@ -614,7 +614,7 @@
   {
     "task_id": "TODO-545",
     "title": "Draft urgent response to Elena Martinez - DataSync escalation acknowledgment",
-    "description": "Draft Workmail response to Elena Martinez acknowledging DataSync Solutions escalation, confirming platform team ownership, and providing timeline for API rate limit capacity review. CC David Torres and Priya Sharma. Mention war room scheduled for 11 AM April 5.",
+    "description": "Draft Workmail response to Elena Martinez acknowledging DataSync Solutions escalation, confirming platform team ownership, and providing timeline for API rate limit capacity review. CC David Torres and Parul Shankar. Mention war room scheduled for 11 AM April 5.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-05",
@@ -669,7 +669,7 @@
   {
     "task_id": "TODO-549",
     "title": "Notify Priya and David of Q2 sprint allocation decision via Workmail",
-    "description": "Send email to Priya Sharma (VP Engineering) and David Torres (VP Customer Success) with final Q2 sprint allocation decision. Explain compliance veto of high-vote analytics option, selection of accessibility remediation work, and rationale. Include link to Notion decision document and next steps for sprint planning kickoff.",
+    "description": "Send email to Parul Shankar (VP Engineering) and David Torres (VP Customer Success) with final Q2 sprint allocation decision. Explain compliance veto of high-vote analytics option, selection of accessibility remediation work, and rationale. Include link to Notion decision document and next steps for sprint planning kickoff.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-04-05",

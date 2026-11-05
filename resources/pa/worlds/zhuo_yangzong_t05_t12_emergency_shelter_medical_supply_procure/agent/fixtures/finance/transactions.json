@@ -7,7 +7,7 @@
     "merchant": "Medical Supplies International",
     "category": "program_expense",
     "description": "Q1 emergency medical supplies procurement for rural distribution program",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/2026-02-001.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/2026-02-001.pdf"
   },
   {
     "transaction_id": "TXN-6002",
@@ -17,7 +17,7 @@
     "merchant": "Field Assessment Services",
     "category": "program_expense",
     "description": "Site assessment fees for four candidate distribution point locations",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/2026-02-015.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/2026-02-015.pdf"
   },
   {
     "transaction_id": "TXN-6003",
@@ -67,7 +67,7 @@
     "merchant": "Global Aid Foundation",
     "category": "grant_income",
     "description": "Q1 2026 grant disbursement - Emergency shelter and medical supply programs (South America portfolio)",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/2026/Q1-GAF-grant.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/2026/Q1-GAF-grant.pdf"
   },
   {
     "transaction_id": "TXN-6008",
@@ -163,7 +163,7 @@
     "merchant": "Global Aid Foundation",
     "category": "grant_revenue",
     "description": "Emergency Shelter Program grant - largest single institutional grant. Funds allocated for Villa Nueva emergency shelter construction including materials, labor, permits, and community engagement activities. Performance tied to visible construction progress and community impact.",
-    "receipt_url": "https://grants.globalaid.org/2026/ESP-125K"
+    "receipt_url": "https://grants.globalaid.example/2026/ESP-125K"
   },
   {
     "transaction_id": "TXN-6018",
@@ -213,7 +213,7 @@
     "merchant": "MedSupply Latin America",
     "category": "program_supplies",
     "description": "Medical supplies for January health screening program - Villa Nueva region (nitrile gloves, cotton bandages, sanitization materials)",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/TXN-6022.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/TXN-6022.pdf"
   },
   {
     "transaction_id": "TXN-6023",
@@ -223,7 +223,7 @@
     "merchant": "Plaza Verde Event Services",
     "category": "venue_rental",
     "description": "Deposit payment for community health education workshop venue - March 2026 (Plaza Verde community center, Villa Nueva)",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/TXN-6023.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/TXN-6023.pdf"
   },
   {
     "transaction_id": "TXN-6024",
@@ -343,7 +343,7 @@
     "merchant": "AutoServicio Professional Lima",
     "category": "vehicle_maintenance",
     "description": "VEH-001 routine maintenance and brake repair - scheduled service",
-    "receipt_url": "https://receipts.aidforeducation.org/TXN-6035"
+    "receipt_url": "https://receipts.aidforeducation.example/TXN-6035"
   },
   {
     "transaction_id": "TXN-6036",
@@ -373,7 +373,7 @@
     "merchant": "Regional Health Network",
     "category": "program_expense",
     "description": "Q1 mobile health clinic coordination fees - Villa Nueva and San Pedro service areas",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/TXN-6038.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/TXN-6038.pdf"
   },
   {
     "transaction_id": "TXN-6039",
@@ -413,7 +413,7 @@
     "merchant": "Villa Nueva Construction Services",
     "category": "construction_materials",
     "description": "Emergency shelter program - construction materials (cement, steel reinforcement, roofing materials) for 15 family units",
-    "receipt_url": "https://receipts.aidforeducation.org/txn-6042.pdf"
+    "receipt_url": "https://receipts.aidforeducation.example/txn-6042.pdf"
   },
   {
     "transaction_id": "TXN-6043",
@@ -423,7 +423,7 @@
     "merchant": "San Miguel Regional Government",
     "category": "permits_fees",
     "description": "Emergency shelter program - construction permits, environmental assessment fees, and occupancy certification applications",
-    "receipt_url": "https://receipts.aidforeducation.org/txn-6043.pdf"
+    "receipt_url": "https://receipts.aidforeducation.example/txn-6043.pdf"
   },
   {
     "transaction_id": "TXN-6044",
@@ -433,7 +433,7 @@
     "merchant": "Community Development Partners",
     "category": "community_engagement",
     "description": "Emergency shelter program - community consultation workshops, cultural ceremony coordination, stakeholder meetings, and beneficiary selection process facilitation",
-    "receipt_url": "https://receipts.aidforeducation.org/txn-6044.pdf"
+    "receipt_url": "https://receipts.aidforeducation.example/txn-6044.pdf"
   },
   {
     "transaction_id": "TXN-6045",
@@ -443,7 +443,7 @@
     "merchant": "Regional Health Network",
     "category": "health_screening",
     "description": "Emergency shelter program - health screening supplies (COVID-19 tests, PPE, first aid kits, sanitation materials) for construction workers and beneficiary families",
-    "receipt_url": "https://receipts.aidforeducation.org/txn-6045.pdf"
+    "receipt_url": "https://receipts.aidforeducation.example/txn-6045.pdf"
   },
   {
     "transaction_id": "TXN-6046",
@@ -453,7 +453,7 @@
     "merchant": "MedSupply Andean",
     "category": "medical_supplies",
     "description": "Emergency shelter program - initial health screening supplies (thermometers, sanitizers, basic first aid). Order #PSQ-2801. Delivered Feb 18.",
-    "receipt_url": "https://receipts.aidforeducation.org/TXN-6046"
+    "receipt_url": "https://receipts.aidforeducation.example/TXN-6046"
   },
   {
     "transaction_id": "TXN-6047",
@@ -463,7 +463,7 @@
     "merchant": "Regional Health Network",
     "category": "training_certification",
     "description": "Health worker certification training - emergency shelter program staff (3 participants). Required for medical supply distribution authorization.",
-    "receipt_url": "https://receipts.aidforeducation.org/TXN-6047"
+    "receipt_url": "https://receipts.aidforeducation.example/TXN-6047"
   },
   {
     "transaction_id": "TXN-6048",
@@ -493,7 +493,7 @@
     "merchant": "February Field Operations - Multiple Vendors",
     "category": "program_expenses",
     "description": "February expense reports: field transportation (12 receipts), community meeting catering (8 receipts), office supplies (15 receipts), volunteer per diem (22 records). Pending manager approval.",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/2026-02-consolidated"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/2026-02-consolidated"
   },
   {
     "transaction_id": "TXN-6051",
@@ -513,7 +513,7 @@
     "merchant": "Global Aid Foundation",
     "category": "grant_disbursement",
     "description": "Q1 2026 disbursement - Emergency Shelter Program (Grant #GAF-2025-087). Total grant: $180,000. Q1 disbursement: $45,000. Q2 disbursement pending site visit approval (scheduled April 8th).",
-    "receipt_url": "https://finance.aidforeducation.org/grants/GAF-2025-087-Q1"
+    "receipt_url": "https://finance.aidforeducation.example/grants/GAF-2025-087-Q1"
   },
   {
     "transaction_id": "TXN-6053",
@@ -617,7 +617,7 @@
     "merchant": "San Miguel Regional Government",
     "category": "permit_fees",
     "description": "Construction permit application fee - Emergency Shelter Program (Application #ESH-2026-047)",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/TXN-6063.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/TXN-6063.pdf"
   },
   {
     "transaction_id": "TXN-6064",
@@ -627,7 +627,7 @@
     "merchant": "Engineering Consultants Peru",
     "category": "professional_services",
     "description": "Site assessment and foundation engineering report - Emergency Shelter Program",
-    "receipt_url": "https://finance.aidforeducation.org/receipts/TXN-6064.pdf"
+    "receipt_url": "https://finance.aidforeducation.example/receipts/TXN-6064.pdf"
   },
   {
     "transaction_id": "TXN-6065",
@@ -736,7 +736,7 @@
     "currency": "USD",
     "merchant": "Regional Development Foundation",
     "category": "grant_disbursement",
-    "description": "Q1 2026 Grant Disbursement - Regional Development Foundation. Restricted use: Rural education infrastructure only (no health programs, no emergency relief). Quarterly reporting required by April 15th. Program officer: Michael Chen (m.chen@regionaldevelopment.org). Grant supports literacy program expansion in rural communities.",
+    "description": "Q1 2026 Grant Disbursement - Regional Development Foundation. Restricted use: Rural education infrastructure only (no health programs, no emergency relief). Quarterly reporting required by April 15th. Program officer: Michael Chen (m.chen@regionaldevelopment.example). Grant supports literacy program expansion in rural communities.",
     "receipt_url": ""
   },
   {
@@ -746,7 +746,7 @@
     "currency": "USD",
     "merchant": "Global Aid Foundation",
     "category": "grant_disbursement",
-    "description": "Q1 2026 Grant Disbursement - Global Aid Foundation. Flexible use: Emergency response, community development, health programs. No specific restrictions. Semi-annual reporting cycle (next report due June 30th). Program officer: Jennifer Morrison (donor.relations@globalaid.org). Major institutional donor ($45,000 annual commitment).",
+    "description": "Q1 2026 Grant Disbursement - Global Aid Foundation. Flexible use: Emergency response, community development, health programs. No specific restrictions. Semi-annual reporting cycle (next report due June 30th). Program officer: Jennifer Morrison (donor.relations@globalaid.example). Major institutional donor ($45,000 annual commitment).",
     "receipt_url": ""
   },
   {
@@ -756,7 +756,7 @@
     "currency": "USD",
     "merchant": "Humanitarian Alliance",
     "category": "grant_disbursement",
-    "description": "Q1 2026 Grant Disbursement - Humanitarian Alliance. Restricted use: Health and emergency relief programs only (no education infrastructure). Quarterly reporting required by April 20th. Program officer: Sarah Williams (finance@humanitarianalliance.org). Supports community health initiatives and emergency response capacity.",
+    "description": "Q1 2026 Grant Disbursement - Humanitarian Alliance. Restricted use: Health and emergency relief programs only (no education infrastructure). Quarterly reporting required by April 20th. Program officer: Sarah Williams (finance@humanitarianalliance.example). Supports community health initiatives and emergency response capacity.",
     "receipt_url": ""
   },
   {
@@ -767,7 +767,7 @@
     "merchant": "San Miguel Regional Government",
     "category": "permit_fees",
     "description": "Emergency Shelter Program - Construction permit application fee and environmental review",
-    "receipt_url": "https://receipts.aidforeducation.org/TXN-6078.pdf"
+    "receipt_url": "https://receipts.aidforeducation.example/TXN-6078.pdf"
   },
   {
     "transaction_id": "TXN-6079",
@@ -777,7 +777,7 @@
     "merchant": "Villa Nueva Site Assessment Services",
     "category": "site_assessment",
     "description": "Emergency Shelter Program - Geological and structural site assessment for construction planning",
-    "receipt_url": "https://receipts.aidforeducation.org/TXN-6079.pdf"
+    "receipt_url": "https://receipts.aidforeducation.example/TXN-6079.pdf"
   },
   {
     "transaction_id": "TXN-6080",
@@ -787,7 +787,7 @@
     "merchant": "Villa Nueva Community Engagement",
     "category": "community_consultation",
     "description": "Emergency Shelter Program - Community consultation meetings and cultural ceremony planning costs",
-    "receipt_url": "https://receipts.aidforeducation.org/TXN-6080.pdf"
+    "receipt_url": "https://receipts.aidforeducation.example/TXN-6080.pdf"
   },
   {
     "transaction_id": "TXN-6081",
@@ -807,7 +807,7 @@
     "merchant": "Medical Supplies International",
     "category": "medical_supplies",
     "description": "Emergency Shelter Health Screening Program - Medical Supply Order #ESH-2026-Q1 (REVISED): Nitrile gloves 500 pairs, digital thermometers 30 units, face masks 1000 units, hand sanitizer 50L, first aid kits 15 units, antiseptic wipes 200 packs. Allergen-compliant substitution (latex→nitrile). 15% volume discount applied.",
-    "receipt_url": "https://medicalsupplies-intl.com/invoices/ESH-2026-Q1-REV"
+    "receipt_url": "https://medicalsupplies-intl.example/invoices/ESH-2026-Q1-REV"
   },
   {
     "transaction_id": "TXN-6083",

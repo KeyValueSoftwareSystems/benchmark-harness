@@ -2,7 +2,7 @@
   {
     "workbook_id": "WB-1",
     "name": "Basel IV Capital Model - ARCHIVED v0.4",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-1",
@@ -146,7 +146,7 @@
   {
     "workbook_id": "WB-2",
     "name": "Q1 2026 Research Pipeline",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-4",
@@ -210,7 +210,7 @@
   {
     "workbook_id": "WB-3",
     "name": "Green Taxonomy Thematic Note - Data Tracker",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-301",
@@ -379,7 +379,7 @@
   {
     "workbook_id": "WB-4",
     "name": "EU_Banks_Coverage.xlsx",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-001",
@@ -802,7 +802,7 @@
   {
     "workbook_id": "WB-5",
     "name": "Travel Cost-Benefit Analysis - Milan-London Mar 2026",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Option Comparison",
@@ -1013,7 +1013,7 @@
   {
     "workbook_id": "WB-6",
     "name": "Q1 Earnings Deck - Vendor Cost-Benefit Analysis",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Decision Matrix",
@@ -1204,7 +1204,7 @@
   {
     "workbook_id": "WB-7",
     "name": "Vendor Decision Matrix - PresentPro Timeline Extension",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Option Comparison",
@@ -1418,7 +1418,7 @@
   {
     "workbook_id": "WB-8",
     "name": "Vendor Cost-Benefit Analysis - Q1 Earnings Deck",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-8001",
@@ -1589,7 +1589,7 @@
   {
     "workbook_id": "WB-9",
     "name": "Q1 2026 Deliverables Priority Matrix - Feb 18 Reordering",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-901",
@@ -1864,7 +1864,7 @@
   {
     "workbook_id": "WB-10",
     "name": "ECB_Stress_Test_2026_Analysis",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "ECB_Stress_Test_2026",
@@ -1904,7 +1904,7 @@
           [
             "EBA Draft Stress Test Methodology 2026",
             "2026-01-12",
-            "https://eba.europa.eu/stress-test-2026",
+            "https://eba.europa.example/stress-test-2026",
             "Official",
             "Draft version - final expected late January"
           ]
@@ -1918,7 +1918,7 @@
   {
     "workbook_id": "WB-11",
     "name": "Italian_Banks_Historical_Performance_Q4_2025",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "UniCredit",
@@ -2003,7 +2003,7 @@
   {
     "workbook_id": "WB-12",
     "name": "Q1 2026 Earnings Workflow - Execution Plan & Gantt Timeline",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Task Dependency Map",
@@ -2374,7 +2374,7 @@
   {
     "workbook_id": "WB-13",
     "name": "Q1 Earnings Model Update - Dependency Chain Analysis",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-1301",
@@ -2419,7 +2419,7 @@
           [
             "N3",
             "Lucia Bank-Specific Model Updates (11 banks)",
-            "Lucia Moretti",
+            "Lorena Mancini",
             "N2",
             "2026-02-06",
             "2026-02-15",
@@ -2431,7 +2431,7 @@
           [
             "N4",
             "Valuation Sensitivity Generation",
-            "Lucia Moretti",
+            "Lorena Mancini",
             "N3",
             "2026-02-16",
             "2026-02-18",
@@ -2443,7 +2443,7 @@
           [
             "N5",
             "Client Deck Finalization",
-            "Lucia Moretti",
+            "Lorena Mancini",
             "N4",
             "2026-02-19",
             "2026-02-19",
@@ -2623,7 +2623,7 @@
   {
     "workbook_id": "WB-14",
     "name": "Milan Office - Q1 Travel Budget Tracker",
-    "owner": "travel.admin@milanbank.eu",
+    "owner": "travel.admin@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-1401",
@@ -2638,7 +2638,7 @@
         ],
         "rows": [
           [
-            "Lucia Moretti",
+            "Lorena Mancini",
             "London",
             "2026-02-24 to 2026-02-25",
             "Kensington Capital Partners Roadshow",
@@ -2670,7 +2670,7 @@
   {
     "workbook_id": "WB-15",
     "name": "ECB_Stress_Test_2026_Analysis",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Adverse_Scenario_Parameters",
@@ -2819,7 +2819,7 @@
   {
     "workbook_id": "WB-16",
     "name": "Vendor Selection Matrix - Roadshow Deck Jan 2026",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Vendor Comparison",
@@ -2930,7 +2930,7 @@
   {
     "workbook_id": "WB-17",
     "name": "Q1 Morning Brief Rotation - Conflict Analysis & Rebalancing Scenarios",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Brief Assignments",
@@ -3335,7 +3335,7 @@
   {
     "workbook_id": "WB-18",
     "name": "Frankfurt Conference Decision Analysis - Feb 2026",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-18-1",
@@ -3541,7 +3541,7 @@
   {
     "workbook_id": "WB-19",
     "name": "Conference Payment Allocation Analysis - European Banking Conference 2026",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Payment Scenarios",
@@ -3728,7 +3728,7 @@
   {
     "workbook_id": "WB-20",
     "name": "Q2 2026 Conference Options - Cost-Benefit Analysis",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Conference Comparison",
@@ -3971,7 +3971,7 @@
   {
     "workbook_id": "WB-21",
     "name": "Q1 Travel Budget Allocation - Scenario Analysis (Jan 2026)",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Resource Constraints",
@@ -4191,7 +4191,7 @@
   {
     "workbook_id": "WB-22",
     "name": "Q1 2026 Conference Registration - Multi-Platform Pricing Matrix",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Pricing Matrix",
@@ -4337,7 +4337,7 @@
   {
     "workbook_id": "WB-23",
     "name": "Q1 2026 Conference Payment Optimization - Multi-Channel Comparison",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Deposit Summary",
@@ -4511,7 +4511,7 @@
   {
     "workbook_id": "WB-24",
     "name": "Q1 Conference Budget Allocation - Deposit Forfeiture vs Bundle Discount",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "name": "Scenario Comparison",
@@ -4662,7 +4662,7 @@
   {
     "workbook_id": "WB-25",
     "name": "Q1 Conference Budget Optimization - Multi-Platform Discount Stacking",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Pricing Matrix",
@@ -4901,7 +4901,7 @@
   {
     "workbook_id": "WB-26",
     "name": "Q1 2026 Conference Attendance & ROI Analysis",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Conference Summary",
@@ -5152,7 +5152,7 @@
   {
     "workbook_id": "WB-27",
     "name": "Q1 2026 Regulatory Review - Coverage Bank Impact Matrix",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-27-1",
@@ -5311,7 +5311,7 @@
   {
     "workbook_id": "WB-28",
     "name": "Q1 2026 Task Cognitive Load Matrix - Feb 2 Energy Reordering",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_id": "SH-28-1",
@@ -5500,7 +5500,7 @@
   {
     "workbook_id": "WB-29",
     "name": "Q1 2026 Conference Budget Allocation - Multi-Channel Payment Optimization",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Conference Pricing Matrix",
@@ -5701,7 +5701,7 @@
   {
     "workbook_id": "WB-30",
     "name": "Q1 2026 Research Pipeline",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "March Deliverables",
@@ -5750,7 +5750,7 @@
   {
     "workbook_id": "WB-31",
     "name": "Q1 Conference Budget Allocation - Forfeiture vs Bundle Analysis",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Scenario Comparison",
@@ -5885,7 +5885,7 @@
   {
     "workbook_id": "WB-32",
     "name": "Q1 Conference Budget Crisis - Decision Matrix",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "sheets": [
       {
         "sheet_name": "Scenario Comparison",

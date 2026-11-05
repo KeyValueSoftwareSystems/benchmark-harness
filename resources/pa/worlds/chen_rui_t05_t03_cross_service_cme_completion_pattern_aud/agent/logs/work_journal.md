@@ -57,7 +57,7 @@
   - Added [CON-209]/[CON-210] for newly identified contacts surfaced during chain mapping
   - Created [TODO-508]/[TODO-509] to track checkpoint status and discount-window deadline; scheduled decision reminders [EVT-309]/[EVT-310]/[EVT-311]/[EVT-312]
 - **Decisions & reasoning**: Strict serial gating was chosen over parallel advancement because the rework cost of premature vendor preparation — reputational and institutional — outweighs the discount loss. The Brugada ECG case remains safely routed to Dr. Li Wei, eliminating false urgency as a decision driver.
-- **Follow-up**: Hold all vendor engagement until written CSCM confirmation received; monitor [EVT-309] deadline; escalate if no response from accreditation@cscm-china.org before discount expiry.
+- **Follow-up**: Hold all vendor engagement until written CSCM confirmation received; monitor [EVT-309] deadline; escalate if no response from accreditation@cscm-china.example before discount expiry.
 
 
 ---

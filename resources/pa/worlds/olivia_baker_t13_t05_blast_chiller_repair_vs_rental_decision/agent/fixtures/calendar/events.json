@@ -5,7 +5,7 @@
     "start_time": "2026-01-11T06:00:00-08:00",
     "end_time": "2026-01-11T10:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn kitchen",
@@ -17,7 +17,7 @@
     "start_time": "2026-01-15T14:00:00-08:00",
     "end_time": "2026-01-15T15:30:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez",
       "prep team"
     ],
@@ -30,7 +30,7 @@
     "start_time": "2026-03-15T09:00:00-07:00",
     "end_time": "2026-03-15T14:00:00-07:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -41,7 +41,7 @@
     "start_time": "2026-03-16T10:00:00-07:00",
     "end_time": "2026-03-16T15:00:00-07:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -52,7 +52,7 @@
     "start_time": "2026-03-22T09:00:00-07:00",
     "end_time": "2026-03-22T14:00:00-07:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -63,7 +63,7 @@
     "start_time": "2026-03-24T14:00:00-07:00",
     "end_time": "2026-03-24T16:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn office",
@@ -75,9 +75,9 @@
     "start_time": "2026-01-25T09:00:00-08:00",
     "end_time": "2026-01-25T16:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -86,10 +86,10 @@
     "start_time": "2026-01-25T10:00:00-08:00",
     "end_time": "2026-01-25T17:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -98,9 +98,9 @@
     "start_time": "2026-01-25T08:30:00-08:00",
     "end_time": "2026-01-25T15:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -109,10 +109,10 @@
     "start_time": "2026-01-27T14:00:00-08:00",
     "end_time": "2026-01-27T16:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": "monthly"
   },
   {
@@ -121,7 +121,7 @@
     "start_time": "2026-01-28T06:00:00-08:00",
     "end_time": "2026-01-28T07:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": "weekly"
@@ -132,7 +132,7 @@
     "start_time": "2026-02-18T06:00:00-08:00",
     "end_time": "2026-02-18T07:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": "weekly"
@@ -143,7 +143,7 @@
     "start_time": "2026-02-25T14:00:00-08:00",
     "end_time": "2026-02-25T15:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn - Office",
     "recurring": ""
@@ -154,7 +154,7 @@
     "start_time": "2026-03-04T06:00:00-08:00",
     "end_time": "2026-03-04T07:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": "weekly"
@@ -165,7 +165,7 @@
     "start_time": "2026-03-15T06:00:00-08:00",
     "end_time": "2026-03-15T07:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": "none"
@@ -176,10 +176,10 @@
     "start_time": "2026-03-15T06:30:00-08:00",
     "end_time": "2026-03-15T11:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie - Kitchen",
+    "location": "Sterling & Oak Patisserie - Kitchen",
     "recurring": "none"
   },
   {
@@ -188,9 +188,9 @@
     "start_time": "2026-03-16T07:00:00-08:00",
     "end_time": "2026-03-16T12:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Kitchen",
+    "location": "Sterling & Oak Patisserie - Kitchen",
     "recurring": "none"
   },
   {
@@ -199,7 +199,7 @@
     "start_time": "2026-03-13T06:00:00-08:00",
     "end_time": "2026-03-13T07:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": "none"
@@ -210,9 +210,9 @@
     "start_time": "2026-02-08T09:00:00-08:00",
     "end_time": "2026-02-08T12:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -221,9 +221,9 @@
     "start_time": "2026-02-08T09:00:00-08:00",
     "end_time": "2026-02-08T11:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -232,9 +232,9 @@
     "start_time": "2026-02-08T12:30:00-08:00",
     "end_time": "2026-02-08T15:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -243,10 +243,10 @@
     "start_time": "2026-02-07T16:00:00-08:00",
     "end_time": "2026-02-07T17:30:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -256,9 +256,9 @@
     "end_time": "2026-03-17T16:00:00-07:00",
     "attendees": [
       "Robert Kim",
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie kitchen",
+    "location": "Sterling & Oak Patisserie kitchen",
     "recurring": "monthly"
   },
   {
@@ -267,10 +267,10 @@
     "start_time": "2026-03-15T09:00:00-07:00",
     "end_time": "2026-03-15T15:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie kitchen",
+    "location": "Sterling & Oak Patisserie kitchen",
     "recurring": ""
   },
   {
@@ -279,10 +279,10 @@
     "start_time": "2026-03-18T10:00:00-07:00",
     "end_time": "2026-03-18T11:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "James Patterson"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -291,9 +291,9 @@
     "start_time": "2026-01-04T08:00:00-08:00",
     "end_time": "2026-01-04T16:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": "none"
   },
   {
@@ -302,10 +302,10 @@
     "start_time": "2026-01-06T09:00:00-08:00",
     "end_time": "2026-01-06T11:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Robert Kim"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": "none"
   },
   {
@@ -314,9 +314,9 @@
     "start_time": "2026-01-18T08:00:00-08:00",
     "end_time": "2026-01-18T16:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": "none"
   },
   {
@@ -325,10 +325,10 @@
     "start_time": "2026-03-06T14:00:00-08:00",
     "end_time": "2026-03-06T15:30:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie - kitchen",
+    "location": "Sterling & Oak Patisserie - kitchen",
     "recurring": ""
   },
   {
@@ -337,9 +337,9 @@
     "start_time": "2026-03-09T09:00:00-08:00",
     "end_time": "2026-03-09T14:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - kitchen",
+    "location": "Sterling & Oak Patisserie - kitchen",
     "recurring": ""
   },
   {
@@ -348,7 +348,7 @@
     "start_time": "2026-03-05T18:00:00-08:00",
     "end_time": "2026-03-05T19:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Home office",
     "recurring": ""
@@ -359,7 +359,7 @@
     "start_time": "2026-01-27T06:00:00-08:00",
     "end_time": "2026-01-27T07:15:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": ""
@@ -370,10 +370,10 @@
     "start_time": "2026-01-27T08:30:00-08:00",
     "end_time": "2026-01-27T17:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -382,7 +382,7 @@
     "start_time": "2026-01-28T06:00:00-08:00",
     "end_time": "2026-01-28T07:15:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": ""
@@ -393,10 +393,10 @@
     "start_time": "2026-01-28T08:30:00-08:00",
     "end_time": "2026-01-28T17:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -405,7 +405,7 @@
     "start_time": "2026-01-29T06:00:00-08:00",
     "end_time": "2026-01-29T07:15:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": ""
@@ -416,10 +416,10 @@
     "start_time": "2026-01-29T08:30:00-08:00",
     "end_time": "2026-01-29T18:30:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -428,9 +428,9 @@
     "start_time": "2026-01-25T09:00:00-08:00",
     "end_time": "2026-01-25T16:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -439,7 +439,7 @@
     "start_time": "2026-02-02T09:00:00-08:00",
     "end_time": "2026-02-02T17:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "",
     "recurring": ""
@@ -450,8 +450,8 @@
     "start_time": "2026-01-20T14:00:00-08:00",
     "end_time": "2026-01-20T16:30:00-08:00",
     "attendees": [
-      "sofia.martinez@starlingandthorn.com",
-      "olivia.baker@starlingandthorn.com",
+      "sofia.martinez@starlingandthorn.example",
+      "orla.bennett@starlingandthorn.example",
       "prep team"
     ],
     "location": "Starling & Thorn kitchen - main prep area",
@@ -464,7 +464,7 @@
     "end_time": "2026-01-21T11:00:00-08:00",
     "attendees": [
       "Mike Rodriguez (technician)",
-      "olivia.baker@starlingandthorn.com"
+      "orla.bennett@starlingandthorn.example"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -475,7 +475,7 @@
     "start_time": "2026-01-24T10:00:00-08:00",
     "end_time": "2026-01-24T11:00:00-08:00",
     "attendees": [
-      "olivia.baker@starlingandthorn.com"
+      "orla.bennett@starlingandthorn.example"
     ],
     "location": "Office",
     "recurring": ""
@@ -486,10 +486,10 @@
     "start_time": "2026-03-29T13:00:00-07:00",
     "end_time": "2026-03-29T18:00:00-07:00",
     "attendees": [
-      "olivia.baker@starlingandthorn.com",
-      "sofia.martinez@starlingandthorn.com"
+      "orla.bennett@starlingandthorn.example",
+      "sofia.martinez@starlingandthorn.example"
     ],
-    "location": "Starling & Thorn Patisserie - main kitchen",
+    "location": "Sterling & Oak Patisserie - main kitchen",
     "recurring": "none"
   },
   {
@@ -498,10 +498,10 @@
     "start_time": "2026-03-28T09:00:00-07:00",
     "end_time": "2026-03-28T12:00:00-07:00",
     "attendees": [
-      "olivia.baker@starlingandthorn.com",
-      "robert.kim@portlandrestaurantsupply.com"
+      "orla.bennett@starlingandthorn.example",
+      "robert.kim@portlandrestaurantsupply.example"
     ],
-    "location": "Starling & Thorn Patisserie - main kitchen",
+    "location": "Sterling & Oak Patisserie - main kitchen",
     "recurring": "none"
   },
   {
@@ -510,7 +510,7 @@
     "start_time": "2026-03-29T06:00:00-07:00",
     "end_time": "2026-03-29T07:15:00-07:00",
     "attendees": [
-      "olivia.baker@starlingandthorn.com"
+      "orla.bennett@starlingandthorn.example"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": "none"
@@ -521,10 +521,10 @@
     "start_time": "2026-03-27T10:00:00-07:00",
     "end_time": "2026-03-27T11:00:00-07:00",
     "attendees": [
-      "olivia.baker@starlingandthorn.com",
-      "james@portlandproduceco.com"
+      "orla.bennett@starlingandthorn.example",
+      "james@portlandproduceco.example"
     ],
-    "location": "Starling & Thorn Patisserie - office",
+    "location": "Sterling & Oak Patisserie - office",
     "recurring": "none"
   },
   {
@@ -533,9 +533,9 @@
     "start_time": "2026-03-30T09:00:00-07:00",
     "end_time": "2026-03-30T13:00:00-07:00",
     "attendees": [
-      "olivia.baker@starlingandthorn.com"
+      "orla.bennett@starlingandthorn.example"
     ],
-    "location": "Starling & Thorn Patisserie - main kitchen",
+    "location": "Sterling & Oak Patisserie - main kitchen",
     "recurring": "none"
   },
   {
@@ -544,9 +544,9 @@
     "start_time": "2026-02-15T14:00:00-08:00",
     "end_time": "2026-02-15T18:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -555,9 +555,9 @@
     "start_time": "2026-02-22T14:00:00-08:00",
     "end_time": "2026-02-22T18:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -566,9 +566,9 @@
     "start_time": "2026-02-21T15:30:00-08:00",
     "end_time": "2026-02-21T16:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Main Kitchen",
+    "location": "Sterling & Oak Patisserie - Main Kitchen",
     "recurring": ""
   },
   {
@@ -577,9 +577,9 @@
     "start_time": "2026-01-04T08:00:00-08:00",
     "end_time": "2026-01-04T09:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - Kitchen",
+    "location": "Sterling & Oak Patisserie - Kitchen",
     "recurring": "none"
   },
   {
@@ -588,7 +588,7 @@
     "start_time": "2026-01-06T09:00:00-08:00",
     "end_time": "2026-01-06T09:30:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Thomas Werner"
     ],
     "location": "Phone call",
@@ -682,7 +682,7 @@
       "Robert Kim",
       "Thomas Werner"
     ],
-    "location": "Starling & Thorn Patisserie - private event",
+    "location": "Sterling & Oak Patisserie - private event",
     "recurring": ""
   },
   {
@@ -691,7 +691,7 @@
     "start_time": "2026-01-26T10:00:00-08:00",
     "end_time": "2026-01-26T12:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn - office",
     "recurring": ""
@@ -728,7 +728,7 @@
       "Patricia Nguyen",
       "Rachel Kim"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -737,7 +737,7 @@
     "start_time": "2026-01-18T13:00:00-08:00",
     "end_time": "2026-01-18T18:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen - BLAST CHILLER RESERVED",
     "recurring": ""
@@ -759,7 +759,7 @@
     "start_time": "2026-02-15T10:00:00-08:00",
     "end_time": "2026-02-15T16:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -770,7 +770,7 @@
     "start_time": "2026-02-22T10:00:00-08:00",
     "end_time": "2026-02-22T15:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn kitchen",
@@ -787,9 +787,9 @@
       "Marcus Chen (Culinary Review)",
       "Rachel Kim (Portland Culinary Alliance)",
       "Sofia Martinez (sous chef)",
-      "Olivia Baker"
+      "Orla Bennett"
     ],
-    "location": "Starling & Thorn Patisserie - private tasting setup",
+    "location": "Sterling & Oak Patisserie - private tasting setup",
     "recurring": ""
   },
   {
@@ -798,7 +798,7 @@
     "start_time": "2026-03-15T09:00:00-08:00",
     "end_time": "2026-03-15T15:00:00-08:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn kitchen",
@@ -810,7 +810,7 @@
     "start_time": "2026-03-15T15:30:00-08:00",
     "end_time": "2026-03-15T18:00:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -821,7 +821,7 @@
     "start_time": "2026-03-15T07:00:00-08:00",
     "end_time": "2026-03-15T08:30:00-08:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Portland Restaurant Supply - 2847 SE Division St",
     "recurring": ""
@@ -832,7 +832,7 @@
     "start_time": "2026-02-05T14:00:00-08:00",
     "end_time": "2026-02-05T14:45:00-08:00",
     "attendees": [
-      "thomas.werner@artisaneuropean.com"
+      "thomas.werner@artisaneuropean.example"
     ],
     "location": "Phone call",
     "recurring": ""
@@ -843,7 +843,7 @@
     "start_time": "2026-02-11T15:00:00-08:00",
     "end_time": "2026-02-11T15:45:00-08:00",
     "attendees": [
-      "thomas.werner@artisaneuropean.com"
+      "thomas.werner@artisaneuropean.example"
     ],
     "location": "Phone call",
     "recurring": ""
@@ -854,7 +854,7 @@
     "start_time": "2026-02-19T10:30:00-08:00",
     "end_time": "2026-02-19T11:15:00-08:00",
     "attendees": [
-      "thomas.werner@artisaneuropean.com"
+      "thomas.werner@artisaneuropean.example"
     ],
     "location": "Phone call",
     "recurring": ""
@@ -865,7 +865,7 @@
     "start_time": "2026-02-18T09:00:00-08:00",
     "end_time": "2026-02-18T11:30:00-08:00",
     "attendees": [
-      "sofia.martinez@starlingandthorn.com"
+      "sofia.martinez@starlingandthorn.example"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -876,7 +876,7 @@
     "start_time": "2026-03-16T16:00:00-07:00",
     "end_time": "2026-03-16T16:30:00-07:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn office",
     "recurring": ""
@@ -887,7 +887,7 @@
     "start_time": "2026-03-22T08:00:00-07:00",
     "end_time": "2026-03-22T17:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn production kitchen",
@@ -899,7 +899,7 @@
     "start_time": "2026-03-23T08:00:00-07:00",
     "end_time": "2026-03-23T16:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn production kitchen",
@@ -911,7 +911,7 @@
     "start_time": "2026-03-18T10:00:00-07:00",
     "end_time": "2026-03-18T11:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn - receiving",
@@ -930,7 +930,7 @@
       "Maria Santos (Pacific Gourmet)",
       "Thomas Werner (Artisan European)"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -940,7 +940,7 @@
     "end_time": "2026-04-05T17:00:00-07:00",
     "attendees": [
       "Sofia Martinez",
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn Kitchen",
     "recurring": ""
@@ -952,7 +952,7 @@
     "end_time": "2026-04-08T16:00:00-07:00",
     "attendees": [
       "Sofia Martinez",
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn Kitchen",
     "recurring": ""
@@ -963,7 +963,7 @@
     "start_time": "2026-03-29T06:00:00-07:00",
     "end_time": "2026-03-29T07:00:00-07:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Lloyd Center Ice Rink",
     "recurring": "weekly"
@@ -974,7 +974,7 @@
     "start_time": "2026-04-05T09:00:00-07:00",
     "end_time": "2026-04-05T15:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn kitchen",
@@ -986,7 +986,7 @@
     "start_time": "2026-04-05T10:00:00-07:00",
     "end_time": "2026-04-05T16:00:00-07:00",
     "attendees": [
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -998,7 +998,7 @@
     "end_time": "2026-04-02T16:00:00-07:00",
     "attendees": [
       "Robert Kim",
-      "Olivia Baker"
+      "Orla Bennett"
     ],
     "location": "Starling & Thorn kitchen",
     "recurring": ""
@@ -1009,7 +1009,7 @@
     "start_time": "2026-04-07T08:00:00-07:00",
     "end_time": "2026-04-07T09:30:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn office",
@@ -1028,7 +1028,7 @@
       "David Choi",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie",
+    "location": "Sterling & Oak Patisserie",
     "recurring": ""
   },
   {
@@ -1037,10 +1037,10 @@
     "start_time": "2026-04-03T14:00:00-07:00",
     "end_time": "2026-04-03T17:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
-    "location": "Starling & Thorn Patisserie - Kitchen",
+    "location": "Sterling & Oak Patisserie - Kitchen",
     "recurring": ""
   },
   {
@@ -1049,10 +1049,10 @@
     "start_time": "2026-03-28T10:00:00-07:00",
     "end_time": "2026-03-28T12:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Robert Kim"
     ],
-    "location": "Starling & Thorn Patisserie - Kitchen",
+    "location": "Sterling & Oak Patisserie - Kitchen",
     "recurring": ""
   },
   {
@@ -1067,7 +1067,7 @@
       "Marcus Chen",
       "Industry supporters (8-10 guests)"
     ],
-    "location": "Starling & Thorn Patisserie - full venue",
+    "location": "Sterling & Oak Patisserie - full venue",
     "recurring": "none"
   },
   {
@@ -1076,7 +1076,7 @@
     "start_time": "2026-04-05T09:00:00-07:00",
     "end_time": "2026-04-05T17:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn kitchen",
@@ -1088,7 +1088,7 @@
     "start_time": "2026-04-12T09:00:00-07:00",
     "end_time": "2026-04-12T17:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez"
     ],
     "location": "Starling & Thorn kitchen",
@@ -1100,7 +1100,7 @@
     "start_time": "2026-04-19T09:00:00-07:00",
     "end_time": "2026-04-19T18:00:00-07:00",
     "attendees": [
-      "Olivia Baker",
+      "Orla Bennett",
       "Sofia Martinez",
       "prep team"
     ],

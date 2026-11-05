@@ -122,7 +122,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Priya Sharma - VP Engineering",
+      "owner": "Parul Shankar - VP Engineering",
       "reviewed_by": "Jorge Alvarez",
       "date": "2026-02-15"
     },
@@ -277,7 +277,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Attendees: Jorge Alvarez, Priya Sharma, Dev leads, SRE team"
+        "text": "Attendees: Jorge Alvarez, Parul Shankar, Dev leads, SRE team"
       },
       {
         "type": "heading_2",
@@ -350,7 +350,7 @@
       },
       {
         "type": "bulleted_list_item",
-        "text": "Owner: Priya Sharma (platform-backend)"
+        "text": "Owner: Parul Shankar (platform-backend)"
       },
       {
         "type": "heading_2",
@@ -467,7 +467,7 @@
     "parent_page_id": "NPAG-5",
     "database_id": null,
     "properties": {
-      "owner": "Priya Sharma",
+      "owner": "Parul Shankar",
       "status": "in_progress",
       "updated": "2026-04-04"
     },
@@ -888,7 +888,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Engineering Director (Priya Sharma) and SRE Lead (Marcus Chen) notified and acknowledged"
+        "text": "Engineering Director (Parul Shankar) and SRE Lead (Marcus Chen) notified and acknowledged"
       },
       {
         "type": "heading_2",
@@ -989,7 +989,7 @@
       },
       {
         "type": "paragraph",
-        "text": "**Approved by**: Priya Sharma (VP Engineering), Jorge Alvarez (Platform PM) - documented in Notion page NPAG-5, confirmed via Workmail WMSG-5006 on April 1"
+        "text": "**Approved by**: Parul Shankar (VP Engineering), Jorge Alvarez (Platform PM) - documented in Notion page NPAG-5, confirmed via Workmail WMSG-5006 on April 1"
       },
       {
         "type": "paragraph",
@@ -1608,7 +1608,7 @@
       "owner": "Jorge Alvarez",
       "quarter": "Q2 2026",
       "status": "under_review",
-      "last_updated_by": "jorge.alvarez@crucible.com"
+      "last_updated_by": "jorge.alvarez@crucible.example"
     },
     "blocks": [
       {
@@ -1721,7 +1721,7 @@
       "owner": "Sarah Kim",
       "quarter": "Q2 2026",
       "status": "under_review",
-      "last_updated_by": "sarah.kim@crucible.com"
+      "last_updated_by": "sarah.kim@crucible.example"
     },
     "blocks": [
       {
@@ -1846,7 +1846,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Attendees: Jorge Alvarez (Platform PM), Sarah Kim (Data Director), Priya Sharma (Platform Eng Director), Marcus Chen (SRE Lead), David Torres (VP Engineering)"
+        "text": "Attendees: Jorge Alvarez (Platform PM), Sarah Kim (Data Director), Parul Shankar (Platform Eng Director), Marcus Chen (SRE Lead), David Torres (VP Engineering)"
       },
       {
         "type": "heading_2",
@@ -2208,7 +2208,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Priya Sharma",
+      "owner": "Parul Shankar",
       "category": "Product Launch",
       "quarter": "Q2 2026",
       "status": "in-progress"
@@ -2319,7 +2319,7 @@
       "decision_date": "2026-04-07",
       "status": "draft",
       "stakeholders": [
-        "Priya Sharma",
+        "Parul Shankar",
         "Marcus Chen",
         "Sarah Kim",
         "VP Engineering"
@@ -2677,7 +2677,7 @@
       {
         "type": "bullet_list",
         "items": [
-          "Escalated to David Torres (VP Customer Success) and Priya Sharma (VP Engineering)",
+          "Escalated to David Torres (VP Customer Success) and Parul Shankar (VP Engineering)",
           "Emergency war room scheduled for 11 AM April 5",
           "Response drafted to Elena Martinez confirming platform team ownership",
           "CRM status update requested to reflect churn risk"
@@ -2887,7 +2887,7 @@
       },
       {
         "type": "bulleted_list",
-        "text": "Engineering leadership (Priya Sharma): Notified via email April 5, sprint planning to proceed Monday April 7"
+        "text": "Engineering leadership (Parul Shankar): Notified via email April 5, sprint planning to proceed Monday April 7"
       },
       {
         "type": "bulleted_list",
@@ -3779,7 +3779,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Any launch window violating hard floor constraints requires written exception approval from VP Engineering (Priya Sharma) with documented business justification and risk mitigation plan."
+        "text": "Any launch window violating hard floor constraints requires written exception approval from VP Engineering (Parul Shankar) with documented business justification and risk mitigation plan."
       }
     ],
     "archived": false,
@@ -4533,7 +4533,7 @@
       {
         "type": "numbered_list",
         "items": [
-          "Notify engineering leadership (Priya Sharma) and Customer Success VP (David Torres) of compliance-driven decision",
+          "Notify engineering leadership (Parul Shankar) and Customer Success VP (David Torres) of compliance-driven decision",
           "Schedule all-hands with platform team to explain override rationale and revised allocation",
           "Update Q2 roadmap and customer commitments for Polaris dashboard delay",
           "Coordinate with GlobalRetail Corp and Meridian Health Systems on compliance verification timeline"
@@ -5203,7 +5203,7 @@
       },
       {
         "type": "bulleted_list_item",
-        "text": "Status page: https://status.cloudcdn.com/incidents/2026-0428-emergency"
+        "text": "Status page: https://status.cloudcdn.example/incidents/2026-0428-emergency"
       },
       {
         "type": "bulleted_list_item",
@@ -5259,7 +5259,7 @@
       },
       {
         "type": "paragraph",
-        "text": "HOLD launch on Window C. Escalate to Jorge Alvarez (Product) and Priya Sharma (Engineering) for executive decision on alternative window by EOD 2026-04-07."
+        "text": "HOLD launch on Window C. Escalate to Jorge Alvarez (Product) and Parul Shankar (Engineering) for executive decision on alternative window by EOD 2026-04-07."
       }
     ],
     "archived": false,
@@ -5352,7 +5352,7 @@
       },
       {
         "type": "bulleted_list_item",
-        "text": "Notify Priya Sharma (VP Engineering) of launch hold decision"
+        "text": "Notify Parul Shankar (VP Engineering) of launch hold decision"
       },
       {
         "type": "bulleted_list_item",
@@ -5621,7 +5621,7 @@
       },
       {
         "type": "paragraph",
-        "text": "**Pending**: Engineering sign-off from Priya Sharma (requested via WMSG-5100, deadline 4pm)"
+        "text": "**Pending**: Engineering sign-off from Parul Shankar (requested via WMSG-5100, deadline 4pm)"
       }
     ],
     "archived": false,

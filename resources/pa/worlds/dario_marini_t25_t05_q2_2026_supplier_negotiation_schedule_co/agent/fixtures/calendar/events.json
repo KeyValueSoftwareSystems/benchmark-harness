@@ -5,7 +5,7 @@
     "start_time": "2026-01-11T23:59:00-05:00",
     "end_time": "2026-01-11T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -16,7 +16,7 @@
     "start_time": "2026-01-15T17:00:00-05:00",
     "end_time": "2026-01-15T17:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -27,7 +27,7 @@
     "start_time": "2026-01-18T17:00:00-05:00",
     "end_time": "2026-01-18T17:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -38,9 +38,9 @@
     "start_time": "2026-01-06T10:00:00-05:00",
     "end_time": "2026-01-06T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica@solettaliving.com",
-      "mike@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica@solettaliving.example",
+      "mike@solettaliving.example"
     ],
     "location": "Video call",
     "recurring": ""
@@ -51,7 +51,7 @@
     "start_time": "2026-02-23T14:00:00-05:00",
     "end_time": "2026-02-23T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Desk / Facebook Ads Manager",
     "recurring": "none"
@@ -62,8 +62,8 @@
     "start_time": "2026-02-24T09:00:00-05:00",
     "end_time": "2026-02-24T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Video call",
     "recurring": "none"
@@ -74,8 +74,8 @@
     "start_time": "2026-02-25T10:00:00-05:00",
     "end_time": "2026-02-25T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Slack huddle",
     "recurring": "weekly"
@@ -86,7 +86,7 @@
     "start_time": "2026-02-12T10:00:00-05:00",
     "end_time": "2026-02-12T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Internal review",
     "recurring": "none"
@@ -97,8 +97,8 @@
     "start_time": "2026-02-24T09:00:00-05:00",
     "end_time": "2026-02-24T13:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "sarah.chen@3plnj.com"
+      "davide@solettaliving.example",
+      "sarah.chen@3plnj.example"
     ],
     "location": "3PL Logistics NJ - QC Bay 3",
     "recurring": "none"
@@ -109,7 +109,7 @@
     "start_time": "2026-02-08T17:00:00-05:00",
     "end_time": "2026-02-08T17:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Amazon FBA EWR4",
     "recurring": "none"
@@ -120,9 +120,9 @@
     "start_time": "2026-02-13T14:00:00-05:00",
     "end_time": "2026-02-13T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Video call",
     "recurring": "none"
@@ -133,7 +133,7 @@
     "start_time": "2026-03-26T10:00:00-04:00",
     "end_time": "2026-03-26T13:00:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -146,7 +146,7 @@
     "start_time": "2026-03-27T14:00:00-04:00",
     "end_time": "2026-03-27T15:30:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Mike Chang"
     ],
     "location": "Zoom",
@@ -158,7 +158,7 @@
     "start_time": "2026-01-27T09:00:00-05:00",
     "end_time": "2026-01-27T10:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -171,7 +171,7 @@
     "start_time": "2026-02-12T11:00:00-05:00",
     "end_time": "2026-02-12T12:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Mike Chang",
       "Sarah Chen"
     ],
@@ -184,7 +184,7 @@
     "start_time": "2026-03-25T23:59:00-05:00",
     "end_time": "2026-03-25T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -195,9 +195,9 @@
     "start_time": "2026-03-21T10:00:00-05:00",
     "end_time": "2026-03-21T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -208,7 +208,7 @@
     "start_time": "2026-01-05T17:00:00+08:00",
     "end_time": "2026-01-05T17:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Deadline reminder",
     "recurring": ""
@@ -219,9 +219,9 @@
     "start_time": "2026-01-26T00:00:00+08:00",
     "end_time": "2026-02-06T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Yiwu, China - All suppliers",
     "recurring": ""
@@ -232,7 +232,7 @@
     "start_time": "2026-01-20T17:00:00+08:00",
     "end_time": "2026-01-20T17:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Payment deadline",
     "recurring": ""
@@ -243,7 +243,7 @@
     "start_time": "2026-01-31T09:00:00-05:00",
     "end_time": "2026-01-31T10:00:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Office",
     "recurring": ""
@@ -254,7 +254,7 @@
     "start_time": "2026-01-31T14:00:00-05:00",
     "end_time": "2026-01-31T14:30:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Office - Banking",
     "recurring": ""
@@ -265,7 +265,7 @@
     "start_time": "2026-02-03T10:00:00-05:00",
     "end_time": "2026-02-03T10:30:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Office - Banking",
     "recurring": ""
@@ -276,7 +276,7 @@
     "start_time": "2026-02-03T14:00:00-05:00",
     "end_time": "2026-02-03T15:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -289,7 +289,7 @@
     "start_time": "2026-02-12T16:00:00-05:00",
     "end_time": "2026-02-12T16:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Phone call with Transpacific Freight",
     "recurring": "none"
@@ -300,8 +300,8 @@
     "start_time": "2026-02-22T00:00:00-05:00",
     "end_time": "2026-02-23T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "sarah.chen@3plnj.com"
+      "davide@solettaliving.example",
+      "sarah.chen@3plnj.example"
     ],
     "location": "3PL Logistics NJ - Warehouse Closed",
     "recurring": "none"
@@ -312,7 +312,7 @@
     "start_time": "2026-02-23T00:00:00-05:00",
     "end_time": "2026-02-27T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Port Newark / 3PL NJ",
     "recurring": "none"
@@ -323,7 +323,7 @@
     "start_time": "2026-02-20T00:00:00-05:00",
     "end_time": "2026-02-22T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Port Newark / 3PL NJ",
     "recurring": "none"
@@ -334,7 +334,7 @@
     "start_time": "2026-03-26T17:00:00-05:00",
     "end_time": "2026-03-26T18:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat / Email",
     "recurring": "none"
@@ -345,9 +345,9 @@
     "start_time": "2026-03-25T15:00:00-05:00",
     "end_time": "2026-03-25T16:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -358,7 +358,7 @@
     "start_time": "2026-03-06T15:00:00-05:00",
     "end_time": "2026-03-06T16:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat Video Call",
     "recurring": "none"
@@ -369,7 +369,7 @@
     "start_time": "2026-03-08T10:00:00-05:00",
     "end_time": "2026-03-08T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat Video Call",
     "recurring": "none"
@@ -380,7 +380,7 @@
     "start_time": "2026-03-10T14:00:00-05:00",
     "end_time": "2026-03-10T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat Video Call",
     "recurring": "none"
@@ -391,9 +391,9 @@
     "start_time": "2026-03-10T09:00:00-05:00",
     "end_time": "2026-03-10T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"
@@ -404,7 +404,7 @@
     "start_time": "2026-01-20T23:59:00+08:00",
     "end_time": "2026-01-20T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -415,7 +415,7 @@
     "start_time": "2026-01-31T09:00:00-05:00",
     "end_time": "2026-01-31T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -426,7 +426,7 @@
     "start_time": "2026-02-02T09:00:00-05:00",
     "end_time": "2026-02-02T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -437,7 +437,7 @@
     "start_time": "2026-02-02T23:59:00+08:00",
     "end_time": "2026-02-02T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -448,7 +448,7 @@
     "start_time": "2026-02-05T23:59:00+08:00",
     "end_time": "2026-02-05T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -459,9 +459,9 @@
     "start_time": "2026-03-10T10:00:00-05:00",
     "end_time": "2026-03-10T12:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -472,7 +472,7 @@
     "start_time": "2026-03-08T14:00:00-05:00",
     "end_time": "2026-03-08T15:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -484,7 +484,7 @@
     "end_time": "2026-03-12T11:30:00-05:00",
     "attendees": [
       "Liu Wei (Yiwu Meihao)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Zoom call from Manhattan office",
     "recurring": "none"
@@ -496,7 +496,7 @@
     "end_time": "2026-03-13T16:30:00-05:00",
     "attendees": [
       "Chen Xiaoming (Yongxin)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Zoom call from Manhattan office",
     "recurring": "none"
@@ -507,7 +507,7 @@
     "start_time": "2026-03-16T23:59:00-05:00",
     "end_time": "2026-03-16T23:59:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "",
     "recurring": "none"
@@ -518,7 +518,7 @@
     "start_time": "2026-03-14T14:00:00-05:00",
     "end_time": "2026-03-14T15:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -533,7 +533,7 @@
     "attendees": [
       "Marcus Chen (Nordstrom)",
       "Sarah Chen (3PL)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Zoom (link TBD)",
     "recurring": "none"
@@ -556,7 +556,7 @@
     "start_time": "2026-01-17T10:00:00-05:00",
     "end_time": "2026-01-17T12:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office - Focus Block",
     "recurring": "none"
@@ -567,8 +567,8 @@
     "start_time": "2026-01-19T17:00:00-05:00",
     "end_time": "2026-01-19T17:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "david.morrison@transpacific-freight.com"
+      "davide@solettaliving.example",
+      "david.morrison@transpacific-freight.example"
     ],
     "location": "Phone/Email",
     "recurring": "none"
@@ -579,8 +579,8 @@
     "start_time": "2026-01-19T15:00:00-05:00",
     "end_time": "2026-01-19T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "sarah.chen@3plnj.com"
+      "davide@solettaliving.example",
+      "sarah.chen@3plnj.example"
     ],
     "location": "Email coordination",
     "recurring": "none"
@@ -591,9 +591,9 @@
     "start_time": "2026-01-17T16:00:00-05:00",
     "end_time": "2026-01-17T16:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Slack #soletta-ops",
     "recurring": "none"
@@ -604,7 +604,7 @@
     "start_time": "2026-02-18T09:00:00-05:00",
     "end_time": "2026-02-18T11:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Home office - deep work",
     "recurring": "none"
@@ -615,8 +615,8 @@
     "start_time": "2026-02-17T20:00:00-05:00",
     "end_time": "2026-02-17T20:45:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "chen.xm@yongxinhome.com"
+      "davide@solettaliving.example",
+      "chen.xm@yongxinhome.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -627,8 +627,8 @@
     "start_time": "2026-02-17T14:00:00-05:00",
     "end_time": "2026-02-17T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -639,8 +639,8 @@
     "start_time": "2026-02-17T11:00:00-05:00",
     "end_time": "2026-02-17T11:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "sarah.chen@3plnj.com"
+      "davide@solettaliving.example",
+      "sarah.chen@3plnj.example"
     ],
     "location": "Phone",
     "recurring": "none"
@@ -651,7 +651,7 @@
     "start_time": "2026-02-19T09:00:00-05:00",
     "end_time": "2026-02-19T12:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Home office - deep work",
     "recurring": "none"
@@ -662,7 +662,7 @@
     "start_time": "2026-02-18T19:00:00-05:00",
     "end_time": "2026-02-18T20:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Home office",
     "recurring": "none"
@@ -673,7 +673,7 @@
     "start_time": "2026-01-28T10:00:00-05:00",
     "end_time": "2026-01-28T11:30:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -686,7 +686,7 @@
     "start_time": "2026-02-08T23:59:00-05:00",
     "end_time": "2026-02-08T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -697,9 +697,9 @@
     "start_time": "2026-05-11T00:00:00-05:00",
     "end_time": "2026-05-11T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -710,8 +710,8 @@
     "start_time": "2026-02-05T14:00:00-05:00",
     "end_time": "2026-02-05T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -722,9 +722,9 @@
     "start_time": "2026-02-03T10:00:00-05:00",
     "end_time": "2026-02-03T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"
@@ -735,7 +735,7 @@
     "start_time": "2026-01-17T09:00:00-05:00",
     "end_time": "2026-01-17T10:30:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Office - Strategic Planning",
     "recurring": "none"
@@ -746,7 +746,7 @@
     "start_time": "2026-02-02T10:00:00-05:00",
     "end_time": "2026-02-02T11:00:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Bank - Wire Transfer",
     "recurring": "none"
@@ -757,7 +757,7 @@
     "start_time": "2026-02-05T10:00:00-05:00",
     "end_time": "2026-02-05T11:00:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Bank - Wire Transfer",
     "recurring": "none"
@@ -768,7 +768,7 @@
     "start_time": "2026-01-15T14:00:00-05:00",
     "end_time": "2026-01-15T14:30:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Office",
     "recurring": "weekly"
@@ -779,8 +779,8 @@
     "start_time": "2026-02-26T14:00:00-05:00",
     "end_time": "2026-02-26T15:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -791,8 +791,8 @@
     "start_time": "2026-02-28T10:00:00-05:00",
     "end_time": "2026-02-28T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -803,8 +803,8 @@
     "start_time": "2026-03-03T15:00:00-05:00",
     "end_time": "2026-03-03T16:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -815,9 +815,9 @@
     "start_time": "2026-03-03T09:00:00-05:00",
     "end_time": "2026-03-03T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Soletta Office",
     "recurring": "weekly"
@@ -828,8 +828,8 @@
     "start_time": "2026-02-26T10:00:00-05:00",
     "end_time": "2026-02-26T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -840,7 +840,7 @@
     "start_time": "2026-02-28T23:59:00-08:00",
     "end_time": "2026-02-28T23:59:00-08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Amazon Seller Central",
     "recurring": "none"
@@ -851,7 +851,7 @@
     "start_time": "2026-05-07T23:00:00-05:00",
     "end_time": "2026-05-07T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Amazon Seller Central",
     "recurring": "none"
@@ -862,8 +862,8 @@
     "start_time": "2026-05-08T10:00:00-05:00",
     "end_time": "2026-05-08T16:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Amazon - Mother's Day Lightning Deal",
     "recurring": "none"
@@ -874,7 +874,7 @@
     "start_time": "2026-02-07T17:00:00-05:00",
     "end_time": "2026-02-07T18:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres"
     ],
     "location": "Internal decision checkpoint",
@@ -908,7 +908,7 @@
     "start_time": "2026-02-08T10:00:00-05:00",
     "end_time": "2026-02-08T12:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -921,8 +921,8 @@
     "start_time": "2026-02-08T10:00:00-05:00",
     "end_time": "2026-02-08T10:45:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "chen.xm@yongxinhome.com"
+      "davide@solettaliving.example",
+      "chen.xm@yongxinhome.example"
     ],
     "location": "Zoom",
     "recurring": null
@@ -933,8 +933,8 @@
     "start_time": "2026-02-11T15:00:00-05:00",
     "end_time": "2026-02-11T15:45:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "chen.xm@yongxinhome.com"
+      "davide@solettaliving.example",
+      "chen.xm@yongxinhome.example"
     ],
     "location": "Zoom",
     "recurring": null
@@ -945,8 +945,8 @@
     "start_time": "2026-02-14T09:00:00-05:00",
     "end_time": "2026-02-14T09:45:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "chen.xm@yongxinhome.com"
+      "davide@solettaliving.example",
+      "chen.xm@yongxinhome.example"
     ],
     "location": "Zoom",
     "recurring": null
@@ -957,9 +957,9 @@
     "start_time": "2026-02-13T14:00:00-05:00",
     "end_time": "2026-02-13T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Google Meet",
     "recurring": null
@@ -970,7 +970,7 @@
     "start_time": "2026-01-31T09:00:00-05:00",
     "end_time": "2026-01-31T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Virtual - Banking",
     "recurring": "none"
@@ -981,7 +981,7 @@
     "start_time": "2026-01-31T14:00:00-05:00",
     "end_time": "2026-01-31T14:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Finance Dashboard",
     "recurring": "none"
@@ -992,7 +992,7 @@
     "start_time": "2026-02-02T10:00:00-05:00",
     "end_time": "2026-02-02T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Finance Dashboard",
     "recurring": "none"
@@ -1003,7 +1003,7 @@
     "start_time": "2026-02-02T11:00:00-05:00",
     "end_time": "2026-02-02T12:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank Portal",
     "recurring": "none"
@@ -1014,7 +1014,7 @@
     "start_time": "2026-02-05T10:00:00-05:00",
     "end_time": "2026-02-05T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank Portal",
     "recurring": "none"
@@ -1025,8 +1025,8 @@
     "start_time": "2026-02-06T14:00:00-05:00",
     "end_time": "2026-02-06T15:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -1037,7 +1037,7 @@
     "start_time": "2026-01-15T17:00:00-05:00",
     "end_time": "2026-01-15T17:30:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "",
     "recurring": "none"
@@ -1060,7 +1060,7 @@
     "start_time": "2026-01-23T23:59:00-05:00",
     "end_time": "2026-01-23T23:59:00-05:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "",
     "recurring": "none"
@@ -1071,7 +1071,7 @@
     "start_time": "2026-01-16T10:00:00-05:00",
     "end_time": "2026-01-16T11:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -1084,7 +1084,7 @@
     "start_time": "2026-01-31T23:59:00-05:00",
     "end_time": "2026-01-31T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1095,7 +1095,7 @@
     "start_time": "2026-02-02T23:59:00+08:00",
     "end_time": "2026-02-02T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1106,7 +1106,7 @@
     "start_time": "2026-02-05T23:59:00+08:00",
     "end_time": "2026-02-05T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1117,7 +1117,7 @@
     "start_time": "2026-01-31T09:00:00-05:00",
     "end_time": "2026-01-31T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1128,7 +1128,7 @@
     "start_time": "2026-02-02T09:00:00-05:00",
     "end_time": "2026-02-02T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1139,8 +1139,8 @@
     "start_time": "2026-01-30T14:00:00-05:00",
     "end_time": "2026-01-30T16:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Soletta Office",
     "recurring": ""
@@ -1151,7 +1151,7 @@
     "start_time": "2026-01-31T14:00:00-05:00",
     "end_time": "2026-01-31T16:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office - Wire Transfer Execution",
     "recurring": ""
@@ -1162,7 +1162,7 @@
     "start_time": "2026-02-02T15:00:00-05:00",
     "end_time": "2026-02-02T17:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office - Wire Transfer Execution",
     "recurring": ""
@@ -1173,7 +1173,7 @@
     "start_time": "2026-02-05T23:59:00+08:00",
     "end_time": "2026-02-05T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1184,8 +1184,8 @@
     "start_time": "2026-02-04T10:00:00-05:00",
     "end_time": "2026-02-04T11:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "monthly"
@@ -1207,7 +1207,7 @@
     "start_time": "2026-03-17T17:00:00-05:00",
     "end_time": "2026-03-17T17:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Remote",
     "recurring": "none"
@@ -1218,8 +1218,8 @@
     "start_time": "2026-03-18T14:00:00-05:00",
     "end_time": "2026-03-18T15:00:00-05:00",
     "attendees": [
-      "sarah.chen@3plnj.com",
-      "dario@solettaliving.com"
+      "sarah.chen@3plnj.example",
+      "davide@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -1230,7 +1230,7 @@
     "start_time": "2026-03-16T15:00:00-05:00",
     "end_time": "2026-03-16T17:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Home office",
     "recurring": "none"
@@ -1241,7 +1241,7 @@
     "start_time": "2026-02-07T09:00:00-05:00",
     "end_time": "2026-02-07T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Supplier escalation window",
     "recurring": ""
@@ -1252,8 +1252,8 @@
     "start_time": "2026-01-08T10:00:00-05:00",
     "end_time": "2026-01-08T12:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Virtual - urgent supplier commitment strategy session",
     "recurring": ""
@@ -1264,7 +1264,7 @@
     "start_time": "2026-01-31T17:00:00+08:00",
     "end_time": "2026-01-31T17:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Wire transfer deadline",
     "recurring": ""
@@ -1275,7 +1275,7 @@
     "start_time": "2026-02-02T17:00:00+08:00",
     "end_time": "2026-02-02T17:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Wire transfer deadline",
     "recurring": ""
@@ -1286,7 +1286,7 @@
     "start_time": "2026-02-05T17:00:00+08:00",
     "end_time": "2026-02-05T17:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Wire transfer deadline",
     "recurring": ""
@@ -1297,7 +1297,7 @@
     "start_time": "2026-03-15T00:00:00-05:00",
     "end_time": "2026-04-05T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "3PL Logistics NJ",
     "recurring": "none"
@@ -1308,7 +1308,7 @@
     "start_time": "2026-02-18T16:00:00-05:00",
     "end_time": "2026-02-18T17:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office",
     "recurring": "none"
@@ -1319,7 +1319,7 @@
     "start_time": "2026-04-01T00:00:00-05:00",
     "end_time": "2026-04-05T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank Account",
     "recurring": "none"
@@ -1330,7 +1330,7 @@
     "start_time": "2026-01-06T09:00:00-05:00",
     "end_time": "2026-01-06T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank Wire - Soletta Operating Account",
     "recurring": ""
@@ -1341,7 +1341,7 @@
     "start_time": "2026-01-10T23:59:00-05:00",
     "end_time": "2026-01-10T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1352,7 +1352,7 @@
     "start_time": "2026-01-31T12:00:00-05:00",
     "end_time": "2026-01-31T13:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Soletta Operating Account",
     "recurring": ""
@@ -1363,7 +1363,7 @@
     "start_time": "2026-02-02T12:00:00-05:00",
     "end_time": "2026-02-02T13:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Soletta Operating Account",
     "recurring": ""
@@ -1374,7 +1374,7 @@
     "start_time": "2026-02-03T09:00:00-05:00",
     "end_time": "2026-02-03T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank Wire - Soletta Operating Account",
     "recurring": ""
@@ -1385,7 +1385,7 @@
     "start_time": "2026-02-05T14:00:00-05:00",
     "end_time": "2026-02-05T15:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1407,7 +1407,7 @@
     "start_time": "2026-03-19T14:00:00-04:00",
     "end_time": "2026-03-19T14:30:00-04:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "",
     "recurring": ""
@@ -1430,7 +1430,7 @@
     "end_time": "2026-03-16T11:45:00-04:00",
     "attendees": [
       "Sarah Chen (3PL NJ)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Phone",
     "recurring": ""
@@ -1454,7 +1454,7 @@
     "attendees": [
       "Jessica Torres",
       "Mike Chang",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Soletta Living Office",
     "recurring": ""
@@ -1465,7 +1465,7 @@
     "start_time": "2026-03-03T09:00:00-05:00",
     "end_time": "2026-03-03T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Chase Business Banking Portal",
     "recurring": "none"
@@ -1476,7 +1476,7 @@
     "start_time": "2026-03-05T10:00:00-05:00",
     "end_time": "2026-03-05T10:15:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat - Liu Wei",
     "recurring": "none"
@@ -1487,7 +1487,7 @@
     "start_time": "2026-07-15T14:00:00-04:00",
     "end_time": "2026-07-15T15:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Calendar reminder - review NOTE-157",
     "recurring": "none"
@@ -1498,7 +1498,7 @@
     "start_time": "2026-04-01T16:00:00-04:00",
     "end_time": "2026-04-01T16:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat - Liu Wei",
     "recurring": "none"
@@ -1509,7 +1509,7 @@
     "start_time": "2026-01-20T23:59:00-05:00",
     "end_time": "2026-01-20T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Amazon Seller Central",
     "recurring": "none"
@@ -1520,8 +1520,8 @@
     "start_time": "2026-01-13T14:00:00-05:00",
     "end_time": "2026-01-13T15:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Soletta Office / Video Call",
     "recurring": "none"
@@ -1532,9 +1532,9 @@
     "start_time": "2026-01-13T10:00:00-05:00",
     "end_time": "2026-01-13T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Soletta Office",
     "recurring": "weekly"
@@ -1545,8 +1545,8 @@
     "start_time": "2026-05-02T09:00:00-04:00",
     "end_time": "2026-05-02T15:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Amazon - Monitor performance real-time",
     "recurring": "none"
@@ -1557,7 +1557,7 @@
     "start_time": "2026-01-28T09:00:00-05:00",
     "end_time": "2026-01-28T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Internal Review",
     "recurring": ""
@@ -1568,7 +1568,7 @@
     "start_time": "2026-01-30T23:59:00+08:00",
     "end_time": "2026-01-30T23:59:00+08:00",
     "attendees": [
-      "wang.jh@jinlongmfg.com"
+      "wang.jh@jinlongmfg.example"
     ],
     "location": "",
     "recurring": ""
@@ -1579,7 +1579,7 @@
     "start_time": "2026-01-31T09:00:00-05:00",
     "end_time": "2026-01-31T17:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Finance Review",
     "recurring": ""
@@ -1590,7 +1590,7 @@
     "start_time": "2026-02-02T23:59:00+08:00",
     "end_time": "2026-02-02T23:59:00+08:00",
     "attendees": [
-      "chen.xm@yongxinhome.com"
+      "chen.xm@yongxinhome.example"
     ],
     "location": "",
     "recurring": ""
@@ -1601,7 +1601,7 @@
     "start_time": "2026-03-05T16:00:00-05:00",
     "end_time": "2026-03-05T17:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Brooklyn office",
     "recurring": ""
@@ -1612,9 +1612,9 @@
     "start_time": "2026-03-06T10:00:00-05:00",
     "end_time": "2026-03-06T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Video call",
     "recurring": ""
@@ -1625,8 +1625,8 @@
     "start_time": "2026-03-06T21:00:00-05:00",
     "end_time": "2026-03-06T21:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "chen.xm@yongxinhome.com"
+      "davide@solettaliving.example",
+      "chen.xm@yongxinhome.example"
     ],
     "location": "WeChat video (9am Beijing time)",
     "recurring": ""
@@ -1637,7 +1637,7 @@
     "start_time": "2026-04-03T09:00:00-05:00",
     "end_time": "2026-04-03T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank wire transfer",
     "recurring": "none"
@@ -1648,7 +1648,7 @@
     "start_time": "2026-04-04T09:00:00-05:00",
     "end_time": "2026-04-04T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank wire transfer",
     "recurring": "none"
@@ -1659,7 +1659,7 @@
     "start_time": "2026-04-05T09:00:00-05:00",
     "end_time": "2026-04-05T09:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Email response",
     "recurring": "none"
@@ -1670,7 +1670,7 @@
     "start_time": "2026-04-02T08:00:00-05:00",
     "end_time": "2026-04-02T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank / Wire transfer execution",
     "recurring": "none"
@@ -1681,7 +1681,7 @@
     "start_time": "2026-04-03T09:00:00-04:00",
     "end_time": "2026-04-03T12:00:00-04:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Bank wire + WeChat confirmation",
     "recurring": ""
@@ -1692,7 +1692,7 @@
     "start_time": "2026-04-04T10:00:00-04:00",
     "end_time": "2026-04-04T12:00:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Liu Wei (Meihao)",
       "Chen Xiaoming (Yongxin)"
     ],
@@ -1705,7 +1705,7 @@
     "start_time": "2026-04-05T09:00:00-04:00",
     "end_time": "2026-04-05T11:00:00-04:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Bank wire + WeChat confirmation",
     "recurring": ""
@@ -1716,7 +1716,7 @@
     "start_time": "2026-04-07T10:00:00-04:00",
     "end_time": "2026-04-07T11:00:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -1729,7 +1729,7 @@
     "start_time": "2026-01-31T09:00:00-05:00",
     "end_time": "2026-01-31T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office - Finance workstation",
     "recurring": "none"
@@ -1740,7 +1740,7 @@
     "start_time": "2026-02-02T09:00:00-05:00",
     "end_time": "2026-02-02T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office",
     "recurring": "none"
@@ -1751,7 +1751,7 @@
     "start_time": "2026-02-02T10:00:00-05:00",
     "end_time": "2026-02-02T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office - Finance workstation",
     "recurring": "none"
@@ -1762,7 +1762,7 @@
     "start_time": "2026-02-03T10:00:00-05:00",
     "end_time": "2026-02-03T11:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office",
     "recurring": "none"
@@ -1773,7 +1773,7 @@
     "start_time": "2026-04-04T09:00:00-04:00",
     "end_time": "2026-04-04T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Remote - WeChat/Email response required",
     "recurring": "none"
@@ -1784,7 +1784,7 @@
     "start_time": "2026-04-05T09:00:00-04:00",
     "end_time": "2026-04-05T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Remote - Wire transfer must complete by EOD",
     "recurring": "none"
@@ -1795,7 +1795,7 @@
     "start_time": "2026-04-07T09:00:00-04:00",
     "end_time": "2026-04-07T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Remote - Email/WeChat response required",
     "recurring": "none"
@@ -1806,9 +1806,9 @@
     "start_time": "2026-04-03T10:00:00-04:00",
     "end_time": "2026-04-03T11:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom - discuss supplier communication analysis and deposit allocation strategy",
     "recurring": "none"
@@ -1819,7 +1819,7 @@
     "start_time": "2026-03-28T10:00:00-04:00",
     "end_time": "2026-03-28T11:30:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres"
     ],
     "location": "Soletta HQ - Conference Room",
@@ -1831,7 +1831,7 @@
     "start_time": "2026-03-29T14:00:00-04:00",
     "end_time": "2026-03-29T15:30:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres"
     ],
     "location": "Soletta HQ - Conference Room",
@@ -1843,7 +1843,7 @@
     "start_time": "2026-04-01T09:00:00-04:00",
     "end_time": "2026-04-01T11:00:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -1856,7 +1856,7 @@
     "start_time": "2026-03-31T09:00:00-04:00",
     "end_time": "2026-03-31T09:30:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -1869,7 +1869,7 @@
     "start_time": "2026-04-04T23:59:00-04:00",
     "end_time": "2026-04-04T23:59:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1880,7 +1880,7 @@
     "start_time": "2026-04-02T09:00:00-04:00",
     "end_time": "2026-04-02T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1891,7 +1891,7 @@
     "start_time": "2026-04-15T09:00:00-04:00",
     "end_time": "2026-04-15T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -1902,8 +1902,8 @@
     "start_time": "2026-04-03T10:00:00-04:00",
     "end_time": "2026-04-03T11:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -1915,7 +1915,7 @@
     "end_time": "2026-04-03T11:00:00-04:00",
     "attendees": [
       "Liu Wei (Meihao)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -1927,7 +1927,7 @@
     "end_time": "2026-04-04T15:00:00-04:00",
     "attendees": [
       "Chen Xiaoming (Yongxin)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -1939,7 +1939,7 @@
     "end_time": "2026-04-03T16:00:00-04:00",
     "attendees": [
       "Sarah Chen (3PL NJ)",
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres"
     ],
     "location": "Conference Call",
@@ -1951,7 +1951,7 @@
     "start_time": "2026-04-07T09:00:00-04:00",
     "end_time": "2026-04-07T17:00:00-04:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "",
     "recurring": ""
@@ -1963,7 +1963,7 @@
     "end_time": "2026-04-04T11:00:00-04:00",
     "attendees": [
       "Wang Jianhua (Jinlong)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Zoom",
     "recurring": ""
@@ -1974,7 +1974,7 @@
     "start_time": "2026-04-05T11:00:00-04:00",
     "end_time": "2026-04-05T12:00:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -1987,7 +1987,7 @@
     "start_time": "2026-04-02T09:00:00-04:00",
     "end_time": "2026-04-02T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank wire transfer",
     "recurring": "none"
@@ -1998,7 +1998,7 @@
     "start_time": "2026-04-02T10:00:00-04:00",
     "end_time": "2026-04-02T10:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat",
     "recurring": "none"
@@ -2009,7 +2009,7 @@
     "start_time": "2026-04-03T09:00:00-04:00",
     "end_time": "2026-04-03T10:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat review",
     "recurring": "none"
@@ -2020,7 +2020,7 @@
     "start_time": "2026-04-04T09:00:00-04:00",
     "end_time": "2026-04-04T10:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Final supplier allocation decision",
     "recurring": "none"
@@ -2031,7 +2031,7 @@
     "start_time": "2026-04-03T09:00:00-04:00",
     "end_time": "2026-04-03T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Finance - Wire Transfer",
     "recurring": "none"
@@ -2042,7 +2042,7 @@
     "start_time": "2026-04-05T09:00:00-04:00",
     "end_time": "2026-04-05T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Supplier Communication",
     "recurring": "none"
@@ -2053,7 +2053,7 @@
     "start_time": "2026-04-08T09:00:00-04:00",
     "end_time": "2026-04-08T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Finance - Conditional on negotiation outcome",
     "recurring": "none"
@@ -2064,7 +2064,7 @@
     "start_time": "2026-04-15T08:00:00-04:00",
     "end_time": "2026-04-15T08:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Finance - Bank Account",
     "recurring": "none"
@@ -2075,8 +2075,8 @@
     "start_time": "2026-02-07T09:00:00-05:00",
     "end_time": "2026-02-07T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Video call",
     "recurring": "none"
@@ -2087,7 +2087,7 @@
     "start_time": "2026-02-02T23:59:00-05:00",
     "end_time": "2026-02-02T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": "none"
@@ -2098,7 +2098,7 @@
     "start_time": "2026-02-05T23:59:00-05:00",
     "end_time": "2026-02-05T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": "none"
@@ -2109,8 +2109,8 @@
     "start_time": "2026-03-15T00:00:00-05:00",
     "end_time": "2026-03-31T23:59:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "sarah.chen@3plnj.com"
+      "davide@solettaliving.example",
+      "sarah.chen@3plnj.example"
     ],
     "location": "3PL NJ Warehouse",
     "recurring": "none"
@@ -2133,7 +2133,7 @@
     "start_time": "2026-03-18T14:00:00-04:00",
     "end_time": "2026-03-18T15:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Office",
     "recurring": "none"
@@ -2144,9 +2144,9 @@
     "start_time": "2026-04-02T10:00:00-04:00",
     "end_time": "2026-04-02T14:00:00-04:00",
     "attendees": [
-      "marcus.chen@nordstrom.com",
-      "sarah.chen@3plnj.com",
-      "dario@solettaliving.com"
+      "marcus.chen@nordstrom.example",
+      "sarah.chen@3plnj.example",
+      "davide@solettaliving.example"
     ],
     "location": "3PL Logistics NJ - 450 Industrial Pkwy, Edison, NJ",
     "recurring": "none"
@@ -2157,9 +2157,9 @@
     "start_time": "2026-03-24T10:00:00-04:00",
     "end_time": "2026-03-24T11:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "weekly"
@@ -2170,7 +2170,7 @@
     "start_time": "2026-04-07T17:00:00-04:00",
     "end_time": "2026-04-07T17:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Decision milestone",
     "recurring": "none"
@@ -2181,7 +2181,7 @@
     "start_time": "2026-04-03T14:00:00-04:00",
     "end_time": "2026-04-03T16:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Manhattan office",
     "recurring": "none"
@@ -2192,9 +2192,9 @@
     "start_time": "2026-04-04T10:00:00-04:00",
     "end_time": "2026-04-04T11:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -2205,7 +2205,7 @@
     "start_time": "2026-04-05T23:59:00+08:00",
     "end_time": "2026-04-05T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -2216,7 +2216,7 @@
     "start_time": "2026-04-04T23:59:00+08:00",
     "end_time": "2026-04-04T23:59:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": ""
@@ -2227,8 +2227,8 @@
     "start_time": "2026-04-08T10:00:00+08:00",
     "end_time": "2026-04-08T10:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "liu.wei@yiwumeihao.com"
+      "davide@solettaliving.example",
+      "liu.wei@yiwumeihao.example"
     ],
     "location": "WeChat Video",
     "recurring": ""
@@ -2239,8 +2239,8 @@
     "start_time": "2026-04-09T14:00:00+08:00",
     "end_time": "2026-04-09T14:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "chen.xm@yongxinhome.com"
+      "davide@solettaliving.example",
+      "chen.xm@yongxinhome.example"
     ],
     "location": "WeChat Video",
     "recurring": ""
@@ -2251,7 +2251,7 @@
     "start_time": "2026-03-29T17:00:00-04:00",
     "end_time": "2026-03-29T17:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank wire execution",
     "recurring": "none"
@@ -2262,7 +2262,7 @@
     "start_time": "2026-03-29T23:59:00-04:00",
     "end_time": "2026-03-30T00:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Decision point",
     "recurring": "none"
@@ -2273,7 +2273,7 @@
     "start_time": "2026-04-02T09:00:00-04:00",
     "end_time": "2026-04-02T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank account",
     "recurring": "none"
@@ -2284,7 +2284,7 @@
     "start_time": "2026-03-28T17:00:00-04:00",
     "end_time": "2026-03-28T17:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Wire transfer",
     "recurring": "none"
@@ -2295,7 +2295,7 @@
     "start_time": "2026-04-02T09:00:00-05:00",
     "end_time": "2026-04-02T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Action required - wire by Wed April 2 for Thurs processing",
     "recurring": "none"
@@ -2306,7 +2306,7 @@
     "start_time": "2026-04-02T14:00:00-05:00",
     "end_time": "2026-04-02T15:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Action required - wire by Wed April 2 for Thurs processing",
     "recurring": "none"
@@ -2317,7 +2317,7 @@
     "start_time": "2026-01-31T12:00:00-05:00",
     "end_time": "2026-01-31T12:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank account - USD 15,234.67 available for second wire",
     "recurring": "none"
@@ -2328,8 +2328,8 @@
     "start_time": "2026-04-02T08:00:00-05:00",
     "end_time": "2026-04-02T10:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Soletta Living Office - Manhattan",
     "recurring": "none"
@@ -2340,7 +2340,7 @@
     "start_time": "2026-04-04T09:00:00-04:00",
     "end_time": "2026-04-04T12:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank wire transfer",
     "recurring": "none"
@@ -2351,7 +2351,7 @@
     "start_time": "2026-04-03T05:00:00-04:00",
     "end_time": "2026-04-03T06:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Yongxin Homeware (remote - WeChat monitoring)",
     "recurring": "none"
@@ -2362,7 +2362,7 @@
     "start_time": "2026-04-07T09:00:00-04:00",
     "end_time": "2026-04-07T12:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank wire transfer",
     "recurring": "none"
@@ -2373,8 +2373,8 @@
     "start_time": "2026-04-10T14:00:00-04:00",
     "end_time": "2026-04-10T15:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Soletta Living Office",
     "recurring": "none"
@@ -2385,8 +2385,8 @@
     "start_time": "2026-04-07T09:00:00-04:00",
     "end_time": "2026-04-07T10:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "liu.wei@yiwumeihao.com"
+      "davide@solettaliving.example",
+      "liu.wei@yiwumeihao.example"
     ],
     "location": "WeChat Video Call",
     "recurring": "none"
@@ -2397,8 +2397,8 @@
     "start_time": "2026-04-09T08:30:00-04:00",
     "end_time": "2026-04-09T09:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "chen.xm@yongxinhome.com"
+      "davide@solettaliving.example",
+      "chen.xm@yongxinhome.example"
     ],
     "location": "WeChat Video Call",
     "recurring": "none"
@@ -2409,7 +2409,7 @@
     "start_time": "2026-03-23T00:00:00-04:00",
     "end_time": "2026-03-29T23:59:59-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "All 3PL Facilities",
     "recurring": "none"
@@ -2420,9 +2420,9 @@
     "start_time": "2026-04-08T15:00:00-04:00",
     "end_time": "2026-04-08T16:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -2433,7 +2433,7 @@
     "start_time": "2026-04-15T17:00:00-04:00",
     "end_time": "2026-04-15T17:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Internal Deadline",
     "recurring": "none"
@@ -2444,7 +2444,7 @@
     "start_time": "2026-04-02T09:00:00-04:00",
     "end_time": "2026-04-02T10:30:00-04:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Soletta Living HQ - Founder Office",
     "recurring": "none"
@@ -2455,7 +2455,7 @@
     "start_time": "2026-03-29T15:00:00-04:00",
     "end_time": "2026-03-29T15:45:00-04:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Sarah Chen"
     ],
     "location": "Zoom",
@@ -2467,7 +2467,7 @@
     "start_time": "2026-04-04T09:00:00-04:00",
     "end_time": "2026-04-04T17:00:00-04:00",
     "attendees": [
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Wire transfer deadline",
     "recurring": "none"
@@ -2478,7 +2478,7 @@
     "start_time": "2026-01-30T17:00:00-05:00",
     "end_time": "2026-01-30T17:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Decision Point",
     "recurring": "none"
@@ -2489,7 +2489,7 @@
     "start_time": "2026-01-31T10:00:00-05:00",
     "end_time": "2026-01-31T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Finance - Wire Transfer",
     "recurring": "none"
@@ -2500,8 +2500,8 @@
     "start_time": "2026-02-20T08:00:00-05:00",
     "end_time": "2026-02-22T18:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "sarah.chen@3plnj.com"
+      "davide@solettaliving.example",
+      "sarah.chen@3plnj.example"
     ],
     "location": "Port Newark / 3PL NJ Warehouse",
     "recurring": "none"
@@ -2512,8 +2512,8 @@
     "start_time": "2026-02-05T14:00:00-05:00",
     "end_time": "2026-02-05T15:00:00-05:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Virtual - Zoom",
     "recurring": "monthly"
@@ -2524,7 +2524,7 @@
     "start_time": "2026-04-05T23:59:00-04:00",
     "end_time": "2026-04-05T23:59:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Wire Transfer Execution",
     "recurring": "none"
@@ -2535,7 +2535,7 @@
     "start_time": "2026-04-06T23:59:00-04:00",
     "end_time": "2026-04-06T23:59:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat Response Required",
     "recurring": "none"
@@ -2546,8 +2546,8 @@
     "start_time": "2026-04-06T09:00:00-04:00",
     "end_time": "2026-04-06T17:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example"
     ],
     "location": "Bank Account Monitoring",
     "recurring": "none"
@@ -2558,8 +2558,8 @@
     "start_time": "2026-04-05T10:00:00-04:00",
     "end_time": "2026-04-05T10:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "sarah.chen@3plnj.com"
+      "davide@solettaliving.example",
+      "sarah.chen@3plnj.example"
     ],
     "location": "Phone",
     "recurring": "none"
@@ -2570,7 +2570,7 @@
     "start_time": "2026-04-04T09:00:00+08:00",
     "end_time": "2026-04-04T10:00:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank wire execution",
     "recurring": "none"
@@ -2581,7 +2581,7 @@
     "start_time": "2026-04-05T14:00:00+08:00",
     "end_time": "2026-04-05T14:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "WeChat message",
     "recurring": "none"
@@ -2592,7 +2592,7 @@
     "start_time": "2026-04-06T17:00:00+08:00",
     "end_time": "2026-04-06T17:30:00+08:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Deadline marker",
     "recurring": "none"
@@ -2603,7 +2603,7 @@
     "start_time": "2026-04-11T10:00:00-05:00",
     "end_time": "2026-04-11T10:30:00-05:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Bank account monitoring",
     "recurring": "none"
@@ -2614,9 +2614,9 @@
     "start_time": "2026-04-04T09:00:00-04:00",
     "end_time": "2026-04-04T10:00:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -2627,7 +2627,7 @@
     "start_time": "2026-04-07T17:00:00-04:00",
     "end_time": "2026-04-07T17:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "",
     "recurring": "none"
@@ -2638,7 +2638,7 @@
     "start_time": "2026-04-10T23:59:00-04:00",
     "end_time": "2026-04-10T23:59:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Payment deadline",
     "recurring": "none"
@@ -2649,7 +2649,7 @@
     "start_time": "2026-04-08T23:59:00-04:00",
     "end_time": "2026-04-08T23:59:00-04:00",
     "attendees": [
-      "dario@solettaliving.com"
+      "davide@solettaliving.example"
     ],
     "location": "Decision deadline",
     "recurring": "none"
@@ -2660,9 +2660,9 @@
     "start_time": "2026-04-15T10:00:00-04:00",
     "end_time": "2026-04-15T11:30:00-04:00",
     "attendees": [
-      "dario@solettaliving.com",
-      "jessica.torres@solettaliving.com",
-      "mike.chang@solettaliving.com"
+      "davide@solettaliving.example",
+      "jessica.torres@solettaliving.example",
+      "mike.chang@solettaliving.example"
     ],
     "location": "Zoom",
     "recurring": "none"
@@ -2674,7 +2674,7 @@
     "end_time": "2026-04-07T11:00:00+08:00",
     "attendees": [
       "Liu Wei (Yiwu Meihao)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Beijing Time (10:00 AM) / EST (9:00 PM Apr 6)",
     "recurring": "none"
@@ -2686,7 +2686,7 @@
     "end_time": "2026-04-08T15:00:00+08:00",
     "attendees": [
       "Chen Xiaoming (Yongxin)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Beijing Time (2:00 PM) / EST (1:00 AM Apr 8)",
     "recurring": "none"
@@ -2697,7 +2697,7 @@
     "start_time": "2026-04-05T09:00:00-05:00",
     "end_time": "2026-04-05T11:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres"
     ],
     "location": "EST - Finance Review",
@@ -2710,7 +2710,7 @@
     "end_time": "2026-04-03T15:00:00-05:00",
     "attendees": [
       "Sarah Chen",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "EST - 3PL NJ",
     "recurring": "none"
@@ -2721,7 +2721,7 @@
     "start_time": "2026-04-04T10:00:00-05:00",
     "end_time": "2026-04-04T11:30:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres",
       "Mike Chang"
     ],
@@ -2735,7 +2735,7 @@
     "end_time": "2026-04-09T16:00:00+08:00",
     "attendees": [
       "Wang Jianhua (Jinlong)",
-      "Dario Marini"
+      "Davide Morani"
     ],
     "location": "Beijing Time (3:00 PM) / EST (2:00 AM Apr 9)",
     "recurring": "none"
@@ -2746,7 +2746,7 @@
     "start_time": "2026-04-06T15:00:00-05:00",
     "end_time": "2026-04-06T16:00:00-05:00",
     "attendees": [
-      "Dario Marini",
+      "Davide Morani",
       "Jessica Torres"
     ],
     "location": "EST - Finance Review",

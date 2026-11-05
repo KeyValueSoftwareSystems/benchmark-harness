@@ -254,7 +254,7 @@ reference_solution: "# Reference Solution\n\n## Step 1: Retrieve SRE Maintenance
   \ outage during launch, violating platform SLA commitments\n- **RECOMMENDATION**:\
   \ Pivot to backup Window A (April 14-15) or Window B (April 21-22) pending engineering\
   \ sign-off\n\n## Step 5: Execute Urgent Notifications\n- Use `workmail_send_message`\
-  \ to send HOLD directive to Priya Sharma (Engineering Director) via Workmail:\n\
+  \ to send HOLD directive to Parul Shankar (Engineering Director) via Workmail:\n\
   \  - Subject: URGENT: HOLD Polaris Window C Launch - CDN Conflict\n  - Body: Verified\
   \ CloudFlare emergency maintenance April 28-29 conflicts with Window C launch. Customer-facing\
   \ outage risk = SLA violation. Recommend immediate pivot to Window A or B. Need\

@@ -5,8 +5,8 @@
     "start_time": "2026-01-21T14:00:00+00:00",
     "end_time": "2026-01-21T15:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "sarah.henderson@nhs.net"
+      "brendan.okoro@nhs.example",
+      "sarah.henderson@nhs.example"
     ],
     "location": "Clinical Governance Office, 4th Floor",
     "recurring": ""
@@ -17,42 +17,42 @@
     "start_time": "2026-02-25T13:00:00+00:00",
     "end_time": "2026-02-25T15:00:00+00:00",
     "attendees": [
-      "trauma-surgery-team@nhs.net"
+      "trauma-surgery-team@nhs.example"
     ],
     "location": "Lecture Theatre 2",
     "recurring": "monthly"
   },
   {
     "event_id": "EVT-303",
-    "title": "Wellington Private Practice",
+    "title": "Westgate Private Practice",
     "start_time": "2026-01-23T09:00:00+00:00",
     "end_time": "2026-01-23T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "weekly"
   },
   {
     "event_id": "EVT-304",
-    "title": "Wellington Private Practice - Fixed Contract Day",
+    "title": "Westgate Private Practice - Fixed Contract Day",
     "start_time": "2026-02-07T09:00:00+00:00",
     "end_time": "2026-02-07T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "The Wellington Hospital, St John's Wood",
+    "location": "The Westgate Hospital, St John's Wood",
     "recurring": "none"
   },
   {
     "event_id": "EVT-305",
-    "title": "Wellington Private Practice - Fixed Contract Day",
+    "title": "Westgate Private Practice - Fixed Contract Day",
     "start_time": "2026-02-17T09:00:00+00:00",
     "end_time": "2026-02-17T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "The Wellington Hospital, St John's Wood",
+    "location": "The Westgate Hospital, St John's Wood",
     "recurring": "none"
   },
   {
@@ -61,7 +61,7 @@
     "start_time": "2026-03-06T10:00:00+00:00",
     "end_time": "2026-03-06T12:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
     "location": "Office - Royal London",
     "recurring": "none"
@@ -72,11 +72,11 @@
     "start_time": "2026-03-12T14:00:00+00:00",
     "end_time": "2026-03-12T15:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "james.morrison@nhs.net",
-      "amelia.patel@nhs.net",
-      "david.chen@nhs.net",
-      "rachel.thompson@nhs.net"
+      "brendan.okoro@nhs.example",
+      "james.morrison@nhs.example",
+      "amelia.patel@nhs.example",
+      "david.chen@nhs.example",
+      "rachel.thompson@nhs.example"
     ],
     "location": "Conference Room 3, Royal London",
     "recurring": "monthly"
@@ -90,7 +90,7 @@
       "Elizabeth Thornbury",
       "Theatre Staff"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": "none"
   },
   {
@@ -102,7 +102,7 @@
       "Dr. David Chen",
       "Theatre Team"
     ],
-    "location": "Royal London Hospital - Trauma Theatre 2",
+    "location": "Royal Metro Hospital - Trauma Theatre 2",
     "recurring": "none"
   },
   {
@@ -115,7 +115,7 @@
       "Clinical Governance Committee",
       "Medical Director"
     ],
-    "location": "Clinical Governance Suite, Royal London Hospital",
+    "location": "Clinical Governance Suite, Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -128,7 +128,7 @@
       "Anaesthetics",
       "Theatre Staff"
     ],
-    "location": "Royal London Hospital - Trauma Theatre 1",
+    "location": "Royal Metro Hospital - Trauma Theatre 1",
     "recurring": "none"
   },
   {
@@ -138,12 +138,12 @@
     "end_time": "2026-02-18T17:00:00Z",
     "attendees": [
       "Dr. Sarah Edmonds",
-      "Benjamin Okafor",
+      "Brendan Okoro",
       "James Morrison",
       "Sarah Henderson",
       "Clinical Governance Committee members"
     ],
-    "location": "Board Room, 4th Floor, Royal London Hospital",
+    "location": "Board Room, 4th Floor, Royal Metro Hospital",
     "recurring": ""
   },
   {
@@ -152,7 +152,7 @@
     "start_time": "2026-02-03T09:00:00Z",
     "end_time": "2026-02-03T17:00:00Z",
     "attendees": [
-      "Benjamin Okafor"
+      "Brendan Okoro"
     ],
     "location": "Office",
     "recurring": ""
@@ -163,7 +163,7 @@
     "start_time": "2026-02-06T09:00:00Z",
     "end_time": "2026-02-06T17:00:00Z",
     "attendees": [
-      "Benjamin Okafor"
+      "Brendan Okoro"
     ],
     "location": "Office",
     "recurring": ""
@@ -175,7 +175,7 @@
     "end_time": "2026-01-30T15:00:00Z",
     "attendees": [
       "Linda Patterson",
-      "Benjamin Okafor",
+      "Brendan Okoro",
       "James Morrison",
       "Amelia Patel"
     ],
@@ -190,11 +190,11 @@
     "attendees": [
       "Dr. Marcus Webb",
       "Dr. Sarah Edmonds",
-      "benjamin.okafor@nhs.net",
-      "sarah.henderson@nhs.net",
+      "brendan.okoro@nhs.example",
+      "sarah.henderson@nhs.example",
       "Clinical Governance Committee Members"
     ],
-    "location": "Royal London Hospital - Board Room 2",
+    "location": "Royal Metro Hospital - Board Room 2",
     "recurring": "quarterly"
   },
   {
@@ -203,22 +203,22 @@
     "start_time": "2026-02-17T14:00:00Z",
     "end_time": "2026-02-17T14:30:00Z",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example"
     ],
-    "location": "Royal London Hospital - Consultant Office",
+    "location": "Royal Metro Hospital - Consultant Office",
     "recurring": "none"
   },
   {
     "event_id": "EVT-318",
-    "title": "Wellington Practice Day - Theatre Session",
+    "title": "Westgate Practice Day - Theatre Session",
     "start_time": "2026-02-19T08:00:00Z",
     "end_time": "2026-02-19T17:00:00Z",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": "weekly"
   },
   {
@@ -227,46 +227,46 @@
     "start_time": "2026-02-14T20:00:00Z",
     "end_time": "2026-02-15T08:00:00Z",
     "attendees": [
-      "benjamin.okafor@nhs.net",
+      "brendan.okoro@nhs.example",
       "Trauma Team"
     ],
-    "location": "Royal London Hospital",
+    "location": "Royal Metro Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-320",
-    "title": "Wellington Private Practice - March Session",
+    "title": "Westgate Private Practice - March Session",
     "start_time": "2026-03-05T09:00:00+00:00",
     "end_time": "2026-03-05T17:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury",
-      "Wellington theatre staff"
+      "Westgate theatre staff"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": "none"
   },
   {
     "event_id": "EVT-321",
-    "title": "Wellington Private Practice - March Session",
+    "title": "Westgate Private Practice - March Session",
     "start_time": "2026-03-19T09:00:00+00:00",
     "end_time": "2026-03-19T17:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury",
-      "Wellington theatre staff"
+      "Westgate theatre staff"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": "none"
   },
   {
     "event_id": "EVT-322",
-    "title": "Wellington Billing Reconciliation Review",
+    "title": "Westgate Billing Reconciliation Review",
     "start_time": "2026-03-28T14:00:00+00:00",
     "end_time": "2026-03-28T15:30:00+00:00",
     "attendees": [
       "Elizabeth Thornbury",
-      "Benjamin Okafor"
+      "Brendan Okoro"
     ],
-    "location": "The Wellington Hospital - Admin Suite",
+    "location": "The Westgate Hospital - Admin Suite",
     "recurring": "monthly"
   },
   {
@@ -275,11 +275,11 @@
     "start_time": "2026-01-27T08:30:00+00:00",
     "end_time": "2026-01-27T12:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.team@nhs.net",
-      "anaesthetics.team@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.team@nhs.example",
+      "anaesthetics.team@nhs.example"
     ],
-    "location": "Royal London Hospital - Theatre 4",
+    "location": "Royal Metro Hospital - Theatre 4",
     "recurring": ""
   },
   {
@@ -288,22 +288,22 @@
     "start_time": "2026-01-27T14:00:00+00:00",
     "end_time": "2026-01-27T17:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example"
     ],
-    "location": "Royal London Hospital - Theatre 2",
+    "location": "Royal Metro Hospital - Theatre 2",
     "recurring": ""
   },
   {
     "event_id": "EVT-325",
-    "title": "Wellington - Mrs. Pemberton Complex Cholecystectomy",
+    "title": "Westgate - Mrs. Pemberton Complex Cholecystectomy",
     "start_time": "2026-01-29T09:00:00+00:00",
     "end_time": "2026-01-29T11:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": ""
   },
   {
@@ -312,10 +312,10 @@
     "start_time": "2026-01-28T16:45:00+00:00",
     "end_time": "2026-01-28T19:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.team@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.team@nhs.example"
     ],
-    "location": "Royal London Hospital - Theatre 5",
+    "location": "Royal Metro Hospital - Theatre 5",
     "recurring": ""
   },
   {
@@ -324,8 +324,8 @@
     "start_time": "2026-03-12T14:00:00+00:00",
     "end_time": "2026-03-12T14:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "sarah.edmonds@nhs.net"
+      "brendan.okoro@nhs.example",
+      "sarah.edmonds@nhs.example"
     ],
     "location": "Clinical Governance Office",
     "recurring": "none"
@@ -336,9 +336,9 @@
     "start_time": "2026-03-13T17:00:00+00:00",
     "end_time": "2026-03-13T18:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net",
-      "amelia.patel@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example",
+      "amelia.patel@nhs.example"
     ],
     "location": "Trauma Conference Room",
     "recurring": "none"
@@ -349,9 +349,9 @@
     "start_time": "2026-01-12T08:00:00+00:00",
     "end_time": "2026-01-13T08:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "Royal London Hospital - Trauma Unit",
+    "location": "Royal Metro Hospital - Trauma Unit",
     "recurring": "none"
   },
   {
@@ -360,9 +360,9 @@
     "start_time": "2026-01-14T09:00:00+00:00",
     "end_time": "2026-01-14T13:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "Office - Royal London Hospital",
+    "location": "Office - Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -371,9 +371,9 @@
     "start_time": "2026-01-15T09:00:00+00:00",
     "end_time": "2026-01-15T13:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "Office - Royal London Hospital",
+    "location": "Office - Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -382,10 +382,10 @@
     "start_time": "2026-01-14T14:00:00+00:00",
     "end_time": "2026-01-14T17:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "theatre.team@nhs.net"
+      "brendan.okoro@nhs.example",
+      "theatre.team@nhs.example"
     ],
-    "location": "Theatre 4 - Royal London Hospital",
+    "location": "Theatre 4 - Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -394,10 +394,10 @@
     "start_time": "2026-01-28T09:00:00+00:00",
     "end_time": "2026-01-28T10:00:00+00:00",
     "attendees": [
-      "sarah.henderson@nhs.net",
-      "james.morrison@nhs.net",
-      "benjamin.okafor@nhs.net",
-      "amelia.patel@nhs.net"
+      "sarah.henderson@nhs.example",
+      "james.morrison@nhs.example",
+      "brendan.okoro@nhs.example",
+      "amelia.patel@nhs.example"
     ],
     "location": "Trauma Conference Room",
     "recurring": "weekly"
@@ -408,10 +408,10 @@
     "start_time": "2026-02-12T14:00:00+00:00",
     "end_time": "2026-02-12T16:00:00+00:00",
     "attendees": [
-      "james.morrison@nhs.net",
-      "sarah.henderson@nhs.net",
-      "benjamin.okafor@nhs.net",
-      "clinical.governance@nhs.net"
+      "james.morrison@nhs.example",
+      "sarah.henderson@nhs.example",
+      "brendan.okoro@nhs.example",
+      "clinical.governance@nhs.example"
     ],
     "location": "Boardroom, 5th Floor",
     "recurring": "none"
@@ -422,7 +422,7 @@
     "start_time": "2026-01-29T14:00:00+00:00",
     "end_time": "2026-01-29T18:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
     "location": "Office",
     "recurring": "none"
@@ -433,8 +433,8 @@
     "start_time": "2026-01-30T13:00:00+00:00",
     "end_time": "2026-01-30T14:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example"
     ],
     "location": "Office",
     "recurring": "none"
@@ -445,12 +445,12 @@
     "start_time": "2026-03-20T14:00:00+00:00",
     "end_time": "2026-03-20T16:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "sarah.edmonds@nhs.net",
-      "james.morrison@nhs.net",
-      "sarah.henderson@nhs.net",
-      "amelia.patel@nhs.net",
-      "medical.director@nhs.net"
+      "brendan.okoro@nhs.example",
+      "sarah.edmonds@nhs.example",
+      "james.morrison@nhs.example",
+      "sarah.henderson@nhs.example",
+      "amelia.patel@nhs.example",
+      "medical.director@nhs.example"
     ],
     "location": "Clinical Governance Meeting Room, 2nd Floor Admin Block",
     "recurring": ""
@@ -461,8 +461,8 @@
     "start_time": "2026-03-18T10:00:00+00:00",
     "end_time": "2026-03-18T11:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.registry@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.registry@nhs.example"
     ],
     "location": "Benjamin's Office",
     "recurring": ""
@@ -473,22 +473,22 @@
     "start_time": "2026-03-19T08:00:00+00:00",
     "end_time": "2026-03-19T09:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "radiology.team@nhs.net",
-      "james.morrison@nhs.net"
+      "brendan.okoro@nhs.example",
+      "radiology.team@nhs.example",
+      "james.morrison@nhs.example"
     ],
     "location": "Radiology Conference Room",
     "recurring": "weekly"
   },
   {
     "event_id": "EVT-340",
-    "title": "Wellington Private Practice - RESCHEDULED from 5th Feb",
+    "title": "Westgate Private Practice - RESCHEDULED from 5th Feb",
     "start_time": "2026-03-05T08:00:00+00:00",
     "end_time": "2026-03-05T17:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
@@ -500,16 +500,16 @@
       "David Chen",
       "Rachel Thompson"
     ],
-    "location": "Royal London Hospital - Major Trauma Theatre",
+    "location": "Royal Metro Hospital - Major Trauma Theatre",
     "recurring": "none"
   },
   {
     "event_id": "EVT-342",
-    "title": "CONFLICT REVIEW: Feb Rota vs Wellington vs Training",
+    "title": "CONFLICT REVIEW: Feb Rota vs Westgate vs Training",
     "start_time": "2026-03-03T18:00:00+00:00",
     "end_time": "2026-03-03T19:30:00+00:00",
     "attendees": [
-      "Benjamin Okafor"
+      "Brendan Okoro"
     ],
     "location": "Home - Planning Session",
     "recurring": "none"
@@ -522,19 +522,19 @@
     "attendees": [
       "Trauma Team"
     ],
-    "location": "Royal London Hospital - Education Centre",
+    "location": "Royal Metro Hospital - Education Centre",
     "recurring": "monthly"
   },
   {
     "event_id": "EVT-344",
-    "title": "Wellington Theatre Session - CONTRACTUAL (3rd reschedule)",
+    "title": "Westgate Theatre Session - CONTRACTUAL (3rd reschedule)",
     "start_time": "2026-02-21T08:00:00+00:00",
     "end_time": "2026-02-21T17:00:00+00:00",
     "attendees": [
-      "elizabeth.thornbury@wellington-hospital.com",
-      "theatre.team@wellington-hospital.com"
+      "elizabeth.thornbury@wellington-hospital.example",
+      "theatre.team@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 4",
+    "location": "The Westgate Hospital - Theatre 4",
     "recurring": ""
   },
   {
@@ -543,9 +543,9 @@
     "start_time": "2026-02-21T08:00:00+00:00",
     "end_time": "2026-02-21T20:00:00+00:00",
     "attendees": [
-      "trauma.team@nhs.net"
+      "trauma.team@nhs.example"
     ],
-    "location": "Royal London Hospital",
+    "location": "Royal Metro Hospital",
     "recurring": ""
   },
   {
@@ -559,25 +559,25 @@
   },
   {
     "event_id": "EVT-347",
-    "title": "Wellington Makeup Session - Mrs. Denham et al",
+    "title": "Westgate Makeup Session - Mrs. Denham et al",
     "start_time": "2026-02-28T08:00:00+00:00",
     "end_time": "2026-02-28T17:00:00+00:00",
     "attendees": [
-      "elizabeth.thornbury@wellington-hospital.com"
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 4",
+    "location": "The Westgate Hospital - Theatre 4",
     "recurring": ""
   },
   {
     "event_id": "EVT-348",
-    "title": "Wellington Private Practice - Thursday Session",
+    "title": "Westgate Private Practice - Thursday Session",
     "start_time": "2026-02-13T09:00:00+00:00",
     "end_time": "2026-02-13T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 2",
+    "location": "The Westgate Hospital - Theatre 2",
     "recurring": "weekly_thursday"
   },
   {
@@ -586,8 +586,8 @@
     "start_time": "2026-02-13T14:00:00+00:00",
     "end_time": "2026-02-13T15:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example"
     ],
     "location": "Surgical Education Centre - Room 3B",
     "recurring": ""
@@ -598,10 +598,10 @@
     "start_time": "2026-02-13T14:20:00+00:00",
     "end_time": "2026-02-13T18:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.coordinator@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.coordinator@nhs.example"
     ],
-    "location": "Royal London Hospital - Theatre 4 (Emergency)",
+    "location": "Royal Metro Hospital - Theatre 4 (Emergency)",
     "recurring": ""
   },
   {
@@ -610,7 +610,7 @@
     "start_time": "2026-02-20T10:00:00+00:00",
     "end_time": "2026-02-20T11:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
     "location": "Personal",
     "recurring": "quarterly"
@@ -621,9 +621,9 @@
     "start_time": "2026-02-03T08:00:00+00:00",
     "end_time": "2026-02-04T08:00:00+00:00",
     "attendees": [
-      "trauma.coordinator@nhs.net"
+      "trauma.coordinator@nhs.example"
     ],
-    "location": "Royal London Hospital - Emergency Department / Trauma Theatre",
+    "location": "Royal Metro Hospital - Emergency Department / Trauma Theatre",
     "recurring": "none"
   },
   {
@@ -641,32 +641,32 @@
     "start_time": "2026-02-05T08:00:00+00:00",
     "end_time": "2026-02-05T15:00:00+00:00",
     "attendees": [
-      "elizabeth.thornbury@wellington-hospital.com"
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": "none"
   },
   {
     "event_id": "EVT-355",
-    "title": "Wellington Admin Meeting - Q1 Contract Compliance Review",
+    "title": "Westgate Admin Meeting - Q1 Contract Compliance Review",
     "start_time": "2026-02-06T14:00:00+00:00",
     "end_time": "2026-02-06T15:00:00+00:00",
     "attendees": [
-      "elizabeth.thornbury@wellington-hospital.com",
-      "jennifer.walsh@wellington-hospital.com"
+      "elizabeth.thornbury@wellington-hospital.example",
+      "jennifer.walsh@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Admin Suite",
+    "location": "The Westgate Hospital - Admin Suite",
     "recurring": "none"
   },
   {
     "event_id": "EVT-356",
-    "title": "Wellington Private Practice - Fixed Contract Day",
+    "title": "Westgate Private Practice - Fixed Contract Day",
     "start_time": "2026-03-19T08:00:00+00:00",
     "end_time": "2026-03-19T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital, St John's Wood",
+    "location": "The Westgate Hospital, St John's Wood",
     "recurring": "weekly"
   },
   {
@@ -677,7 +677,7 @@
     "attendees": [
       "Trauma Team"
     ],
-    "location": "Royal London Hospital",
+    "location": "Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -691,7 +691,7 @@
       "Amelia Patel",
       "All Consultant Staff"
     ],
-    "location": "Royal London Hospital - Board Room 3",
+    "location": "Royal Metro Hospital - Board Room 3",
     "recurring": "quarterly"
   },
   {
@@ -702,128 +702,128 @@
     "attendees": [
       "David Chen"
     ],
-    "location": "Royal London Hospital - Theatre 4",
+    "location": "Royal Metro Hospital - Theatre 4",
     "recurring": "none"
   },
   {
     "event_id": "EVT-360",
-    "title": "Wellington Private Practice - CONFIRMED",
+    "title": "Westgate Private Practice - CONFIRMED",
     "start_time": "2026-01-08T14:00:00+00:00",
     "end_time": "2026-01-08T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-361",
-    "title": "Wellington Private Practice - CONFIRMED",
+    "title": "Westgate Private Practice - CONFIRMED",
     "start_time": "2026-01-15T14:00:00+00:00",
     "end_time": "2026-01-15T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-362",
-    "title": "Wellington Private Practice - CONFIRMED",
+    "title": "Westgate Private Practice - CONFIRMED",
     "start_time": "2026-01-22T14:00:00+00:00",
     "end_time": "2026-01-22T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-363",
-    "title": "Wellington Private Practice - CANCELLED (NHS Emergency)",
+    "title": "Westgate Private Practice - CANCELLED (NHS Emergency)",
     "start_time": "2026-01-29T14:00:00+00:00",
     "end_time": "2026-01-29T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-364",
-    "title": "Wellington Private Practice - CONFIRMED",
+    "title": "Westgate Private Practice - CONFIRMED",
     "start_time": "2026-02-05T14:00:00+00:00",
     "end_time": "2026-02-05T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-365",
-    "title": "Wellington Private Practice - CONFIRMED",
+    "title": "Westgate Private Practice - CONFIRMED",
     "start_time": "2026-02-12T14:00:00+00:00",
     "end_time": "2026-02-12T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-366",
-    "title": "Wellington Private Practice - CONFIRMED",
+    "title": "Westgate Private Practice - CONFIRMED",
     "start_time": "2026-02-19T14:00:00+00:00",
     "end_time": "2026-02-19T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-367",
-    "title": "Wellington Private Practice - CONFIRMED",
+    "title": "Westgate Private Practice - CONFIRMED",
     "start_time": "2026-02-26T14:00:00+00:00",
     "end_time": "2026-02-26T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-368",
-    "title": "Wellington Private Practice - POTENTIAL MAKEUP SESSION",
+    "title": "Westgate Private Practice - POTENTIAL MAKEUP SESSION",
     "start_time": "2026-03-05T14:00:00+00:00",
     "end_time": "2026-03-05T18:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-369",
-    "title": "Wellington Private Practice - April Session (confirmed income)",
+    "title": "Westgate Private Practice - April Session (confirmed income)",
     "start_time": "2026-04-02T09:00:00+00:00",
     "end_time": "2026-04-02T17:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital, St John's Wood",
+    "location": "The Westgate Hospital, St John's Wood",
     "recurring": "none"
   },
   {
     "event_id": "EVT-370",
-    "title": "Wellington Private Practice - April Session",
+    "title": "Westgate Private Practice - April Session",
     "start_time": "2026-04-09T09:00:00+00:00",
     "end_time": "2026-04-09T17:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury"
     ],
-    "location": "The Wellington Hospital, St John's Wood",
+    "location": "The Westgate Hospital, St John's Wood",
     "recurring": "none"
   },
   {
@@ -832,19 +832,19 @@
     "start_time": "2026-03-27T14:00:00+00:00",
     "end_time": "2026-03-27T16:00:00+00:00",
     "attendees": [],
-    "location": "Royal London Hospital - Private office",
+    "location": "Royal Metro Hospital - Private office",
     "recurring": "none"
   },
   {
     "event_id": "EVT-372",
-    "title": "Wellington Private Practice - Theatre Block (Mr. Patel & Mrs. Okonkwo)",
+    "title": "Westgate Private Practice - Theatre Block (Mr. Patel & Mrs. Okonkwo)",
     "start_time": "2026-03-13T08:00:00+00:00",
     "end_time": "2026-03-13T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@wellington-hospital.com",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@wellington-hospital.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": "none"
   },
   {
@@ -853,10 +853,10 @@
     "start_time": "2026-03-13T08:00:00+00:00",
     "end_time": "2026-03-13T20:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.coordinator@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.coordinator@nhs.example"
     ],
-    "location": "Royal London Hospital - Trauma Unit",
+    "location": "Royal Metro Hospital - Trauma Unit",
     "recurring": "none"
   },
   {
@@ -865,12 +865,12 @@
     "start_time": "2026-03-18T14:00:00+00:00",
     "end_time": "2026-03-18T15:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "james.morrison@nhs.net",
-      "amelia.patel@nhs.net",
-      "sarah.henderson@nhs.net"
+      "brendan.okoro@nhs.example",
+      "james.morrison@nhs.example",
+      "amelia.patel@nhs.example",
+      "sarah.henderson@nhs.example"
     ],
-    "location": "Royal London Hospital - Conference Room 2A",
+    "location": "Royal Metro Hospital - Conference Room 2A",
     "recurring": "monthly"
   },
   {
@@ -883,7 +883,7 @@
       "Dr. Claire Morrison",
       "Senior Scrub Team A"
     ],
-    "location": "Theatre 2, Royal London Hospital",
+    "location": "Theatre 2, Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -895,19 +895,19 @@
       "Dr. David Chen",
       "Theatre 5 Team"
     ],
-    "location": "Theatre 5, Royal London Hospital",
+    "location": "Theatre 5, Royal Metro Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-377",
-    "title": "POTENTIAL: Wellington Session - Mrs. Henley Abdominal Wall Reconstruction",
+    "title": "POTENTIAL: Westgate Session - Mrs. Henley Abdominal Wall Reconstruction",
     "start_time": "2026-01-29T09:00:00+00:00",
     "end_time": "2026-01-29T14:00:00+00:00",
     "attendees": [
       "Elizabeth Thornbury",
       "Theatre 3 Team"
     ],
-    "location": "Theatre 3, The Wellington Hospital",
+    "location": "Theatre 3, The Westgate Hospital",
     "recurring": "none"
   },
   {
@@ -916,29 +916,29 @@
     "start_time": "2026-01-22T12:00:00+00:00",
     "end_time": "2026-01-22T12:45:00+00:00",
     "attendees": [
-      "Benjamin Okafor"
+      "Brendan Okoro"
     ],
     "location": "Office",
     "recurring": "none"
   },
   {
     "event_id": "EVT-379",
-    "title": "CANCELLED - Wellington Contract Discussion with Elizabeth Thornbury",
+    "title": "CANCELLED - Westgate Contract Discussion with Elizabeth Thornbury",
     "start_time": "2026-02-13T14:00:00+00:00",
     "end_time": "2026-02-13T15:00:00+00:00",
     "attendees": [
-      "elizabeth.thornbury@wellington-hospital.com"
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "Wellington Hospital - Admin Block",
+    "location": "Westgate Hospital - Admin Block",
     "recurring": "none"
   },
   {
     "event_id": "EVT-380",
-    "title": "CANCELLED - Admin Review - Wellington Contract Terms",
+    "title": "CANCELLED - Admin Review - Westgate Contract Terms",
     "start_time": "2026-02-20T16:00:00+00:00",
     "end_time": "2026-02-20T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
     "location": "Home office",
     "recurring": "none"
@@ -949,7 +949,7 @@
     "start_time": "2026-02-24T17:30:00+00:00",
     "end_time": "2026-02-24T18:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
     "location": "Home office",
     "recurring": "none"
@@ -960,11 +960,11 @@
     "start_time": "2026-02-27T13:00:00+00:00",
     "end_time": "2026-02-27T14:00:00+00:00",
     "attendees": [
-      "trauma.team@nhs.net",
-      "ortho.trauma@nhs.net",
-      "radiology.trauma@nhs.net"
+      "trauma.team@nhs.example",
+      "ortho.trauma@nhs.example",
+      "radiology.trauma@nhs.example"
     ],
-    "location": "Royal London Hospital - Conference Room 3",
+    "location": "Royal Metro Hospital - Conference Room 3",
     "recurring": "none"
   },
   {
@@ -973,24 +973,24 @@
     "start_time": "2026-01-28T13:00:00+00:00",
     "end_time": "2026-01-28T14:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "sarah.edmonds@nhs.net",
-      "james.morrison@nhs.net",
+      "brendan.okoro@nhs.example",
+      "sarah.edmonds@nhs.example",
+      "james.morrison@nhs.example",
       "surgery registrars"
     ],
-    "location": "Lecture Theatre 2, Royal London Hospital",
+    "location": "Lecture Theatre 2, Royal Metro Hospital",
     "recurring": "monthly"
   },
   {
     "event_id": "EVT-384",
-    "title": "Wellington Private Practice Session",
+    "title": "Westgate Private Practice Session",
     "start_time": "2026-02-05T09:00:00+00:00",
     "end_time": "2026-02-05T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital",
+    "location": "The Westgate Hospital",
     "recurring": "none"
   },
   {
@@ -999,7 +999,7 @@
     "start_time": "2026-01-30T14:00:00+00:00",
     "end_time": "2026-01-30T16:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
     "location": "Admin time - home office",
     "recurring": "none"
@@ -1010,8 +1010,8 @@
     "start_time": "2026-01-27T16:30:00+00:00",
     "end_time": "2026-01-27T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example"
     ],
     "location": "Consultant Office, Royal London",
     "recurring": "none"
@@ -1022,7 +1022,7 @@
     "start_time": "2026-01-03T15:00:00+00:00",
     "end_time": "2026-01-03T17:00:00+00:00",
     "attendees": [
-      "Benjamin Okafor"
+      "Brendan Okoro"
     ],
     "location": "Office - Royal London",
     "recurring": ""
@@ -1033,7 +1033,7 @@
     "start_time": "2026-01-06T10:00:00+00:00",
     "end_time": "2026-01-06T10:45:00+00:00",
     "attendees": [
-      "Benjamin Okafor",
+      "Brendan Okoro",
       "Rachel Kim"
     ],
     "location": "Finance Department - Royal London",
@@ -1045,7 +1045,7 @@
     "start_time": "2026-01-20T08:00:00+00:00",
     "end_time": "2026-01-20T13:00:00+00:00",
     "attendees": [
-      "Benjamin Okafor",
+      "Brendan Okoro",
       "Anaesthetics Team",
       "Theatre Staff"
     ],
@@ -1058,12 +1058,12 @@
     "start_time": "2026-02-24T14:00:00+00:00",
     "end_time": "2026-02-24T16:00:00+00:00",
     "attendees": [
-      "sarah.henderson@nhs.net",
-      "james.morrison@nhs.net",
-      "benjamin.okafor@nhs.net",
-      "amelia.patel@nhs.net"
+      "sarah.henderson@nhs.example",
+      "james.morrison@nhs.example",
+      "brendan.okoro@nhs.example",
+      "amelia.patel@nhs.example"
     ],
-    "location": "Clinical Governance Conference Room, Royal London Hospital",
+    "location": "Clinical Governance Conference Room, Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -1072,9 +1072,9 @@
     "start_time": "2026-02-20T13:00:00+00:00",
     "end_time": "2026-02-20T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "Office - Royal London Hospital",
+    "location": "Office - Royal Metro Hospital",
     "recurring": "none"
   },
   {
@@ -1083,20 +1083,20 @@
     "start_time": "2026-02-21T09:00:00+00:00",
     "end_time": "2026-02-21T10:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example"
     ],
-    "location": "Consultant Office, Royal London Hospital",
+    "location": "Consultant Office, Royal Metro Hospital",
     "recurring": "none"
   },
   {
     "event_id": "EVT-393",
-    "title": "Wellington Hospital - Confirm March Schedule Call",
+    "title": "Westgate Hospital - Confirm March Schedule Call",
     "start_time": "2026-02-25T15:00:00+00:00",
     "end_time": "2026-02-25T15:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
     "location": "Phone call",
     "recurring": "none"
@@ -1107,10 +1107,10 @@
     "start_time": "2026-03-15T13:00:00+00:00",
     "end_time": "2026-03-15T15:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.coordinator@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.coordinator@nhs.example"
     ],
-    "location": "Whitechapel Ward, Royal London Hospital",
+    "location": "Whitechapel Ward, Royal Metro Hospital",
     "recurring": ""
   },
   {
@@ -1119,11 +1119,11 @@
     "start_time": "2026-03-19T15:00:00+00:00",
     "end_time": "2026-03-19T15:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "sarah.edmonds@nhs.net",
-      "clinical.governance@nhs.net"
+      "brendan.okoro@nhs.example",
+      "sarah.edmonds@nhs.example",
+      "clinical.governance@nhs.example"
     ],
-    "location": "Clinical Governance Committee Room, Royal London Hospital",
+    "location": "Clinical Governance Committee Room, Royal Metro Hospital",
     "recurring": ""
   },
   {
@@ -1132,9 +1132,9 @@
     "start_time": "2026-03-18T08:00:00+00:00",
     "end_time": "2026-03-18T13:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "Theatre 4, Royal London Hospital",
+    "location": "Theatre 4, Royal Metro Hospital",
     "recurring": ""
   },
   {
@@ -1143,25 +1143,25 @@
     "start_time": "2026-03-17T14:00:00+00:00",
     "end_time": "2026-03-17T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net"
+      "brendan.okoro@nhs.example"
     ],
-    "location": "Consultant Office, Royal London Hospital",
+    "location": "Consultant Office, Royal Metro Hospital",
     "recurring": ""
   },
   {
     "event_id": "EVT-398",
-    "title": "Wellington Surgical Conference - Small Group Session",
+    "title": "Westgate Surgical Conference - Small Group Session",
     "start_time": "2026-04-04T13:00:00+01:00",
     "end_time": "2026-04-04T17:00:00+01:00",
     "attendees": [
-      "Benjamin Okafor",
+      "Brendan Okoro",
       "Rachel Foster",
       "David Chen",
       "Priya Malhotra",
       "James Chen",
       "Thomas Wright"
     ],
-    "location": "The Wellington Hospital - Conference Room 2",
+    "location": "The Westgate Hospital - Conference Room 2",
     "recurring": ""
   },
   {
@@ -1170,7 +1170,7 @@
     "start_time": "2026-04-04T19:30:00+01:00",
     "end_time": "2026-04-04T22:00:00+01:00",
     "attendees": [
-      "Benjamin Okafor",
+      "Brendan Okoro",
       "Rachel Foster",
       "David Chen",
       "Priya Malhotra",
@@ -1186,11 +1186,11 @@
     "start_time": "2026-01-20T08:30:00+00:00",
     "end_time": "2026-01-20T13:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "theatre.staff@nhs.net",
-      "anaesthetics.team@nhs.net"
+      "brendan.okoro@nhs.example",
+      "theatre.staff@nhs.example",
+      "anaesthetics.team@nhs.example"
     ],
-    "location": "Royal London Hospital - Main Theatre 3",
+    "location": "Royal Metro Hospital - Main Theatre 3",
     "recurring": "none"
   },
   {
@@ -1199,22 +1199,22 @@
     "start_time": "2026-01-18T20:00:00+00:00",
     "end_time": "2026-01-19T08:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.team@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.team@nhs.example"
     ],
-    "location": "Royal London Hospital - Trauma Unit",
+    "location": "Royal Metro Hospital - Trauma Unit",
     "recurring": "none"
   },
   {
     "event_id": "EVT-402",
-    "title": "Wellington Private Practice - Complex Hepatobiliary Case",
+    "title": "Westgate Private Practice - Complex Hepatobiliary Case",
     "start_time": "2026-01-22T09:00:00+00:00",
     "end_time": "2026-01-22T14:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 2",
+    "location": "The Westgate Hospital - Theatre 2",
     "recurring": "none"
   },
   {
@@ -1223,10 +1223,10 @@
     "start_time": "2026-01-21T14:00:00+00:00",
     "end_time": "2026-01-21T17:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "david.chen@nhs.example"
     ],
-    "location": "Royal London Hospital - Main Theatre 5",
+    "location": "Royal Metro Hospital - Main Theatre 5",
     "recurring": "none"
   },
   {
@@ -1235,10 +1235,10 @@
     "start_time": "2026-01-23T08:00:00+00:00",
     "end_time": "2026-01-23T13:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "theatre.staff@nhs.net"
+      "brendan.okoro@nhs.example",
+      "theatre.staff@nhs.example"
     ],
-    "location": "Royal London Hospital - Main Theatre 1",
+    "location": "Royal Metro Hospital - Main Theatre 1",
     "recurring": "none"
   },
   {
@@ -1247,23 +1247,23 @@
     "start_time": "2026-01-20T16:00:00+00:00",
     "end_time": "2026-01-20T17:30:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "sarah.henderson@nhs.net",
-      "radiology.team@nhs.net"
+      "brendan.okoro@nhs.example",
+      "sarah.henderson@nhs.example",
+      "radiology.team@nhs.example"
     ],
-    "location": "Royal London Hospital - Conference Room B",
+    "location": "Royal Metro Hospital - Conference Room B",
     "recurring": "weekly"
   },
   {
     "event_id": "EVT-406",
-    "title": "Wellington Private Practice - Complex Elective Cases",
+    "title": "Westgate Private Practice - Complex Elective Cases",
     "start_time": "2026-04-03T14:00:00+00:00",
     "end_time": "2026-04-03T18:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Theatre 3",
+    "location": "The Westgate Hospital - Theatre 3",
     "recurring": "none"
   },
   {
@@ -1272,23 +1272,23 @@
     "start_time": "2026-04-03T14:30:00+00:00",
     "end_time": "2026-04-03T19:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "trauma.coordinator@nhs.net",
-      "david.chen@nhs.net"
+      "brendan.okoro@nhs.example",
+      "trauma.coordinator@nhs.example",
+      "david.chen@nhs.example"
     ],
-    "location": "Royal London Hospital - Trauma Theatre 1",
+    "location": "Royal Metro Hospital - Trauma Theatre 1",
     "recurring": "none"
   },
   {
     "event_id": "EVT-408",
-    "title": "Quarterly Wellington Contract Review Meeting",
+    "title": "Quarterly Westgate Contract Review Meeting",
     "start_time": "2026-03-28T10:00:00+00:00",
     "end_time": "2026-03-28T11:00:00+00:00",
     "attendees": [
-      "benjamin.okafor@nhs.net",
-      "elizabeth.thornbury@wellington-hospital.com"
+      "brendan.okoro@nhs.example",
+      "elizabeth.thornbury@wellington-hospital.example"
     ],
-    "location": "The Wellington Hospital - Admin Suite",
+    "location": "The Westgate Hospital - Admin Suite",
     "recurring": "quarterly"
   }
 ]

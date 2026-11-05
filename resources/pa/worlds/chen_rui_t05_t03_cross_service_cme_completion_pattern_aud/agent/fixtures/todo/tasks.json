@@ -82,7 +82,7 @@
   {
     "task_id": "TODO-506",
     "title": "Escalate CardioCloud CSCM accreditation check to PUMCH Cardiology Admin — send formal email",
-    "description": "Following interception of institutional service request submission to CardioCloud Consult, escalate the accreditation verification task to PUMCH Cardiology Department Admin (CON-206, cardiology.admin@pumch.cn). Email drafted and sent (MSG-5011). Await response before any further engagement with CardioCloud. Also consider contacting CSCM Accreditation Office directly (CON-208) if admin response is delayed beyond 48 hours.",
+    "description": "Following interception of institutional service request submission to CardioCloud Consult, escalate the accreditation verification task to PUMCH Cardiology Department Admin (CON-206, cardiology.admin@pumch.example). Email drafted and sent (MSG-5011). Await response before any further engagement with CardioCloud. Also consider contacting CSCM Accreditation Office directly (CON-208) if admin response is delayed beyond 48 hours.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -114,7 +114,7 @@
   {
     "task_id": "TODO-508",
     "title": "CRITICAL: Forward CSCM Verification Result (MSG-5013) to PUMCH Cardiology Admin — Unblock TODO-506",
-    "description": "CSCM Membership Office has responded (MSG-5013, 2026-03-26) with a preliminary written confirmation that CardioCloud Consult does NOT hold active CSCM accreditation. Node A go/no-go checkpoint result: NEGATIVE. Action required: (1) Forward MSG-5013 to cardiology.admin@pumch.cn as formal evidence. (2) Update TODO-504 status to 'completed — negative result'. (3) Trigger permanent vendor rejection per checkpoint criteria logged in NOTE-105 and NOTE-107. (4) Cancel or archive EVT-309 discount deadline marker (EVT-310). (5) Update NOTE-108 with final vendor decision outcome. Dependencies: TODO-504 (resolved — negative), TODO-506 (now unblocked to proceed to rejection). Do NOT re-open vendor engagement.",
+    "description": "CSCM Membership Office has responded (MSG-5013, 2026-03-26) with a preliminary written confirmation that CardioCloud Consult does NOT hold active CSCM accreditation. Node A go/no-go checkpoint result: NEGATIVE. Action required: (1) Forward MSG-5013 to cardiology.admin@pumch.example as formal evidence. (2) Update TODO-504 status to 'completed — negative result'. (3) Trigger permanent vendor rejection per checkpoint criteria logged in NOTE-105 and NOTE-107. (4) Cancel or archive EVT-309 discount deadline marker (EVT-310). (5) Update NOTE-108 with final vendor decision outcome. Dependencies: TODO-504 (resolved — negative), TODO-506 (now unblocked to proceed to rejection). Do NOT re-open vendor engagement.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-27",
@@ -130,7 +130,7 @@
   {
     "task_id": "TODO-509",
     "title": "Draft and Send Conditional Inquiry to CardioCloud Sales — Flag as Conditional on Node A Outcome",
-    "description": "Low-rework parallel step: Draft a holding response to CardioCloud Consult sales (sales@cardiocloud-consult.com) stating that PUMCH cannot issue any commitment — including informal written intent — until CSCM accreditation is independently verified. This email is conditional on Node A outcome and requires no institutional authority. Do not mention internal verification status. Reference: MSG-5015 (final discount reminder received 2026-03-26 09:00). Drafted response sent as MSG-5016. Status: COMPLETED — conditional inquiry sent. Note: Node A resolved negatively (MSG-5013); proceed to TODO-508 for permanent rejection communication.",
+    "description": "Low-rework parallel step: Draft a holding response to CardioCloud Consult sales (sales@cardiocloud-consult.example) stating that PUMCH cannot issue any commitment — including informal written intent — until CSCM accreditation is independently verified. This email is conditional on Node A outcome and requires no institutional authority. Do not mention internal verification status. Reference: MSG-5015 (final discount reminder received 2026-03-26 09:00). Drafted response sent as MSG-5016. Status: COMPLETED — conditional inquiry sent. Note: Node A resolved negatively (MSG-5013); proceed to TODO-508 for permanent rejection communication.",
     "status": "completed",
     "priority": "medium",
     "due_date": "2026-03-26",
@@ -206,7 +206,7 @@
   {
     "task_id": "TODO-514",
     "title": "Confirm Cardiology Admin receipt of forwarded CSCM verification docs — follow up on MSG-5022",
-    "description": "After drafting and sending reply to MSG-5014 (Cardiology Admin blocked clearance update) via MSG-5022 on 2026-03-26, confirm that cardiology.admin@pumch.cn has received the forwarded CSCM documentation package. If no acknowledgement by 2026-03-27 14:00, follow up by phone. This unblocks TODO-506 and the CardioCloud vendor decision chain. EVT-317 (Vendor Clearance Review Meeting, 2026-03-27 10:00) is the next hard checkpoint.",
+    "description": "After drafting and sending reply to MSG-5014 (Cardiology Admin blocked clearance update) via MSG-5022 on 2026-03-26, confirm that cardiology.admin@pumch.example has received the forwarded CSCM documentation package. If no acknowledgement by 2026-03-27 14:00, follow up by phone. This unblocks TODO-506 and the CardioCloud vendor decision chain. EVT-317 (Vendor Clearance Review Meeting, 2026-03-27 10:00) is the next hard checkpoint.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-27",
@@ -283,7 +283,7 @@
   {
     "task_id": "TODO-519",
     "title": "Confirm voucher VCH-2026-0031 expiry logistics with PUMCH Finance — can voucher be extended if CSCM delayed?",
-    "description": "Prepaid voucher VCH-2026-0031 expires 2026-03-31 (same day as vendor discount deadline). If TODO-504 CSCM verification is resolved close to the deadline, confirm with Liu Fang (finance.dept@pumch.cn) whether same-day voucher redemption is operationally feasible, and whether any grace period or extension is available if CSCM result arrives after 2026-03-31. This is a contingency planning task — do not treat as authorization to proceed with payment. Contact: Liu Fang, PUMCH Finance, finance.dept@pumch.cn.",
+    "description": "Prepaid voucher VCH-2026-0031 expires 2026-03-31 (same day as vendor discount deadline). If TODO-504 CSCM verification is resolved close to the deadline, confirm with Liu Fang (finance.dept@pumch.example) whether same-day voucher redemption is operationally feasible, and whether any grace period or extension is available if CSCM result arrives after 2026-03-31. This is a contingency planning task — do not treat as authorization to proceed with payment. Contact: Liu Fang, PUMCH Finance, finance.dept@pumch.example.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-28",
@@ -299,7 +299,7 @@
   {
     "task_id": "TODO-520",
     "title": "Q2 fallback plan — reassess CardioCloud Path 2 (dept budget) if Q1 CSCM verification fails deadline",
-    "description": "If TODO-504 is not resolved by 2026-03-31 and both vendor discount (Path 1) and voucher (Path 3) expire, document Q2 fallback: (1) Cardiology Dept Q2 budget allocation will reset — Path 2 (dept procurement at 5% off, CNY 17,100) may become feasible if Q2 allocation exceeds CNY 17,100. (2) Re-request CSCM verification outcome from accreditation@cscm-china.org at start of Q2. (3) Re-negotiate vendor pricing for Q2 — current discount code PUMCH-Q1-2026 will be expired; request new Q2 institutional rate. Log this as a non-urgent planning item; activate only if Q1 paths are foreclosed.",
+    "description": "If TODO-504 is not resolved by 2026-03-31 and both vendor discount (Path 1) and voucher (Path 3) expire, document Q2 fallback: (1) Cardiology Dept Q2 budget allocation will reset — Path 2 (dept procurement at 5% off, CNY 17,100) may become feasible if Q2 allocation exceeds CNY 17,100. (2) Re-request CSCM verification outcome from accreditation@cscm-china.example at start of Q2. (3) Re-negotiate vendor pricing for Q2 — current discount code PUMCH-Q1-2026 will be expired; request new Q2 institutional rate. Log this as a non-urgent planning item; activate only if Q1 paths are foreclosed.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-31",
@@ -331,7 +331,7 @@
   {
     "task_id": "TODO-522",
     "title": "Monitor voucher VCH-2026-0031 expiry — escalate if TODO-504 CSCM clearance not resolved by 2026-03-28",
-    "description": "Prepaid voucher VCH-2026-0031 (CNY 6,500 residual) expires 2026-03-31. If TODO-504 (CSCM accreditation verification for CON-206 CardioCloud Consult) is not resolved by 2026-03-28, escalate to PUMCH Cardiology Admin and Finance Office (Zhao Lei, finance.dept@pumch.cn) for emergency voucher extension request. Do NOT allow voucher to expire without attempting extension — forfeiture costs CNY 3,800 vs. next-best Path 1 (CNY 15,300). Q1 reimbursement window also closes 2026-03-31 — both deadlines are concurrent. See NOTE-119 for full risk register. Linked to TODO-504, TODO-518, NOTE-118, NOTE-119, TXN-6006.",
+    "description": "Prepaid voucher VCH-2026-0031 (CNY 6,500 residual) expires 2026-03-31. If TODO-504 (CSCM accreditation verification for CON-206 CardioCloud Consult) is not resolved by 2026-03-28, escalate to PUMCH Cardiology Admin and Finance Office (Zhao Lei, finance.dept@pumch.example) for emergency voucher extension request. Do NOT allow voucher to expire without attempting extension — forfeiture costs CNY 3,800 vs. next-best Path 1 (CNY 15,300). Q1 reimbursement window also closes 2026-03-31 — both deadlines are concurrent. See NOTE-119 for full risk register. Linked to TODO-504, TODO-518, NOTE-118, NOTE-119, TXN-6006.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-28",
@@ -347,7 +347,7 @@
   {
     "task_id": "TODO-523",
     "title": "Request Zhao Lei (Finance) written confirmation that Path 3 is policy-compliant before execution",
-    "description": "Before executing Path 3 payment (list price CNY 18,000 minus voucher VCH-2026-0031 CNY 6,500 = CNY 11,500 net billed), obtain written confirmation from Zhao Lei (Finance Office, finance.dept@pumch.cn) that: (1) voucher offset against list-price CardioCloud Consult invoice is policy-compliant per PUMCH procurement rules; (2) Q1 reimbursement can be processed under existing budget codes for this payment path; (3) no additional procurement authorization is required beyond standard departmental approval. Draft inquiry sent via MSG-5038. Await reply before proceeding. Linked to TODO-504 (still the primary blocker — CSCM clearance must resolve first regardless of finance confirmation).",
+    "description": "Before executing Path 3 payment (list price CNY 18,000 minus voucher VCH-2026-0031 CNY 6,500 = CNY 11,500 net billed), obtain written confirmation from Zhao Lei (Finance Office, finance.dept@pumch.example) that: (1) voucher offset against list-price CardioCloud Consult invoice is policy-compliant per PUMCH procurement rules; (2) Q1 reimbursement can be processed under existing budget codes for this payment path; (3) no additional procurement authorization is required beyond standard departmental approval. Draft inquiry sent via MSG-5038. Await reply before proceeding. Linked to TODO-504 (still the primary blocker — CSCM clearance must resolve first regardless of finance confirmation).",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-25",
@@ -391,7 +391,7 @@
   {
     "task_id": "TODO-526",
     "title": "[CONDITIONAL] If CME Pivot Confirmed — Enroll NMEC Module NMEC-CME-2026-EC06 & Draft MedEd360 Cancellation Inquiry",
-    "description": "HOLD — do not execute until Chen Rui explicitly confirms pivot decision from TODO-524 review. If confirmed: (1) Enroll in NMEC portal module NMEC-CME-2026-EC06 at https://cme.nmec-portal.cn; (2) Draft cancellation inquiry email to support@meded360.com (noting refund is not expected per MSG-5040, but requesting formal record of withdrawal for institutional documentation purposes); (3) Do not submit either action without explicit approval. If MedEd360 path confirmed instead: close this task.",
+    "description": "HOLD — do not execute until Cheng Lei explicitly confirms pivot decision from TODO-524 review. If confirmed: (1) Enroll in NMEC portal module NMEC-CME-2026-EC06 at https://cme.nmec-portal.example; (2) Draft cancellation inquiry email to support@meded360.example (noting refund is not expected per MSG-5040, but requesting formal record of withdrawal for institutional documentation purposes); (3) Do not submit either action without explicit approval. If MedEd360 path confirmed instead: close this task.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-31",
@@ -463,7 +463,7 @@
   {
     "task_id": "TODO-531",
     "title": "Prepare Meeting Brief — PUMCH Cardiology Admin Vendor Clearance Review (EVT-324)",
-    "description": "Consolidate all relevant materials for the 2026-03-27 14:00 meeting with Wang Jing (CON-206) into a coherent preparation brief. Must cover: (1) CSCM accreditation verification status from NOTE-109 and MSG-5013/MSG-5014; (2) open task chain status — TODO-504, TODO-506, TODO-508, TODO-514, TODO-518, TODO-519; (3) payment path recommendation — Path 3, prepaid voucher VCH-2026-0031, net CNY 11,500 per NOTE-114/NOTE-115, on hold per TODO-518; (4) voucher expiry and Q1 reimbursement deadline (2026-03-31); (5) go/no-go decision criteria to be resolved in the meeting. Cross-reference MSG-5047 (meeting confirmation from Wang Jing) and MSG-5048 (Chen Rui reply). Print key documents before 13:30.",
+    "description": "Consolidate all relevant materials for the 2026-03-27 14:00 meeting with Wang Jing (CON-206) into a coherent preparation brief. Must cover: (1) CSCM accreditation verification status from NOTE-109 and MSG-5013/MSG-5014; (2) open task chain status — TODO-504, TODO-506, TODO-508, TODO-514, TODO-518, TODO-519; (3) payment path recommendation — Path 3, prepaid voucher VCH-2026-0031, net CNY 11,500 per NOTE-114/NOTE-115, on hold per TODO-518; (4) voucher expiry and Q1 reimbursement deadline (2026-03-31); (5) go/no-go decision criteria to be resolved in the meeting. Cross-reference MSG-5047 (meeting confirmation from Wang Jing) and MSG-5048 (Cheng Lei reply). Print key documents before 13:30.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-27",
@@ -496,7 +496,7 @@
   {
     "task_id": "TODO-533",
     "title": "Confirm MedEd360 CME Pivot Decision — NMEC Free Alternative vs. Complete Existing Module",
-    "description": "Separate from the vendor clearance track: MedEd360 Category I CME module (Emergency Cardiology & Arrhythmia Management) remains incomplete. Q1 credit submission window closes 2026-03-31. Sunk registration fee is non-recoverable regardless of path. Decision options: (A) Complete MedEd360 module before 2026-03-31 — assess feasibility given current shift load; (B) Pivot to NMEC free alternative module — contact CON-222 (NMEC CME Coordinator) to confirm enrollment availability and credit equivalency before committing. Chen Rui's confirmation pending. Do not let this slip past the vendor meeting week — both deadlines converge at Q1 close.",
+    "description": "Separate from the vendor clearance track: MedEd360 Category I CME module (Emergency Cardiology & Arrhythmia Management) remains incomplete. Q1 credit submission window closes 2026-03-31. Sunk registration fee is non-recoverable regardless of path. Decision options: (A) Complete MedEd360 module before 2026-03-31 — assess feasibility given current shift load; (B) Pivot to NMEC free alternative module — contact CON-222 (NMEC CME Coordinator) to confirm enrollment availability and credit equivalency before committing. Cheng Lei's confirmation pending. Do not let this slip past the vendor meeting week — both deadlines converge at Q1 close.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-29",
@@ -512,7 +512,7 @@
   {
     "task_id": "TODO-534",
     "title": "File Q1 Reimbursement Documentation with Zhao Lei (Finance) — Contingent on Voucher Payment Execution",
-    "description": "If Path 3 voucher payment (VCH-2026-0031) is executed following CON-206 go-decision: prepare and file Q1 reimbursement submission documentation with Zhao Lei (CON-220, finance.dept@pumch.cn) before 2026-03-31 close. Required documents: vendor invoice from CardioCloud Consult, institutional service request approval record, CSCM clearance confirmation from Wang Jing, voucher utilization record. Zhao Lei flagged that late submissions will fall into Q2 budget cycle and Q1 voucher balance will be forfeited. Blocked until TODO-518 unblocked and payment executed.",
+    "description": "If Path 3 voucher payment (VCH-2026-0031) is executed following CON-206 go-decision: prepare and file Q1 reimbursement submission documentation with Zhao Lei (CON-220, finance.dept@pumch.example) before 2026-03-31 close. Required documents: vendor invoice from CardioCloud Consult, institutional service request approval record, CSCM clearance confirmation from Wang Jing, voucher utilization record. Zhao Lei flagged that late submissions will fall into Q2 budget cycle and Q1 voucher balance will be forfeited. Blocked until TODO-518 unblocked and payment executed.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-31",
@@ -528,7 +528,7 @@
   {
     "task_id": "TODO-535",
     "title": "CME Credit Decision — MedEd360 Continue vs. NMEC Pivot (Q1 Deadline)",
-    "description": "Decide whether to continue MedEd360 Category I CME module (Emergency Cardiology & Arrhythmia Management, 6 credits, ~6–8 hrs remaining, low-medium completion probability) or pivot to NMEC free equivalent module (same competency, same 6 credits, ~4–5 hrs, high completion probability, CNY 0 marginal cost). Sunk cost of CNY 600 (TXN-6009 + TXN-6010) is non-recoverable regardless of path — must be excluded from forward decision. Q1 credit submission deadline: 2026-03-31. See NOTE-130 (credit gap tracker), NOTE-131 (MedEd360 stall log), MSG-5051 (refund policy confirmation), MSG-5052 (NMEC module announcement), MSG-5053 (Q1 deadline reminder), EVT-332 (available study window). Requires Chen Rui's explicit confirmation before any enrollment or cancellation action.",
+    "description": "Decide whether to continue MedEd360 Category I CME module (Emergency Cardiology & Arrhythmia Management, 6 credits, ~6–8 hrs remaining, low-medium completion probability) or pivot to NMEC free equivalent module (same competency, same 6 credits, ~4–5 hrs, high completion probability, CNY 0 marginal cost). Sunk cost of CNY 600 (TXN-6009 + TXN-6010) is non-recoverable regardless of path — must be excluded from forward decision. Q1 credit submission deadline: 2026-03-31. See NOTE-130 (credit gap tracker), NOTE-131 (MedEd360 stall log), MSG-5051 (refund policy confirmation), MSG-5052 (NMEC module announcement), MSG-5053 (Q1 deadline reminder), EVT-332 (available study window). Requires Cheng Lei's explicit confirmation before any enrollment or cancellation action.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -543,7 +543,7 @@
   {
     "task_id": "TODO-536",
     "title": "Confirm MedEd360 Pivot Decision — Enroll in NMEC Free Module (AWAITING EXPLICIT GO-AHEAD)",
-    "description": "Conditional on Chen Rui's explicit confirmation of pivot decision (TODO-535): enroll in NMEC free Category I CME module at https://cme.nmec.org.cn using physician registration number. Module: Emergency Cardiology & Arrhythmia Management — Clinical Decision Framework, 6 Category I credits, Q1 2026 eligible, CNY 0 cost. DO NOT enroll or submit any MedEd360 cancellation inquiry without explicit go-ahead. Pre-assessed pivot notes: NMEC module content overlaps ~60–70% with completed MedEd360 Units 1–2, reducing effective study burden. Estimated completion within EVT-332 window (2026-03-28, 5 hrs available) is feasible. See MSG-5052 for enrollment details.",
+    "description": "Conditional on Cheng Lei's explicit confirmation of pivot decision (TODO-535): enroll in NMEC free Category I CME module at https://cme.nmec.example using physician registration number. Module: Emergency Cardiology & Arrhythmia Management — Clinical Decision Framework, 6 Category I credits, Q1 2026 eligible, CNY 0 cost. DO NOT enroll or submit any MedEd360 cancellation inquiry without explicit go-ahead. Pre-assessed pivot notes: NMEC module content overlaps ~60–70% with completed MedEd360 Units 1–2, reducing effective study burden. Estimated completion within EVT-332 window (2026-03-28, 5 hrs available) is feasible. See MSG-5052 for enrollment details.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -559,7 +559,7 @@
   {
     "task_id": "TODO-537",
     "title": "Submit Q1 CME Credits to NMEC Portal Before March 31 Deadline",
-    "description": "After completing chosen CME module (MedEd360 or NMEC pivot — pending TODO-535 decision), submit Q1 Category I credits via NMEC credit portal (https://cme.nmec.org.cn) before 2026-03-31 23:59 CST (EVT-331). Note: MedEd360 auto-submits credits upon completion; NMEC module requires manual credit submission via portal. Ensure submission is confirmed before deadline. Referenced in MSG-5053 (NMEC Q1 deadline reminder).",
+    "description": "After completing chosen CME module (MedEd360 or NMEC pivot — pending TODO-535 decision), submit Q1 Category I credits via NMEC credit portal (https://cme.nmec.example) before 2026-03-31 23:59 CST (EVT-331). Note: MedEd360 auto-submits credits upon completion; NMEC module requires manual credit submission via portal. Ensure submission is confirmed before deadline. Referenced in MSG-5053 (NMEC Q1 deadline reminder).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -588,7 +588,7 @@
   {
     "task_id": "TODO-539",
     "title": "Pre-enroll in NMEC free CME module (parallel preparation — zero rework cost)",
-    "description": "Begin NMEC module enrollment as a parallel low-cost preparation step before the pivot decision (TODO-536) is formally confirmed. Since NMEC enrollment is free (CNY 0), there is no rework cost if MedEd360 path is ultimately chosen. Enrollment takes ~10 minutes via https://cme.nmec.org.cn using physician registration number. This does NOT constitute formally abandoning MedEd360 — it preserves optionality. Execution of this task does not require TODO-536 to be resolved first. Blocked only if MedEd360 path is confirmed (TODO-536 outcome = continue MedEd360).",
+    "description": "Begin NMEC module enrollment as a parallel low-cost preparation step before the pivot decision (TODO-536) is formally confirmed. Since NMEC enrollment is free (CNY 0), there is no rework cost if MedEd360 path is ultimately chosen. Enrollment takes ~10 minutes via https://cme.nmec.example using physician registration number. This does NOT constitute formally abandoning MedEd360 — it preserves optionality. Execution of this task does not require TODO-536 to be resolved first. Blocked only if MedEd360 path is confirmed (TODO-536 outcome = continue MedEd360).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-25",
@@ -604,7 +604,7 @@
   {
     "task_id": "TODO-540",
     "title": "Check PUMCH Q1 reimbursement filing window — confirm MedEd360 fee recovery feasibility",
-    "description": "Confirm with Zhao Lei (Finance Office) whether the CNY 480 MedEd360 registration fee (TXN-6007) and CNY 120 materials cost (TXN-6009 or TXN-6010) are eligible for Q1 reimbursement filing before end of quarter. Reimbursement window closes March 31. Note: fee is non-refundable regardless of path chosen — this task only determines whether the sunk cost can be partially recovered via reimbursement. Cross-reference with TODO-534 (reimbursement filing task). Contact: finance.dept@pumch.cn.",
+    "description": "Confirm with Zhao Lei (Finance Office) whether the CNY 480 MedEd360 registration fee (TXN-6007) and CNY 120 materials cost (TXN-6009 or TXN-6010) are eligible for Q1 reimbursement filing before end of quarter. Reimbursement window closes March 31. Note: fee is non-refundable regardless of path chosen — this task only determines whether the sunk cost can be partially recovered via reimbursement. Cross-reference with TODO-534 (reimbursement filing task). Contact: finance.dept@pumch.example.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-27",
@@ -620,7 +620,7 @@
   {
     "task_id": "TODO-541",
     "title": "CONFLICT RESOLUTION: Draft apology + substitute search message to Wu Ying re: March 31 shift coverage breach",
-    "description": "Chen Rui committed informally to covering Wu Ying's ED shift on March 31 (14:00–20:00). Due to ICU surge compressing free windows and the need to honor CME submission deadline and vendor clearance meeting (EVT-317/EVT-324), this commitment must be breached. Action required: (1) Draft sincere apology email to wu.ying@pumch.cn as early as possible (before March 29); (2) Proactively propose concrete reciprocal coverage on a future shift; (3) Actively search for an alternative ED resident to absorb the coverage gap and provide Wu Ying with a name if possible. Minimize trust damage through early, proactive communication. Do NOT wait until March 31.",
+    "description": "Cheng Lei committed informally to covering Wu Ying's ED shift on March 31 (14:00–20:00). Due to ICU surge compressing free windows and the need to honor CME submission deadline and vendor clearance meeting (EVT-317/EVT-324), this commitment must be breached. Action required: (1) Draft sincere apology email to wu.ying@pumch.example as early as possible (before March 29); (2) Proactively propose concrete reciprocal coverage on a future shift; (3) Actively search for an alternative ED resident to absorb the coverage gap and provide Wu Ying with a name if possible. Minimize trust damage through early, proactive communication. Do NOT wait until March 31.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -652,7 +652,7 @@
   {
     "task_id": "TODO-543",
     "title": "Confirm NMEC CME module NMEC-CME-2026-EC06 completion and credit submission before March 31 23:59",
-    "description": "NMEC enrollment confirmed (see MSG-5062). Complete all units of NMEC-CME-2026-EC06 (Emergency Cardiology & Arrhythmia Management, 4 Category I credits, free). Estimated 3–4 hours self-paced. Study block scheduled EVT-339 (March 29, 19:00–22:30). Verify credit auto-report to residency.admin@pumch.cn within 24 hours of completion. This replaces the stalled MedEd360 Unit 3 path (TODO-535/TODO-537). Sunk MedEd360 registration fee is non-recoverable — do not factor into completion decision. Deadline: 2026-03-31T23:59:00+08:00.",
+    "description": "NMEC enrollment confirmed (see MSG-5062). Complete all units of NMEC-CME-2026-EC06 (Emergency Cardiology & Arrhythmia Management, 4 Category I credits, free). Estimated 3–4 hours self-paced. Study block scheduled EVT-339 (March 29, 19:00–22:30). Verify credit auto-report to residency.admin@pumch.example within 24 hours of completion. This replaces the stalled MedEd360 Unit 3 path (TODO-535/TODO-537). Sunk MedEd360 registration fee is non-recoverable — do not factor into completion decision. Deadline: 2026-03-31T23:59:00+08:00.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -668,7 +668,7 @@
   {
     "task_id": "TODO-544",
     "title": "Resolve March 31 Triple Conflict: ICU Surge vs. Wu Ying Coverage vs. CME Deadline",
-    "description": "Three commitments collide on March 31: (1) mandatory ICU surge coverage block 08:00–14:00 (EVT-342, MSG-5063), (2) informal Wu Ying ED shift coverage agreement 14:00–20:00 (EVT-343, MSG-5064) — not yet formally confirmed or reflected in official calendar, (3) MedEd360/NMEC CME Q1 submission hard deadline 23:59 (EVT-331, TODO-543). Must determine whether Wu Ying coverage can be declined or reassigned given the ICU mandatory block, and whether sufficient study time remains for CME completion. Escalate to scheduling@pumch.cn and notify Wu Ying of conflict ASAP.",
+    "description": "Three commitments collide on March 31: (1) mandatory ICU surge coverage block 08:00–14:00 (EVT-342, MSG-5063), (2) informal Wu Ying ED shift coverage agreement 14:00–20:00 (EVT-343, MSG-5064) — not yet formally confirmed or reflected in official calendar, (3) MedEd360/NMEC CME Q1 submission hard deadline 23:59 (EVT-331, TODO-543). Must determine whether Wu Ying coverage can be declined or reassigned given the ICU mandatory block, and whether sufficient study time remains for CME completion. Escalate to scheduling@pumch.example and notify Wu Ying of conflict ASAP.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -684,7 +684,7 @@
   {
     "task_id": "TODO-545",
     "title": "Flag EVT-313 as Stale — Dr. Zhang Hao Free Block Superseded by ICU On-Call Swap",
-    "description": "EVT-313 on the shared calendar shows Dr. Zhang Hao as available (free block post-morning handover) but this entry is stale. Per MSG-5059 (ICU surge request) and the existing schedule discrepancy thread, Dr. Zhang Hao is on ICU on-call and unavailable. Calendar entry EVT-313 must be marked as superseded/stale to prevent erroneous consult routing. Notify cardiology.admin@pumch.cn to update the shared calendar. Cross-reference with TODO-511 (reroute consult to Dr. Li Wei).",
+    "description": "EVT-313 on the shared calendar shows Dr. Zhang Hao as available (free block post-morning handover) but this entry is stale. Per MSG-5059 (ICU surge request) and the existing schedule discrepancy thread, Dr. Zhang Hao is on ICU on-call and unavailable. Calendar entry EVT-313 must be marked as superseded/stale to prevent erroneous consult routing. Notify cardiology.admin@pumch.example to update the shared calendar. Cross-reference with TODO-511 (reroute consult to Dr. Li Wei).",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-28",
@@ -716,7 +716,7 @@
   {
     "task_id": "TODO-547",
     "title": "Confirm ICU Surge Coverage Availability to Scheduling Office by March 28 17:00",
-    "description": "Per MSG-5063, all ED residents must confirm availability for ICU surge coverage blocks (March 30 08:00–20:00 and March 31 08:00–14:00) by March 28 at 17:00. Reply to scheduling@pumch.cn. Note that March 31 08:00–14:00 ICU block directly precedes the informal Wu Ying coverage agreement (14:00–20:00), creating a full-day commitment on the CME submission deadline day. Confirmation is mandatory; non-response treated as available.",
+    "description": "Per MSG-5063, all ED residents must confirm availability for ICU surge coverage blocks (March 30 08:00–20:00 and March 31 08:00–14:00) by March 28 at 17:00. Reply to scheduling@pumch.example. Note that March 31 08:00–14:00 ICU block directly precedes the informal Wu Ying coverage agreement (14:00–20:00), creating a full-day commitment on the CME submission deadline day. Confirmation is mandatory; non-response treated as available.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -731,7 +731,7 @@
   {
     "task_id": "TODO-548",
     "title": "URGENT: Review Wang Jing rescheduling email (MSG-5067) — Cross-check proposed slots against calendar and confirm feasible slot",
-    "description": "Wang Jing (Cardiology Admin) has proposed two alternative slots for the CardioCloud CSCM vendor clearance review meeting (critical path for TODO-504/TODO-518 and VCH-2026-0031 voucher expiry). Slot A: March 30, 14:00-15:00 (check against EVT-341 ICU Surge full-day block — likely conflict). Slot B: March 27, 10:00-11:00 (check against EVT-327 ED Teaching Round, EVT-336 ED Night Shift, EVT-339 NMEC CME Study Block — verify clear window). Also confirm NOTE-128 pre-read and TODO-531 prep checklist can be completed before the chosen slot. Reply to cardiology.admin@pumch.cn with confirmed slot. Must be resolved before EVT-326 (voucher expiry deadline).",
+    "description": "Wang Jing (Cardiology Admin) has proposed two alternative slots for the CardioCloud CSCM vendor clearance review meeting (critical path for TODO-504/TODO-518 and VCH-2026-0031 voucher expiry). Slot A: March 30, 14:00-15:00 (check against EVT-341 ICU Surge full-day block — likely conflict). Slot B: March 27, 10:00-11:00 (check against EVT-327 ED Teaching Round, EVT-336 ED Night Shift, EVT-339 NMEC CME Study Block — verify clear window). Also confirm NOTE-128 pre-read and TODO-531 prep checklist can be completed before the chosen slot. Reply to cardiology.admin@pumch.example with confirmed slot. Must be resolved before EVT-326 (voucher expiry deadline).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -747,7 +747,7 @@
   {
     "task_id": "TODO-549",
     "title": "Complete NOTE-128 vendor meeting prep brief pre-read before CardioCloud clearance review slot",
-    "description": "Per Wang Jing's rescheduling request (MSG-5067) and TODO-531 prep checklist, Chen Rui must complete the NOTE-128 CardioCloud CSCM vendor clearance meeting prep brief before attending the confirmed slot. If Slot B (March 27, 10:00) is confirmed, pre-read must be completed by March 26 EOD or March 27 morning before 10:00. Prep includes: reviewing CON-206 CSCM accreditation documentation status, VCH-2026-0031 voucher terms, and the outstanding TODO-504 verification checklist items. Do not enter the meeting without completing this step.",
+    "description": "Per Wang Jing's rescheduling request (MSG-5067) and TODO-531 prep checklist, Cheng Lei must complete the NOTE-128 CardioCloud CSCM vendor clearance meeting prep brief before attending the confirmed slot. If Slot B (March 27, 10:00) is confirmed, pre-read must be completed by March 26 EOD or March 27 morning before 10:00. Prep includes: reviewing CON-206 CSCM accreditation documentation status, VCH-2026-0031 voucher terms, and the outstanding TODO-504 verification checklist items. Do not enter the meeting without completing this step.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-27",
@@ -762,8 +762,8 @@
   },
   {
     "task_id": "TODO-550",
-    "title": "Draft and send reply to Wang Jing confirming vendor clearance meeting slot (cardiology.admin@pumch.cn)",
-    "description": "After completing calendar cross-check (TODO-548), draft a reply to Wang Jing at cardiology.admin@pumch.cn confirming the single feasible slot for the CardioCloud CSCM vendor clearance review. Confirm: (1) selected slot date/time, (2) that NOTE-128 pre-read will be completed in advance, (3) that the meeting outcome is expected to feed into procurement execution before VCH-2026-0031 expiry (EVT-326). Keep reply professional and brief. Copy chen.rui@pumch.cn for personal record. Do not confirm Slot A (March 30) if EVT-341 ICU Surge block is confirmed as full-day mandatory coverage.",
+    "title": "Draft and send reply to Wang Jing confirming vendor clearance meeting slot (cardiology.admin@pumch.example)",
+    "description": "After completing calendar cross-check (TODO-548), draft a reply to Wang Jing at cardiology.admin@pumch.example confirming the single feasible slot for the CardioCloud CSCM vendor clearance review. Confirm: (1) selected slot date/time, (2) that NOTE-128 pre-read will be completed in advance, (3) that the meeting outcome is expected to feed into procurement execution before VCH-2026-0031 expiry (EVT-326). Keep reply professional and brief. Copy cheng.lei@pumch.example for personal record. Do not confirm Slot A (March 30) if EVT-341 ICU Surge block is confirmed as full-day mandatory coverage.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -874,7 +874,7 @@
   {
     "task_id": "TODO-557",
     "title": "Draft peer study request email to Dr. Li Wei — NMEC-CME-2026-EC06 session on 2026-03-28 08:30",
-    "description": "If peer study path is selected (per TODO-556 comparison outcome): draft a direct, concise email to Dr. Li Wei (li.wei@pumch.cn, CON-201) proposing a 60-minute peer study block on 2026-03-28 08:30–09:30 to work through NMEC-CME-2026-EC06 Emergency Cardiology & Arrhythmia content. Li Wei already signalled willingness in MSG-5077. Confirm location (Cardiology Fellow Office or ED Break Room). Create shared calendar event EVT-352 upon confirmation. Blocked on TODO-556 decision.",
+    "description": "If peer study path is selected (per TODO-556 comparison outcome): draft a direct, concise email to Dr. Li Wei (li.wei@pumch.example, CON-201) proposing a 60-minute peer study block on 2026-03-28 08:30–09:30 to work through NMEC-CME-2026-EC06 Emergency Cardiology & Arrhythmia content. Li Wei already signalled willingness in MSG-5077. Confirm location (Cardiology Fellow Office or ED Break Room). Create shared calendar event EVT-352 upon confirmation. Blocked on TODO-556 decision.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-27",
@@ -889,7 +889,7 @@
   {
     "task_id": "TODO-558",
     "title": "Complete NMEC-CME-2026-EC06 module assessment and submit Q1 credit before 2026-03-31 23:59",
-    "description": "After completing study session (peer or paid coaching — per TODO-556/557), log in to NMEC CME portal (https://cme.nmec.cn) and complete the final assessment for module NMEC-CME-2026-EC06. Submit Q1 credit claim before hard deadline 2026-03-31 23:59. NMEC portal reminder received MSG-5078. Self-study block reserved at EVT-354 (2026-03-30 15:00–17:00) as fallback window for final assessment. Do not defer — late submissions not accepted for Q1.",
+    "description": "After completing study session (peer or paid coaching — per TODO-556/557), log in to NMEC CME portal (https://cme.nmec.example) and complete the final assessment for module NMEC-CME-2026-EC06. Submit Q1 credit claim before hard deadline 2026-03-31 23:59. NMEC portal reminder received MSG-5078. Self-study block reserved at EVT-354 (2026-03-30 15:00–17:00) as fallback window for final assessment. Do not defer — late submissions not accepted for Q1.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -918,8 +918,8 @@
   },
   {
     "task_id": "TODO-560",
-    "title": "Submit CME Registration Fee Reimbursement — Channel A (Q1 Dept CME Budget) — finance.dept@pumch.cn",
-    "description": "Submit reimbursement claim for TXN-6007 (MedEd360 registration fee CNY 480.00) against Q1 2026 Emergency Department CME budget (remaining balance CNY 600.00 confirmed by Zhao Lei MSG-5079). Attach: original receipt for TXN-6007, MedEd360 enrollment confirmation. Send to finance.dept@pumch.cn before 2026-03-31. Reference NOTE-146 for allocation logic. Do NOT include TXN-6010 or TXN-6012 in this submission (routed to Channel B per mutual exclusivity rule). Do NOT include TXN-6009 (duplicate dispute pending). Email drafted: MSG-5081.",
+    "title": "Submit CME Registration Fee Reimbursement — Channel A (Q1 Dept CME Budget) — finance.dept@pumch.example",
+    "description": "Submit reimbursement claim for TXN-6007 (MedEd360 registration fee CNY 480.00) against Q1 2026 Emergency Department CME budget (remaining balance CNY 600.00 confirmed by Zhao Lei MSG-5079). Attach: original receipt for TXN-6007, MedEd360 enrollment confirmation. Send to finance.dept@pumch.example before 2026-03-31. Reference NOTE-146 for allocation logic. Do NOT include TXN-6010 or TXN-6012 in this submission (routed to Channel B per mutual exclusivity rule). Do NOT include TXN-6009 (duplicate dispute pending). Email drafted: MSG-5081.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -933,8 +933,8 @@
   },
   {
     "task_id": "TODO-561",
-    "title": "Submit CME Materials Expense Claim — Channel B (CME Office) — cme.office@pumch.cn",
-    "description": "Submit educational expense claim for TXN-6010 (supplementary materials CNY 120.00) + TXN-6012 (arrhythmia reference cards CNY 35.00) = CNY 155.00 total to PUMCH CME Office. Within supplementary sub-cap (CNY 200) and per-resident Q1 quota (CNY 300). Attach: receipts for TXN-6010 and TXN-6012, MedEd360 enrollment confirmation, completed CME Office Claim Form (PUMCH intranet). Send to cme.office@pumch.cn before 2026-03-31 17:00 hard cutoff. Reference NOTE-146. Email drafted: MSG-5082.",
+    "title": "Submit CME Materials Expense Claim — Channel B (CME Office) — cme.office@pumch.example",
+    "description": "Submit educational expense claim for TXN-6010 (supplementary materials CNY 120.00) + TXN-6012 (arrhythmia reference cards CNY 35.00) = CNY 155.00 total to PUMCH CME Office. Within supplementary sub-cap (CNY 200) and per-resident Q1 quota (CNY 300). Attach: receipts for TXN-6010 and TXN-6012, MedEd360 enrollment confirmation, completed CME Office Claim Form (PUMCH intranet). Send to cme.office@pumch.example before 2026-03-31 17:00 hard cutoff. Reference NOTE-146. Email drafted: MSG-5082.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -964,7 +964,7 @@
   {
     "task_id": "TODO-563",
     "title": "Confirm Channel A & Channel B Reimbursement Claim Approvals Before Q1 Close",
-    "description": "Follow up with Zhao Lei (CON-220, finance.dept@pumch.cn) to confirm Channel A claim (TXN-6017, CNY 480.00) is processed before 2026-03-31. Follow up with CME Office (cme.office@pumch.cn) to confirm Channel B claim (TXN-6018, CNY 155.00) is approved before 2026-03-31 17:00 hard cutoff. Total expected recovery: CNY 635.00. If either channel flags an issue, escalate immediately — no time to reroute after deadline. Reference NOTE-146 for allocation logic and policy compliance documentation.",
+    "description": "Follow up with Zhao Lei (CON-220, finance.dept@pumch.example) to confirm Channel A claim (TXN-6017, CNY 480.00) is processed before 2026-03-31. Follow up with CME Office (cme.office@pumch.example) to confirm Channel B claim (TXN-6018, CNY 155.00) is approved before 2026-03-31 17:00 hard cutoff. Total expected recovery: CNY 635.00. If either channel flags an issue, escalate immediately — no time to reroute after deadline. Reference NOTE-146 for allocation logic and policy compliance documentation.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-30",
@@ -995,7 +995,7 @@
   {
     "task_id": "TODO-565",
     "title": "ACTION REQUIRED: Process CSCM verification result (MSG-5083) — Unblock TODO-504 and finalize CardioCloud vendor rejection",
-    "description": "MSG-5083 from accreditation@cscm-china.org confirms CardioCloud Consult is NOT CSCM-accredited and their claimed accreditation number (CSCM-2025-ECG-0047) is invalid. This resolves the pending verification in TODO-504 (CON-206 check). Next steps: (1) Forward MSG-5083 to cardiology.admin@pumch.cn and finance.dept@pumch.cn; (2) Update vendor decision to REJECTED — do not proceed with any payment or engagement; (3) Notify Zhao Lei (Finance) that voucher VCH-2026-0031 must NOT be applied to CardioCloud; (4) Log outcome in vendor decision note.",
+    "description": "MSG-5083 from accreditation@cscm-china.example confirms CardioCloud Consult is NOT CSCM-accredited and their claimed accreditation number (CSCM-2025-ECG-0047) is invalid. This resolves the pending verification in TODO-504 (CON-206 check). Next steps: (1) Forward MSG-5083 to cardiology.admin@pumch.example and finance.dept@pumch.example; (2) Update vendor decision to REJECTED — do not proceed with any payment or engagement; (3) Notify Zhao Lei (Finance) that voucher VCH-2026-0031 must NOT be applied to CardioCloud; (4) Log outcome in vendor decision note.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -1011,7 +1011,7 @@
   {
     "task_id": "TODO-566",
     "title": "Confirm CME pathway decision to PUMCH CME Office — MedEd360 vs. NMEC free alternative (deadline 2026-03-31)",
-    "description": "MSG-5086 from cme.office@pumch.cn confirms 0 of 4 required Q1 Category I CME credits submitted. Must confirm pathway: (1) MedEd360 Emergency Cardiology module (registered, fee non-recoverable, incomplete) OR (2) NMEC free alternative. Pivot to NMEC pending Chen Rui's confirmation. Reply to cme.office@pumch.cn with chosen pathway before 2026-03-31 17:00. Note: sunk registration fee is non-recoverable regardless of path.",
+    "description": "MSG-5086 from cme.office@pumch.example confirms 0 of 4 required Q1 Category I CME credits submitted. Must confirm pathway: (1) MedEd360 Emergency Cardiology module (registered, fee non-recoverable, incomplete) OR (2) NMEC free alternative. Pivot to NMEC pending Cheng Lei's confirmation. Reply to cme.office@pumch.example with chosen pathway before 2026-03-31 17:00. Note: sunk registration fee is non-recoverable regardless of path.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -1042,7 +1042,7 @@
   {
     "task_id": "TODO-568",
     "title": "Confirm Li Wei availability for peer study session — get definitive yes/no by March 25",
-    "description": "Dr. Li Wei (li.wei@pumch.cn) expressed conditional availability for NMEC-CME-2026-EC06 peer study session on March 26 (09:30–11:30) but flagged that cardiology fellow coverage obligation may conflict. Need confirmed yes/no by March 25 to decide between peer path (EVT-352) and MedPrep Pro paid coaching (EVT-359 or EVT-354). If Li Wei is unavailable, pivot immediately to MedPrep Pro Slot A (March 27). References: MSG-5089, TODO-556, TODO-557, EVT-352.",
+    "description": "Dr. Li Wei (li.wei@pumch.example) expressed conditional availability for NMEC-CME-2026-EC06 peer study session on March 26 (09:30–11:30) but flagged that cardiology fellow coverage obligation may conflict. Need confirmed yes/no by March 25 to decide between peer path (EVT-352) and MedPrep Pro paid coaching (EVT-359 or EVT-354). If Li Wei is unavailable, pivot immediately to MedPrep Pro Slot A (March 27). References: MSG-5089, TODO-556, TODO-557, EVT-352.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-25",
@@ -1101,7 +1101,7 @@
   {
     "task_id": "TODO-572",
     "title": "Submit revised Q1 CME reimbursement claim to Zhao Lei before 2026-03-31",
-    "description": "Original draft claim included TXN-6020 (MedPrep Pro coaching fee, CNY 680) which is non-eligible per PUMCH CME Office policy (MSG-5080, MSG-5092). Revised claim removes TXN-6020 and substitutes TXN-6008 (arrhythmia booklet, CNY 120) and TXN-6012 (reference cards, CNY 35) to recover threshold compliance. Revised total: CNY 933 (above CNY 800 minimum). Send revised claim email to finance.dept@pumch.cn (Zhao Lei, CON-238) with all receipts attached. See NOTE-151 for full analysis. Deadline: 2026-03-31 end of business.",
+    "description": "Original draft claim included TXN-6020 (MedPrep Pro coaching fee, CNY 680) which is non-eligible per PUMCH CME Office policy (MSG-5080, MSG-5092). Revised claim removes TXN-6020 and substitutes TXN-6008 (arrhythmia booklet, CNY 120) and TXN-6012 (reference cards, CNY 35) to recover threshold compliance. Revised total: CNY 933 (above CNY 800 minimum). Send revised claim email to finance.dept@pumch.example (Zhao Lei, CON-238) with all receipts attached. See NOTE-151 for full analysis. Deadline: 2026-03-31 end of business.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -1148,7 +1148,7 @@
   {
     "task_id": "TODO-575",
     "title": "URGENT: Route ED cardiology consult — verify Dr. Li Wei actual availability before sending",
-    "description": "Urgent ED cardiology consult pending routing. Shared calendar (EVT-302) shows Dr. Li Wei (CON-201) as free post-morning handover, but must check recent email threads from li.wei@pumch.cn before sending consult request. MSG-5096 and MSG-5097 both confirm Li Wei is covering CICU emergency today (09:30–14:00+) and is unavailable for ED consults despite calendar surface status. Decision: escalate to Attending Supervisor Dr. Wang Fang (CON-242) via direct phone. Do NOT send consult to Li Wei — calendar is stale.",
+    "description": "Urgent ED cardiology consult pending routing. Shared calendar (EVT-302) shows Dr. Li Wei (CON-201) as free post-morning handover, but must check recent email threads from li.wei@pumch.example before sending consult request. MSG-5096 and MSG-5097 both confirm Li Wei is covering CICU emergency today (09:30–14:00+) and is unavailable for ED consults despite calendar surface status. Decision: escalate to Attending Supervisor Dr. Wang Fang (CON-242) via direct phone. Do NOT send consult to Li Wei — calendar is stale.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-25",
@@ -1164,7 +1164,7 @@
   {
     "task_id": "TODO-576",
     "title": "Flag shared calendar stale entry for Dr. Li Wei — notify PUMCH Scheduling to update EVT-302",
-    "description": "Dr. Li Wei's free block (EVT-302) on the shared hospital calendar remains incorrectly marked as available despite his reassignment to CICU emergency coverage. This caused a near-miss consult routing error on 2026-03-25. Need to notify scheduling coordinator (scheduling@pumch.cn) to update the shared calendar in real time when fellow coverage changes. Reference: MSG-5098 (cardiology.admin notice), EVT-363 (correct CICU coverage event added manually).",
+    "description": "Dr. Li Wei's free block (EVT-302) on the shared hospital calendar remains incorrectly marked as available despite his reassignment to CICU emergency coverage. This caused a near-miss consult routing error on 2026-03-25. Need to notify scheduling coordinator (scheduling@pumch.example) to update the shared calendar in real time when fellow coverage changes. Reference: MSG-5098 (cardiology.admin notice), EVT-363 (correct CICU coverage event added manually).",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-26",
@@ -1227,7 +1227,7 @@
   {
     "task_id": "TODO-580",
     "title": "Contact Zhao Lei (Finance) — Request Written Confirmation on VCH-2026-0031 Expiry Extension",
-    "description": "Contact Zhao Lei (CON-244, finance.dept@pumch.cn or zhao.lei@pumch.cn) to formally request written confirmation on whether prepaid voucher VCH-2026-0031 (CardioCloud ECG subscription, ¥18,800) can be extended past its 2026-03-29 expiry if CON-206 CSCM clearance is not obtained before that date. Zhao Lei flagged Q1 reimbursement submission window closes 2026-03-31 at 17:00. Send formal written email request — Zhao Lei prefers email. Document response in NOTE-109 or a new note. This is Alternative B per TODO-518/TODO-579 intercept chain. Prerequisite: do not execute payment before clearance regardless of voucher expiry outcome.",
+    "description": "Contact Zhao Lei (CON-244, finance.dept@pumch.example or zhao.lei@pumch.example) to formally request written confirmation on whether prepaid voucher VCH-2026-0031 (CardioCloud ECG subscription, ¥18,800) can be extended past its 2026-03-29 expiry if CON-206 CSCM clearance is not obtained before that date. Zhao Lei flagged Q1 reimbursement submission window closes 2026-03-31 at 17:00. Send formal written email request — Zhao Lei prefers email. Document response in NOTE-109 or a new note. This is Alternative B per TODO-518/TODO-579 intercept chain. Prerequisite: do not execute payment before clearance regardless of voucher expiry outcome.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -1291,7 +1291,7 @@
   {
     "task_id": "TODO-584",
     "title": "Request written CON-206 CSCM clearance certificate from CardioCloud before any commitment",
-    "description": "If CardioCloud Consult claims CSCM accreditation is confirmed (MSG-5104), formally request a written accreditation certificate with CSCM reference number via email to sales@cardiocloud-consult.com. Forward any received certificate to cardiology.admin@pumch.cn for independent verification. Do not treat vendor's verbal/email claim as sufficient evidence. This task is a prerequisite for unblocking TODO-518 and TODO-579. Reference: MSG-5105 (PUMCH Cardiology Admin instruction).",
+    "description": "If CardioCloud Consult claims CSCM accreditation is confirmed (MSG-5104), formally request a written accreditation certificate with CSCM reference number via email to sales@cardiocloud-consult.example. Forward any received certificate to cardiology.admin@pumch.example for independent verification. Do not treat vendor's verbal/email claim as sufficient evidence. This task is a prerequisite for unblocking TODO-518 and TODO-579. Reference: MSG-5105 (PUMCH Cardiology Admin instruction).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-30",
@@ -1306,7 +1306,7 @@
   {
     "task_id": "TODO-585",
     "title": "Confirm actual VCH-2026-0031 voucher expiry date with Zhao Lei (Finance Office) — do not rely on vendor claim",
-    "description": "CardioCloud Consult (MSG-5104) claims voucher VCH-2026-0031 expires within 24 hours. Per MSG-5106 (PUMCH Finance Dept), voucher expiry is governed by PUMCH procurement policy, not vendor notification. Contact Zhao Lei (finance.dept@pumch.cn, CON-246) to confirm actual expiry date and whether the voucher can be preserved pending CON-206 clearance. Cross-reference TXN-6001, TXN-6006, TXN-6024, EVT-326, EVT-368 for recorded expiry data.",
+    "description": "CardioCloud Consult (MSG-5104) claims voucher VCH-2026-0031 expires within 24 hours. Per MSG-5106 (PUMCH Finance Dept), voucher expiry is governed by PUMCH procurement policy, not vendor notification. Contact Zhao Lei (finance.dept@pumch.example, CON-246) to confirm actual expiry date and whether the voucher can be preserved pending CON-206 clearance. Cross-reference TXN-6001, TXN-6006, TXN-6024, EVT-326, EVT-368 for recorded expiry data.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-30",
@@ -1351,7 +1351,7 @@
   {
     "task_id": "TODO-588",
     "title": "Complete NMEC CME module NMEC-CME-2026-EC06 before Q1 submission deadline",
-    "description": "Complete all video modules and pass final assessment (≥70%) for NMEC-CME-2026-EC06 (Emergency Cardiology & Arrhythmia Management). Estimated 4–5 hours self-paced. Must complete before 2026-03-31 17:00 (PUMCH CME Office Q1 submission window close). Login: cme.nmec.edu.cn. Pathway selected after eliminating MedEd360 (time infeasible), MedPrep Pro (Category II only — not eligible), and peer study with Dr. Li Wei (scheduling conflict + not CME-creditable). See NOTE-159 for full decision rationale.",
+    "description": "Complete all video modules and pass final assessment (≥70%) for NMEC-CME-2026-EC06 (Emergency Cardiology & Arrhythmia Management). Estimated 4–5 hours self-paced. Must complete before 2026-03-31 17:00 (PUMCH CME Office Q1 submission window close). Login: cme.nmec.example. Pathway selected after eliminating MedEd360 (time infeasible), MedPrep Pro (Category II only — not eligible), and peer study with Dr. Li Wei (scheduling conflict + not CME-creditable). See NOTE-159 for full decision rationale.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-30",
@@ -1367,7 +1367,7 @@
   {
     "task_id": "TODO-589",
     "title": "Submit Q1 CME completion certificate to PUMCH CME Office by 17:00 March 31",
-    "description": "After completing NMEC-CME-2026-EC06 and receiving auto-generated completion certificate (issued within 2 hours of passing final assessment), submit to PUMCH CME Office (Wu Ying, CON-248, cme.office@pumch.cn) before Q1 submission window closes at 17:00 on 2026-03-31. Certificate format: PDF, auto-generated by NMEC portal. Also submit MedEd360 partial completion documentation for record (partial credits may apply to Q2 if policy allows — check with CME Office).",
+    "description": "After completing NMEC-CME-2026-EC06 and receiving auto-generated completion certificate (issued within 2 hours of passing final assessment), submit to PUMCH CME Office (Wu Ying, CON-248, cme.office@pumch.example) before Q1 submission window closes at 17:00 on 2026-03-31. Certificate format: PDF, auto-generated by NMEC portal. Also submit MedEd360 partial completion documentation for record (partial credits may apply to Q2 if policy allows — check with CME Office).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -1397,7 +1397,7 @@
   {
     "task_id": "TODO-591",
     "title": "URGENT: Notify Wu Ying — Cannot Cover March 29 ED Shift Due to Mandatory ICU Surge; Find Substitute",
-    "description": "Chen Rui has a mandatory ICU surge coverage block on March 29 (08:00–20:00, EVT-382) that directly conflicts with the informal ED afternoon coverage commitment made to Wu Ying (14:00–20:00, EVT-385/MSG-5114). Must: (1) Contact Wu Ying immediately to notify of the conflict; (2) Identify and confirm a substitute — Fang Bo (CON-251) is the primary candidate; (3) Notify scheduling@pumch.cn of the arrangement change. Must be resolved at least 24 hours before March 29 per surge protocol.",
+    "description": "Cheng Lei has a mandatory ICU surge coverage block on March 29 (08:00–20:00, EVT-382) that directly conflicts with the informal ED afternoon coverage commitment made to Wu Ying (14:00–20:00, EVT-385/MSG-5114). Must: (1) Contact Wu Ying immediately to notify of the conflict; (2) Identify and confirm a substitute — Fang Bo (CON-251) is the primary candidate; (3) Notify scheduling@pumch.example of the arrangement change. Must be resolved at least 24 hours before March 29 per surge protocol.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -1445,7 +1445,7 @@
   {
     "task_id": "TODO-594",
     "title": "Q1 Reimbursement Submission — Finance Deadline Check Before March 31 (Zhao Lei)",
-    "description": "Zhao Lei (Finance Office) flagged that the Q1 reimbursement submission window closes end of quarter. With ICU surge blocks consuming March 28–31 daytime hours, Chen Rui must verify whether any pending reimbursable expenditures (MedEd360 registration fee, NMEC module fee, reference materials) can be submitted remotely or require in-person Finance Office visit. Contact Zhao Lei (finance.dept@pumch.cn) to confirm if remote/electronic submission is accepted and clarify exact cutoff time. This is a secondary hard stop — cannot be deferred past March 31.",
+    "description": "Zhao Lei (Finance Office) flagged that the Q1 reimbursement submission window closes end of quarter. With ICU surge blocks consuming March 28–31 daytime hours, Cheng Lei must verify whether any pending reimbursable expenditures (MedEd360 registration fee, NMEC module fee, reference materials) can be submitted remotely or require in-person Finance Office visit. Contact Zhao Lei (finance.dept@pumch.example) to confirm if remote/electronic submission is accepted and clarify exact cutoff time. This is a secondary hard stop — cannot be deferred past March 31.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-31",
@@ -1629,7 +1629,7 @@
   {
     "task_id": "TODO-606",
     "title": "Contact Emergency Medicine Society — inquire about case study blog contributor opportunity",
-    "description": "Emergency Medicine Society bulletin (MSG-5128) seeking ED resident contributors for 'Real Cases, Real Learning' blog series. Topic focus aligns with Chen Rui's medical science blog interests (challenging diagnostic cases, protocol application). Send inquiry email to editor@emergency-med-society.org.cn expressing interest, reference recent Brugada-pattern case as potential submission topic. Low time investment, high alignment with existing blog goals.",
+    "description": "Emergency Medicine Society bulletin (MSG-5128) seeking ED resident contributors for 'Real Cases, Real Learning' blog series. Topic focus aligns with Cheng Lei's medical science blog interests (challenging diagnostic cases, protocol application). Send inquiry email to editor@emergency-med-society.example expressing interest, reference recent Brugada-pattern case as potential submission topic. Low time investment, high alignment with existing blog goals.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-29",
@@ -1658,7 +1658,7 @@
   {
     "task_id": "TODO-608",
     "title": "Submit Q1 reimbursement claims before March 31, 17:00 — finance deadline",
-    "description": "Q1 reimbursement submission window closes March 31, 17:00 (per MSG-5132). Must consolidate documentation and submit claims for: (1) MedEd360 registration (TXN-6022, CNY 933) — requires pivot documentation if switching to NMEC, (2) Reference materials (TXN-6034, CNY 267) — approved, receipt on file. Estimated time: 1-2 hours documentation consolidation (per NOTE-151). Administrative window allocated: EVT-399 (March 30, 14:00-16:00). SECOND PRIORITY after CME compliance. Late submission defers to Q2 with reduced approval probability. Contact: Zhao Lei (zhao.lei@pumch.cn).",
+    "description": "Q1 reimbursement submission window closes March 31, 17:00 (per MSG-5132). Must consolidate documentation and submit claims for: (1) MedEd360 registration (TXN-6022, CNY 933) — requires pivot documentation if switching to NMEC, (2) Reference materials (TXN-6034, CNY 267) — approved, receipt on file. Estimated time: 1-2 hours documentation consolidation (per NOTE-151). Administrative window allocated: EVT-399 (March 30, 14:00-16:00). SECOND PRIORITY after CME compliance. Late submission defers to Q2 with reduced approval probability. Contact: Zhao Lei (zhao.lei@pumch.example).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -1717,7 +1717,7 @@
   {
     "task_id": "TODO-612",
     "title": "Draft contingency email to PUMCH CME Office — manual credit override request template",
-    "description": "Prepare draft email to cme.office@pumch.cn requesting manual Q1 credit acceptance if NMEC portal posting is delayed beyond March 31 10:00. Include: (1) NMEC completion certificate screenshot, (2) module assessment timestamp proof, (3) reference to CME Office guidance in MSG-5135. Do NOT send unless NMEC credit fails to post by checkpoint time — hold as parallel safety net.",
+    "description": "Prepare draft email to cme.office@pumch.example requesting manual Q1 credit acceptance if NMEC portal posting is delayed beyond March 31 10:00. Include: (1) NMEC completion certificate screenshot, (2) module assessment timestamp proof, (3) reference to CME Office guidance in MSG-5135. Do NOT send unless NMEC credit fails to post by checkpoint time — hold as parallel safety net.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-29",
@@ -1760,7 +1760,7 @@
   {
     "task_id": "TODO-615",
     "title": "URGENT: Retrieve Wu Ying message history — verify informal shift commitment details",
-    "description": "Automated scheduling notification (MSG-5141) shows mandatory ICU surge coverage March 15 14:00-22:00, but memory suggests informal commitment to Wu Ying for same time slot. Must retrieve direct message thread to confirm: (1) exact date/time of Wu Ying's request, (2) Chen Rui's explicit acceptance, (3) whether shift coordinator was notified. Hidden information critical to assess conflict severity and binding nature of informal commitment.",
+    "description": "Automated scheduling notification (MSG-5141) shows mandatory ICU surge coverage March 15 14:00-22:00, but memory suggests informal commitment to Wu Ying for same time slot. Must retrieve direct message thread to confirm: (1) exact date/time of Wu Ying's request, (2) Cheng Lei's explicit acceptance, (3) whether shift coordinator was notified. Hidden information critical to assess conflict severity and binding nature of informal commitment.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-12",
@@ -1774,7 +1774,7 @@
   {
     "task_id": "TODO-616",
     "title": "Cross-verify mandatory ICU surge coverage against informal commitment timeline",
-    "description": "After retrieving Wu Ying message thread, determine: (1) Was informal commitment made before or after scheduling system locked Chen Rui's availability (March 11 23:59)? (2) Did Wu Ying notify shift coordinator as discussed? (3) Does residency policy recognize informal peer commitments as valid conflicts? Assess credibility and institutional weight of informal vs. mandatory assignment.",
+    "description": "After retrieving Wu Ying message thread, determine: (1) Was informal commitment made before or after scheduling system locked Cheng Lei's availability (March 11 23:59)? (2) Did Wu Ying notify shift coordinator as discussed? (3) Does residency policy recognize informal peer commitments as valid conflicts? Assess credibility and institutional weight of informal vs. mandatory assignment.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-12",
@@ -2093,7 +2093,7 @@
   {
     "task_id": "TODO-638",
     "title": "Draft and send Q1 CME reimbursement claim emails to Finance Office (Channel 1) and CME Office (Channel 2)",
-    "description": "Step 5 of Q1 CME reimbursement claim preparation. Draft two reimbursement claim emails before Q1 deadline (March 31, 17:00): (1) Channel 1 claim to zhao.lei@pumch.cn for MedEd360 registration fee (CNY 580, TXN-6015), attach receipt and reference policy MSG-5159. (2) Channel 2 claim to wu.ying@pumch.cn for study materials (CNY 120, TXN-6023) + coaching session (CNY 200, TXN-6031), claim CNY 300 maximum quota, attach itemized receipts and justification memo. Verify both claims reference correct transaction IDs, respect channel eligibility rules, and include all required documentation per policy. Send both emails by March 27 to allow processing buffer before deadline.",
+    "description": "Step 5 of Q1 CME reimbursement claim preparation. Draft two reimbursement claim emails before Q1 deadline (March 31, 17:00): (1) Channel 1 claim to zhao.lei@pumch.example for MedEd360 registration fee (CNY 580, TXN-6015), attach receipt and reference policy MSG-5159. (2) Channel 2 claim to wu.ying@pumch.example for study materials (CNY 120, TXN-6023) + coaching session (CNY 200, TXN-6031), claim CNY 300 maximum quota, attach itemized receipts and justification memo. Verify both claims reference correct transaction IDs, respect channel eligibility rules, and include all required documentation per policy. Send both emails by March 27 to allow processing buffer before deadline.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-27",
@@ -2236,7 +2236,7 @@
   {
     "task_id": "TODO-648",
     "title": "Forward Liu Fang's conditional pre-approval letter (MSG-5172) to Zhao Lei (Finance) — trigger voucher reservation",
-    "description": "Liu Fang (Cardiology Admin) has issued conditional pre-approval for CardioCloud vendor clearance (MSG-5172). Forward this email to Zhao Lei (zhao.lei@pumch.cn, Finance Office) to trigger the 7-day conditional voucher reservation per PUMCH Finance Policy §4.2.3. This breaks the circular dependency blocking TODO-518 payment execution. Reservation countdown starts upon Zhao Lei's receipt of the pre-approval letter.",
+    "description": "Liu Fang (Cardiology Admin) has issued conditional pre-approval for CardioCloud vendor clearance (MSG-5172). Forward this email to Zhao Lei (zhao.lei@pumch.example, Finance Office) to trigger the 7-day conditional voucher reservation per PUMCH Finance Policy §4.2.3. This breaks the circular dependency blocking TODO-518 payment execution. Reservation countdown starts upon Zhao Lei's receipt of the pre-approval letter.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -2251,7 +2251,7 @@
   {
     "task_id": "TODO-649",
     "title": "Obtain final CSCM institutional accreditation documentation from CardioCloud — forward to Liu Fang & Zhao Lei before March 29",
-    "description": "The conditional approval pathway (MSG-5172) requires final CSCM institutional accreditation documentation to execute payment. Contact CardioCloud Consult (support@cardiocloud-consult.com) to request expedited delivery of CSCM institutional verification documents. Must forward to both Liu Fang (Cardiology Admin) and Zhao Lei (Finance) by March 29 to meet quarter-end deadline. This is the final blocker for TODO-518 payment execution.",
+    "description": "The conditional approval pathway (MSG-5172) requires final CSCM institutional accreditation documentation to execute payment. Contact CardioCloud Consult (support@cardiocloud-consult.example) to request expedited delivery of CSCM institutional verification documents. Must forward to both Liu Fang (Cardiology Admin) and Zhao Lei (Finance) by March 29 to meet quarter-end deadline. This is the final blocker for TODO-518 payment execution.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-29",
@@ -2354,7 +2354,7 @@
   {
     "task_id": "TODO-656",
     "title": "Reply to Dr. Li Wei — confirm rescheduled peer study session dates",
-    "description": "Dr. Li Wei proposed rescheduling March 19 peer study session to March 20 evening (19:00-21:00) and March 27 session to March 28 or 29 (MSG-5178). Need to confirm acceptance and lock in dates. March 20 evening works (day after March 19 ICU shift, sufficient recovery time). March 28 evening also works (day after March 27 ICU shift). Send confirmation email to li.wei@pumch.cn by end of day March 17.",
+    "description": "Dr. Li Wei proposed rescheduling March 19 peer study session to March 20 evening (19:00-21:00) and March 27 session to March 28 or 29 (MSG-5178). Need to confirm acceptance and lock in dates. March 20 evening works (day after March 19 ICU shift, sufficient recovery time). March 28 evening also works (day after March 27 ICU shift). Send confirmation email to li.wei@pumch.example by end of day March 17.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-17",
@@ -2411,7 +2411,7 @@
   {
     "task_id": "TODO-660",
     "title": "Schedule Q2 protected study blocks and peer review sessions with Dr. Li Wei",
-    "description": "Create recurring calendar events for Q2 2026: (1) Protected study blocks: Every Sunday 19:00-22:00, April 6 - June 29 (13 weeks), label 'CME Study — Do Not Disturb', location 'Home (phone in airplane mode)'; (2) Peer review sessions with Dr. Li Wei: Bi-weekly Saturdays 10:00-11:30, starting 2026-04-05, alternating weeks (7 sessions total). Send calendar invites to li.wei@pumch.cn with agenda: 'NMEC module difficult case review + progress check'. Block both series as 'Busy' to prevent shift scheduling conflicts.",
+    "description": "Create recurring calendar events for Q2 2026: (1) Protected study blocks: Every Sunday 19:00-22:00, April 6 - June 29 (13 weeks), label 'CME Study — Do Not Disturb', location 'Home (phone in airplane mode)'; (2) Peer review sessions with Dr. Li Wei: Bi-weekly Saturdays 10:00-11:30, starting 2026-04-05, alternating weeks (7 sessions total). Send calendar invites to li.wei@pumch.example with agenda: 'NMEC module difficult case review + progress check'. Block both series as 'Busy' to prevent shift scheduling conflicts.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-30",
@@ -2497,7 +2497,7 @@
   },
   {
     "task_id": "TODO-666",
-    "title": "Draft Channel 1 reimbursement claim email to finance.dept@pumch.cn",
+    "title": "Draft Channel 1 reimbursement claim email to finance.dept@pumch.example",
     "description": "After allocation calculation in TODO-665, draft itemized claim email for Channel 1 (Departmental CME Budget) with transaction references for eligible expenses (registration fees, coaching sessions allocated to Channel 1). Must include TXN-XXXX references and confirm no overlap with Channel 2 submission.",
     "status": "pending",
     "priority": "high",
@@ -2512,7 +2512,7 @@
   },
   {
     "task_id": "TODO-667",
-    "title": "Draft Channel 2 reimbursement claim email to cme.office@pumch.cn",
+    "title": "Draft Channel 2 reimbursement claim email to cme.office@pumch.example",
     "description": "After allocation calculation in TODO-665, draft itemized claim email for Channel 2 (CME Office Educational Expense Claim) with transaction references for eligible expenses (reference materials, coaching sessions allocated to Channel 2). Must include TXN-XXXX references and confirm no overlap with Channel 1 submission.",
     "status": "pending",
     "priority": "high",
@@ -2544,7 +2544,7 @@
   {
     "task_id": "TODO-669",
     "title": "Confirm Option B for CardioCloud vendor meeting reschedule — reply to Wang Jing by March 26, 18:00",
-    "description": "Read MSG-5192 (rescheduling request from Wang Jing). Cross-check Option A (March 30, 14:00-15:30) against EVT-389 (mandatory ICU surge coverage, March 30, 08:00-20:00) — hard conflict, Option A is not feasible. Cross-check Option B (March 27, 10:00-11:30) against EVT-386 (NMEC CME study window, March 27, 20:00-23:00) — no conflict, 8.5-hour buffer is sufficient. Verify Option B does not interfere with EVT-325 (meeting prep block, March 27, 12:00-14:00) — prep time is preserved. Confirm Option B as the only executable slot. Draft reply to cardiology.admin@pumch.cn confirming Option B and referencing EVT-317/EVT-324 meeting event IDs. Send reply before March 26, 18:00 deadline.",
+    "description": "Read MSG-5192 (rescheduling request from Wang Jing). Cross-check Option A (March 30, 14:00-15:30) against EVT-389 (mandatory ICU surge coverage, March 30, 08:00-20:00) — hard conflict, Option A is not feasible. Cross-check Option B (March 27, 10:00-11:30) against EVT-386 (NMEC CME study window, March 27, 20:00-23:00) — no conflict, 8.5-hour buffer is sufficient. Verify Option B does not interfere with EVT-325 (meeting prep block, March 27, 12:00-14:00) — prep time is preserved. Confirm Option B as the only executable slot. Draft reply to cardiology.admin@pumch.example confirming Option B and referencing EVT-317/EVT-324 meeting event IDs. Send reply before March 26, 18:00 deadline.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -2587,7 +2587,7 @@
   {
     "task_id": "TODO-672",
     "title": "Calculate optimal Q1 CME reimbursement allocation across dual channels before March 31 deadline",
-    "description": "Total Q1 CME expenses approximately CNY 1,905 (per MSG-5198 finance summary). Combined reimbursement cap is CNY 1,300 (Channel 1: CNY 800, Channel 2: CNY 500 with CNY 200 materials sub-cap). Must allocate expenses across channels to maximize recovery while respecting eligibility rules: registration fees → Channel 1, coaching sessions + materials → Channel 2. Submission deadline March 31, 17:00 for both channels. Need to draft claim emails to finance.dept@pumch.cn and cme.office@pumch.cn with proper expense categorization and supporting documentation references.",
+    "description": "Total Q1 CME expenses approximately CNY 1,905 (per MSG-5198 finance summary). Combined reimbursement cap is CNY 1,300 (Channel 1: CNY 800, Channel 2: CNY 500 with CNY 200 materials sub-cap). Must allocate expenses across channels to maximize recovery while respecting eligibility rules: registration fees → Channel 1, coaching sessions + materials → Channel 2. Submission deadline March 31, 17:00 for both channels. Need to draft claim emails to finance.dept@pumch.example and cme.office@pumch.example with proper expense categorization and supporting documentation references.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -2687,7 +2687,7 @@
   {
     "task_id": "TODO-679",
     "title": "Apply persona dimension weights to CME pathway selection — manage sunk cost bias",
-    "description": "Weight decision dimensions based on Chen Rui's context: (1) Time scarcity is HIGH (ICU surge blocks study window, burnout risk), (2) Deadline risk minimization is CRITICAL (residency compliance requirement), (3) Sunk cost recovery is psychologically salient but should be deprioritized (ISTJ perfectionism creates completion bias, but impatience with inefficient systems should override). Document psychological conflict between completing paid MedEd360 vs. pivoting to higher-probability NMEC path. Select optimal pathway from Pareto frontier and generate action plan.",
+    "description": "Weight decision dimensions based on Cheng Lei's context: (1) Time scarcity is HIGH (ICU surge blocks study window, burnout risk), (2) Deadline risk minimization is CRITICAL (residency compliance requirement), (3) Sunk cost recovery is psychologically salient but should be deprioritized (ISTJ perfectionism creates completion bias, but impatience with inefficient systems should override). Document psychological conflict between completing paid MedEd360 vs. pivoting to higher-probability NMEC path. Select optimal pathway from Pareto frontier and generate action plan.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-19",

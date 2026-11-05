@@ -5,9 +5,9 @@
     "start_time": "2026-03-25T10:00:00+08:00",
     "end_time": "2026-03-25T11:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "attending.supervisor@pumch.cn",
-      "ed.team@pumch.cn"
+      "cheng.lei@pumch.example",
+      "attending.supervisor@pumch.example",
+      "ed.team@pumch.example"
     ],
     "location": "Emergency Department, Ward A, PUMCH",
     "recurring": "daily"
@@ -18,7 +18,7 @@
     "start_time": "2026-03-25T08:30:00+08:00",
     "end_time": "2026-03-25T10:00:00+08:00",
     "attendees": [
-      "li.wei@pumch.cn"
+      "li.wei@pumch.example"
     ],
     "location": "Cardiology Department, PUMCH",
     "recurring": "none"
@@ -29,7 +29,7 @@
     "start_time": "2026-03-25T08:00:00+08:00",
     "end_time": "2026-03-25T08:35:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Online / CardioCloud Platform",
     "recurring": "none"
@@ -40,7 +40,7 @@
     "start_time": "2026-03-25T08:00:00+08:00",
     "end_time": "2026-03-26T08:00:00+08:00",
     "attendees": [
-      "zhang.hao@pumch.cn"
+      "zhang.hao@pumch.example"
     ],
     "location": "ICU, PUMCH",
     "recurring": "none"
@@ -51,8 +51,8 @@
     "start_time": "2026-03-10T12:00:00+08:00",
     "end_time": "2026-03-10T13:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "support@cardiocloud-consult.com"
+      "cheng.lei@pumch.example",
+      "support@cardiocloud-consult.example"
     ],
     "location": "Online (Zoom link provided by vendor)",
     "recurring": "none"
@@ -63,7 +63,7 @@
     "start_time": "2026-03-25T20:00:00+08:00",
     "end_time": "2026-03-25T21:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Resident on-call room, ED floor",
     "recurring": "none"
@@ -74,8 +74,8 @@
     "start_time": "2026-03-25T11:30:00+08:00",
     "end_time": "2026-03-25T12:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "PUMCH Cardiology Admin Office / Remote",
     "recurring": "none"
@@ -86,8 +86,8 @@
     "start_time": "2026-03-25T09:45:00+08:00",
     "end_time": "2026-03-25T10:15:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "attending.supervisor@pumch.cn"
+      "cheng.lei@pumch.example",
+      "attending.supervisor@pumch.example"
     ],
     "location": "Emergency Department, PUMCH — Workstation Bay 3",
     "recurring": "none"
@@ -98,7 +98,7 @@
     "start_time": "2026-03-26T16:00:00+08:00",
     "end_time": "2026-03-26T16:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Office, PUMCH",
     "recurring": "none"
@@ -109,7 +109,7 @@
     "start_time": "2026-03-26T23:30:00+08:00",
     "end_time": "2026-03-26T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "",
     "recurring": "none"
@@ -120,8 +120,8 @@
     "start_time": "2026-03-27T09:00:00+08:00",
     "end_time": "2026-03-27T09:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "ED Resident Office, PUMCH",
     "recurring": "none"
@@ -132,8 +132,8 @@
     "start_time": "2026-03-26T11:00:00+08:00",
     "end_time": "2026-03-26T11:45:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "li.wei@pumch.cn"
+      "cheng.lei@pumch.example",
+      "li.wei@pumch.example"
     ],
     "location": "Cardiology Fellow Office, PUMCH",
     "recurring": "none"
@@ -144,7 +144,7 @@
     "start_time": "2026-03-25T10:30:00+08:00",
     "end_time": "2026-03-25T12:00:00+08:00",
     "attendees": [
-      "zhang.hao@pumch.cn"
+      "zhang.hao@pumch.example"
     ],
     "location": "Cardiology Department, PUMCH",
     "recurring": "none"
@@ -155,7 +155,7 @@
     "start_time": "2026-03-25T08:00:00+08:00",
     "end_time": "2026-03-25T20:00:00+08:00",
     "attendees": [
-      "zhang.hao@pumch.cn"
+      "zhang.hao@pumch.example"
     ],
     "location": "ICU, PUMCH",
     "recurring": "none"
@@ -166,8 +166,8 @@
     "start_time": "2026-03-26T09:00:00+08:00",
     "end_time": "2026-03-26T09:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "PUMCH Cardiology Admin Office",
     "recurring": "none"
@@ -178,7 +178,7 @@
     "start_time": "2026-03-26T14:00:00+08:00",
     "end_time": "2026-03-26T15:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Residents' Station, PUMCH",
     "recurring": "none"
@@ -189,8 +189,8 @@
     "start_time": "2026-03-27T10:00:00+08:00",
     "end_time": "2026-03-27T10:30:00+08:00",
     "attendees": [
-      "cardiology.admin@pumch.cn",
-      "chen.rui@pumch.cn"
+      "cardiology.admin@pumch.example",
+      "cheng.lei@pumch.example"
     ],
     "location": "Cardiology Department Admin Office, PUMCH",
     "recurring": "none"
@@ -201,8 +201,8 @@
     "start_time": "2026-03-27T07:45:00+08:00",
     "end_time": "2026-03-27T08:15:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "attending.supervisor@pumch.cn"
+      "cheng.lei@pumch.example",
+      "attending.supervisor@pumch.example"
     ],
     "location": "Conference Room B, ED Floor, PUMCH",
     "recurring": "none"
@@ -213,7 +213,7 @@
     "start_time": "2026-03-19T18:00:00+08:00",
     "end_time": "2026-03-19T19:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Resident Lounge, ED Building B",
     "recurring": "none"
@@ -224,7 +224,7 @@
     "start_time": "2026-03-21T18:00:00+08:00",
     "end_time": "2026-03-21T19:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Resident Lounge, ED Building B",
     "recurring": "none"
@@ -235,7 +235,7 @@
     "start_time": "2026-03-22T20:00:00+08:00",
     "end_time": "2026-03-23T08:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Emergency Department, PUMCH Main Building",
     "recurring": "none"
@@ -246,7 +246,7 @@
     "start_time": "2026-03-31T23:00:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "",
     "recurring": "none"
@@ -257,7 +257,7 @@
     "start_time": "2026-03-25T12:00:00+08:00",
     "end_time": "2026-03-25T12:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Resident Office, ED Building B",
     "recurring": "none"
@@ -268,8 +268,8 @@
     "start_time": "2026-03-27T14:00:00+08:00",
     "end_time": "2026-03-27T15:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "Cardiology Department Admin Office, Room 412, East Wing, PUMCH",
     "recurring": "none"
@@ -280,7 +280,7 @@
     "start_time": "2026-03-27T12:00:00+08:00",
     "end_time": "2026-03-27T13:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Office, PUMCH",
     "recurring": "none"
@@ -291,8 +291,8 @@
     "start_time": "2026-03-31T23:00:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "finance.dept@pumch.cn"
+      "cheng.lei@pumch.example",
+      "finance.dept@pumch.example"
     ],
     "location": "N/A — Deadline Marker",
     "recurring": "none"
@@ -303,8 +303,8 @@
     "start_time": "2026-03-27T15:30:00+08:00",
     "end_time": "2026-03-27T17:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "attending.supervisor@pumch.cn"
+      "cheng.lei@pumch.example",
+      "attending.supervisor@pumch.example"
     ],
     "location": "Emergency Department Teaching Room, PUMCH",
     "recurring": "none"
@@ -315,7 +315,7 @@
     "start_time": "2026-02-08T14:00:00+08:00",
     "end_time": "2026-02-08T16:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Lounge, PUMCH",
     "recurring": "none"
@@ -326,7 +326,7 @@
     "start_time": "2026-02-22T13:00:00+08:00",
     "end_time": "2026-02-22T15:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Lounge, PUMCH",
     "recurring": "none"
@@ -337,7 +337,7 @@
     "start_time": "2026-03-18T20:00:00+08:00",
     "end_time": "2026-03-19T08:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Emergency Department, PUMCH",
     "recurring": "none"
@@ -348,7 +348,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "",
     "recurring": "none"
@@ -359,7 +359,7 @@
     "start_time": "2026-03-28T14:00:00+08:00",
     "end_time": "2026-03-28T19:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Lounge, PUMCH",
     "recurring": "none"
@@ -370,7 +370,7 @@
     "start_time": "2026-03-25T18:00:00+08:00",
     "end_time": "2026-03-25T18:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Office / Remote",
     "recurring": "none"
@@ -381,7 +381,7 @@
     "start_time": "2026-03-26T19:00:00+08:00",
     "end_time": "2026-03-26T22:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Office",
     "recurring": "none"
@@ -392,9 +392,9 @@
     "start_time": "2026-03-31T23:00:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
-    "location": "NMEC Portal — https://cme.nmec.org.cn",
+    "location": "NMEC Portal — https://cme.nmec.example",
     "recurring": "none"
   },
   {
@@ -403,7 +403,7 @@
     "start_time": "2026-03-28T20:00:00+08:00",
     "end_time": "2026-03-29T08:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Emergency Department, PUMCH",
     "recurring": "none"
@@ -414,7 +414,7 @@
     "start_time": "2026-03-27T08:00:00+08:00",
     "end_time": "2026-03-31T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
+      "cheng.lei@pumch.example",
       "All ED/ICU Residents"
     ],
     "location": "PUMCH ICU & Emergency Department",
@@ -426,8 +426,8 @@
     "start_time": "2026-03-31T14:00:00+08:00",
     "end_time": "2026-03-31T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "wu.ying@pumch.cn"
+      "cheng.lei@pumch.example",
+      "wu.ying@pumch.example"
     ],
     "location": "PUMCH Emergency Department",
     "recurring": "none"
@@ -438,7 +438,7 @@
     "start_time": "2026-03-29T19:00:00+08:00",
     "end_time": "2026-03-29T22:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Self-study (remote access)",
     "recurring": "none"
@@ -449,7 +449,7 @@
     "start_time": "2026-03-28T09:00:00+08:00",
     "end_time": "2026-03-28T09:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "PUMCH ED Resident Office",
     "recurring": "none"
@@ -460,8 +460,8 @@
     "start_time": "2026-03-30T08:00:00+08:00",
     "end_time": "2026-03-30T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — Building B, Floor 4",
     "recurring": "none"
@@ -472,8 +472,8 @@
     "start_time": "2026-03-31T08:00:00+08:00",
     "end_time": "2026-03-31T14:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — Building B, Floor 4",
     "recurring": "none"
@@ -484,8 +484,8 @@
     "start_time": "2026-03-31T14:00:00+08:00",
     "end_time": "2026-03-31T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "wu.ying@pumch.cn"
+      "cheng.lei@pumch.example",
+      "wu.ying@pumch.example"
     ],
     "location": "PUMCH Emergency Department",
     "recurring": "none"
@@ -496,7 +496,7 @@
     "start_time": "2026-03-29T14:00:00+08:00",
     "end_time": "2026-03-29T19:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "PUMCH Resident Study Room, Floor 2",
     "recurring": "none"
@@ -507,9 +507,9 @@
     "start_time": "2026-03-30T14:00:00+08:00",
     "end_time": "2026-03-30T15:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn",
-      "sales@cardiocloud-consult.com"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example",
+      "sales@cardiocloud-consult.example"
     ],
     "location": "Cardiology Department Conference Room B, West Building 4F",
     "recurring": "none"
@@ -520,9 +520,9 @@
     "start_time": "2026-03-27T10:00:00+08:00",
     "end_time": "2026-03-27T11:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn",
-      "sales@cardiocloud-consult.com"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example",
+      "sales@cardiocloud-consult.example"
     ],
     "location": "Cardiology Department Conference Room B, West Building 4F",
     "recurring": "none"
@@ -533,7 +533,7 @@
     "start_time": "2026-03-28T13:00:00+08:00",
     "end_time": "2026-03-28T15:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "PUMCH Resident Lounge / Self-study room B2",
     "recurring": "none"
@@ -544,7 +544,7 @@
     "start_time": "2026-03-29T20:00:00+08:00",
     "end_time": "2026-03-29T21:30:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Online — NMEC Learning Portal",
     "recurring": "none"
@@ -555,7 +555,7 @@
     "start_time": "2026-03-31T22:00:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Online — CME submission portal",
     "recurring": "none"
@@ -566,7 +566,7 @@
     "start_time": "2026-02-09T21:00:00+08:00",
     "end_time": "2026-02-10T08:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "PUMCH ICU — Ward 7",
     "recurring": "none"
@@ -577,7 +577,7 @@
     "start_time": "2026-03-28T10:00:00+08:00",
     "end_time": "2026-03-28T11:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Remote (Zoom — link pending booking confirmation)",
     "recurring": "none"
@@ -588,8 +588,8 @@
     "start_time": "2026-03-28T08:30:00+08:00",
     "end_time": "2026-03-28T09:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "li.wei@pumch.cn"
+      "cheng.lei@pumch.example",
+      "li.wei@pumch.example"
     ],
     "location": "PUMCH Cardiology Fellow Office (or ED Break Room — TBC)",
     "recurring": "none"
@@ -600,7 +600,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "",
     "recurring": "none"
@@ -611,7 +611,7 @@
     "start_time": "2026-03-30T15:00:00+08:00",
     "end_time": "2026-03-30T17:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Workroom",
     "recurring": "none"
@@ -622,7 +622,7 @@
     "start_time": "2026-03-26T13:00:00+08:00",
     "end_time": "2026-03-26T14:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Workstation, PUMCH",
     "recurring": "none"
@@ -633,8 +633,8 @@
     "start_time": "2026-03-26T14:00:00+08:00",
     "end_time": "2026-03-26T14:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "ED Resident Office, PUMCH",
     "recurring": "none"
@@ -645,7 +645,7 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "PUMCH CME Office / Finance Office",
     "recurring": "none"
@@ -656,8 +656,8 @@
     "start_time": "2026-03-27T18:00:00+08:00",
     "end_time": "2026-03-27T18:15:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "wang.jing@pumch.cn"
+      "cheng.lei@pumch.example",
+      "wang.jing@pumch.example"
     ],
     "location": "PUMCH Scheduling Portal (online)",
     "recurring": "none"
@@ -668,7 +668,7 @@
     "start_time": "2026-03-27T14:00:00+08:00",
     "end_time": "2026-03-27T17:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Remote (MedPrep Pro online platform)",
     "recurring": "none"
@@ -679,8 +679,8 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "finance.dept@pumch.cn"
+      "cheng.lei@pumch.example",
+      "finance.dept@pumch.example"
     ],
     "location": "PUMCH Finance Office",
     "recurring": "none"
@@ -691,7 +691,7 @@
     "start_time": "2026-03-30T21:00:00+08:00",
     "end_time": "2026-03-30T23:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Personal device / ED on-call room",
     "recurring": "none"
@@ -702,8 +702,8 @@
     "start_time": "2026-03-25T09:00:00+08:00",
     "end_time": "2026-03-25T09:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "li.wei@pumch.cn"
+      "cheng.lei@pumch.example",
+      "li.wei@pumch.example"
     ],
     "location": "TBD — PUMCH Cardiology or ED",
     "recurring": "none"
@@ -714,8 +714,8 @@
     "start_time": "2026-03-25T09:30:00+08:00",
     "end_time": "2026-03-25T17:00:00+08:00",
     "attendees": [
-      "li.wei@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "li.wei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "PUMCH Cardiac Intensive Care Unit (CICU), Building 2, Floor 4",
     "recurring": "none"
@@ -726,8 +726,8 @@
     "start_time": "2026-03-25T10:15:00+08:00",
     "end_time": "2026-03-25T10:45:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "attending.supervisor@pumch.cn"
+      "cheng.lei@pumch.example",
+      "attending.supervisor@pumch.example"
     ],
     "location": "Emergency Department, PUMCH, Consultation Room 2",
     "recurring": "none"
@@ -738,8 +738,8 @@
     "start_time": "2026-03-25T09:15:00+08:00",
     "end_time": "2026-03-25T09:30:00+08:00",
     "attendees": [
-      "li.wei@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "li.wei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "PUMCH Cardiac Intensive Care Unit (CICU), Building 2, Floor 4",
     "recurring": "none"
@@ -750,9 +750,9 @@
     "start_time": "2026-03-27T14:00:00+08:00",
     "end_time": "2026-03-27T14:30:00+08:00",
     "attendees": [
-      "li.wei@pumch.cn",
-      "cardiology.admin@pumch.cn",
-      "scheduling@pumch.cn"
+      "li.wei@pumch.example",
+      "cardiology.admin@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "Cardiology Department Office, PUMCH Building 1, Floor 3",
     "recurring": "weekly"
@@ -763,7 +763,7 @@
     "start_time": "2026-03-28T08:00:00+08:00",
     "end_time": "2026-03-28T08:15:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "N/A — Internal Alert",
     "recurring": "none"
@@ -774,8 +774,8 @@
     "start_time": "2026-03-29T23:59:00+08:00",
     "end_time": "2026-03-29T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "finance.dept@pumch.cn"
+      "cheng.lei@pumch.example",
+      "finance.dept@pumch.example"
     ],
     "location": "N/A — Deadline Marker",
     "recurring": "none"
@@ -786,8 +786,8 @@
     "start_time": "2026-03-31T10:00:00+08:00",
     "end_time": "2026-03-31T10:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "PUMCH Cardiology Admin Office",
     "recurring": "none"
@@ -798,8 +798,8 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "finance.dept@pumch.cn"
+      "cheng.lei@pumch.example",
+      "finance.dept@pumch.example"
     ],
     "location": "N/A — Deadline Marker",
     "recurring": "none"
@@ -810,7 +810,7 @@
     "start_time": "2026-03-30T14:00:00+08:00",
     "end_time": "2026-03-30T14:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Resident Office, PUMCH",
     "recurring": "none"
@@ -821,8 +821,8 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "finance.dept@pumch.cn"
+      "cheng.lei@pumch.example",
+      "finance.dept@pumch.example"
     ],
     "location": "PUMCH Finance Office",
     "recurring": "none"
@@ -833,8 +833,8 @@
     "start_time": "2026-03-30T08:00:00+08:00",
     "end_time": "2026-03-30T09:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "attending.supervisor@pumch.cn"
+      "cheng.lei@pumch.example",
+      "attending.supervisor@pumch.example"
     ],
     "location": "ED Ward, PUMCH",
     "recurring": "daily"
@@ -845,8 +845,8 @@
     "start_time": "2026-03-31T10:00:00+08:00",
     "end_time": "2026-03-31T10:20:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "Phone / PUMCH Internal Line",
     "recurring": "none"
@@ -857,8 +857,8 @@
     "start_time": "2026-03-20T08:00:00+08:00",
     "end_time": "2026-03-20T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — Building 3, Floor 4",
     "recurring": "none"
@@ -869,8 +869,8 @@
     "start_time": "2026-03-21T08:00:00+08:00",
     "end_time": "2026-03-21T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — Building 3, Floor 4",
     "recurring": "none"
@@ -881,8 +881,8 @@
     "start_time": "2026-03-22T08:00:00+08:00",
     "end_time": "2026-03-22T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — Building 3, Floor 4",
     "recurring": "none"
@@ -893,7 +893,7 @@
     "start_time": "2026-03-24T19:00:00+08:00",
     "end_time": "2026-03-24T21:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Remote / Personal Device",
     "recurring": "none"
@@ -904,7 +904,7 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "PUMCH CME Office — Administrative Building",
     "recurring": "none"
@@ -915,55 +915,55 @@
     "start_time": "2026-03-19T08:00:00+08:00",
     "end_time": "2026-03-28T20:00:00+08:00",
     "attendees": [
-      "li.wei@pumch.cn"
+      "li.wei@pumch.example"
     ],
     "location": "PUMCH Cardiology Department",
     "recurring": "none"
   },
   {
     "event_id": "EVT-381",
-    "title": "MANDATORY ICU Surge Coverage Block — Chen Rui (Surge Protocol 4.2)",
+    "title": "MANDATORY ICU Surge Coverage Block — Cheng Lei (Surge Protocol 4.2)",
     "start_time": "2026-03-28T08:00:00+08:00",
     "end_time": "2026-03-28T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — 5F East Wing",
     "recurring": "none"
   },
   {
     "event_id": "EVT-382",
-    "title": "MANDATORY ICU Surge Coverage Block — Chen Rui (Surge Protocol 4.2)",
+    "title": "MANDATORY ICU Surge Coverage Block — Cheng Lei (Surge Protocol 4.2)",
     "start_time": "2026-03-29T08:00:00+08:00",
     "end_time": "2026-03-29T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — 5F East Wing",
     "recurring": "none"
   },
   {
     "event_id": "EVT-383",
-    "title": "MANDATORY ICU Surge Coverage Block — Chen Rui (Surge Protocol 4.2)",
+    "title": "MANDATORY ICU Surge Coverage Block — Cheng Lei (Surge Protocol 4.2)",
     "start_time": "2026-03-30T07:00:00+08:00",
     "end_time": "2026-03-30T19:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — 5F East Wing",
     "recurring": "none"
   },
   {
     "event_id": "EVT-384",
-    "title": "MANDATORY ICU Surge Coverage Block — Chen Rui (Surge Protocol 4.2)",
+    "title": "MANDATORY ICU Surge Coverage Block — Cheng Lei (Surge Protocol 4.2)",
     "start_time": "2026-03-31T07:00:00+08:00",
     "end_time": "2026-03-31T15:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU — 5F East Wing",
     "recurring": "none"
@@ -974,8 +974,8 @@
     "start_time": "2026-03-29T14:00:00+08:00",
     "end_time": "2026-03-29T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "wu.ying@pumch.cn"
+      "cheng.lei@pumch.example",
+      "wu.ying@pumch.example"
     ],
     "location": "PUMCH Emergency Department",
     "recurring": "none"
@@ -986,7 +986,7 @@
     "start_time": "2026-03-27T20:00:00+08:00",
     "end_time": "2026-03-27T23:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Remote / Self-Study",
     "recurring": "none"
@@ -997,7 +997,7 @@
     "start_time": "2026-03-31T20:00:00+08:00",
     "end_time": "2026-03-31T23:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "Remote / Self-Study",
     "recurring": "none"
@@ -1008,9 +1008,9 @@
     "start_time": "2026-03-27T14:00:00+08:00",
     "end_time": "2026-03-27T15:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "sales@cardiocloud-consult.com",
-      "cardiology.admin@pumch.cn"
+      "cheng.lei@pumch.example",
+      "sales@cardiocloud-consult.example",
+      "cardiology.admin@pumch.example"
     ],
     "location": "Remote — Video Call",
     "recurring": "none"
@@ -1021,8 +1021,8 @@
     "start_time": "2026-03-30T08:00:00+08:00",
     "end_time": "2026-03-30T20:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU, Building 3",
     "recurring": "none"
@@ -1033,8 +1033,8 @@
     "start_time": "2026-03-31T08:00:00+08:00",
     "end_time": "2026-03-31T14:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "scheduling@pumch.cn"
+      "cheng.lei@pumch.example",
+      "scheduling@pumch.example"
     ],
     "location": "PUMCH ICU, Building 3",
     "recurring": "none"
@@ -1045,7 +1045,7 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:30:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "N/A — Administrative Deadline Marker",
     "recurring": "none"
@@ -1056,7 +1056,7 @@
     "start_time": "2026-03-29T14:00:00+08:00",
     "end_time": "2026-03-29T15:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "ED Residents' Office",
     "recurring": "none"
@@ -1067,7 +1067,7 @@
     "start_time": "2026-03-28T18:00:00+08:00",
     "end_time": "2026-03-28T19:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Personal calendar block",
     "recurring": "none"
@@ -1078,7 +1078,7 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Finance Office deadline marker",
     "recurring": "none"
@@ -1089,7 +1089,7 @@
     "start_time": "2026-03-30T23:59:00+08:00",
     "end_time": "2026-03-30T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "NMEC platform deadline marker",
     "recurring": "none"
@@ -1100,7 +1100,7 @@
     "start_time": "2026-03-28T08:00:00+08:00",
     "end_time": "2026-03-28T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "PUMCH ICU",
@@ -1112,7 +1112,7 @@
     "start_time": "2026-03-29T08:00:00+08:00",
     "end_time": "2026-03-29T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "PUMCH ICU",
@@ -1124,7 +1124,7 @@
     "start_time": "2026-03-27T19:00:00+08:00",
     "end_time": "2026-03-27T23:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": ""
@@ -1135,18 +1135,18 @@
     "start_time": "2026-03-30T14:00:00+08:00",
     "end_time": "2026-03-30T16:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home/Office",
     "recurring": ""
   },
   {
     "event_id": "EVT-400",
-    "title": "ICU Surge Mandatory Coverage — Chen Rui",
+    "title": "ICU Surge Mandatory Coverage — Cheng Lei",
     "start_time": "2026-03-30T08:00:00+08:00",
     "end_time": "2026-03-30T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Attending Staff"
     ],
     "location": "PUMCH ICU",
@@ -1154,11 +1154,11 @@
   },
   {
     "event_id": "EVT-401",
-    "title": "ICU Surge Mandatory Coverage — Chen Rui (Day 2)",
+    "title": "ICU Surge Mandatory Coverage — Cheng Lei (Day 2)",
     "start_time": "2026-03-31T08:00:00+08:00",
     "end_time": "2026-03-31T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Attending Staff"
     ],
     "location": "PUMCH ICU",
@@ -1170,7 +1170,7 @@
     "start_time": "2026-03-29T18:00:00+08:00",
     "end_time": "2026-03-29T22:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home / Remote",
     "recurring": ""
@@ -1181,7 +1181,7 @@
     "start_time": "2026-03-27T19:00:00+08:00",
     "end_time": "2026-03-27T23:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home / Remote",
     "recurring": ""
@@ -1192,7 +1192,7 @@
     "start_time": "2026-03-15T14:00:00+08:00",
     "end_time": "2026-03-15T22:00:00+08:00",
     "attendees": [
-      "Chen Rui (covering for Wu Ying)"
+      "Cheng Lei (covering for Wu Ying)"
     ],
     "location": "Emergency Department",
     "recurring": ""
@@ -1203,7 +1203,7 @@
     "start_time": "2026-03-15T14:00:00+08:00",
     "end_time": "2026-03-15T22:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Ward 3 Team"
     ],
     "location": "ICU Ward 3, Building B",
@@ -1215,7 +1215,7 @@
     "start_time": "2026-03-16T10:00:00+08:00",
     "end_time": "2026-03-16T12:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Resident Study Room",
     "recurring": ""
@@ -1238,7 +1238,7 @@
     "start_time": "2026-04-06T09:00:00+08:00",
     "end_time": "2026-04-06T11:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home (post-call recovery day)",
     "recurring": ""
@@ -1249,7 +1249,7 @@
     "start_time": "2026-04-13T10:00:00+08:00",
     "end_time": "2026-04-13T12:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home office",
     "recurring": ""
@@ -1260,7 +1260,7 @@
     "start_time": "2026-04-01T08:00:00+08:00",
     "end_time": "2026-04-01T08:30:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Online registration portal",
     "recurring": ""
@@ -1271,7 +1271,7 @@
     "start_time": "2026-05-15T19:00:00+08:00",
     "end_time": "2026-05-15T20:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": ""
@@ -1283,7 +1283,7 @@
     "end_time": "2026-03-28T21:00:00+08:00",
     "attendees": [
       "Dr. Wang Ming (MedPrep Pro)",
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Online (Zoom link TBD)",
     "recurring": ""
@@ -1295,7 +1295,7 @@
     "end_time": "2026-03-27T21:30:00+08:00",
     "attendees": [
       "Li Wei",
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Cardiology Department Conference Room / Video Call Option",
     "recurring": ""
@@ -1306,7 +1306,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "NMEC Portal Submission",
     "recurring": ""
@@ -1317,7 +1317,7 @@
     "start_time": "2026-03-27T20:00:00+08:00",
     "end_time": "2026-03-28T08:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ED Night Team"
     ],
     "location": "PUMCH Emergency Department",
@@ -1329,7 +1329,7 @@
     "start_time": "2026-03-26T14:00:00+08:00",
     "end_time": "2026-03-26T18:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Attending Team"
     ],
     "location": "ICU Ward, Building 2",
@@ -1341,7 +1341,7 @@
     "start_time": "2026-03-27T09:00:00+08:00",
     "end_time": "2026-03-27T13:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Attending Team"
     ],
     "location": "ICU Ward, Building 2",
@@ -1353,7 +1353,7 @@
     "start_time": "2026-03-27T14:30:00+08:00",
     "end_time": "2026-03-27T15:15:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "Liu Fang (Cardiology Admin)",
       "Wang Jing (Finance Liaison)"
     ],
@@ -1366,7 +1366,7 @@
     "start_time": "2026-03-26T14:00:00+08:00",
     "end_time": "2026-03-26T17:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home / Self-Study",
     "recurring": ""
@@ -1377,7 +1377,7 @@
     "start_time": "2026-03-27T14:00:00+08:00",
     "end_time": "2026-03-27T17:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home / Self-Study",
     "recurring": ""
@@ -1388,7 +1388,7 @@
     "start_time": "2026-03-28T08:00:00+08:00",
     "end_time": "2026-03-28T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Attending Team"
     ],
     "location": "ICU Ward 3, PUMCH",
@@ -1400,7 +1400,7 @@
     "start_time": "2026-03-30T20:00:00+08:00",
     "end_time": "2026-03-31T08:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Attending Team"
     ],
     "location": "ICU Ward 3, PUMCH",
@@ -1412,7 +1412,7 @@
     "start_time": "2026-03-29T14:00:00+08:00",
     "end_time": "2026-03-29T15:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "Liu Fang (Cardiology Admin)",
       "Zhao Lei (Finance)"
     ],
@@ -1425,7 +1425,7 @@
     "start_time": "2026-03-29T18:00:00+08:00",
     "end_time": "2026-03-29T23:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": "none"
@@ -1448,7 +1448,7 @@
     "start_time": "2026-03-22T08:00:00+08:00",
     "end_time": "2026-03-22T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU-3 Nursing Staff"
     ],
     "location": "ICU-3, PUMCH",
@@ -1460,7 +1460,7 @@
     "start_time": "2026-03-23T08:00:00+08:00",
     "end_time": "2026-03-23T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU-3 Nursing Staff"
     ],
     "location": "ICU-3, PUMCH",
@@ -1472,7 +1472,7 @@
     "start_time": "2026-03-26T18:00:00+08:00",
     "end_time": "2026-03-27T08:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU-2 Nursing Staff"
     ],
     "location": "ICU-2, PUMCH",
@@ -1484,7 +1484,7 @@
     "start_time": "2026-03-27T18:00:00+08:00",
     "end_time": "2026-03-28T08:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU-2 Nursing Staff"
     ],
     "location": "ICU-2, PUMCH",
@@ -1496,7 +1496,7 @@
     "start_time": "2026-03-24T18:00:00+08:00",
     "end_time": "2026-03-25T02:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Emergency Department, PUMCH",
     "recurring": "none"
@@ -1507,7 +1507,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "N/A",
     "recurring": "none"
@@ -1518,7 +1518,7 @@
     "start_time": "2026-03-27T08:00:00+08:00",
     "end_time": "2026-03-29T20:00:00+08:00",
     "attendees": [
-      "Dr. Chen Rui",
+      "Dr. Cheng Lei",
       "ICU Attending Team"
     ],
     "location": "PUMCH Intensive Care Unit",
@@ -1530,7 +1530,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "",
     "recurring": ""
@@ -1541,7 +1541,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "",
     "recurring": ""
@@ -1552,7 +1552,7 @@
     "start_time": "2026-03-26T19:00:00+08:00",
     "end_time": "2026-03-26T22:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": ""
@@ -1563,8 +1563,8 @@
     "start_time": "2026-03-28T15:00:00+08:00",
     "end_time": "2026-03-28T15:15:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
-      "liu.fang@pumch.cn"
+      "cheng.lei@pumch.example",
+      "liu.fang@pumch.example"
     ],
     "location": "Conference Room 3B, Cardiology Admin Office",
     "recurring": "none"
@@ -1575,7 +1575,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn"
+      "cheng.lei@pumch.example"
     ],
     "location": "N/A (Deadline Marker)",
     "recurring": "none"
@@ -1586,7 +1586,7 @@
     "start_time": "2026-03-26T18:00:00+08:00",
     "end_time": "2026-03-27T02:00:00+08:00",
     "attendees": [
-      "chen.rui@pumch.cn",
+      "cheng.lei@pumch.example",
       "ED Evening Team"
     ],
     "location": "Emergency Department, PUMCH",
@@ -1610,7 +1610,7 @@
     "start_time": "2026-03-11T08:00:00+08:00",
     "end_time": "2026-03-11T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1622,7 +1622,7 @@
     "start_time": "2026-03-13T08:00:00+08:00",
     "end_time": "2026-03-13T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1634,7 +1634,7 @@
     "start_time": "2026-03-15T08:00:00+08:00",
     "end_time": "2026-03-15T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1646,7 +1646,7 @@
     "start_time": "2026-03-17T08:00:00+08:00",
     "end_time": "2026-03-17T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1658,7 +1658,7 @@
     "start_time": "2026-03-19T19:00:00+08:00",
     "end_time": "2026-03-19T21:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "Li Wei"
     ],
     "location": "PUMCH Library Study Room 4B",
@@ -1670,7 +1670,7 @@
     "start_time": "2026-03-19T08:00:00+08:00",
     "end_time": "2026-03-19T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1682,7 +1682,7 @@
     "start_time": "2026-03-21T08:00:00+08:00",
     "end_time": "2026-03-21T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1694,7 +1694,7 @@
     "start_time": "2026-03-25T08:00:00+08:00",
     "end_time": "2026-03-25T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1706,7 +1706,7 @@
     "start_time": "2026-03-27T19:00:00+08:00",
     "end_time": "2026-03-27T21:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "Li Wei"
     ],
     "location": "PUMCH Library Study Room 4B",
@@ -1718,7 +1718,7 @@
     "start_time": "2026-03-27T08:00:00+08:00",
     "end_time": "2026-03-27T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1730,7 +1730,7 @@
     "start_time": "2026-03-31T08:00:00+08:00",
     "end_time": "2026-03-31T20:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "ICU Station 3",
@@ -1742,7 +1742,7 @@
     "start_time": "2026-03-31T17:00:00+08:00",
     "end_time": "2026-03-31T17:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "",
     "recurring": ""
@@ -1753,7 +1753,7 @@
     "start_time": "2026-03-23T15:00:00+08:00",
     "end_time": "2026-03-23T16:30:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Remote (Zoom)",
     "recurring": ""
@@ -1764,7 +1764,7 @@
     "start_time": "2026-01-08T20:00:00+08:00",
     "end_time": "2026-01-08T21:30:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": "none"
@@ -1775,7 +1775,7 @@
     "start_time": "2026-01-15T19:30:00+08:00",
     "end_time": "2026-01-15T21:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": "none"
@@ -1786,7 +1786,7 @@
     "start_time": "2026-01-22T20:00:00+08:00",
     "end_time": "2026-01-22T21:30:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": "none"
@@ -1797,7 +1797,7 @@
     "start_time": "2026-03-08T19:00:00+08:00",
     "end_time": "2026-03-08T21:30:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home (phone in airplane mode)",
     "recurring": "none"
@@ -1808,7 +1808,7 @@
     "start_time": "2026-03-26T16:00:00+08:00",
     "end_time": "2026-03-26T17:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "ED Resident Office",
     "recurring": ""
@@ -1819,7 +1819,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "PUMCH CME Office (Online Submission)",
     "recurring": ""
@@ -1830,7 +1830,7 @@
     "start_time": "2026-03-27T10:00:00+08:00",
     "end_time": "2026-03-27T11:30:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "Li Wei",
       "Liu Fang",
       "Wang Jing"
@@ -1856,7 +1856,7 @@
     "start_time": "2026-03-28T19:00:00+08:00",
     "end_time": "2026-03-28T22:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": ""
@@ -1867,7 +1867,7 @@
     "start_time": "2026-03-20T19:00:00+08:00",
     "end_time": "2026-03-20T22:00:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Home",
     "recurring": "none"
@@ -1878,7 +1878,7 @@
     "start_time": "2026-03-23T14:00:00+08:00",
     "end_time": "2026-03-23T17:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "Li Wei"
     ],
     "location": "PUMCH Library Study Room 3B (Tentative)",
@@ -1890,7 +1890,7 @@
     "start_time": "2026-03-22T08:00:00+08:00",
     "end_time": "2026-03-22T22:00:00+08:00",
     "attendees": [
-      "Chen Rui",
+      "Cheng Lei",
       "ICU Team"
     ],
     "location": "PUMCH ICU",
@@ -1902,7 +1902,7 @@
     "start_time": "2026-03-31T23:59:00+08:00",
     "end_time": "2026-03-31T23:59:00+08:00",
     "attendees": [
-      "Chen Rui"
+      "Cheng Lei"
     ],
     "location": "Administrative Deadline",
     "recurring": "none"

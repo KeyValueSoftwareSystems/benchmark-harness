@@ -5,8 +5,8 @@
     "start_time": "2026-02-13T15:00:00+08:00",
     "end_time": "2026-02-13T15:45:00+08:00",
     "attendees": [
-      "wang.jian@bytedance.com",
-      "li.ming@bytedance.com"
+      "wang.jian@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Meeting Room 5B / Video call",
     "recurring": "none"
@@ -17,10 +17,10 @@
     "start_time": "2026-02-16T10:00:00+08:00",
     "end_time": "2026-02-16T11:30:00+08:00",
     "attendees": [
-      "zhang.lin@bytedance.com",
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "chen.hui@bytedance.com"
+      "zhang.lin@bytedance.example",
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "chen.hui@bytedance.example"
     ],
     "location": "Conference Room 3A",
     "recurring": "none"
@@ -31,10 +31,10 @@
     "start_time": "2026-02-17T14:00:00+08:00",
     "end_time": "2026-02-17T16:00:00+08:00",
     "attendees": [
-      "zhang.lin@bytedance.com",
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "executive-team@bytedance.com"
+      "zhang.lin@bytedance.example",
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "executive-team@bytedance.example"
     ],
     "location": "Executive Boardroom, Building 1",
     "recurring": "none"
@@ -45,8 +45,8 @@
     "start_time": "2026-02-14T14:00:00+08:00",
     "end_time": "2026-02-14T15:00:00+08:00",
     "attendees": [
-      "wang.jian@bytedance.com",
-      "li.ming@bytedance.com"
+      "wang.jian@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Dr. Wang's office",
     "recurring": "weekly"
@@ -57,9 +57,9 @@
     "start_time": "2026-03-27T15:00:00+08:00",
     "end_time": "2026-03-27T16:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "chen.hui@bytedance.com",
-      "liu.yang@bytedance.com"
+      "liu.hao@bytedance.example",
+      "chen.hui@bytedance.example",
+      "liu.yang@bytedance.example"
     ],
     "location": "Meeting Room 3A",
     "recurring": "none"
@@ -70,9 +70,9 @@
     "start_time": "2026-03-28T10:00:00+08:00",
     "end_time": "2026-03-28T12:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com",
-      "wang.jian@bytedance.com",
-      "zhang.lin@bytedance.com"
+      "algorithm-team@bytedance.example",
+      "wang.jian@bytedance.example",
+      "zhang.lin@bytedance.example"
     ],
     "location": "Conference Room B",
     "recurring": "none"
@@ -83,9 +83,9 @@
     "start_time": "2026-03-27T10:00:00+08:00",
     "end_time": "2026-03-27T10:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "zhang.lin@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "zhang.lin@bytedance.example"
     ],
     "location": "Virtual - Zoom",
     "recurring": "daily"
@@ -96,7 +96,7 @@
     "start_time": "2026-03-28T14:00:00+08:00",
     "end_time": "2026-03-28T15:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "Conference Room A",
     "recurring": "weekly"
@@ -107,9 +107,9 @@
     "start_time": "2026-02-19T10:00:00+08:00",
     "end_time": "2026-02-19T11:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "architecture-team@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "architecture-team@bytedance.example"
     ],
     "location": "Conference Room 5B",
     "recurring": "none"
@@ -120,9 +120,9 @@
     "start_time": "2026-02-19T14:00:00+08:00",
     "end_time": "2026-02-19T15:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "liu.yang@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "liu.yang@bytedance.example"
     ],
     "location": "War Room 3F",
     "recurring": "none"
@@ -133,7 +133,7 @@
     "start_time": "2026-02-20T09:00:00+08:00",
     "end_time": "2026-02-20T12:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Reserved - Do Not Schedule Over",
     "recurring": "none"
@@ -144,7 +144,7 @@
     "start_time": "2026-02-21T15:00:00+08:00",
     "end_time": "2026-02-21T16:30:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "Conference Room 2A",
     "recurring": "none"
@@ -155,9 +155,9 @@
     "start_time": "2026-02-22T15:00:00+08:00",
     "end_time": "2026-02-22T17:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "chen.hui@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "chen.hui@bytedance.example"
     ],
     "location": "Conference Room 3B",
     "recurring": ""
@@ -168,9 +168,9 @@
     "start_time": "2026-02-23T14:00:00+08:00",
     "end_time": "2026-02-23T15:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
-    "location": "Virtual - meet.bytedance.com/code-review-oh",
+    "location": "Virtual - meet.bytedance.example/code-review-oh",
     "recurring": "weekly"
   },
   {
@@ -179,11 +179,11 @@
     "start_time": "2026-01-13T14:00:00+08:00",
     "end_time": "2026-01-13T16:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "zhang.lin@bytedance.com",
-      "chen.hui@bytedance.com",
-      "algorithm-team@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "zhang.lin@bytedance.example",
+      "chen.hui@bytedance.example",
+      "algorithm-team@bytedance.example"
     ],
     "location": "Conference Room 5B",
     "recurring": "none"
@@ -194,7 +194,7 @@
     "start_time": "2026-01-06T09:00:00+08:00",
     "end_time": "2026-01-06T12:00:00+08:00",
     "attendees": [
-      "chen.hui@bytedance.com"
+      "chen.hui@bytedance.example"
     ],
     "location": "Focus time (do not schedule over)",
     "recurring": "none"
@@ -205,7 +205,7 @@
     "start_time": "2026-01-07T13:00:00+08:00",
     "end_time": "2026-01-07T17:30:00+08:00",
     "attendees": [
-      "chen.hui@bytedance.com"
+      "chen.hui@bytedance.example"
     ],
     "location": "WFH - Do Not Disturb",
     "recurring": "none"
@@ -216,7 +216,7 @@
     "start_time": "2026-01-06T10:00:00+08:00",
     "end_time": "2026-01-06T10:30:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "Conference Room 2A",
     "recurring": "daily"
@@ -227,10 +227,10 @@
     "start_time": "2026-03-10T14:00:00+08:00",
     "end_time": "2026-03-10T17:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "algorithm-team@bytedance.com",
-      "exec-team@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "algorithm-team@bytedance.example",
+      "exec-team@bytedance.example"
     ],
     "location": "Conference Room A - 5F",
     "recurring": ""
@@ -241,9 +241,9 @@
     "start_time": "2026-02-25T10:00:00+08:00",
     "end_time": "2026-02-25T12:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
-    "location": "Online - https://security.bytedance.com/training",
+    "location": "Online - https://security.bytedance.example/training",
     "recurring": ""
   },
   {
@@ -252,8 +252,8 @@
     "start_time": "2026-03-03T15:00:00+08:00",
     "end_time": "2026-03-03T15:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example"
     ],
     "location": "Dr. Wang's Office - 3F",
     "recurring": ""
@@ -264,7 +264,7 @@
     "start_time": "2026-03-02T09:30:00+08:00",
     "end_time": "2026-03-02T10:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "Team Room - 3F",
     "recurring": "daily"
@@ -275,11 +275,11 @@
     "start_time": "2026-01-13T09:30:00+08:00",
     "end_time": "2026-01-13T10:00:00+08:00",
     "attendees": [
-      "wang.jian@bytedance.com",
-      "chen.hui@bytedance.com",
-      "zhang.lin@bytedance.com",
-      "liu.yang@bytedance.com",
-      "li.ming@bytedance.com"
+      "wang.jian@bytedance.example",
+      "chen.hui@bytedance.example",
+      "zhang.lin@bytedance.example",
+      "liu.yang@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Building 2, Conference Room 8B",
     "recurring": "weekly"
@@ -290,8 +290,8 @@
     "start_time": "2026-01-14T15:00:00+08:00",
     "end_time": "2026-01-14T16:00:00+08:00",
     "attendees": [
-      "zhang.lin@bytedance.com",
-      "li.ming@bytedance.com"
+      "zhang.lin@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Building 2, Small Meeting Room 8C",
     "recurring": ""
@@ -302,8 +302,8 @@
     "start_time": "2026-01-13T14:00:00+08:00",
     "end_time": "2026-01-13T15:30:00+08:00",
     "attendees": [
-      "wang.jian@bytedance.com",
-      "li.ming@bytedance.com"
+      "wang.jian@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Building 2, Dr. Wang's Office (8F-12)",
     "recurring": ""
@@ -314,7 +314,7 @@
     "start_time": "2026-01-16T15:00:00+08:00",
     "end_time": "2026-01-16T16:30:00+08:00",
     "attendees": [
-      "all-engineering@bytedance.com"
+      "all-engineering@bytedance.example"
     ],
     "location": "Building 3, Auditorium A",
     "recurring": ""
@@ -325,7 +325,7 @@
     "start_time": "2026-03-19T14:00:00+08:00",
     "end_time": "2026-03-19T17:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Focus time - no meetings",
     "recurring": "none"
@@ -336,7 +336,7 @@
     "start_time": "2026-03-20T09:00:00+08:00",
     "end_time": "2026-03-20T12:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Focus time - no meetings",
     "recurring": "none"
@@ -347,7 +347,7 @@
     "start_time": "2026-03-21T15:00:00+08:00",
     "end_time": "2026-03-21T15:30:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "7F Pantry Area",
     "recurring": "weekly"
@@ -358,7 +358,7 @@
     "start_time": "2026-03-22T10:00:00+08:00",
     "end_time": "2026-03-22T13:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Focus time - no meetings",
     "recurring": "none"
@@ -369,9 +369,9 @@
     "start_time": "2026-01-28T14:00:00+08:00",
     "end_time": "2026-01-28T16:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com",
-      "executive-team@bytedance.com",
-      "li.ming@bytedance.com"
+      "algorithm-team@bytedance.example",
+      "executive-team@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Executive Conference Room 5F",
     "recurring": "none"
@@ -382,7 +382,7 @@
     "start_time": "2026-01-17T09:00:00+08:00",
     "end_time": "2026-01-18T02:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Remote - monitoring dashboard",
     "recurring": "none"
@@ -393,7 +393,7 @@
     "start_time": "2026-01-18T10:00:00+08:00",
     "end_time": "2026-01-18T18:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Workstation",
     "recurring": "none"
@@ -404,7 +404,7 @@
     "start_time": "2026-01-16T10:00:00+08:00",
     "end_time": "2026-01-16T11:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "Meeting Room 3B",
     "recurring": "weekly"
@@ -415,7 +415,7 @@
     "start_time": "2026-02-06T14:00:00+08:00",
     "end_time": "2026-02-06T15:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "GPU Training Server",
     "recurring": "none"
@@ -426,8 +426,8 @@
     "start_time": "2026-02-07T15:00:00+08:00",
     "end_time": "2026-02-07T16:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example"
     ],
     "location": "Meeting Room 3B",
     "recurring": "weekly"
@@ -438,7 +438,7 @@
     "start_time": "2026-01-18T00:00:00+08:00",
     "end_time": "2026-01-19T23:59:00+08:00",
     "attendees": [
-      "all-engineering@bytedance.com"
+      "all-engineering@bytedance.example"
     ],
     "location": "Infrastructure - GPU Cluster",
     "recurring": ""
@@ -449,8 +449,8 @@
     "start_time": "2026-01-30T14:00:00+08:00",
     "end_time": "2026-01-30T15:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example"
     ],
     "location": "Meeting Room 3B",
     "recurring": ""
@@ -461,7 +461,7 @@
     "start_time": "2026-02-01T09:00:00+08:00",
     "end_time": "2026-02-03T18:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "GPU Cluster - Reserved",
     "recurring": ""
@@ -472,7 +472,7 @@
     "start_time": "2026-01-31T12:00:00+08:00",
     "end_time": "2026-01-31T13:30:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "Cafeteria Level 5",
     "recurring": "monthly"
@@ -483,8 +483,8 @@
     "start_time": "2026-01-22T13:30:00+08:00",
     "end_time": "2026-01-22T13:45:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example"
     ],
     "location": "Dr. Wang's office",
     "recurring": "none"
@@ -495,7 +495,7 @@
     "start_time": "2026-01-26T10:00:00+08:00",
     "end_time": "2026-01-26T11:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Remote - GPU cluster",
     "recurring": "none"
@@ -506,7 +506,7 @@
     "start_time": "2026-01-23T15:00:00+08:00",
     "end_time": "2026-01-23T16:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com"
+      "algorithm-team@bytedance.example"
     ],
     "location": "Conference Room B",
     "recurring": "none"
@@ -517,10 +517,10 @@
     "start_time": "2026-02-17T14:00:00+08:00",
     "end_time": "2026-02-17T16:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com",
-      "algorithm-team@bytedance.com",
-      "exec-reviewers@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example",
+      "algorithm-team@bytedance.example",
+      "exec-reviewers@bytedance.example"
     ],
     "location": "Conference Room 5A",
     "recurring": "none"
@@ -531,7 +531,7 @@
     "start_time": "2026-02-03T15:00:00+08:00",
     "end_time": "2026-02-03T16:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Desk - Focus Time",
     "recurring": "none"
@@ -542,7 +542,7 @@
     "start_time": "2026-02-03T20:00:00+08:00",
     "end_time": "2026-02-05T20:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Remote - GPU Cluster",
     "recurring": "none"
@@ -553,7 +553,7 @@
     "start_time": "2026-02-27T10:00:00+08:00",
     "end_time": "2026-02-27T11:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Workstation",
     "recurring": "none"
@@ -564,7 +564,7 @@
     "start_time": "2026-02-27T15:00:00+08:00",
     "end_time": "2026-02-27T15:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Workstation",
     "recurring": "none"
@@ -575,7 +575,7 @@
     "start_time": "2026-03-01T09:00:00+08:00",
     "end_time": "2026-03-01T09:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Workstation",
     "recurring": "none"
@@ -586,10 +586,10 @@
     "start_time": "2026-02-26T14:00:00+08:00",
     "end_time": "2026-02-26T15:00:00+08:00",
     "attendees": [
-      "wang.jian@bytedance.com",
-      "chen.hui@bytedance.com",
-      "zhang.lin@bytedance.com",
-      "li.ming@bytedance.com"
+      "wang.jian@bytedance.example",
+      "chen.hui@bytedance.example",
+      "zhang.lin@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Conference Room 3B",
     "recurring": "weekly"
@@ -600,8 +600,8 @@
     "start_time": "2026-01-18T14:00:00+08:00",
     "end_time": "2026-01-18T14:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com",
-      "wang.jian@bytedance.com"
+      "liu.hao@bytedance.example",
+      "wang.jian@bytedance.example"
     ],
     "location": "Dr. Wang's office",
     "recurring": ""
@@ -612,7 +612,7 @@
     "start_time": "2026-01-20T09:00:00+08:00",
     "end_time": "2026-01-20T09:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Workstation",
     "recurring": ""
@@ -623,7 +623,7 @@
     "start_time": "2026-01-20T09:30:00+08:00",
     "end_time": "2026-01-20T11:30:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Desk",
     "recurring": ""
@@ -634,7 +634,7 @@
     "start_time": "2026-01-21T09:30:00+08:00",
     "end_time": "2026-01-21T10:00:00+08:00",
     "attendees": [
-      "li.ming@bytedance.com"
+      "liu.hao@bytedance.example"
     ],
     "location": "Workstation",
     "recurring": ""
@@ -645,9 +645,9 @@
     "start_time": "2026-01-28T14:00:00+08:00",
     "end_time": "2026-01-28T16:00:00+08:00",
     "attendees": [
-      "algorithm-team@bytedance.com",
-      "engineering-leadership@bytedance.com",
-      "li.ming@bytedance.com"
+      "algorithm-team@bytedance.example",
+      "engineering-leadership@bytedance.example",
+      "liu.hao@bytedance.example"
     ],
     "location": "Building 3 - Executive Conference Room",
     "recurring": ""

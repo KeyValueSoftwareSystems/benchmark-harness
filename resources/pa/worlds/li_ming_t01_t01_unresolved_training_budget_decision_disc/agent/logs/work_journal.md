@@ -132,7 +132,7 @@
 - **Time**: 2026-03-12 10:00 - 15:45
 - **Involved services**: gmail, calendar, contacts, notes, todo
 - **Key actions**:
-  - Parsed GPU cluster allocation options email [MSG-5045] from compute-admin@bytedance.com detailing four tiers with competing cost/time/reliability/queue tradeoffs
+  - Parsed GPU cluster allocation options email [MSG-5045] from compute-admin@bytedance.example detailing four tiers with competing cost/time/reliability/queue tradeoffs
   - Extracted quantitative specs across Standard, Priority, Premium, and Spot configurations into comparison matrix [NOTE-110]
   - Cross-referenced remaining intern compute budget from previous training logs [NOTE-111] against Q1 demo deadline [EVT-331, EVT-332]
   - Performed Pareto dominance analysis eliminating strictly inferior options, documented tradeoff framework in notes

@@ -57,7 +57,7 @@
   - Analyzed SKU performance data in [WB-4] identifying ceramic diffuser expansion opportunities and underperforming candle lines to phase out
   - Blocked strategic planning sessions in late March calendar gaps [EVT-312, EVT-313, EVT-314, EVT-315] for team alignment and supplier negotiation prep
   - Created Q2 roadmap notes [NOTE-106, NOTE-107, NOTE-108] breaking down new SKU development, supplier diversification (including Jinlong sample testing), and fulfillment infrastructure upgrades
-  - Assigned prioritized tasks [TODO-513 through TODO-519] with clear owners: Jessica (marketing prep), Mike (ops setup), Dario (supplier negotiations)
+  - Assigned prioritized tasks [TODO-513 through TODO-519] with clear owners: Jessica (marketing prep), Mike (ops setup), Davide (supplier negotiations)
   - Scheduled Slack check-ins [SLKC-2] and WeChat supplier outreach [WCC-6] to align remote team on Q2 execution timeline
   - Followed up on Q1 supplier payments [TXN-6011] and added new factory contacts [CON-209]
 - **Decisions & reasoning**: Q1 taught us that supplier reliability trumps marginal cost savings and that 3PL coordination windows are non-negotiable constraints. Q2 expansion prioritizes proven SKU categories (ceramic diffusers) while testing Jinlong diversification on low-risk items. Breaking roadmap into weekly tasks with explicit ownership prevents the ad-hoc firefighting that consumed February.

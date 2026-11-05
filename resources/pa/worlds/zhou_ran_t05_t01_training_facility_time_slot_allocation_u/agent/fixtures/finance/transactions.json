@@ -117,7 +117,7 @@
     "merchant": "Sports Equipment Pro",
     "category": "training_equipment",
     "description": "BioForce Pro Biomechanical Analysis System (Model BP-3000) - Advanced motion capture and technique analysis equipment for Olympic qualification training preparation",
-    "receipt_url": "https://sportsgear.cn/receipts/20260115-BP3000-zhouran"
+    "receipt_url": "https://sportsgear.example/receipts/20260115-BP3000-zhouran"
   },
   {
     "transaction_id": "TXN-6013",
@@ -193,7 +193,7 @@
     "merchant": "Velocity Spikes International",
     "category": "equipment_purchase",
     "description": "Custom VelocityMax Pro Racing Spikes - Order #VS-2026-0847 - Non-refundable custom manufacturing (50% deposit paid Jan 15, final payment)",
-    "receipt_url": "https://receipts.velocityspikes.com/VS-2026-0847"
+    "receipt_url": "https://receipts.velocityspikes.example/VS-2026-0847"
   },
   {
     "transaction_id": "TXN-6021",

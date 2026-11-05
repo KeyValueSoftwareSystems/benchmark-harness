@@ -5,7 +5,7 @@
     "parent_page_id": null,
     "database_id": "DB-MA-2026",
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project_code": "AURORA-2026",
       "status": "In Progress",
       "board_update_due": "2026-02-28"
@@ -133,7 +133,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Aurora (Finnish M&A)",
       "decision_date": "2026-01-09",
       "status": "in_progress"
@@ -225,7 +225,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Decision owner: Sven Lindgren | CFO approval required: Yes | Target resolution: January 10, 2026"
+        "text": "Decision owner: Stefan Ljungberg | CFO approval required: Yes | Target resolution: January 10, 2026"
       }
     ],
     "archived": false,
@@ -238,7 +238,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "decision_date": "2026-02-25",
       "status": "approved",
       "category": "budget_reallocation"
@@ -254,7 +254,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Decision owner: Sven Lindgren (Director of Strategy and Special Projects)"
+        "text": "Decision owner: Stefan Ljungberg (Director of Strategy and Special Projects)"
       },
       {
         "type": "paragraph",
@@ -368,7 +368,7 @@
       {
         "type": "bullet_list",
         "items": [
-          "Sven Lindgren decision: February 25, 2026",
+          "Stefan Ljungberg decision: February 25, 2026",
           "CFO Anna Karlsson approval: February 26, 2026 (email WMSG-5010)",
           "Q2 budget reservation confirmed: SEK 75k reserved for Phase 2"
         ]
@@ -398,7 +398,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "Exploratory",
       "sector": "Logistics",
       "created": "2026-01-28"
@@ -467,7 +467,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "In Progress",
       "due_date": "2026-03-10"
     },
@@ -519,7 +519,7 @@
     "parent_page_id": "NPAG-2",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Org Restructuring",
       "status": "Resolved",
       "decision_date": "2026-03-18"
@@ -624,7 +624,7 @@
     "parent_page_id": null,
     "database_id": "NDB-002",
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "week": "2026-W07",
       "status": "completed",
       "committees_convened": 4
@@ -689,7 +689,7 @@
     "parent_page_id": null,
     "database_id": "NDB-003",
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q1 2026",
       "total_items": 147,
       "completed_items": 89,
@@ -735,7 +735,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "deadline": "2026-02-28",
       "status": "in_progress",
       "board_meeting_date": "2026-03-05"
@@ -788,7 +788,7 @@
     "parent_page_id": "NPAG-3",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Aurora",
       "last_review": "2026-01-19"
     },
@@ -840,7 +840,7 @@
     "parent_page_id": "NPAG-3",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "access": "read_only_associates",
       "last_updated": "2026-01-17"
     },
@@ -961,7 +961,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "analysis_date": "2026-01-20",
       "purpose": "parallel_execution_planning"
     },
@@ -1054,7 +1054,7 @@
     "parent_page_id": "NPAG-7",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "date": "2026-01-12",
       "status": "resolved",
       "priority": "high"
@@ -1106,11 +1106,11 @@
       },
       {
         "type": "paragraph",
-        "text": "**Digital Transformation Roadmap:** Remains at 14:00-15:30, hosted by Sven Lindgren"
+        "text": "**Digital Transformation Roadmap:** Remains at 14:00-15:30, hosted by Stefan Ljungberg"
       },
       {
         "type": "paragraph",
-        "text": "**Procurement Harmonization:** Rescheduled to 16:00-17:30, hosted by Sven Lindgren"
+        "text": "**Procurement Harmonization:** Rescheduled to 16:00-17:30, hosted by Stefan Ljungberg"
       },
       {
         "type": "paragraph",
@@ -1186,7 +1186,7 @@
     "properties": {
       "committee": "Digital Transformation Roadmap (BU 2 & BU 5)",
       "date": "2026-01-14",
-      "host": "Sven Lindgren",
+      "host": "Stefan Ljungberg",
       "status": "pending"
     },
     "blocks": [
@@ -1227,7 +1227,7 @@
     "properties": {
       "committee": "Procurement Harmonization (BU 1, BU 4, BU 6)",
       "date": "2026-01-14",
-      "host": "Sven Lindgren",
+      "host": "Stefan Ljungberg",
       "status": "pending"
     },
     "blocks": [
@@ -1266,7 +1266,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Aurora (Finnish M&A)",
       "month": "March 2026",
       "status": "active"
@@ -1396,7 +1396,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Aurora",
       "decision_date": "2026-03-14",
       "status": "executed"
@@ -1481,7 +1481,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q1 2026",
       "status": "locked"
     },
@@ -1541,7 +1541,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "decision_date": "2026-01-17",
       "status": "in_progress",
       "decision_type": "external_vs_internal_resource_allocation"
@@ -1688,7 +1688,7 @@
       },
       {
         "type": "paragraph",
-        "text": "**Decision owner:** Sven Lindgren | **Decision date:** 2026-01-17 | **Approvals required:** CFO (Anna Karlsson) for budget overage | **Status:** Pending CFO approval | **Next review:** Post-delivery review (Feb 1) to assess quality and inform future make-vs-buy decisions"
+        "text": "**Decision owner:** Stefan Ljungberg | **Decision date:** 2026-01-17 | **Approvals required:** CFO (Anna Karlsson) for budget overage | **Status:** Pending CFO approval | **Next review:** Post-delivery review (Feb 1) to assess quality and inform future make-vs-buy decisions"
       }
     ],
     "archived": false,
@@ -1702,7 +1702,7 @@
     "database_id": null,
     "properties": {
       "date": "2026-01-26",
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "draft"
     },
     "blocks": [
@@ -1849,7 +1849,7 @@
     "parent_page_id": "NPAG-7",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "active",
       "deadline": "2026-02-27",
       "priority": "critical"
@@ -1881,7 +1881,7 @@
       },
       {
         "type": "bulleted_list",
-        "text": "Sven Lindgren: Daily rowing sessions 06:30-07:45 (non-negotiable)"
+        "text": "Stefan Ljungberg: Daily rowing sessions 06:30-07:45 (non-negotiable)"
       },
       {
         "type": "bulleted_list",
@@ -1959,7 +1959,7 @@
     "parent_page_id": "NPAG-7",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "reference",
       "created_date": "2026-02-15"
     },
@@ -2003,7 +2003,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "active",
       "decision_deadline": "2026-02-04",
       "stakeholders": "Anna Karlsson, Per Johansson, Henrik Andersson"
@@ -2116,7 +2116,7 @@
     "parent_page_id": "NPAG-28",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "draft",
       "last_updated": "2026-02-02"
     },
@@ -2127,7 +2127,7 @@
       },
       {
         "type": "paragraph",
-        "text": "**Total available FTE capacity (Feb 25-Mar 10):** 2.0 FTE (Lars Eriksson 1.0 FTE, Emma Johansson 0.5 FTE, Sven Lindgren 0.5 FTE for execution work)"
+        "text": "**Total available FTE capacity (Feb 25-Mar 10):** 2.0 FTE (Lars Eriksson 1.0 FTE, Emma Johansson 0.5 FTE, Stefan Ljungberg 0.5 FTE for execution work)"
       },
       {
         "type": "heading_2",
@@ -2168,7 +2168,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Aurora - Finnish M&A",
       "decision_date": "2026-01-05",
       "status": "resolved"
@@ -2234,7 +2234,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Aurora - Finnish M&A",
       "created_date": "2026-01-05"
     },
@@ -2286,7 +2286,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "in_progress",
       "due_date": "2026-03-28",
       "audit_cycle": "Q1 2026",
@@ -2411,7 +2411,7 @@
     "parent_page_id": "NPAG-9",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "week": "12",
       "year": "2026",
       "committee_count": 1
@@ -2427,7 +2427,7 @@
       },
       {
         "type": "paragraph",
-        "text": "**Participants**: Sven Lindgren (host), Helena Bergström (COO, recused agenda item 3), Lars Eriksson (BU 3 GM), Mikael Ström (BU 7 GM), Sofia Andersson (Procurement)"
+        "text": "**Participants**: Stefan Ljungberg (host), Helena Bergström (COO, recused agenda item 3), Lars Eriksson (BU 3 GM), Mikael Ström (BU 7 GM), Sofia Andersson (Procurement)"
       },
       {
         "type": "paragraph",
@@ -2468,7 +2468,7 @@
     "parent_page_id": "NPAG-6",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "BU Portfolio Review",
       "decision_date": "2026-02-07",
       "status": "in_progress"
@@ -2627,7 +2627,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q1 2026",
       "budget_category": "External Advisors"
     },
@@ -2719,7 +2719,7 @@
     "parent_page_id": "NPAG-5",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "decision_date": "2026-02-19",
       "status": "analysis_in_progress",
       "project": "Njord"
@@ -2836,7 +2836,7 @@
     "parent_page_id": "NPAG-4",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q2 2026",
       "status": "draft"
     },
@@ -2896,7 +2896,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Aurora",
       "status": "active",
       "board_deadline": "2026-02-28",
@@ -3022,7 +3022,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q1 2026",
       "status": "active"
     },
@@ -3050,7 +3050,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "in_progress",
       "deadline": "2026-02-28",
       "priority": "critical"
@@ -3176,7 +3176,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "active",
       "last_review": "2026-01-02"
     },
@@ -3413,7 +3413,7 @@
     "parent_page_id": "NPAG-5",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "active_decision",
       "decision_deadline": "2026-01-31",
       "project": "Project Njord",
@@ -3591,7 +3591,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q2 2026",
       "status": "draft",
       "last_updated": "2026-01-29"
@@ -3660,7 +3660,7 @@
     "parent_page_id": "NPAG-8",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "week": "Week 2 2026",
       "status": "active"
     },
@@ -3728,7 +3728,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "meeting_date": "2026-01-09",
       "status": "in_progress"
     },
@@ -3739,7 +3739,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Rehearsal scheduled for Jan 9, 2026 14:00-16:30 (EVT-366) in Executive Boardroom. Attendees: Per Johansson (CEO), Anna Karlsson (CFO), Sven Lindgren, Mikael Bergman (Board Secretary)."
+        "text": "Rehearsal scheduled for Jan 9, 2026 14:00-16:30 (EVT-366) in Executive Boardroom. Attendees: Per Johansson (CEO), Anna Karlsson (CFO), Stefan Ljungberg, Mikael Bergman (Board Secretary)."
       },
       {
         "type": "heading_2",
@@ -3796,7 +3796,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "decision_pending",
       "decision_date": "2026-04-02",
       "budget_impact": "SEK 285k (Q1 overrun SEK 167k)"
@@ -3919,7 +3919,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "decision_date": "2026-03-28",
       "project": "BU Portfolio Review",
       "status": "executed"
@@ -4111,7 +4111,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q1 2026",
       "status": "active"
     },
@@ -4191,7 +4191,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "in_progress",
       "priority": "urgent",
       "due_date": "2026-04-04"
@@ -4353,7 +4353,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Aurora",
       "status": "decision_pending"
     },
@@ -4401,7 +4401,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "TransLog",
       "status": "planning",
       "priority": "ceo-priority"
@@ -4462,7 +4462,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "active",
       "priority": "critical",
       "due_date": "2026-04-05"
@@ -4523,7 +4523,7 @@
     "parent_page_id": "NPAG-54",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "week": "Week 14 (March 27 - April 3, 2026)",
       "status": "draft",
       "workstreams": [
@@ -4709,7 +4709,7 @@
     "parent_page_id": "NPAG-36",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Project Njord",
       "decision_date": "2026-04-03",
       "status": "analysis_in_progress"
@@ -4854,7 +4854,7 @@
     "parent_page_id": null,
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "In Progress",
       "board_date": "2026-02-28",
       "last_reviewed": "2026-04-01"
@@ -4995,7 +4995,7 @@
     "parent_page_id": "NPAG-9",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "week": "13",
       "year": "2026",
       "status": "Active"
@@ -5015,7 +5015,7 @@
       },
       {
         "type": "bulleted_list_item",
-        "text": "Action 3: Sven Lindgren to extract and distribute meeting action items by April 3 COB. Owner: Sven Lindgren. Status: In Progress."
+        "text": "Action 3: Stefan Ljungberg to extract and distribute meeting action items by April 3 COB. Owner: Stefan Ljungberg. Status: In Progress."
       },
       {
         "type": "heading_2",
@@ -5040,7 +5040,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "recipients": [
         "Anna Karlsson",
         "Per Johansson"
@@ -5155,7 +5155,7 @@
     "parent_page_id": "NPAG-9",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q1 2026",
       "status": "active"
     },
@@ -5192,7 +5192,7 @@
           [
             "Henrik 1:1 scheduling",
             "Org Restructuring",
-            "Sven Lindgren",
+            "Stefan Ljungberg",
             "OVERDUE",
             "Blocked"
           ],
@@ -5228,7 +5228,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Aurora",
       "decision_type": "regulatory_compliance",
       "status": "in_progress",
@@ -5351,7 +5351,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "project": "Aurora",
       "document_type": "reference",
       "created_date": "2026-02-15"
@@ -5416,7 +5416,7 @@
     "parent_page_id": "NPAG-51",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "decision_date": "2026-04-03",
       "status": "pending_cfo_ceo_approval",
       "workstreams": [
@@ -5575,7 +5575,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "in_progress",
       "deadline": "2026-05-07",
       "workstream": "Q2 Board Materials"
@@ -5664,7 +5664,7 @@
     "parent_page_id": "NPAG-64",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "active",
       "created": "2026-04-03"
     },
@@ -5708,7 +5708,7 @@
     "parent_page_id": "NPAG-2",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "decision_date": "2026-03-25",
       "status": "analysis",
       "financial_impact": "SEK 42,750 discount vs. SEK 121,125 risk exposure"
@@ -5813,7 +5813,7 @@
     "parent_page_id": "NPAG-2",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q1 2026",
       "total_spend": "SEK 312,500",
       "budget_cap": "SEK 500,000"
@@ -5882,7 +5882,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "in_progress",
       "priority": "high",
       "quarter": "Q2 2026"
@@ -6027,7 +6027,7 @@
     "parent_page_id": "NPAG-1",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "category": "vendor_management",
       "quarter": "Q1 2026"
     },
@@ -6103,7 +6103,7 @@
     "parent_page_id": "NPAG-68",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "status": "CFO Approved",
       "decision_date": "2026-04-03",
       "financial_impact": "SEK 96k discount preserved, SEK 34k net incremental cost"
@@ -6236,7 +6236,7 @@
     "parent_page_id": "NPAG-10",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "quarter": "Q2 2026",
       "status": "active",
       "priority": "high"
@@ -6317,7 +6317,7 @@
     "parent_page_id": "NPAG-71",
     "database_id": null,
     "properties": {
-      "owner": "Sven Lindgren",
+      "owner": "Stefan Ljungberg",
       "month": "April 2026",
       "status": "in_progress"
     },

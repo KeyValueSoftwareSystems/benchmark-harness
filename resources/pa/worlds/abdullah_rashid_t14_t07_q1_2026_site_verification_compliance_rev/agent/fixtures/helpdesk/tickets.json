@@ -2,7 +2,7 @@
   {
     "ticket_id": "TK-801",
     "title": "CAD viewport rendering issue on structural drawings",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-01-01T14:20:00+03:00",
     "priority": "low",
     "status": "abandoned",
@@ -18,7 +18,7 @@
   {
     "ticket_id": "TK-802",
     "title": "CAD viewport refresh lag",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-01-15T11:45:00+03:00",
     "priority": "low",
     "status": "draft",
@@ -35,7 +35,7 @@
   {
     "ticket_id": "TK-803",
     "title": "VPN connection drops during large file transfers",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-01-23T13:35:00+03:00",
     "priority": "medium",
     "status": "draft",
@@ -53,7 +53,7 @@
   {
     "ticket_id": "TK-804",
     "title": "CAD viewer not displaying rebar layers",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-02-05T16:10:00+03:00",
     "priority": "low",
     "status": "draft",
@@ -70,7 +70,7 @@
   {
     "ticket_id": "TK-805",
     "title": "VPN connection timeout to site network",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-03-02T16:20:00+03:00",
     "priority": "medium",
     "status": "draft",
@@ -88,7 +88,7 @@
   {
     "ticket_id": "TK-806",
     "title": "VPN connection timeout on site network",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-03-05T15:35:00+03:00",
     "priority": "medium",
     "status": "draft",
@@ -104,7 +104,7 @@
   {
     "ticket_id": "TK-807",
     "title": "BIM viewer slow loading on site tablets",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-03-11T09:45:00+03:00",
     "priority": "low",
     "status": "draft",
@@ -121,7 +121,7 @@
   {
     "ticket_id": "TK-808",
     "title": "VPN connection dropping during CAD sync",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-03-13T10:45:00+08:00",
     "priority": "low",
     "status": "draft",
@@ -138,7 +138,7 @@
   {
     "ticket_id": "TK-809",
     "title": "VPN connection timeout to site office network",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-03-16T16:30:00+03:00",
     "priority": "low",
     "status": "abandoned",
@@ -154,7 +154,7 @@
   {
     "ticket_id": "TK-810",
     "title": "VPN connection timeout to site network",
-    "reporter": "abdullah.rashid@dar.com",
+    "reporter": "ammar.khalil@dar.example",
     "created_at": "2026-03-19T11:50:00+03:00",
     "priority": "low",
     "status": "draft",
@@ -172,7 +172,7 @@
   {
     "ticket_id": "TK-811",
     "title": "BIM viewer not loading structural layers",
-    "reporter": "abdullah.rashid@dargroup.com",
+    "reporter": "ammar.khalil@dargroup.example",
     "created_at": "2026-03-30T10:45:00+03:00",
     "priority": "low",
     "status": "draft",

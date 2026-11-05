@@ -5,7 +5,7 @@
     "start_time": "2026-01-17T06:30:00+01:00",
     "end_time": "2026-01-17T08:00:00+01:00",
     "attendees": [
-      "Sven Lindgren"
+      "Stefan Ljungberg"
     ],
     "location": "Djurgården Rowing Club",
     "recurring": "daily_weekdays"
@@ -16,7 +16,7 @@
     "start_time": "2026-01-20T10:00:00+01:00",
     "end_time": "2026-01-20T11:30:00+01:00",
     "attendees": [
-      "Sven Lindgren",
+      "Stefan Ljungberg",
       "Anna Karlsson",
       "Per Johansson (CEO)",
       "Karin Bergström (Linklaters)"
@@ -30,7 +30,7 @@
     "start_time": "2026-01-22T14:00:00+01:00",
     "end_time": "2026-01-22T16:30:00+01:00",
     "attendees": [
-      "Sven Lindgren",
+      "Stefan Ljungberg",
       "Lars Eriksson",
       "Anna Karlsson"
     ],
@@ -43,7 +43,7 @@
     "start_time": "2026-01-09T14:00:00+01:00",
     "end_time": "2026-01-09T14:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "Anna's office (Floor 8)",
@@ -55,7 +55,7 @@
     "start_time": "2026-02-25T14:00:00+01:00",
     "end_time": "2026-02-25T14:45:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "CFO office, 6th floor",
@@ -67,7 +67,7 @@
     "start_time": "2026-02-24T10:00:00+01:00",
     "end_time": "2026-02-24T11:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "maria.svensson@cipab.se"
     ],
     "location": "Zoom",
@@ -79,7 +79,7 @@
     "start_time": "2026-01-29T13:00:00+01:00",
     "end_time": "2026-01-29T14:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Sven's office",
     "recurring": ""
@@ -90,7 +90,7 @@
     "start_time": "2026-01-30T15:00:00+01:00",
     "end_time": "2026-01-30T16:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Sven's office",
     "recurring": ""
@@ -101,7 +101,7 @@
     "start_time": "2026-02-03T10:00:00+01:00",
     "end_time": "2026-02-03T11:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Sven's office",
     "recurring": ""
@@ -112,7 +112,7 @@
     "start_time": "2026-02-05T14:00:00+01:00",
     "end_time": "2026-02-05T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "helena.bergstrom@vasaholm.se"
     ],
@@ -133,7 +133,7 @@
       "lars.eriksson@vasaholm.se",
       "eva.lindholm@vasaholm.se",
       "maria.lundqvist@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording enabled) - https://zoom.vasaholm.se/j/steering-reorg-mar21",
     "recurring": ""
@@ -157,7 +157,7 @@
     "attendees": [
       "lars.eriksson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Conference Room B, Vasaholm HQ",
     "recurring": "quarterly"
@@ -168,7 +168,7 @@
     "start_time": "2026-02-10T18:30:00+01:00",
     "end_time": "2026-02-10T21:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Home office",
     "recurring": "none"
@@ -179,7 +179,7 @@
     "start_time": "2026-02-11T18:30:00+01:00",
     "end_time": "2026-02-11T21:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Home office",
     "recurring": "none"
@@ -190,7 +190,7 @@
     "start_time": "2026-02-14T14:00:00+01:00",
     "end_time": "2026-02-14T17:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office - focused work block",
     "recurring": "none"
@@ -201,7 +201,7 @@
     "start_time": "2026-02-17T09:00:00+01:00",
     "end_time": "2026-02-17T10:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "CFO Office",
@@ -213,7 +213,7 @@
     "start_time": "2026-01-23T16:00:00+01:00",
     "end_time": "2026-01-23T16:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "sofia.andersson@vasaholm.se",
       "oscar.nilsson@vasaholm.se"
     ],
@@ -226,7 +226,7 @@
     "start_time": "2026-01-24T09:00:00+01:00",
     "end_time": "2026-01-24T09:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "emma.johansson@vasaholm.se"
     ],
     "location": "Sven's office",
@@ -238,7 +238,7 @@
     "start_time": "2026-01-26T09:00:00+01:00",
     "end_time": "2026-01-26T13:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Sven's office (FOCUS BLOCK - no interruptions)",
     "recurring": "none"
@@ -249,7 +249,7 @@
     "start_time": "2026-01-27T14:00:00+01:00",
     "end_time": "2026-01-27T15:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "mikael.bergman@vasaholm.se"
     ],
     "location": "Board Relations conference room",
@@ -261,12 +261,12 @@
     "start_time": "2026-01-14T14:00:00+01:00",
     "end_time": "2026-01-14T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "henrik.andersson@vasaholm.se",
       "maria.lundqvist@vasaholm.se"
     ],
-    "location": "Zoom (Host: Sven Lindgren)",
+    "location": "Zoom (Host: Stefan Ljungberg)",
     "recurring": "none"
   },
   {
@@ -275,11 +275,11 @@
     "start_time": "2026-01-14T14:00:00+01:00",
     "end_time": "2026-01-14T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "eva.lindholm@vasaholm.se",
       "johan.nystrom@vasaholm.se"
     ],
-    "location": "Zoom (Host: Sven Lindgren)",
+    "location": "Zoom (Host: Stefan Ljungberg)",
     "recurring": "none"
   },
   {
@@ -288,11 +288,11 @@
     "start_time": "2026-01-14T14:00:00+01:00",
     "end_time": "2026-01-14T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "henrik.andersson@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
-    "location": "Zoom (Host: Sven Lindgren)",
+    "location": "Zoom (Host: Stefan Ljungberg)",
     "recurring": "none"
   },
   {
@@ -318,7 +318,7 @@
       "Board of Directors",
       "Per Johansson (CEO)",
       "Anna Karlsson (CFO)",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Vasaholm HQ - Board Room",
     "recurring": "none"
@@ -342,7 +342,7 @@
     "start_time": "2026-03-25T14:00:00+01:00",
     "end_time": "2026-03-25T15:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "henrik.andersson@vasaholm.se"
     ],
     "location": "TBD - tentative hold",
@@ -365,7 +365,7 @@
     "start_time": "2026-03-14T15:00:00+01:00",
     "end_time": "2026-03-14T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "CFO Office (Building A, 4th floor)",
@@ -380,7 +380,7 @@
       "board@vasaholm.se",
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Vasaholm HQ - Board Room",
     "recurring": "none"
@@ -391,7 +391,7 @@
     "start_time": "2026-03-18T10:00:00+01:00",
     "end_time": "2026-03-18T11:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "eva.lindholm@vasaholm.se"
     ],
@@ -404,7 +404,7 @@
     "start_time": "2026-01-17T13:00:00+01:00",
     "end_time": "2026-01-17T13:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office - private focus time",
     "recurring": "none"
@@ -415,7 +415,7 @@
     "start_time": "2026-01-17T15:00:00+01:00",
     "end_time": "2026-01-17T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "Teams call",
@@ -427,7 +427,7 @@
     "start_time": "2026-01-20T10:00:00+01:00",
     "end_time": "2026-01-20T11:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se"
     ],
     "location": "Conference Room 3B",
@@ -439,7 +439,7 @@
     "start_time": "2026-01-28T14:00:00+01:00",
     "end_time": "2026-01-28T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "per.johansson@vasaholm.se"
     ],
@@ -452,8 +452,8 @@
     "start_time": "2026-01-27T15:00:00+01:00",
     "end_time": "2026-01-27T16:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
-      "karin.bergstrom@linklaters.com",
+      "stefan.ljungberg@vasaholm.se",
+      "karin.bergstrom@linklaters.example",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "Zoom",
@@ -465,7 +465,7 @@
     "start_time": "2026-02-14T06:30:00+01:00",
     "end_time": "2026-02-14T07:45:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Djurgården Rowing Club",
     "recurring": "daily"
@@ -480,7 +480,7 @@
       "helena.bergstrom@vasaholm.se",
       "henrik.andersson@vasaholm.se",
       "sofia.andersson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording required)",
     "recurring": "none"
@@ -495,7 +495,7 @@
       "helena.bergstrom@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "maria.lundqvist@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording required)",
     "recurring": "none"
@@ -510,7 +510,7 @@
       "helena.bergstrom@vasaholm.se",
       "oscar.nilsson@vasaholm.se",
       "emma.johansson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording required)",
     "recurring": "none"
@@ -532,7 +532,7 @@
     "start_time": "2026-02-17T19:00:00+01:00",
     "end_time": "2026-02-17T21:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Home office",
     "recurring": "none"
@@ -543,7 +543,7 @@
     "start_time": "2026-02-03T09:00:00+01:00",
     "end_time": "2026-02-03T09:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se"
     ],
     "location": "Sven's office",
@@ -555,7 +555,7 @@
     "start_time": "2026-02-04T09:00:00+01:00",
     "end_time": "2026-02-04T09:45:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "per.johansson@vasaholm.se"
     ],
@@ -568,7 +568,7 @@
     "start_time": "2026-02-03T14:00:00+01:00",
     "end_time": "2026-02-03T14:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "henrik.andersson@vasaholm.se"
     ],
     "location": "Video call",
@@ -580,7 +580,7 @@
     "start_time": "2026-03-25T10:00:00+01:00",
     "end_time": "2026-03-25T11:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "mikael.strom@vasaholm.se",
@@ -596,7 +596,7 @@
     "start_time": "2026-03-26T14:00:00+01:00",
     "end_time": "2026-03-26T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "sofia.andersson@vasaholm.se"
@@ -610,7 +610,7 @@
     "start_time": "2026-03-25T13:00:00+01:00",
     "end_time": "2026-03-25T17:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office (focus block)",
     "recurring": "none"
@@ -621,7 +621,7 @@
     "start_time": "2026-03-26T09:00:00+01:00",
     "end_time": "2026-03-26T10:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "per.johansson@vasaholm.se"
     ],
     "location": "CEO Office",
@@ -633,7 +633,7 @@
     "start_time": "2026-01-09T15:00:00+01:00",
     "end_time": "2026-01-09T16:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "henrik.andersson@vasaholm.se"
     ],
     "location": "HQ Meeting Room 3B",
@@ -646,7 +646,7 @@
     "end_time": "2026-03-26T11:00:00+01:00",
     "attendees": [
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "legal@vasaholm.se",
       "internal-audit@vasaholm.se"
     ],
@@ -659,7 +659,7 @@
     "start_time": "2026-03-27T09:00:00+01:00",
     "end_time": "2026-03-27T12:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office (no meetings)",
     "recurring": "none"
@@ -670,7 +670,7 @@
     "start_time": "2026-02-06T14:00:00+01:00",
     "end_time": "2026-02-06T15:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office - focused work block",
     "recurring": "none"
@@ -681,7 +681,7 @@
     "start_time": "2026-02-07T10:00:00+01:00",
     "end_time": "2026-02-07T10:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "CFO office",
@@ -704,7 +704,7 @@
     "start_time": "2026-02-20T06:30:00+01:00",
     "end_time": "2026-02-20T07:45:00+01:00",
     "attendees": [
-      "Sven Lindgren"
+      "Stefan Ljungberg"
     ],
     "location": "Djurgården Rowing Club",
     "recurring": "weekly"
@@ -715,7 +715,7 @@
     "start_time": "2026-02-24T09:00:00+01:00",
     "end_time": "2026-02-24T10:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se"
     ],
     "location": "Sven's office (HQ 4F)",
@@ -727,7 +727,7 @@
     "start_time": "2026-02-25T16:00:00+01:00",
     "end_time": "2026-02-25T18:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "Strategy war room (HQ 3F)",
@@ -741,7 +741,7 @@
     "attendees": [
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "board.secretary@vasaholm.se",
       "external.directors@vasaholm.se"
@@ -757,7 +757,7 @@
     "attendees": [
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se"
     ],
     "location": "Vasaholm HQ - Executive Conference Room",
@@ -769,7 +769,7 @@
     "start_time": "2026-01-03T06:30:00+01:00",
     "end_time": "2026-01-03T07:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Djurgården Rowing Club",
     "recurring": "daily"
@@ -781,7 +781,7 @@
     "end_time": "2026-01-30T09:30:00+01:00",
     "attendees": [
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "CFO Office (Building A, Floor 3)",
     "recurring": "none"
@@ -793,7 +793,7 @@
     "end_time": "2026-02-03T15:30:00+01:00",
     "attendees": [
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se"
     ],
     "location": "Conference Room 3B",
@@ -805,7 +805,7 @@
     "start_time": "2026-01-08T09:00:00+01:00",
     "end_time": "2026-01-08T11:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "maria.lundqvist@vasaholm.se",
@@ -820,7 +820,7 @@
     "start_time": "2026-01-09T14:00:00+01:00",
     "end_time": "2026-01-09T16:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "mikael.bergman@vasaholm.se"
@@ -834,7 +834,7 @@
     "start_time": "2026-01-09T09:30:00+01:00",
     "end_time": "2026-01-09T11:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "helena.bergstrom@vasaholm.se",
       "sofia.andersson@vasaholm.se",
       "eva.lindholm@vasaholm.se"
@@ -850,7 +850,7 @@
     "attendees": [
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "mikael.bergman@vasaholm.se"
     ],
@@ -863,7 +863,7 @@
     "start_time": "2026-04-02T09:00:00+01:00",
     "end_time": "2026-04-02T09:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office - solo work block",
     "recurring": "none"
@@ -874,7 +874,7 @@
     "start_time": "2026-04-02T14:00:00+01:00",
     "end_time": "2026-04-02T14:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "CFO office",
@@ -886,7 +886,7 @@
     "start_time": "2026-04-03T10:00:00+01:00",
     "end_time": "2026-04-03T11:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "maria.svensson@cipab.se",
       "lars.eriksson@vasaholm.se"
     ],
@@ -899,7 +899,7 @@
     "start_time": "2026-04-23T14:00:00+01:00",
     "end_time": "2026-04-23T16:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
@@ -912,7 +912,7 @@
     "start_time": "2026-04-04T13:00:00+01:00",
     "end_time": "2026-04-04T15:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Strategy office",
     "recurring": "none"
@@ -923,7 +923,7 @@
     "start_time": "2026-04-07T10:00:00+01:00",
     "end_time": "2026-04-07T11:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "CFO office",
@@ -936,7 +936,7 @@
     "end_time": "2026-05-20T16:00:00+01:00",
     "attendees": [
       "board@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "per.johansson@vasaholm.se"
     ],
     "location": "Vasaholm HQ Boardroom",
@@ -948,7 +948,7 @@
     "start_time": "2026-04-02T14:00:00+02:00",
     "end_time": "2026-04-02T16:00:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office - focused work block",
     "recurring": "none"
@@ -959,9 +959,9 @@
     "start_time": "2026-04-08T10:00:00+02:00",
     "end_time": "2026-04-08T11:00:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "johan.nystrom@nordicma.se",
-      "vendor-project-lead@tbd.com"
+      "vendor-project-lead@tbd.example"
     ],
     "location": "Zoom (link TBD)",
     "recurring": "none"
@@ -972,7 +972,7 @@
     "start_time": "2026-04-10T13:00:00+02:00",
     "end_time": "2026-04-10T14:30:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "henrik.andersson@vasaholm.se",
       "maria.lundqvist@vasaholm.se"
@@ -986,7 +986,7 @@
     "start_time": "2026-04-04T13:00:00+02:00",
     "end_time": "2026-04-04T14:30:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "compliance@vasaholm.se",
       "lars.eriksson@vasaholm.se"
@@ -1000,7 +1000,7 @@
     "start_time": "2026-04-07T10:00:00+02:00",
     "end_time": "2026-04-07T11:00:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "Vasaholm HQ, CFO Office",
@@ -1012,7 +1012,7 @@
     "start_time": "2026-04-02T15:00:00+02:00",
     "end_time": "2026-04-02T16:00:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "mika.virtanen@lakitoimisto-virtanen.fi"
     ],
@@ -1026,7 +1026,7 @@
     "end_time": "2026-04-04T13:45:00+02:00",
     "attendees": [
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Anna's office (Exec floor)",
     "recurring": "none"
@@ -1038,7 +1038,7 @@
     "end_time": "2026-04-03T16:15:00+02:00",
     "attendees": [
       "lars.eriksson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (internal)",
     "recurring": "none"
@@ -1049,7 +1049,7 @@
     "start_time": "2026-04-03T06:30:00+02:00",
     "end_time": "2026-04-03T07:45:00+02:00",
     "attendees": [
-      "Sven Lindgren"
+      "Stefan Ljungberg"
     ],
     "location": "Djurgården Rowing Club",
     "recurring": "daily"
@@ -1060,7 +1060,7 @@
     "start_time": "2026-04-03T09:00:00+02:00",
     "end_time": "2026-04-03T12:00:00+02:00",
     "attendees": [
-      "Sven Lindgren"
+      "Stefan Ljungberg"
     ],
     "location": "Office (focus mode)",
     "recurring": "none"
@@ -1071,7 +1071,7 @@
     "start_time": "2026-04-03T14:00:00+02:00",
     "end_time": "2026-04-03T15:00:00+02:00",
     "attendees": [
-      "Sven Lindgren",
+      "Stefan Ljungberg",
       "Anna Karlsson"
     ],
     "location": "CFO Office, Floor 8",
@@ -1083,7 +1083,7 @@
     "start_time": "2026-04-02T10:00:00+02:00",
     "end_time": "2026-04-02T11:30:00+02:00",
     "attendees": [
-      "Sven Lindgren",
+      "Stefan Ljungberg",
       "Helena Bergström",
       "Henrik Andersson",
       "Lars Eriksson",
@@ -1098,7 +1098,7 @@
     "start_time": "2026-04-03T08:30:00+01:00",
     "end_time": "2026-04-03T10:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Sven's office",
     "recurring": "weekly"
@@ -1109,7 +1109,7 @@
     "start_time": "2026-04-04T14:00:00+01:00",
     "end_time": "2026-04-04T15:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se"
     ],
     "location": "CFO Office, 8th Floor",
@@ -1121,7 +1121,7 @@
     "start_time": "2026-04-07T10:00:00+01:00",
     "end_time": "2026-04-07T12:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "per.johansson@vasaholm.se",
       "lars.eriksson@vasaholm.se",
@@ -1136,7 +1136,7 @@
     "start_time": "2026-04-03T06:30:00+01:00",
     "end_time": "2026-04-03T07:45:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Djurgården Rowing Club",
     "recurring": "daily"
@@ -1149,7 +1149,7 @@
     "attendees": [
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "helena.bergstrom@vasaholm.se"
     ],
     "location": "Executive Board Room",
@@ -1162,7 +1162,7 @@
     "end_time": "2026-04-14T15:00:00+02:00",
     "attendees": [
       "mikael.strom@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Compliance Office",
     "recurring": null
@@ -1173,7 +1173,7 @@
     "start_time": "2026-04-03T13:00:00+02:00",
     "end_time": "2026-04-03T14:30:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Strategy Office (focus time)",
     "recurring": null
@@ -1187,7 +1187,7 @@
       "board@vasaholm.se",
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Vasaholm Group HQ - Board Room",
     "recurring": "none"
@@ -1198,7 +1198,7 @@
     "start_time": "2026-05-07T17:00:00+02:00",
     "end_time": "2026-05-07T17:30:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "board.secretary@vasaholm.se"
     ],
     "location": "Deadline marker",
@@ -1210,7 +1210,7 @@
     "start_time": "2026-04-04T06:30:00+02:00",
     "end_time": "2026-04-04T07:45:00+02:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Djurgårdsbrunnsviken",
     "recurring": "daily"
@@ -1222,7 +1222,7 @@
     "end_time": "2026-04-28T12:00:00+02:00",
     "attendees": [
       "anna.karlsson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "lars.eriksson@vasaholm.se"
     ],
     "location": "CFO Office",
@@ -1236,8 +1236,8 @@
     "attendees": [
       "per.johansson@vasaholm.se",
       "anna.karlsson@vasaholm.se",
-      "karin.bergstrom@linklaters.com",
-      "sven.lindgren@vasaholm.se"
+      "karin.bergstrom@linklaters.example",
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording enabled per KB-404)",
     "recurring": "none"
@@ -1250,7 +1250,7 @@
     "attendees": [
       "anna.karlsson@vasaholm.se",
       "lars.eriksson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording enabled per KB-404)",
     "recurring": "none"
@@ -1264,7 +1264,7 @@
       "per.johansson@vasaholm.se",
       "helena.bergstrom@vasaholm.se",
       "maria.lundqvist@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording enabled per KB-404)",
     "recurring": "none"
@@ -1279,7 +1279,7 @@
       "anna.karlsson@vasaholm.se",
       "lars.eriksson@vasaholm.se",
       "henrik.andersson@vasaholm.se",
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Zoom (recording enabled per KB-404)",
     "recurring": "none"
@@ -1292,7 +1292,7 @@
     "attendees": [
       "anna.karlsson@vasaholm.se",
       "per.johansson@vasaholm.se",
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "helena.bergstrom@vasaholm.se"
     ],
     "location": "CFO Conference Room, Vasaholm HQ",
@@ -1317,7 +1317,7 @@
     "start_time": "2026-03-26T06:30:00+01:00",
     "end_time": "2026-03-26T08:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Djurgården Rowing Club",
     "recurring": "daily_weekday"
@@ -1328,7 +1328,7 @@
     "start_time": "2026-04-15T10:00:00+01:00",
     "end_time": "2026-04-15T11:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "maria.svensson@cipab.se",
       "lars.eriksson@vasaholm.se",
       "anna.karlsson@vasaholm.se"
@@ -1342,7 +1342,7 @@
     "start_time": "2026-04-07T09:00:00+01:00",
     "end_time": "2026-04-07T12:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se"
+      "stefan.ljungberg@vasaholm.se"
     ],
     "location": "Office - focused work block",
     "recurring": "none"
@@ -1387,7 +1387,7 @@
     "start_time": "2026-04-11T10:00:00+01:00",
     "end_time": "2026-04-11T11:30:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "anna.karlsson@vasaholm.se",
       "henrik.andersson@vasaholm.se",
       "sofia.lundberg@vasaholm.se"
@@ -1401,7 +1401,7 @@
     "start_time": "2026-04-16T14:00:00+01:00",
     "end_time": "2026-04-16T15:00:00+01:00",
     "attendees": [
-      "sven.lindgren@vasaholm.se",
+      "stefan.ljungberg@vasaholm.se",
       "oscar.nilsson@vasaholm.se",
       "henrik.andersson@vasaholm.se",
       "sofia.lundberg@vasaholm.se"

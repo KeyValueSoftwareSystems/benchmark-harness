@@ -282,7 +282,7 @@
   {
     "task_id": "TODO-521",
     "title": "Complete HR onboarding portal (BLOCKS all other credentials)",
-    "description": "Finish HR onboarding at https://hr.bytedance.com/onboarding - this is the entry point that unlocks security training and KB access. Estimated 2 hours. Must complete before security training.",
+    "description": "Finish HR onboarding at https://hr.bytedance.example/onboarding - this is the entry point that unlocks security training and KB access. Estimated 2 hours. Must complete before security training.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-02-12",

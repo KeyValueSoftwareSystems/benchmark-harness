@@ -4,7 +4,7 @@
     "date": "2026-02-13",
     "amount": 1000.0,
     "currency": "GBP",
-    "merchant": "NHS Royal London Hospital - Medical Staffing",
+    "merchant": "NHS Royal Metro Hospital - Medical Staffing",
     "category": "locum_expense",
     "description": "Emergency locum consultant fee - trauma surgery cover - 13 Feb 2026 (attempted but unavailable)",
     "receipt_url": ""
@@ -14,7 +14,7 @@
     "date": "2026-02-13",
     "amount": 2400.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
     "description": "Private practice session revenue - Thursday 13 Feb 2026 - 3 procedures completed",
     "receipt_url": ""
@@ -24,9 +24,9 @@
     "date": "2026-01-31",
     "amount": 8400.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice sessions - January 2026 (4 sessions @ £2,100 per session)",
+    "description": "Westgate private practice sessions - January 2026 (4 sessions @ £2,100 per session)",
     "receipt_url": ""
   },
   {
@@ -34,9 +34,9 @@
     "date": "2026-02-28",
     "amount": 6300.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice sessions - February 2026 (3 sessions @ £2,100 per session)",
+    "description": "Westgate private practice sessions - February 2026 (3 sessions @ £2,100 per session)",
     "receipt_url": ""
   },
   {
@@ -44,9 +44,9 @@
     "date": "2026-03-05",
     "amount": 3200.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 5th March 2026 - Complex hernia repair (Mr. Davies) + Gallbladder removal consultation",
+    "description": "Westgate private practice session - 5th March 2026 - Complex hernia repair (Mr. Davies) + Gallbladder removal consultation",
     "receipt_url": ""
   },
   {
@@ -54,9 +54,9 @@
     "date": "2026-03-12",
     "amount": 2850.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 12th March 2026 - Appendectomy (Mrs. Richardson) + Post-operative review",
+    "description": "Westgate private practice session - 12th March 2026 - Appendectomy (Mrs. Richardson) + Post-operative review",
     "receipt_url": ""
   },
   {
@@ -64,9 +64,9 @@
     "date": "2026-03-19",
     "amount": 4100.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 19th March 2026 - Complex abdominal wall reconstruction (Mr. Thompson) + Two consultations",
+    "description": "Westgate private practice session - 19th March 2026 - Complex abdominal wall reconstruction (Mr. Thompson) + Two consultations",
     "receipt_url": ""
   },
   {
@@ -84,7 +84,7 @@
     "date": "2026-03-05",
     "amount": 2500.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "theatre_deposit",
     "description": "Non-refundable theatre booking deposit - Theatre 3 block booking 13th March 2026 (Mr. Patel cholecystectomy, Mrs. Okonkwo hernia repair)",
     "receipt_url": "https://wellington-finance.nhs.uk/receipt/TXN-6009"
@@ -94,7 +94,7 @@
     "date": "2026-03-13",
     "amount": 8500.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "expected_procedure_fees",
     "description": "Expected procedure fees - Mr. Patel laparoscopic cholecystectomy (£4,200) + Mrs. Okonkwo complex hernia repair (£4,300) - 13th March 2026 session",
     "receipt_url": ""
@@ -114,9 +114,9 @@
     "date": "2026-01-28",
     "amount": 2400.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 16 January 2026 - Mr. Ashworth hernia repair and consultations",
+    "description": "Westgate private practice session - 16 January 2026 - Mr. Ashworth hernia repair and consultations",
     "receipt_url": ""
   },
   {
@@ -124,9 +124,9 @@
     "date": "2026-02-28",
     "amount": 2400.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 12 February 2026 - Routine consultations and minor procedures",
+    "description": "Westgate private practice session - 12 February 2026 - Routine consultations and minor procedures",
     "receipt_url": ""
   },
   {
@@ -134,9 +134,9 @@
     "date": "2026-03-28",
     "amount": 2400.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 5 March 2026 - Consultations (no cancellation penalties applied)",
+    "description": "Westgate private practice session - 5 March 2026 - Consultations (no cancellation penalties applied)",
     "receipt_url": ""
   },
   {
@@ -214,9 +214,9 @@
     "date": "2026-03-28",
     "amount": 2400.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 28th March 2026 - Single complex laparoscopic procedure",
+    "description": "Westgate private practice session - 28th March 2026 - Single complex laparoscopic procedure",
     "receipt_url": "https://wellington-billing.nhs.uk/invoice/WEL-2026-03-28-BO"
   },
   {
@@ -224,9 +224,9 @@
     "date": "2026-04-02",
     "amount": -4800.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_lost_revenue",
-    "description": "Wellington session cancellation - 3rd April 2026 - Lost revenue from two cancelled elective procedures (hernia repair £2,600 + cholecystectomy £2,200) due to NHS emergency trauma activation",
+    "description": "Westgate session cancellation - 3rd April 2026 - Lost revenue from two cancelled elective procedures (hernia repair £2,600 + cholecystectomy £2,200) due to NHS emergency trauma activation",
     "receipt_url": ""
   },
   {
@@ -234,9 +234,9 @@
     "date": "2026-03-15",
     "amount": 3100.0,
     "currency": "GBP",
-    "merchant": "The Wellington Hospital",
+    "merchant": "The Westgate Hospital",
     "category": "private_practice_income",
-    "description": "Wellington private practice session - 15th March 2026 - Complex hernia repair and minor procedure",
+    "description": "Westgate private practice session - 15th March 2026 - Complex hernia repair and minor procedure",
     "receipt_url": "https://wellington-billing.nhs.uk/invoice/WEL-2026-03-15-BO"
   }
 ]

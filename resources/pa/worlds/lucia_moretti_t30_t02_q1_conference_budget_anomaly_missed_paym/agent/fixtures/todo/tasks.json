@@ -16,7 +16,7 @@
   {
     "task_id": "TODO-502",
     "title": "Clone and review Deutsche Bank open-source Basel IV model",
-    "description": "GitHub: github.com/db-research/basel-iv-capital. Review code structure, validate against EBA technical standards, assess data input requirements.",
+    "description": "GitHub: github.example/db-research/basel-iv-capital. Review code structure, validate against EBA technical standards, assess data input requirements.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-29",
@@ -1084,7 +1084,7 @@
   {
     "task_id": "TODO-577",
     "title": "Submit pre-approval request for European Banking Conference split payment",
-    "description": "Email travel.admin@milanbank.eu for pre-approval of €850 conference registration split payment: €620 corporate voucher card + €230 direct reimbursement. Attach conference registration details and voucher balance confirmation (TXN-6012). Required per KB-407 policy for expenses >€500.",
+    "description": "Email travel.admin@milanbank.example for pre-approval of €850 conference registration split payment: €620 corporate voucher card + €230 direct reimbursement. Attach conference registration details and voucher balance confirmation (TXN-6012). Required per KB-407 policy for expenses >€500.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-07",
@@ -1112,7 +1112,7 @@
   {
     "task_id": "TODO-579",
     "title": "Submit €230 direct reimbursement request for conference registration balance",
-    "description": "After voucher payment confirmation, submit expense reimbursement form for remaining €230 of European Banking Conference registration. Attach: (1) full conference receipt showing €850 total, (2) voucher transaction confirmation showing €620 payment, (3) split-payment justification per KB-407. Submit to finance.expenses@milanbank.eu with Marco Bellini cc'd for approval.",
+    "description": "After voucher payment confirmation, submit expense reimbursement form for remaining €230 of European Banking Conference registration. Attach: (1) full conference receipt showing €850 total, (2) voucher transaction confirmation showing €620 payment, (3) split-payment justification per KB-407. Submit to finance.expenses@milanbank.example with Marco Bellini cc'd for approval.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-10",
@@ -1698,7 +1698,7 @@
   {
     "task_id": "TODO-621",
     "title": "Email conference organizer - deadline extension request (send March 21)",
-    "description": "Send pre-drafted email to events@eurobanking.org requesting early-bird deadline extension to March 27. Include: (1) corporate approval timeline justification, (2) request for payment plan formal terms, (3) cancellation fee structure disclosure, (4) registration scarcity verification. Expected outcome: Extension granted based on 2024 pattern (March 15→22→29). If extension confirmed, proceed with desk funding proposal to Marco.",
+    "description": "Send pre-drafted email to events@eurobanking.example requesting early-bird deadline extension to March 27. Include: (1) corporate approval timeline justification, (2) request for payment plan formal terms, (3) cancellation fee structure disclosure, (4) registration scarcity verification. Expected outcome: Extension granted based on 2024 pattern (March 15→22→29). If extension confirmed, proceed with desk funding proposal to Marco.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-21",
@@ -1754,7 +1754,7 @@
   {
     "task_id": "TODO-625",
     "title": "Submit split-payment pre-approval Form TR-2026-SP for conference registration",
-    "description": "Submit Form TR-2026-SP to travel.admin@milanbank.eu for European Banking Conference 2026 split-payment (€620 voucher + €230 personal card). Include: vendor quote from Jan 24 email, business justification (speaking slot, green taxonomy alignment), proposed allocation breakdown. Deadline: Jan 27 to ensure approval before March 20 early-bird deadline.",
+    "description": "Submit Form TR-2026-SP to travel.admin@milanbank.example for European Banking Conference 2026 split-payment (€620 voucher + €230 personal card). Include: vendor quote from Jan 24 email, business justification (speaking slot, green taxonomy alignment), proposed allocation breakdown. Deadline: Jan 27 to ensure approval before March 20 early-bird deadline.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-27",
@@ -1769,7 +1769,7 @@
   {
     "task_id": "TODO-626",
     "title": "Confirm split-payment approval received and complete conference registration",
-    "description": "Check for split-payment pre-approval confirmation from travel.admin@milanbank.eu (expected Feb 3-5). Once approved, complete European Banking Conference 2026 registration at early-bird rate (€850) using approved split-payment method. Deadline: February 10 (buffer before March 20 early-bird expiration).",
+    "description": "Check for split-payment pre-approval confirmation from travel.admin@milanbank.example (expected Feb 3-5). Once approved, complete European Banking Conference 2026 registration at early-bird rate (€850) using approved split-payment method. Deadline: February 10 (buffer before March 20 early-bird expiration).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-10",
@@ -1783,7 +1783,7 @@
   {
     "task_id": "TODO-627",
     "title": "Inform James Thornton - Accept standard roadshow accommodation",
-    "description": "Email james.thornton@kensingtoncap.co.uk confirming acceptance of standard accommodation (Hilton Kensington, client-covered) for March 24-25 London roadshow. Decline upgrade option to preserve Q1 voucher balance for conference. Deadline: Mid-February per James's request.",
+    "description": "Email james.thornton@kensingtoncap.example.uk confirming acceptance of standard accommodation (Hilton Kensington, client-covered) for March 24-25 London roadshow. Decline upgrade option to preserve Q1 voucher balance for conference. Deadline: Mid-February per James's request.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-14",
@@ -1854,7 +1854,7 @@
   {
     "task_id": "TODO-632",
     "title": "Submit optimal allocation plan to Travel Admin with justification",
-    "description": "After completing combinatorial analysis, draft workmail to Elena Bianchi (travel.admin@milanbank.eu) documenting optimal conference-platform allocation decision. Include justification for any non-corporate-portal bookings, explain voucher exhaustion strategy, and request pre-approval for any split-payment scenarios. Attach decision matrix from sheet workbook showing cost comparison across all scenarios.",
+    "description": "After completing combinatorial analysis, draft workmail to Elena Bianchi (travel.admin@milanbank.example) documenting optimal conference-platform allocation decision. Include justification for any non-corporate-portal bookings, explain voucher exhaustion strategy, and request pre-approval for any split-payment scenarios. Attach decision matrix from sheet workbook showing cost comparison across all scenarios.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-24",
@@ -2191,7 +2191,7 @@
   {
     "task_id": "TODO-656",
     "title": "Upload Frankfurt Basel IV panel slides - due February 10",
-    "description": "Finalize slide deck for Frankfurt Banking Summit Basel IV Regulatory Panel (Feb 19, 14:00-15:30 CET). Upload to speaker portal: https://fbs2026.eu/speaker-portal by Feb 10, 2026. Content: EBA technical standards update, output floor transition timeline, Italian bank readiness assessment. 12-15 slides.",
+    "description": "Finalize slide deck for Frankfurt Banking Summit Basel IV Regulatory Panel (Feb 19, 14:00-15:30 CET). Upload to speaker portal: https://fbs2026.example/speaker-portal by Feb 10, 2026. Content: EBA technical standards update, output floor transition timeline, Italian bank readiness assessment. 12-15 slides.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-02-10",

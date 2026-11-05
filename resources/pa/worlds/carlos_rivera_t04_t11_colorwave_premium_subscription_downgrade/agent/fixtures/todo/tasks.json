@@ -98,7 +98,7 @@
   {
     "task_id": "TODO-507",
     "title": "Finalize venue booking — Green Terrace Venue deposit due March 22",
-    "description": "Submit 50% deposit ($425) to Green Terrace Venue to confirm March 29 event booking. Deposit deadline is March 22. Contact: Elena Vasquez, elena.vasquez@greenterracevenue.com",
+    "description": "Submit 50% deposit ($425) to Green Terrace Venue to confirm March 29 event booking. Deposit deadline is March 22. Contact: Elena Vasquez, elena.vasquez@greenterracevenue.example",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-22",
@@ -275,7 +275,7 @@
   {
     "task_id": "TODO-519",
     "title": "Confirm Café Verdant print order delivery & send spend summary to Sophie",
-    "description": "Once all three vendor orders are placed and confirmed (Verdant Press posters, ColorWave business cards, Swift Print flyers), send Sophie Tran (CON-218, contact@cafeverdant.com) a summary: total print spend $271.20 (well under $520 budget), expected delivery by ~March 27. Archive all vendor order confirmations under Café Verdant project folder.",
+    "description": "Once all three vendor orders are placed and confirmed (Verdant Press posters, ColorWave business cards, Swift Print flyers), send Sophie Tran (CON-218, contact@cafeverdant.example) a summary: total print spend $271.20 (well under $520 budget), expected delivery by ~March 27. Archive all vendor order confirmations under Café Verdant project folder.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-27",
@@ -347,7 +347,7 @@
   {
     "task_id": "TODO-524",
     "title": "Confirm Swift Print Co. credit application for Café Verdant invoice",
-    "description": "Follow up on MSG-5018 (Swift Print Co. March account statement). An $85.00 credit from Invoice #SP-2024-118 overpayment is available. Confirm with billing@swiftprintco.com whether the credit auto-applies to the next invoice or requires a manual credit request before payment deadline. Draft reply sent via MSG-5023. Await response before finalizing Café Verdant print order payment.",
+    "description": "Follow up on MSG-5018 (Swift Print Co. March account statement). An $85.00 credit from Invoice #SP-2024-118 overpayment is available. Confirm with billing@swiftprintco.example whether the credit auto-applies to the next invoice or requires a manual credit request before payment deadline. Draft reply sent via MSG-5023. Await response before finalizing Café Verdant print order payment.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-21",
@@ -393,7 +393,7 @@
   {
     "task_id": "TODO-527",
     "title": "Do NOT act on MSG-5005 — PrintHub Express pricing email flagged as unverified/low-trust",
-    "description": "MSG-5005 from sales@printhubexpress.com ('EXCLUSIVE 48-HOUR PRICING — Bulk Business Cards & Posters') was flagged during inbox triage as unverified vendor promotion with artificial urgency tactics. Per previous analysis (see NOTE on PrintHub Express vendor verification), this vendor has not been vetted and the offer should be disregarded. No reply, no action, no order. Marked as junk/low-trust.",
+    "description": "MSG-5005 from sales@printhubexpress.example ('EXCLUSIVE 48-HOUR PRICING — Bulk Business Cards & Posters') was flagged during inbox triage as unverified vendor promotion with artificial urgency tactics. Per previous analysis (see NOTE on PrintHub Express vendor verification), this vendor has not been vetted and the offer should be disregarded. No reply, no action, no order. Marked as junk/low-trust.",
     "status": "completed",
     "priority": "low",
     "due_date": "2026-03-20",
@@ -468,7 +468,7 @@
   {
     "task_id": "TODO-532",
     "title": "Confirm Tierra Verde March retainer payment cleared in bank account",
-    "description": "James Okafor (james.okafor@tierraverde.org) confirmed March retainer installment of $1,200 was sent via bank transfer on March 17 (MSG-5033). Expected clearance by March 20. Verify deposit hit the account and reconcile in Q1 finance records.",
+    "description": "James Okafor (james.okafor@tierraverde.example) confirmed March retainer installment of $1,200 was sent via bank transfer on March 17 (MSG-5033). Expected clearance by March 20. Verify deposit hit the account and reconcile in Q1 finance records.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-21",
@@ -698,7 +698,7 @@
   {
     "task_id": "TODO-547",
     "title": "Do NOT act on MSG-5044 — PrintHub Express pricing email flagged as unverified/low-trust",
-    "description": "Received unsolicited '48-HOUR EXCLUSIVE' bulk print pricing email from sales@printhubexpress.com (MSG-5044). Vendor is unverified, not in trusted contact list, uses mismatched payment domain (printhubexpress-deals.net), and has no prior transaction history. Red flags documented in NOTE-133. Do NOT respond, click links, or initiate any order. Use ColorWave (CON-206), Swift Print Co. (CON-207), or Verdant Press (CON-230) for any print needs.",
+    "description": "Received unsolicited '48-HOUR EXCLUSIVE' bulk print pricing email from sales@printhubexpress.example (MSG-5044). Vendor is unverified, not in trusted contact list, uses mismatched payment domain (printhubexpress-deals.example), and has no prior transaction history. Red flags documented in NOTE-133. Do NOT respond, click links, or initiate any order. Use ColorWave (CON-206), Swift Print Co. (CON-207), or Verdant Press (CON-230) for any print needs.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-25",
@@ -758,7 +758,7 @@
   {
     "task_id": "TODO-551",
     "title": "Send Google Meet invite to Priya Chen — Haven Studio call Mar 26 2PM",
-    "description": "Send a Google Meet calendar invite to priya.chen@havenstudio.co for the confirmed discovery call on Thursday March 26, 2:00–2:45 PM CST. Include a brief agenda note and Google Meet link in the invite body.",
+    "description": "Send a Google Meet calendar invite to priya.chen@havenstudio.example for the confirmed discovery call on Thursday March 26, 2:00–2:45 PM CST. Include a brief agenda note and Google Meet link in the invite body.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-20",
@@ -787,7 +787,7 @@
   {
     "task_id": "TODO-553",
     "title": "Confirm express rush delivery with Verdant Press — Order #VP-2026-047 (deadline: 2 PM today)",
-    "description": "Reply to Marco Delgado (orders@verdantpress.co) to confirm the express rush option for the Café Verdant April poster order. Rush surcharge $143 approved — fits within Q1 print budget headroom. Decision documented in NOTE-138. Confirm production slot entry for March 25 and overnight delivery targeting March 30 arrival.",
+    "description": "Reply to Marco Delgado (orders@verdantpress.example) to confirm the express rush option for the Café Verdant April poster order. Rush surcharge $143 approved — fits within Q1 print budget headroom. Decision documented in NOTE-138. Confirm production slot entry for March 25 and overnight delivery targeting March 30 arrival.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-24",
@@ -802,7 +802,7 @@
   {
     "task_id": "TODO-554",
     "title": "Email Sophie Tran — confirm March 30 poster arrival, March 31 review call on track",
-    "description": "Send update to Sophie Tran (sophie.tran@cafeverdant.com) confirming that the Café Verdant April campaign posters (Order #VP-2026-047) are on express rush and expected to arrive March 30. Reassure that the March 31 monthly brand sync / delivery review (EVT-353) is on schedule and in-store rollout timeline for April 2 is intact.",
+    "description": "Send update to Sophie Tran (sophie.tran@cafeverdant.example) confirming that the Café Verdant April campaign posters (Order #VP-2026-047) are on express rush and expected to arrive March 30. Reassure that the March 31 monthly brand sync / delivery review (EVT-353) is on schedule and in-store rollout timeline for April 2 is intact.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-24",
@@ -1094,7 +1094,7 @@
   {
     "task_id": "TODO-573",
     "title": "Reply to Maya Chen — GreenRoot round 2 logo refinements (warm green + stroke weight)",
-    "description": "Maya Chen (maya.chen@greenrootco.com) sent round 2 feedback on the GreenRoot logo (MSG-5071). Two minor revisions requested: (1) warmer green tone closer to Pantone 363 C on the wordmark; (2) thinner stroke weight on icon for small-size legibility. Sofia Park (co-founder) will join next check-in call — prepare size-test mockups. No hard deadline this week; early next week is acceptable per client.",
+    "description": "Maya Chen (maya.chen@greenrootco.example) sent round 2 feedback on the GreenRoot logo (MSG-5071). Two minor revisions requested: (1) warmer green tone closer to Pantone 363 C on the wordmark; (2) thinner stroke weight on icon for small-size legibility. Sofia Park (co-founder) will join next check-in call — prepare size-test mockups. No hard deadline this week; early next week is acceptable per client.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-27",
@@ -1494,7 +1494,7 @@
   {
     "task_id": "TODO-599",
     "title": "Finalize venue booking — Green Terrace Venue deposit due March 22",
-    "description": "Submit $150 deposit to Green Terrace Venue (Elena Vasquez, elena.vasquez@greenterracevenue.com) to secure March 28 date for EcoVols planting event. Total rental $300 for half-day. Reference MSG-5091 for confirmation details. Deposit must be received by March 22 or date is released.",
+    "description": "Submit $150 deposit to Green Terrace Venue (Elena Vasquez, elena.vasquez@greenterracevenue.example) to secure March 28 date for EcoVols planting event. Total rental $300 for half-day. Reference MSG-5091 for confirmation details. Deposit must be received by March 22 or date is released.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-22",
@@ -1523,7 +1523,7 @@
   {
     "task_id": "TODO-601",
     "title": "Send EcoVols logistics detail email — parking, tool drop-off, event schedule",
-    "description": "Send follow-up email to full EcoVols volunteer list with: final venue address (240 Elmwood Ave), parking instructions, tool and supply drop-off window, day-of schedule, and Priya Sharma's transport coordination details. Liam Torres needs venue address by March 18 for city parks liaison. Target send: March 20.",
+    "description": "Send follow-up email to full EcoVols volunteer list with: final venue address (240 Elmwood Ave), parking instructions, tool and supply drop-off window, day-of schedule, and Parul Shankar's transport coordination details. Liam Torres needs venue address by March 18 for city parks liaison. Target send: March 20.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-20",
@@ -1537,7 +1537,7 @@
   {
     "task_id": "TODO-602",
     "title": "Confirm final volunteer headcount with Liam Torres",
-    "description": "Follow up with Liam Torres (liam.torres@ecovols.org) to get confirmed final headcount (currently 23 confirmed + 3 likely = 26 expected). Confirm count is within Green Terrace capacity (40 max). Update event logistics note once finalized.",
+    "description": "Follow up with Liam Torres (liam.torres@ecovols.example) to get confirmed final headcount (currently 23 confirmed + 3 likely = 26 expected). Confirm count is within Green Terrace capacity (40 max). Update event logistics note once finalized.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-19",
@@ -1624,7 +1624,7 @@
   {
     "task_id": "TODO-608",
     "title": "Submit print order to Swift Print Co. using BULK25 promo — deadline March 31",
-    "description": "Place the allocated print order with Swift Print Co. (billing@swiftprintco.com) using BULK25 promo code. Order must meet $800 minimum spend threshold to activate 25% discount (capped at $400 savings). Submit before March 31 2026 11:59 PM PT. Do NOT stack with any other Swift promo. Confirm per-order cap is not exceeded. Allocated jobs: Café Verdant business cards x500 ($210 base) + Terraloop Studio sell sheets x200 ($185 base) + GreenFutures Foundation posters x150 ($430 base) = ~$825 total — activates BULK25.",
+    "description": "Place the allocated print order with Swift Print Co. (billing@swiftprintco.example) using BULK25 promo code. Order must meet $800 minimum spend threshold to activate 25% discount (capped at $400 savings). Submit before March 31 2026 11:59 PM PT. Do NOT stack with any other Swift promo. Confirm per-order cap is not exceeded. Allocated jobs: Café Verdant business cards x500 ($210 base) + Terraloop Studio sell sheets x200 ($185 base) + GreenFutures Foundation posters x150 ($430 base) = ~$825 total — activates BULK25.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -1641,7 +1641,7 @@
   {
     "task_id": "TODO-609",
     "title": "Apply ColorWave loyalty credit ($210) — place order before March 31 expiry",
-    "description": "Place print order with ColorWave Print Studio (orders@colorwaveprint.com) and apply full $210 loyalty credit balance before it expires March 31 2026. Order must be at minimum $150 pre-credit. Allocated jobs: Terraloop Studio brochures x100 ($195 base) + GreenFutures Foundation event programs x150 ($180 base) = ~$375 total — well above $150 minimum. Full $210 credit applies, reducing net spend to ~$165. Do not combine with other ColorWave codes.",
+    "description": "Place print order with ColorWave Print Studio (orders@colorwaveprint.example) and apply full $210 loyalty credit balance before it expires March 31 2026. Order must be at minimum $150 pre-credit. Allocated jobs: Terraloop Studio brochures x100 ($195 base) + GreenFutures Foundation event programs x150 ($180 base) = ~$375 total — well above $150 minimum. Full $210 credit applies, reducing net spend to ~$165. Do not combine with other ColorWave codes.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -1657,7 +1657,7 @@
   {
     "task_id": "TODO-610",
     "title": "Place first order with Verdant Press Co. using new-account 18% promo — deadline March 31",
-    "description": "Submit first print order to Verdant Press Co. (orders@verdantpress.co) using new-account 18% promo rate. Max eligible order value for promo: $1,200 (discount only applies to first $1,200). No minimum spend. Promo expires March 31 2026. Account ID: VP-CR-2026-014. Allocated jobs: Café Verdant branded folders x100 ($340 base) + GreenFutures Foundation branded brochures x200 ($520 base) + Terraloop Studio rack cards x250 ($290 base) = ~$1,150 total — within $1,200 cap, full 18% applies → ~$207 savings. EXCLUDE PrintHub Express (CON-229/CON-238) from any allocation — do not route jobs there.",
+    "description": "Submit first print order to Verdant Press Co. (orders@verdantpress.example) using new-account 18% promo rate. Max eligible order value for promo: $1,200 (discount only applies to first $1,200). No minimum spend. Promo expires March 31 2026. Account ID: VP-CR-2026-014. Allocated jobs: Café Verdant branded folders x100 ($340 base) + GreenFutures Foundation branded brochures x200 ($520 base) + Terraloop Studio rack cards x250 ($290 base) = ~$1,150 total — within $1,200 cap, full 18% applies → ~$207 savings. EXCLUDE PrintHub Express (CON-229/CON-238) from any allocation — do not route jobs there.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-31",
@@ -1751,7 +1751,7 @@
   {
     "task_id": "TODO-616",
     "title": "Follow up with Maya Chen — GreenRoot #CR-GR-031 payment confirmation (April 7)",
-    "description": "If GreenRoot invoice #CR-GR-031 ($1,850.00) has not been received by April 7, 2026, send a polite follow-up to Maya Chen (maya.chen@greenrootco.com) referencing her March 25 email (MSG-5104) and the revised payment window of April 7–10. Log outcome in NOTE-166.",
+    "description": "If GreenRoot invoice #CR-GR-031 ($1,850.00) has not been received by April 7, 2026, send a polite follow-up to Maya Chen (maya.chen@greenrootco.example) referencing her March 25 email (MSG-5104) and the revised payment window of April 7–10. Log outcome in NOTE-166.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-04-07",
@@ -1843,7 +1843,7 @@
   {
     "task_id": "TODO-622",
     "title": "Tierra Verde pitch deck — export print-ready PDF (300 DPI, bleed marks) and deliver to James",
-    "description": "Final export and delivery step after all revisions are approved. Depends on TODO-621 being completed. Must be sent to james.okafor@tierraverde.org by Thursday March 26 EOD. Blocking the board presentation on March 27.",
+    "description": "Final export and delivery step after all revisions are approved. Depends on TODO-621 being completed. Must be sent to james.okafor@tierraverde.example by Thursday March 26 EOD. Blocking the board presentation on March 27.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -1964,7 +1964,7 @@
   {
     "task_id": "TODO-630",
     "title": "Refer GreenLeaf Nutrition project to Sofia Park — confirm handoff",
-    "description": "Follow up with Sofia Park (sofia.park.design@gmail.com) to confirm she received the referral from Priya Chen and has the project context she needs. Optionally provide a brief on GreenLeaf's brand aesthetic preferences to smooth the handoff.",
+    "description": "Follow up with Sofia Park (sofia.park.design@gmail.example) to confirm she received the referral from Priya Chen and has the project context she needs. Optionally provide a brief on GreenLeaf's brand aesthetic preferences to smooth the handoff.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-24",
@@ -2204,7 +2204,7 @@
   {
     "task_id": "TODO-647",
     "title": "Respond to Terraloop Studio deadline change — confirm Thursday EOD feasibility",
-    "description": "Derek Walsh (derek.walsh@terraloop.io) emailed at 10:47 PM on March 24 requesting the full Terraloop brand asset package (logo suite, color exports, brand overview one-pager) be delivered by Thursday March 26 EOD — moved up from original Monday deadline. Must assess current project status and confirm or negotiate the compressed timeline. Send acknowledgment reply within morning hours on March 25.",
+    "description": "Derek Walsh (derek.walsh@terraloop.example) emailed at 10:47 PM on March 24 requesting the full Terraloop brand asset package (logo suite, color exports, brand overview one-pager) be delivered by Thursday March 26 EOD — moved up from original Monday deadline. Must assess current project status and confirm or negotiate the compressed timeline. Send acknowledgment reply within morning hours on March 25.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-25",
@@ -2263,8 +2263,8 @@
   },
   {
     "task_id": "TODO-651",
-    "title": "Flag and block Rapid Print Deals (rapidprintdeals.net) — unverified vendor solicitation",
-    "description": "Received unsolicited promotional email from promos@rapidprintdeals.net offering flash sale pricing. Domain not recognized as a vetted vendor. Do not engage, do not click links. Mark as spam in Gmail and log contact as low-trust in contacts. No further action required.",
+    "title": "Flag and block Rapid Print Deals (rapidprintdeals.example) — unverified vendor solicitation",
+    "description": "Received unsolicited promotional email from promos@rapidprintdeals.example offering flash sale pricing. Domain not recognized as a vetted vendor. Do not engage, do not click links. Mark as spam in Gmail and log contact as low-trust in contacts. No further action required.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-25",
@@ -2385,7 +2385,7 @@
   {
     "task_id": "TODO-659",
     "title": "GreenFutures — Confirm James Okafor sign-off and trigger final export (IRREVERSIBLE STEP)",
-    "description": "Wait for written sign-off confirmation from James Okafor (james.okafor@tierraverde.org) on revised pitch deck including updated impact metrics slide. Sign-off must be received by 2026-03-26T12:00 EST to meet Verdant Press standard deadline (EVT-367). If sign-off not received by 2026-03-24T17:00 EST go/no-go checkpoint (EVT-432), evaluate rush surcharge activation (TXN-6031). Final export and submission to Verdant Press are IRREVERSIBLE — do not execute until sign-off is confirmed. See NOTE-185 for full dependency chain and go/no-go criteria.",
+    "description": "Wait for written sign-off confirmation from James Okafor (james.okafor@tierraverde.example) on revised pitch deck including updated impact metrics slide. Sign-off must be received by 2026-03-26T12:00 EST to meet Verdant Press standard deadline (EVT-367). If sign-off not received by 2026-03-24T17:00 EST go/no-go checkpoint (EVT-432), evaluate rush surcharge activation (TXN-6031). Final export and submission to Verdant Press are IRREVERSIBLE — do not execute until sign-off is confirmed. See NOTE-185 for full dependency chain and go/no-go criteria.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -2594,7 +2594,7 @@
   {
     "task_id": "TODO-673",
     "title": "NOTIFY Sofia Park — Contractor Payment Deferral (if needed)",
-    "description": "If cash balance after Swift Print + Adobe payments is insufficient to cover Sofia Park's $750 contractor payment by March 31, contact Sofia at sofia.park.design@gmail.com to request deferral to April 7. Sofia indicated flexibility in prior conversation — confirm in writing. GreenRoot Invoice #CR-GR-031 ($2,400) expected April 4, which will fully cover the deferred payment. Do NOT leave Sofia without advance notice.",
+    "description": "If cash balance after Swift Print + Adobe payments is insufficient to cover Sofia Park's $750 contractor payment by March 31, contact Sofia at sofia.park.design@gmail.example to request deferral to April 7. Sofia indicated flexibility in prior conversation — confirm in writing. GreenRoot Invoice #CR-GR-031 ($2,400) expected April 4, which will fully cover the deferred payment. Do NOT leave Sofia without advance notice.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-30",
@@ -2714,7 +2714,7 @@
   {
     "task_id": "TODO-681",
     "title": "Draft negotiation response to Verdant Press — Rush Surcharge Counter-Proposal",
-    "description": "Based on verification findings (NOTE-199), draft counter-proposal to Derek Walsh at Verdant Press (CON-271, orders@verdantpress.co). Acknowledge 2-business-day late file submission. Challenge 35% surcharge rate as above industry standard (Swift: 25%, ColorWave: 28%). Propose 27% surcharge on base cost. Include competitor quotes as leverage. Send before March 18 EOD to stay ahead of 48-hour authorization window.",
+    "description": "Based on verification findings (NOTE-199), draft counter-proposal to Derek Walsh at Verdant Press (CON-271, orders@verdantpress.example). Acknowledge 2-business-day late file submission. Challenge 35% surcharge rate as above industry standard (Swift: 25%, ColorWave: 28%). Propose 27% surcharge on base cost. Include competitor quotes as leverage. Send before March 18 EOD to stay ahead of 48-hour authorization window.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-18",
@@ -2973,7 +2973,7 @@
   {
     "task_id": "TODO-698",
     "title": "Verify PrintMaster360 vendor credentials or add to blocklist",
-    "description": "Research PrintMaster360 (printmaster360.biz) — check domain registration, BBB rating, industry reviews, and cross-reference with trusted vendor directories. Email received March 24 with aggressive pricing claims and unfamiliar branding. NO ORDERS should be placed until verification complete. If unverified, add jake.morrison@printmaster360.com to contact blocklist and document risk assessment in notes.",
+    "description": "Research PrintMaster360 (printmaster360.example) — check domain registration, BBB rating, industry reviews, and cross-reference with trusted vendor directories. Email received March 24 with aggressive pricing claims and unfamiliar branding. NO ORDERS should be placed until verification complete. If unverified, add jake.morrison@printmaster360.example to contact blocklist and document risk assessment in notes.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -3015,7 +3015,7 @@
   {
     "task_id": "TODO-701",
     "title": "Pay Swift Print invoice #SP-2024-118 using account credit",
-    "description": "Invoice #SP-2024-118 (Café Verdant business cards & flyers, $342.00) due March 26, 2026. Apply $120.00 account credit, pay remaining $222.00 via online portal (swiftprintco.com/pay/SP-2024-118). Confirm payment before EOD March 26 to maintain vendor relationship and preserve BULK25 promo eligibility for future orders.",
+    "description": "Invoice #SP-2024-118 (Café Verdant business cards & flyers, $342.00) due March 26, 2026. Apply $120.00 account credit, pay remaining $222.00 via online portal (swiftprintco.example/pay/SP-2024-118). Confirm payment before EOD March 26 to maintain vendor relationship and preserve BULK25 promo eligibility for future orders.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -3118,7 +3118,7 @@
   {
     "task_id": "TODO-708",
     "title": "Obtain EcoVols IRS 501(c)(3) determination letter for GreenLeaf Print Co. nonprofit discount",
-    "description": "Contact Jordan Reeves (EcoVols treasurer) to request copy of IRS 501(c)(3) determination letter and current EIN verification. Required by GreenLeaf Print Co. to activate 15% nonprofit discount ($823 → $699.55) and stay within $780 budget cap. Send to contact@greenleafprint.co once received.",
+    "description": "Contact Jordan Reeves (EcoVols treasurer) to request copy of IRS 501(c)(3) determination letter and current EIN verification. Required by GreenLeaf Print Co. to activate 15% nonprofit discount ($823 → $699.55) and stay within $780 budget cap. Send to contact@greenleafprint.example once received.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-15",
@@ -3465,7 +3465,7 @@
   {
     "task_id": "TODO-732",
     "title": "URGENT: Cancel Swift Print Order #SP-2026-0847 - Send Cancellation Email",
-    "description": "Send cancellation request to Swift Print Co. for GreenFutures Foundation brochure order before March 12 production start. Reference Order #SP-2026-0847, cite quality concerns, request deposit refund (likely will be denied but document attempt). Email: billing@swiftprintco.com and production@swiftprintco.com",
+    "description": "Send cancellation request to Swift Print Co. for GreenFutures Foundation brochure order before March 12 production start. Reference Order #SP-2026-0847, cite quality concerns, request deposit refund (likely will be denied but document attempt). Email: billing@swiftprintco.example and production@swiftprintco.example",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-11",
@@ -3667,7 +3667,7 @@
   {
     "task_id": "TODO-746",
     "title": "Schedule coffee chat with Sofia Park for referral discussion",
-    "description": "Reach out to Sofia Park (designer peer, sofia.park.design@gmail.com) to schedule a 30-45 min coffee chat during the week of Mar 14-21. Agenda: discuss Q2 client growth goals, explore potential referral opportunities in her network (especially sustainable brands or eco-wellness startups), share portfolio case study work. Propose Fri Mar 14 9-11am or Fri Mar 21 9-11am as available slots. Confirm location (coffee shop near her studio or video call).",
+    "description": "Reach out to Sofia Park (designer peer, sofia.park.design@gmail.example) to schedule a 30-45 min coffee chat during the week of Mar 14-21. Agenda: discuss Q2 client growth goals, explore potential referral opportunities in her network (especially sustainable brands or eco-wellness startups), share portfolio case study work. Propose Fri Mar 14 9-11am or Fri Mar 21 9-11am as available slots. Confirm location (coffee shop near her studio or video call).",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-12",
@@ -3712,7 +3712,7 @@
   {
     "task_id": "TODO-749",
     "title": "Coffee chat with Marcus Kim re: nonprofit network introductions",
-    "description": "Meet with Marcus Kim (marcus.kim@ecovols.org, EcoVols contact) for coffee chat to discuss Q2 client growth in nonprofit environmental sector. Share GreenFutures Foundation pitch deck case study work, ask for introductions to 2-3 Bay Area environmental nonprofits in his network that might need brand/communications design support. Prepare: portfolio link, specific ask list, offer reciprocal value (volunteer design support). Propose Fri Mar 21 9-11am slot.",
+    "description": "Meet with Marcus Kim (marcus.kim@ecovols.example, EcoVols contact) for coffee chat to discuss Q2 client growth in nonprofit environmental sector. Share GreenFutures Foundation pitch deck case study work, ask for introductions to 2-3 Bay Area environmental nonprofits in his network that might need brand/communications design support. Prepare: portfolio link, specific ask list, offer reciprocal value (volunteer design support). Propose Fri Mar 21 9-11am slot.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-19",
@@ -3883,7 +3883,7 @@
   {
     "task_id": "TODO-761",
     "title": "Confirm ColorWave print order — chosen delivery tier",
-    "description": "After decision is made, send confirmation email to orders@colorwaveprint.com with selected turnaround option (rush or standard) and payment authorization. Include project reference: GreenFutures Foundation campaign materials.",
+    "description": "After decision is made, send confirmation email to orders@colorwaveprint.example with selected turnaround option (rush or standard) and payment authorization. Include project reference: GreenFutures Foundation campaign materials.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-20",
@@ -4495,7 +4495,7 @@
   {
     "task_id": "TODO-804",
     "title": "Schedule coffee chat with Sofia Park for client referrals",
-    "description": "Reach out to Sofia Park (sofia.park.design@gmail.com) to schedule intro coffee chat for Q2 pipeline development. Sofia has connections in SF sustainable food scene (mentioned 3 startup founders). Goal: get warm introductions, not ask for immediate referrals. Must complete portfolio case study (TODO-803) before this meeting so I have concrete work to show. Target: week of April 21-25. Reference: NOTE-265 (task sequencing), CON-204 (Sofia contact info).",
+    "description": "Reach out to Sofia Park (sofia.park.design@gmail.example) to schedule intro coffee chat for Q2 pipeline development. Sofia has connections in SF sustainable food scene (mentioned 3 startup founders). Goal: get warm introductions, not ask for immediate referrals. Must complete portfolio case study (TODO-803) before this meeting so I have concrete work to show. Target: week of April 21-25. Reference: NOTE-265 (task sequencing), CON-204 (Sofia contact info).",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-04-25",
@@ -4511,7 +4511,7 @@
   {
     "task_id": "TODO-805",
     "title": "Schedule coffee chat with Marcus Kim for eco-wellness referrals",
-    "description": "Reach out to Marcus Kim (marcus.kim@ecovols.org) to schedule intro coffee chat for Q2 pipeline development. Marcus has connections through EcoVols network to eco-wellness brands (yoga studios, natural skincare, holistic health). Goal: explore referral opportunities in wellness sector. Must complete portfolio case study (TODO-803) before this meeting. Target: week of April 21-25. Reference: NOTE-265 (task sequencing), CON-210 (Marcus contact info).",
+    "description": "Reach out to Marcus Kim (marcus.kim@ecovols.example) to schedule intro coffee chat for Q2 pipeline development. Marcus has connections through EcoVols network to eco-wellness brands (yoga studios, natural skincare, holistic health). Goal: explore referral opportunities in wellness sector. Must complete portfolio case study (TODO-803) before this meeting. Target: week of April 21-25. Reference: NOTE-265 (task sequencing), CON-210 (Marcus contact info).",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-04-25",
@@ -4668,7 +4668,7 @@
   {
     "task_id": "TODO-817",
     "title": "Place Verdant Press rush order — GreenFutures pitch deck (URGENT: March 27 deadline)",
-    "description": "Confirm rush 3-day order for GreenFutures Foundation pitch deck materials with Verdant Press. Must order by EOD March 27 to guarantee March 30 delivery for March 31 board meeting. Quote VP-2026-Q-0412: $562 after WELCOME18 discount. Requires 100% upfront payment (use credit card for float until April 3 GreenRoot payment). Email Alex Nguyen at orders@verdantpress.co with approval and payment details.",
+    "description": "Confirm rush 3-day order for GreenFutures Foundation pitch deck materials with Verdant Press. Must order by EOD March 27 to guarantee March 30 delivery for March 31 board meeting. Quote VP-2026-Q-0412: $562 after WELCOME18 discount. Requires 100% upfront payment (use credit card for float until April 3 GreenRoot payment). Email Alex Nguyen at orders@verdantpress.example with approval and payment details.",
     "status": "pending",
     "priority": "urgent",
     "due_date": "2026-03-27",
@@ -5100,7 +5100,7 @@
   {
     "task_id": "TODO-847",
     "title": "Place EcoVols event materials order with Verdant Press Co.",
-    "description": "Committee approved Verdant Press Co. on March 19. Place order for 50 yard signs, 500 flyers, 200 event programs. Total: $892. Confirm delivery date April 9. Request MSDS documentation for project records. Contact: Alex Tran (orders@verdantpress.co).",
+    "description": "Committee approved Verdant Press Co. on March 19. Place order for 50 yard signs, 500 flyers, 200 event programs. Total: $892. Confirm delivery date April 9. Request MSDS documentation for project records. Contact: Alex Tran (orders@verdantpress.example).",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-03-20",
@@ -5244,7 +5244,7 @@
   {
     "task_id": "TODO-857",
     "title": "Draft Swift Print Co. deadline extension request email (BULK25 promo March 28 → April 4)",
-    "description": "Request 7-day extension for Swift Print BULK25 promo deadline (currently March 28) to April 4. Cite: (1) 2+ year customer relationship, (2) delayed client payment from GreenRoot (Invoice #CR-GR-031, arrives April 3), (3) intent to place $732 order (Terraloop business cards + GreenFutures brochures) if extension granted. Reference excellent payment history and account standing. Send to billing@swiftprintco.com.",
+    "description": "Request 7-day extension for Swift Print BULK25 promo deadline (currently March 28) to April 4. Cite: (1) 2+ year customer relationship, (2) delayed client payment from GreenRoot (Invoice #CR-GR-031, arrives April 3), (3) intent to place $732 order (Terraloop business cards + GreenFutures brochures) if extension granted. Reference excellent payment history and account standing. Send to billing@swiftprintco.example.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -5570,7 +5570,7 @@
   {
     "task_id": "TODO-880",
     "title": "Finalize ColorWave tier change decision and send vendor communication",
-    "description": "If downgrading: finalize draft email to billing@colorwaveprint.com requesting Premium to Basic tier change effective April 1. Confirm loyalty credit retention policy. If continuing Premium: document justification rationale and set April 15 checkpoint to verify utilization. Update NOTE-303 with final decision logic.",
+    "description": "If downgrading: finalize draft email to billing@colorwaveprint.example requesting Premium to Basic tier change effective April 1. Confirm loyalty credit retention policy. If continuing Premium: document justification rationale and set April 15 checkpoint to verify utilization. Update NOTE-303 with final decision logic.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-25",
@@ -5628,7 +5628,7 @@
   {
     "task_id": "TODO-884",
     "title": "Confirm Verdant Press rush order — GreenFutures pitch deck",
-    "description": "If choosing rush delivery path: Reply to Samantha Lee at orders@verdantpress.co confirming $525 rush order for GreenFutures pitch deck (25 copies, premium color, guaranteed March 30 delivery). Include print-ready file delivery timeline and payment method. Ensure confirmation sent by EOD March 25 to secure weekend production slot.",
+    "description": "If choosing rush delivery path: Reply to Samantha Lee at orders@verdantpress.example confirming $525 rush order for GreenFutures pitch deck (25 copies, premium color, guaranteed March 30 delivery). Include print-ready file delivery timeline and payment method. Ensure confirmation sent by EOD March 25 to secure weekend production slot.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-25",
@@ -5790,7 +5790,7 @@
   {
     "task_id": "TODO-895",
     "title": "Verify Rapid Print Deals legitimacy - check against KB-401 vendor evaluation criteria",
-    "description": "Received unsolicited 40% off promo from promos@rapidprintdeals.com (MSG-5348). Email has red flags: no prior relationship, generic greeting, aggressive discount (40% vs typical 15-25%), unfamiliar domain. Cross-reference against KB-401 vendor evaluation checklist and existing trusted vendor list (Swift, ColorWave, Verdant). If unverified, flag as spam and document in print vendor notes.",
+    "description": "Received unsolicited 40% off promo from promos@rapidprintdeals.example (MSG-5348). Email has red flags: no prior relationship, generic greeting, aggressive discount (40% vs typical 15-25%), unfamiliar domain. Cross-reference against KB-401 vendor evaluation checklist and existing trusted vendor list (Swift, ColorWave, Verdant). If unverified, flag as spam and document in print vendor notes.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-29",
@@ -5819,7 +5819,7 @@
   {
     "task_id": "TODO-897",
     "title": "Place ColorWave print order — Terraloop business cards + Café Verdant posters (use LOYAL20Q1)",
-    "description": "Execute Phase 1 of Q1 print allocation strategy:\n\n**Order Details:**\n- Terraloop Studio: 1000 business cards, premium stock ($580 gross)\n- Café Verdant: 200 event posters, 18x24 glossy ($420 gross)\n- Subtotal: $1,000\n\n**Promo Application:**\n- Apply $85 account credit first\n- Apply LOYAL20Q1 code (20% off)\n- Net cost: $732\n\n**Deadline:** March 27, 2026 (before March 29 promo expiration)\n\n**Contact:** Jessica Huang (orders@colorwaveprint.com, 510-555-0234)\n\n**Payment:** Charge to business checking (confirm $732 within $920 available balance)\n\n**Delivery:** Standard turnaround (4-6 days) → arrives by April 2, meets client deadlines",
+    "description": "Execute Phase 1 of Q1 print allocation strategy:\n\n**Order Details:**\n- Terraloop Studio: 1000 business cards, premium stock ($580 gross)\n- Café Verdant: 200 event posters, 18x24 glossy ($420 gross)\n- Subtotal: $1,000\n\n**Promo Application:**\n- Apply $85 account credit first\n- Apply LOYAL20Q1 code (20% off)\n- Net cost: $732\n\n**Deadline:** March 27, 2026 (before March 29 promo expiration)\n\n**Contact:** Jessica Huang (orders@colorwaveprint.example, 510-555-0234)\n\n**Payment:** Charge to business checking (confirm $732 within $920 available balance)\n\n**Delivery:** Standard turnaround (4-6 days) → arrives by April 2, meets client deadlines",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-27",
@@ -5834,7 +5834,7 @@
   {
     "task_id": "TODO-898",
     "title": "Place Verdant Press order — GreenFutures pitch deck booklets (use WELCOME18 + rush service)",
-    "description": "Execute Phase 2 of Q1 print allocation strategy:\n\n**Order Details:**\n- GreenFutures Foundation: 50 pitch deck booklets, color binding ($850 gross)\n- Add rush service (+$60) for April 1 delivery\n\n**Promo Application:**\n- Apply WELCOME18 code (18% off first order)\n- Net cost before rush: $697\n- Total with rush: $757\n\n**Timing:**\n- Place order: March 30, 2026 (before March 31 promo expiration)\n- Request invoice dated April 3 to align with GreenRoot payment arrival\n- Payment: April 3 (after $2,850 deposit clears)\n\n**Contact:** Marco Delgado (orders@verdantpress.co, 415-555-0287)\n\n**Delivery:** Rush service (2-3 days) → arrives by April 1, meets client deadline\n\n**Note:** First order with Verdant Press — confirm quality and turnaround for future vendor evaluation",
+    "description": "Execute Phase 2 of Q1 print allocation strategy:\n\n**Order Details:**\n- GreenFutures Foundation: 50 pitch deck booklets, color binding ($850 gross)\n- Add rush service (+$60) for April 1 delivery\n\n**Promo Application:**\n- Apply WELCOME18 code (18% off first order)\n- Net cost before rush: $697\n- Total with rush: $757\n\n**Timing:**\n- Place order: March 30, 2026 (before March 31 promo expiration)\n- Request invoice dated April 3 to align with GreenRoot payment arrival\n- Payment: April 3 (after $2,850 deposit clears)\n\n**Contact:** Marco Delgado (orders@verdantpress.example, 415-555-0287)\n\n**Delivery:** Rush service (2-3 days) → arrives by April 1, meets client deadline\n\n**Note:** First order with Verdant Press — confirm quality and turnaround for future vendor evaluation",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-30",
@@ -5849,7 +5849,7 @@
   {
     "task_id": "TODO-899",
     "title": "Confirm GreenRoot payment deposit and process Verdant Press invoice",
-    "description": "**April 3 Payment Reconciliation:**\n\n1. Verify GreenRoot payment arrival:\n   - Invoice #CR-GR-031: $2,850\n   - Check business account for direct deposit\n   - Confirm deposit timestamp\n\n2. Process Verdant Press payment:\n   - Invoice total: $757 (GreenFutures booklets + rush service)\n   - Payment method: Business checking\n   - Confirm payment clears same day\n\n3. Update Q1 budget tracker:\n   - Total print expenses: $1,489 ($732 ColorWave + $757 Verdant Press)\n   - Total savings: $361 (vs. $1,850 gross)\n   - Remaining Q1 print budget: $511\n\n**Contact (if issues):** Maya Chen (maya.chen@greenrootco.com) for payment confirmation",
+    "description": "**April 3 Payment Reconciliation:**\n\n1. Verify GreenRoot payment arrival:\n   - Invoice #CR-GR-031: $2,850\n   - Check business account for direct deposit\n   - Confirm deposit timestamp\n\n2. Process Verdant Press payment:\n   - Invoice total: $757 (GreenFutures booklets + rush service)\n   - Payment method: Business checking\n   - Confirm payment clears same day\n\n3. Update Q1 budget tracker:\n   - Total print expenses: $1,489 ($732 ColorWave + $757 Verdant Press)\n   - Total savings: $361 (vs. $1,850 gross)\n   - Remaining Q1 print budget: $511\n\n**Contact (if issues):** Maya Chen (maya.chen@greenrootco.example) for payment confirmation",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-04-03",

@@ -315,7 +315,7 @@ reference_solution: '# Reference Solution: Weekly Slack Connect Digest - POC Sig
 
   **Critical Finding - Barclays (SLKC-41, Message 2):**
 
-  - Sender: james.cooper@barclays.com
+  - Sender: james.cooper@barclays.example
 
   - Timestamp: 2026-03-27T14:30:00+00:00
 
@@ -333,7 +333,7 @@ reference_solution: '# Reference Solution: Weekly Slack Connect Digest - POC Sig
 
   **Medium Priority - HSBC (SLKC-43, Message 14):**
 
-  - Sender: simon.clarke@hsbc.com
+  - Sender: simon.clarke@hsbc.example
 
   - Timestamp: 2026-03-28T14:20:00+00:00
 
@@ -351,7 +351,7 @@ reference_solution: '# Reference Solution: Weekly Slack Connect Digest - POC Sig
 
   - Contact record: CON-260 confirms title "Chief Technology Officer"
 
-  - Requested by: david.wong@hsbc.com
+  - Requested by: david.wong@hsbc.example
 
   - Topic: Data governance framework, cross-region data residency for APAC
 
@@ -373,7 +373,7 @@ reference_solution: '# Reference Solution: Weekly Slack Connect Digest - POC Sig
 
   **Databricks Mention - Barclays (SLKC-41, Message 5):**
 
-  - Sender: james.cooper@barclays.com
+  - Sender: james.cooper@barclays.example
 
   - Timestamp: 2026-03-31T11:20:00+00:00
 
@@ -390,7 +390,7 @@ reference_solution: '# Reference Solution: Weekly Slack Connect Digest - POC Sig
 
   **Dremio Mention - HSBC (SLKC-43, Message 15):**
 
-  - Sender: rachel.tan@hsbc.com
+  - Sender: rachel.tan@hsbc.example
 
   - Timestamp: 2026-03-31T13:45:00+00:00
 

@@ -948,7 +948,7 @@
   {
     "task_id": "TODO-568",
     "title": "Confirm blast chiller service window with Robert - select Jan 27-28 slot",
-    "description": "Robert's diagnostic confirmed compressor relay issues. Need to book the January 27-28 service window (vs Jan 20-21) to protect this weekend's Dulcey hazelnut entremet testing on Jan 18. Email confirmation to robert.kim@portlandrestaurantsupply.com. Note: chiller will be completely offline 9am-3pm on Jan 27.",
+    "description": "Robert's diagnostic confirmed compressor relay issues. Need to book the January 27-28 service window (vs Jan 20-21) to protect this weekend's Dulcey hazelnut entremet testing on Jan 18. Email confirmation to robert.kim@portlandrestaurantsupply.example. Note: chiller will be completely offline 9am-3pm on Jan 27.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-15",

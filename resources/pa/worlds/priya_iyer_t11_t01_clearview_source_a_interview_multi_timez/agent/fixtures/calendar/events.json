@@ -5,7 +5,7 @@
     "start_time": "2026-02-12T11:00:00+00:00",
     "end_time": "2026-02-12T12:30:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Source A (Dimitris K.)"
     ],
     "location": "Secure video call (Jitsi encrypted)",
@@ -17,7 +17,7 @@
     "start_time": "2026-02-14T19:30:00+00:00",
     "end_time": "2026-02-14T21:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Source B (Elena V.)"
     ],
     "location": "Secure video call (Signal)",
@@ -29,7 +29,7 @@
     "start_time": "2026-02-18T20:00:00+00:00",
     "end_time": "2026-02-18T20:30:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Online - Signal + PGP encrypted transfer",
@@ -54,7 +54,7 @@
     "end_time": "2026-01-06T15:30:00+08:00",
     "attendees": [
       "Marcus Chen",
-      "Priya Iyer",
+      "Parul Iyengar",
       "Rajesh Mehta"
     ],
     "location": "Conference Room B (secure) / Video",
@@ -66,7 +66,7 @@
     "start_time": "2026-01-09T10:00:00+03:00",
     "end_time": "2026-01-09T13:00:00+03:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "James Omondi"
     ],
     "location": "Nairobi (location TBD after confirmation)",
@@ -79,7 +79,7 @@
     "end_time": "2026-01-13T17:00:00+08:00",
     "attendees": [
       "Marcus Chen",
-      "Priya Iyer",
+      "Parul Iyengar",
       "Reuters Investigates team",
       "FT investigations team"
     ],
@@ -93,7 +93,7 @@
     "end_time": "2026-02-22T15:00:00+00:00",
     "attendees": [
       "Marcus Chen",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Marcus's office / secure line",
     "recurring": ""
@@ -104,7 +104,7 @@
     "start_time": "2026-02-23T10:00:00+00:00",
     "end_time": "2026-02-23T12:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workspace",
     "recurring": ""
@@ -115,7 +115,7 @@
     "start_time": "2026-02-24T09:00:00+00:00",
     "end_time": "2026-02-24T11:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workspace",
     "recurring": ""
@@ -126,7 +126,7 @@
     "start_time": "2026-02-26T13:00:00+00:00",
     "end_time": "2026-02-26T17:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workspace",
     "recurring": ""
@@ -140,7 +140,7 @@
       "Rajesh Mehta",
       "Marcus Chen",
       "Alicia Fernandez",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Morning Ledger HQ - 4th Floor Secure Conference Room",
     "recurring": ""
@@ -154,7 +154,7 @@
       "Sarah Winters (Reuters)",
       "David Kimani (African Investigative Review)",
       "Marcus Chen",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Zoom (encrypted link in calendar notes)",
     "recurring": ""
@@ -165,7 +165,7 @@
     "start_time": "2026-03-03T14:00:00+00:00",
     "end_time": "2026-03-03T16:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "T.W. (confidential source)"
     ],
     "location": "Secure location - encrypted Jitsi connection",
@@ -177,7 +177,7 @@
     "start_time": "2026-03-03T13:00:00+00:00",
     "end_time": "2026-03-03T14:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Home office - secure workstation",
     "recurring": ""
@@ -188,8 +188,8 @@
     "start_time": "2026-01-06T17:00:00+00:00",
     "end_time": "2026-01-06T18:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example"
     ],
     "location": "Marcus's office (3rd floor) / Secure room",
     "recurring": "none"
@@ -200,8 +200,8 @@
     "start_time": "2026-01-07T10:00:00+00:00",
     "end_time": "2026-01-07T10:45:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "rajesh.mehta@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "rajesh.mehta@morningledger.example"
     ],
     "location": "Phone / Encrypted Signal call",
     "recurring": "none"
@@ -212,8 +212,8 @@
     "start_time": "2026-01-08T14:00:00+00:00",
     "end_time": "2026-01-08T16:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "secure.contact.a@protonmail.com"
+      "parul.iyengar@morningledger.example",
+      "secure.contact.a@protonmail.example"
     ],
     "location": "Encrypted video call (ProtonMail + Signal backup)",
     "recurring": "none"
@@ -225,9 +225,9 @@
     "end_time": "2026-01-09T15:00:00+00:00",
     "attendees": [
       "Financial Crime Desk team",
-      "marcus.chen@morningledger.news",
-      "priya.iyer@morningledger.news",
-      "alicia.fernandez@morningledger.news"
+      "marcus.chen@morningledger.example",
+      "parul.iyengar@morningledger.example",
+      "alicia.fernandez@morningledger.example"
     ],
     "location": "Conference Room B",
     "recurring": "weekly"
@@ -238,7 +238,7 @@
     "start_time": "2026-01-08T10:00:00+00:00",
     "end_time": "2026-01-08T11:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Remote - secure workstation",
     "recurring": ""
@@ -249,7 +249,7 @@
     "start_time": "2026-01-10T14:00:00+00:00",
     "end_time": "2026-01-10T15:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Remote - secure workstation",
     "recurring": ""
@@ -260,7 +260,7 @@
     "start_time": "2026-01-13T09:00:00+00:00",
     "end_time": "2026-01-13T11:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Remote - secure workstation",
     "recurring": ""
@@ -271,9 +271,9 @@
     "start_time": "2026-01-14T15:00:00+00:00",
     "end_time": "2026-01-14T16:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news",
-      "alicia.fernandez@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example",
+      "alicia.fernandez@morningledger.example"
     ],
     "location": "Morning Ledger - Conference Room B",
     "recurring": ""
@@ -284,7 +284,7 @@
     "start_time": "2026-03-18T19:00:00+00:00",
     "end_time": "2026-03-18T21:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Source A (encrypted)"
     ],
     "location": "Signal encrypted video call",
@@ -296,7 +296,7 @@
     "start_time": "2026-03-18T19:30:00+00:00",
     "end_time": "2026-03-18T21:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Jordan Blake"
     ],
     "location": "Morning Ledger - Secure conference room 2B",
@@ -308,7 +308,7 @@
     "start_time": "2026-03-19T14:00:00+00:00",
     "end_time": "2026-03-19T15:30:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Alicia Fernandez",
       "Marcus Chen"
     ],
@@ -322,7 +322,7 @@
     "end_time": "2026-03-17T11:00:00+00:00",
     "attendees": [
       "Marcus Chen",
-      "Priya Iyer",
+      "Parul Iyengar",
       "Rajesh Mehta",
       "Jordan Blake",
       "Financial Crime Team"
@@ -336,7 +336,7 @@
     "start_time": "2026-01-11T14:00:00+00:00",
     "end_time": "2026-01-11T17:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workstation - encrypted connection required",
     "recurring": ""
@@ -347,7 +347,7 @@
     "start_time": "2026-01-12T09:00:00+00:00",
     "end_time": "2026-01-12T13:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workstation - depends on Cyprus results",
     "recurring": ""
@@ -358,7 +358,7 @@
     "start_time": "2026-01-12T14:00:00+00:00",
     "end_time": "2026-01-12T16:30:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Morning Ledger secure conference room",
@@ -370,7 +370,7 @@
     "start_time": "2026-02-25T14:00:00+00:00",
     "end_time": "2026-02-25T15:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Morning Ledger - Conference Room B / Video",
@@ -382,7 +382,7 @@
     "start_time": "2026-02-26T15:00:00+00:00",
     "end_time": "2026-02-26T15:30:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Thomas Patel (ECI)"
     ],
     "location": "Phone: +44 20 7946 0958",
@@ -395,7 +395,7 @@
     "end_time": "2026-01-27T18:00:00+00:00",
     "attendees": [
       "Marcus Chen",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Virtual / Email delivery",
     "recurring": ""
@@ -407,7 +407,7 @@
     "end_time": "2026-01-27T10:30:00+00:00",
     "attendees": [
       "Thomas Patel",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Phone: +44 20 7946 0958",
     "recurring": ""
@@ -418,7 +418,7 @@
     "start_time": "2026-01-26T14:00:00+00:00",
     "end_time": "2026-01-26T16:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Focus block - no meetings",
     "recurring": ""
@@ -429,7 +429,7 @@
     "start_time": "2026-01-10T10:00:00+00:00",
     "end_time": "2026-01-10T12:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Remote - Jersey FSC portal",
     "recurring": ""
@@ -440,7 +440,7 @@
     "start_time": "2026-01-15T14:00:00+00:00",
     "end_time": "2026-01-15T16:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Remote - Jersey FSC portal",
     "recurring": ""
@@ -451,7 +451,7 @@
     "start_time": "2026-01-11T15:00:00+00:00",
     "end_time": "2026-01-11T16:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Focus time - no meetings",
     "recurring": ""
@@ -462,9 +462,9 @@
     "start_time": "2026-02-03T10:00:00+00:00",
     "end_time": "2026-02-03T11:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news",
-      "alicia.fernandez@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example",
+      "alicia.fernandez@morningledger.example"
     ],
     "location": "Conference Room B",
     "recurring": "monthly"
@@ -475,7 +475,7 @@
     "start_time": "2026-01-15T10:00:00+00:00",
     "end_time": "2026-01-15T12:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workspace - encrypted comms only",
     "recurring": ""
@@ -486,7 +486,7 @@
     "start_time": "2026-01-15T15:00:00+00:00",
     "end_time": "2026-01-15T15:45:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Phone call",
@@ -498,7 +498,7 @@
     "start_time": "2026-01-16T10:30:00+00:00",
     "end_time": "2026-01-16T11:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Rajesh Mehta"
     ],
     "location": "Secure video call",
@@ -510,7 +510,7 @@
     "start_time": "2026-01-16T18:00:00+02:00",
     "end_time": "2026-01-16T19:30:00+02:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Source A (Dimitris K.)"
     ],
     "location": "Encrypted Signal call - TIMEZONE: UTC+2",
@@ -522,7 +522,7 @@
     "start_time": "2026-02-19T10:00:00+00:00",
     "end_time": "2026-02-19T10:15:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Deadline (external)",
     "recurring": "none"
@@ -533,7 +533,7 @@
     "start_time": "2026-02-21T18:00:00+00:00",
     "end_time": "2026-02-21T18:30:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Encrypted communication (Tutanota)",
     "recurring": "none"
@@ -544,7 +544,7 @@
     "start_time": "2026-03-13T14:00:00+00:00",
     "end_time": "2026-03-13T14:45:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Morning Ledger - Conference Room B / Video",
@@ -556,7 +556,7 @@
     "start_time": "2026-03-13T16:00:00+00:00",
     "end_time": "2026-03-13T18:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Focus time - no interruptions",
     "recurring": ""
@@ -580,7 +580,7 @@
     "start_time": "2026-01-22T08:00:00+03:00",
     "end_time": "2026-01-27T18:00:00+03:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Nairobi, Kenya",
     "recurring": ""
@@ -591,9 +591,9 @@
     "start_time": "2026-01-21T15:00:00+00:00",
     "end_time": "2026-01-21T15:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news",
-      "alicia.fernandez@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example",
+      "alicia.fernandez@morningledger.example"
     ],
     "location": "Morning Ledger office - secure storage room",
     "recurring": ""
@@ -604,7 +604,7 @@
     "start_time": "2026-01-20T17:00:00+00:00",
     "end_time": "2026-01-20T17:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Home office",
     "recurring": "weekly"
@@ -615,8 +615,8 @@
     "start_time": "2026-03-06T10:00:00Z",
     "end_time": "2026-03-06T10:30:00Z",
     "attendees": [
-      "marcus.chen@morningledger.news",
-      "priya.iyer@morningledger.news"
+      "marcus.chen@morningledger.example",
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Video call - Morning Ledger internal",
     "recurring": ""
@@ -627,7 +627,7 @@
     "start_time": "2026-03-06T15:00:00Z",
     "end_time": "2026-03-06T16:30:00Z",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Desk - registry verification work",
     "recurring": ""
@@ -638,9 +638,9 @@
     "start_time": "2026-03-18T14:00:00Z",
     "end_time": "2026-03-18T15:30:00Z",
     "attendees": [
-      "sarah.winters@reuters.com",
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news"
+      "sarah.winters@reuters.example",
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example"
     ],
     "location": "Video conference - secure link TBD",
     "recurring": ""
@@ -651,10 +651,10 @@
     "start_time": "2026-03-17T10:00:00+00:00",
     "end_time": "2026-03-17T11:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "sarah.winters@reuters.com",
-      "david.kimani@africaninvestigativereview.org",
-      "rajesh.mehta@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "sarah.winters@reuters.example",
+      "david.kimani@africaninvestigativereview.example",
+      "rajesh.mehta@morningledger.example"
     ],
     "location": "Signal group call",
     "recurring": ""
@@ -665,8 +665,8 @@
     "start_time": "2026-03-18T15:00:00+00:00",
     "end_time": "2026-03-18T15:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "secure.contact.a@protonmail.com"
+      "parul.iyengar@morningledger.example",
+      "secure.contact.a@protonmail.example"
     ],
     "location": "Signal video (test session)",
     "recurring": ""
@@ -677,9 +677,9 @@
     "start_time": "2026-03-05T15:00:00+00:00",
     "end_time": "2026-03-05T15:45:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "sophie.moreau@morningledger.news",
-      "rajesh.mehta@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "sophie.moreau@morningledger.example",
+      "rajesh.mehta@morningledger.example"
     ],
     "location": "Morning Ledger - Conference Room B",
     "recurring": ""
@@ -690,7 +690,7 @@
     "start_time": "2026-03-05T16:00:00+00:00",
     "end_time": "2026-03-05T18:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Desk - secure workstation",
     "recurring": ""
@@ -701,8 +701,8 @@
     "start_time": "2026-03-06T10:00:00+00:00",
     "end_time": "2026-03-06T10:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example"
     ],
     "location": "Marcus's office",
     "recurring": ""
@@ -713,7 +713,7 @@
     "start_time": "2026-03-03T14:00:00+00:00",
     "end_time": "2026-03-03T15:00:00+00:00",
     "attendees": [
-      "financial-crime-desk@morningledger.news"
+      "financial-crime-desk@morningledger.example"
     ],
     "location": "Main conference room",
     "recurring": "weekly"
@@ -724,7 +724,7 @@
     "start_time": "2026-01-30T10:00:00+00:00",
     "end_time": "2026-01-30T12:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Home office - deep work block",
     "recurring": ""
@@ -735,7 +735,7 @@
     "start_time": "2026-01-28T15:00:00+00:00",
     "end_time": "2026-01-28T15:45:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Home office",
     "recurring": ""
@@ -746,7 +746,7 @@
     "start_time": "2026-01-27T14:00:00+00:00",
     "end_time": "2026-01-27T15:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Home office - encrypted channels review",
     "recurring": ""
@@ -757,8 +757,8 @@
     "start_time": "2026-01-31T09:00:00+00:00",
     "end_time": "2026-01-31T10:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example"
     ],
     "location": "Morning Ledger office - Marcus's desk",
     "recurring": ""
@@ -769,7 +769,7 @@
     "start_time": "2026-01-17T15:00:00+00:00",
     "end_time": "2026-01-17T16:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Morning Ledger - Focus room 2B",
     "recurring": ""
@@ -780,7 +780,7 @@
     "start_time": "2026-01-20T14:00:00+00:00",
     "end_time": "2026-01-20T15:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen",
       "Alicia Fernandez"
     ],
@@ -793,7 +793,7 @@
     "start_time": "2026-01-19T10:00:00+00:00",
     "end_time": "2026-01-19T12:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Morning Ledger - Private workspace",
     "recurring": ""
@@ -804,8 +804,8 @@
     "start_time": "2026-02-03T09:00:00+00:00",
     "end_time": "2026-02-03T09:45:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example"
     ],
     "location": "Marcus's office",
     "recurring": ""
@@ -816,7 +816,7 @@
     "start_time": "2026-02-04T10:00:00+00:00",
     "end_time": "2026-02-04T11:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "",
     "recurring": ""
@@ -827,7 +827,7 @@
     "start_time": "2026-01-30T14:00:00+00:00",
     "end_time": "2026-01-30T15:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "",
     "recurring": ""
@@ -838,7 +838,7 @@
     "start_time": "2026-02-11T14:00:00+00:00",
     "end_time": "2026-02-11T15:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen",
       "Rajesh Mehta"
     ],
@@ -851,7 +851,7 @@
     "start_time": "2026-02-13T14:00:00+01:00",
     "end_time": "2026-02-13T16:00:00+01:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Source A (Dimitris K.)"
     ],
     "location": "Signal encrypted video call",
@@ -863,7 +863,7 @@
     "start_time": "2026-02-13T10:00:00+00:00",
     "end_time": "2026-02-13T11:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Sarah Winters",
       "Marcus Chen",
       "David Kimani"
@@ -890,7 +890,7 @@
     "attendees": [
       "Sarah Winters (Reuters)",
       "David Kimani (African Investigative Review)",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Zoom (Reuters secure link)",
     "recurring": ""
@@ -901,7 +901,7 @@
     "start_time": "2026-02-19T15:30:00+00:00",
     "end_time": "2026-02-19T17:30:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workspace",
     "recurring": ""
@@ -925,7 +925,7 @@
     "start_time": "2026-02-16T10:00:00+00:00",
     "end_time": "2026-02-16T12:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Office - secure workstation",
     "recurring": "none"
@@ -936,7 +936,7 @@
     "start_time": "2026-02-25T09:00:00+00:00",
     "end_time": "2026-02-25T10:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Office",
     "recurring": "none"
@@ -947,7 +947,7 @@
     "start_time": "2026-02-27T09:00:00+00:00",
     "end_time": "2026-02-27T10:30:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Office - secure workstation",
     "recurring": "none"
@@ -958,8 +958,8 @@
     "start_time": "2026-03-26T15:00:00+00:00",
     "end_time": "2026-03-26T15:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "rajesh.mehta@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "rajesh.mehta@morningledger.example"
     ],
     "location": "Video call - secure link",
     "recurring": ""
@@ -970,7 +970,7 @@
     "start_time": "2026-03-27T10:00:00+00:00",
     "end_time": "2026-03-27T12:00:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news"
+      "parul.iyengar@morningledger.example"
     ],
     "location": "Office - secure workspace",
     "recurring": ""
@@ -981,8 +981,8 @@
     "start_time": "2026-03-28T09:00:00+00:00",
     "end_time": "2026-03-28T11:30:00+00:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news"
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example"
     ],
     "location": "Morning Ledger - Conference Room B",
     "recurring": ""
@@ -1004,10 +1004,10 @@
     "start_time": "2026-02-19T01:00:00+08:00",
     "end_time": "2026-02-19T02:30:00+08:00",
     "attendees": [
-      "sarah.winters@reuters.com",
-      "david.kimani@africaninvestigativereview.org",
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news"
+      "sarah.winters@reuters.example",
+      "david.kimani@africaninvestigativereview.example",
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example"
     ],
     "location": "Zoom (link in invite)",
     "recurring": "none"
@@ -1018,9 +1018,9 @@
     "start_time": "2026-02-19T15:00:00+08:00",
     "end_time": "2026-02-19T21:00:00+08:00",
     "attendees": [
-      "david.kimani@africaninvestigativereview.org",
-      "priya.iyer@morningledger.news",
-      "marcus.chen@morningledger.news",
+      "david.kimani@africaninvestigativereview.example",
+      "parul.iyengar@morningledger.example",
+      "marcus.chen@morningledger.example",
       "AIR Legal Counsel (Nairobi)"
     ],
     "location": "Video conference (AIR secure link)",
@@ -1032,7 +1032,7 @@
     "start_time": "2026-02-20T00:00:00+08:00",
     "end_time": "2026-02-20T04:00:00+08:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
+      "parul.iyengar@morningledger.example",
       "Source A (Encrypted)"
     ],
     "location": "Signal encrypted call (Cyprus timezone 18:00-22:00)",
@@ -1044,9 +1044,9 @@
     "start_time": "2026-02-20T09:00:00+08:00",
     "end_time": "2026-02-20T10:30:00+08:00",
     "attendees": [
-      "priya.iyer@morningledger.news",
-      "alicia.fernandez@morningledger.news",
-      "marcus.chen@morningledger.news",
+      "parul.iyengar@morningledger.example",
+      "alicia.fernandez@morningledger.example",
+      "marcus.chen@morningledger.example",
       "Financial Crime Desk Team"
     ],
     "location": "Morning Ledger Singapore - Conference Room B",
@@ -1058,7 +1058,7 @@
     "start_time": "2026-03-30T06:00:00+00:00",
     "end_time": "2026-03-30T10:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Home office - no interruptions",
     "recurring": "none"
@@ -1069,7 +1069,7 @@
     "start_time": "2026-03-29T09:00:00+00:00",
     "end_time": "2026-03-29T10:30:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Sarah Winters (Reuters)",
       "David Kimani (AIR)",
       "Marcus Chen"
@@ -1083,7 +1083,7 @@
     "start_time": "2026-03-29T14:00:00+00:00",
     "end_time": "2026-03-29T15:30:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Rajesh Mehta"
     ],
     "location": "Morning Ledger - Conference Room B",
@@ -1095,7 +1095,7 @@
     "start_time": "2026-03-29T11:00:00+00:00",
     "end_time": "2026-03-29T11:45:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Morning Ledger - Marcus's office",
@@ -1107,7 +1107,7 @@
     "start_time": "2026-01-09T14:00:00-05:00",
     "end_time": "2026-01-09T15:30:00-05:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Morning Ledger office - desk",
     "recurring": "none"
@@ -1118,7 +1118,7 @@
     "start_time": "2026-01-12T10:00:00-05:00",
     "end_time": "2026-01-12T11:30:00-05:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Morning Ledger office - desk",
     "recurring": "none"
@@ -1129,7 +1129,7 @@
     "start_time": "2026-01-15T11:00:00-05:00",
     "end_time": "2026-01-15T12:00:00-05:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen",
       "Alicia Fernandez",
       "Rajesh Mehta"
@@ -1144,7 +1144,7 @@
     "end_time": "2026-03-05T10:30:00+00:00",
     "attendees": [
       "Marcus Chen",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Marcus's office / Signal backup",
     "recurring": "none"
@@ -1155,7 +1155,7 @@
     "start_time": "2026-03-06T09:00:00+00:00",
     "end_time": "2026-03-06T12:00:00+00:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Secure workspace - air-gapped review",
     "recurring": "none"
@@ -1166,7 +1166,7 @@
     "start_time": "2026-03-07T14:00:00+00:00",
     "end_time": "2026-03-07T17:00:00+00:00",
     "attendees": [
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Conference Room B (secure)",
@@ -1180,7 +1180,7 @@
     "attendees": [
       "Sarah Winters (Reuters)",
       "David Kimani (AIR)",
-      "Priya Iyer",
+      "Parul Iyengar",
       "Marcus Chen"
     ],
     "location": "Zoom - Encrypted",
@@ -1193,7 +1193,7 @@
     "end_time": "2026-04-02T12:00:00+08:00",
     "attendees": [
       "Rajesh Mehta",
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Morning Ledger - Legal Conference Room",
     "recurring": "none"
@@ -1204,7 +1204,7 @@
     "start_time": "2026-04-02T16:30:00+08:00",
     "end_time": "2026-04-02T18:00:00+08:00",
     "attendees": [
-      "Priya Iyer"
+      "Parul Iyengar"
     ],
     "location": "Desk - Secure workstation",
     "recurring": "none"
@@ -1217,7 +1217,7 @@
     "attendees": [
       "Financial Crime Desk Team",
       "Marcus Chen",
-      "Priya Iyer",
+      "Parul Iyengar",
       "Alicia Fernandez"
     ],
     "location": "Morning Ledger - Main Conference Room",

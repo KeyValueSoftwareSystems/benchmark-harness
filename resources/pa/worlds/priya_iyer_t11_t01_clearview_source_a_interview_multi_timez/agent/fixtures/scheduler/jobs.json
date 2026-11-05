@@ -8,7 +8,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "sources",
@@ -28,7 +28,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "archive_emails",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "email",
       "cleanup"
@@ -47,7 +47,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "expenses"
@@ -66,7 +66,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "weekly",
@@ -86,7 +86,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "priya.iyer@morningledger.com",
+    "created_by": "parul.iyengar@morningledger.example",
     "tags": [
       "reminder",
       "sources"
@@ -105,7 +105,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "weekly",
@@ -125,7 +125,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "sources"
@@ -144,7 +144,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "weekly"
@@ -163,7 +163,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "sources",
@@ -183,7 +183,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "Priya Iyer",
+    "created_by": "Parul Iyengar",
     "tags": [
       "reminder",
       "weekly"
@@ -202,7 +202,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_notification",
-    "created_by": "priya.iyer@morningledger.com",
+    "created_by": "parul.iyengar@morningledger.example",
     "tags": [
       "reminder",
       "weekly"

@@ -4,7 +4,7 @@
     "name": "Capt. Richard Tan",
     "department": "",
     "title": "Former Compliance Officer, Pacific Star Shipping",
-    "email": "richard.tan.marine@protonmail.com",
+    "email": "richard.tan.marine@protonmail.example",
     "phone": "+852 9123 4567",
     "location": "Hong Kong",
     "note": "Source for shipping sanctions investigation. Left Pacific Star in June 2025 after internal disputes over audit procedures. Willing to speak on background about 2025 restructuring. Prefers Signal for sensitive communication."
@@ -14,7 +14,7 @@
     "name": "James Kuo",
     "department": "Editorial",
     "title": "Senior Editor, Accountability Desk",
-    "email": "james.kuo@theoutlinepacific.com",
+    "email": "james.kuo@theoutlinepacific.example",
     "phone": "+886 2 2345 6789",
     "location": "The Outline Pacific, Taipei",
     "note": "Hannah's editor. Pushing for Q1 publication of shipping sanctions piece but legal team wants more time for review. Weekly check-ins on Mondays."
@@ -34,7 +34,7 @@
     "name": "Angela Reyes",
     "department": "Legal",
     "title": "Staff Attorney",
-    "email": "legal@theoutlinepacific.com",
+    "email": "legal@theoutlinepacific.example",
     "phone": "+852 9234 5678",
     "location": "The Outline Pacific, Hong Kong",
     "note": "Legal counsel for publication review. Concerned about defamation risk in shipping sanctions piece. Scheduled review meeting for March 3."
@@ -64,7 +64,7 @@
     "name": "Marcus Chen",
     "department": "Operations",
     "title": "Former VP Operations, Pacific Star Shipping",
-    "email": "m.chen.hk@protonmail.com",
+    "email": "m.chen.hk@protonmail.example",
     "phone": "+852 9123 4567",
     "location": "Hong Kong (relocating to Singapore March 18)",
     "note": "Critical source for shipping sanctions investigation. Has direct knowledge of vessel ownership transfers 2023-2025. Leaving HK permanently March 18 for Singapore role - interview window closes March 14. Provides corroboration for shell company ownership chain (Section 2 of draft). High evidentiary value: can confirm Capt. Tan's compliance violations testimony with independent operations perspective. Source agreement: on-record for factual claims, background for internal deliberations."
@@ -74,7 +74,7 @@
     "name": "Jennifer Wu",
     "department": "Legal/Compliance",
     "title": "Compliance Director, Meridian Capital Partners",
-    "email": "jwu@meridiancap.com",
+    "email": "jwu@meridiancap.example",
     "phone": "+886 2 8765 4321",
     "location": "Taipei",
     "note": "Source for private-equity rollup investigation. Has access to portfolio clinic acquisition documents until March 20 (corporate merger with larger PE firm closes March 21, document access restricted post-merger). Medium evidentiary value: provides corroboration for ownership structure claims but not patient outcome data. Source agreement: background only, can confirm documentary evidence but not quote directly. Lower urgency than shipping sanctions deadline but time-sensitive for document access."
@@ -84,7 +84,7 @@
     "name": "David Park",
     "department": "Finance",
     "title": "Healthcare Investment Analyst",
-    "email": "david.park.research@gmail.com",
+    "email": "david.park.research@gmail.example",
     "phone": "+1 415 555 0198",
     "location": "San Francisco",
     "note": "Background source for private-equity rollup investigation. General industry expertise on PE healthcare consolidation trends. Low urgency - flexible scheduling, can interview anytime. Supplementary context rather than critical corroboration. Source agreement: on-record for industry analysis, background for specific fund commentary."
@@ -94,7 +94,7 @@
     "name": "Thomas Lin",
     "department": "Maritime Operations",
     "title": "Senior Maritime Surveyor",
-    "email": "tlin.marine@outlook.com",
+    "email": "tlin.marine@outlook.example",
     "phone": "+65 9876 5432",
     "location": "Singapore",
     "note": "Source for shipping sanctions investigation. Can provide technical corroboration of vessel registry manipulation claims (critical gap in ownership chain documentation for Section 2). Available March 10-17 only (extended survey assignment in Indonesia starts March 18). Medium-high evidentiary value: fills documentary gaps but doesn't provide new primary evidence. Source agreement: on-record for technical vessel documentation analysis."
@@ -104,7 +104,7 @@
     "name": "Source Gamma",
     "department": "Maritime Insurance Compliance",
     "title": "Senior Compliance Officer",
-    "email": "source.gamma.compliance@protonmail.com",
+    "email": "source.gamma.compliance@protonmail.example",
     "phone": "[REDACTED - Signal only]",
     "location": "Hong Kong",
     "note": "Deep background source, introduced via Sarah Okonkwo (Jan 2026). Track record: 4/4 tips verified (vessel ownership transfers, insurance fraud indicators, OFAC compliance gaps, Lloyd's underwriting policy changes). Institutional access: Lloyd's syndicate underwriting files, vessel insurance documentation, compliance audit reports. Motivation assessment: professional ethics concern over sanctions evasion, no apparent financial interest. Source agreement: deep background only, no attribution, Signal-only contact. Last contact: Feb 5 2026 (off-record tip re: competitor FOIA access). Credibility: HIGH."
@@ -114,7 +114,7 @@
     "name": "Pacific Business Journal Editorial",
     "department": "Newsroom",
     "title": "Competitor Publication",
-    "email": "editorial@pacificbizjournal.com",
+    "email": "editorial@pacificbizjournal.example",
     "phone": "+852 2234-5678",
     "location": "Hong Kong",
     "note": "Regional business publication, competitor on shipping and trade investigations. Coverage focus: corporate governance, maritime trade, sanctions compliance. Recent relevant coverage: Pacific Star corporate structure brief (Jan 28, 2026 - light detail, public filings only). Monitoring for detailed ownership chain disclosure that would confirm Source Gamma's tip about early FOIA access. Lead reporter on maritime beat: unknown (need to identify for source relationship mapping)."
@@ -124,7 +124,7 @@
     "name": "Marcus Leung",
     "department": "Legal",
     "title": "Corporate Attorney (Shell Company Formation)",
-    "email": "m.leung.legal@protonmail.com",
+    "email": "m.leung.legal@protonmail.example",
     "phone": "+852 9123 4567",
     "location": "Hong Kong",
     "note": "Shell company formation specialist, leaving Hong Kong March 10 for Singapore relocation. Critical source for shipping sanctions investigation ownership chain corroboration. On-record agreement confirmed via Signal Jan 28. Background: 15 years corporate law, worked with multiple Pacific Star shell entities 2018-2023."
@@ -134,7 +134,7 @@
     "name": "Sarah Okonkwo",
     "department": "Compliance",
     "title": "Maritime Insurance Compliance Director",
-    "email": "s.okonkwo@lloyds-maritime.com",
+    "email": "s.okonkwo@lloyds-maritime.example",
     "phone": "+44 20 7123 4567",
     "location": "London, UK",
     "note": "Lloyd's Maritime compliance director. Firm being acquired by AIG (merger closes mid-March), document access uncertain post-merger. Critical source for vessel insurance verification in shipping sanctions investigation. Deep background agreement - can use information but no attribution. Background: 12 years maritime insurance, specialized in sanctions compliance."
@@ -144,7 +144,7 @@
     "name": "Vincent Zhao",
     "department": "Finance",
     "title": "Former CFO, Pacific Star Shipping",
-    "email": "vincent.zhao.hk@protonmail.com",
+    "email": "vincent.zhao.hk@protonmail.example",
     "phone": "+852 9234 5678",
     "location": "Hong Kong",
     "note": "Former Pacific Star CFO (2019-2024), available through Q2 2026. Provides critical ownership chain corroboration for shipping sanctions investigation. On-record agreement confirmed. Lower urgency than Leung/Okonkwo due to extended availability window, but essential for two-source verification of ownership transfers."
@@ -154,7 +154,7 @@
     "name": "Sarah Okonkwo",
     "department": "Compliance",
     "title": "Compliance Director, Maritime Insurance",
-    "email": "s.okonkwo@pacificmaritimeins.com",
+    "email": "s.okonkwo@pacificmaritimeins.example",
     "phone": "+852 9234 5671",
     "location": "Pacific Maritime Insurance Group, Hong Kong",
     "note": "HIGH PRIORITY SOURCE - shipping sanctions investigation. Direct knowledge of vessel ownership insurance verification protocols. AVAILABILITY CONSTRAINT: Firm being acquired by Meridian Capital, document access locks down Jan 15, 2026. Provides critical corroboration for IMO 9467234 ownership transfer timeline (backup path if Delaware FOIA fails). Interview confirmed Jan 9, 3:00 PM HKT."
@@ -164,7 +164,7 @@
     "name": "Marcus Leung",
     "department": "Legal",
     "title": "Shell Company Formation Attorney",
-    "email": "m.leung.legal@protonmail.com",
+    "email": "m.leung.legal@protonmail.example",
     "phone": "+852 9187 4423",
     "location": "Hong Kong (relocating to Singapore March 10, 2026)",
     "note": "HIGH PRIORITY SOURCE - shipping sanctions investigation. Expertise in offshore shell company formation and beneficial ownership structures. AVAILABILITY CONSTRAINT: Leaving Hong Kong March 10, 2026. Provides context on shell company legal frameworks used in vessel ownership chains. Competes with Okonkwo and Zhao for limited interview slots before March 15 deadline."
@@ -174,7 +174,7 @@
     "name": "Rachel Ng",
     "department": "Underwriting",
     "title": "Senior Underwriter - Maritime Insurance",
-    "email": "rachel.ng@lloydssing.com",
+    "email": "rachel.ng@lloydssing.example",
     "phone": "+65 9234 5678",
     "location": "Lloyd's Singapore",
     "note": "David Park connection. Access to vessel registry and insurance filing archives. Can provide background corroboration on vessel ownership transfers (company policy prevents on-record attribution). Available March 14 afternoon or March 17 morning for background call on IMO 9467234 ownership chain. POTENTIAL second-source corroboration for Section 3 claims."
@@ -184,7 +184,7 @@
     "name": "External Counsel Team",
     "department": "Maritime Law",
     "title": "Legal Counsel",
-    "email": "external-counsel@limassociates.com.hk",
+    "email": "external-counsel@limassociates.example.hk",
     "phone": "+852 2123 4567",
     "location": "Lim & Associates, Hong Kong",
     "note": "External maritime law firm retained for shipping sanctions investigation legal review. Scope: sanctions compliance, corporate veil piercing risk, jurisdictional issues. Does NOT cover editorial fact-checking or source corroboration. 48-hour turnaround on draft reviews. Contact via Angela Reyes for engagement coordination."
@@ -204,7 +204,7 @@
     "name": "Patricia Lim",
     "department": "Maritime Legal Associates",
     "title": "Partner (Maritime Law)",
-    "email": "patricia.lim@maritimelegalhk.com",
+    "email": "patricia.lim@maritimelegalhk.example",
     "phone": "+852 9234 5678",
     "location": "Hong Kong",
     "note": "External legal counsel for shipping sanctions investigation. Firm being acquired by Norton Rose Fulbright effective March 15. Needs draft section 4 by March 8 to complete review before March 10 workload freeze. Reviewing single-source corroboration issues and attribution standards vs HK defamation law."
@@ -214,7 +214,7 @@
     "name": "Patricia Lim",
     "department": "Legal",
     "title": "Senior Counsel, Maritime Legal Associates",
-    "email": "patricia.lim@maritimelaw.com.sg",
+    "email": "patricia.lim@maritimelaw.example.sg",
     "phone": "+65 9234 5678",
     "location": "Singapore",
     "note": "External legal counsel for shipping sanctions investigation. Firm undergoing merger (closes March 15), availability constrained after March 8. Specializes in maritime compliance and OFAC sanctions. Typical review timeline: 3-4 business days. Professional, detail-oriented, appreciates thorough verification standards."
@@ -234,7 +234,7 @@
     "name": "Source Gamma",
     "department": "Off-record",
     "title": "Compliance officer (vessel registry access)",
-    "email": "source.gamma.compliance@protonmail.com",
+    "email": "source.gamma.compliance@protonmail.example",
     "phone": "[Signal only]",
     "location": "Delaware/Panama jurisdictions",
     "note": "Off-record source with registry office contacts. Provided Feb 2 tip that Delaware FOIA request (IMO 9467234) escalated to legal review, suggesting competitor (Asia Business Review) already obtained vessel ownership transfer documents. Offered introduction to Panama contact for alternative document acquisition channel. Reliable on FOIA timeline intelligence and competitor activity. Use Signal for sensitive communication."
@@ -244,7 +244,7 @@
     "name": "Sarah Okonkwo",
     "department": "Compliance",
     "title": "Compliance Director, Pacific Maritime Insurance",
-    "email": "s.okonkwo@pacificmaritimeins.com",
+    "email": "s.okonkwo@pacificmaritimeins.example",
     "phone": "+852 9123 4567",
     "location": "Hong Kong",
     "note": "Maritime insurance compliance expert - can corroborate beneficial ownership verification requirements and shell company insurance patterns. CRITICAL CONSTRAINT: firm being acquired by Lloyd's (merger closes Feb 28), database access locked Feb 15-Mar 10, post-merger document access requires formal legal request through Lloyd's corporate affairs. Must interview before Feb 15 for document access, or before Feb 28 for general background only. Available Feb 10-12 afternoons, Feb 14 morning."
@@ -271,7 +271,7 @@
   },
   {
     "contact_id": "CON-228",
-    "name": "Dr. Priya Sharma",
+    "name": "Dr. Parul Shankar",
     "department": "Compliance Records Division",
     "title": "Senior Compliance Officer",
     "email": "mpa_records@mpa.gov.sg",
@@ -284,7 +284,7 @@
     "name": "Lloyd's Register Documentation Services",
     "department": "Vessel Documentation Services",
     "title": "Records Coordinator",
-    "email": "lloyds.register@lr.org",
+    "email": "lloyds.register@lr.example",
     "phone": "+44 20 7709 9166",
     "location": "London, UK",
     "note": "Alternative document source for vessel survey reports - may provide ownership declarations without FOIA prerequisites. Survey report for IMO 9467234 dated 2025-09-12. Requires authorization documentation to access full reports."
@@ -314,7 +314,7 @@
     "name": "Marcus Leung",
     "department": "Legal - Corporate Formation",
     "title": "Senior Attorney, Shell Company Formation Specialist",
-    "email": "m.leung.legal@protonmail.com",
+    "email": "m.leung.legal@protonmail.example",
     "phone": "+852 9234 5671",
     "location": "Hong Kong (departing March 10, 2026)",
     "note": "CRITICAL SOURCE - shipping sanctions investigation. Expertise: BVI/Delaware shell company formation, vessel ownership structures. Leaving Hong Kong March 10 permanently. Provides corroboration for Source Delta's shell company formation timeline claims (material claim #2 in section 4). Interview must occur before March 10 departure. Contact via ProtonMail only."
@@ -324,7 +324,7 @@
     "name": "Sarah Okonkwo",
     "department": "Maritime Insurance Compliance",
     "title": "Senior Compliance Director",
-    "email": "s.okonkwo@pacificmaritimeins.com",
+    "email": "s.okonkwo@pacificmaritimeins.example",
     "phone": "+65 8123 4567",
     "location": "Singapore",
     "note": "PRIORITY SOURCE - shipping sanctions investigation. Expertise: maritime insurance compliance, vessel ownership verification. Firm (Pacific Maritime Insurance) being acquired - document access uncertain post-merger (closes mid-March). Provides corroboration for vessel insurance transfer irregularities (material claim #3 in section 4). Time-sensitive due to merger document access constraints."
@@ -334,7 +334,7 @@
     "name": "Vincent Zhao",
     "department": "Finance - Former Executive",
     "title": "Former CFO, Pacific Star Shipping",
-    "email": "v.zhao.hk@protonmail.com",
+    "email": "v.zhao.hk@protonmail.example",
     "phone": "+852 9876 5432",
     "location": "Hong Kong",
     "note": "CRITICAL SOURCE - shipping sanctions investigation. Former CFO Pacific Star Shipping (2022-2024), direct knowledge of vessel ownership chain transfers. Provides critical corroboration for ownership chain documentation (material claim #1 in section 4 - vessel IMO 9467234 ownership transfers). Available through Q2 2026. Scheduled interview March 11. Contact via ProtonMail only."
@@ -354,7 +354,7 @@
     "name": "Sarah Chen",
     "department": "Transcription Services",
     "title": "Account Manager",
-    "email": "transcription@precisionmedia.com",
+    "email": "transcription@precisionmedia.example",
     "phone": "+852 2234-5678",
     "location": "Precision Media Transcription Services, Hong Kong",
     "note": "Professional transcription vendor. Offers 24-hour expedited service for investigative journalism. Quote: $90 per interview (90-120 min), Zotero-ready formatting. Reservation deadline: January 22 for March delivery slots."
@@ -374,7 +374,7 @@
     "name": "Vincent Zhao",
     "department": "Finance",
     "title": "Former CFO, Pacific Star Shipping",
-    "email": "v.zhao.finance@protonmail.com",
+    "email": "v.zhao.finance@protonmail.example",
     "phone": "+852 6789 1234",
     "location": "Hong Kong",
     "note": "Pacific Star CFO 2022-2024, has internal transfer documentation and board minutes from 2023 restructuring involving Delaware LLCs and Panama registry. Critical for ownership chain corroboration. Available through Q2 2026 - flexible scheduling."
@@ -384,7 +384,7 @@
     "name": "Marcus Leung",
     "department": "Legal",
     "title": "Corporate Formation Attorney",
-    "email": "m.leung.legal@protonmail.com",
+    "email": "m.leung.legal@protonmail.example",
     "phone": "+852 9123 4567",
     "location": "Hong Kong (relocating to Vancouver March 8)",
     "note": "Shell company formation specialist, handled Pacific Star Delaware LLC setup 2023-2024. Departure moved up to March 8. Final interview slot: March 7, 7:00 PM (outside normal hours). Critical source for beneficial ownership disclosure gaps."
@@ -424,7 +424,7 @@
     "name": "Rachel Ng",
     "department": "Lloyd's Register",
     "title": "Senior Maritime Compliance Analyst",
-    "email": "rachel.ng@lr.org",
+    "email": "rachel.ng@lr.example",
     "phone": "+44 20 7709 9166",
     "location": "London",
     "note": "Maritime compliance analyst, expertise in vessel ownership documentation and OFAC enforcement precedents. Identified during RSS feed review January 14 (Lloyd's List article on sanctions enforcement)."

@@ -45,7 +45,7 @@
     "end_time": "2026-02-25T15:30:00-05:00",
     "attendees": [
       "Zhuo Ma Yang Zong",
-      "carlos.mendoza@aidforeducation.org",
+      "carlos.mendoza@aidforeducation.example",
       "i.vargas@sanmiguel.gov.pe"
     ],
     "location": "Video conference",
@@ -58,7 +58,7 @@
     "end_time": "2026-02-20T11:30:00-05:00",
     "attendees": [
       "Zhuo Ma Yang Zong",
-      "tomas.quispe@villagecouncil.org",
+      "tomas.quispe@villagecouncil.example",
       "community representatives"
     ],
     "location": "San Miguel Community Hall",
@@ -123,8 +123,8 @@
     "end_time": "2026-03-08T14:00:00-05:00",
     "attendees": [
       "Jennifer Morrison (Global Aid Foundation)",
-      "zhuo.yangzong@aidforeducation.org",
-      "carlos.mendoza@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "carlos.mendoza@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Construction Site",
     "recurring": ""
@@ -137,7 +137,7 @@
     "attendees": [
       "Elder Tomás Quispe",
       "Village Council Members",
-      "zhuo.yangzong@aidforeducation.org",
+      "zhan.yongkang@aidforeducation.example",
       "Community Members"
     ],
     "location": "Villa Nueva Village Center",
@@ -151,7 +151,7 @@
     "attendees": [
       "Dr. Maria Fernanda Santos",
       "Mobile Health Team",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva - Shelter Site",
     "recurring": ""
@@ -162,9 +162,9 @@
     "start_time": "2026-02-19T09:00:00-05:00",
     "end_time": "2026-02-19T11:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "carlos.mendoza@aidforeducation.org",
-      "a.rodriguez@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "carlos.mendoza@aidforeducation.example",
+      "a.rodriguez@aidforeducation.example"
     ],
     "location": "Aid and Education for All Office",
     "recurring": ""
@@ -175,8 +175,8 @@
     "start_time": "2026-02-06T15:00:00-05:00",
     "end_time": "2026-02-06T16:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "donor.relations@globalaid.org"
+      "zhan.yongkang@aidforeducation.example",
+      "donor.relations@globalaid.example"
     ],
     "location": "Video conference",
     "recurring": "none"
@@ -354,8 +354,8 @@
     "start_time": "2026-01-30T15:00:00-05:00",
     "end_time": "2026-01-30T15:45:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "donor.relations@globalaid.org"
+      "zhan.yongkang@aidforeducation.example",
+      "donor.relations@globalaid.example"
     ],
     "location": "Video call",
     "recurring": "cancelled"
@@ -366,8 +366,8 @@
     "start_time": "2026-02-18T14:00:00-05:00",
     "end_time": "2026-02-18T15:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "a.rodriguez@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "a.rodriguez@aidforeducation.example"
     ],
     "location": "Office - Conference Room B",
     "recurring": "cancelled"
@@ -378,8 +378,8 @@
     "start_time": "2026-03-15T10:00:00-05:00",
     "end_time": "2026-03-15T11:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "m.chen@regionaldevelopment.org"
+      "zhan.yongkang@aidforeducation.example",
+      "m.chen@regionaldevelopment.example"
     ],
     "location": "Video call",
     "recurring": "none"
@@ -390,7 +390,7 @@
     "start_time": "2026-02-20T13:00:00-05:00",
     "end_time": "2026-02-20T14:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Office desk",
     "recurring": "cancelled"
@@ -403,7 +403,7 @@
     "attendees": [
       "Elder Tomás Quispe",
       "Village Council Members",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva Community Center",
     "recurring": "quarterly"
@@ -417,7 +417,7 @@
       "Sofia Chen",
       "Community Development Partners",
       "Regional Mobile Health Services",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "San Miguel Community Center",
     "recurring": "quarterly"
@@ -431,7 +431,7 @@
       "Jennifer Morrison",
       "David Chen",
       "Maria Gonzalez",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "San Miguel Field Office / Esperanza Village",
     "recurring": "none"
@@ -454,7 +454,7 @@
     "start_time": "2026-02-27T09:00:00-05:00",
     "end_time": "2026-02-27T17:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Regional Health Network Training Center, San Miguel",
     "recurring": "none"
@@ -465,8 +465,8 @@
     "start_time": "2026-02-27T10:00:00-05:00",
     "end_time": "2026-02-27T16:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "donor.relations@globalaid.org",
+      "zhan.yongkang@aidforeducation.example",
+      "donor.relations@globalaid.example",
       "Jennifer Morrison",
       "David Chen",
       "Dr. Sarah Williams"
@@ -480,9 +480,9 @@
     "start_time": "2026-02-19T14:00:00-05:00",
     "end_time": "2026-02-19T15:30:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "s.chen@aidforeducation.org",
-      "a.rodriguez@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "s.chen@aidforeducation.example",
+      "a.rodriguez@aidforeducation.example"
     ],
     "location": "Aid and Education for All Office - Conference Room",
     "recurring": "none"
@@ -493,8 +493,8 @@
     "start_time": "2026-02-12T11:00:00-05:00",
     "end_time": "2026-02-12T12:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "finance@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "finance@aidforeducation.example"
     ],
     "location": "Virtual - Zoom",
     "recurring": "monthly"
@@ -673,8 +673,8 @@
     "end_time": "2026-03-08T15:00:00-05:00",
     "attendees": [
       "Jennifer Morrison (Global Aid Foundation)",
-      "zhuo.yangzong@aidforeducation.org",
-      "carlos.mendoza@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "carlos.mendoza@aidforeducation.example"
     ],
     "location": "Emergency Shelter Construction Site - Villa Nueva",
     "recurring": ""
@@ -687,7 +687,7 @@
     "attendees": [
       "Village Council Representatives",
       "Elder Tomás Quispe",
-      "zhuo.yangzong@aidforeducation.org",
+      "zhan.yongkang@aidforeducation.example",
       "community members"
     ],
     "location": "Villa Nueva - Emergency Shelter Site",
@@ -700,7 +700,7 @@
     "end_time": "2026-03-15T15:30:00-05:00",
     "attendees": [
       "Dr. Patricia Ruiz (Regional Mobile Health Services)",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Video call",
     "recurring": ""
@@ -857,9 +857,9 @@
     "start_time": "2026-02-28T10:00:00-05:00",
     "end_time": "2026-02-28T11:30:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "carlos.mendoza@aidforeducation.org",
-      "a.rodriguez@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "carlos.mendoza@aidforeducation.example",
+      "a.rodriguez@aidforeducation.example"
     ],
     "location": "Aid and Education for All Office - Conference Room",
     "recurring": ""
@@ -870,8 +870,8 @@
     "start_time": "2026-03-08T10:00:00-05:00",
     "end_time": "2026-03-08T14:00:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "tomas.quispe@villagecouncil.org",
+      "zhan.yongkang@aidforeducation.example",
+      "tomas.quispe@villagecouncil.example",
       "Villa Nueva Community Members"
     ],
     "location": "Villa Nueva Community Plaza",
@@ -884,7 +884,7 @@
     "end_time": "2026-03-12T17:00:00-05:00",
     "attendees": [
       "mf.santos@healthworkers.pe",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
     "recurring": ""
@@ -895,7 +895,7 @@
     "start_time": "2026-03-03T17:00:00-05:00",
     "end_time": "2026-03-03T17:30:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "",
     "recurring": ""
@@ -1069,9 +1069,9 @@
     "start_time": "2026-04-04T14:00:00-05:00",
     "end_time": "2026-04-04T15:30:00-05:00",
     "attendees": [
-      "zhuo.yangzong@aidforeducation.org",
-      "a.rodriguez@aidforeducation.org",
-      "carlos.mendoza@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "a.rodriguez@aidforeducation.example",
+      "carlos.mendoza@aidforeducation.example"
     ],
     "location": "Aid and Education for All Office - Conference Room",
     "recurring": "none"
@@ -1084,7 +1084,7 @@
     "attendees": [
       "Village elders",
       "Community members",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
     "recurring": "none"
@@ -1096,7 +1096,7 @@
     "end_time": "2026-04-25T11:30:00-05:00",
     "attendees": [
       "mf.santos@healthworkers.pe",
-      "zhuo.yangzong@aidforeducation.org",
+      "zhan.yongkang@aidforeducation.example",
       "Regional Health Ministry"
     ],
     "location": "Regional Health Office",
@@ -1276,8 +1276,8 @@
     "attendees": [
       "Jennifer Morrison",
       "Global Aid Foundation Board Members",
-      "zhuo.yangzong@aidforeducation.org",
-      "carlos.mendoza@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example",
+      "carlos.mendoza@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
     "recurring": ""
@@ -1290,7 +1290,7 @@
     "attendees": [
       "Elder Tomás Quispe",
       "Villa Nueva Community",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
     "recurring": ""
@@ -1302,7 +1302,7 @@
     "end_time": "2026-04-18T15:30:00-05:00",
     "attendees": [
       "Dr. Maria Fernanda Santos",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Video Conference",
     "recurring": ""
@@ -1315,7 +1315,7 @@
     "attendees": [
       "Executive Team",
       "Program Managers",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Aid and Education for All HQ - Conference Room B",
     "recurring": "monthly"
@@ -1327,7 +1327,7 @@
     "end_time": "2026-04-15T15:00:00-05:00",
     "attendees": [
       "Jennifer Morrison (Global Aid Foundation)",
-      "zhuo.yangzong@aidforeducation.org",
+      "zhan.yongkang@aidforeducation.example",
       "Village Council Representatives"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
@@ -1341,7 +1341,7 @@
     "attendees": [
       "Elder Tomás Quispe",
       "Villa Nueva Community",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
     "recurring": ""
@@ -1354,7 +1354,7 @@
     "attendees": [
       "Dr. Maria Fernanda Santos",
       "Regional Mobile Health Services",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
     "recurring": ""
@@ -1366,7 +1366,7 @@
     "end_time": "2026-04-08T17:00:00-05:00",
     "attendees": [
       "Villa Nueva Construction Services",
-      "zhuo.yangzong@aidforeducation.org"
+      "zhan.yongkang@aidforeducation.example"
     ],
     "location": "Villa Nueva Emergency Shelter Site",
     "recurring": ""

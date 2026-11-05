@@ -183,7 +183,7 @@
   {
     "task_id": "TODO-514",
     "title": "Request manufacturing quotes for Q2 new SKU candidates from Meihao + Yongxin",
-    "description": "Get quotes for: (1) Lavender Dreams Room Spray 150ml, (2) Refill 6-pack (Lavender + Citrus), (3) Ceramic Diffuser Black Matte finish, (4) Sampler Set 3x singles. Include MOQ, unit cost, lead time, tooling fees. Owner: Dario (supplier negotiations).",
+    "description": "Get quotes for: (1) Lavender Dreams Room Spray 150ml, (2) Refill 6-pack (Lavender + Citrus), (3) Ceramic Diffuser Black Matte finish, (4) Sampler Set 3x singles. Include MOQ, unit cost, lead time, tooling fees. Owner: Davide (supplier negotiations).",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-05",
@@ -197,7 +197,7 @@
   {
     "task_id": "TODO-515",
     "title": "Order sample sets from Jinlong Manufacturing for Q2 backup supplier evaluation",
-    "description": "Follow up with Wang Jianhua (Jinlong) to order 5-unit sample set (ceramic diffusers + refills) for quality testing. Budget: USD 200. Need samples by Feb 15 to inform Q2 supplier diversification decision. Owner: Dario.",
+    "description": "Follow up with Wang Jianhua (Jinlong) to order 5-unit sample set (ceramic diffusers + refills) for quality testing. Budget: USD 200. Need samples by Feb 15 to inform Q2 supplier diversification decision. Owner: Davide.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-01-30",
@@ -211,7 +211,7 @@
   {
     "task_id": "TODO-516",
     "title": "Break down Q2 product roadmap into weekly task assignments with owners",
-    "description": "After Mar 26 strategic planning session, decompose Q2 roadmap (new SKU development, supplier diversification, 3PL upgrades, marketing tests) into specific weekly tasks. Assign clear owners: Jessica (listing optimization, ad creative), Mike (ops setup, sample coordination, 3PL negotiations), Dario (supplier contracts, budget approval). Target completion: Mar 28.",
+    "description": "After Mar 26 strategic planning session, decompose Q2 roadmap (new SKU development, supplier diversification, 3PL upgrades, marketing tests) into specific weekly tasks. Assign clear owners: Jessica (listing optimization, ad creative), Mike (ops setup, sample coordination, 3PL negotiations), Davide (supplier contracts, budget approval). Target completion: Mar 28.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -239,7 +239,7 @@
   {
     "task_id": "TODO-518",
     "title": "Prepare Q2 marketing strategy: retargeting audience growth + TikTok ads pilot",
-    "description": "Q1 learning: retargeting capped at USD 200/day due to small audience. Q2 plan: (1) implement email capture on Shopify to grow retargeting pool, (2) test TikTok ads pilot (USD 5K budget) for prospecting. Owner: Jessica. Coordinate with Dario on budget allocation.",
+    "description": "Q1 learning: retargeting capped at USD 200/day due to small audience. Q2 plan: (1) implement email capture on Shopify to grow retargeting pool, (2) test TikTok ads pilot (USD 5K budget) for prospecting. Owner: Jessica. Coordinate with Davide on budget allocation.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-20",
@@ -254,7 +254,7 @@
   {
     "task_id": "TODO-519",
     "title": "Schedule Slack check-ins with Manila/Lisbon team for Q2 execution alignment",
-    "description": "Set up recurring Slack huddles (weekly or bi-weekly) to align remote team on Q2 roadmap execution. Topics: task progress, blockers, supplier updates, marketing performance. First check-in: week of Feb 3. Owner: Dario.",
+    "description": "Set up recurring Slack huddles (weekly or bi-weekly) to align remote team on Q2 roadmap execution. Topics: task progress, blockers, supplier updates, marketing performance. First check-in: week of Feb 3. Owner: Davide.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-02-03",
@@ -728,7 +728,7 @@
   {
     "task_id": "TODO-552",
     "title": "Verify Yongxin environmental regulation cost claim",
-    "description": "Cross-check Chen Xiaoming's 18% price increase justification:\n- Review KB-401 Zhejiang environmental regulation timeline (shows June 2026 deadline)\n- Contact other Yiwu suppliers (Zhang Lin, Li Ming) to verify industry-wide impact\n- Check if Yongxin actually completed compliance or just passing through anticipated costs\n- Determine if 18% pass-through is reasonable or opportunistic\n\nUse findings to counter-negotiate or validate pricing in strategy session.",
+    "description": "Cross-check Chen Xiaoming's 18% price increase justification:\n- Review KB-401 Zhejiang environmental regulation timeline (shows June 2026 deadline)\n- Contact other Yiwu suppliers (Zhang Lin, Liu Hao) to verify industry-wide impact\n- Check if Yongxin actually completed compliance or just passing through anticipated costs\n- Determine if 18% pass-through is reasonable or opportunistic\n\nUse findings to counter-negotiate or validate pricing in strategy session.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-09",
@@ -785,7 +785,7 @@
   {
     "task_id": "TODO-556",
     "title": "Reply to Sarah Chen with confirmed QC inspection slot",
-    "description": "Once calendar conflict analysis is complete, send email to sarah.chen@3plnj.com confirming the selected slot (likely March 13 Thu 2pm-6pm based on preliminary review). Include travel ETA and any specific QC protocol questions for the room spray samples.",
+    "description": "Once calendar conflict analysis is complete, send email to sarah.chen@3plnj.example confirming the selected slot (likely March 13 Thu 2pm-6pm based on preliminary review). Include travel ETA and any specific QC protocol questions for the room spray samples.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-28",
@@ -1176,7 +1176,7 @@
   {
     "task_id": "TODO-583",
     "title": "Draft response to Liu Wei - confirm selected production slot",
-    "description": "Once decision is finalized, send confirmation to Liu Wei (liu.wei@yiwumeihao.com) via WeChat and email specifying: (1) selected production slot (expedited or standard), (2) deposit wire timeline, (3) container coordination requirements with 3PL. Include deposit payment confirmation and request production schedule confirmation.",
+    "description": "Once decision is finalized, send confirmation to Liu Wei (liu.wei@yiwumeihao.example) via WeChat and email specifying: (1) selected production slot (expedited or standard), (2) deposit wire timeline, (3) container coordination requirements with 3PL. Include deposit payment confirmation and request production schedule confirmation.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-08",

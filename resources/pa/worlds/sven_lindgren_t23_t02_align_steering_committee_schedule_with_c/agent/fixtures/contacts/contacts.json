@@ -4,7 +4,7 @@
     "name": "Karin Bergström",
     "department": "Legal - External",
     "title": "Partner",
-    "email": "karin.bergstrom@linklaters.com",
+    "email": "karin.bergstrom@linklaters.example",
     "phone": "+46 8 5578 1000",
     "location": "Linklaters Stockholm",
     "note": "Lead partner on Finnish M&A transaction (Project Aurora). Specializes in cross-border industrial M&A. Invoices typically range SEK 150-400k per phase."
@@ -27,7 +27,7 @@
     "email": "lars.eriksson@vasaholm.se",
     "phone": "+46 8 5234 7845",
     "location": "Vasaholm Group HQ, Stockholm",
-    "note": "Reports to Sven Lindgren. Supports portfolio review and org restructuring workstreams."
+    "note": "Reports to Stefan Ljungberg. Supports portfolio review and org restructuring workstreams."
   },
   {
     "contact_id": "CON-204",
@@ -567,7 +567,7 @@
     "email": "emma.johansson@vasaholm.se",
     "phone": "+46 8 555 0147",
     "location": "Vasaholm Group HQ, Stockholm",
-    "note": "Junior strategy associate supporting BU portfolio review workstream. Responsible for financial exhibits compilation and CEO feedback incorporation. Reports to Sven Lindgren."
+    "note": "Junior strategy associate supporting BU portfolio review workstream. Responsible for financial exhibits compilation and CEO feedback incorporation. Reports to Stefan Ljungberg."
   },
   {
     "contact_id": "CON-258",
@@ -624,7 +624,7 @@
     "name": "Karin Bergström",
     "department": "Legal (External)",
     "title": "Partner, M&A Practice",
-    "email": "karin.bergstrom@linklaters.com",
+    "email": "karin.bergstrom@linklaters.example",
     "phone": "+46 8 123 4567",
     "location": "Linklaters Stockholm",
     "note": "Lead external counsel for Project Aurora Finnish M&A transaction. Responsible for Finnish Competition Authority regulatory filing and legal structure analysis. Required participant in Aurora regulatory status validation committee."

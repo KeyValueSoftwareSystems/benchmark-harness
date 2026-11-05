@@ -4,7 +4,7 @@
     "name": "Elder Tomás Quispe",
     "department": "Community Relations",
     "title": "Religious Elder & Community Leader",
-    "email": "tomas.quispe@villagecouncil.org",
+    "email": "tomas.quispe@villagecouncil.example",
     "phone": "+51 984 123 456",
     "location": "San Miguel Village, Peru",
     "note": "HARD CONSTRAINT: Cannot attend events in venues that serve or allow alcohol due to religious beliefs. Highly respected elder whose participation is critical for community trust and workshop attendance. Prefers morning events."
@@ -24,7 +24,7 @@
     "name": "Carlos Mendoza",
     "department": "Local Staff",
     "title": "Field Coordinator",
-    "email": "carlos.mendoza@aidforeducation.org",
+    "email": "carlos.mendoza@aidforeducation.example",
     "phone": "+51 984 345 678",
     "location": "San Miguel Village, Peru",
     "note": "Local staff team leader. Coordinated venue assessment with team. Strongly advocates for outdoor community center due to accessibility and capacity."
@@ -64,7 +64,7 @@
     "name": "Ana Rodriguez",
     "department": "Field Operations",
     "title": "Field Program Officer",
-    "email": "a.rodriguez@aidforeducation.org",
+    "email": "a.rodriguez@aidforeducation.example",
     "phone": "+51 987 654 321",
     "location": "South America Field Office",
     "note": "Spanish fluent, strong community relationships in Villa Nueva, 3 years field experience. Cultural competency certified."
@@ -74,7 +74,7 @@
     "name": "Miguel Santos",
     "department": "Field Operations",
     "title": "Field Program Officer",
-    "email": "m.santos@aidforeducation.org",
+    "email": "m.santos@aidforeducation.example",
     "phone": "+51 987 654 322",
     "location": "South America Field Office",
     "note": "Quechua and Spanish speaker, health education specialist, newer to field rotations (8 months experience)."
@@ -84,7 +84,7 @@
     "name": "Sofia Chen",
     "department": "Field Operations",
     "title": "Senior Field Program Officer",
-    "email": "s.chen@aidforeducation.org",
+    "email": "s.chen@aidforeducation.example",
     "phone": "+51 987 654 323",
     "location": "South America Field Office",
     "note": "Spanish fluent, donor relations experience, excellent documentation skills. Strong presence in Esperanza village."
@@ -94,7 +94,7 @@
     "name": "Jennifer Morrison",
     "department": "Program Assessment",
     "title": "Program Officer",
-    "email": "donor.relations@globalaid.org",
+    "email": "donor.relations@globalaid.example",
     "phone": "+1 202 555 0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Key donor contact for Q1 2026 grant cycle. Site visit required for continued funding approval."
@@ -104,7 +104,7 @@
     "name": "Jennifer Morrison",
     "department": "Donor Relations",
     "title": "Donor Relations Manager",
-    "email": "donor.relations@globalaid.org",
+    "email": "donor.relations@globalaid.example",
     "phone": "+1-202-555-0187",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Key donor contact for $80,000 annual grant. Site visit March 8th critical for Q2 funding decision. Expects to see active construction phase."
@@ -124,7 +124,7 @@
     "name": "Jennifer Morrison",
     "department": "Donor Relations",
     "title": "Donor Relations Manager",
-    "email": "donor.relations@globalaid.org",
+    "email": "donor.relations@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Primary contact for Global Aid Foundation regional grants. Manages $180K annual funding for emergency shelter and medical supply programs. Regional Committee reviews funding quarterly. Professional relationship since 2025, responsive to email and phone."
@@ -134,7 +134,7 @@
     "name": "Dr. Luis Herrera",
     "department": "Community Health",
     "title": "Regional Health Coordinator",
-    "email": "l.herrera@salud-regional.org",
+    "email": "l.herrera@salud-regional.example",
     "phone": "+51-84-555-0198",
     "location": "Cusco Regional Health Office",
     "note": "Regional health authority contact for medical supply distribution permits. Met during January site assessment."
@@ -144,7 +144,7 @@
     "name": "Michael Chen",
     "department": "Program Management",
     "title": "Program Officer",
-    "email": "m.chen@regionaldevelopment.org",
+    "email": "m.chen@regionaldevelopment.example",
     "phone": "+1-415-555-0142",
     "location": "Regional Development Foundation - San Francisco Office",
     "note": "Program officer for RDF education grants. Simplified reporting requirements, responsive to emails. Prefers consolidated quarterly reports rather than frequent updates."
@@ -154,7 +154,7 @@
     "name": "Sarah Williams",
     "department": "Grant Administration",
     "title": "Grant Administrator",
-    "email": "finance@humanitarianalliance.org",
+    "email": "finance@humanitarianalliance.example",
     "phone": "+1-202-555-0198",
     "location": "Humanitarian Alliance - Washington DC",
     "note": "Manages emergency response fund allocations. Requires detailed documentation but offers fast approval process. Available for urgent consultations."
@@ -164,7 +164,7 @@
     "name": "Regional Emergency Coordination Committee",
     "department": "Community Services",
     "title": "Emergency Relief Coordinator",
-    "email": "emergency.relief@villagecouncils.org",
+    "email": "emergency.relief@villagecouncils.example",
     "phone": "+51-64-555-0233",
     "location": "Regional Council Office - Peru",
     "note": "Coordinates emergency relief requests across three villages. Primary contact for Villa Nueva, San Pedro, and Esperanza communities."
@@ -204,7 +204,7 @@
     "name": "Rachel Thompson",
     "department": "Donor Relations",
     "title": "Donor Relations Coordinator",
-    "email": "donor.relations@globalaid.org",
+    "email": "donor.relations@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Primary coordinator for Jennifer Morrison's site visits and donor communication. Handles logistics and scheduling for all foundation field visits."
@@ -234,7 +234,7 @@
     "name": "Diego Ramirez",
     "department": "Field Operations",
     "title": "Field Assessment Coordinator",
-    "email": "field.assessment@aidforeducation.org",
+    "email": "field.assessment@aidforeducation.example",
     "phone": "+51 987-654-321",
     "location": "Andean Region Field Office",
     "note": "Lead field coordinator for emergency assessments. Conducted water crisis evaluation across four villages. Coordinates directly with local community leaders and technical contractors for infrastructure projects."
@@ -244,7 +244,7 @@
     "name": "Roberto Sanchez",
     "department": "Finance",
     "title": "Finance Director",
-    "email": "finance@aidforeducation.org",
+    "email": "finance@aidforeducation.example",
     "phone": "+51 981-234-567",
     "location": "Aid and Education for All HQ",
     "note": "Finance Director responsible for budget oversight and reserve policy compliance. Key contact for emergency expenditure approvals and grant financial reporting. Enforces 15% emergency cap per Board Resolution 2024-08."
@@ -264,7 +264,7 @@
     "name": "Ricardo Palacios",
     "department": "Field Operations",
     "title": "Field Coordinator - Highland Region",
-    "email": "r.palacios@aidforeducation.org",
+    "email": "r.palacios@aidforeducation.example",
     "phone": "+51-984-567-123",
     "location": "Villa Alta Field Office",
     "note": "Manages field operations in Villa Alta, Piedra Blanca, and San Marcos. Primary contact for highland village logistics and weather-related scheduling challenges. Has strong relationships with village councils in remote areas. Fluent in Quechua."
@@ -274,7 +274,7 @@
     "name": "Sarah Williams",
     "department": "Finance and Grants",
     "title": "Finance Director",
-    "email": "finance@humanitarianalliance.org",
+    "email": "finance@humanitarianalliance.example",
     "phone": "+1-202-555-0198",
     "location": "Humanitarian Alliance - Washington DC",
     "note": "Finance director for Humanitarian Alliance. Manages collaborative funding initiatives and sector-wide financial coordination. Primary contact for multi-organization grant opportunities."
@@ -284,7 +284,7 @@
     "name": "Program Communications Team",
     "department": "Communications",
     "title": "Newsletter Distribution",
-    "email": "newsletter@globalaid.org",
+    "email": "newsletter@globalaid.example",
     "phone": "+1-415-555-0167",
     "location": "Global Aid Foundation - San Francisco",
     "note": "Automated newsletter distribution for Global Aid Foundation quarterly updates and policy announcements."
@@ -324,7 +324,7 @@
     "name": "Raul Mendez",
     "department": "Procurement",
     "title": "Procurement Specialist",
-    "email": "raul.mendez@medsupply-latam.com",
+    "email": "raul.mendez@medsupply-latam.example",
     "phone": "+51 1 555 7890",
     "location": "MedSupply Latin America, Lima, Peru",
     "note": "Primary contact for medical supply procurement. Responsive and reliable vendor for community health program materials. Can provide both standard and latex-free medical supply kits with 5-7 day delivery to rural regions."
@@ -334,7 +334,7 @@
     "name": "Jennifer Morrison",
     "department": "Donor Relations",
     "title": "Program Officer",
-    "email": "donor.relations@globalaid.org",
+    "email": "donor.relations@globalaid.example",
     "phone": "+1 202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Primary contact for $120,000 annual grant supporting emergency shelter and education programs. Site visit scheduled March 8th. Very responsive, prefers proactive communication about challenges. Last substantive contact: December 2025 grant renewal call."
@@ -344,7 +344,7 @@
     "name": "Michael Chen",
     "department": "Program Development",
     "title": "Program Officer",
-    "email": "m.chen@regionaldevelopment.org",
+    "email": "m.chen@regionaldevelopment.example",
     "phone": "+1 415-555-0189",
     "location": "Regional Development Foundation - San Francisco",
     "note": "Program officer for $35,000 rural education grant. Quarterly reporting required. Semi-annual site visits. Professional but formal communication style. Expressed interest in education outcome metrics during last call."
@@ -364,7 +364,7 @@
     "name": "David Chen",
     "department": "Technical Advisory",
     "title": "Technical Advisor",
-    "email": "d.chen@globalaid.org",
+    "email": "d.chen@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation",
     "note": "Technical advisor for Global Aid Foundation. Will attend February 27th site visit to assess shelter program implementation quality."
@@ -374,7 +374,7 @@
     "name": "Maria Gonzalez",
     "department": "Grants Management",
     "title": "Regional Grants Manager",
-    "email": "m.gonzalez@globalaid.org",
+    "email": "m.gonzalez@globalaid.example",
     "phone": "+1-202-555-0156",
     "location": "Global Aid Foundation - Latin America Region",
     "note": "Manages grant compliance and reporting for Latin America region. Attending February 27th site visit to review grant milestones and timeline concerns."
@@ -384,7 +384,7 @@
     "name": "Dr. Ricardo Alvarez",
     "department": "Certification Programs",
     "title": "Certification Program Director",
-    "email": "certification@regionalhealthnetwork.org",
+    "email": "certification@regionalhealthnetwork.example",
     "phone": "+51-84-555-0198",
     "location": "Regional Health Network, San Miguel",
     "note": "Manages mandatory health volunteer certification program. Strict attendance policies, no proxy or makeup sessions available until Q4 2026. Critical contact for maintaining health program partnership compliance."
@@ -394,7 +394,7 @@
     "name": "David Chen",
     "department": "Board of Directors",
     "title": "Board Member - Infrastructure Committee",
-    "email": "d.chen@globalaid.org",
+    "email": "d.chen@globalaid.example",
     "phone": "+1-202-555-0167",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Global Aid Foundation board member with infrastructure expertise. Limited availability - travels to Europe frequently. Specifically requested to meet Zhuo during Feb 27 site visit. Influential in funding decisions for shelter program Phase 2 expansion ($150K)."
@@ -404,7 +404,7 @@
     "name": "Dr. Sarah Williams",
     "department": "Technical Advisory",
     "title": "Technical Advisor - Emergency Shelter Programs",
-    "email": "s.williams@globalaid.org",
+    "email": "s.williams@globalaid.example",
     "phone": "+1-202-555-0189",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Technical expert for Global Aid Foundation shelter program assessments. Will be part of Feb 27 site visit team. Focuses on technical implementation quality and community engagement processes."
@@ -414,7 +414,7 @@
     "name": "Emergency Relief Coordination Committee",
     "department": "Community Leadership",
     "title": "Village Council Coalition Representatives",
-    "email": "emergency.relief@villagecouncils.org",
+    "email": "emergency.relief@villagecouncils.example",
     "phone": "+51-984-555-0198",
     "location": "Villa Nueva & San Pedro, Peru",
     "note": "Joint emergency response committee formed by Villa Nueva and San Pedro village councils following February 2026 flooding. Coordinating relief efforts for 127 displaced families. Primary contacts include Elder Tomás Quispe (Villa Nueva) and San Pedro council leadership. Urgent 3-week timeline for emergency supply distribution."
@@ -424,7 +424,7 @@
     "name": "Michael Chen",
     "department": "Program Management",
     "title": "Program Officer",
-    "email": "m.chen@regionaldevelopment.org",
+    "email": "m.chen@regionaldevelopment.example",
     "phone": "+51-1-555-0892",
     "location": "Regional Development Foundation, Lima Office",
     "note": "Program officer for Regional Development Foundation emergency grant program. Manages emergency response fund with 70% coverage and direct upfront disbursement model. Responsive communication style, typically approves emergency requests within 5 business days. Emphasizes co-funding requirements and impact reporting for large projects."
@@ -434,7 +434,7 @@
     "name": "Humanitarian Alliance Finance Team",
     "department": "Finance and Compliance",
     "title": "Emergency Fund Administration",
-    "email": "finance@humanitarianalliance.org",
+    "email": "finance@humanitarianalliance.example",
     "phone": "+1-212-555-0234",
     "location": "Humanitarian Alliance HQ, New York",
     "note": "Finance department managing emergency fund reimbursements. Offers highest coverage rate (90%) but has strict category restrictions - shelter materials not eligible, food capped at $15k. Requires site visit within 90 days of fund disbursement. Reimbursement typically processed within 15 days of receipt submission."
@@ -444,7 +444,7 @@
     "name": "Maria Delgado",
     "department": "Village Council",
     "title": "Village Council Chair",
-    "email": "villagecouncil.rioverde@gmail.com",
+    "email": "villagecouncil.rioverde@gmail.example",
     "phone": "+51-984-223-456",
     "location": "Río Verde Village",
     "note": "Emergency water contamination crisis contact - 200 families affected, Regional Development Foundation grant deadline January 25, 2026"
@@ -514,7 +514,7 @@
     "name": "Diego Ramirez",
     "department": "Field Operations",
     "title": "Field Operations Coordinator",
-    "email": "field.operations@aidforeducation.org",
+    "email": "field.operations@aidforeducation.example",
     "phone": "+51-987-654-321",
     "location": "Regional Field Office",
     "note": "Coordinates daily field activities and vehicle logistics. Primary contact for field emergencies and operational decisions."
@@ -524,7 +524,7 @@
     "name": "AutoServicio Rápido Peru",
     "department": "Vendors",
     "title": "Emergency Roadside Service Provider",
-    "email": "autoservicio@rapidoperu.com",
+    "email": "autoservicio@rapidoperu.example",
     "phone": "+51-1-555-8800",
     "location": "Lima (serves rural regions)",
     "note": "Commercial emergency roadside assistance service. Quoted $320 for transmission repair with 2-3 hour response time to rural areas. Unfamiliar with remote locations. May require return trips for specialized parts at additional cost."
@@ -534,7 +534,7 @@
     "name": "Dr. Patricia Ruiz",
     "department": "Regional Health Coordination",
     "title": "Regional Director",
-    "email": "p.ruiz@paho-partners.org",
+    "email": "p.ruiz@paho-partners.example",
     "phone": "+51 1 987-6543",
     "location": "PAHO Regional Office - Lima",
     "note": "Key contact for PAHO Regional Health Network. Coordinates medical supply standards and rural health policy updates. Mentioned in February newsletter about new cold chain requirements."
@@ -544,7 +544,7 @@
     "name": "Luis Morales",
     "department": "Partnership Development",
     "title": "Coordination Hub Manager",
-    "email": "coordination@paho-partners.org",
+    "email": "coordination@paho-partners.example",
     "phone": "+51 1 987-6544",
     "location": "PAHO Regional Office - Lima",
     "note": "Manages South American Rural Health Coordination Hub launching March 2026. Contact for monthly coordination meeting participation."
@@ -554,7 +554,7 @@
     "name": "Carmen Flores",
     "department": "Policy & Advocacy",
     "title": "Sector Intelligence Coordinator",
-    "email": "c.flores@rural-health-coalition.org",
+    "email": "c.flores@rural-health-coalition.example",
     "phone": "+51 1 445-7890",
     "location": "Rural Health Coalition - Lima",
     "note": "Coordinates quarterly sector updates and policy briefings. Source for regulatory changes affecting community health programs across Peru, Bolivia, and Ecuador."
@@ -564,7 +564,7 @@
     "name": "Roberto Sanchez",
     "department": "Sales",
     "title": "Senior Account Manager",
-    "email": "procurement@medicalsupplies-regional.com",
+    "email": "procurement@medicalsupplies-regional.example",
     "phone": "+51-1-555-0847",
     "location": "Regional Medical Supplies International - Lima Office",
     "note": "Primary vendor contact for emergency medical supplies. Offers NGO-friendly payment terms and bulk discounts. Reliable delivery track record."
@@ -574,7 +574,7 @@
     "name": "Dr. Elena Gutierrez",
     "department": "Health Programs",
     "title": "Rural Health Coordinator",
-    "email": "e.gutierrez@aidforeducation.org",
+    "email": "e.gutierrez@aidforeducation.example",
     "phone": "+51-1-555-0734",
     "location": "Aid and Education for All - Field Office",
     "note": "Senior manager with approval authority for health program expenditures $8,001-$15,000. Consult on major medical supply procurement decisions."
@@ -604,7 +604,7 @@
     "name": "Elder Tomás Quispe",
     "department": "Villa Nueva Village Council",
     "title": "Village Council Elder",
-    "email": "tomas.quispe@villagecouncil.org",
+    "email": "tomas.quispe@villagecouncil.example",
     "phone": "+51 84 198-7654",
     "location": "Villa Nueva",
     "note": "Village council leadership. Can provide formal emergency designation letters for permit expediting. Coordinating March 30th community groundbreaking ceremony for emergency shelter."
@@ -614,7 +614,7 @@
     "name": "Michael Chen",
     "department": "Program Development",
     "title": "Program Officer",
-    "email": "m.chen@globalaid.org",
+    "email": "m.chen@globalaid.example",
     "phone": "+1 415 555-0198",
     "location": "Global Aid Foundation, San Francisco",
     "note": "Program officer for emergency shelter grant. Scheduled site visit March 8th to review construction progress. Site visit outcome affects Q2 funding renewal decision for second year of grant."
@@ -644,7 +644,7 @@
     "name": "Roberto Sanchez",
     "department": "Finance",
     "title": "Finance Manager",
-    "email": "r.sanchez@aidforeducation.org",
+    "email": "r.sanchez@aidforeducation.example",
     "phone": "+51 1-555-0145",
     "location": "Aid and Education for All HQ",
     "note": "Finance team lead. Manages donor reporting and budget oversight. Key contact for financial implications of program delays."
@@ -654,7 +654,7 @@
     "name": "Raquel Mendoza",
     "department": "Sales",
     "title": "Sales Manager",
-    "email": "raquel.mendoza@medicalsupplies-intl.com",
+    "email": "raquel.mendoza@medicalsupplies-intl.example",
     "phone": "+51-1-445-8920",
     "location": "Medical Supplies International - Lima Office",
     "note": "Primary contact for medical supply procurement. Responsive to non-profit sector needs. Offers competitive pricing for bulk orders."
@@ -674,7 +674,7 @@
     "name": "Michael Chen",
     "department": "Program Coordination",
     "title": "Program Coordinator",
-    "email": "m.chen@regionaldevelopment.org",
+    "email": "m.chen@regionaldevelopment.example",
     "phone": "+51-984-567-234",
     "location": "Regional Development Foundation - Lima Office",
     "note": "Partnership coordinator for emergency shelter health services integration. Leading mobile health team deployment. Relationship established January 2026 through inter-NGO coordination meeting."
@@ -684,7 +684,7 @@
     "name": "Emergency Relief Coordination Committee",
     "department": "Community Leadership",
     "title": "Village Council Coalition",
-    "email": "emergency.relief@villagecouncils.org",
+    "email": "emergency.relief@villagecouncils.example",
     "phone": "+51-987-123-456",
     "location": "Villa Nueva & San Pedro",
     "note": "Coalition representing Villa Nueva and San Pedro communities for emergency relief coordination. Primary contact for community ceremony planning and stakeholder engagement. Works closely with Elder Tomás Quispe."
@@ -694,7 +694,7 @@
     "name": "Jennifer Morrison",
     "department": "Donor Relations",
     "title": "Senior Program Officer",
-    "email": "donor.relations@globalaid.org",
+    "email": "donor.relations@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Primary contact for Emergency Shelter Program grant. Requires matching funds documentation showing 40% co-funding from other sources. Prefers detailed budget breakdowns and quarterly financial reconciliation reports. Site visit March 15 is critical evaluation milestone."
@@ -704,7 +704,7 @@
     "name": "Michael Chen",
     "department": "Infrastructure Programs",
     "title": "Regional Infrastructure Director",
-    "email": "m.chen@regionaldevelopment.org",
+    "email": "m.chen@regionaldevelopment.example",
     "phone": "+56-2-555-0198",
     "location": "Regional Development Foundation - Santiago",
     "note": "Infrastructure specialist - only funds construction materials and permits (100% coverage up to $8,000). Fast approval process. Direct disbursement eliminates cash flow pressure. Excludes soft costs like community engagement or health screening."
@@ -714,7 +714,7 @@
     "name": "Sarah Williams",
     "department": "Emergency Response",
     "title": "Emergency Fund Manager",
-    "email": "finance@humanitarianalliance.org",
+    "email": "finance@humanitarianalliance.example",
     "phone": "+1-212-555-0223",
     "location": "Humanitarian Alliance - New York",
     "note": "Emergency fund specialist with 80% coverage rate (up to $10,000 cap). Reimbursement model requires 45-day processing - organization must advance full costs upfront. Accepts all expense categories. Requires detailed receipts and impact documentation."
@@ -724,7 +724,7 @@
     "name": "Ricardo Palacios",
     "department": "Field Operations",
     "title": "Senior Field Coordinator",
-    "email": "r.palacios@aidforeducation.org",
+    "email": "r.palacios@aidforeducation.example",
     "phone": "+51-987-654-321",
     "location": "Aid and Education for All - Villa Nueva Field Office",
     "note": "Field coordinator managing emergency shelter construction logistics. Coordinates with construction vendors, community leaders, and health screening teams. Can provide real-time expense tracking and vendor payment schedules to inform cash flow planning."
@@ -734,7 +734,7 @@
     "name": "Raul Mendoza",
     "department": "Sales",
     "title": "Sales Manager",
-    "email": "raul.mendoza@medsupply-andean.com",
+    "email": "raul.mendoza@medsupply-andean.example",
     "phone": "+51 1 445-8920",
     "location": "MedSupply Andean - Lima Office",
     "note": "Primary contact for medical supply procurement. Offers 15% bulk discount on orders over $2,500. Knowledgeable about latex-free alternatives and emergency supply needs."
@@ -754,7 +754,7 @@
     "name": "Dr. Patricia Ruiz",
     "department": "Medical Services",
     "title": "Regional Health Coordinator",
-    "email": "p.ruiz@regionalhealthnetwork.org",
+    "email": "p.ruiz@regionalhealthnetwork.example",
     "phone": "+51 1 556-7890",
     "location": "Regional Health Network",
     "note": "Oversees health screening protocols for emergency shelter programs. Consulted on medical supply safety standards and allergen risk management. Available for procurement compliance review."
@@ -764,7 +764,7 @@
     "name": "Rachel Thompson",
     "department": "Donor Relations",
     "title": "Donor Relations Coordinator",
-    "email": "rachel.thompson@globalaid.org",
+    "email": "rachel.thompson@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Coordinates logistics for Jennifer Morrison's site visits. Very detail-oriented about scheduling. Limited flexibility for rescheduling donor visits due to executive calendar constraints."
@@ -774,7 +774,7 @@
     "name": "David Chen",
     "department": "Technical Advisory",
     "title": "Technical Advisor - Infrastructure",
-    "email": "d.chen@globalaid.org",
+    "email": "d.chen@globalaid.example",
     "phone": "+1-202-555-0189",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Construction and engineering expert. Will be part of March 8th site visit delegation. Expects to see physical construction progress and review technical specifications with contractors."
@@ -794,7 +794,7 @@
     "name": "Maria Rodriguez",
     "department": "Finance",
     "title": "Finance Officer",
-    "email": "m.rodriguez@globalaid.org",
+    "email": "m.rodriguez@globalaid.example",
     "phone": "+1-202-555-0156",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Part of March 8th site visit delegation. Will review budget utilization and construction expenditure documentation. Critical for Q1 grant disbursement approval."
@@ -804,7 +804,7 @@
     "name": "Maria Chen",
     "department": "Program Operations",
     "title": "Program Officer",
-    "email": "m.chen@globalaid.org",
+    "email": "m.chen@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Coordinates site visit logistics for Global Aid Foundation. Reports to Jennifer Morrison. Key contact for visit scheduling and donor expectations."
@@ -824,7 +824,7 @@
     "name": "David Chen",
     "department": "Technical Advisory",
     "title": "Technical Advisor",
-    "email": "d.chen@globalaid.org",
+    "email": "d.chen@globalaid.example",
     "phone": "+1-202-555-0178",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Part of Global Aid Foundation site visit delegation for emergency shelter program. Technical expert on construction and infrastructure projects."
@@ -834,7 +834,7 @@
     "name": "Maria Santos",
     "department": "Finance",
     "title": "Finance Officer",
-    "email": "m.santos.finance@globalaid.org",
+    "email": "m.santos.finance@globalaid.example",
     "phone": "+1-202-555-0179",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Global Aid Foundation finance officer (different from local Dr. Maria Fernanda Santos). Will review Q1 expenditure records during April site visit."
@@ -854,7 +854,7 @@
     "name": "Sarah Chen",
     "department": "Program Coordination",
     "title": "Program Coordinator",
-    "email": "s.chen@globalaid.org",
+    "email": "s.chen@globalaid.example",
     "phone": "+1-415-555-0198",
     "location": "Global Aid Foundation - San Francisco Office",
     "note": "Coordinates logistics for Jennifer Morrison's site visits. Primary contact for visit scheduling and agenda planning."
@@ -904,7 +904,7 @@
     "name": "Roberto Torres",
     "department": "Project Management",
     "title": "Project Manager",
-    "email": "r.torres@buildersandean.com",
+    "email": "r.torres@buildersandean.example",
     "phone": "+51-984-223-456",
     "location": "San Miguel Region, Peru",
     "note": "Builders Andean Construction - contractor for Emergency Shelter Program foundation work. Offered 15% discount ($2,250 savings) with non-refundable $15,000 deposit due by April 5, 2026. Professional and responsive, but firm on deadline terms."
@@ -914,7 +914,7 @@
     "name": "Maria Gonzalez",
     "department": "Volunteer Services",
     "title": "Volunteer Coordinator",
-    "email": "volunteer.coordinator@aidforeducation.org",
+    "email": "volunteer.coordinator@aidforeducation.example",
     "phone": "+51-1-445-7788",
     "location": "Lima Office",
     "note": "Internal volunteer coordinator managing spring 2026 volunteer cohort recruitment and training."
@@ -934,7 +934,7 @@
     "name": "Roberto Sanchez",
     "department": "Finance",
     "title": "Finance Director",
-    "email": "r.sanchez@aidforeducation.org",
+    "email": "r.sanchez@aidforeducation.example",
     "phone": "+51 987-654-321",
     "location": "Aid and Education for All HQ",
     "note": "Finance director - manages organizational cash reserves and budget approvals. Authority to advise on expenditure decisions up to $20K."
@@ -974,7 +974,7 @@
     "name": "Maria Torres",
     "department": "Finance",
     "title": "Finance Officer",
-    "email": "finance@aidforeducation.org",
+    "email": "finance@aidforeducation.example",
     "phone": "+51-987-234-567",
     "location": "Aid and Education for All HQ",
     "note": "Finance Officer managing Emergency Shelter Program budget. Confirmed $36,800 available balance, $12,000 emergency expenditure policy cap, and upcoming grant disbursements. Key contact for budget compliance and approval processes."
@@ -1024,7 +1024,7 @@
     "name": "Carlos Lopez",
     "department": "Construction",
     "title": "Director",
-    "email": "carlos.lopez@buildersperu.com",
+    "email": "carlos.lopez@buildersperu.example",
     "phone": "+51 987-445-789",
     "location": "Lopez Construction Group, Lima",
     "note": "Alternative shelter contractor - offers both refundable standard deposit and non-refundable early bird option with 8% discount. 20 years experience with humanitarian projects."
@@ -1034,7 +1034,7 @@
     "name": "Sarah Mitchell",
     "department": "Donor Relations",
     "title": "Donor Relations Coordinator",
-    "email": "smitchell@globalaid.org",
+    "email": "smitchell@globalaid.example",
     "phone": "+1-202-555-7834",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Coordinates logistics for Jennifer Morrison's site visits. Primary contact for visit scheduling and travel arrangements. Handles pre-visit briefing materials and post-visit follow-up documentation."
@@ -1054,7 +1054,7 @@
     "name": "Rachel Thompson",
     "department": "Donor Relations",
     "title": "Donor Relations Coordinator",
-    "email": "donor.relations@globalaid.org",
+    "email": "donor.relations@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Works directly with Jennifer Morrison on site visit coordination and board communications. Primary contact for logistical arrangements for donor visits."
@@ -1074,7 +1074,7 @@
     "name": "Sarah Chen",
     "department": "Donor Relations",
     "title": "Senior Program Officer",
-    "email": "s.chen@globalaid.org",
+    "email": "s.chen@globalaid.example",
     "phone": "+1-202-555-0147",
     "location": "Global Aid Foundation - Washington DC",
     "note": "Primary contact for Jennifer Morrison's site visit coordination. Handles logistics and agenda planning for executive visits."
@@ -1094,7 +1094,7 @@
     "name": "Roberto Salinas",
     "department": "Sales",
     "title": "Procurement Specialist",
-    "email": "procurement@medicalsupplies-intl.com",
+    "email": "procurement@medicalsupplies-intl.example",
     "phone": "+51 1 445 8900",
     "location": "Medical Supplies International - Lima",
     "note": "Primary vendor contact for emergency shelter medical supply procurement. Handles volume discount approvals and expedited shipping. Responsive to urgent modifications within 24-hour window."

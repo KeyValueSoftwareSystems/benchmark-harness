@@ -2,10 +2,10 @@
   {
     "message_id": "WMSG-5001",
     "from": "invoices@linklaters.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Invoice LK-2026-00847 - Finnish M&A Diligence Services",
     "date": "2026-01-16T14:22:00+01:00",
-    "body": "Dear Sven,\n\nPlease find attached our invoice LK-2026-00847 for legal advisory services rendered in connection with the Finnish components manufacturer acquisition diligence phase.\n\nInvoice Summary:\n- Matter: Project Aurora - Finnish Target Diligence\n- Period: December 16, 2025 - January 15, 2026\n- Amount: SEK 340,000 (excl. VAT)\n- Payment terms: 30 days net\n\nServices included:\n- Corporate structure review (24 hours)\n- Contract portfolio analysis (18 hours)\n- Regulatory compliance assessment (16 hours)\n- Management interviews and Q&A coordination (12 hours)\n\nPlease process payment to our account details below. Do not hesitate to contact me if you require any clarification.\n\nBest regards,\nKarin Bergström\nPartner, Linklaters Stockholm\nkarin.bergstrom@linklaters.com\n+46 8 5578 1000",
+    "body": "Dear Sven,\n\nPlease find attached our invoice LK-2026-00847 for legal advisory services rendered in connection with the Finnish components manufacturer acquisition diligence phase.\n\nInvoice Summary:\n- Matter: Project Aurora - Finnish Target Diligence\n- Period: December 16, 2025 - January 15, 2026\n- Amount: SEK 340,000 (excl. VAT)\n- Payment terms: 30 days net\n\nServices included:\n- Corporate structure review (24 hours)\n- Contract portfolio analysis (18 hours)\n- Regulatory compliance assessment (16 hours)\n- Management interviews and Q&A coordination (12 hours)\n\nPlease process payment to our account details below. Do not hesitate to contact me if you require any clarification.\n\nBest regards,\nKarin Bergström\nPartner, Linklaters Stockholm\nkarin.bergstrom@linklaters.example\n+46 8 5578 1000",
     "labels": [
       "invoice",
       "external-advisor",
@@ -15,7 +15,7 @@
   },
   {
     "message_id": "WMSG-5002",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "Re: BU portfolio review - data request",
     "date": "2026-01-15T16:45:00+01:00",
@@ -29,7 +29,7 @@
   {
     "message_id": "WMSG-5003",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Org restructuring feedback from BU 4",
     "date": "2026-01-14T11:30:00+01:00",
     "body": "Sven,\n\nJust had coffee with Henrik (BU 4 GM). He's still very skeptical about the matrix reporting proposal. Says it will slow down decision-making and create confusion on accountability.\n\nHe wants a 1:1 with you before the next steering committee. Can you fit him in next week?\n\nLars",
@@ -55,7 +55,7 @@
   },
   {
     "message_id": "WMSG-5005",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "Project Aurora budget issue - restricted vendor invoice",
     "date": "2026-01-09T09:45:00+01:00",
@@ -70,7 +70,7 @@
   {
     "message_id": "WMSG-5006",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Project Aurora budget issue - restricted vendor invoice",
     "date": "2026-01-09T11:20:00+01:00",
     "body": "Sven,\n\nGood catch on the volume discount threshold. Let's discuss at 14:00 today - I have a slot free.\n\nBefore we finalize substitute services, please:\n1. Confirm the exact budget gap calculation\n2. Verify both EcoCompliance and the IT audit vendor are on the approved list\n3. Check that we're still within the overall engagement budget ceiling (I think we have ~SEK 50k headroom)\n4. Update the Notion decision log with the rationale\n\nI'll need to loop in Helena (CFO) for sign-off if this changes the total budget materially, but if we're just swapping vendors and staying within the envelope, we should be fine.\n\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -84,7 +84,7 @@
   {
     "message_id": "WMSG-5007",
     "from": "invoices@ecocompliance.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Quote ECN-2026-0142 - Environmental Compliance Review Services",
     "date": "2026-01-08T14:30:00+01:00",
     "body": "Dear Sven,\n\nThank you for your inquiry regarding environmental compliance review services for your Finnish acquisition target.\n\nPlease find attached our quote ECN-2026-0142 for SEK 128,000 (excl. VAT) covering:\n\n- Site environmental audit (2 manufacturing facilities)\n- Regulatory compliance assessment (Finnish and EU standards)\n- Environmental liability review\n- Remediation cost estimates (if applicable)\n- Integration recommendations\n\nDeliverables: Comprehensive report within 3 weeks of site access approval.\n\nThis quote is valid until January 31, 2026. EcoCompliance Nordic AB is pre-approved on the Vasaholm Group vendor list (verified with your procurement team).\n\nPlease let us know if you would like to proceed.\n\nBest regards,\nPer Johansson\nBusiness Development Manager\nEcoCompliance Nordic AB\nper.johansson@ecocompliance.se\n+46 8 555 1234",
@@ -96,11 +96,11 @@
   },
   {
     "message_id": "WMSG-5008",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "URGENT: Q1 External Advisor Budget Reallocation - Competitive Intelligence Scope Reduction",
     "date": "2026-02-25T16:45:00+01:00",
-    "body": "Anna,\n\nFollowing our discussion this afternoon, I'm documenting the Q1 external advisor budget reallocation decision for your approval.\n\n**Context:**\nThe unplanned Linklaters escalation (SEK 340k, invoice LK-2026-00891, approved Feb 19) consumed a significant portion of our Q1 external advisor budget cap. With the committed Nordic Strategy Advisors invoice (SEK 185k) also processed, our remaining Q1 headroom is constrained.\n\n**New Priority:**\nA strategic priority has emerged: competitive intelligence on SchulzeTech GmbH's Nordic expansion plans. Our initial scoping with Competitive Intelligence Partners AB indicated an ideal comprehensive scope at SEK 220k.\n\n**Budget Analysis:**\n- Q1 cap: SEK 750,000\n- Linklaters unplanned: SEK 340,000\n- Nordic Strategy Advisors committed: SEK 185,000\n- Other committed/accrued: SEK 80,000\n- **Remaining headroom: SEK 145,000**\n\n**Decision:**\nI have negotiated a reduced Phase 1 scope with Competitive Intelligence Partners AB for SEK 145k (invoice CIP-2026-00089, processed today). This covers:\n- Core market entry analysis (Nordic region focus)\n- Key competitor positioning assessment\n- Executive interview program (5 interviews vs. ideal 12)\n\nPhase 2 (additional SEK 75k for expanded interview program and supply chain mapping) will be executed in Q2, pending budget allocation confirmation.\n\n**Q2 Budget Request:**\nI am formally requesting reservation of SEK 75k from Q2 external advisor budget for Phase 2 competitive intelligence work, planned for early April delivery.\n\nPlease confirm:\n1. Approval of the Q1 reallocation (Phase 1 at SEK 145k)\n2. Reservation of SEK 75k in Q2 budget for Phase 2\n\nNotion decision log updated: NPAG-4 (link below).\n\nBest regards,\nSven\n\n---\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "Anna,\n\nFollowing our discussion this afternoon, I'm documenting the Q1 external advisor budget reallocation decision for your approval.\n\n**Context:**\nThe unplanned Linklaters escalation (SEK 340k, invoice LK-2026-00891, approved Feb 19) consumed a significant portion of our Q1 external advisor budget cap. With the committed Nordic Strategy Advisors invoice (SEK 185k) also processed, our remaining Q1 headroom is constrained.\n\n**New Priority:**\nA strategic priority has emerged: competitive intelligence on SchulzeTech GmbH's Nordic expansion plans. Our initial scoping with Competitive Intelligence Partners AB indicated an ideal comprehensive scope at SEK 220k.\n\n**Budget Analysis:**\n- Q1 cap: SEK 750,000\n- Linklaters unplanned: SEK 340,000\n- Nordic Strategy Advisors committed: SEK 185,000\n- Other committed/accrued: SEK 80,000\n- **Remaining headroom: SEK 145,000**\n\n**Decision:**\nI have negotiated a reduced Phase 1 scope with Competitive Intelligence Partners AB for SEK 145k (invoice CIP-2026-00089, processed today). This covers:\n- Core market entry analysis (Nordic region focus)\n- Key competitor positioning assessment\n- Executive interview program (5 interviews vs. ideal 12)\n\nPhase 2 (additional SEK 75k for expanded interview program and supply chain mapping) will be executed in Q2, pending budget allocation confirmation.\n\n**Q2 Budget Request:**\nI am formally requesting reservation of SEK 75k from Q2 external advisor budget for Phase 2 competitive intelligence work, planned for early April delivery.\n\nPlease confirm:\n1. Approval of the Q1 reallocation (Phase 1 at SEK 145k)\n2. Reservation of SEK 75k in Q2 budget for Phase 2\n\nNotion decision log updated: NPAG-4 (link below).\n\nBest regards,\nSven\n\n---\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "urgent",
       "budget",
@@ -111,7 +111,7 @@
   {
     "message_id": "WMSG-5009",
     "from": "invoices@cipab.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Invoice CIP-2026-00089 - Competitive Intelligence Services (Phase 1)",
     "date": "2026-02-24T14:20:00+01:00",
     "body": "Dear Sven,\n\nThank you for engaging Competitive Intelligence Partners AB for the SchulzeTech Nordic expansion analysis.\n\nPlease find attached invoice CIP-2026-00089 for Phase 1 services:\n\n**Invoice Details:**\n- Invoice number: CIP-2026-00089\n- Amount: SEK 145,000 (excl. VAT)\n- Service period: February 24 - March 15, 2026\n- Payment terms: Net 30 days\n\n**Phase 1 Scope:**\n- Market entry strategy assessment (Nordic markets)\n- Competitive positioning analysis\n- Executive interview program (5 interviews)\n- Preliminary findings report\n\nDelivery date: March 15, 2026\n\nAs discussed, Phase 2 scope (expanded interviews and supply chain analysis) is available for Q2 execution at SEK 75,000.\n\nPlease confirm receipt and processing.\n\nBest regards,\nMaria Svensson\nClient Services Manager\nCompetitive Intelligence Partners AB\n+46 8 555 4433\nmaria.svensson@cipab.se",
@@ -124,7 +124,7 @@
   {
     "message_id": "WMSG-5010",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Q1 External Advisor Budget Reallocation - Competitive Intelligence Scope Reduction",
     "date": "2026-02-26T09:15:00+01:00",
     "body": "Sven,\n\nApproved on both counts:\n\n1. ✓ Q1 reallocation confirmed - Phase 1 competitive intelligence at SEK 145k fits within remaining headroom and represents sound prioritization given the SchulzeTech threat.\n\n2. ✓ Q2 budget reservation confirmed - SEK 75k reserved for Phase 2. I'll flag this in the Q2 planning cycle starting next week.\n\nWell managed under the constraint. The phased approach makes sense and keeps us within policy limits while addressing the strategic priority.\n\nOne note: Please ensure the Phase 1 deliverable (March 15) includes clear decision criteria for whether Phase 2 is still warranted. If SchulzeTech's plans shift, we may want to redirect that Q2 allocation.\n\nRegards,\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -137,7 +137,7 @@
   {
     "message_id": "WMSG-5011",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "SchulzeTech rumors - heads up",
     "date": "2026-02-21T11:30:00+01:00",
     "body": "Sven,\n\nHeard through the grapevine (via our Gothenburg BU) that SchulzeTech GmbH is sniffing around potential Nordic acquisitions. They've apparently hired a local M&A advisor in Oslo.\n\nGiven our overlapping product lines in industrial automation, thought you'd want to know. Might be worth some competitive intelligence work if you have budget headroom.\n\nLet me know if you want me to dig further through our BU network.\n\n/Lars\n\n---\nLars Eriksson\nChief Executive Officer\nVasaholm Group",
@@ -150,7 +150,7 @@
   {
     "message_id": "WMSG-5012",
     "from": "johan.nystrom@nordicma.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Initial valuation parameters - Swedish logistics sector opportunity",
     "date": "2026-01-27T14:22:00+01:00",
     "body": "Hi Sven,\n\nFollowing up on our brief discussion last week about potential consolidation plays in the Swedish logistics market.\n\nI've pulled together some preliminary valuation parameters for mid-market logistics operators in the Mälardalen region:\n\n- EBITDA multiples: 6.5-8.2x for asset-light operators, 5.0-6.5x for asset-heavy\n- Typical revenue range: SEK 200-800M\n- Key value drivers: contract stability (3+ year customer agreements), fleet age, warehouse automation level\n\nOne name that keeps coming up in our network: TransLog Sverige AB (privately held, ~SEK 450M revenue, strong Volvo/Scania logistics contracts). Owner is 67, no succession plan. Could be an interesting strategic fit for Vasaholm's industrial distribution footprint.\n\nWorth a deeper look? I can arrange a discreet introduction through our Stockholm office if you'd like to explore further.\n\nBest regards,\nJohan Nyström\nPartner, Nordic M&A Advisors\n+46 70 234 5678\njohan.nystrom@nordicma.se",
@@ -162,11 +162,11 @@
   },
   {
     "message_id": "WMSG-5013",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "johan.nystrom@nordicma.se",
     "subject": "Re: Initial valuation parameters - Swedish logistics sector opportunity",
     "date": "2026-01-28T09:45:00+01:00",
-    "body": "Johan,\n\nThanks for the overview. TransLog Sverige is intriguing—the Volvo/Scania contracts align well with our automotive supply chain exposure.\n\nLet me think through the strategic rationale this week. Can you send over:\n- Estimated revenue breakdown by customer segment\n- Fleet composition (owned vs. leased)\n- Any known debt or capex commitments\n\nNo introductions yet—want to validate the thesis internally first.\n\nSven\n\n--\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group\nsven.lindgren@vasaholm.se",
+    "body": "Johan,\n\nThanks for the overview. TransLog Sverige is intriguing—the Volvo/Scania contracts align well with our automotive supply chain exposure.\n\nLet me think through the strategic rationale this week. Can you send over:\n- Estimated revenue breakdown by customer segment\n- Fleet composition (owned vs. leased)\n- Any known debt or capex commitments\n\nNo introductions yet—want to validate the thesis internally first.\n\nSven\n\n--\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group\nstefan.ljungberg@vasaholm.se",
     "labels": [
       "external",
       "m&a",
@@ -177,7 +177,7 @@
   {
     "message_id": "WMSG-5014",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Logistics sector benchmarking data - as requested",
     "date": "2026-02-03T16:10:00+01:00",
     "body": "Sven,\n\nPer your request from last week, I've compiled the logistics sector benchmarking package:\n\n- Nordic logistics market overview (2024-2025 data)\n- Operating margin trends by sub-sector\n- M&A transaction comps (last 18 months)\n- Key players and market share estimates\n\nFiles are in the shared Strategy folder: /Shared/Strategy/Sector Analysis/Logistics 2026/\n\nLet me know if you need anything else—happy to dig deeper on any specific angle.\n\nBest,\nLars\n\n--\nLars Eriksson\nSenior Strategy Analyst\nVasaholm Group",
@@ -190,7 +190,7 @@
   {
     "message_id": "WMSG-5015",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Q1 strategy priorities check-in",
     "date": "2026-02-04T10:30:00+01:00",
     "body": "Sven,\n\nQuick check-in on your Q1 workload. I know the Finnish M&A diligence and portfolio review are consuming most of your bandwidth right now.\n\nAre there any other strategic initiatives or exploratory projects I should be aware of for resource planning purposes? Want to make sure you're not overextended heading into the board update cycle.\n\nLet's catch up briefly this week if you have 15 minutes.\n\nAnna\n\n--\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -202,11 +202,11 @@
   },
   {
     "message_id": "WMSG-5016",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "per.johansson@vasaholm.se",
     "subject": "Urgent: Cross-BU Steering Committee scheduling - CEO availability check",
     "date": "2026-03-17T09:15:00+01:00",
-    "body": "Hi Per,\n\nI'm scheduling the critical cross-BU steering committee for the org restructuring proposal. We need your sign-off authority, so your attendance is mandatory per governance policy.\n\nThe majority of participants (6 out of 8, including all BU general managers) have indicated strong preference for **Thursday 20 March, 14:00-16:00** due to travel logistics from Göteborg and Malmö.\n\nCan you confirm your availability for this slot? If not, please share your constraints for the week of 17-21 March so I can identify an alternative that satisfies compliance recording requirements.\n\nBest regards,\nSven\n\n---\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "Hi Per,\n\nI'm scheduling the critical cross-BU steering committee for the org restructuring proposal. We need your sign-off authority, so your attendance is mandatory per governance policy.\n\nThe majority of participants (6 out of 8, including all BU general managers) have indicated strong preference for **Thursday 20 March, 14:00-16:00** due to travel logistics from Göteborg and Malmö.\n\nCan you confirm your availability for this slot? If not, please share your constraints for the week of 17-21 March so I can identify an alternative that satisfies compliance recording requirements.\n\nBest regards,\nSven\n\n---\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "urgent",
       "scheduling"
@@ -216,7 +216,7 @@
   {
     "message_id": "WMSG-5017",
     "from": "per.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Urgent: Cross-BU Steering Committee scheduling - CEO availability check",
     "date": "2026-03-17T11:42:00+01:00",
     "body": "Sven,\n\nUnfortunately I have a hard conflict on Thursday 20 March - full-day regulatory hearing at Finansinspektionen (capital adequacy review for the Group). This was scheduled by the regulator in January and cannot be moved.\n\nI'm available:\n- Wednesday 19 March after 15:00\n- Friday 21 March, 09:00-17:00 (entire day open)\n\nLet me know what works for the broader group. I understand the travel constraints but my attendance is non-negotiable for sign-off.\n\nPer\n\n---\nPer Johansson\nChief Executive Officer\nVasaholm Group",
@@ -229,7 +229,7 @@
   {
     "message_id": "WMSG-5018",
     "from": "mikael.strom@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Cross-BU Steering Committee - Proposed Thursday 20 March slot",
     "date": "2026-03-17T14:20:00+01:00",
     "body": "Sven,\n\nThursday afternoon works perfectly for me and the other BU heads traveling from outside Stockholm. We discussed informally and 6 of us can make Thursday 14:00-16:00 without overnight stays.\n\nI heard Henrik mention the possibility of an informal hallway discussion if scheduling gets too complex - would that work as a backup? We could walk through the restructuring proposal with Per and the CFO over coffee and document decisions afterward.\n\nLet me know.\n\nMikael\n\n---\nMikael Ström\nGeneral Manager, BU 2 - Industrial Components",
@@ -240,11 +240,11 @@
   },
   {
     "message_id": "WMSG-5019",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "per.johansson@vasaholm.se, anna.karlsson@vasaholm.se, henrik.andersson@vasaholm.se, mikael.strom@vasaholm.se, sofia.lundberg@vasaholm.se, lars.eriksson@vasaholm.se, eva.lindholm@vasaholm.se, maria.lundqvist@vasaholm.se",
     "subject": "FINAL: Cross-BU Steering Committee - Friday 21 March 15:00-17:00 (Zoom, recorded)",
     "date": "2026-03-18T10:30:00+01:00",
-    "body": "All,\n\nAfter reviewing availability constraints and compliance requirements, I've scheduled the Cross-BU Steering Committee for:\n\n**Date**: Friday 21 March 2026\n**Time**: 15:00-17:00 CET\n**Platform**: Zoom (recording enabled per governance policy KB-404)\n**Join URL**: https://zoom.vasaholm.se/j/steering-reorg-mar21\n**Passcode**: 847392\n\n### Why not Thursday 20 March (the majority preference)?\n\nI understand that 6 of 8 participants preferred Thursday afternoon to minimize travel disruption. However, two **non-negotiable constraints** ruled out this option:\n\n1. **CEO availability (hard constraint)**: Per has a mandatory regulatory hearing at Finansinspektionen on Thursday 20 March (full-day commitment). CEO attendance is required for executive sign-off authority per Steering Committee Governance Policy (KB-404).\n\n2. **Compliance recording requirement (non-negotiable)**: Several participants suggested an informal hallway discussion as a workaround. However, governance policy KB-404 explicitly requires all steering committees involving strategic decisions (including org restructuring) to be recorded via Zoom Enterprise for audit trail compliance. Informal discussions cannot substitute for recorded sessions where formal sign-off is required.\n\nFriday 21 March at 15:00 was the earliest slot that satisfied both constraints while maintaining quorum (all 8 participants confirmed available).\n\nI recognize this creates travel inconvenience for BU heads outside Stockholm - please coordinate with your assistants for accommodation if needed, and expense per standard travel policy.\n\nSee you Friday.\n\nSven\n\n---\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group\n\n**Agenda** (attached):\n1. Org restructuring proposal overview (20 min)\n2. BU impact analysis and transition plan (40 min)\n3. Financial implications and budget reallocation (30 min)\n4. Q&A and executive sign-off (30 min)",
+    "body": "All,\n\nAfter reviewing availability constraints and compliance requirements, I've scheduled the Cross-BU Steering Committee for:\n\n**Date**: Friday 21 March 2026\n**Time**: 15:00-17:00 CET\n**Platform**: Zoom (recording enabled per governance policy KB-404)\n**Join URL**: https://zoom.vasaholm.se/j/steering-reorg-mar21\n**Passcode**: 847392\n\n### Why not Thursday 20 March (the majority preference)?\n\nI understand that 6 of 8 participants preferred Thursday afternoon to minimize travel disruption. However, two **non-negotiable constraints** ruled out this option:\n\n1. **CEO availability (hard constraint)**: Per has a mandatory regulatory hearing at Finansinspektionen on Thursday 20 March (full-day commitment). CEO attendance is required for executive sign-off authority per Steering Committee Governance Policy (KB-404).\n\n2. **Compliance recording requirement (non-negotiable)**: Several participants suggested an informal hallway discussion as a workaround. However, governance policy KB-404 explicitly requires all steering committees involving strategic decisions (including org restructuring) to be recorded via Zoom Enterprise for audit trail compliance. Informal discussions cannot substitute for recorded sessions where formal sign-off is required.\n\nFriday 21 March at 15:00 was the earliest slot that satisfied both constraints while maintaining quorum (all 8 participants confirmed available).\n\nI recognize this creates travel inconvenience for BU heads outside Stockholm - please coordinate with your assistants for accommodation if needed, and expense per standard travel policy.\n\nSee you Friday.\n\nSven\n\n---\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group\n\n**Agenda** (attached):\n1. Org restructuring proposal overview (20 min)\n2. BU impact analysis and transition plan (40 min)\n3. Financial implications and budget reallocation (30 min)\n4. Q&A and executive sign-off (30 min)",
     "labels": [
       "urgent",
       "scheduling",
@@ -255,7 +255,7 @@
   {
     "message_id": "WMSG-5020",
     "from": "thomas.bergqvist@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Compliance review: Cross-BU Steering Committee setup",
     "date": "2026-03-18T14:10:00+01:00",
     "body": "Sven,\n\nI reviewed your meeting invitation for the 21 March steering committee. Setup looks compliant:\n\n✓ Zoom Enterprise with cloud recording enabled\n✓ CEO attendance confirmed\n✓ Quorum achieved (8/8 participants)\n✓ Audit trail documentation in email thread\n\nOne minor note: Please ensure the Zoom recording setting is set to 'automatic start' rather than manual trigger. This prevents accidental omission if the host forgets to click 'Record'.\n\nYou can verify this in the Zoom meeting settings (Edit Meeting > Recording tab > 'Record the meeting automatically').\n\nThanks for maintaining governance standards despite the scheduling complexity.\n\nThomas\n\n---\nThomas Bergqvist\nChief Compliance Officer\nVasaholm Group",
@@ -267,7 +267,7 @@
   },
   {
     "message_id": "WMSG-5021",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se, per.johansson@vasaholm.se",
     "subject": "Weekly Cross-BU Steering Committee Digest - Week 7 (Feb 10-14, 2026)",
     "date": "2026-02-14T17:15:00+01:00",
@@ -281,7 +281,7 @@
   },
   {
     "message_id": "WMSG-5022",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se",
     "subject": "Week 7 Steering Committee Digest - Supply Chain Integration Section",
     "date": "2026-02-14T17:20:00+01:00",
@@ -294,7 +294,7 @@
   },
   {
     "message_id": "WMSG-5023",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "henrik.andersson@vasaholm.se",
     "subject": "Week 7 Steering Committee Digest - Procurement Harmonization Section + Overdue Item Follow-Up",
     "date": "2026-02-14T17:25:00+01:00",
@@ -309,7 +309,7 @@
   {
     "message_id": "WMSG-5024",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Weekly Cross-BU Steering Committee Digest - Week 7 (Feb 10-14, 2026)",
     "date": "2026-02-15T08:45:00+01:00",
     "body": "Sven,\n\nThank you for the comprehensive digest. The closure rate decline is concerning but understandable given the Sustainability Framework scope.\n\nI will coordinate external audit partner selection for CSRD compliance this week. Please add a follow-up item to your tracker to confirm BU-level data readiness by end of February.\n\nRegarding the BU 8 resource allocation escalation: I've discussed this with Per offline. We will address it in the Feb 20 Executive Committee meeting. Can you prepare a 2-slide brief on the staffing requirement and timeline implications?\n\nThe Malmö warehousing consolidation decision is excellent progress. Please ensure Lars keeps finance updated on lease negotiation terms - we may need to adjust Q3 capex allocation.\n\nBest,\nAnna",
@@ -320,7 +320,7 @@
   },
   {
     "message_id": "WMSG-5025",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "sofia.andersson@vasaholm.se, oscar.nilsson@vasaholm.se, emma.johansson@vasaholm.se",
     "subject": "Q1 Board Materials - Parallel Workstream Delegation & Notion Workspace Isolation Protocol",
     "date": "2026-01-20T09:30:00+01:00",
@@ -335,7 +335,7 @@
   {
     "message_id": "WMSG-5026",
     "from": "oscar.nilsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q1 Board Materials - Parallel Workstream Delegation & Notion Workspace Isolation Protocol",
     "date": "2026-01-20T10:15:00+01:00",
     "body": "Sven,\n\nUnderstood. I've reviewed NPAG-14 (my isolated draft page) and confirmed write access. I'll pull 2025 actuals and 2026 Q1 forecast from the finance system API this afternoon and start compiling exhibits.\n\nOne clarification: When I read NPAG-11 decision log (financial section), should I wait for Sofia to complete her compliance attestation write, or is the financial section stable enough for me to reference now? I want to avoid reading mid-update data.\n\nI'll notify you by EOD Jan 23 when the draft is complete.\n\nOscar",
@@ -347,7 +347,7 @@
   },
   {
     "message_id": "WMSG-5027",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "oscar.nilsson@vasaholm.se",
     "subject": "Re: Q1 Board Materials - Parallel Workstream Delegation & Notion Workspace Isolation Protocol",
     "date": "2026-01-20T10:45:00+01:00",
@@ -361,7 +361,7 @@
   {
     "message_id": "WMSG-5028",
     "from": "emma.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q1 Board Materials - Phase 2 readiness check",
     "date": "2026-01-20T14:00:00+01:00",
     "body": "Sven,\n\nI've reviewed NPAG-13 (my isolated draft page) and the access boundaries. I understand I'm blocked until Sofia and Oscar complete Phase 1 (Jan 23).\n\nWhile I wait, I'll pre-review the Linklaters diligence report (invoice LK-2026-00847) and prepare formatting templates so I can move quickly once Phase 2 starts. I'll also familiarize myself with NPAG-12 (stakeholder map) read-only access.\n\nOne question: If Sofia's compliance attestation reveals any material issues that affect the M&A summary narrative (e.g., regulatory blockers), should I escalate to you before finalizing the draft, or incorporate and flag in the summary text?\n\nI'll be ready to start immediately on Jan 24 once you confirm Phase 1 completion.\n\nEmma",
@@ -374,7 +374,7 @@
   {
     "message_id": "WMSG-5029",
     "from": "sofia.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Compliance attestation workstream - initial review complete",
     "date": "2026-01-20T16:30:00+01:00",
     "body": "Sven,\n\nI've started the compliance attestation workstream (TODO-519). Initial review of NPAG-11 decision log shows the org restructuring proposal has clear decision lineage and stakeholder sign-offs.\n\nI'm drafting the attestation covering:\n1. Regulatory compliance verification (labor law, co-determination requirements)\n2. Environmental/sustainability impact assessment (per new EU directives)\n3. Board governance requirements (audit committee pre-approval, disclosure obligations)\n\nI'll have the draft complete and written to NPAG-11 Compliance Section by EOD Jan 22 (one day ahead of Phase 1 deadline). This should give Emma extra buffer for Phase 2 start.\n\nNo blockers so far. I'll notify you when the section is finalized.\n\nSofia",
@@ -387,11 +387,11 @@
   },
   {
     "message_id": "WMSG-5030",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se, henrik.andersson@vasaholm.se, maria.lundqvist@vasaholm.se, eva.lindholm@vasaholm.se, sofia.andersson@vasaholm.se, oscar.nilsson@vasaholm.se, anna.karlsson@vasaholm.se",
     "subject": "URGENT: Jan 14 Cross-BU Steering Committee Schedule Conflict - Resource Reallocation Required",
     "date": "2026-01-12T16:45:00+01:00",
-    "body": "All,\n\nI've identified a critical resource conflict with the three cross-BU steering committees scheduled for Tuesday, January 14 at 14:00:\n\n- Supply Chain Integration (BU 3 & BU 7)\n- Digital Transformation Roadmap (BU 2 & BU 5)\n- Procurement Harmonization (BU 1, BU 4, BU 6)\n\nAll three require Zoom recording for compliance audit trail (per KB-404 Steering Committee Governance policy), but my Zoom account has a single-host recording limit that prevents parallel execution.\n\nAdditionally, the shared Notion decision log (NPAG-8) will experience write conflicts if multiple GMs attempt concurrent updates during parallel meetings.\n\n**Proposed Resolution:**\n\n1. **Supply Chain Integration** - RESCHEDULED to 09:00-10:30 same day, host delegated to CFO Anna Karlsson (anna.karlsson@vasaholm.se) to enable parallel recording\n2. **Digital Transformation Roadmap** - REMAINS at 14:00-15:30, hosted by me\n3. **Procurement Harmonization** - RESCHEDULED to 16:00-17:30 same day, hosted by me\n\nThis hybrid approach (one parallel + two serialized) preserves the 24-hour action-item extraction deadline while satisfying compliance recording requirements.\n\n**Notion Workspace Changes:**\n\nI've created isolated decision-log sub-pages for each committee:\n- NPAG-17: Supply Chain Integration Decision Log (Jan 14)\n- NPAG-18: Digital Transformation Decision Log (Jan 14)\n- NPAG-19: Procurement Harmonization Decision Log (Jan 14)\n\nPlease update your assigned sub-page during the meeting. I will manually merge all three into the master decision log (NPAG-8) by end of day Jan 14.\n\n**Action Required:**\n\nPlease confirm receipt and availability for the revised times by EOD Monday Jan 13. Updated calendar invites will follow tomorrow morning.\n\nApologies for the short-notice reshuffling. This is a learning moment for our parallel execution planning.\n\nBest,\nSven\n\n---\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "All,\n\nI've identified a critical resource conflict with the three cross-BU steering committees scheduled for Tuesday, January 14 at 14:00:\n\n- Supply Chain Integration (BU 3 & BU 7)\n- Digital Transformation Roadmap (BU 2 & BU 5)\n- Procurement Harmonization (BU 1, BU 4, BU 6)\n\nAll three require Zoom recording for compliance audit trail (per KB-404 Steering Committee Governance policy), but my Zoom account has a single-host recording limit that prevents parallel execution.\n\nAdditionally, the shared Notion decision log (NPAG-8) will experience write conflicts if multiple GMs attempt concurrent updates during parallel meetings.\n\n**Proposed Resolution:**\n\n1. **Supply Chain Integration** - RESCHEDULED to 09:00-10:30 same day, host delegated to CFO Anna Karlsson (anna.karlsson@vasaholm.se) to enable parallel recording\n2. **Digital Transformation Roadmap** - REMAINS at 14:00-15:30, hosted by me\n3. **Procurement Harmonization** - RESCHEDULED to 16:00-17:30 same day, hosted by me\n\nThis hybrid approach (one parallel + two serialized) preserves the 24-hour action-item extraction deadline while satisfying compliance recording requirements.\n\n**Notion Workspace Changes:**\n\nI've created isolated decision-log sub-pages for each committee:\n- NPAG-17: Supply Chain Integration Decision Log (Jan 14)\n- NPAG-18: Digital Transformation Decision Log (Jan 14)\n- NPAG-19: Procurement Harmonization Decision Log (Jan 14)\n\nPlease update your assigned sub-page during the meeting. I will manually merge all three into the master decision log (NPAG-8) by end of day Jan 14.\n\n**Action Required:**\n\nPlease confirm receipt and availability for the revised times by EOD Monday Jan 13. Updated calendar invites will follow tomorrow morning.\n\nApologies for the short-notice reshuffling. This is a learning moment for our parallel execution planning.\n\nBest,\nSven\n\n---\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "urgent",
       "steering-committee",
@@ -402,7 +402,7 @@
   {
     "message_id": "WMSG-5031",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Jan 14 Cross-BU Steering Committee Schedule Conflict - Resource Reallocation Required",
     "date": "2026-01-12T17:10:00+01:00",
     "body": "Sven,\n\nConfirmed - I can host the Supply Chain Integration committee at 09:00 on Jan 14. My Zoom account has recording enabled and audit retention configured per Group IT policy.\n\nI'll review the agenda materials tonight and coordinate with Lars and Henrik on the decision-log sub-page protocol.\n\nGood catch on the resource conflict. We should document this pattern in the steering committee playbook for future reference.\n\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -415,7 +415,7 @@
   {
     "message_id": "WMSG-5032",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Jan 14 Cross-BU Steering Committee Schedule Conflict - Resource Reallocation Required",
     "date": "2026-01-12T17:35:00+01:00",
     "body": "Sven,\n\nAvailable for the 09:00 slot with Anna hosting. I appreciate the proactive resolution - the Notion sub-page isolation is a smart approach to avoid write conflicts.\n\nOne question: will the action-item extraction still run against all three sub-pages in the 24-hour window, or do we need to manually flag items for cross-committee dependencies?\n\nLars\n\n---\nLars Eriksson\nGeneral Manager, Business Unit 3\nVasaholm Group",
@@ -428,7 +428,7 @@
   {
     "message_id": "WMSG-5033",
     "from": "henrik.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Jan 14 Cross-BU Steering Committee Schedule Conflict - Resource Reallocation Required",
     "date": "2026-01-13T08:20:00+01:00",
     "body": "Sven,\n\nConfirmed for both the 09:00 Supply Chain Integration (with Anna) and the 16:00 Procurement Harmonization meetings.\n\nI'll update the respective Notion sub-pages during each session. The isolated workspace approach makes sense given the parallel execution constraints.\n\nOne process suggestion: for future multi-committee days, could we pre-allocate Zoom hosts and Notion sub-pages at scheduling time to avoid last-minute reshuffles? I know this was a learning moment, but advance planning would help BU teams prepare more effectively.\n\nHenrik\n\n---\nHenrik Andersson\nGeneral Manager, Business Unit 4\nVasaholm Group",
@@ -453,7 +453,7 @@
   },
   {
     "message_id": "WMSG-5035",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "Finnish M&A - Steering Committee Minutes (Final for Board Pack)",
     "date": "2026-03-19T11:20:00+01:00",
@@ -467,7 +467,7 @@
   {
     "message_id": "WMSG-5036",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Finnish M&A - Steering Committee Minutes (Final for Board Pack)",
     "date": "2026-03-19T14:05:00+01:00",
     "body": "Sven,\n\nExcellent. Unanimous BU support will be a strong signal to the board. Please ensure the integration cost assumptions are clearly documented in the appendix—board members typically focus on post-acquisition execution risk.\n\nSee you at Thursday's presentation.\n\nAnna",
@@ -479,7 +479,7 @@
   {
     "message_id": "WMSG-5037",
     "from": "per.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Board readout prep - any last-minute issues?",
     "date": "2026-03-24T08:45:00+01:00",
     "body": "Sven,\n\nJust checking in before Thursday's board meeting. The Finnish M&A materials look solid. Any last-minute issues or concerns surfaced from the BU steering committee that I should be aware of?\n\nWant to make sure we're going in with complete visibility.\n\nPer",
@@ -492,7 +492,7 @@
   {
     "message_id": "WMSG-5038",
     "from": "mika.virtanen@lakitoimisto-virtanen.fi",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "URGENT: Finnish Competition Authority Filing - Premium Service Quote",
     "date": "2026-03-13T14:22:00+01:00",
     "body": "Dear Sven,\n\nFollowing our call this morning regarding the unexpected 14-day filing window imposed by the Finnish Competition Authority for your M&A transaction:\n\nWe can deliver a compliant filing package within 5 business days at SEK 420,000 (excl. VAT). This expedited timeline requires immediate engagement by Friday March 14 to preserve your February 28 board meeting schedule.\n\nScope includes:\n- Market definition analysis (Nordic components sector)\n- Competitive effects assessment\n- Finnish regulatory compliance documentation\n- Authority liaison and submission coordination\n\nStandard timeline would be 12-14 days, but given the Authority's compressed window and your board deadline, we recommend the premium engagement.\n\nPlease confirm by EOD Friday if you wish to proceed.\n\nBest regards,\nMika Virtanen\nManaging Partner\nLakitoimisto Virtanen Oy",
@@ -505,7 +505,7 @@
   {
     "message_id": "WMSG-5039",
     "from": "sanna.korhonen@nordlex.fi",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Finnish Competition Authority Filing - Standard Service Quote",
     "date": "2026-03-13T15:48:00+01:00",
     "body": "Dear Mr. Lindgren,\n\nThank you for your inquiry regarding Competition Authority filing services for the Vasaholm-Finnish components manufacturer transaction.\n\nNordLex can provide comprehensive filing services at SEK 185,000 (excl. VAT) with a 12-business-day delivery timeline. Our scope includes:\n\n- Market analysis and competitive assessment\n- Regulatory documentation preparation\n- Authority submission coordination\n- Post-filing liaison support\n\nGiven the 14-day Authority window you mentioned, we would need engagement confirmation by Monday March 17 to meet the deadline. Please note this timeline assumes no material information gaps during diligence review.\n\nWe have successfully handled 18 Nordic cross-border filings in the past 24 months with a 100% approval rate.\n\nPlease let me know if you would like to discuss further.\n\nBest regards,\nSanna Korhonen\nSenior Associate\nNordLex Asianajotoimisto",
@@ -516,7 +516,7 @@
   },
   {
     "message_id": "WMSG-5040",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "URGENT: Q1 External Advisor Budget - Finnish Regulatory Counsel Decision Required",
     "date": "2026-03-14T16:35:00+01:00",
@@ -530,7 +530,7 @@
   {
     "message_id": "WMSG-5041",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Q1 External Advisor Budget - Finnish Regulatory Counsel Decision Required",
     "date": "2026-03-14T17:12:00+01:00",
     "body": "Sven,\n\nAgreed - the timeline risk clearly outweighs the budget pain here. SEK 2.8M synergy delay vs SEK 235k premium is a 12:1 return on preserving the schedule.\n\nGo ahead with Lakitoimisto Virtanen. I'll approve the SEK 420k invoice when it arrives. Document the decision rationale in your Notion log as usual - this will be helpful precedent for future compressed-timeline situations.\n\nOne constraint: we're now at SEK 75k remaining Q1 budget. No new external engagements without my pre-approval through end of quarter. If anything urgent emerges, we'll need to tap Q2 budget early.\n\nGood catch on the implicit cost calculation - exactly the kind of trade-off analysis the board expects from strategy.\n\nAnna",
@@ -542,7 +542,7 @@
   {
     "message_id": "WMSG-5042",
     "from": "mikael.virtanen@nordicsynergy.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Quote NSA-2026-0047 - Finnish M&A Synergy Quantification",
     "date": "2026-01-15T14:30:00+01:00",
     "body": "Sven,\n\nThank you for the call this morning regarding the Finnish components manufacturer acquisition.\n\nAttached is our formal quote (NSA-2026-0047) for comprehensive synergy quantification analysis:\n\n**Scope:**\n- Revenue synergy assessment (cross-selling, market expansion, product portfolio optimization)\n- Cost synergy assessment (procurement consolidation, manufacturing footprint optimization, SG&A rationalization)\n- Integration roadmap with phasing and risk assessment\n- Quantified synergy waterfall with confidence intervals\n\n**Timeline:** 10 business days from engagement (delivery by Jan 29 if we start Jan 16)\n\n**Fee:** SEK 285,000 (fixed price, includes up to 3 management presentations)\n\n**Team:** I will lead personally with two senior analysts (Karin Lundqvist and Erik Svensson, both with automotive/industrial M&A backgrounds).\n\nWe have capacity to start immediately if you can confirm by EOD Friday (Jan 17). Given your board update deadline of Feb 28, this timeline provides comfortable buffer for internal review and refinement.\n\nLet me know if you need any clarifications on scope or methodology.\n\nBest regards,\nMikael Virtanen\nManaging Partner, Nordic Synergy Analytics AB\n+46 8 555 1234",
@@ -555,7 +555,7 @@
   },
   {
     "message_id": "WMSG-5043",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se",
     "subject": "Urgent: Capacity check - Finnish M&A synergy analysis",
     "date": "2026-01-16T09:15:00+01:00",
@@ -570,7 +570,7 @@
   {
     "message_id": "WMSG-5044",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Urgent: Capacity check - Finnish M&A synergy analysis",
     "date": "2026-01-16T15:45:00+01:00",
     "body": "Sven,\n\nAppreciate you checking before assuming I can absorb this.\n\n**Honest assessment:**\n\nI *could* technically deliver the Aurora synergy analysis, but it would be high-risk:\n\n1. **Capacity reality:** I'm at ~85% utilization right now with portfolio review. Adding 60 hours over 2 weeks means nights/weekends, and I'm already planning weekend work for the BU 7 deep-dive (their financials are a mess).\n\n2. **Timeline risk:** If anything unexpected hits on portfolio review (e.g., Henrik pushes back on BU 4 restructuring again, or CEO asks for scenario modeling), Aurora would slip. The Jan 29 deadline is aggressive.\n\n3. **Quality risk:** Synergy quantification needs deep focus - revenue synergies especially require careful market analysis. If I'm context-switching between portfolio review and Aurora, quality suffers on both.\n\n4. **Team delegation:** My senior analyst Emma could support, but she's not ready to lead this level of work. I'd still need to be heavily involved in methodology and QA.\n\n**My recommendation:** Go external for Aurora synergy work.\n\n**Rationale:**\n- SEK 285k is material but not catastrophic for Q1 budget\n- Mikael's team will do higher-quality work faster (they live and breathe synergy analysis)\n- Keeps me focused on portfolio review, which is CEO's #1 priority right now\n- Lower overall execution risk across both deliverables\n\n**Alternative (hybrid):** If budget is really tight, Mikael could do the heavy quantitative lifting (synergy modeling, benchmarking) and I could contribute strategic context and integration roadmap thinking (~15 hours vs. 60). That might get you to SEK 200k range if Mikael is willing to scope down.\n\nLet me know how you want to proceed. If you do go external, I'm happy to do a handoff call with Mikael to share context on the Finnish target and our integration capabilities.\n\nLars",
@@ -582,7 +582,7 @@
   },
   {
     "message_id": "WMSG-5045",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "sofia.andersson@vasaholm.se",
     "subject": "Q1 external advisor budget query - Aurora synergy analysis",
     "date": "2026-01-17T08:30:00+01:00",
@@ -597,7 +597,7 @@
   {
     "message_id": "WMSG-5046",
     "from": "sofia.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q1 external advisor budget query - Aurora synergy analysis",
     "date": "2026-01-17T10:15:00+01:00",
     "body": "Sven,\n\n**Q1 External Advisor Budget Status (as of Jan 17):**\n\n- **Original allocation:** SEK 850,000\n- **Committed to date:** SEK 708,000\n  - Linklaters Finnish M&A diligence: SEK 485,000\n  - EcoCompliance environmental review: SEK 110,000\n  - CIP Phase 1 competitive intelligence: SEK 113,000\n- **Remaining headroom:** SEK 142,000\n\n**Your request:** SEK 285,000\n**Shortfall:** SEK 143,000 (16.8% over Q1 cap)\n\n**Approval path for overage:**\nPer policy KB-403, external advisor spend 10-20% over quarterly cap requires:\n1. CFO approval (Anna can authorize up to 20% overage)\n2. Written justification documenting business criticality and why internal resources are insufficient\n3. Confirmation that overage will be offset in Q2/Q3 budget (or escalate to CEO if not feasible)\n\n**My recommendation:** Draft a concise justification email to Anna covering:\n- Why synergy analysis is critical for Feb 28 board update\n- Why internal team (Lars) capacity is constrained\n- Commitment to reduce Q2 external advisor spend to offset (or flag if that's not realistic)\n\nAnna is generally pragmatic about Aurora-related spend given board visibility. I'd be surprised if she blocks this, but she'll want the paper trail for audit purposes.\n\nLet me know if you need me to loop in Anna directly or if you want to handle the request yourself.\n\nSofia",
@@ -609,8 +609,8 @@
   },
   {
     "message_id": "WMSG-5047",
-    "from": "sven.lindgren@vasaholm.se",
-    "to": "karin.bergstrom@linklaters.com",
+    "from": "stefan.ljungberg@vasaholm.se",
+    "to": "karin.bergstrom@linklaters.example",
     "subject": "URGENT: Finnish Competition Authority filing inputs needed by 2026-01-27 COB",
     "date": "2026-01-25T11:30:00+01:00",
     "body": "Karin,\n\nMika Virtanen (Finnish counsel) sent the draft notification this morning. Three inputs required by Monday COB to meet the 2026-02-09 filing deadline:\n\n1. **Market share data**: BU 3 and BU 7 confirmed 2025 revenue in 'precision components for industrial automation' segment (Finnish market). Can you pull this from the diligence data room? Target's 8.2% share is documented.\n\n2. **Customer overlap analysis**: Four shared customers identified (Kone, Wärtsilä, Valmet, Metso). Need to confirm:\n   - Any exclusivity or preferred-supplier arrangements?\n   - Risk of vertical integration concerns from Authority's perspective?\n\n3. **Divestiture contingency**: Mika flagged low-probability scenario where Authority requires remedy. Target's Tampere facility (22% of revenue) is the logical carve-out. This is a board-level decision—I'm escalating to Anna and CEO separately, but need your commercial view: would this kill the deal rationale?\n\nI've scheduled a call Monday 15:00 CET with you and Anna to finalize inputs. Please confirm attendance and bring any questions on items 1-2.\n\nBest,\nSven",
@@ -623,7 +623,7 @@
   },
   {
     "message_id": "WMSG-5048",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "Board escalation required: Finnish Competition Authority divestiture contingency (Project Aurora)",
     "date": "2026-01-25T11:45:00+01:00",
@@ -638,7 +638,7 @@
   {
     "message_id": "WMSG-5049",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: BU 3/7 market share data for Finnish filing",
     "date": "2026-01-25T14:20:00+01:00",
     "body": "Sven,\n\nPulled the data from our 2025 segment reporting:\n\n**Precision components for industrial automation (Finnish market)**:\n- BU 3: SEK 42M revenue → ~5.6% market share\n- BU 7: SEK 8M revenue → ~1.1% market share\n- Combined Vasaholm: ~6.7% market share\n- Target (Aurora): SEK 62M revenue → ~8.2% market share\n- **Post-acquisition combined**: ~14.9% market share\n\nNote: This is slightly higher than the 14.1% figure in Mika's email—he may be using a different market definition. Recommend we align on methodology with Karin before submitting to the Authority.\n\nCustomer overlap (Kone, Wärtsilä, Valmet, Metso): I've asked BU 3 and BU 7 GMs to confirm contract terms. Should have answers by end of day Monday.\n\nLars",
@@ -650,7 +650,7 @@
   },
   {
     "message_id": "WMSG-5050",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "per.johansson@vasaholm.se, helena.bergstrom@vasaholm.se, henrik.andersson@vasaholm.se, sofia.andersson@vasaholm.se, lars.eriksson@vasaholm.se, maria.lundqvist@vasaholm.se, oscar.nilsson@vasaholm.se, emma.johansson@vasaholm.se",
     "subject": "URGENT: Three additional cross-BU steering committees required - Q1 board prep sprint",
     "date": "2026-02-13T16:45:00+01:00",
@@ -665,7 +665,7 @@
   {
     "message_id": "WMSG-5051",
     "from": "oscar.nilsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Three additional cross-BU steering committees required - Q1 board prep sprint",
     "date": "2026-02-14T09:15:00+01:00",
     "body": "Sven,\n\nI have a hard conflict on February 17 - customer site visit in Copenhagen (already confirmed with their board). Cannot reschedule.\n\nFebruary 18-20 and 24-26 work for me. Prefer mornings if possible.\n\nOscar\n\n--\nOscar Nilsson\nGeneral Manager, BU 6\nVasaholm Group",
@@ -678,7 +678,7 @@
   {
     "message_id": "WMSG-5052",
     "from": "helena.bergstrom@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Three additional cross-BU steering committees required - Q1 board prep sprint",
     "date": "2026-02-14T10:30:00+01:00",
     "body": "Sven,\n\nPer has a regulatory hearing with Finansinspektionen on February 19 (full day, Stockholm). He'll be unavailable for any meetings that day.\n\nAlso note: our Zoom Business license only supports one simultaneous recording per host account. If you need parallel meetings, we'll need to use my account as co-host for one of them to maintain compliance recording.\n\nI'm available all other days Feb 14-27 except February 21 (audit committee prep).\n\nHelena\n\n--\nHelena Bergström\nChief Financial Officer\nVasaholm Group",
@@ -691,11 +691,11 @@
   },
   {
     "message_id": "WMSG-5053",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "per.johansson@vasaholm.se, helena.bergstrom@vasaholm.se, henrik.andersson@vasaholm.se, sofia.andersson@vasaholm.se, lars.eriksson@vasaholm.se, maria.lundqvist@vasaholm.se, oscar.nilsson@vasaholm.se, emma.johansson@vasaholm.se",
     "subject": "PROPOSED: Staggered schedule for three cross-BU steering committees (collision analysis attached)",
     "date": "2026-02-15T14:20:00+01:00",
-    "body": "All,\n\nAfter analyzing calendar constraints and resource conflicts, I propose the following staggered schedule:\n\n**Meeting 1: Finnish M&A Final Review**\n- Date/Time: Monday, February 17, 14:00-16:00 CET\n- Attendees: CEO Per, CFO Helena, BU 4 GM Henrik, BU 6 GM Sofia, Sven\n- Platform: Zoom (Sven host, recording enabled)\n- Note: Oscar (BU 6 GM) is in Copenhagen this day, but Sofia can represent BU 6 for M&A discussion\n\n**Meeting 2: BU Portfolio Validation**\n- Date/Time: Wednesday, February 19, 09:30-11:30 CET\n- Attendees: CFO Helena, BU 3 GM Lars, BU 7 GM Maria, Sven\n- Platform: Zoom (Helena co-host, recording enabled)\n- Note: CEO Per unavailable (Finansinspektionen hearing). Helena has approval authority for portfolio sign-off per delegation matrix.\n\n**Meeting 3: Cross-BU Synergy Alignment**\n- Date/Time: Monday, February 24, 13:00-14:30 CET\n- Attendees: CEO Per, CFO Helena, BU 6 GM Oscar, BU 8 GM Emma, Sven\n- Platform: Zoom (Sven host, recording enabled)\n- Note: 90-minute gap after existing 11:00 procurement committee allows recording review turnaround\n\n**Collision resolution decisions:**\n1. Delegated Meeting 2 to Helena as co-host to avoid parallel Zoom recording conflict (preserves compliance)\n2. Serialized Meetings 1 and 3 with sufficient gap for 24-hour recording review\n3. Adjusted Meeting 2 timing to avoid CEO regulatory conflict (CFO has delegation authority)\n4. Meeting 3 scheduled after Oscar returns from Copenhagen travel\n\nSee attached Notion decision log (link below) for detailed constraint analysis and resource contention matrix.\n\nPlease confirm availability by EOD Monday, February 17. I will finalize calendar invites after receiving sign-off.\n\nNotion Decision Log: https://notion.vasaholm.se/cross-bu-scheduling-feb2026\n\nBest,\nSven\n\n--\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "All,\n\nAfter analyzing calendar constraints and resource conflicts, I propose the following staggered schedule:\n\n**Meeting 1: Finnish M&A Final Review**\n- Date/Time: Monday, February 17, 14:00-16:00 CET\n- Attendees: CEO Per, CFO Helena, BU 4 GM Henrik, BU 6 GM Sofia, Sven\n- Platform: Zoom (Sven host, recording enabled)\n- Note: Oscar (BU 6 GM) is in Copenhagen this day, but Sofia can represent BU 6 for M&A discussion\n\n**Meeting 2: BU Portfolio Validation**\n- Date/Time: Wednesday, February 19, 09:30-11:30 CET\n- Attendees: CFO Helena, BU 3 GM Lars, BU 7 GM Maria, Sven\n- Platform: Zoom (Helena co-host, recording enabled)\n- Note: CEO Per unavailable (Finansinspektionen hearing). Helena has approval authority for portfolio sign-off per delegation matrix.\n\n**Meeting 3: Cross-BU Synergy Alignment**\n- Date/Time: Monday, February 24, 13:00-14:30 CET\n- Attendees: CEO Per, CFO Helena, BU 6 GM Oscar, BU 8 GM Emma, Sven\n- Platform: Zoom (Sven host, recording enabled)\n- Note: 90-minute gap after existing 11:00 procurement committee allows recording review turnaround\n\n**Collision resolution decisions:**\n1. Delegated Meeting 2 to Helena as co-host to avoid parallel Zoom recording conflict (preserves compliance)\n2. Serialized Meetings 1 and 3 with sufficient gap for 24-hour recording review\n3. Adjusted Meeting 2 timing to avoid CEO regulatory conflict (CFO has delegation authority)\n4. Meeting 3 scheduled after Oscar returns from Copenhagen travel\n\nSee attached Notion decision log (link below) for detailed constraint analysis and resource contention matrix.\n\nPlease confirm availability by EOD Monday, February 17. I will finalize calendar invites after receiving sign-off.\n\nNotion Decision Log: https://notion.vasaholm.se/cross-bu-scheduling-feb2026\n\nBest,\nSven\n\n--\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "urgent",
       "board-prep",
@@ -707,7 +707,7 @@
   {
     "message_id": "WMSG-5054",
     "from": "mika.virtanen@lakitoimisto-virtanen.fi",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "URGENT: Finnish Competition Authority filing delay - 10 days",
     "date": "2026-02-02T09:15:00+01:00",
     "body": "Sven,\n\nI need to inform you of an unexpected development. The Finnish Competition Authority has requested additional documentation regarding the market concentration analysis for the TransLog Sverige acquisition. This will delay our filing by approximately 10 days.\n\nOriginal filing target: February 14\nRevised filing target: February 24\n\nThis pushes the full diligence readout timeline as well, since we cannot finalize synergy validation without regulatory clarity on the geographic market definition. I estimate the complete analysis will need until February 27-28 to incorporate the revised market boundaries.\n\nI understand this creates pressure on your board materials deadline. Please let me know if you need a preliminary readout earlier, though it would carry significant caveats.\n\nBest regards,\nMika Virtanen\nLakitoimisto Virtanen Oy",
@@ -720,7 +720,7 @@
   },
   {
     "message_id": "WMSG-5055",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se",
     "subject": "Resource allocation review - M&A and portfolio workstreams collision",
     "date": "2026-02-02T14:30:00+01:00",
@@ -734,7 +734,7 @@
   },
   {
     "message_id": "WMSG-5056",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se, per.johansson@vasaholm.se",
     "subject": "Board materials collision - M&A/Portfolio/Org Restructuring timeline conflict",
     "date": "2026-02-02T16:45:00+01:00",
@@ -749,7 +749,7 @@
   {
     "message_id": "WMSG-5057",
     "from": "henrik.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Org restructuring timeline - any updates?",
     "date": "2026-02-03T10:20:00+01:00",
     "body": "Sven,\n\nI haven't heard back on the org restructuring validation timeline. The uncertainty is creating issues with my Q2 planning - my team leads are asking questions I can't answer.\n\nIf the March 15 steering committee is still on track, I need at least 5 business days to review the final proposal before sign-off. That means materials by March 7 at the latest.\n\nCan you confirm the schedule?\n\nHenrik",
@@ -762,7 +762,7 @@
   {
     "message_id": "WMSG-5058",
     "from": "sofia.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Board presentation rehearsal - Two alternative slots for March 25-26",
     "date": "2026-01-05T14:15:00+01:00",
     "body": "Hi Sven,\n\nFollowing up on our conversation about the Finnish M&A board presentation rehearsal ahead of the March 27 board meeting.\n\nPer board governance protocol, we need to lock the rehearsal slot this week to ensure CEO and CFO attendance. I've identified two options that work for both Per and Anna:\n\n• Tuesday March 25 at 10:00-11:30 (90 minutes)\n• Wednesday March 26 at 14:00-15:30 (90 minutes)\n\nBoth slots fall within the required 48-hour pre-board window. Once confirmed, the slot cannot be moved due to board member travel schedules.\n\nPlease confirm your availability and preferred slot by end of day Wednesday (Jan 8). I'll send calendar holds once I hear from you.\n\nBest regards,\nSofia Andersson\nBoard Secretary\nVasaholm Group",
@@ -774,7 +774,7 @@
   },
   {
     "message_id": "WMSG-5059",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "sofia.andersson@vasaholm.se",
     "subject": "Re: Board presentation rehearsal - Wednesday March 26 at 14:00 confirmed",
     "date": "2026-01-05T16:45:00+01:00",
@@ -788,7 +788,7 @@
   {
     "message_id": "WMSG-5060",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "FYI: BU 3 capacity data updated in portfolio review dataset",
     "date": "2026-01-05T11:20:00+01:00",
     "body": "Sven,\n\nQuick heads-up: I've updated the BU 3 capacity utilization figures in the shared portfolio review dataset (Notion page linked below). The Q4 actuals came in higher than preliminary estimates (87% vs. 82% reported in December).\n\nThis strengthens the case for supply chain integration with BU 7 that we're discussing in the steering committee. Might be worth flagging in your CEO portfolio review draft if you're covering cross-BU synergy potential.\n\nNotion link: https://notion.vasaholm.internal/portfolio-review-data-q1-2026\n\nLet me know if you need the underlying plant-level breakdown.\n\nLars",
@@ -801,7 +801,7 @@
   {
     "message_id": "WMSG-5061",
     "from": "henrik.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: 1:1 scheduling - org restructuring discussion",
     "date": "2026-01-05T15:30:00+01:00",
     "body": "Sven,\n\nI can do Thursday Jan 9 at 15:00 or Friday Jan 10 at 10:00 for our 1:1.\n\nI appreciate you making time for this. I want to make sure my concerns about the restructuring proposal are on the record before the executive sign-off meeting. I've been hearing similar reservations from two other BU heads, but they're reluctant to speak up in the full steering committee.\n\nLet me know which slot works.\n\nHenrik",
@@ -814,7 +814,7 @@
   {
     "message_id": "WMSG-5062",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Q1 Audit Preparation - Steering Committee Governance Compliance Digest Request",
     "date": "2026-03-18T09:15:00+01:00",
     "body": "Sven,\n\nAs we prepare for the Q1 internal audit (scheduled for April 7-11), I need your help compiling a comprehensive governance compliance digest for all cross-BU steering committees held this quarter.\n\nThe audit team will specifically review:\n\n1. **Recording compliance**: Were all steering committees properly recorded per KB-408 requirements?\n2. **Decision log completeness**: Do Notion decision logs meet KB-409 documentation standards?\n3. **Conflict of interest protocols**: Were KB-410 declaration procedures followed?\n\nPlease prepare a structured report covering:\n- All Q1 steering committees (I count 8-12 sessions based on calendar)\n- Compliance status for each policy domain\n- Any deviations and remediation actions taken\n- Cross-references between recordings, decision logs, and email audit trails\n\nI need this by **March 28** to allow time for audit team pre-read before their arrival.\n\nGiven your role coordinating most of these committees, you're best positioned to synthesize this. Let me know if you need any clarification on scope.\n\nBest,\nAnna\n\n—\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -827,11 +827,11 @@
   },
   {
     "message_id": "WMSG-5063",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "Re: Q1 Audit Preparation - Steering Committee Governance Compliance Digest Request",
     "date": "2026-03-18T14:30:00+01:00",
-    "body": "Anna,\n\nUnderstood. I'll compile the digest by March 28.\n\nQuick clarification: Should I include the rescheduled Feb 13 org restructuring committee (MTG-7007)? We moved it specifically to ensure Zoom recording compliance when the original slot had platform conflicts. That's actually a good example of proactive remediation.\n\nAlso confirming scope:\n- Review all steering committee recordings in corporate repository\n- Cross-check Notion decision logs (NPAG-8, NPAG-27, and others) for completeness\n- Pull Workmail threads where governance questions were raised\n- Document the Feb 13 reschedule as compliance-driven decision\n\nI'll structure the report by policy domain as you suggested. Should be straightforward—most committees followed protocol, and where we had issues (like the recording platform conflict), we caught and fixed them.\n\nSven\n\n—\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "Anna,\n\nUnderstood. I'll compile the digest by March 28.\n\nQuick clarification: Should I include the rescheduled Feb 13 org restructuring committee (MTG-7007)? We moved it specifically to ensure Zoom recording compliance when the original slot had platform conflicts. That's actually a good example of proactive remediation.\n\nAlso confirming scope:\n- Review all steering committee recordings in corporate repository\n- Cross-check Notion decision logs (NPAG-8, NPAG-27, and others) for completeness\n- Pull Workmail threads where governance questions were raised\n- Document the Feb 13 reschedule as compliance-driven decision\n\nI'll structure the report by policy domain as you suggested. Should be straightforward—most committees followed protocol, and where we had issues (like the recording platform conflict), we caught and fixed them.\n\nSven\n\n—\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "audit",
       "governance"
@@ -841,7 +841,7 @@
   {
     "message_id": "WMSG-5064",
     "from": "helena.bergstrom@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se, anna.karlsson@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se, anna.karlsson@vasaholm.se",
     "subject": "Conflict of Interest Declaration - March 21 Supply Chain Integration Committee",
     "date": "2026-03-20T16:45:00+01:00",
     "body": "Sven and Anna,\n\nPer KB-410 protocol, I'm declaring a potential conflict of interest for the March 21 Supply Chain Integration steering committee (MTG-7011).\n\nMy brother-in-law, Erik Sundström, is a senior manager at Schenker Logistics, one of the vendors being evaluated in the BU 3/BU 7 supply chain consolidation discussion. While I have no financial interest in Schenker, the family connection could create perceived bias.\n\nI propose to:\n1. Recuse myself from the vendor selection discussion (agenda item 3)\n2. Remain for strategic integration framework discussion (items 1-2, 4)\n3. Document recusal in meeting minutes and decision log\n\nPlease confirm this approach is acceptable. I've copied Legal on this email per protocol.\n\nBest regards,\nHelena\n\n—\nHelena Bergström\nChief Operating Officer\nVasaholm Group\n\ncc: legal@vasaholm.se",
@@ -855,7 +855,7 @@
   {
     "message_id": "WMSG-5065",
     "from": "it-operations@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Zoom Recording Upload Confirmation - March 2026 Steering Committees",
     "date": "2026-03-24T10:20:00+01:00",
     "body": "Sven,\n\nAutomated confirmation: All Zoom recordings for March steering committees have been successfully uploaded to the corporate governance repository.\n\n**Upload Summary:**\n- MTG-7009 (March 4): Uploaded March 4, 15:42\n- MTG-7010 (March 11): Uploaded March 11, 16:18\n- MTG-7011 (March 21): Uploaded March 21, 14:35\n- MTG-7013 (March 24): Uploaded March 24, 09:47\n\nAll recordings meet KB-408 retention requirements (7-year minimum) and are accessible only to authorized personnel (Executive Committee, Legal, Internal Audit).\n\nNo upload failures or compliance issues detected for March.\n\n—\nIT Operations Team\nVasaholm Group\n\nThis is an automated message. For support: it-support@vasaholm.se",
@@ -869,7 +869,7 @@
   {
     "message_id": "WMSG-5066",
     "from": "martin.eriksson@nbs.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Quote NBS-2026-0089 - BU Portfolio Benchmarking (48-hour discount window)",
     "date": "2026-02-03T14:15:00+01:00",
     "body": "Dear Sven,\n\nThank you for the opportunity to quote on Vasaholm Group's BU portfolio benchmarking analysis.\n\n**Quote Summary:**\n- Base price: SEK 288,235\n- Early payment discount (48 hours): 15% (SEK 43,235)\n- **Final price if paid by Feb 5, 14:00 CET: SEK 245,000**\n- Delivery timeline: 18 business days from contract signature\n- Expected delivery: March 3, 2026\n\n**Scope:**\n- Comprehensive financial and operational benchmarking for 11 business units\n- Industry-specific peer comparison (manufacturing, logistics, industrial services)\n- Performance quartile positioning\n- Strategic recommendations\n\n**Delivery Risk Assessment:**\nGiven your March 10 CEO deadline, our 18-business-day timeline presents moderate risk. If we sign by Feb 5 and deliver March 3, you'll have 5 business days for review and integration into board materials. We recommend building in additional buffer if possible.\n\n**Past Performance Reference:**\nWe delivered BU 7 supply chain benchmarking in Q4 2025 on schedule. Post-engagement feedback noted our analysis as 'adequate' - we've since enhanced our industry-specific methodology and believe we can deliver stronger comparative depth this time.\n\nThe 48-hour discount window expires February 5, 14:00 CET. Please let me know if you have questions.\n\nBest regards,\nMartin Eriksson\nSenior Partner, Nordic Benchmarking Solutions AB\n+46 8 555 1234",
@@ -882,7 +882,7 @@
   {
     "message_id": "WMSG-5067",
     "from": "sofia.bergman@strategicinsights.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Quote SIN-2026-0124 - BU Portfolio Benchmarking Analysis",
     "date": "2026-02-03T15:30:00+01:00",
     "body": "Dear Sven,\n\nPlease find our proposal for Vasaholm Group's BU portfolio benchmarking analysis.\n\n**Quote Summary:**\n- Total investment: SEK 285,000\n- Delivery timeline: 12 business days from contract signature\n- Expected delivery: February 21, 2026\n- Payment terms: Net 30\n\n**Scope:**\n- Deep industry-specific benchmarking across 11 business units\n- Proprietary Nordic industrial database (450+ companies)\n- Executive-ready presentation materials\n- Strategic positioning analysis for board presentation\n- One round of revisions included\n\n**Delivery Confidence:**\nOur 12-business-day timeline ensures delivery by February 21, giving you 12 business days before your March 10 CEO deadline - ample time for review and board materials integration.\n\n**Track Record:**\nWe delivered Volvo Group's portfolio analysis in 2025 and Atlas Copco's divestiture benchmarking in 2024. Both clients cited our industry-specific depth as a key differentiator in board decision-making.\n\n**Approval Note:**\nI understand from our preliminary discussion that this engagement exceeds your SEK 200k approval authority and will require CFO sign-off. We're happy to provide additional justification materials if helpful for your internal approval process.\n\nLooking forward to supporting this critical deliverable.\n\nBest regards,\nSofia Bergman\nManaging Director, Strategic Insights Nordic AB\n+46 8 555 5678",
@@ -894,7 +894,7 @@
   {
     "message_id": "WMSG-5068",
     "from": "anders.johansson@nordicanalytics.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Quote NBA-2026-0067 - BU Portfolio Benchmarking",
     "date": "2026-02-03T16:45:00+01:00",
     "body": "Hi Sven,\n\nThanks for reaching out. Here's our quote for the BU portfolio benchmarking project.\n\n**Quote Summary:**\n- Price: SEK 185,000\n- Delivery: 10 business days from contract signature\n- Expected delivery: February 17, 2026\n\n**Scope:**\n- Financial benchmarking (EBIT margin, ROCE, revenue growth) for 11 business units\n- Peer group comparison using public financial data\n- Quartile positioning analysis\n- Excel-based deliverable with summary PowerPoint\n\n**Methodology Note:**\nOur approach focuses on financial metrics benchmarking using publicly available data and standard industry classifications. We provide solid quantitative analysis but don't include proprietary industry-specific datasets or qualitative strategic positioning that some premium providers offer.\n\n**Fit Assessment:**\nThis is well-suited for internal portfolio reviews and budget allocation decisions. If your deliverable is primarily for board presentation or requires deep industry context to support strategic decisions (M&A, divestiture, restructuring), you may want to consider a provider with more specialized industry databases.\n\nWe delivered similar analysis for your BU 2 in Q3 2025 - on time and within budget. Feedback was positive on execution and financial rigor.\n\nLet me know if you'd like to proceed or have questions.\n\nBest,\nAnders Johansson\nDirector, Nordic Business Analytics AB\n+46 8 555 9012",
@@ -905,7 +905,7 @@
   },
   {
     "message_id": "WMSG-5069",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "emma.nordstrom@vasaholm.se",
     "subject": "Quick task - vendor performance history check",
     "date": "2026-02-04T09:20:00+01:00",
@@ -919,7 +919,7 @@
   {
     "message_id": "WMSG-5070",
     "from": "maria.svensson@nbsadvisors.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Njord Phase 2 Proposal - Due Diligence Preparation",
     "date": "2026-02-17T14:30:00+01:00",
     "body": "Dear Sven,\n\nThank you for the positive feedback on our Phase 1 deliverable for Project Njord. As discussed, I'm attaching our Phase 2 proposal for due diligence preparation and target validation.\n\nPhase 2 Scope:\n- Detailed operational synergy modeling with existing BUs\n- Management team assessment and cultural fit analysis\n- Integration cost estimation and timeline planning\n- Regulatory compliance review (transport sector)\n\nInvestment: SEK 380,000\nTimeline: 6 weeks from kickoff\nDeliverables: Full diligence readiness package + board presentation materials\n\nGiven the strategic importance of logistics expansion, we recommend initiating Phase 2 by early March to maintain momentum and preserve competitive positioning.\n\nI'm available this week if you'd like to discuss the proposal in detail.\n\nBest regards,\nMaria Svensson\nSenior Partner, Nordic Business Strategy AB\n+46 8 555 1234",
@@ -932,7 +932,7 @@
   },
   {
     "message_id": "WMSG-5071",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anders.holmberg@vasaholm.se",
     "subject": "Q2 External Advisor Budget Headroom Query - Project Aurora vs Njord",
     "date": "2026-02-18T09:15:00+01:00",
@@ -947,7 +947,7 @@
   {
     "message_id": "WMSG-5072",
     "from": "anders.holmberg@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q2 External Advisor Budget Headroom Query - Project Aurora vs Njord",
     "date": "2026-02-19T11:45:00+01:00",
     "body": "Sven,\n\nHere's the budget analysis you requested:\n\n**Q2 External Advisor Budget:**\n- Total cap: SEK 1,850,000\n- Committed engagements (already contracted): SEK 920,000\n- Headroom available: SEK 930,000\n\n**Reallocation Policy:**\nYes, you can reallocate budget within the external advisory category across projects without CFO pre-approval, provided:\n1. Total spend stays within the quarterly cap\n2. Reallocation is documented in the decision log\n3. Finance is notified within 5 business days\n\n**Njord Phase 2 Impact:**\nIf you decline Phase 2 (SEK 380k), that preserves headroom for Aurora integration advisors. Note that the Phase 1 investment (SEK 245k) is correctly classified as sunk cost - it doesn't affect Q2 budget calculations since it was paid in Q1.\n\n**Recommendation:**\nFrom a pure budget perspective, you have sufficient headroom for either option. The decision should be driven by strategic priority alignment, not budget constraints.\n\nLet me know if you need any additional analysis.\n\nAnders Holmberg\nBudget Controller, Finance",
@@ -959,7 +959,7 @@
   },
   {
     "message_id": "WMSG-5073",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se",
     "subject": "Project Njord Phase 1 - Reusable Components for Aurora?",
     "date": "2026-02-19T13:20:00+01:00",
@@ -973,8 +973,8 @@
   },
   {
     "message_id": "WMSG-5074",
-    "from": "karin.bergstrom@linklaters.com",
-    "to": "sven.lindgren@vasaholm.se",
+    "from": "karin.bergstrom@linklaters.example",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Aurora legal deliverable - revised timeline (Finnish Competition Authority complexity)",
     "date": "2026-02-21T16:45:00+01:00",
     "body": "Sven,\n\nI need to update you on the Finnish Competition Authority filing analysis timeline.\n\nThe Authority introduced a new beneficial ownership disclosure requirement on Feb 18 that was not in scope when we began this work in January. Our Helsinki office is working through the implications for the TransLog acquisition structure, but we now estimate delivery on Monday Feb 24 (best case) or Tuesday Feb 25 (if we need additional clarification from the Authority).\n\nThis represents a 4-6 day slip from our original Feb 20 target. The delay is driven entirely by regulatory complexity, not internal capacity constraints.\n\n**Impact on your board materials:**\nI understand from our Jan 28 kickoff that you have a Feb 28 board deadline. The revised timeline is tight but should still allow you to finalize materials if your downstream work (financial model, synergy analysis) can proceed in parallel with provisional assumptions.\n\nOur preliminary guidance from the Jan 28 memo remains valid for modeling purposes - the new disclosure requirement affects filing mechanics but not the fundamental deal structure or tax treatment.\n\n**Delivery confidence:**\n- 80% confidence in Feb 24 delivery\n- 95% confidence in Feb 25 delivery\n- If we slip beyond Feb 25, I will escalate to our Managing Partner and provide a formal contingency plan by Feb 23 EOD\n\nPlease confirm if this revised timeline creates a critical path issue for your board process. If so, we can explore expedited review options (additional senior partner involvement, weekend work), though that would trigger a scope amendment of approximately SEK 85,000.\n\nRegards,\nKarin Bergström\nPartner, Linklaters Stockholm\nFinnish M&A and Competition Law\n+46 8 5467 8901",
@@ -987,7 +987,7 @@
   },
   {
     "message_id": "WMSG-5075",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se",
     "subject": "Re: Financial model advancement - conditional parallel authorization (Project Aurora)",
     "date": "2026-02-22T09:15:00+01:00",
@@ -1001,7 +1001,7 @@
   },
   {
     "message_id": "WMSG-5076",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "maria.lundqvist@vasaholm.se",
     "subject": "Project Aurora synergy analysis - HOLD until Feb 24 checkpoint (high rework cost justification)",
     "date": "2026-02-22T09:30:00+01:00",
@@ -1015,7 +1015,7 @@
   },
   {
     "message_id": "WMSG-5077",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "helena.bergstrom@vasaholm.se",
     "subject": "FYI: Project Aurora critical path risk - potential board agenda contingency (decision checkpoint Feb 24)",
     "date": "2026-02-22T10:00:00+01:00",
@@ -1029,7 +1029,7 @@
   },
   {
     "message_id": "WMSG-5078",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "sofia.lundberg@vasaholm.se",
     "subject": "Project Aurora board materials - draft deck and timeline confirmation",
     "date": "2026-01-02T13:45:00+01:00",
@@ -1044,7 +1044,7 @@
   {
     "message_id": "WMSG-5079",
     "from": "sofia.lundberg@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Project Aurora board materials - draft deck and timeline confirmation",
     "date": "2026-01-02T15:20:00+01:00",
     "body": "Hi Sven,\n\nThanks for the clear timeline - this looks good and complies with our 5-day distribution requirement.\n\nFeb 25 rehearsal timing works well. I'd recommend you also invite Lars since he's presenting the synergy analysis section. I'll block my calendar to be available for any post-rehearsal revisions if needed.\n\n**Format requirements:**\n- Main deck: PowerPoint (.pptx) for final edits, plus PDF for distribution\n- Appendices: PDF only, with bookmarks for navigation\n- Please use the standard board template (I'll send you the latest version - we updated the footer in December)\n- File naming: YYYYMMDD_BoardMeeting_ProjectAurora_vX\n\nOne heads-up: the external directors have requested that all M&A presentations include a dedicated risk register slide. I know this wasn't in your original outline, so you may want to add that to your prep checklist.\n\nLet me know if you need anything else.\n\nBest,\nSofia\n\n---\nSofia Lundberg\nBoard Secretary\nVasaholm Group AB",
@@ -1057,7 +1057,7 @@
   },
   {
     "message_id": "WMSG-5080",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se",
     "subject": "Aurora board rehearsal - Feb 25 - synergy slides review needed",
     "date": "2026-01-02T16:10:00+01:00",
@@ -1072,7 +1072,7 @@
   {
     "message_id": "WMSG-5081",
     "from": "mika.virtanen@lakitoimisto-virtanen.fi",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Finnish Competition Authority filing - final review before submission",
     "date": "2026-01-03T10:30:00+01:00",
     "body": "Hei Sven,\n\nI've completed the draft Finnish Competition Authority filing for Project Aurora. The 14-day clock starts when we submit, so I want to make sure we're aligned before I press send.\n\n**Key elements:**\n- Transaction structure: 100% share acquisition of target (anonymized as \"Target Co\" per FCA protocol)\n- Market definition: industrial components manufacturing (NACE codes 25.61, 28.15)\n- Turnover thresholds: both parties exceed EUR 350M globally, Target Co exceeds EUR 20M in Finland\n- Competitive overlap analysis: minimal (different customer segments)\n- No remedies anticipated\n\n**Timeline:**\n- Submission: Jan 6, 2026 (Monday)\n- FCA 14-day preliminary review: Jan 6 - Jan 20\n- If Phase II required: additional 90 days (unlikely based on overlap analysis)\n- Expected clearance: Jan 20, 2026\n\n**Board presentation implications:**\nIf we submit Jan 6, we'll have preliminary FCA feedback (or clearance) by Jan 20, giving you 5+ weeks of regulatory certainty before your Feb 28 board meeting. This should allow you to present a \"cleared\" or \"Phase I cleared, minimal risk\" narrative.\n\nDo you want to schedule a quick call to review the filing before I submit? I'm available Mon Jan 6, 08:00-09:00 or 13:00-14:00 Helsinki time.\n\nTerveisin,\nMika\n\n---\nMika Virtanen, Partner\nLakitoimisto Virtanen Oy\nCompetition & Regulatory Law",
@@ -1086,7 +1086,7 @@
   {
     "message_id": "WMSG-5082",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Njord Phase 1 Deliverable - Quality Assessment & Concerns",
     "date": "2026-01-27T14:15:00+01:00",
     "body": "Sven,\n\nI've completed my review of the NBS Phase 1 deliverable for Project Njord (logistics sector assessment). Unfortunately, I need to flag several serious quality concerns:\n\n**Critical Issues:**\n1. Market data is outdated - they're using 2023 benchmarks instead of 2025 actuals. The Swedish logistics M&A multiples cited (8.2x EBITDA) are pre-correction and don't reflect the 2024-2025 market reset.\n\n2. Regulatory gaps - two major regulatory changes affecting Swedish logistics M&A are completely missing:\n   - The January 2025 EU cross-border logistics compliance framework\n   - Sweden's updated environmental liability transfer rules (effective July 2025)\n\n3. Volvo Group restructuring impact - their preliminary deliverable was dated January 20, but they completely ignored the Volvo Group logistics spin-off announcement from January 12. This fundamentally reshapes the competitive landscape for any Swedish logistics target.\n\n**Salvageable Components:**\n- Supplier landscape mapping (Section 3) appears solid and current\n- Basic regulatory framework overview (though incomplete) could serve as a starting point\n- Contact database of logistics sector executives is useful\n\n**Recommendation:**\nI'm concerned about proceeding to Phase 2 (due diligence preparation, SEK 180k) given these gaps. The strategic recommendations in Phase 1 are built on a flawed foundation. If we move forward with NBS, we'd essentially be paying them to fix their own mistakes.\n\nWe should discuss options before the Phase 2 contract decision point (they're expecting our go/no-go by January 31).\n\nLars",
@@ -1100,7 +1100,7 @@
   {
     "message_id": "WMSG-5083",
     "from": "maria.svensson@nbsstrategy.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Njord Phase 2 Proposal - Due Diligence Preparation Services",
     "date": "2026-01-28T09:45:00+01:00",
     "body": "Dear Sven,\n\nThank you for the opportunity to support Vasaholm Group on Project Njord Phase 1. We're pleased to submit our Phase 2 proposal for due diligence preparation services.\n\n**Phase 2 Scope:**\n- Target identification and preliminary screening (6-8 Swedish logistics companies)\n- Financial model templates and benchmarking framework\n- Management interview protocols and assessment criteria\n- Integration planning framework\n- Regulatory compliance checklist\n\n**Investment:** SEK 180,000\n**Timeline:** 6 weeks from contract signature\n**Deliverables:** Due diligence playbook, target screening matrix, financial model templates\n\nPhase 2 builds directly on the strategic assessment and supplier landscape completed in Phase 1, enabling rapid execution once you've selected preliminary targets.\n\nPer our contract terms (NBS-2026-001, Section 4.3), we'd appreciate your Phase 2 go/no-go decision by January 31 to preserve our team allocation.\n\nPlease let me know if you'd like to schedule a call to discuss the proposal.\n\nBest regards,\nMaria Svensson\nSenior Partner, Nordic Business Solutions\nmaria.svensson@nbsstrategy.se\n+46 8 555 0234",
@@ -1112,7 +1112,7 @@
   },
   {
     "message_id": "WMSG-5084",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "Project Njord - Vendor Performance Issue & Budget Reallocation Decision",
     "date": "2026-01-29T16:30:00+01:00",
@@ -1127,7 +1127,7 @@
   {
     "message_id": "WMSG-5085",
     "from": "per.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "TransLog Sverige preliminary assessment - timing question",
     "date": "2026-01-28T11:20:00+01:00",
     "body": "Sven,\n\nJust checking in on the TransLog Sverige preliminary assessment we discussed in December. I know you engaged Nordic Business Solutions for the broader logistics sector work.\n\nAny sense of when we might have preliminary view on TransLog specifically? No rush if it's not ready, but would be helpful for my Q2 planning conversations with the board.\n\nPer",
@@ -1139,11 +1139,11 @@
   },
   {
     "message_id": "WMSG-5086",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "it-support@vasaholm.se",
     "subject": "Zoom recording verification - Jan 8 Supply Chain Integration steering committee (EVT-365)",
     "date": "2026-01-07T09:15:00+01:00",
-    "body": "Hi IT Support,\n\nCan you please verify that Zoom recording is enabled and auto-start is configured for the following meeting:\n\n- Event: Cross-BU Steering Committee - Supply Chain Integration (BU 3 & BU 7)\n- Date/Time: 2026-01-08, 09:00-11:00 CET\n- Event ID: EVT-365\n- Host: sven.lindgren@vasaholm.se\n- Location: Conference Room 3A (hybrid meeting)\n\nThis is a governance-required steering committee and must be recorded per KB-408 (Steering Committee Recording Requirements). Please confirm recording setup by EOD today.\n\nAlso, please verify that host delegation is configured in case I need Anna Karlsson to start the recording if I'm delayed.\n\nThanks,\nSven",
+    "body": "Hi IT Support,\n\nCan you please verify that Zoom recording is enabled and auto-start is configured for the following meeting:\n\n- Event: Cross-BU Steering Committee - Supply Chain Integration (BU 3 & BU 7)\n- Date/Time: 2026-01-08, 09:00-11:00 CET\n- Event ID: EVT-365\n- Host: stefan.ljungberg@vasaholm.se\n- Location: Conference Room 3A (hybrid meeting)\n\nThis is a governance-required steering committee and must be recorded per KB-408 (Steering Committee Recording Requirements). Please confirm recording setup by EOD today.\n\nAlso, please verify that host delegation is configured in case I need Anna Karlsson to start the recording if I'm delayed.\n\nThanks,\nSven",
     "labels": [
       "internal",
       "it-support",
@@ -1154,7 +1154,7 @@
   {
     "message_id": "WMSG-5087",
     "from": "it-support@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Zoom recording verification - Jan 8 Supply Chain Integration steering committee (EVT-365)",
     "date": "2026-01-07T10:30:00+01:00",
     "body": "Hi Sven,\n\nConfirmed:\n\n✓ Auto-recording enabled for EVT-365 (Jan 8, 09:00-11:00)\n✓ Recording will start automatically when host joins\n✓ Host delegation configured: Anna Karlsson (anna.karlsson@vasaholm.se) added as co-host\n✓ Recording storage: Vasaholm Zoom cloud (compliance-approved, 90-day retention)\n\nYou'll receive a recording link via email within 1 hour after the meeting ends. Let us know if you need anything else.\n\nBest,\nIT Support Team",
@@ -1166,7 +1166,7 @@
   },
   {
     "message_id": "WMSG-5088",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "per.johansson@vasaholm.se, anna.karlsson@vasaholm.se",
     "subject": "Board rehearsal materials - Finnish M&A (Jan 9 14:00)",
     "date": "2026-01-08T16:45:00+01:00",
@@ -1181,7 +1181,7 @@
   {
     "message_id": "WMSG-5089",
     "from": "helena.bergstrom@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Jan 9 Digital Transformation steering committee - action item extraction delegation?",
     "date": "2026-01-07T11:20:00+01:00",
     "body": "Hi Sven,\n\nI noticed you have back-to-back commitments on Jan 9:\n- Digital Transformation steering committee: 09:30-11:30 (EVT-367)\n- Board rehearsal: 14:00-16:30 (EVT-366)\n\nThat gives you only 2.5 hours between meetings to extract action items from the Digital Transformation committee and update the Notion decision log. Given the board rehearsal is high-stakes, would you like me to take ownership of action item extraction for the morning committee?\n\nI can:\n- Capture decisions and action items during the meeting\n- Update the Notion decision log (NPAG-45) by 13:00\n- Send summary email to attendees by 13:30\n\nThis would free you up to focus on final board rehearsal prep. Let me know if you'd like me to handle this.\n\nHelena",
@@ -1194,7 +1194,7 @@
   {
     "message_id": "WMSG-5090",
     "from": "petra.holmberg@nordicsynergy.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Aurora Synergy Analysis - Proposal NSA-2026-0847",
     "date": "2026-03-28T14:22:00+01:00",
     "body": "Dear Sven,\n\nThank you for your inquiry regarding synergy quantification analysis for your Finnish M&A target (Project Aurora).\n\nNordic Synergy Analytics is pleased to submit our proposal NSA-2026-0847:\n\n**Scope**: Comprehensive synergy quantification analysis covering operational, procurement, and overhead consolidation opportunities across the target's three manufacturing sites and Vasaholm Group's existing Nordic footprint.\n\n**Deliverables**:\n- Detailed synergy waterfall model (Excel-based)\n- Implementation roadmap with phasing recommendations\n- Risk-adjusted NPV calculations\n- Executive summary presentation deck (20-25 slides)\n\n**Timeline**: 10 business days from contract signature\n**Investment**: SEK 285,000 (excl. VAT)\n\n**Important timing considerations**:\n1. Our senior analyst team (required for cross-border manufacturing synergy work) has extremely limited availability this quarter due to three concurrent Nordic M&A engagements\n2. We can guarantee the 10-day delivery window only if we receive signed contract by April 2\n3. Our standard pricing for this scope increases to SEK 315,000 effective February 1, 2026 - we are extending the prior rate as a courtesy given our previous collaboration on the 2024 BU consolidation study\n\nGiven your board presentation timeline, I wanted to flag these constraints early. Please let me know if you'd like to discuss scope adjustments or have questions about our methodology.\n\nBest regards,\nPetra Holmberg\nPartner, Nordic Synergy Analytics\npetra.holmberg@nordicsynergy.se\n+46 8 555 8847",
@@ -1208,7 +1208,7 @@
   {
     "message_id": "WMSG-5091",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Capacity check - Aurora synergy analysis internal option",
     "date": "2026-03-29T09:47:00+01:00",
     "body": "Sven,\n\nI wish I could help, but I'm completely underwater through mid-February with the portfolio review. The CEO wants the first draft by March 10, and I'm still waiting on Q4 financials from three BUs to finalize the performance benchmarking section.\n\nEven if I could carve out time, the cross-border manufacturing synergy methodology isn't my strong suit - my background is more strategic positioning than operational integration modeling. You'd probably get better quality from a specialist firm anyway.\n\nSorry I can't be more helpful on this one.\n\nLars",
@@ -1220,7 +1220,7 @@
   },
   {
     "message_id": "WMSG-5092",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "NSA quote verification - Project Aurora synergy analysis",
     "date": "2026-03-31T16:18:00+01:00",
@@ -1235,7 +1235,7 @@
   {
     "message_id": "WMSG-5093",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: NSA quote verification - Project Aurora synergy analysis",
     "date": "2026-04-01T10:34:00+01:00",
     "body": "Sven,\n\nHere's what I found:\n\n**Historical NSA engagement**:\n- TXN-6009: SEK 195k for BU consolidation synergy study (Aug 2024, 8-day delivery)\n- No other NSA invoices in our system for the past 24 months\n\n**Pricing analysis**:\n- The SEK 285k quote represents a 46% increase over the 2024 engagement\n- Adjusting for scope differences (cross-border vs. domestic, three sites vs. two), a 20-25% premium would be reasonable\n- The 46% increase seems high, but not completely out of line if senior analyst scarcity is genuine\n\n**'Price increase' claim**:\n- I found NO documentation of any NSA price increase communication in our records\n- The proposal references 'Feb 1' increase but we're now in late March - the timeline doesn't make sense\n- This looks like recycled urgency language from an earlier template\n\n**Q1 budget headroom**:\n- After Linklaters overrun (TXN-6001: SEK 340k vs. budgeted SEK 280k), we have SEK 118k remaining in Q1 external advisor budget\n- SEK 285k engagement would require SEK 167k budget reallocation or Q2 advance draw\n- This triggers CFO approval per policy (>SEK 100k variance)\n\n**Recommendation**: The 'Feb 1 price increase' claim is clearly false - either a copy-paste error or deliberate pressure tactic. The senior analyst availability constraint may be real (Lars confirmed internal overload), but I'd push back on pricing. Request either:\n1. Justification for 46% price increase with detailed scope comparison\n2. Competing quote from Strategi Konsult or similar firm\n3. Phased delivery (Phase 1 by board date, Phase 2 post-board) to reduce immediate cost\n\nLet me know if you want me to engage NSA directly on pricing negotiation.\n\nAnna",
@@ -1248,7 +1248,7 @@
   {
     "message_id": "WMSG-5094",
     "from": "maria.svensson@cipab.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Proposal CIP-2026-0198 - BU Portfolio Benchmarking Analysis",
     "date": "2026-03-27T09:15:00+01:00",
     "body": "Dear Sven,\n\nThank you for the opportunity to propose on your BU portfolio benchmarking requirement.\n\n**Scope:** Comprehensive benchmarking analysis covering all 11 BUs against Nordic industry peers - operational efficiency metrics, margin analysis, market positioning, and strategic fit assessment.\n\n**Deliverables:**\n- Executive summary with portfolio optimization recommendations\n- Detailed BU-by-BU benchmarking report (operational, financial, strategic dimensions)\n- Interactive dashboard for board presentation\n- 2-hour board presentation dry-run session\n\n**Timeline:** 18 working days from contract signature (delivery April 22, 2026)\n\n**Investment:** SEK 245,000\n\n**Approval requirement:** This falls within your standard approval authority (under SEK 250k threshold per our previous engagements).\n\n**Quality assurance:** Our team includes two former McKinsey partners with deep Nordic industrial sector experience. We've completed similar portfolio reviews for Investor AB and Wallenberg Investments.\n\nPlease let me know if you'd like to discuss scope refinements or have questions.\n\nBest regards,\nMaria Svensson\nPartner, Competitive Intelligence Partners AB\n+46 8 555 4433\nmaria.svensson@cipab.se",
@@ -1261,7 +1261,7 @@
   {
     "message_id": "WMSG-5095",
     "from": "johan.nystrom@nordicma.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Proposal NMA-2026-0087 - Express BU Portfolio Analysis",
     "date": "2026-03-27T10:42:00+01:00",
     "body": "Sven,\n\nPer your urgent request for portfolio benchmarking to support the March board update, we're pleased to submit our express delivery proposal.\n\n**Scope:** Rapid BU portfolio assessment focusing on strategic fit and divestiture candidates - covers all 11 BUs with priority focus on underperforming units.\n\n**Deliverables:**\n- Executive briefing deck (40 slides) with portfolio heat map\n- Top 3 divestiture candidate profiles\n- Preliminary valuation ranges for identified candidates\n- One revision cycle included\n\n**Timeline:** 8 working days from engagement (delivery April 8, 2026)\n\n**Investment:** SEK 385,000\n\n**Approval requirement:** This exceeds your SEK 250k authority ceiling and will require CFO Helena Bergström's sign-off. We can provide supporting documentation for escalation if needed.\n\n**Speed premium rationale:** The compressed timeline requires us to deploy a senior-only team (3 partners, no analysts) working in parallel streams. This drives the premium pricing but guarantees board-ready quality under your tight deadline.\n\n**Our advantage:** We already have deep familiarity with Vasaholm's BU structure from our TransLog Sverige work in Q4 2025, reducing ramp-up time significantly.\n\nLet me know if you'd like to discuss trade-offs between speed and cost.\n\nBest,\nJohan Nyström\nManaging Partner\nNordic M&A Advisory\n+46 70 123 4567",
@@ -1275,7 +1275,7 @@
   {
     "message_id": "WMSG-5096",
     "from": "eva.lindholm@consultant.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Proposal ELC-2026-0156 - BU Portfolio Strategic Review",
     "date": "2026-03-27T14:28:00+01:00",
     "body": "Hi Sven,\n\nAttached is our proposal for the BU portfolio benchmarking analysis you requested.\n\n**Scope:** Mid-depth portfolio review covering operational and financial benchmarking for all 11 BUs, with strategic recommendations.\n\n**Deliverables:**\n- Portfolio assessment report (60 pages)\n- Financial benchmarking analysis (ROIC, margin trends, capital efficiency)\n- Operational efficiency comparison vs. Nordic industrial peers\n- Strategic fit matrix and preliminary recommendations\n\n**Timeline:** 12 working days from kickoff (delivery April 14, 2026)\n\n**Investment:** SEK 178,000\n\n**Approval requirement:** Well within your approval authority.\n\n**Methodology note:** Our approach leverages publicly available benchmark data and financial filings. We do not have proprietary access to private market intelligence or deep industrial sector networks, so our peer comparisons will be based on publicly listed comparables (Sandvik, Atlas Copco, etc.) rather than private transactions or confidential industry data.\n\n**Team composition:** One senior consultant (12 years experience) plus two analysts. I will personally lead the engagement.\n\nThis represents excellent value for a solid analytical foundation. Let me know if you'd like to proceed.\n\nBest regards,\nEva Lindholm\nSenior Strategy Consultant\nEva Lindholm Consulting AB\n+46 73 987 6543\neva.lindholm@consultant.se",
@@ -1287,11 +1287,11 @@
   },
   {
     "message_id": "WMSG-5097",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "maria.svensson@cipab.se",
     "subject": "Re: Proposal CIP-2026-0198 - BU Portfolio Benchmarking Analysis - ACCEPTED",
     "date": "2026-03-28T16:45:00+01:00",
-    "body": "Maria,\n\nAfter careful evaluation of the three competing proposals, I'm pleased to confirm acceptance of CIP-2026-0198.\n\n**Decision rationale:**\nYour proposal offers the optimal balance across our priority dimensions:\n1. **Board deadline compliance:** April 22 delivery provides 3-day buffer before April 25 board materials finalization (vs. NMA's April 8 which is too early for late-breaking Q1 data, and ELC's April 14 which cuts buffer to 1 day given revision cycles)\n2. **Approval authority:** SEK 245k stays within my SEK 250k ceiling, avoiding CFO escalation delays that would compress timeline (NMA's SEK 385k would require 3-5 day approval cycle)\n3. **Analytical depth:** Your team's Nordic industrial expertise and proprietary market intelligence addresses the executive credibility requirement (ELC's public-data-only approach lacks the confidential peer insights needed for board-level strategic discussions)\n4. **Cost efficiency:** While not the lowest price, the SEK 245k investment is justified by quality premium and represents good value given scope breadth\n\n**Next steps:**\n- Please send contract and SOW by Monday April 1\n- I'll execute and return within 24 hours\n- Kickoff call proposed for April 3, 10:00-11:00 CET\n- I'll provide BU financial data package and org charts by April 4\n\n**Budget confirmation:** I've verified Q1 external advisor budget headroom (SEK 287k remaining after committed invoices) and logged this engagement in our finance tracker (TXN-6029).\n\nLooking forward to working together on this critical deliverable.\n\nBest regards,\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group\n+46 8 555 1234",
+    "body": "Maria,\n\nAfter careful evaluation of the three competing proposals, I'm pleased to confirm acceptance of CIP-2026-0198.\n\n**Decision rationale:**\nYour proposal offers the optimal balance across our priority dimensions:\n1. **Board deadline compliance:** April 22 delivery provides 3-day buffer before April 25 board materials finalization (vs. NMA's April 8 which is too early for late-breaking Q1 data, and ELC's April 14 which cuts buffer to 1 day given revision cycles)\n2. **Approval authority:** SEK 245k stays within my SEK 250k ceiling, avoiding CFO escalation delays that would compress timeline (NMA's SEK 385k would require 3-5 day approval cycle)\n3. **Analytical depth:** Your team's Nordic industrial expertise and proprietary market intelligence addresses the executive credibility requirement (ELC's public-data-only approach lacks the confidential peer insights needed for board-level strategic discussions)\n4. **Cost efficiency:** While not the lowest price, the SEK 245k investment is justified by quality premium and represents good value given scope breadth\n\n**Next steps:**\n- Please send contract and SOW by Monday April 1\n- I'll execute and return within 24 hours\n- Kickoff call proposed for April 3, 10:00-11:00 CET\n- I'll provide BU financial data package and org charts by April 4\n\n**Budget confirmation:** I've verified Q1 external advisor budget headroom (SEK 287k remaining after committed invoices) and logged this engagement in our finance tracker (TXN-6029).\n\nLooking forward to working together on this critical deliverable.\n\nBest regards,\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group\n+46 8 555 1234",
     "labels": [
       "vendor-selection",
       "portfolio-review",
@@ -1302,7 +1302,7 @@
   {
     "message_id": "WMSG-5098",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "URGENT: Q2 external advisor budget requests exceed cap by SEK 180k",
     "date": "2026-04-02T14:15:00+01:00",
     "body": "Sven,\n\nWe have a resource contention issue for Q2. Four strategy projects have submitted overlapping external advisor requests that total SEK 1,030k against our SEK 850k budget cap:\n\n1. Project Aurora synergy analysis (Nordic Synergy Analytics) - SEK 285k, 10-day delivery, board presentation support\n2. BU Portfolio benchmarking Phase 2 (Industrial Intelligence Nordic) - SEK 245k, conditional on Phase 1 quality\n3. TransLog Sverige due diligence prep (TransLog DD Partners) - SEK 320k, CEO flagged as priority\n4. Org restructuring implementation (Stakeholder Advisory Group) - SEK 180k, BU 4 stakeholder management\n\nThe CFO has confirmed the SEK 850k cap is firm - no reallocation from other budget lines this quarter. We need to decide which projects proceed at full cost, which get scope-reduced, and which defer to Q3.\n\nCritical constraints:\n- Aurora has board commitment for Feb 28 follow-up analysis\n- TransLog has potential regulatory filing deadline (similar to Finnish M&A pattern)\n- BU Portfolio Phase 2 depends on Phase 1 deliverable quality (due next week)\n- Org restructuring has Henrik (BU 4) stakeholder sensitivity after his earlier pushback\n\nCan you build the allocation matrix by end of week? I need to brief the CFO on Monday.\n\nAnna",
@@ -1315,7 +1315,7 @@
   {
     "message_id": "WMSG-5099",
     "from": "per.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se, anna.karlsson@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se, anna.karlsson@vasaholm.se",
     "subject": "Re: TransLog Sverige due diligence - CEO priority flag",
     "date": "2026-04-01T16:30:00+01:00",
     "body": "Sven, Anna,\n\nThe CEO confirmed this morning that TransLog Sverige is his top priority for Q2 external work. He wants preliminary due diligence completed before the May board meeting to support a potential acquisition discussion.\n\nTimeline: We need the vendor engaged by mid-April to deliver by early May. Any delay pushes the board discussion to June, which conflicts with the summer recess.\n\nBudget: The SEK 320k quote from TransLog DD Partners is within market range for this scope. I've reviewed their credentials - solid logistics sector experience, worked with Scania and Volvo Group on similar assessments.\n\nRegulatory note: If we proceed to transaction, expect a Competition Authority filing similar to the Finnish M&A (14-day window). We should engage Karin Bergström at Linklaters early for regulatory counsel.\n\nThis is board-committed work - I'd prioritize it over internal optimization projects that can shift to Q3.\n\nPer",
@@ -1328,7 +1328,7 @@
   {
     "message_id": "WMSG-5100",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "BU Portfolio Phase 1 deliverable - quality assessment needed",
     "date": "2026-04-03T09:45:00+01:00",
     "body": "Sven,\n\nIndustrial Intelligence Nordic delivered the Phase 1 BU portfolio benchmarking report yesterday. I've done a preliminary review:\n\nStrengths:\n- Solid financial ratio analysis across all 11 BUs\n- Good peer comparison data (Nordic industrials)\n- Clear visualization of performance gaps\n\nWeaknesses:\n- Limited strategic context (why gaps exist, not just that they exist)\n- Missing cross-BU synergy opportunities\n- Benchmarking sample skews toward larger conglomerates (Sandvik, Atlas Copco) - less relevant for our mid-size BUs\n\nOverall: Meets contractual requirements but doesn't add strategic insight beyond what we could generate internally. The Phase 2 proposal (SEK 245k) promises deeper sector analysis and synergy mapping, but I'm not confident they'll deliver materially better work.\n\nRecommendation: Consider scope-reducing Phase 2 or shifting that budget to higher-priority work (TransLog, Aurora). We can supplement with internal analysis from my team.\n\nLet me know if you want a detailed quality debrief before you finalize Q2 allocations.\n\nLars",
@@ -1341,7 +1341,7 @@
   {
     "message_id": "WMSG-5101",
     "from": "henrik.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Org restructuring - stakeholder management budget",
     "date": "2026-03-31T11:20:00+01:00",
     "body": "Sven,\n\nI saw the Stakeholder Advisory Group proposal for org restructuring implementation support (SEK 180k). I appreciate the gesture - bringing in external facilitation for the BU 4 transition could help address some of my earlier concerns.\n\nThat said, I want to be clear: external consultants won't fix the fundamental issue, which is that the restructuring plan doesn't account for BU 4's unique customer relationship model. We need design changes, not just better stakeholder communication.\n\nIf budget is tight (and I assume it is), I'd rather see that SEK 180k invested in reworking the transition plan with my team's input than hiring facilitators to 'sell' a flawed design.\n\nHappy to discuss offline. I'm not trying to block progress - I want to make sure we get this right.\n\nHenrik",
@@ -1353,11 +1353,11 @@
   },
   {
     "message_id": "WMSG-5102",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "mika.virtanen@lakitoimisto-virtanen.fi",
     "subject": "Re: URGENT: Finnish Competition Authority filing deadline - 14 days remaining",
     "date": "2026-04-01T17:15:00+02:00",
-    "body": "Mika,\n\nThank you for the formal reminder and the finalized merger notification documents.\n\nI confirm that I will complete my review and provide sign-off by end of day April 3, 2026, as required. I have blocked time on April 2 (14:00-16:00 CET) to review all four attachments in detail.\n\nIf I identify any material concerns during my review, I will contact you immediately to schedule a clarification call within your available window (April 2, 10:00-12:00 CET).\n\nI acknowledge that the April 15 filing deadline is firm and that any delay would trigger a 60-day reset, jeopardizing our Q2 closing timeline. This risk has been escalated to our CFO (Anna Karlsson, copied here) and will be included in the April board materials.\n\nPlease confirm receipt of this message for our audit trail.\n\nBest regards,\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group\nsven.lindgren@vasaholm.se",
+    "body": "Mika,\n\nThank you for the formal reminder and the finalized merger notification documents.\n\nI confirm that I will complete my review and provide sign-off by end of day April 3, 2026, as required. I have blocked time on April 2 (14:00-16:00 CET) to review all four attachments in detail.\n\nIf I identify any material concerns during my review, I will contact you immediately to schedule a clarification call within your available window (April 2, 10:00-12:00 CET).\n\nI acknowledge that the April 15 filing deadline is firm and that any delay would trigger a 60-day reset, jeopardizing our Q2 closing timeline. This risk has been escalated to our CFO (Anna Karlsson, copied here) and will be included in the April board materials.\n\nPlease confirm receipt of this message for our audit trail.\n\nBest regards,\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group\nstefan.ljungberg@vasaholm.se",
     "labels": [
       "regulatory",
       "audit-trail",
@@ -1367,7 +1367,7 @@
   },
   {
     "message_id": "WMSG-5103",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "johan.nystrom@nordicma.se",
     "subject": "Re: Project Njord Phase 2 - vendor quality checkpoint materials",
     "date": "2026-04-02T17:30:00+02:00",
@@ -1381,7 +1381,7 @@
   },
   {
     "message_id": "WMSG-5104",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "Q1 external advisor budget - Eva Lindholm benchmarking quote decision needed",
     "date": "2026-04-01T15:45:00+02:00",
@@ -1396,7 +1396,7 @@
   {
     "message_id": "WMSG-5105",
     "from": "compliance@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "URGENT: Finnish Competition Authority filing - compliance attestation required by April 4",
     "date": "2026-04-01T10:15:00+02:00",
     "body": "Sven,\n\nThe Legal & Compliance team has been notified by Lakitoimisto Virtanen that the Finnish Competition Authority filing for Project Aurora is due April 10, 2026.\n\nPer Vasaholm Group cross-border M&A policy (Section 4.2), all regulatory filings require internal compliance attestation signed by the deal sponsor (you) and CFO before external submission. The attestation confirms:\n\n1. All beneficial ownership disclosures are accurate and complete\n2. Market share calculations reflect audited financial data\n3. No material adverse changes have occurred since signing\n4. All required internal approvals (Board, Executive Committee) are documented\n\n**Action Required:**\nPlease complete the attached attestation form and return to compliance@vasaholm.se by **Friday, April 4, 2026 at 17:00 CET**. This allows 48 hours for CFO counter-signature and legal review before the April 7 external counsel deadline.\n\nFailure to meet this internal deadline will trigger an escalation to the General Counsel and may jeopardize the April 10 regulatory submission window.\n\nAttached: Aurora_Compliance_Attestation_Form_v2.pdf\n\nRegards,\nVasaholm Group Legal & Compliance\ncompliance@vasaholm.se",
@@ -1410,7 +1410,7 @@
   {
     "message_id": "WMSG-5106",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Q2 external advisor budget planning - need your forecast by April 8",
     "date": "2026-03-30T14:20:00+02:00",
     "body": "Sven,\n\nAs we close out Q1, I'm consolidating Q2 budget forecasts for all corporate functions. Your Q1 external advisor spend came in at SEK 1.82M (92% of quarterly cap), which is within policy but leaves limited buffer for Q2.\n\nFor Q2 planning, I need your forecast by **Tuesday, April 8** covering:\n\n1. **Committed engagements**: Any Q1 vendors with ongoing Q2 scope (e.g., Johan Nyström's retainer proposal, CIP AB Phase 2 if approved)\n2. **Contingency reserves**: Estimated need for ad-hoc advisory (M&A targets, BU portfolio deep-dives, org restructuring implementation support)\n3. **Budget reallocation requests**: If you anticipate exceeding the SEK 2.0M quarterly cap, provide justification for CFO pre-approval\n\nContext: The Executive Committee is reviewing a proposal to reduce corporate advisory budgets by 15% in H2 2026 due to BU underperformance. Strong Q2 discipline will help preserve your Q3/Q4 flexibility.\n\nLet me know if you want to discuss trade-offs before submitting your forecast.\n\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group\nanna.karlsson@vasaholm.se\n+46 8 123 4567",
@@ -1423,7 +1423,7 @@
   {
     "message_id": "WMSG-5107",
     "from": "per.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Board follow-up: Project Njord Phase 2 mid-March checkpoint results",
     "date": "2026-03-27T11:45:00+01:00",
     "body": "Sven,\n\nThe Board asked for a brief update on Project Njord Phase 2 execution quality following the Phase 1 vendor performance failure we discussed in February.\n\nCan you send me a 2-3 paragraph summary by Friday covering:\n- Phase 2 quality metrics vs. threshold (you mentioned close monitoring)\n- Any early warning signs that might trigger the contingency vendor replacement\n- Budget status (I believe you reserved contingency funds)\n\nNo need for a formal deck - just enough context for me to respond to the Board's inquiry. They're satisfied with the corrective actions we took in Q1, but want to confirm we're not heading for another surprise.\n\nThanks,\nPer\n\n---\nPer Johansson\nChief Executive Officer\nVasaholm Group",
@@ -1436,7 +1436,7 @@
   {
     "message_id": "WMSG-5108",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "FYI: BU 3 revenue data for Finnish regulatory filing",
     "date": "2026-03-29T09:30:00+01:00",
     "body": "Sven,\n\nI heard from Mika Virtanen's team that they need BU 3 revenue data for the Finnish Competition Authority market share calculations. I've attached the Q4 2025 and Q1 2026 figures broken down by product category (industrial components, automation systems, aftermarket services).\n\nA few notes:\n- The \"industrial components\" category includes some cross-BU sales that might need adjustment for regulatory purposes (BU 3 sells components to BU 7 for final assembly)\n- Finnish market revenue is ~8% of BU 3 total, but the market definition in the filing might be broader (\"Nordic industrial components\" vs. \"Finnish industrial components\")\n- I flagged a potential issue: if the Finnish authority uses a narrow market definition, Vasaholm + Aurora combined might exceed 30% market share, triggering Phase 2 review\n\nLet me know if Mika needs clarification on any of the figures. I'm available for a quick call if it helps.\n\nLars\n\n---\nLars Eriksson\nDirector of Corporate Development\nVasaholm Group\nlars.eriksson@vasaholm.se\n+46 8 234 5678\n\nAttached: BU3_Revenue_Breakdown_Q4_2025_Q1_2026.xlsx",
@@ -1449,7 +1449,7 @@
   {
     "message_id": "WMSG-5109",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Njord Phase 1 quality assessment - concerns for Phase 2 decision",
     "date": "2026-03-27T14:15:00+01:00",
     "body": "Sven,\n\nI've completed my review of the Nordic Business Solutions Phase 1 deliverable for Project Njord (logistics sector assessment, SEK 245k). Unfortunately, I have significant quality concerns:\n\n**Quality Issues:**\n- Market sizing methodology is outdated (2023 data used without adjustment for 2025-26 market shifts)\n- Competitor mapping is incomplete - missing 3 of the top 5 Nordic logistics players\n- Financial benchmarking lacks granularity (only aggregate EBITDA margins, no segment-level breakdown)\n- No primary research conducted despite contract scope promising 8-10 expert interviews\n\n**Salvageability Assessment:**\nThe market research section (pages 12-28) contains useful macroeconomic context that could support Project Aurora's Finnish target assessment. The competitor mapping framework (despite incomplete data) is reusable if we supplement with our own research.\n\nEstimated salvage value for Aurora: ~30% of Phase 1 content (SEK 75k equivalent in avoided research costs).\n\n**Phase 2 Recommendation:**\nNBS has proposed Phase 2 (due diligence preparation, SEK 180k). Given Phase 1 delivery issues, I recommend we:\n1. Formally document quality failures and request partial credit/discount for Phase 2\n2. Consider alternative vendors (I can provide 2-3 quotes by Friday)\n3. If continuing with NBS, insert mandatory quality gate at 50% delivery milestone\n\nThe team is showing psychological inertia ('we already paid for Phase 1'), but the sunk cost should not drive the Phase 2 decision. Happy to discuss.\n\nBest,\nLars\n\n---\nLars Eriksson\nSenior Strategy Analyst\nVasaholm Group",
@@ -1463,7 +1463,7 @@
   {
     "message_id": "WMSG-5110",
     "from": "proposals@nordicbusiness.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Njord Phase 2 proposal - Due diligence preparation services",
     "date": "2026-03-26T10:30:00+01:00",
     "body": "Dear Sven,\n\nThank you for the opportunity to continue supporting Project Njord. Following our Phase 1 logistics sector assessment, we are pleased to propose Phase 2: Due Diligence Preparation Services.\n\n**Scope:**\n- Target company financial model validation\n- Synergy opportunity quantification (cost and revenue)\n- Integration risk assessment and mitigation planning\n- Management interview protocol and execution\n- Data room readiness checklist\n\n**Timeline:** 6 weeks from contract signature\n**Fee:** SEK 180,000 (fixed price)\n**Team:** Same senior consultants from Phase 1 (continuity advantage)\n\n**Value Proposition:**\nOur Phase 1 work provides a strong foundation for Phase 2 - we've already invested significant time understanding the logistics sector dynamics and competitive landscape. Switching vendors at this stage would require 2-3 weeks of ramp-up time and duplicate research costs.\n\nWe're confident Phase 2 will deliver the actionable insights you need for board-level decision-making.\n\nPlease let us know if you'd like to schedule a call to discuss scope refinements.\n\nBest regards,\n\nMikael Ström\nPartner, Nordic Business Solutions AB\n+46 8 555 1234\nmikael.strom@nordicbusiness.se",
@@ -1476,7 +1476,7 @@
   {
     "message_id": "WMSG-5111",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Q2 budget headroom - external advisor allocation status",
     "date": "2026-03-29T09:45:00+01:00",
     "body": "Sven,\n\nPer your request, here's the Q2 external advisor budget status:\n\n**Total Q2 Budget:** SEK 850,000\n**Committed:**\n- Project Aurora synergy analysis (Phase 2): SEK 285,000\n- BU portfolio benchmarking: SEK 140,000\n\n**Available Headroom:** SEK 425,000\n\nThis headroom is currently unallocated and available for strategic priorities. If you're considering the Njord Phase 2 proposal (SEK 180k), we have sufficient capacity without triggering escalation to the CEO.\n\nHowever, I'd recommend we discuss opportunity cost - the Q2 budget could alternatively fund:\n- Aurora integration planning workstream (SEK 200k)\n- Competitive intelligence on German expansion (SEK 150k)\n- Portfolio optimization Phase 2 (SEK 175k)\n\nLet me know if you need detailed budget scenario modeling.\n\nBest,\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -1488,7 +1488,7 @@
   },
   {
     "message_id": "WMSG-5112",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "eva.lindholm@vasaholm.se",
     "subject": "Vendor performance history request - Nordic Business Solutions AB",
     "date": "2026-04-01T11:20:00+02:00",
@@ -1501,11 +1501,11 @@
   },
   {
     "message_id": "WMSG-5113",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se, per.johansson@vasaholm.se",
     "subject": "Week of April 1 - Strategic project focus areas and resource constraint update",
     "date": "2026-04-03T16:45:00+02:00",
-    "body": "Anna, Per,\n\nWeekly strategic project planning summary for the week of April 1-4:\n\n**Priority 1: Steering Committee Action Item Closure**\nExtracted action items from MTG-7020 (Supply Chain Integration, March 31) and distributed to Lars Eriksson and Helena Bergström. Updated Notion tracker (NPAG-58). All items on track for completion by assigned deadlines.\n\n**Priority 2: BU Portfolio Review Completion (OVERDUE)**\nFirst draft for CEO now 3 weeks overdue (original due date March 10). Root cause: BU 4 financial data delayed until March 28. Henrik's team finally submitted complete dataset. I've integrated BU 4 data and completed cross-BU synergy mapping this morning. First draft will be ready for CEO review by COB Friday April 4.\n\n**Priority 3: Project Njord Phase 2 Assessment**\nMid-March quality checkpoint completed. Reviewing deliverable quality against threshold criteria this week. Preliminary assessment: Phase 2 vendor performance meets minimum standards, but contingency budget may still be needed for Q2 scope expansion. Full recommendation memo by Monday April 7.\n\n**Priority 4: Q2 Board Materials Planning**\nProposing kickoff session week of April 7 to establish Q2 board preparation timeline and workstream ownership. Will send calendar invite once you confirm availability.\n\n**Resource Constraint Flag:**\nLars Eriksson remains dual-allocated to Finnish M&A financial modeling and BU portfolio quantitative analysis. His capacity was stretched during Q1 board prep sprint (week of Feb 23-27). For Q2, recommend we clarify priority sequencing between M&A transaction execution and portfolio optimization initiatives to avoid similar bottlenecks.\n\n**Resolved Constraint:**\nEmma Johansson's compliance training lock (Feb 24-25) is now resolved. She's available for portfolio review data validation and Q2 planning.\n\nLet me know if you need any additional detail on the above items.\n\nBest,\nSven\n\n--\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "Anna, Per,\n\nWeekly strategic project planning summary for the week of April 1-4:\n\n**Priority 1: Steering Committee Action Item Closure**\nExtracted action items from MTG-7020 (Supply Chain Integration, March 31) and distributed to Lars Eriksson and Helena Bergström. Updated Notion tracker (NPAG-58). All items on track for completion by assigned deadlines.\n\n**Priority 2: BU Portfolio Review Completion (OVERDUE)**\nFirst draft for CEO now 3 weeks overdue (original due date March 10). Root cause: BU 4 financial data delayed until March 28. Henrik's team finally submitted complete dataset. I've integrated BU 4 data and completed cross-BU synergy mapping this morning. First draft will be ready for CEO review by COB Friday April 4.\n\n**Priority 3: Project Njord Phase 2 Assessment**\nMid-March quality checkpoint completed. Reviewing deliverable quality against threshold criteria this week. Preliminary assessment: Phase 2 vendor performance meets minimum standards, but contingency budget may still be needed for Q2 scope expansion. Full recommendation memo by Monday April 7.\n\n**Priority 4: Q2 Board Materials Planning**\nProposing kickoff session week of April 7 to establish Q2 board preparation timeline and workstream ownership. Will send calendar invite once you confirm availability.\n\n**Resource Constraint Flag:**\nLars Eriksson remains dual-allocated to Finnish M&A financial modeling and BU portfolio quantitative analysis. His capacity was stretched during Q1 board prep sprint (week of Feb 23-27). For Q2, recommend we clarify priority sequencing between M&A transaction execution and portfolio optimization initiatives to avoid similar bottlenecks.\n\n**Resolved Constraint:**\nEmma Johansson's compliance training lock (Feb 24-25) is now resolved. She's available for portfolio review data validation and Q2 planning.\n\nLet me know if you need any additional detail on the above items.\n\nBest,\nSven\n\n--\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "executive-communication",
       "weekly-digest"
@@ -1515,7 +1515,7 @@
   {
     "message_id": "WMSG-5114",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: MTG-7020 action items - Q1 procurement savings validation",
     "date": "2026-04-03T11:20:00+02:00",
     "body": "Sven,\n\nReceived the action item from yesterday's Supply Chain Integration steering committee. I'll have the Q1 procurement savings figures for BU 3 and BU 7 validated by Friday April 4 COB as requested.\n\nOne heads-up: BU 7's savings calculation methodology differs from BU 3's (they use different ERP modules). I'll need to normalize the data before we can present consolidated figures. This might add 2-3 hours to the validation timeline, but I can still hit the Friday deadline.\n\nAlso, I saw your note about dual allocation during Q1 board prep. Agreed that we should clarify priority sequencing for Q2. The Finnish M&A financial modeling and portfolio quantitative analysis both require deep-dive work that's hard to context-switch between. Happy to discuss in the Q2 planning session you're setting up with Anna and Per.\n\nBest,\nLars\n\n--\nLars Eriksson\nSenior Financial Analyst\nVasaholm Group",
@@ -1528,7 +1528,7 @@
   {
     "message_id": "WMSG-5115",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Week of April 1 - Strategic project focus areas and resource constraint update",
     "date": "2026-04-03T17:15:00+02:00",
     "body": "Sven,\n\nThanks for the comprehensive update. A few quick reactions:\n\n1. **BU Portfolio Review**: Appreciate the transparency on the delay. Henrik's late data submission is noted. Let's discuss BU 4 engagement protocols in our Q2 planning session - this isn't the first time his team has been a bottleneck.\n\n2. **Project Njord**: Looking forward to your full assessment. If contingency budget activation is likely, flag it early so I can reserve Q2 capacity.\n\n3. **Lars's dual allocation**: Agreed this needs to be addressed. For Q2, let's establish a clear priority hierarchy: M&A transaction execution takes precedence over portfolio optimization work unless explicitly overridden by CEO directive. We can't afford another Feb 23-27 crunch.\n\n4. **Q2 Board Planning**: I'm available April 8-10 for kickoff session. Per is traveling April 7, so target April 8 or later.\n\nSee you at our 2pm sync today.\n\nAnna\n\n--\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -1541,7 +1541,7 @@
   {
     "message_id": "WMSG-5116",
     "from": "helena.bergstrom@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Vendor consolidation workshop - BU 3/7 procurement leads availability",
     "date": "2026-04-02T15:30:00+02:00",
     "body": "Sven,\n\nFollowing up on my action item from yesterday's Supply Chain Integration steering committee (MTG-7020). I've reached out to the BU 3 and BU 7 procurement leads to schedule the vendor consolidation workshop.\n\nBU 3 lead (Maria Lundqvist) is available April 9-11. BU 7 lead (Oscar Nilsson) is on vacation April 7-11, back April 14. Earliest common availability is week of April 14.\n\nI'll propose April 15 (Tuesday) 10:00-12:00 for the workshop. Does that work with your calendar? I know you usually block mornings for deep work, but this is the only slot that works for both BU leads.\n\nLet me know if you need me to find an alternative.\n\nHelena\n\n--\nHelena Bergström\nHead of Supply Chain Operations\nVasaholm Group",
@@ -1553,11 +1553,11 @@
   },
   {
     "message_id": "WMSG-5117",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se, per.johansson@vasaholm.se",
     "subject": "Weekly Strategic Project Status Digest - Week 14 (April 3, 2026)",
     "date": "2026-04-04T16:30:00+01:00",
-    "body": "Anna, Per,\n\nPlease find attached this week's strategic project status digest covering Project Aurora (Finnish M&A), BU Portfolio Review, and Org Restructuring.\n\nKey highlights:\n\n**Critical-Path Items Requiring Immediate Attention:**\n1. OVERDUE: Schedule 1:1 with Henrik (BU 4) regarding org restructuring concerns - his skepticism is creating reputational risk and blocking progress\n2. Aurora synergy analysis validation due April 5 - required for post-board debrief April 7\n3. BU 4 divestiture criteria decision (NPAG-6) - blocking portfolio review finalization\n\n**Project Aurora - Finnish M&A:**\n- Board update delivered Feb 28 successfully\n- Finnish Competition Authority filing completed within deadline\n- Post-board debrief scheduled April 7\n- 2 open decision log items requiring steering committee closure\n\n**BU Portfolio Review:**\n- First draft delivered to CEO March 10 on schedule\n- CEO feedback round 2 incorporation due April 8\n- 1 open decision log item on BU 4 divestiture criteria\n\n**Org Restructuring:**\n- Cross-BU steering committee validation completed March 15\n- Henrik (BU 4) resistance remains active constraint\n- 3 open decision log items on implementation details\n\n**Budget Status:**\n- Q1 external advisor budget at 94% utilization\n- No pending invoice approvals requiring escalation\n- Project Njord Phase 2 contingency budget reserved pending quality checkpoint\n\n**Upcoming Milestones:**\n- April 4: CFO Sync (tomorrow)\n- April 5: Aurora synergy validation deadline\n- April 7: Aurora Steering Committee post-board debrief\n- April 8: Portfolio CEO feedback deadline\n\nFull digest details available in Notion workspace (NPAG-59).\n\nPlease let me know if you need any clarification or additional detail on any workstream.\n\nBest regards,\nSven\n\n--\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "Anna, Per,\n\nPlease find attached this week's strategic project status digest covering Project Aurora (Finnish M&A), BU Portfolio Review, and Org Restructuring.\n\nKey highlights:\n\n**Critical-Path Items Requiring Immediate Attention:**\n1. OVERDUE: Schedule 1:1 with Henrik (BU 4) regarding org restructuring concerns - his skepticism is creating reputational risk and blocking progress\n2. Aurora synergy analysis validation due April 5 - required for post-board debrief April 7\n3. BU 4 divestiture criteria decision (NPAG-6) - blocking portfolio review finalization\n\n**Project Aurora - Finnish M&A:**\n- Board update delivered Feb 28 successfully\n- Finnish Competition Authority filing completed within deadline\n- Post-board debrief scheduled April 7\n- 2 open decision log items requiring steering committee closure\n\n**BU Portfolio Review:**\n- First draft delivered to CEO March 10 on schedule\n- CEO feedback round 2 incorporation due April 8\n- 1 open decision log item on BU 4 divestiture criteria\n\n**Org Restructuring:**\n- Cross-BU steering committee validation completed March 15\n- Henrik (BU 4) resistance remains active constraint\n- 3 open decision log items on implementation details\n\n**Budget Status:**\n- Q1 external advisor budget at 94% utilization\n- No pending invoice approvals requiring escalation\n- Project Njord Phase 2 contingency budget reserved pending quality checkpoint\n\n**Upcoming Milestones:**\n- April 4: CFO Sync (tomorrow)\n- April 5: Aurora synergy validation deadline\n- April 7: Aurora Steering Committee post-board debrief\n- April 8: Portfolio CEO feedback deadline\n\nFull digest details available in Notion workspace (NPAG-59).\n\nPlease let me know if you need any clarification or additional detail on any workstream.\n\nBest regards,\nSven\n\n--\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "sent",
       "strategic_digest",
@@ -1568,7 +1568,7 @@
   {
     "message_id": "WMSG-5118",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Weekly Strategic Project Status Digest - Week 14 (April 3, 2026)",
     "date": "2026-04-04T17:15:00+01:00",
     "body": "Sven,\n\nThank you for the comprehensive digest. The format is excellent and gives me exactly the visibility I need across all three workstreams.\n\nTwo items for our sync tomorrow:\n\n1. The Henrik (BU 4) situation is concerning. His resistance to org restructuring is now bleeding into portfolio review credibility. We need a containment strategy before the April 7 steering committee.\n\n2. Q1 external advisor budget at 94% - we have very little cushion for any April surprises. Let's discuss Q2 budget allocation and whether we need to pre-approve any contingency reserves.\n\nSee you tomorrow at 14:00.\n\nAnna\n\n--\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -1581,7 +1581,7 @@
   {
     "message_id": "WMSG-5119",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Aurora synergy analysis validation - on track for April 5",
     "date": "2026-04-03T11:30:00+01:00",
     "body": "Sven,\n\nQuick update on the Aurora synergy analysis validation (TODO-587). I've completed the cross-functional review with operations and finance teams. Final validation report will be ready by end of day April 4, giving us one day buffer before the April 5 deadline.\n\nNo red flags identified. Synergy estimates remain within the range presented to the board Feb 28. Integration timeline assumptions validated with BU leads (except Henrik, who declined to participate - flagging this as a risk).\n\nI'll upload the final report to NPAG-1 by Friday morning so you have time to review before the April 7 steering committee.\n\nLars\n\n--\nLars Eriksson\nVP Corporate Development\nVasaholm Group",
@@ -1594,7 +1594,7 @@
   {
     "message_id": "WMSG-5120",
     "from": "per.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Portfolio review feedback round 2 - minor adjustments only",
     "date": "2026-04-02T15:45:00+01:00",
     "body": "Sven,\n\nI've reviewed the BU portfolio review first draft you delivered March 10. Overall excellent work - the strategic framework is clear and the financial analysis is solid.\n\nMy feedback for round 2 (due April 8) is relatively minor:\n\n1. Expand the BU 4 divestiture criteria section - this is the most contentious piece and needs more rigorous justification given Henrik's pushback\n2. Add a sensitivity analysis showing portfolio performance under different macro scenarios\n3. Clarify the timeline for BU 6 restructuring implementation\n\nNo need for a full rewrite - these are targeted enhancements. Emma should be able to incorporate them within the April 8 deadline.\n\nLet's discuss at the next executive committee meeting.\n\nPer\n\n--\nPer Johansson\nChief Executive Officer\nVasaholm Group",
@@ -1607,7 +1607,7 @@
   {
     "message_id": "WMSG-5121",
     "from": "compliance@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Project Aurora - Finnish Competition Authority filing timeline confirmation",
     "date": "2026-04-01T10:47:00+02:00",
     "body": "Sven,\n\nPer your request from last week's steering committee, we have confirmed the regulatory filing timeline for Project Aurora with our external regulatory advisors.\n\n**Finnish Competition Authority Filing Deadline: April 15, 2026**\n\nThis is based on the official regulatory guidance for divestiture notifications under the Finnish Competition Act. The 21-day filing window commenced on March 25, 2026 (the date of preliminary board approval for the transaction structure), giving us until April 15 to submit the notification.\n\nWe are tracking this in our compliance calendar (ref: COMP-2026-Q2-Aurora-FI) and have scheduled internal review milestones:\n- April 7: Draft filing package review\n- April 10: Final compliance sign-off\n- April 14: Submission to Kilpailuvirasto\n\nPlease note this is distinct from the merger notification timeline, which would have had a different trigger date. Our regulatory counsel (EcoCompliance Nordic) has confirmed this interpretation aligns with the transaction structure documented in the February board materials.\n\nLet me know if you need the full regulatory opinion document.\n\nBest regards,\nMikael Ström\nHead of Regulatory Compliance\nVasaholm Group\nmikael.strom@vasaholm.se",
@@ -1621,7 +1621,7 @@
   {
     "message_id": "WMSG-5122",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q1 external advisor spend - April forecast update",
     "date": "2026-03-31T16:22:00+02:00",
     "body": "Sven,\n\nThanks for the updated forecast. I see the Lakitoimisto Virtanen engagement is tracking within the approved budget envelope (SEK 420k allocated, SEK 387k invoiced through March).\n\nOne clarification: their scope of work includes both merger notification filing and divestiture compliance review, correct? I want to make sure we're not double-paying for overlapping regulatory work between them and EcoCompliance Nordic.\n\nCan you send me the engagement letter so I can verify the deliverables breakdown? Need this for the Q1 close audit trail.\n\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -1633,7 +1633,7 @@
   },
   {
     "message_id": "WMSG-5123",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "per.johansson@vasaholm.se",
     "subject": "FYI: Potential regulatory timeline discrepancy - Aurora filing",
     "date": "2026-04-02T17:15:00+02:00",
@@ -1647,7 +1647,7 @@
   {
     "message_id": "WMSG-5124",
     "from": "maria.svensson@cipab.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "CIP AB Phase 1 Delivery Timeline - Updated Estimate",
     "date": "2026-04-01T14:22:00+02:00",
     "body": "Hej Sven,\n\nFollowing our call last week, I wanted to provide an updated delivery estimate for the BU Portfolio Phase 1 analysis.\n\nOur team has encountered some data quality issues with BU 6's financial reporting (inconsistent EBITDA adjustments across quarters), which requires additional validation cycles. We're now targeting delivery on April 22, 2026 rather than the originally discussed April 18-20 window.\n\nThis puts us at the quality gate checkpoint you mentioned. I understand the Phase 2 commissioning decision depends on Phase 1 meeting your quality threshold, so we're allocating extra senior analyst time to ensure the deliverable is robust.\n\nKey deliverables for Phase 1:\n- Competitive positioning analysis (all 11 BUs)\n- ROIC benchmarking vs. Nordic industrial peers\n- Portfolio optimization scenarios (3 alternatives)\n- Phase 2 scope recommendation\n\nPlease confirm if April 22 still works for your board materials timeline. If you need preliminary findings earlier for planning purposes, I can arrange a readout call on April 18.\n\nBästa hälsningar,\nMaria Svensson\nSenior Partner, CIP AB\n+46 8 555 0142",
@@ -1661,7 +1661,7 @@
   {
     "message_id": "WMSG-5125",
     "from": "erik.lundqvist@nordicsynergy.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Aurora Synergy Analysis - Delivery Window Confirmation",
     "date": "2026-04-02T09:47:00+02:00",
     "body": "Sven,\n\nConfirming our synergy analysis delivery window for Project Aurora integration roadmap.\n\nWe're tracking to deliver between April 15-20, with April 18 as our target date. The 5-day uncertainty window reflects:\n\n1. Dependency on Finnish target's Q1 actuals (expected April 12-14)\n2. IT systems integration complexity assessment (vendor interviews ongoing)\n3. Procurement synergy validation (requires BU 4 and BU 7 data reconciliation)\n\nThe analysis will quantify:\n- Revenue synergies (cross-selling, market expansion): SEK 45-65M over 3 years\n- Cost synergies (procurement, overhead, facilities): SEK 120-180M over 3 years\n- Integration costs (one-time): SEK 85-110M\n- Implementation timeline: 18-24 months\n\nI understand Henrik (BU 4) has concerns about integration costs impacting his unit. Our analysis will provide scenario-specific cost allocation by BU, which should help address his questions.\n\nIf we hit any delays beyond April 20, I'll flag immediately. This is on our critical path.\n\nBest regards,\nErik Lundqvist\nPartner, Nordic Synergy Analytics\nerik.lundqvist@nordicsynergy.se\n+46 70 555 8834",
@@ -1674,11 +1674,11 @@
   },
   {
     "message_id": "WMSG-5126",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se, per.johansson@vasaholm.se",
     "subject": "Q2 Board Materials Critical Path - Resource Constraint Analysis",
     "date": "2026-04-03T16:15:00+02:00",
-    "body": "Anna, Per,\n\nAttached is my analysis of the Q2 board materials preparation critical path (May 14 board meeting, materials due May 7 per board secretary protocol).\n\n**WORKSTREAM DEPENDENCIES & BOTTLENECKS:**\n\n1. **Aurora Integration Roadmap** (Critical Path)\n   - Nordic Synergy Analytics synergy analysis: April 15-20 (5-day uncertainty)\n   - CFO financial review: 3 days (Anna)\n   - CEO narrative approval: 2 days (Per)\n   - Board secretary formatting: 2 days\n   - Total: 12-17 days from synergy delivery to board-ready\n\n2. **BU Portfolio Phase 2 Analysis**\n   - CIP AB Phase 1 quality gate: April 22 (confirmed today)\n   - Phase 2 commissioning decision: 1 day\n   - Phase 2 delivery: 12 days\n   - CFO review: 2 days\n   - Total: 15 days from Phase 1 → board-ready\n\n3. **Org Restructuring Implementation Plan**\n   - Henrik (BU 4) stakeholder alignment: uncertain, blocked on Aurora cost clarity\n   - Implementation plan drafting: 5 days\n   - Legal review: 3 days\n   - Total: 8+ days after Henrik alignment\n\n**CRITICAL PATH BOTTLENECK:**\nAurora synergy analysis is on critical path for both Aurora AND org restructuring workstreams (Henrik's concerns depend on integration cost allocation). Its 5-day delivery uncertainty propagates to all downstream tasks.\n\n**RESOURCE CONSTRAINT:**\nQ2 external advisor budget nearly exhausted. Remaining headroom: ~SEK 180k after committed invoices.\n\n**COST ANALYSIS:**\n\n*Parallel Advancement (commission all advisors now):*\n- Portfolio Phase 2 before Phase 1 quality gate: SEK 245k rework risk if Phase 1 fails threshold\n- Org restructuring consultant before Henrik alignment: SEK 180k rework risk if integration costs force scope reduction\n- Total rework exposure: SEK 425k\n\n*Serial Waiting (delay downstream advisors until upstream clarity):*\n- Wait for Aurora synergy → Portfolio Phase 2: 8-day delay, pushes finalization to May 18 (2 days past deadline)\n- Wait for Henrik alignment → Org restructuring consultant: 5-day delay, forces Q3 board deferral\n- Q3 deferral cost: SEK 1.2M quarterly EBITDA impact from delayed cost synergies\n\n**RECOMMENDED STRATEGY:**\n\n1. **Aurora workstream:** Strict serial mode (synergy → CFO → CEO). No parallel advancement due to high downstream dependency.\n\n2. **Portfolio workstream:** Set checkpoint at April 22 (Phase 1 delivery). Pre-approve Phase 2 contract but HOLD execution until quality confirmation. If quality meets threshold, authorize immediately to preserve May board slot. If fails, pivot to Lars Eriksson internal analysis and defer to Q3.\n\n3. **Org restructuring:** DEFER consultant engagement until Aurora cost clarity (expected April 25). Accept Q3 board deferral risk. Henrik's alignment is prerequisite; premature engagement = SEK 180k rework.\n\n**GO/NO-GO CHECKPOINT:** April 22, CIP AB Phase 1 delivery\n- GO: Quality meets threshold → authorize Phase 2 immediately\n- NO-GO: Quality fails → internal analysis (Lars) + Q3 deferral\n\n**ESCALATION PROTOCOL:**\nIf Aurora synergy delivery slips past April 20, I will immediately:\n1. Notify you both\n2. Assess board materials partial delivery options\n3. Recommend May board agenda adjustment\n\nThis approach minimizes rework cost (SEK 425k → SEK 0-245k) while preserving 2 of 3 workstreams for May board. Org restructuring deferral is the least-bad option given Henrik's current resistance and Aurora dependency.\n\nPlease confirm if this logic aligns with your priorities. I'll document the decision rationale in Notion NPAG-51 once I have your sign-off.\n\nSven\n\n--\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group\nsven.lindgren@vasaholm.se\n+46 70 555 1234",
+    "body": "Anna, Per,\n\nAttached is my analysis of the Q2 board materials preparation critical path (May 14 board meeting, materials due May 7 per board secretary protocol).\n\n**WORKSTREAM DEPENDENCIES & BOTTLENECKS:**\n\n1. **Aurora Integration Roadmap** (Critical Path)\n   - Nordic Synergy Analytics synergy analysis: April 15-20 (5-day uncertainty)\n   - CFO financial review: 3 days (Anna)\n   - CEO narrative approval: 2 days (Per)\n   - Board secretary formatting: 2 days\n   - Total: 12-17 days from synergy delivery to board-ready\n\n2. **BU Portfolio Phase 2 Analysis**\n   - CIP AB Phase 1 quality gate: April 22 (confirmed today)\n   - Phase 2 commissioning decision: 1 day\n   - Phase 2 delivery: 12 days\n   - CFO review: 2 days\n   - Total: 15 days from Phase 1 → board-ready\n\n3. **Org Restructuring Implementation Plan**\n   - Henrik (BU 4) stakeholder alignment: uncertain, blocked on Aurora cost clarity\n   - Implementation plan drafting: 5 days\n   - Legal review: 3 days\n   - Total: 8+ days after Henrik alignment\n\n**CRITICAL PATH BOTTLENECK:**\nAurora synergy analysis is on critical path for both Aurora AND org restructuring workstreams (Henrik's concerns depend on integration cost allocation). Its 5-day delivery uncertainty propagates to all downstream tasks.\n\n**RESOURCE CONSTRAINT:**\nQ2 external advisor budget nearly exhausted. Remaining headroom: ~SEK 180k after committed invoices.\n\n**COST ANALYSIS:**\n\n*Parallel Advancement (commission all advisors now):*\n- Portfolio Phase 2 before Phase 1 quality gate: SEK 245k rework risk if Phase 1 fails threshold\n- Org restructuring consultant before Henrik alignment: SEK 180k rework risk if integration costs force scope reduction\n- Total rework exposure: SEK 425k\n\n*Serial Waiting (delay downstream advisors until upstream clarity):*\n- Wait for Aurora synergy → Portfolio Phase 2: 8-day delay, pushes finalization to May 18 (2 days past deadline)\n- Wait for Henrik alignment → Org restructuring consultant: 5-day delay, forces Q3 board deferral\n- Q3 deferral cost: SEK 1.2M quarterly EBITDA impact from delayed cost synergies\n\n**RECOMMENDED STRATEGY:**\n\n1. **Aurora workstream:** Strict serial mode (synergy → CFO → CEO). No parallel advancement due to high downstream dependency.\n\n2. **Portfolio workstream:** Set checkpoint at April 22 (Phase 1 delivery). Pre-approve Phase 2 contract but HOLD execution until quality confirmation. If quality meets threshold, authorize immediately to preserve May board slot. If fails, pivot to Lars Eriksson internal analysis and defer to Q3.\n\n3. **Org restructuring:** DEFER consultant engagement until Aurora cost clarity (expected April 25). Accept Q3 board deferral risk. Henrik's alignment is prerequisite; premature engagement = SEK 180k rework.\n\n**GO/NO-GO CHECKPOINT:** April 22, CIP AB Phase 1 delivery\n- GO: Quality meets threshold → authorize Phase 2 immediately\n- NO-GO: Quality fails → internal analysis (Lars) + Q3 deferral\n\n**ESCALATION PROTOCOL:**\nIf Aurora synergy delivery slips past April 20, I will immediately:\n1. Notify you both\n2. Assess board materials partial delivery options\n3. Recommend May board agenda adjustment\n\nThis approach minimizes rework cost (SEK 425k → SEK 0-245k) while preserving 2 of 3 workstreams for May board. Org restructuring deferral is the least-bad option given Henrik's current resistance and Aurora dependency.\n\nPlease confirm if this logic aligns with your priorities. I'll document the decision rationale in Notion NPAG-51 once I have your sign-off.\n\nSven\n\n--\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group\nstefan.ljungberg@vasaholm.se\n+46 70 555 1234",
     "labels": [
       "board-materials",
       "critical-path",
@@ -1689,7 +1689,7 @@
   {
     "message_id": "WMSG-5127",
     "from": "helena.bergstrom@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q2 Board Secretary Protocol - Materials Deadline",
     "date": "2026-03-28T11:05:00+01:00",
     "body": "Sven,\n\nConfirming the Q2 board materials finalization deadline: May 7, 2026 by 17:00.\n\nThis maintains our standard 5 business days prior to the board meeting (May 14) for board member review and any last-minute formatting adjustments.\n\nPlease ensure all three strategic workstreams (Aurora, portfolio, org restructuring) are locked by this deadline. Any materials submitted after May 7 will not be included in the board packet.\n\nLet me know if you foresee any timeline risks.\n\nHelena Bergström\nBoard Secretary\nVasaholm Group",
@@ -1702,7 +1702,7 @@
   {
     "message_id": "WMSG-5128",
     "from": "per.johansson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Q2 Board Materials - Three Workstream Integration Request",
     "date": "2026-04-01T14:15:00+01:00",
     "body": "Sven,\n\nFor the May 14 board meeting, I need you to prepare integrated materials covering our three major strategic initiatives:\n\n1. Project Aurora post-acquisition integration roadmap - the board will want to see our 100-day plan and key milestones\n2. BU portfolio optimization recommendations - your analysis on which units to invest in, divest, or restructure\n3. Org restructuring implementation timeline - the cross-BU changes we discussed, including the governance model\n\nI know these are complex workstreams, but the board needs a coherent narrative showing how these pieces fit together. Can you coordinate the necessary steering committees and get me a draft framework by end of April? We'll need CFO sign-off on the financial implications as well.\n\nLet me know if you see any major obstacles.\n\nPer",
@@ -1715,7 +1715,7 @@
   },
   {
     "message_id": "WMSG-5129",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "per.johansson@vasaholm.se",
     "subject": "Re: Q2 Board Materials - Three Workstream Integration Request",
     "date": "2026-04-03T16:45:00+01:00",
@@ -1730,7 +1730,7 @@
   {
     "message_id": "WMSG-5130",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "CFO availability for Q2 board materials committees",
     "date": "2026-04-02T10:30:00+01:00",
     "body": "Sven,\n\nPer mentioned you're coordinating steering committees for the May board materials. I'm blocked out April 15-17 for the annual audit finalization with PwC, so I cannot participate in any committees during that window.\n\nAlso, please ensure any financial validation committees happen after April 10 - that's when we'll have final Q1 close numbers from all BUs. Lars is still chasing down some accruals from BU 6.\n\nLet me know the proposed schedule when you have it.\n\nAnna",
@@ -1743,7 +1743,7 @@
   {
     "message_id": "WMSG-5131",
     "from": "lars.eriksson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "BU 6 Q1 financial data - delayed until April 9",
     "date": "2026-04-01T09:20:00+01:00",
     "body": "Sven,\n\nHeads up that BU 6's Q1 close is running 2 days behind schedule due to a late supplier invoice reconciliation. We won't have validated numbers until April 9 at the earliest.\n\nIf you're planning any portfolio analysis work that needs complete BU financials, factor in this delay.\n\nLars",
@@ -1755,11 +1755,11 @@
   },
   {
     "message_id": "WMSG-5132",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "URGENT: Q2 External Advisor Budget Confirmation Request - Nordic M&A Retainer Decision",
     "date": "2026-03-25T16:45:00+01:00",
-    "body": "Anna,\n\nI need your guidance on a time-sensitive budget decision.\n\n**Situation:**\nNordic M&A Advisory (Johan Nyström) has offered a Q2 retainer proposal covering Aurora integration support and TransLog Sverige preliminary work. The proposal includes a 15% early-commitment discount (SEK 42,750 savings) that expires April 3 (9 days from now).\n\n**Budget Constraint:**\nQ2 external advisor budget allocation is pending board finalization of Q1 spend reconciliation, which I understand is scheduled for April 8-12 based on the calendar. Committing now would lock in significant savings but creates financial risk if Q2 budget is cut or reallocated.\n\n**Key Terms:**\n- Standard rate: SEK 285,000\n- Discounted rate: SEK 242,250 (expires April 3)\n- Payment: 50% upfront (SEK 121,125), non-refundable after April 10\n- Scope: Aurora integration (8-10 hrs/month) + TransLog preliminary assessment (12-15 hrs)\n\n**Request:**\nCan you provide either:\n1. Expedited confirmation of Q2 external advisor budget allocation (even provisional), OR\n2. Conditional approval authority for this engagement if it falls within expected Q2 budget parameters, OR\n3. Guidance on probability of Q2 budget cut based on Q1 overrun severity\n\nI've reviewed Q1 spend patterns in the Notion decision log. We're tracking ~SEK 187k remaining in Q1 after committed invoices, which suggests we stayed within the quarterly cap despite the Linklaters overrun. If Q2 allocation follows the same SEK 500k baseline, the retainer would consume ~48% of quarterly budget but preserve capacity for ad-hoc needs.\n\n**Decision Timeline:**\nI need to respond to Johan by April 3. If budget confirmation isn't feasible before then, I'm prepared to decline the discount and request standard-rate quote post-confirmation, but wanted to surface the opportunity cost (SEK 42,750) for your consideration.\n\nLet me know if you need additional context on the retainer scope or Q1 spend reconciliation.\n\nBest regards,\nSven\n\n---\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group\nsven.lindgren@vasaholm.se\n+46 70 555 1234",
+    "body": "Anna,\n\nI need your guidance on a time-sensitive budget decision.\n\n**Situation:**\nNordic M&A Advisory (Johan Nyström) has offered a Q2 retainer proposal covering Aurora integration support and TransLog Sverige preliminary work. The proposal includes a 15% early-commitment discount (SEK 42,750 savings) that expires April 3 (9 days from now).\n\n**Budget Constraint:**\nQ2 external advisor budget allocation is pending board finalization of Q1 spend reconciliation, which I understand is scheduled for April 8-12 based on the calendar. Committing now would lock in significant savings but creates financial risk if Q2 budget is cut or reallocated.\n\n**Key Terms:**\n- Standard rate: SEK 285,000\n- Discounted rate: SEK 242,250 (expires April 3)\n- Payment: 50% upfront (SEK 121,125), non-refundable after April 10\n- Scope: Aurora integration (8-10 hrs/month) + TransLog preliminary assessment (12-15 hrs)\n\n**Request:**\nCan you provide either:\n1. Expedited confirmation of Q2 external advisor budget allocation (even provisional), OR\n2. Conditional approval authority for this engagement if it falls within expected Q2 budget parameters, OR\n3. Guidance on probability of Q2 budget cut based on Q1 overrun severity\n\nI've reviewed Q1 spend patterns in the Notion decision log. We're tracking ~SEK 187k remaining in Q1 after committed invoices, which suggests we stayed within the quarterly cap despite the Linklaters overrun. If Q2 allocation follows the same SEK 500k baseline, the retainer would consume ~48% of quarterly budget but preserve capacity for ad-hoc needs.\n\n**Decision Timeline:**\nI need to respond to Johan by April 3. If budget confirmation isn't feasible before then, I'm prepared to decline the discount and request standard-rate quote post-confirmation, but wanted to surface the opportunity cost (SEK 42,750) for your consideration.\n\nLet me know if you need additional context on the retainer scope or Q1 spend reconciliation.\n\nBest regards,\nSven\n\n---\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group\nstefan.ljungberg@vasaholm.se\n+46 70 555 1234",
     "labels": [
       "urgent",
       "finance",
@@ -1770,7 +1770,7 @@
   {
     "message_id": "WMSG-5133",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Q2 External Advisor Budget Confirmation Request - Nordic M&A Retainer Decision",
     "date": "2026-03-26T09:12:00+01:00",
     "body": "Sven,\n\nThanks for flagging this. Unfortunately, I can't provide definitive Q2 budget confirmation before the board reconciliation meeting (April 10). The Q1 overrun situation is more complex than the headline numbers suggest - we had three unplanned regulatory compliance expenses that consumed contingency reserves, and the board wants full visibility before approving Q2 allocations.\n\n**Provisional Guidance:**\nBased on current Q1 tracking, I expect Q2 external advisor budget to be in the SEK 450-500k range (vs. SEK 500k baseline). However, there's a non-trivial risk (~25-30%) that the board reduces it to SEK 400k if they decide to reallocate funds to the Project Njord contingency reserve (given the Phase 1 vendor performance issues).\n\nIf the retainer is SEK 242k and you're confident it's strategically essential (Aurora integration + TransLog prelim work both sound high-value), the expected loss calculation would be:\n- Path A (commit now): 70% chance of approval × SEK 42,750 savings - 30% chance of cut × SEK 121,125 non-refundable = SEK -6,443 expected loss\n- Path B (wait): 100% chance × SEK 42,750 discount loss = SEK -42,750 certain loss\n\nPath A is technically optimal if your probability estimates are accurate, but it does create execution risk if the board cuts Q2 budget and you've already committed the upfront payment.\n\n**My Recommendation:**\nGiven the uncertainty and the fact that we're only 7-12 days away from confirmation, I'd suggest waiting for board approval. The SEK 42,750 discount is meaningful but not material relative to the strategic value of the work itself. If Johan is willing to hold the discount for 3-4 extra days with a letter of intent (as he mentioned), that might be a middle path worth exploring.\n\nLet me know if you want to discuss further. I'll have better visibility after the CFO budget review on April 8.\n\nBest,\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group\nanna.karlsson@vasaholm.se\n+46 8 555 1202",
@@ -1782,7 +1782,7 @@
   },
   {
     "message_id": "WMSG-5134",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "CFO Approval Request: CIP AB Portfolio Benchmarking Phase 2 (SEK 245k)",
     "date": "2026-04-03T10:15:00+01:00",
@@ -1796,7 +1796,7 @@
   },
   {
     "message_id": "WMSG-5135",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "lars.eriksson@vasaholm.se",
     "subject": "Heads-up: Potential CIP AB Phase 2 kickoff mid-April (pending CFO approval)",
     "date": "2026-04-03T10:30:00+01:00",
@@ -1809,11 +1809,11 @@
   },
   {
     "message_id": "WMSG-5136",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "anna.karlsson@vasaholm.se",
     "subject": "URGENT: Q2 External Advisor Budget Threshold Rescue - CFO Approval Request",
     "date": "2026-04-03T14:15:00+01:00",
-    "body": "Anna,\n\nI've identified a critical budget allocation issue that requires immediate CFO approval to preserve approximately SEK 96k in Q2 advisory savings.\n\n**Problem:**\nThe Lakitoimisto Virtanen invoice (SEK 125k, TXN-6056) for Project Aurora Finnish Competition Authority filing was incorrectly charged to the `external_advisor` budget code. Per KB-403, regulatory counsel services should be charged to `legal_compliance`. Correcting this drops our Q2 external advisor spend from SEK 800k to SEK 675k—falling below the SEK 800k threshold required for the 12% volume discount on ALL Q2 advisory services.\n\n**Financial Impact:**\nLosing the discount costs us ~SEK 96k across Aurora synergy analysis, portfolio benchmarking, and TransLog diligence. However, reversing the Virtanen invoice triggers a 4-week Finance reprocessing delay that would miss the April 10 Finnish Competition Authority filing deadline—unacceptable regulatory risk.\n\n**Proposed Solution:**\nAdd substitute advisory services (SEK 125-150k) from Q2 pre-qualified vendors to fill the gap and re-trigger the discount threshold. I've evaluated three options:\n\n**Option A: CIP AB Portfolio Benchmarking Phase 2 Scope Expansion (+SEK 135k)**\n- Delivers deeper competitive intelligence for BU portfolio review (CEO deliverable due March 10—already submitted, so this is enhancement)\n- Risk: 10-day delivery delay may push insights past board materials deadline\n- Strategic value: HIGH (board explicitly requested deeper market positioning analysis)\n\n**Option B: Nordic Synergy Analytics Aurora Integration Roadmap (+SEK 140k)**\n- Board requested post-merger integration planning for Aurora\n- Non-critical-path: can be deferred to Q3 without material impact\n- Strategic value: MEDIUM (useful but not time-sensitive)\n\n**Option C: Split Engagement (TransLog + Org Restructuring)**\n- TransLog preliminary market assessment (+SEK 75k): supports potential Q3 diligence acceleration\n- Org Restructuring stakeholder workshop facilitation (+SEK 55k): addresses Henrik Andersson's (BU 4) concerns documented in steering committee minutes\n- Strategic value: HIGH (portfolio diversification, addresses active friction point)\n\n**Recommendation: Option C**\nRationale:\n1. Portfolio diversification across two active strategic priorities (TransLog M&A pipeline, Org Restructuring stakeholder alignment)\n2. No timeline risk to critical-path deliverables (unlike Option A Phase 2 delay)\n3. Directly addresses Henrik's org restructuring concerns flagged in recent steering committee (proactive stakeholder management)\n4. Total cost SEK 130k fills threshold gap with SEK 5k buffer\n5. Both vendors (Bergman & Partners for TransLog, Nordic Strategy Advisors for workshop) are Q2 pre-qualified per KB-419\n\n**Net Financial Impact:**\n- Substitute services cost: SEK 130k\n- Discount savings preserved: SEK 96k\n- Net incremental cost: SEK 34k\n- Strategic value: addresses two board priorities with no compliance risk\n\n**Decision Criteria (\"What Would Change My Mind\"):**\nIf board explicitly deprioritizes TransLog pipeline development OR Henrik's org restructuring concerns are resolved via alternative means (e.g., direct CEO intervention), revert to Option B (Aurora integration roadmap) as fallback.\n\n**Request:**\nCFO approval to proceed with Option C substitute engagements, preserving Q2 volume discount threshold and avoiding Finnish Competition Authority filing deadline risk.\n\nPlease confirm by EOD Friday April 4 to allow vendor contracting next week.\n\nBest regards,\nSven Lindgren\nDirector of Strategy and Special Projects",
+    "body": "Anna,\n\nI've identified a critical budget allocation issue that requires immediate CFO approval to preserve approximately SEK 96k in Q2 advisory savings.\n\n**Problem:**\nThe Lakitoimisto Virtanen invoice (SEK 125k, TXN-6056) for Project Aurora Finnish Competition Authority filing was incorrectly charged to the `external_advisor` budget code. Per KB-403, regulatory counsel services should be charged to `legal_compliance`. Correcting this drops our Q2 external advisor spend from SEK 800k to SEK 675k—falling below the SEK 800k threshold required for the 12% volume discount on ALL Q2 advisory services.\n\n**Financial Impact:**\nLosing the discount costs us ~SEK 96k across Aurora synergy analysis, portfolio benchmarking, and TransLog diligence. However, reversing the Virtanen invoice triggers a 4-week Finance reprocessing delay that would miss the April 10 Finnish Competition Authority filing deadline—unacceptable regulatory risk.\n\n**Proposed Solution:**\nAdd substitute advisory services (SEK 125-150k) from Q2 pre-qualified vendors to fill the gap and re-trigger the discount threshold. I've evaluated three options:\n\n**Option A: CIP AB Portfolio Benchmarking Phase 2 Scope Expansion (+SEK 135k)**\n- Delivers deeper competitive intelligence for BU portfolio review (CEO deliverable due March 10—already submitted, so this is enhancement)\n- Risk: 10-day delivery delay may push insights past board materials deadline\n- Strategic value: HIGH (board explicitly requested deeper market positioning analysis)\n\n**Option B: Nordic Synergy Analytics Aurora Integration Roadmap (+SEK 140k)**\n- Board requested post-merger integration planning for Aurora\n- Non-critical-path: can be deferred to Q3 without material impact\n- Strategic value: MEDIUM (useful but not time-sensitive)\n\n**Option C: Split Engagement (TransLog + Org Restructuring)**\n- TransLog preliminary market assessment (+SEK 75k): supports potential Q3 diligence acceleration\n- Org Restructuring stakeholder workshop facilitation (+SEK 55k): addresses Henrik Andersson's (BU 4) concerns documented in steering committee minutes\n- Strategic value: HIGH (portfolio diversification, addresses active friction point)\n\n**Recommendation: Option C**\nRationale:\n1. Portfolio diversification across two active strategic priorities (TransLog M&A pipeline, Org Restructuring stakeholder alignment)\n2. No timeline risk to critical-path deliverables (unlike Option A Phase 2 delay)\n3. Directly addresses Henrik's org restructuring concerns flagged in recent steering committee (proactive stakeholder management)\n4. Total cost SEK 130k fills threshold gap with SEK 5k buffer\n5. Both vendors (Bergman & Partners for TransLog, Nordic Strategy Advisors for workshop) are Q2 pre-qualified per KB-419\n\n**Net Financial Impact:**\n- Substitute services cost: SEK 130k\n- Discount savings preserved: SEK 96k\n- Net incremental cost: SEK 34k\n- Strategic value: addresses two board priorities with no compliance risk\n\n**Decision Criteria (\"What Would Change My Mind\"):**\nIf board explicitly deprioritizes TransLog pipeline development OR Henrik's org restructuring concerns are resolved via alternative means (e.g., direct CEO intervention), revert to Option B (Aurora integration roadmap) as fallback.\n\n**Request:**\nCFO approval to proceed with Option C substitute engagements, preserving Q2 volume discount threshold and avoiding Finnish Competition Authority filing deadline risk.\n\nPlease confirm by EOD Friday April 4 to allow vendor contracting next week.\n\nBest regards,\nStefan Ljungberg\nDirector of Strategy and Special Projects",
     "labels": [
       "urgent",
       "cfo-approval",
@@ -1824,7 +1824,7 @@
   {
     "message_id": "WMSG-5137",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: URGENT: Q2 External Advisor Budget Threshold Rescue - CFO Approval Request",
     "date": "2026-04-03T16:45:00+01:00",
     "body": "Sven,\n\nApproved—Option C is the right call. Your rationale is sound: portfolio diversification, no critical-path timeline risk, and proactive stakeholder management for Henrik's concerns.\n\nTwo conditions:\n1. Document the decision in the Notion decision log (NPAG-68) with explicit \"what would change my mind\" criteria as you outlined\n2. Ensure both vendors (Bergman & Partners, Nordic Strategy Advisors) provide fixed-price quotes with no scope creep risk—I don't want this ballooning to SEK 150k+\n\nProceed with contracting. Copy me on final vendor agreements for audit trail.\n\nRegarding the Virtanen misallocation: I'll instruct Finance to leave TXN-6056 as-is (no reprocessing) and add a manual journal entry reclassifying it to `legal_compliance` for Q2 reporting. This preserves the April 10 filing timeline and keeps our books clean.\n\nWell caught on the threshold trap—this is exactly the kind of budget discipline the board audit committee expects.\n\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",
@@ -1836,7 +1836,7 @@
   },
   {
     "message_id": "WMSG-5138",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "johan.nystrom@nordicma.se",
     "subject": "TransLog preliminary market assessment - scope and pricing request",
     "date": "2026-04-03T17:30:00+01:00",
@@ -1849,11 +1849,11 @@
   },
   {
     "message_id": "WMSG-5139",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "eva.lindholm@vasaholm.se",
     "subject": "Org Restructuring stakeholder workshop facilitation - scope request",
     "date": "2026-04-03T17:45:00+01:00",
-    "body": "Eva,\n\nWe need to address Henrik Andersson's (BU 4) concerns about the org restructuring proposal documented in recent steering committee minutes. Rather than escalate directly to Per (CEO), I'd like to commission a facilitated stakeholder workshop to surface concerns and build alignment.\n\n**Objective:**\nFacilitate a half-day workshop with BU 4 leadership team to:\n1. Surface specific concerns about the restructuring proposal (roles, reporting lines, resource allocation)\n2. Identify compromise options that preserve strategic intent while addressing operational friction\n3. Document consensus recommendations for executive committee review\n\n**Participants:**\n- Henrik Andersson (BU 4 General Manager)\n- BU 4 leadership team (~5 people)\n- Sven Lindgren (observer/note-taker)\n- External facilitator (Nordic Strategy Advisors AB—neutral third party)\n\n**Budget:**\n- Target price: SEK 55,000 (fixed price, includes pre-workshop stakeholder interviews and post-workshop summary report)\n- Must be charged to Q2 `external_advisor` budget code\n\n**Timeline:**\n- Workshop date: Week of April 14 (pending Henrik's availability)\n- Deliverable: summary report within 5 business days\n\nCan you coordinate with Henrik's office to confirm availability and interest? I'll handle vendor contracting once we have calendar confirmation.\n\nBest regards,\nSven",
+    "body": "Eva,\n\nWe need to address Henrik Andersson's (BU 4) concerns about the org restructuring proposal documented in recent steering committee minutes. Rather than escalate directly to Per (CEO), I'd like to commission a facilitated stakeholder workshop to surface concerns and build alignment.\n\n**Objective:**\nFacilitate a half-day workshop with BU 4 leadership team to:\n1. Surface specific concerns about the restructuring proposal (roles, reporting lines, resource allocation)\n2. Identify compromise options that preserve strategic intent while addressing operational friction\n3. Document consensus recommendations for executive committee review\n\n**Participants:**\n- Henrik Andersson (BU 4 General Manager)\n- BU 4 leadership team (~5 people)\n- Stefan Ljungberg (observer/note-taker)\n- External facilitator (Nordic Strategy Advisors AB—neutral third party)\n\n**Budget:**\n- Target price: SEK 55,000 (fixed price, includes pre-workshop stakeholder interviews and post-workshop summary report)\n- Must be charged to Q2 `external_advisor` budget code\n\n**Timeline:**\n- Workshop date: Week of April 14 (pending Henrik's availability)\n- Deliverable: summary report within 5 business days\n\nCan you coordinate with Henrik's office to confirm availability and interest? I'll handle vendor contracting once we have calendar confirmation.\n\nBest regards,\nSven",
     "labels": [
       "org-restructuring",
       "stakeholder-management"
@@ -1862,11 +1862,11 @@
   },
   {
     "message_id": "WMSG-5140",
-    "from": "sven.lindgren@vasaholm.se",
+    "from": "stefan.ljungberg@vasaholm.se",
     "to": "sofia.lundberg@vasaholm.se, oscar.nilsson@vasaholm.se, henrik.andersson@vasaholm.se, mikael.strom@vasaholm.se, lars.eriksson@vasaholm.se, maria.lundqvist@vasaholm.se",
     "subject": "Q2 Board Materials Steering Committees - Availability Confirmation Request",
     "date": "2026-04-07T09:30:00+01:00",
-    "body": "Colleagues,\n\nAs we enter the 4-week window for Q2 board materials preparation, I need to coordinate a series of cross-BU steering committees with specific attendee requirements and compliance recording protocols.\n\nI've mapped the committee dependency chain and rotating availability constraints in our Notion workspace (NPAG-71). Before finalizing the schedule, I need to confirm:\n\n1. **Sofia (BU 3)**: Can you confirm your monthly financial close blackout windows remain April 1-3 and May 1-3? Any other constraints for the April 7 - May 2 period?\n\n2. **Oscar (BU 6)**: I have your Copenhagen travel weeks as April 7-9 and April 28-30. Are there any changes to this pattern? Can you confirm availability Thu-Fri on non-travel weeks?\n\n3. **Henrik (BU 4)**: Your Thursday 13:00-17:00 operations review is a fixed constraint. Can Emma Johansson serve as your delegate for any committees that must occur during that window, or should I strictly avoid Thursday afternoons?\n\n4. **Mikael (BU 2)**: Any quarterly planning cycle blackouts in April beyond the standard first week of quarter?\n\n5. **Lars (BU 1)**: Any travel or operational constraints I should be aware of for April 14-25?\n\n6. **Maria (BU 5)**: Availability for digital transformation budget committee (90 min) in Week 3 (April 21-25)?\n\nI'm working through several scheduling conflicts where required attendee combinations don't align with available time windows. In some cases, I may need to:\n- Delegate meeting host duties to CFO Anna Karlsson to enable parallel recording\n- Split larger committees into sequential sessions\n- Request deputy attendance where delegation authority permits\n\nPlease reply by **Wednesday April 9 EOD** with any newly-discovered constraints or corrections to the availability patterns I've documented. I'll circulate a proposed schedule by Friday April 11.\n\nRegards,\nSven\n\n---\nSven Lindgren\nDirector of Strategy and Special Projects\nVasaholm Group",
+    "body": "Colleagues,\n\nAs we enter the 4-week window for Q2 board materials preparation, I need to coordinate a series of cross-BU steering committees with specific attendee requirements and compliance recording protocols.\n\nI've mapped the committee dependency chain and rotating availability constraints in our Notion workspace (NPAG-71). Before finalizing the schedule, I need to confirm:\n\n1. **Sofia (BU 3)**: Can you confirm your monthly financial close blackout windows remain April 1-3 and May 1-3? Any other constraints for the April 7 - May 2 period?\n\n2. **Oscar (BU 6)**: I have your Copenhagen travel weeks as April 7-9 and April 28-30. Are there any changes to this pattern? Can you confirm availability Thu-Fri on non-travel weeks?\n\n3. **Henrik (BU 4)**: Your Thursday 13:00-17:00 operations review is a fixed constraint. Can Emma Johansson serve as your delegate for any committees that must occur during that window, or should I strictly avoid Thursday afternoons?\n\n4. **Mikael (BU 2)**: Any quarterly planning cycle blackouts in April beyond the standard first week of quarter?\n\n5. **Lars (BU 1)**: Any travel or operational constraints I should be aware of for April 14-25?\n\n6. **Maria (BU 5)**: Availability for digital transformation budget committee (90 min) in Week 3 (April 21-25)?\n\nI'm working through several scheduling conflicts where required attendee combinations don't align with available time windows. In some cases, I may need to:\n- Delegate meeting host duties to CFO Anna Karlsson to enable parallel recording\n- Split larger committees into sequential sessions\n- Request deputy attendance where delegation authority permits\n\nPlease reply by **Wednesday April 9 EOD** with any newly-discovered constraints or corrections to the availability patterns I've documented. I'll circulate a proposed schedule by Friday April 11.\n\nRegards,\nSven\n\n---\nStefan Ljungberg\nDirector of Strategy and Special Projects\nVasaholm Group",
     "labels": [
       "steering-committee",
       "scheduling",
@@ -1877,7 +1877,7 @@
   {
     "message_id": "WMSG-5141",
     "from": "oscar.nilsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q2 Board Materials Steering Committees - Availability Confirmation Request",
     "date": "2026-04-07T11:45:00+01:00",
     "body": "Sven,\n\nCopenhagen travel pattern confirmed for April: Week 1 (April 7-9) and Week 4 (April 28-30). I'm available Thu-Fri on non-travel weeks as you noted.\n\nOne additional constraint I should flag: Our BU 6 quarterly supplier review is scheduled for **April 22 (Tuesday) 09:00-12:00**. This is a fixed commitment with external vendors, so I'm unavailable that morning.\n\nFor the procurement harmonization committee (Committee C in your Notion doc), I reviewed the agenda and can confirm this is a priority for BU 6. If there's a conflict with my travel schedule, my deputy Karin Svensson can attend with full delegation authority for Phase 2 decisions.\n\nLet me know if you need any other details.\n\nBest,\nOscar\n\n---\nOscar Nilsson\nGeneral Manager, Business Unit 6\nVasaholm Group - Malmö Office",
@@ -1890,7 +1890,7 @@
   {
     "message_id": "WMSG-5142",
     "from": "henrik.andersson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Re: Q2 Board Materials Steering Committees - Availability Confirmation Request",
     "date": "2026-04-07T14:20:00+01:00",
     "body": "Sven,\n\nThursday 13:00-17:00 operations review is indeed a hard constraint every week. Emma Johansson can serve as my delegate for any committees during that window, but with one important caveat: she has delegation authority for **discussion and input**, but not for **final sign-off** on strategic decisions.\n\nFor the Finnish M&A integration planning committee (Committee A), I should attend personally given the sensitivity around BU 4's integration concerns. If that committee must occur on a Thursday afternoon, I can reschedule the operations review to Friday morning as a one-time exception, but I'd prefer to avoid that if possible.\n\nFor the procurement harmonization committee (Committee C), Emma can attend with full delegation authority if needed.\n\nOne other constraint: I have a **board audit committee pre-meeting on April 17 (Thursday) 10:00-12:00** that conflicts with the usual morning availability window. That's a one-time event, not recurring.\n\nLet me know how you want to handle Committee A scheduling.\n\nRegards,\nHenrik\n\n---\nHenrik Andersson\nGeneral Manager, Business Unit 4\nVasaholm Group - Gothenburg Office",
@@ -1904,7 +1904,7 @@
   {
     "message_id": "WMSG-5143",
     "from": "anna.karlsson@vasaholm.se",
-    "to": "sven.lindgren@vasaholm.se",
+    "to": "stefan.ljungberg@vasaholm.se",
     "subject": "Parallel meeting hosting - availability for delegation",
     "date": "2026-04-07T16:10:00+01:00",
     "body": "Sven,\n\nI saw your note about potentially delegating meeting host duties to enable parallel recording for the steering committees. I'm happy to serve as host for one of the parallel sessions if needed.\n\nMy availability for the April 14-25 window:\n- **BLACKOUT April 15-16** (board audit committee prep - confirmed)\n- Available April 14, 17-18, 21-25 for hosting duties\n\nA few logistical notes:\n- I'll need **48 hours advance notice** to set up the Zoom recording and compliance archival workflow\n- Please send me the agenda and attendee list at least 24 hours before the meeting so I can review context\n- If the committee involves financial approvals or budget decisions, I should attend anyway (not just host), so that's a natural fit for delegation\n\nLooking at your Notion dependency graph, Committee C (Procurement Harmonization) or Committee D (Digital Transformation Budget) would be good candidates for my hosting if you need to run them parallel with Committee B.\n\nLet me know once you've worked through the constraint analysis.\n\nBest,\nAnna\n\n---\nAnna Karlsson\nChief Financial Officer\nVasaholm Group",

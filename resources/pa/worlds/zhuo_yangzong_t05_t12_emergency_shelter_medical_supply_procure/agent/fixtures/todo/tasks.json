@@ -1069,7 +1069,7 @@
   {
     "task_id": "TODO-578",
     "title": "Register for PAHO Rural Health Coordination Hub inaugural meeting",
-    "description": "Contact Luis Morales (coordination@paho-partners.org) to register for South American Rural Health Coordination Hub monthly meetings launching March 2026. This coordination forum could help reduce operational duplication and improve resource sharing across regional partners.",
+    "description": "Contact Luis Morales (coordination@paho-partners.example) to register for South American Rural Health Coordination Hub monthly meetings launching March 2026. This coordination forum could help reduce operational duplication and improve resource sharing across regional partners.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-20",

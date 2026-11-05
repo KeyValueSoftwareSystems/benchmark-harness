@@ -8,7 +8,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "chen.rui@pumch.cn",
+    "created_by": "cheng.lei@pumch.example",
     "tags": [
       "reminder",
       "cme",
@@ -28,7 +28,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "reminder",
       "guidelines",
@@ -48,7 +48,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_shift_reminder_notification",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "reminder",
       "shift",
@@ -68,7 +68,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "reminder",
       "shift",
@@ -88,7 +88,7 @@
     "last_status": null,
     "last_run": null,
     "action": "send_handover_reminder",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "reminder",
       "handover",
@@ -108,7 +108,7 @@
     "last_status": null,
     "last_run": null,
     "action": "send_shift_handover_reminder",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "reminder",
       "shift",
@@ -128,7 +128,7 @@
     "last_status": null,
     "last_run": null,
     "action": "send_shift_reminder_notification",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "reminder",
       "shift",
@@ -142,26 +142,26 @@
   {
     "job_id": "JOB-708",
     "name": "weekly_cme_credit_reminder",
-    "description": "Weekly reminder to Chen Rui to log CME study session progress and check Q1 credit submission status. Originally set up in January 2026 to support MedEd360 module completion. Disabled in mid-February after a manual override was not reversed.",
+    "description": "Weekly reminder to Cheng Lei to log CME study session progress and check Q1 credit submission status. Originally set up in January 2026 to support MedEd360 module completion. Disabled in mid-February after a manual override was not reversed.",
     "cron_expression": "0 20 * * 0",
     "enabled": false,
     "last_status": "disabled",
     "last_run": "2026-02-15T20:00:00+08:00",
     "action": "send_cme_progress_reminder",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "cme",
       "self-development",
       "reminder",
       "weekly"
     ],
-    "notes": "Disabled 2026-02-16 — Chen Rui manually paused during high-intensity ICU rotation week and forgot to re-enable. Identified as contributing factor in missed CME sessions (weeks 7–12, Q1 2026). Corresponds to JOB-701 reference in habit review NOTE-143; this is the active scheduler record for that job function.",
+    "notes": "Disabled 2026-02-16 — Cheng Lei manually paused during high-intensity ICU rotation week and forgot to re-enable. Identified as contributing factor in missed CME sessions (weeks 7–12, Q1 2026). Corresponds to JOB-701 reference in habit review NOTE-143; this is the active scheduler record for that job function.",
     "execution_history": [
       {
         "run_time": "2026-01-05T20:00:00+08:00",
         "status": "success",
         "duration_seconds": 3,
-        "notes": "Reminder sent — Chen Rui acknowledged"
+        "notes": "Reminder sent — Cheng Lei acknowledged"
       },
       {
         "run_time": "2026-01-12T20:00:00+08:00",
@@ -192,13 +192,13 @@
   {
     "job_id": "JOB-709",
     "name": "weekly_arrhythmia_guidelines_digest",
-    "description": "Weekly automated digest of new arrhythmia and emergency cardiology guideline updates, delivered to Chen Rui's inbox every Monday morning. Intended to support ongoing Brugada and arrhythmia self-study habit. Currently disabled — was paused during the CardioCloud vendor evaluation period and not re-enabled.",
+    "description": "Weekly automated digest of new arrhythmia and emergency cardiology guideline updates, delivered to Cheng Lei's inbox every Monday morning. Intended to support ongoing Brugada and arrhythmia self-study habit. Currently disabled — was paused during the CardioCloud vendor evaluation period and not re-enabled.",
     "cron_expression": "0 8 * * 1",
     "enabled": false,
     "last_status": "disabled",
     "last_run": "2026-03-02T08:00:00+08:00",
     "action": "send_guidelines_digest_email",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "guidelines",
       "arrhythmia",
@@ -231,7 +231,7 @@
   {
     "job_id": "JOB-710",
     "name": "q1_final_week_shift_conflict_alert",
-    "description": "One-time automated alert job triggered by mandatory ICU surge coverage assignment for the Q1 final week (March 28–31). Sends conflict summary notification to Chen Rui's email, cross-referencing her calendar for overlapping obligations (CME deadline, Wu Ying coverage, vendor meetings) and generating a prioritized conflict flag.",
+    "description": "One-time automated alert job triggered by mandatory ICU surge coverage assignment for the Q1 final week (March 28–31). Sends conflict summary notification to Cheng Lei's email, cross-referencing her calendar for overlapping obligations (CME deadline, Wu Ying coverage, vendor meetings) and generating a prioritized conflict flag.",
     "cron_expression": "0 7 26 3 *",
     "enabled": true,
     "last_status": "success",
@@ -244,13 +244,13 @@
       "q1-final-week",
       "one-time"
     ],
-    "notes": "Triggered once on March 26, 2026 at 07:00 following issuance of surge protocol activation for March 28–31. Identified 3 conflicts: (1) Wu Ying ED coverage March 29 14:00–20:00 overlaps ICU surge block; (2) CardioCloud vendor meeting Option B March 30 16:00–17:00 overlaps ICU surge block; (3) NMEC CME study time eliminated by daytime surge blocks March 28–31. Alert dispatched to chen.rui@pumch.cn.",
+    "notes": "Triggered once on March 26, 2026 at 07:00 following issuance of surge protocol activation for March 28–31. Identified 3 conflicts: (1) Wu Ying ED coverage March 29 14:00–20:00 overlaps ICU surge block; (2) CardioCloud vendor meeting Option B March 30 16:00–17:00 overlaps ICU surge block; (3) NMEC CME study time eliminated by daytime surge blocks March 28–31. Alert dispatched to cheng.lei@pumch.example.",
     "execution_history": [
       {
         "run_time": "2026-03-26T07:00:00+08:00",
         "status": "success",
         "duration_seconds": 12,
-        "notes": "Conflict alert dispatched successfully. 3 conflicts identified and flagged. Notification delivered to chen.rui@pumch.cn."
+        "notes": "Conflict alert dispatched successfully. 3 conflicts identified and flagged. Notification delivered to cheng.lei@pumch.example."
       }
     ]
   },
@@ -282,13 +282,13 @@
     "last_status": "disabled",
     "last_run": "",
     "action": "send_study_progress_reminder",
-    "created_by": "Chen Rui",
+    "created_by": "Cheng Lei",
     "tags": [
       "cme",
       "study-habits",
       "weekly-reminder"
     ],
-    "notes": "Currently disabled. Chen Rui plans to enable for Q2 2026 as part of study habit redesign (TODO-659). Reminder should include: (1) Hours logged past week; (2) Cumulative Q2 progress vs. 1.5 hrs/week target; (3) Next peer session date with Dr. Li Wei.",
+    "notes": "Currently disabled. Cheng Lei plans to enable for Q2 2026 as part of study habit redesign (TODO-659). Reminder should include: (1) Hours logged past week; (2) Cumulative Q2 progress vs. 1.5 hrs/week target; (3) Next peer session date with Dr. Li Wei.",
     "execution_history": []
   },
   {

@@ -8,7 +8,7 @@
     "last_status": "deleted",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Lucia Moretti",
+    "created_by": "Lorena Mancini",
     "tags": [
       "banking",
       "regulatory",
@@ -28,7 +28,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_email",
-    "created_by": "Lucia Moretti",
+    "created_by": "Lorena Mancini",
     "tags": [
       "reminder",
       "coverage",
@@ -48,7 +48,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Lucia Moretti",
+    "created_by": "Lorena Mancini",
     "tags": [
       "reminder",
       "weekly",
@@ -68,7 +68,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Lucia Moretti",
+    "created_by": "Lorena Mancini",
     "tags": [
       "reminder",
       "weekly",
@@ -88,7 +88,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Lucia Moretti",
+    "created_by": "Lorena Mancini",
     "tags": [
       "reminder",
       "capital_ratios",
@@ -108,7 +108,7 @@
     "last_status": "deleted",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Lucia Moretti",
+    "created_by": "Lorena Mancini",
     "tags": [
       "reminder",
       "quarterly",
@@ -128,7 +128,7 @@
     "last_status": "never_run",
     "last_run": null,
     "action": "send_reminder_notification",
-    "created_by": "Lucia Moretti",
+    "created_by": "Lorena Mancini",
     "tags": [
       "reminder",
       "weekly",

@@ -2,12 +2,12 @@
   {
     "deck_id": "DECK-1",
     "name": "EU Green Taxonomy Impact on European Banks - Capital Reallocation Analysis 2026-2028",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "slides": [
       {
         "slide_number": 1,
         "title": "EU Green Taxonomy Impact on European Banks",
-        "content": "Capital Reallocation Analysis 2026-2028\n\nLucia Moretti\nEuropean Banks Equity Research\nMilan Investment Bank\n\nEuropean Banking Conference 2026\nFrankfurt, March 11, 2026",
+        "content": "Capital Reallocation Analysis 2026-2028\n\nLorena Mancini\nEuropean Banks Equity Research\nMilan Investment Bank\n\nEuropean Banking Conference 2026\nFrankfurt, March 11, 2026",
         "notes": "Opening slide. Introduce topic and scope."
       },
       {
@@ -41,12 +41,12 @@
   {
     "deck_id": "DECK-2",
     "name": "EU Green Taxonomy Impact on European Banks - Frankfurt Conference Version (Feb 2026)",
-    "owner": "lucia.moretti@milanbank.eu",
+    "owner": "lorena.mancini@milanbank.example",
     "slides": [
       {
         "slide_number": 1,
         "title": "EU Green Taxonomy Impact on European Banks",
-        "content": "Capital Reallocation Analysis 2026-2028\n\nLucia Moretti\nEuropean Banking Research Associate\nMilan Investment Bank\n\nEuropean Banking Conference 2026\nFrankfurt, February 26, 2026",
+        "content": "Capital Reallocation Analysis 2026-2028\n\nLorena Mancini\nEuropean Banking Research Associate\nMilan Investment Bank\n\nEuropean Banking Conference 2026\nFrankfurt, February 26, 2026",
         "notes": "Opening slide - 30 seconds. Introduce self, desk coverage (11 EU SIFI banks), research focus."
       },
       {

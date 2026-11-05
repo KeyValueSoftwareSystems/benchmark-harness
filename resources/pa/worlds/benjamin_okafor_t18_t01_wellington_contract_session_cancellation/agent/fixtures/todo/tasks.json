@@ -43,7 +43,7 @@
   },
   {
     "task_id": "TODO-504",
-    "title": "Review Wellington clinic schedule for February",
+    "title": "Review Westgate clinic schedule for February",
     "description": "Check private practice bookings for February. Confirm theatre slots for 12th and 26th. Follow up with two post-op patients from January.",
     "status": "pending",
     "priority": "medium",
@@ -57,7 +57,7 @@
   {
     "task_id": "TODO-505",
     "title": "Analyze February rota constraints and enumerate feasible shift-swap combinations",
-    "description": "Parse Linda's email to extract all constraints (hard: min coverage, WTD limits, Wellington commitments, approved leave; soft: fairness, consecutive nights). Build constraint hierarchy and identify which shifts have conflicts. Enumerate possible swap combinations using consultants Morrison, Chen, Patel, Thompson plus registrars Mitchell and Kumar. Calculate for each combination: coverage gaps, WTD compliance, fairness score, impact on training blocks.",
+    "description": "Parse Linda's email to extract all constraints (hard: min coverage, WTD limits, Westgate commitments, approved leave; soft: fairness, consecutive nights). Build constraint hierarchy and identify which shifts have conflicts. Enumerate possible swap combinations using consultants Morrison, Chen, Patel, Thompson plus registrars Mitchell and Kumar. Calculate for each combination: coverage gaps, WTD compliance, fairness score, impact on training blocks.",
     "status": "in_progress",
     "priority": "urgent",
     "due_date": "2026-03-06",
@@ -86,7 +86,7 @@
   {
     "task_id": "TODO-507",
     "title": "Document optimal rota arrangement with constraint satisfaction justification",
-    "description": "Select the shift-swap arrangement that: (1) satisfies all hard constraints (min coverage, WTD, Wellington, approved leave), (2) minimizes soft constraint violations (fairness within 1 shift of target, max 3 consecutive nights), (3) maintains trauma service standards. Document the swap logic, rationale for registrar deployment, backup arrangements, and WTD calculations for audit trail. Submit to Medical Staffing portal by Friday 5pm.",
+    "description": "Select the shift-swap arrangement that: (1) satisfies all hard constraints (min coverage, WTD, Westgate, approved leave), (2) minimizes soft constraint violations (fairness within 1 shift of target, max 3 consecutive nights), (3) maintains trauma service standards. Document the swap logic, rationale for registrar deployment, backup arrangements, and WTD calculations for audit trail. Submit to Medical Staffing portal by Friday 5pm.",
     "status": "pending",
     "priority": "urgent",
     "due_date": "2026-03-06",
@@ -114,8 +114,8 @@
   },
   {
     "task_id": "TODO-509",
-    "title": "URGENT: Resolve triple-booking conflict - Wellington/DCL supervision/Governance",
-    "description": "Emergency liver laceration running 4+ hours over. Three simultaneous commitments at 13:00-17:00 on 14th Jan: (1) Mr. Ashworth hernia repair at Wellington 14:00 - non-refundable travel £3.2k + visa deadline, (2) David Chen first solo DCL supervision 13:00 - training sign-off deadline affects Feb rota, (3) Clinical Governance presentation 15:00 - already rescheduled twice, final slot before CQC deadline. Must evaluate cascading costs and execute immediate mitigation.",
+    "title": "URGENT: Resolve triple-booking conflict - Westgate/DCL supervision/Governance",
+    "description": "Emergency liver laceration running 4+ hours over. Three simultaneous commitments at 13:00-17:00 on 14th Jan: (1) Mr. Ashworth hernia repair at Westgate 14:00 - non-refundable travel £3.2k + visa deadline, (2) David Chen first solo DCL supervision 13:00 - training sign-off deadline affects Feb rota, (3) Clinical Governance presentation 15:00 - already rescheduled twice, final slot before CQC deadline. Must evaluate cascading costs and execute immediate mitigation.",
     "status": "pending",
     "priority": "critical",
     "due_date": "2026-01-14",
@@ -129,7 +129,7 @@
   },
   {
     "task_id": "TODO-510",
-    "title": "Contact Wellington - arrange colleague coverage or reschedule Mr. Ashworth",
+    "title": "Contact Westgate - arrange colleague coverage or reschedule Mr. Ashworth",
     "description": "Call Elizabeth Thornbury immediately. Options: (1) Find another consultant for 14:00 slot - check James Morrison or Sarah Mitchell availability, (2) Offer reschedule with compensation for travel costs, (3) Negotiate delayed start if emergency case finishes. Patient has non-refundable Singapore flight Friday + visa deadline.",
     "status": "pending",
     "priority": "critical",
@@ -299,8 +299,8 @@
   },
   {
     "task_id": "TODO-522",
-    "title": "Confirm Wellington March schedule with Elizabeth Thornbury",
-    "description": "Review NHS commitments for March Wednesdays (5th, 12th, 19th, 26th) and confirm availability for Wellington private practice days. Theatre booking deadline Friday 14th Feb.",
+    "title": "Confirm Westgate March schedule with Elizabeth Thornbury",
+    "description": "Review NHS commitments for March Wednesdays (5th, 12th, 19th, 26th) and confirm availability for Westgate private practice days. Theatre booking deadline Friday 14th Feb.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-14",
@@ -341,8 +341,8 @@
   },
   {
     "task_id": "TODO-525",
-    "title": "Complete March Wellington billing digest for reconciliation meeting",
-    "description": "Compile comprehensive clinical activity summary for March Wellington sessions (5th and 19th). Must include: all procedure details, patient identifiers, billing codes, extended theatre time justifications, complications, and any procedure changes. Cross-reference Elizabeth's emails for confirmed procedures. Deadline: 26th March for Elizabeth's review before 28th meeting.",
+    "title": "Complete March Westgate billing digest for reconciliation meeting",
+    "description": "Compile comprehensive clinical activity summary for March Westgate sessions (5th and 19th). Must include: all procedure details, patient identifiers, billing codes, extended theatre time justifications, complications, and any procedure changes. Cross-reference Elizabeth's emails for confirmed procedures. Deadline: 26th March for Elizabeth's review before 28th meeting.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-03-26",
@@ -385,7 +385,7 @@
   },
   {
     "task_id": "TODO-528",
-    "title": "Wellington reconciliation meeting - Friday 28th March 14:00",
+    "title": "Westgate reconciliation meeting - Friday 28th March 14:00",
     "description": "Meeting with Elizabeth Thornbury to review March billing reconciliation. Bring: clinical activity digest, complexity justifications, responses to her queries (Singh mesh size, Bexley consent documentation). Discuss February Harrison code upgrade and any other discrepancies before final submission.",
     "status": "pending",
     "priority": "high",
@@ -414,7 +414,7 @@
   {
     "task_id": "TODO-530",
     "title": "Prioritize competing theatre cases - clinical urgency vs contractual obligations",
-    "description": "Rank all theatre commitments by priority tier: Grade 1 emergencies (absolute), contractual obligations (Wellington minimum), training deadlines (David Chen ARCP), Grade 2 emergencies (negotiable). Document prioritization rationale for clinical governance compliance.",
+    "description": "Rank all theatre commitments by priority tier: Grade 1 emergencies (absolute), contractual obligations (Westgate minimum), training deadlines (David Chen ARCP), Grade 2 emergencies (negotiable). Document prioritization rationale for clinical governance compliance.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-01-27",
@@ -427,8 +427,8 @@
   },
   {
     "task_id": "TODO-531",
-    "title": "Confirm Wellington Mrs. Pemberton case proceeding 29th January",
-    "description": "Respond to Elizabeth Thornbury confirming Mrs. Pemberton's complex cholecystectomy will proceed as scheduled on 29th January. Required to meet Wellington contractual minimum 6 hours/month. Current January total: 4.5 hours.",
+    "title": "Confirm Westgate Mrs. Pemberton case proceeding 29th January",
+    "description": "Respond to Elizabeth Thornbury confirming Mrs. Pemberton's complex cholecystectomy will proceed as scheduled on 29th January. Required to meet Westgate contractual minimum 6 hours/month. Current January total: 4.5 hours.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-28",
@@ -527,7 +527,7 @@
   },
   {
     "task_id": "TODO-538",
-    "title": "Confirm Wellington March schedule changes with Elizabeth Thornbury",
+    "title": "Confirm Westgate March schedule changes with Elizabeth Thornbury",
     "description": "Respond to Elizabeth re: (1) New urgent patient Mrs. Helena Fitzgerald - symptomatic gallstones, Bupa Gold, requesting 12 March clinic slot; (2) Reschedule Mr. David Patterson follow-up from 19 March to 26 March 11:00. Contact: 020 7483 5148",
     "status": "pending",
     "priority": "medium",
@@ -556,7 +556,7 @@
   {
     "task_id": "TODO-540",
     "title": "Add Mrs. Gladys Thompson to elective hernia clinic waiting list",
-    "description": "Routine referral from Dr. Priya Sharma - 68F with symptomatic 8cm incisional hernia post-cholecystectomy. NHS 485 362 1947. Schedule for outpatient assessment within 8-12 weeks. Patient contact: 020 7946 0234",
+    "description": "Routine referral from Dr. Parul Shankar - 68F with symptomatic 8cm incisional hernia post-cholecystectomy. NHS 485 362 1947. Schedule for outpatient assessment within 8-12 weeks. Patient contact: 020 7946 0234",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-02-28",
@@ -639,8 +639,8 @@
   },
   {
     "task_id": "TODO-546",
-    "title": "Review March private practice invoicing with Wellington admin",
-    "description": "Routine monthly task - review March Wellington clinic schedule against procedure documentation, identify any billing discrepancies or missing documentation before month-end reconciliation.",
+    "title": "Review March private practice invoicing with Westgate admin",
+    "description": "Routine monthly task - review March Westgate clinic schedule against procedure documentation, identify any billing discrepancies or missing documentation before month-end reconciliation.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-28",
@@ -710,7 +710,7 @@
   {
     "task_id": "TODO-551",
     "title": "Respond to administrative emails - billing queries and rota confirmations",
-    "description": "Process 12 accumulated administrative emails: Wellington billing queries (3), February rota confirmations (4), audit requests (2), training sign-off reminders (3). Estimated 45 minutes.",
+    "description": "Process 12 accumulated administrative emails: Westgate billing queries (3), February rota confirmations (4), audit requests (2), training sign-off reminders (3). Estimated 45 minutes.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-01-16",
@@ -723,7 +723,7 @@
   },
   {
     "task_id": "TODO-552",
-    "title": "Confirm Wellington March schedule with Elizabeth Thornbury",
+    "title": "Confirm Westgate March schedule with Elizabeth Thornbury",
     "description": "Reply to Elizabeth's email confirming private practice dates for March. Simple yes/no response to proposed dates. Estimated 5 minutes.",
     "status": "pending",
     "priority": "low",
@@ -794,8 +794,8 @@
   },
   {
     "task_id": "TODO-557",
-    "title": "Review Wellington billing reconciliation for January",
-    "description": "Check Wellington Hospital billing statements for January private practice sessions. Reconcile theatre time, anaesthesia costs, and prosthetic mesh charges for Mr. Ashworth's hernia repair and other cases. Flag any discrepancies with Elizabeth Thornbury before month-end close.",
+    "title": "Review Westgate billing reconciliation for January",
+    "description": "Check Westgate Hospital billing statements for January private practice sessions. Reconcile theatre time, anaesthesia costs, and prosthetic mesh charges for Mr. Ashworth's hernia repair and other cases. Flag any discrepancies with Elizabeth Thornbury before month-end close.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-01-31",
@@ -863,7 +863,7 @@
   {
     "task_id": "TODO-562",
     "title": "Schedule private patient follow-up - Mrs. Kowalski post-op",
-    "description": "Wellington patient Mrs. Kowalski (laparoscopic cholecystectomy 12th March) - schedule 2-week post-op follow-up appointment. Check wound healing, discuss return to normal activities, review pathology results if available.",
+    "description": "Westgate patient Mrs. Kowalski (laparoscopic cholecystectomy 12th March) - schedule 2-week post-op follow-up appointment. Check wound healing, discuss return to normal activities, review pathology results if available.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-26",
@@ -875,8 +875,8 @@
   },
   {
     "task_id": "TODO-563",
-    "title": "Map all February rota conflicts against Wellington and training commitments",
-    "description": "Extract complete February shift pattern from Medical Staffing email (5th, 8-9th, 12th, 21-22nd, 26th). Cross-reference against Wellington fixed Wednesdays and David Chen supervision sessions (13th, 27th). Identify which conflicts are Wellington contract-critical (5th, 12th, 26th = 3 sessions, need minimum 2) vs training governance-critical (13th supervision requires rest period after 12th night shift).",
+    "title": "Map all February rota conflicts against Westgate and training commitments",
+    "description": "Extract complete February shift pattern from Medical Staffing email (5th, 8-9th, 12th, 21-22nd, 26th). Cross-reference against Westgate fixed Wednesdays and David Chen supervision sessions (13th, 27th). Identify which conflicts are Westgate contract-critical (5th, 12th, 26th = 3 sessions, need minimum 2) vs training governance-critical (13th supervision requires rest period after 12th night shift).",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-03",
@@ -904,7 +904,7 @@
   },
   {
     "task_id": "TODO-565",
-    "title": "Evaluate Wellington contract flexibility - can 26th Feb session be rescheduled to early March?",
+    "title": "Evaluate Westgate contract flexibility - can 26th Feb session be rescheduled to early March?",
     "description": "Review Elizabeth Thornbury email and contract clause 7.3. February shows only 1 completed session (19th) after cancellations on 5th, 12th, 26th. Contract minimum is 2/month. Option 1: Schedule compensatory session within 10 days of month-end (before 10th March) to satisfy February minimum retrospectively. Option 2: Provide NHS emergency documentation for force majeure. Calculate risk: 26th cancellation already happened, so need early March makeup regardless of whether 5th/12th swaps succeed.",
     "status": "pending",
     "priority": "high",
@@ -933,7 +933,7 @@
   {
     "task_id": "TODO-567",
     "title": "Document final resolution plan with rationale for each conflict",
-    "description": "Create structured resolution showing: (1) 5th Feb - Amelia swap with 8-9th weekend exchange [WTD compliant, preserves Wellington], (2) 12th Feb - James swap [enables Wellington 12th, but creates 13th supervision conflict], (3) 13th Feb supervision - delegate to Rajesh Kumar [maintains training timeline, sacrifices continuity], (4) 26th Feb - already cancelled, schedule compensatory Wellington session 5th March [satisfies contract clause 7.3]. Identify if any conflicts require Clinical Director escalation for WTD exemption (none if above plan executes). Prepare communication to Linda Patterson, Elizabeth Thornbury, Rachel Thompson.",
+    "description": "Create structured resolution showing: (1) 5th Feb - Amelia swap with 8-9th weekend exchange [WTD compliant, preserves Westgate], (2) 12th Feb - James swap [enables Westgate 12th, but creates 13th supervision conflict], (3) 13th Feb supervision - delegate to Rajesh Kumar [maintains training timeline, sacrifices continuity], (4) 26th Feb - already cancelled, schedule compensatory Westgate session 5th March [satisfies contract clause 7.3]. Identify if any conflicts require Clinical Director escalation for WTD exemption (none if above plan executes). Prepare communication to Linda Patterson, Elizabeth Thornbury, Rachel Thompson.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-06",
@@ -975,8 +975,8 @@
   },
   {
     "task_id": "TODO-570",
-    "title": "Contact Elizabeth Thornbury - invoke medical emergency clause for Wellington cancellation",
-    "description": "Notify Wellington of third cancellation due to mother's stroke (immediate family medical emergency). Reference contract clause 4.3 medical emergency exemption. Propose makeup session 28 Feb. Provide documentation within 48 hours (flight booking, hospital letter from Lagos).",
+    "title": "Contact Elizabeth Thornbury - invoke medical emergency clause for Westgate cancellation",
+    "description": "Notify Westgate of third cancellation due to mother's stroke (immediate family medical emergency). Reference contract clause 4.3 medical emergency exemption. Propose makeup session 28 Feb. Provide documentation within 48 hours (flight booking, hospital letter from Lagos).",
     "status": "pending",
     "priority": "critical",
     "due_date": "2026-02-21",
@@ -1018,7 +1018,7 @@
   },
   {
     "task_id": "TODO-573",
-    "title": "Provide Wellington medical emergency documentation",
+    "title": "Provide Westgate medical emergency documentation",
     "description": "Submit supporting documentation for medical emergency exemption: (1) flight booking confirmation, (2) hospital letter from Lagos confirming mother's admission and diagnosis, (3) family contact details (Ada Okafor). Deadline: 48 hours from cancellation notification per contract clause 4.3.",
     "status": "pending",
     "priority": "high",
@@ -1046,8 +1046,8 @@
   },
   {
     "task_id": "TODO-575",
-    "title": "URGENT: Decide locum vs Wellington cancellation - multi-factor cost-benefit analysis",
-    "description": "Major trauma case Thursday 13th Feb conflicts with Wellington session AND David Chen supervision. Must decide: (A) Pay £800 locum for NHS shift, keep Wellington £2,400 revenue (net +£1,600) but lose David's supervision session, OR (B) Cancel Wellington (3rd reschedule, contract risk), cover NHS personally, complete David's sign-off. Factor in: Wellington contract clause 4.2 compliance (9/11 sessions, only 4 Thursdays left in Q1), David's deanery deadline 28 Feb, Elizabeth's warning about contract review. Calculate full multi-dimensional cost including financial, contractual, training, and reputational factors.",
+    "title": "URGENT: Decide locum vs Westgate cancellation - multi-factor cost-benefit analysis",
+    "description": "Major trauma case Thursday 13th Feb conflicts with Westgate session AND David Chen supervision. Must decide: (A) Pay £800 locum for NHS shift, keep Westgate £2,400 revenue (net +£1,600) but lose David's supervision session, OR (B) Cancel Westgate (3rd reschedule, contract risk), cover NHS personally, complete David's sign-off. Factor in: Westgate contract clause 4.2 compliance (9/11 sessions, only 4 Thursdays left in Q1), David's deanery deadline 28 Feb, Elizabeth's warning about contract review. Calculate full multi-dimensional cost including financial, contractual, training, and reputational factors.",
     "status": "pending",
     "priority": "critical",
     "due_date": "2026-02-13",
@@ -1076,8 +1076,8 @@
   },
   {
     "task_id": "TODO-577",
-    "title": "Email Elizabeth Thornbury - force majeure notification if cancelling Wellington",
-    "description": "If choosing Option B (cancel Wellington, cover NHS personally), must immediately notify Elizabeth with force majeure clause reference. Acknowledge this is 3rd reschedule, propose make-up session strategy to reach 11-session minimum by end Q1. Emphasize patient safety imperative for major trauma case. Attach trauma activation notification as evidence.",
+    "title": "Email Elizabeth Thornbury - force majeure notification if cancelling Westgate",
+    "description": "If choosing Option B (cancel Westgate, cover NHS personally), must immediately notify Elizabeth with force majeure clause reference. Acknowledge this is 3rd reschedule, propose make-up session strategy to reach 11-session minimum by end Q1. Emphasize patient safety imperative for major trauma case. Attach trauma activation notification as evidence.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-13",
@@ -1191,7 +1191,7 @@
   },
   {
     "task_id": "TODO-585",
-    "title": "Confirm final Wellington booking - Mr. Patterson hepatobiliary case Thu 5 Feb",
+    "title": "Confirm final Westgate booking - Mr. Patterson hepatobiliary case Thu 5 Feb",
     "description": "Elizabeth Thornbury requested final confirmation by end of day Wed 3 Feb for the rescheduled Thursday 5 Feb 08:00 slot. Verify no Royal London conflicts have emerged and send confirmation email.",
     "status": "pending",
     "priority": "high",
@@ -1233,8 +1233,8 @@
   },
   {
     "task_id": "TODO-588",
-    "title": "Prepare Q1 Wellington contract compliance summary for 6 Feb meeting",
-    "description": "Compile session count, any reschedules/swaps, and compliance documentation for Q1 contract review meeting with Wellington admin (EVT-355). Include justification for Jan 14 force majeure case and Feb 5 clinical necessity swap.",
+    "title": "Prepare Q1 Westgate contract compliance summary for 6 Feb meeting",
+    "description": "Compile session count, any reschedules/swaps, and compliance documentation for Q1 contract review meeting with Westgate admin (EVT-355). Include justification for Jan 14 force majeure case and Feb 5 clinical necessity swap.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-06",
@@ -1248,7 +1248,7 @@
   {
     "task_id": "TODO-589",
     "title": "Cross-check RCS Edinburgh lecture dates against all March commitments",
-    "description": "Verify three proposed dates (17th, 19th, 27th March) against: Wellington contract day (19th), NHS on-call shifts (17th night shift finishing 18th morning, 26th day shift), Clinical Governance quarterly meeting (27th afternoon), and David Chen training commitments. Edinburgh requires full-day commitment with 5-hour travel buffer.",
+    "description": "Verify three proposed dates (17th, 19th, 27th March) against: Westgate contract day (19th), NHS on-call shifts (17th night shift finishing 18th morning, 26th day shift), Clinical Governance quarterly meeting (27th afternoon), and David Chen training commitments. Edinburgh requires full-day commitment with 5-hour travel buffer.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-03-05",
@@ -1289,7 +1289,7 @@
   {
     "task_id": "TODO-592",
     "title": "Review David Chen's logbook progress for FRCS exam prep",
-    "description": "David needs two supervised trauma splenectomies before April FRCS. Check upcoming trauma case mix and identify suitable opportunities. Consider whether any Wellington cases could provide training opportunities within private practice constraints.",
+    "description": "David needs two supervised trauma splenectomies before April FRCS. Check upcoming trauma case mix and identify suitable opportunities. Consider whether any Westgate cases could provide training opportunities within private practice constraints.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-10",
@@ -1301,8 +1301,8 @@
   },
   {
     "task_id": "TODO-593",
-    "title": "Verify Wellington Q1 session count against official billing records",
-    "description": "Cross-check Elizabeth's informal warning (7/10 sessions completed) against Wellington billing system and contract documentation. Verify which sessions counted as 'cancelled' vs 'completed' in compliance review.",
+    "title": "Verify Westgate Q1 session count against official billing records",
+    "description": "Cross-check Elizabeth's informal warning (7/10 sessions completed) against Westgate billing system and contract documentation. Verify which sessions counted as 'cancelled' vs 'completed' in compliance review.",
     "status": "in_progress",
     "priority": "high",
     "due_date": "2026-02-25",
@@ -1329,7 +1329,7 @@
   {
     "task_id": "TODO-595",
     "title": "Calculate makeup session scheduling feasibility for March",
-    "description": "Review March NHS rota commitments and identify conflicts with proposed Wellington makeup sessions (March 5, 12, 19). Assess whether 3 additional Wednesday afternoon sessions can be accommodated without compromising emergency coverage.",
+    "description": "Review March NHS rota commitments and identify conflicts with proposed Westgate makeup sessions (March 5, 12, 19). Assess whether 3 additional Wednesday afternoon sessions can be accommodated without compromising emergency coverage.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-26",
@@ -1342,7 +1342,7 @@
   },
   {
     "task_id": "TODO-596",
-    "title": "Document decision rationale for proactive vs reactive Wellington response",
+    "title": "Document decision rationale for proactive vs reactive Westgate response",
     "description": "Create formal decision documentation explaining why informal channel information (Elizabeth's warning) should override official portal status ('all confirmed'). Include credibility assessment, financial risk calculation, and scheduling feasibility analysis.",
     "status": "pending",
     "priority": "medium",
@@ -1369,8 +1369,8 @@
   },
   {
     "task_id": "TODO-598",
-    "title": "URGENT: Calculate total March Wellington liquid funds and map against competing deadlines",
-    "description": "Extract March Wellington income from finance records (TXN-6005, TXN-6006, TXN-6007). Total available: £10,150 gross, £7,105 net after Wellington facility fee. Map against four competing demands: MDU insurance premium £2,750 (due immediate, coverage lapse if missed), HMRC tax payment £8,340 (due 31st March, 5% penalty + interest if late), Silverstone track-day deposit £450 (due 25th March, non-refundable, discretionary), Wellington billing reconciliation (due 28th March, relationship risk with Elizabeth). April Wellington income confirmed (EVT-369, EVT-370) but payment not until 15th April. Current liquid funds insufficient to cover all demands - need prioritization decision.",
+    "title": "URGENT: Calculate total March Westgate liquid funds and map against competing deadlines",
+    "description": "Extract March Westgate income from finance records (TXN-6005, TXN-6006, TXN-6007). Total available: £10,150 gross, £7,105 net after Westgate facility fee. Map against four competing demands: MDU insurance premium £2,750 (due immediate, coverage lapse if missed), HMRC tax payment £8,340 (due 31st March, 5% penalty + interest if late), Silverstone track-day deposit £450 (due 25th March, non-refundable, discretionary), Westgate billing reconciliation (due 28th March, relationship risk with Elizabeth). April Westgate income confirmed (EVT-369, EVT-370) but payment not until 15th April. Current liquid funds insufficient to cover all demands - need prioritization decision.",
     "status": "in_progress",
     "priority": "urgent",
     "due_date": "2026-03-27",
@@ -1385,7 +1385,7 @@
   {
     "task_id": "TODO-599",
     "title": "Assess consequence severity for each financial demand - irreversibility analysis",
-    "description": "Rank financial demands by consequence severity: (1) MDU insurance premium - IRREVERSIBLE consequence if missed (cannot operate privately without indemnity, Wellington contract breach, loss of £7k+ monthly income stream, no retroactive coverage possible); (2) HMRC tax payment - reversible but costly (5% penalty = £417 + 7.75% annual interest, reputational risk with HMRC); (3) Wellington billing reconciliation - relationship preservation with Elizabeth Thornbury (late submission damages coordinator relationship, may affect future session allocation); (4) Silverstone track-day - discretionary psychological benefit only (non-refundable deposit but no professional consequence, can defer to April income). Insurance lapse is the only truly irreversible outcome.",
+    "description": "Rank financial demands by consequence severity: (1) MDU insurance premium - IRREVERSIBLE consequence if missed (cannot operate privately without indemnity, Westgate contract breach, loss of £7k+ monthly income stream, no retroactive coverage possible); (2) HMRC tax payment - reversible but costly (5% penalty = £417 + 7.75% annual interest, reputational risk with HMRC); (3) Westgate billing reconciliation - relationship preservation with Elizabeth Thornbury (late submission damages coordinator relationship, may affect future session allocation); (4) Silverstone track-day - discretionary psychological benefit only (non-refundable deposit but no professional consequence, can defer to April income). Insurance lapse is the only truly irreversible outcome.",
     "status": "in_progress",
     "priority": "urgent",
     "due_date": "2026-03-27",
@@ -1399,7 +1399,7 @@
   {
     "task_id": "TODO-600",
     "title": "Calculate optimal payment sequence based on deadline urgency and consequence severity",
-    "description": "Determine payment priority sequence: (1) MDU insurance £2,750 - pay IMMEDIATELY (irreversible consequence, enables continued private practice); (2) HMRC tax £8,340 - pay by 31st March (hard deadline, financial penalty but reversible); (3) Wellington reconciliation confirmation - complete by 28th March (soft deadline, relationship preservation, no payment required now); (4) Silverstone track-day £450 - DEFER to April income (discretionary, deadline 25th March already passed, accept loss of provisional booking). Current available funds £7,105 insufficient for insurance + tax (total £11,090). Need to identify bridging options: delay tax payment and accept penalty (£417), request HMRC Time to Pay arrangement, or defer track-day and Wellington confirmation to prioritize insurance + partial tax payment.",
+    "description": "Determine payment priority sequence: (1) MDU insurance £2,750 - pay IMMEDIATELY (irreversible consequence, enables continued private practice); (2) HMRC tax £8,340 - pay by 31st March (hard deadline, financial penalty but reversible); (3) Westgate reconciliation confirmation - complete by 28th March (soft deadline, relationship preservation, no payment required now); (4) Silverstone track-day £450 - DEFER to April income (discretionary, deadline 25th March already passed, accept loss of provisional booking). Current available funds £7,105 insufficient for insurance + tax (total £11,090). Need to identify bridging options: delay tax payment and accept penalty (£417), request HMRC Time to Pay arrangement, or defer track-day and Westgate confirmation to prioritize insurance + partial tax payment.",
     "status": "pending",
     "priority": "urgent",
     "due_date": "2026-03-27",
@@ -1427,7 +1427,7 @@
   {
     "task_id": "TODO-602",
     "title": "Submit Q1 2026 trauma registry data - due 31st March",
-    "description": "Complete quarterly trauma registry submission: major trauma activations (ISS >15), 30-day outcomes, complications, M&M summaries. Required for trauma centre accreditation. Portal: trauma-registry.nhs.net/submit. Login: benjamin.okafor@nhs.net. Flag: this is a governance requirement but lower priority than financial crisis resolution.",
+    "description": "Complete quarterly trauma registry submission: major trauma activations (ISS >15), 30-day outcomes, complications, M&M summaries. Required for trauma centre accreditation. Portal: trauma-registry.nhs.example/submit. Login: brendan.okoro@nhs.example. Flag: this is a governance requirement but lower priority than financial crisis resolution.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-31",
@@ -1440,8 +1440,8 @@
   },
   {
     "task_id": "TODO-603",
-    "title": "Wellington Medical Director exemption documentation - submit within 24hrs",
-    "description": "Submit formal medical emergency exemption request to Wellington Medical Director (Dr. Phillips) with supporting documentation: NHS trauma activation details, coverage depth analysis, patient outcome summary. Required within 24 hours of cancellation per Section 7.3.",
+    "title": "Westgate Medical Director exemption documentation - submit within 24hrs",
+    "description": "Submit formal medical emergency exemption request to Westgate Medical Director (Dr. Phillips) with supporting documentation: NHS trauma activation details, coverage depth analysis, patient outcome summary. Required within 24 hours of cancellation per Section 7.3.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-03-14",
@@ -1455,8 +1455,8 @@
   },
   {
     "task_id": "TODO-604",
-    "title": "Confirm Wellington rescheduled sessions - 20th & 27th March",
-    "description": "Confirm availability for rescheduled Wellington sessions: Mr. Patel 20th March 08:30, Mrs. Okonkwo 27th March 12:00. Required to maintain Q1 contract compliance (need 8/8 sessions by 31st March).",
+    "title": "Confirm Westgate rescheduled sessions - 20th & 27th March",
+    "description": "Confirm availability for rescheduled Westgate sessions: Mr. Patel 20th March 08:30, Mrs. Okonkwo 27th March 12:00. Required to maintain Q1 contract compliance (need 8/8 sessions by 31st March).",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-03-13",
@@ -1484,8 +1484,8 @@
   },
   {
     "task_id": "TODO-606",
-    "title": "Review Q1 Wellington session schedule - ensure 8/8 minimum met",
-    "description": "Audit Q1 Wellington session count and confirm all 8 required sessions are scheduled before 31st March deadline. Current count: 6 completed + 2 scheduled (20th + 27th March) = 8/8 target.",
+    "title": "Review Q1 Westgate session schedule - ensure 8/8 minimum met",
+    "description": "Audit Q1 Westgate session count and confirm all 8 required sessions are scheduled before 31st March deadline. Current count: 6 completed + 2 scheduled (20th + 27th March) = 8/8 target.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-20",
@@ -1499,7 +1499,7 @@
   {
     "task_id": "TODO-607",
     "title": "URGENT: Resolve 29th January theatre collision - three overlapping commitments",
-    "description": "Triple-booking conflict detected for Thursday 29th January: (1) NHS trauma list 08:00-13:00 Theatre 2 Royal London [MANDATORY - cannot move], (2) Wellington private session request 09:00-14:00 Theatre 3 [high-value case, Elizabeth expecting response by 17:00 today], (3) David Chen training supervision 13:30-15:00 Theatre 5 Royal London [delegatable but impacts registrar portfolio timeline]. Need to: scan WTD compliance for alternative dates, check post-call recovery windows for Friday 30th afternoon option, assess delegation options for David's case, calculate Wellington quarterly session impact if declined, and propose staggered alternatives to Elizabeth by end of day.",
+    "description": "Triple-booking conflict detected for Thursday 29th January: (1) NHS trauma list 08:00-13:00 Theatre 2 Royal London [MANDATORY - cannot move], (2) Westgate private session request 09:00-14:00 Theatre 3 [high-value case, Elizabeth expecting response by 17:00 today], (3) David Chen training supervision 13:30-15:00 Theatre 5 Royal London [delegatable but impacts registrar portfolio timeline]. Need to: scan WTD compliance for alternative dates, check post-call recovery windows for Friday 30th afternoon option, assess delegation options for David's case, calculate Westgate quarterly session impact if declined, and propose staggered alternatives to Elizabeth by end of day.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-22",
@@ -1529,7 +1529,7 @@
   {
     "task_id": "TODO-609",
     "title": "Assess David Chen training case delegation options",
-    "description": "David Chen requesting supervision for lap chole 29th Jan 13:30-15:00 (ST6 portfolio sign-off). Original supervisor Mr. Harrison unavailable. Options: (1) Supervise myself if Wellington conflict resolved differently, (2) Delegate to another consultant (check James Morrison or Amelia Patel availability), (3) Reschedule David's case to different day if patient/theatre flexibility exists. David emphasized March ARCP deadline pressure. Need to balance training obligations against Wellington income opportunity and registrar career progression impact. Document delegation rationale if choosing option 2.",
+    "description": "David Chen requesting supervision for lap chole 29th Jan 13:30-15:00 (ST6 portfolio sign-off). Original supervisor Mr. Harrison unavailable. Options: (1) Supervise myself if Westgate conflict resolved differently, (2) Delegate to another consultant (check James Morrison or Amelia Patel availability), (3) Reschedule David's case to different day if patient/theatre flexibility exists. David emphasized March ARCP deadline pressure. Need to balance training obligations against Westgate income opportunity and registrar career progression impact. Document delegation rationale if choosing option 2.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-01-22",
@@ -1542,8 +1542,8 @@
   },
   {
     "task_id": "TODO-610",
-    "title": "Calculate Wellington Q1 session count impact if 29th declined",
-    "description": "If I decline Elizabeth's 29th January request, need to verify Q1 2026 Wellington session count against contractual minimum (reference KB-406). Current confirmed sessions: 8th Jan (done), 15th Jan (done), 22nd Jan (done), 29th Jan (regular Wednesday - already scheduled), plus any ad-hoc additions. Contract requires minimum 12 sessions per quarter. Am I at risk of falling below minimum if I decline this additional Thursday request? Check if February/March schedule has sufficient buffer. If close to minimum, may need to accept suboptimal scheduling to maintain contract compliance.",
+    "title": "Calculate Westgate Q1 session count impact if 29th declined",
+    "description": "If I decline Elizabeth's 29th January request, need to verify Q1 2026 Westgate session count against contractual minimum (reference KB-406). Current confirmed sessions: 8th Jan (done), 15th Jan (done), 22nd Jan (done), 29th Jan (regular Wednesday - already scheduled), plus any ad-hoc additions. Contract requires minimum 12 sessions per quarter. Am I at risk of falling below minimum if I decline this additional Thursday request? Check if February/March schedule has sufficient buffer. If close to minimum, may need to accept suboptimal scheduling to maintain contract compliance.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-01-22",
@@ -1556,7 +1556,7 @@
   },
   {
     "task_id": "TODO-611",
-    "title": "DEFERRED - Schedule Wellington contract discussion with Elizabeth",
+    "title": "DEFERRED - Schedule Westgate contract discussion with Elizabeth",
     "description": "Need to arrange meeting with Elizabeth Thornbury to discuss proposed contract amendments: session minimums, cancellation penalties, and income structure. Draft email prepared but not sent - waiting for better timing after recent Mr. Ashworth rescheduling situation settles.",
     "status": "deferred",
     "priority": "medium",
@@ -1571,8 +1571,8 @@
   },
   {
     "task_id": "TODO-612",
-    "title": "DELETED - Prepare financial analysis for Wellington contract negotiation",
-    "description": "Model different contract scenarios: current 36-session minimum vs. tiered penalty structure vs. hybrid income guarantee. Calculate net income impact of each option accounting for NHS emergency cancellations frequency. Need to reference last 12 months Wellington session data and cancellation patterns.",
+    "title": "DELETED - Prepare financial analysis for Westgate contract negotiation",
+    "description": "Model different contract scenarios: current 36-session minimum vs. tiered penalty structure vs. hybrid income guarantee. Calculate net income impact of each option accounting for NHS emergency cancellations frequency. Need to reference last 12 months Westgate session data and cancellation patterns.",
     "status": "deleted",
     "priority": "medium",
     "due_date": "2026-02-19",
@@ -1587,7 +1587,7 @@
   },
   {
     "task_id": "TODO-613",
-    "title": "DEFERRED - Review Wellington contract cancellation clause legal language",
+    "title": "DEFERRED - Review Westgate contract cancellation clause legal language",
     "description": "Re-read current contract to understand exact wording of force majeure provisions and penalty structure. Jennifer Walsh mentioned 'pattern of cancellations' concern - need to understand if this is contractually defined or discretionary interpretation. Consider whether legal advice needed before proposing amendments.",
     "status": "deferred",
     "priority": "low",
@@ -1633,7 +1633,7 @@
   },
   {
     "task_id": "TODO-616",
-    "title": "Wellington Q1 contract compliance - schedule 2 additional sessions",
+    "title": "Westgate Q1 contract compliance - schedule 2 additional sessions",
     "description": "Elizabeth Thornbury final reminder: need 4 more sessions to meet Q1 minimum (currently 4/8). Already scheduled: 5 Feb, 12 Mar (provisional). Must confirm 2 additional dates by 30 Jan or face £2,500 penalty + contract review. Options: negotiate force majeure for Dec/Jan cancellations OR find dates in Feb/Mar.",
     "status": "pending",
     "priority": "high",
@@ -1649,7 +1649,7 @@
   {
     "task_id": "TODO-617",
     "title": "Complete David Chen damage control surgery training sign-off",
-    "description": "Sign off DCL competency for 14 Jan liver laceration case (RLH-TRAUMA-2026-0114-002). Final case for ST7 module, ARCP deadline 15 Feb. Training system: https://training.nhs.net/signoff/DCL-ST7-CHEN-004. Due 31 Jan.",
+    "description": "Sign off DCL competency for 14 Jan liver laceration case (RLH-TRAUMA-2026-0114-002). Final case for ST7 module, ARCP deadline 15 Feb. Training system: https://training.nhs.example/signoff/DCL-ST7-CHEN-004. Due 31 Jan.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-31",
@@ -1664,7 +1664,7 @@
   {
     "task_id": "TODO-618",
     "title": "GMC revalidation documentation completion",
-    "description": "Complete outstanding revalidation items by 5 Feb: (1) 2 more reflective practice entries, (2) 2 more colleague feedback forms, (3) patient feedback review/sign-off, (4) CPD log verification. Portal: https://revalidation.nhs.net/portal. Failure = postponed revalidation.",
+    "description": "Complete outstanding revalidation items by 5 Feb: (1) 2 more reflective practice entries, (2) 2 more colleague feedback forms, (3) patient feedback review/sign-off, (4) CPD log verification. Portal: https://revalidation.nhs.example/portal. Failure = postponed revalidation.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-02-05",
@@ -1692,7 +1692,7 @@
   },
   {
     "task_id": "TODO-620",
-    "title": "Wellington billing query - Mr. Ashworth clinical justification",
+    "title": "Westgate billing query - Mr. Ashworth clinical justification",
     "description": "Bupa requesting justification for composite mesh (£1,200 vs £280 standard) and extended theatre time (4.5h vs 2.5h est) for 14 Jan hernia repair. Need clinical rationale by 30 Jan to avoid reimbursement reduction. Invoice WH-2026-0114-089.",
     "status": "pending",
     "priority": "medium",
@@ -1748,8 +1748,8 @@
   },
   {
     "task_id": "TODO-624",
-    "title": "Review Wellington private practice billing for December 2025",
-    "description": "Cross-reference December Wellington calendar appointments against procedure notes and billing coordinator correspondence. Compile monthly activity digest for billing department submission. Check for any missing cases or coding discrepancies.",
+    "title": "Review Westgate private practice billing for December 2025",
+    "description": "Cross-reference December Westgate calendar appointments against procedure notes and billing coordinator correspondence. Compile monthly activity digest for billing department submission. Check for any missing cases or coding discrepancies.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-01-10",
@@ -1807,8 +1807,8 @@
   },
   {
     "task_id": "TODO-628",
-    "title": "Wellington Hospital - Confirm March session schedule and Q1 minimum compliance",
-    "description": "Contact Elizabeth Thornbury to confirm March Wellington practice sessions and verify Q1 session minimum compliance (8 sessions required, currently at 6 completed). Need to address: potential make-up sessions for January emergency cancellations, April scheduling to avoid repeat conflicts, and discussion of contract flexibility for trauma emergency coverage. Financial penalty risk if Q1 minimum not met.",
+    "title": "Westgate Hospital - Confirm March session schedule and Q1 minimum compliance",
+    "description": "Contact Elizabeth Thornbury to confirm March Westgate practice sessions and verify Q1 session minimum compliance (8 sessions required, currently at 6 completed). Need to address: potential make-up sessions for January emergency cancellations, April scheduling to avoid repeat conflicts, and discussion of contract flexibility for trauma emergency coverage. Financial penalty risk if Q1 minimum not met.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-02-26",
@@ -1867,7 +1867,7 @@
   {
     "task_id": "TODO-632",
     "title": "Complete registrar training sign-offs - David Chen DCL and others by 20th March",
-    "description": "Medical staffing deadline 20th March for quarterly ARCP documentation. Outstanding sign-offs: David Chen (DCL from 14th Jan - already supervised), Priya Sharma (abdominal wall), Thomas Wright (splenectomy). Access e-portfolio system and complete competency assessments. David's case particularly time-sensitive as he's been chasing.",
+    "description": "Medical staffing deadline 20th March for quarterly ARCP documentation. Outstanding sign-offs: David Chen (DCL from 14th Jan - already supervised), Parul Shankar (abdominal wall), Thomas Wright (splenectomy). Access e-portfolio system and complete competency assessments. David's case particularly time-sensitive as he's been chasing.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-03-20",
@@ -1896,8 +1896,8 @@
   },
   {
     "task_id": "TODO-634",
-    "title": "Draft Wellington handover documentation for Mr. Ashworth billing query",
-    "description": "Elizabeth Thornbury requesting clinical documentation for 14th January emergency conflict that caused Mr. Ashworth hernia repair cancellation. Need to provide: emergency case clinical summary (grade IV liver lac), confirmation of handover to covering consultant, retrospective clinical input notes. Required for Wellington Q1 governance review by 25th March. Check emergency case log notes from 14th Jan.",
+    "title": "Draft Westgate handover documentation for Mr. Ashworth billing query",
+    "description": "Elizabeth Thornbury requesting clinical documentation for 14th January emergency conflict that caused Mr. Ashworth hernia repair cancellation. Need to provide: emergency case clinical summary (grade IV liver lac), confirmation of handover to covering consultant, retrospective clinical input notes. Required for Westgate Q1 governance review by 25th March. Check emergency case log notes from 14th Jan.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-03-25",
@@ -1927,7 +1927,7 @@
   {
     "task_id": "TODO-636",
     "title": "Review BTS conference keynote invitation - check October calendar availability",
-    "description": "British Trauma Society inviting keynote presentation Edinburgh 15-17 Oct 2026, specifically Friday 16th Oct 14:00-14:45. Topic: Damage Control Surgery in Penetrating Trauma. £800 honorarium + expenses. Need to confirm availability by 31st March. Check for conflicts with NHS commitments, Wellington schedule, other professional obligations. If accepting, abstract due 30th June.",
+    "description": "British Trauma Society inviting keynote presentation Edinburgh 15-17 Oct 2026, specifically Friday 16th Oct 14:00-14:45. Topic: Damage Control Surgery in Penetrating Trauma. £800 honorarium + expenses. Need to confirm availability by 31st March. Check for conflicts with NHS commitments, Westgate schedule, other professional obligations. If accepting, abstract due 30th June.",
     "status": "pending",
     "priority": "low",
     "due_date": "2026-03-31",
@@ -1970,7 +1970,7 @@
   {
     "task_id": "TODO-639",
     "title": "Research alternative restaurants - shellfish-free AND halal-certified",
-    "description": "Identify restaurants within 10 min of Wellington that: (1) have shellfish-free kitchens or guaranteed separation, (2) offer halal-certified options, (3) maintain high cuisine quality. Rank by quality rating among compliant options.",
+    "description": "Identify restaurants within 10 min of Westgate that: (1) have shellfish-free kitchens or guaranteed separation, (2) offer halal-certified options, (3) maintain high cuisine quality. Rank by quality rating among compliant options.",
     "status": "completed",
     "priority": "high",
     "due_date": "2026-03-28",
@@ -2083,8 +2083,8 @@
   },
   {
     "task_id": "TODO-647",
-    "title": "Review CT angiography images for Wellington hepatobiliary case - Mr. Patterson",
-    "description": "Pre-operative imaging review required for complex hepatobiliary resection scheduled 22nd January at Wellington. CT angio shows variant arterial anatomy requiring careful surgical planning. Review with radiology before case.",
+    "title": "Review CT angiography images for Westgate hepatobiliary case - Mr. Patterson",
+    "description": "Pre-operative imaging review required for complex hepatobiliary resection scheduled 22nd January at Westgate. CT angio shows variant arterial anatomy requiring careful surgical planning. Review with radiology before case.",
     "status": "pending",
     "priority": "high",
     "due_date": "2026-01-21",
@@ -2127,7 +2127,7 @@
   {
     "task_id": "TODO-650",
     "title": "Follow up on theatre time allocation for February",
-    "description": "Contact theatre coordinator regarding February theatre allocation. Need to ensure Wellington contract minimum met while maintaining NHS emergency capacity and training supervision slots.",
+    "description": "Contact theatre coordinator regarding February theatre allocation. Need to ensure Westgate contract minimum met while maintaining NHS emergency capacity and training supervision slots.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-01-24",
@@ -2192,7 +2192,7 @@
   },
   {
     "task_id": "TODO-655",
-    "title": "Contact Mr. Thompson and Mrs. Knowles - Personal apology and reschedule Wellington cases",
+    "title": "Contact Mr. Thompson and Mrs. Knowles - Personal apology and reschedule Westgate cases",
     "description": "Call both private patients to personally apologize for tomorrow's cancellation and offer priority rescheduling. Mr. Thompson prefers week of 14th April, Mrs. Knowles flexible for late April. Emphasize emergency nature and commitment to their care.",
     "status": "pending",
     "priority": "high",
@@ -2206,7 +2206,7 @@
   },
   {
     "task_id": "TODO-656",
-    "title": "Schedule Wellington contract review meeting with Elizabeth - Mid-April",
+    "title": "Schedule Westgate contract review meeting with Elizabeth - Mid-April",
     "description": "Arrange meeting with Elizabeth Thornbury to discuss Q1 compliance status (11 sessions), Q2-Q4 schedule planning, and address reliability concerns. Prepare proposal for additional Q2 sessions to demonstrate commitment.",
     "status": "pending",
     "priority": "high",
@@ -2221,7 +2221,7 @@
   {
     "task_id": "TODO-657",
     "title": "Document NHS emergency decision rationale for Clinical Governance review",
-    "description": "Prepare formal documentation of decision to prioritize NHS trauma activation over Wellington private practice, including clinical justification, contract compliance analysis, and patient safety considerations. File with Clinical Governance for audit trail.",
+    "description": "Prepare formal documentation of decision to prioritize NHS trauma activation over Westgate private practice, including clinical justification, contract compliance analysis, and patient safety considerations. File with Clinical Governance for audit trail.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-04-05",
@@ -2234,8 +2234,8 @@
   },
   {
     "task_id": "TODO-658",
-    "title": "Review Q2 Wellington schedule and propose additional session to offset Q1 shortfall",
-    "description": "Analyze Q2 calendar availability and propose additional Wellington session (ideally high-value cases) to demonstrate ongoing commitment and mitigate Q1 compliance concerns. Coordinate with Elizabeth on optimal timing.",
+    "title": "Review Q2 Westgate schedule and propose additional session to offset Q1 shortfall",
+    "description": "Analyze Q2 calendar availability and propose additional Westgate session (ideally high-value cases) to demonstrate ongoing commitment and mitigate Q1 compliance concerns. Coordinate with Elizabeth on optimal timing.",
     "status": "pending",
     "priority": "medium",
     "due_date": "2026-04-10",
