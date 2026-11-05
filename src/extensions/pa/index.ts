@@ -1,5 +1,9 @@
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import { Type } from "typebox";
+import { Agent, fetch } from "undici";
+
+// An assistant turn can take longer than fetch's default 5-minute header wait; the job timeout bounds it instead.
+const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 
 interface PAAContext {
 	benchmark: string;
@@ -94,6 +98,7 @@ export default function (pi: ExtensionAPI) {
 						conversation_id: context.conversation_id,
 						message: params.message,
 					}),
+					dispatcher: noTimeout,
 				});
 				if (!res.ok) {
 					const errText = await res.text().catch(() => "");

@@ -9,15 +9,23 @@
  * stands in for a versioned base URL such as `https://api.openai.com/v1`
  * (or `https://api.anthropic.com/v1` for Anthropic-format models).
  * Auth tokens are accepted from either Authorization: Bearer or x-api-key.
+ * Responses are streamed back as they arrive, so streaming (SSE) calls stay streaming.
  */
 
+import { Readable } from "node:stream";
+import { pipeline } from "node:stream/promises";
+import type { ReadableStream } from "node:stream/web";
 import { Router } from "express";
 import type { Redis } from "ioredis";
+import { Agent, fetch } from "undici";
 import { MODELS, JOB_TIMEOUT_MS } from "../config.ts";
 import { getJob, setStatus } from "../queue/store.ts";
 import { redact } from "../../shared/types.ts";
 
 const PAA_MAX_LLM_CALLS = Number(process.env.PAA_MAX_LLM_CALLS ?? 10_000);
+
+// Long generations can exceed fetch's default 5-minute waits; the job timeout bounds them instead.
+const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 
 /** API formats the proxy can forward: the model is named in the body and auth is a single header. */
 export const PROXY_APIS = new Set(["openai-completions", "openai-responses", "anthropic-messages"]);
@@ -122,15 +130,20 @@ export function llmRouter(redis: Redis): Router {
 				method: req.method,
 				headers: fwdHeaders,
 				body: req.method !== "GET" ? body : undefined,
+				dispatcher: noTimeout,
 			});
 
-			const data = await upstream.text();
 			res.status(upstream.status)
-				.set("Content-Type", upstream.headers.get("Content-Type") ?? "application/json")
-				.send(data);
+				.set("Content-Type", upstream.headers.get("Content-Type") ?? "application/json");
+			if (!upstream.body) {
+				res.end();
+				return;
+			}
+			await pipeline(Readable.fromWeb(upstream.body as ReadableStream), res);
 		} catch (err: any) {
 			console.error(`[llm-proxy] upstream error for job ${jobId}: ${err.message}`);
-			res.status(502).json({ error: "upstream unreachable", detail: err.message });
+			if (res.headersSent) res.destroy();
+			else res.status(502).json({ error: "upstream unreachable", detail: err.message });
 		}
 	});
 

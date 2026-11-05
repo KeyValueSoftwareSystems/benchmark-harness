@@ -10,6 +10,10 @@
  */
 
 import express from "express";
+import { Agent, fetch } from "undici";
+
+// An assistant turn can take longer than fetch's default 5-minute header wait; the job timeout bounds it instead.
+const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 
 const OPENCLAW_URL =
 	process.env.OPENCLAW_URL ?? "http://localhost:18789/v1/chat/completions";
@@ -63,6 +67,7 @@ app.post("/chat", async (req, res) => {
 				model: "openclaw",
 				messages: history,
 			}),
+			dispatcher: noTimeout,
 		});
 
 		if (!upstream.ok) {
