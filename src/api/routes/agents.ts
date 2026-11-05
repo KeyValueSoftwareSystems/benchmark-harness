@@ -23,7 +23,8 @@ agents.post("/register", async (req, res) => {
 		res.json({
 			model: {
 				...model,
-				baseUrl: `${API_URL}/llm/v1`,
+				// pi's Anthropic client appends /v1/messages to baseUrl itself.
+				baseUrl: model.api === "anthropic-messages" ? `${API_URL}/llm` : `${API_URL}/llm/v1`,
 				apiKey: agentToken ?? "",
 			},
 		});

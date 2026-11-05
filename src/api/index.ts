@@ -11,8 +11,11 @@ import { jobs } from "./routes/jobs.ts";
 import { llmRouter } from "./routes/llm.ts";
 
 const app = express();
+// Model requests carry tool definitions and history, far beyond the 100kb default; 32mb matches Anthropic's limit.
+app.use("/llm", express.json({ limit: "32mb" }));
 app.use(express.json());
-app.use(agents, jobs, llmRouter(redis));
+// The jobs router guards every request it sees with MGMT_KEY, so agent-facing routers must come first.
+app.use(agents, llmRouter(redis), jobs);
 
 await sweep().catch((err) => console.error(`[api] startup sweep failed: ${err}`));
 for (const b of benchmarks.values()) {
