@@ -8,10 +8,11 @@ import { redis } from "./redis.ts";
 import { runJob } from "./runner.ts";
 import { agents } from "./routes/agents.ts";
 import { jobs } from "./routes/jobs.ts";
+import { llmRouter } from "./routes/llm.ts";
 
 const app = express();
 app.use(express.json());
-app.use(agents, jobs);
+app.use(agents, jobs, llmRouter(redis));
 
 await sweep().catch((err) => console.error(`[api] startup sweep failed: ${err}`));
 for (const b of benchmarks.values()) {

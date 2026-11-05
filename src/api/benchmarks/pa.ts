@@ -1,8 +1,13 @@
+import { randomBytes } from "node:crypto";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import YAML from "yaml";
 import { RESOURCES_DIR } from "../config.ts";
 import { withAgent } from "../docker/agent.ts";
+import { docker } from "../docker/cli.ts";
+import { withPaa } from "../docker/paa.ts";
+import { storeLlmToken, removeLlmToken } from "../routes/llm.ts";
+import { redis } from "../redis.ts";
 import type { Benchmark } from "./types.ts";
 
 const WORLDS_DIR = path.join(RESOURCES_DIR, "pa", "worlds");
@@ -90,6 +95,7 @@ function buildPersonaPrompt(persona: Persona, world: World): string {
 export const pa: Benchmark = {
 	name: "pa",
 	concurrency: 2,
+	modelAccess: "proxy",
 
 	async parse({ world }) {
 		if (typeof world !== "string") return { error: "world is required" };
@@ -112,7 +118,7 @@ export const pa: Benchmark = {
 		return {
 			benchmark: "pa",
 			world_id: id,
-			assistant_endpoint: process.env.PAA_ENDPOINT ?? "http://paa:8090/chat",
+			assistant_endpoint: `http://paa-job-${job.id}:8090/chat`,
 			conversation_id: `conv-${job.id}`,
 			max_exchanges: Number(process.env.PAA_MAX_EXCHANGES ?? 20),
 			max_replies: Number(process.env.PAA_MAX_REPLIES ?? 50),
@@ -125,8 +131,39 @@ export const pa: Benchmark = {
 		const id = job.params?.world ?? "";
 		console.log(`[pa] job-${job.id}: starting world ${id}`);
 
-		return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
-			files: { from: agentDir(id), to: AGENT_WORLD_DIR },
-		});
+		// Generate job-scoped LLM proxy tokens.
+		// Neither container receives the real model API key.
+		const paaToken = randomBytes(24).toString("hex");
+		const agentToken = randomBytes(24).toString("hex");
+		await storeLlmToken(redis, paaToken, job.id);
+		await storeLlmToken(redis, agentToken, job.id);
+		// Store the agent token so /register can return it in proxy mode.
+		await redis.set(`agent-llm-token:${job.id}`, agentToken, "EX", 3600);
+
+		// Create an internal (no-internet) network for this job.
+		// Both containers join it so they can reach each other and the API,
+		// but neither can reach the public internet.
+		const jobNet = `pa-job-${job.id}`;
+		await docker("network", "create", "--internal", jobNet);
+		// Connect the API container so the job containers can reach /llm/v1 and /register.
+		const apiContainer = process.env.HOSTNAME ?? "api";
+		await docker("network", "connect", jobNet, apiContainer).catch(() => {});
+
+		try {
+			// Start the PAA container first (waits for healthy), then
+			// start the Pi agent inside the callback so both are alive.
+			return await withPaa(job, ctx, { llmToken: paaToken, networks: [jobNet] }, async () => {
+				return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
+					networks: [jobNet],
+					files: { from: agentDir(id), to: AGENT_WORLD_DIR },
+				});
+			});
+		} finally {
+			await removeLlmToken(redis, paaToken).catch(() => {});
+			await removeLlmToken(redis, agentToken).catch(() => {});
+			await redis.del(`agent-llm-token:${job.id}`).catch(() => {});
+			// Remove the per-job network (containers are already gone by now)
+			await docker("network", "rm", jobNet).catch(() => {});
+		}
 	},
 };

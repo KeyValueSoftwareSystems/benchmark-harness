@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { benchmarks } from "../benchmarks/index.ts";
-import { MODELS } from "../config.ts";
+import { API_URL, MODELS } from "../config.ts";
 import { claimContext, getJob } from "../queue/store.ts";
 import { redis } from "../redis.ts";
 
@@ -8,13 +8,28 @@ import { redis } from "../redis.ts";
 export const agents = Router();
 
 // An agent started for a job asks which model to use (keeps model keys out of container env).
+// For "proxy" benchmarks (PA), return the LLM proxy URL + job token instead of the real key.
 agents.post("/register", async (req, res) => {
 	const { jobId } = req.body ?? {};
 	if (typeof jobId !== "string") return void res.status(400).json({ error: "jobId is required" });
 	const job = await getJob(redis, jobId);
-	const model = MODELS.find((m) => m.name === job?.model);
-	if (!model) return void res.status(404).json({ error: "unknown job" });
-	res.json({ model });
+	if (!job) return void res.status(404).json({ error: "unknown job" });
+	const model = MODELS.find((m) => m.name === job.model);
+	if (!model) return void res.status(404).json({ error: "unknown model" });
+
+	const benchmark = benchmarks.get(job.benchmark);
+	if (benchmark?.modelAccess === "proxy") {
+		const agentToken = await redis.get(`agent-llm-token:${job.id}`);
+		res.json({
+			model: {
+				...model,
+				baseUrl: `${API_URL}/llm/v1`,
+				apiKey: agentToken ?? "",
+			},
+		});
+	} else {
+		res.json({ model });
+	}
 });
 
 agents.get("/jobs/:id/context", async (req, res) => {
