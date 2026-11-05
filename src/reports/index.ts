@@ -3,7 +3,7 @@ import type { ModelConfig } from "../shared/types.ts";
 import { generateReport } from "./generate.ts";
 import { narrateWithModel } from "./narrative.ts";
 
-const { values } = parseArgs({ options: { benchmark: { type: "string" }, models: { type: "string" } } });
+const { values } = parseArgs({ options: { benchmark: { type: "string" }, models: { type: "string" }, since: { type: "string" } } });
 const models = values.models?.split(",").map((m) => m.trim()).filter(Boolean) ?? [];
 if (!values.benchmark || !models.length) {
 	console.error("usage: report --benchmark <name> --models <model,model,...>");
@@ -19,6 +19,7 @@ try {
 		models,
 		resultsDir: process.env.RESULTS_DIR ?? "/data/results",
 		reportsDir: process.env.REPORTS_DIR ?? "/data/reports",
+		since: values.since && new Date(values.since).toISOString(),
 		narrate: narrator,
 	});
 	console.log(out.htmlPath);

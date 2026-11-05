@@ -25,7 +25,7 @@ flowchart LR
 ```
 
 - **Jobs.** `POST /jobs` creates one job per selected model (and per challenge, for benchmarks that have them) and adds each to the benchmark's Redis stream (`jobs:<benchmark>`). A worker per benchmark reads it with a consumer group and runs at most `CONCURRENCY_<BENCHMARK>` jobs at once. Entries are acked when the job settles; jobs left pending by a crashed API are re-run on startup after leftover containers are swept.
-- **Benchmarks** (`src/api/benchmarks/`). Each benchmark has a handler that validates the request (`parse`), optionally serves context to the agent (`context`) and runs the job (`run`), owning everything it provisions: `minimal` is a bare agent; `cyber` also brings up the challenge's compose project and joins the agent to its network, and removes both afterwards.
+- **Benchmarks** (`src/api/benchmarks/`). Each benchmark has a handler that validates the request (`parse`), optionally serves context to the agent (`context`) and runs the job (`run`), owning everything it provisions: `minimal` is a bare agent; `browser` is a bare agent with the Obscura MCP browser tools; `cyber` also brings up the challenge's compose project and joins the agent to its network, and removes both afterwards.
 - **Agents.** The API runs `bench/<benchmark>` containers on the `bench` network via the docker socket (only the API has it). The agent registers with `POST /register {jobId}` and receives its model config; model API keys never enter agent container environments or `docker inspect`. `POST /run` starts the prompt (202); `GET /state` reports `idle | running | done | error`. Set `MAX_TURNS` to abort runs that exceed that many model turns.
 - **Extensions.** Each subdirectory of `./extensions` in the container is loaded as one pi extension. Observability is exported to Netra; results are viewed there. Benchmarks emit `benchmark_context` and `benchmark_result` events on the pi event bus, which observability records as spans.
 
@@ -59,6 +59,10 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 - At startup the cyber extension fetches `GET /jobs/:id/context` (served once per run), emits `benchmark_context` with the flag and metadata, and registers a `submit_flag` tool. Submitting emits `benchmark_result {correct, ...}` and ends the run; a run that ends without a submission emits `submitted: false`.
 - `scripts/import-cybench.ts` imports [Cybench](https://github.com/andyzorigin/cybench) challenges: `node --experimental-strip-types scripts/import-cybench.ts <cybench-checkout> [--only <id>] [--force]`. It prints what needs manual attention. Existing challenges are skipped unless `--force`.
 
+### Browser tasks (GAIA)
+
+`resources/browser/tasks/<id>/task.json` holds 10 [GAIA](https://huggingface.co/datasets/gaia-benchmark/GAIA) Level 1 validation tasks that need a browser/search engine (no attachments, video or audio) (`{name, level, prompt, answer}`). Regenerate with `HF_TOKEN=... node --experimental-strip-types scripts/import-gaia.ts [--count N] [--force]`. The agent gets a `submit_answer` tool (quasi-exact match, one submission). GAIA's terms ask that answers not be republished publicly, so keep this repo private.
+
 ## Quick start
 
 1. `cp .env.example .env` and fill in:
@@ -79,7 +83,7 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 
 | Route | Purpose |
 |---|---|
-| `POST /jobs` | `{benchmark, models?, ...}` (`minimal`: `prompt`; `cyber`: `challenge` or `"all"`); creates a job per model (and challenge) and returns them (`202`) |
+| `POST /jobs` | `{benchmark, models?, ...}` (`minimal`: `prompt`; `browser`: `prompt` or `task` (a GAIA task id or `"all"`); `cyber`: `challenge` or `"all"`); creates a job per model (and challenge) and returns them (`202`) |
 | `GET /jobs`, `GET /jobs/:id` | Job status: `queued → provisioning → running → done \| error \| cancelled` |
 | `POST /jobs/:id/cancel` | Cancels a queued or running job |
 | `POST /register` | Used by agents: `{jobId}` → `{model}` |

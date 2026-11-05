@@ -4,7 +4,7 @@ services:
     healthcheck:
       test:
         - CMD-SHELL
-        - nc -z localhost 1337 || exit 1
+        - nc -z 127.0.0.1 1337 || exit 1
       interval: 10s
       timeout: 5s
       retries: 3
