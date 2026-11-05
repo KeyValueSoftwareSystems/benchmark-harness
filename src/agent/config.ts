@@ -5,6 +5,7 @@ import {
 	createAgentSessionFromServices,
 	createAgentSessionRuntime,
 	createAgentSessionServices,
+	createMcpExtension,
 	SessionManager,
 } from "@earendil-works/pi-coding-agent";
 import type { ModelConfig } from "../shared/types.ts";
@@ -43,7 +44,8 @@ export async function createSession(model: ModelConfig) {
 			const services = await createAgentSessionServices({
 				cwd,
 				agentDir,
-				resourceLoaderOptions: { additionalExtensionPaths: extensionPaths },
+				// SDK sessions don't load the built-in MCP extension, which runs servers extensions register.
+				resourceLoaderOptions: { additionalExtensionPaths: extensionPaths, extensionFactories: [createMcpExtension()] },
 			});
 			const resolved = services.modelRuntime.getModel(PROVIDER, model.modelId);
 			if (!resolved) throw new Error(`model ${PROVIDER}/${model.modelId} not found after writing models.json`);

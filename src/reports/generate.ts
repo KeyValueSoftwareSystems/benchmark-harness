@@ -15,6 +15,8 @@ export interface GenerateArgs {
 	models: string[];
 	resultsDir: string;
 	reportsDir: string;
+	/** ISO time; only runs created at or after it are included. */
+	since?: string;
 	narrate?: Narrator;
 }
 
@@ -40,6 +42,7 @@ export async function generateReport(args: GenerateArgs): Promise<{ id: string; 
 	const files: ModelFile[] = [];
 	for (const model of args.models) {
 		const file = await readModelFile(args.resultsDir, args.benchmark, model);
+		if (file && args.since) file.runs = file.runs.filter((r) => r.createdAt >= args.since!);
 		if (!file?.runs.length) throw new Error(`no results for model "${model}" on benchmark "${args.benchmark}"`);
 		files.push(file);
 	}

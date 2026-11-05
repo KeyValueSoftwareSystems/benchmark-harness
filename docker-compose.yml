@@ -95,3 +95,18 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.cyber
+
+  browser:
+    image: bench/browser
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.browser
+    environment:
+      <<: *netra
+      BENCHMARK: browser
+      API_URL: http://api:3000
+    depends_on:
+      - api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
