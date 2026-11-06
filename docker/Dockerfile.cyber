@@ -29,6 +29,7 @@ COPY tsconfig.json ./
 COPY src/shared ./src/shared
 COPY src/agent ./src/agent
 COPY src/extensions/observability ./extensions/observability
+COPY src/extensions/results ./extensions/results
 COPY src/extensions/cyber ./extensions/cyber
 
 ENTRYPOINT ["node", "--experimental-strip-types", "src/agent/server.ts"]

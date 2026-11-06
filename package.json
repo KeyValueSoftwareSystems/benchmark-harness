@@ -12,7 +12,9 @@
   "scripts": {
     "start": "node --experimental-strip-types src/agent/index.ts",
     "up": "docker compose --profile agents build && docker compose up --build api redis",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "report": "docker compose run --rm reports",
+    "test": "node --experimental-strip-types --test --test-force-exit test/*.test.ts"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
