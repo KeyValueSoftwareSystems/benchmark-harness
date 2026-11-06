@@ -1,7 +1,9 @@
 import { Router } from "express";
 import { benchmarks } from "../benchmarks/index.ts";
+import { ModelAccess } from "../benchmarks/types.ts";
 import { API_URL, MODELS } from "../config.ts";
-import { claimContext, getJob } from "../queue/store.ts";
+import { claimContext, getJob, keys } from "../queue/store.ts";
+import { LLM_ROUTE } from "./llm.ts";
 import { redis } from "../redis.ts";
 
 /** Endpoints called by provisioned agent containers. */
@@ -18,13 +20,13 @@ agents.post("/register", async (req, res) => {
 	if (!model) return void res.status(404).json({ error: "unknown model" });
 
 	const benchmark = benchmarks.get(job.benchmark);
-	if (benchmark?.modelAccess === "proxy") {
-		const agentToken = await redis.get(`agent-llm-token:${job.id}`);
+	if (benchmark?.modelAccess === ModelAccess.proxy) {
+		const agentToken = await redis.get(keys.agentLlmToken(job.id));
 		res.json({
 			model: {
 				...model,
 				// pi's Anthropic client appends /v1/messages to baseUrl itself.
-				baseUrl: model.api === "anthropic-messages" ? `${API_URL}/llm` : `${API_URL}/llm/v1`,
+				baseUrl: model.api === "anthropic-messages" ? `${API_URL}/llm` : `${API_URL}${LLM_ROUTE}`,
 				apiKey: agentToken ?? "",
 			},
 		});

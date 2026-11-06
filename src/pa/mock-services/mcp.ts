@@ -10,6 +10,7 @@
  */
 
 import { Router } from "express";
+import { MCP_PATH } from "../constants.ts";
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { CallToolRequestSchema, ListToolsRequestSchema } from "@modelcontextprotocol/sdk/types.js";
@@ -58,7 +59,7 @@ export function mcpRouter(service: string, tools: ToolDef[], endpoints: ToolEndp
 	const byName = new Map(endpoints.map((e) => [e.tool_name, e]));
 	const router = Router();
 
-	router.post("/mcp", async (req, res) => {
+	router.post(MCP_PATH, async (req, res) => {
 		const server = createServer(service, tools, byName);
 		const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
 		res.on("close", () => {
@@ -77,7 +78,7 @@ export function mcpRouter(service: string, tools: ToolDef[], endpoints: ToolEndp
 	});
 
 	// Stateless: no server-initiated stream (GET) and no sessions to end (DELETE).
-	router.all("/mcp", (_req, res) => void res.status(405).set("Allow", "POST").end());
+	router.all(MCP_PATH, (_req, res) => void res.status(405).set("Allow", "POST").end());
 
 	return router;
 }

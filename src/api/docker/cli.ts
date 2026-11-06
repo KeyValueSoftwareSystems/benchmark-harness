@@ -6,6 +6,9 @@ export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 /** Put on every container a job creates so leftovers can be found after a crash. */
 export const JOB_LABEL = "bench.job";
+export const AGENT_CONTAINER_PREFIX = "agent-job-";
+export const PAA_CONTAINER_PREFIX = "paa-job-";
+export const PA_JOB_NETWORK_PREFIX = "pa-job-";
 
 /** Removes containers and compose projects left behind by a previous API instance. */
 export async function sweep() {

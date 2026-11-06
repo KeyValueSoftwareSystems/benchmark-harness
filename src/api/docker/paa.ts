@@ -11,14 +11,15 @@ import { promisify } from "node:util";
 import type { AgentOutcome, JobContext } from "../benchmarks/types.ts";
 import type { Job, ModelConfig } from "../../shared/types.ts";
 import { API_URL, RESOURCES_DIR } from "../config.ts";
-import { docker, JOB_LABEL, sleep } from "./cli.ts";
+import { docker, JOB_LABEL, PAA_CONTAINER_PREFIX, sleep } from "./cli.ts";
+import { WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
+import { LLM_ROUTE } from "../routes/llm.ts";
 
 const PAA_IMAGE = "bench/pa-paa";
 const OPENCLAW_PORT = 18789;
 /** The only writable path in the container (OpenClaw's state), owned by the image's `node` user. */
 const SCRATCH_DIR = "/home/node/.openclaw";
 /** A symlink in the image to `${SCRATCH_DIR}/world`. */
-const WORLD_DIR = "/pa/world";
 
 export interface PaaOptions {
 	/** The job-scoped LLM proxy token for the PAA container. */
@@ -62,7 +63,7 @@ export async function withPaa(
 	{ llmToken, network, model }: PaaOptions,
 	use: () => Promise<AgentOutcome>,
 ): Promise<AgentOutcome> {
-	const name = `paa-job-${job.id}`;
+	const name = `${PAA_CONTAINER_PREFIX}${job.id}`;
 	const log = (msg: string) => console.log(`[docker] ${name}: ${msg}`);
 
 	const openclawToken = randomBytes(24).toString("hex");
@@ -70,13 +71,13 @@ export async function withPaa(
 	const hostWorldDir = `${RESOURCES_DIR}/pa/worlds/${worldId}`;
 
 	const env = [
-		["LLM_BASE_URL", `${API_URL}/llm/v1`],
+		["LLM_BASE_URL", `${API_URL}${LLM_ROUTE}`],
 		["LLM_TOKEN", llmToken],
 		["LLM_API", model.api],
 		["LLM_CONTEXT_WINDOW", model.contextWindow?.toString()],
 		["LLM_MAX_TOKENS", model.maxTokens?.toString()],
 		["OPENCLAW_GATEWAY_TOKEN", openclawToken],
-		["WORLD_DIR", WORLD_DIR],
+		["WORLD_DIR", WORLD_DIR_IN_CONTAINER],
 	].flatMap(([k, v]) => (v ? ["-e", `${k}=${v}`] : []));
 
 	try {

@@ -11,6 +11,7 @@
 
 import express from "express";
 import { Agent, fetch } from "undici";
+import { PAA_CHAT_PORT, PAA_HEALTH_PATH } from "../constants.ts";
 
 // An assistant turn can take longer than fetch's default 5-minute header wait; the job timeout bounds it instead.
 const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
@@ -18,7 +19,7 @@ const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 const OPENCLAW_URL =
 	process.env.OPENCLAW_URL ?? "http://localhost:18789/v1/chat/completions";
 const OPENCLAW_TOKEN = process.env.OPENCLAW_GATEWAY_TOKEN ?? "";
-const PORT = Number(process.env.CHAT_ADAPTER_PORT ?? "8090");
+const PORT = Number(process.env.CHAT_ADAPTER_PORT ?? PAA_CHAT_PORT);
 
 interface Message {
 	role: "system" | "user" | "assistant";
@@ -31,7 +32,7 @@ const app = express();
 app.use(express.json());
 
 /** Health check — returns 200 when the adapter process is alive. */
-app.get("/healthz", (_req, res) => {
+app.get(PAA_HEALTH_PATH, (_req, res) => {
 	res.json({ ok: true });
 });
 

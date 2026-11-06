@@ -116,4 +116,4 @@ services:
     profiles: ["agents"]
     build:
       context: .
-      dockerfile: docker/Dockerfile.paa
+      dockerfile: docker/paa/openclaw/Dockerfile

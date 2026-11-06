@@ -19,7 +19,7 @@ import { Router } from "express";
 import type { Redis } from "ioredis";
 import { Agent, fetch } from "undici";
 import { MODELS, JOB_TIMEOUT_MS } from "../config.ts";
-import { getJob, setStatus } from "../queue/store.ts";
+import { getJob, keys, setStatus } from "../queue/store.ts";
 import { redact } from "../../shared/types.ts";
 
 const PAA_MAX_LLM_CALLS = Number(process.env.PAA_MAX_LLM_CALLS ?? 10_000);
@@ -31,10 +31,15 @@ const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 export const PROXY_APIS = new Set(["openai-completions", "openai-responses", "anthropic-messages"]);
 
 /** Headers that must not be forwarded upstream. */
-const STRIP_HEADERS = new Set(["host", "content-length", "authorization", "x-api-key", "connection"]);
+/** Where the proxy is mounted; the PAA and the pi agent send their model calls here. */
+export const LLM_ROUTE = "/llm/v1";
+/** Header names the proxy reads the job token from, and writes the real key to. */
+export const AUTH_HEADERS = { bearer: "authorization", apiKey: "x-api-key" } as const;
+
+const STRIP_HEADERS = new Set(["host", "content-length", AUTH_HEADERS.bearer, AUTH_HEADERS.apiKey, "connection"]);
 
 /** Redis key for a job's LLM token. */
-const tokenKey = (token: string) => `llm-token:${token}`;
+const tokenKey = keys.llmToken;
 /** Redis key for a job's LLM call count. */
 const callCountKey = (jobId: string) => `llm-calls:${jobId}`;
 
@@ -54,16 +59,16 @@ export async function removeLlmToken(redis: Redis, token: string): Promise<void>
 
 /** Extract the job-scoped token from either Authorization: Bearer or x-api-key. */
 function extractToken(req: { headers: Record<string, any> }): string {
-	const auth = (req.headers.authorization ?? "") as string;
+	const auth = (req.headers[AUTH_HEADERS.bearer] ?? "") as string;
 	if (auth.startsWith("Bearer ")) return auth.slice(7);
-	const xApiKey = req.headers["x-api-key"];
+	const xApiKey = req.headers[AUTH_HEADERS.apiKey];
 	return typeof xApiKey === "string" ? xApiKey : "";
 }
 
 export function llmRouter(redis: Redis): Router {
 	const router = Router();
 
-	router.all("/llm/v1/{*path}", async (req, res) => {
+	router.all(`${LLM_ROUTE}/{*path}`, async (req, res) => {
 		const token = extractToken(req);
 		if (!token) {
 			res.status(401).json({ error: "missing auth token (send Authorization: Bearer or x-api-key)" });
@@ -114,9 +119,9 @@ export function llmRouter(redis: Redis): Router {
 
 		// Set the correct auth for the upstream API.
 		if (model.api === "anthropic-messages") {
-			fwdHeaders["x-api-key"] = model.apiKey;
+			fwdHeaders[AUTH_HEADERS.apiKey] = model.apiKey;
 		} else {
-			fwdHeaders["authorization"] = `Bearer ${model.apiKey}`;
+			fwdHeaders[AUTH_HEADERS.bearer] = `Bearer ${model.apiKey}`;
 		}
 
 		// Replace the model field in the body with the real model ID.

@@ -4,16 +4,18 @@ import path from "node:path";
 import YAML from "yaml";
 import { MODELS, RESOURCES_DIR } from "../config.ts";
 import { withAgent } from "../docker/agent.ts";
-import { docker } from "../docker/cli.ts";
+import { AGENT_CONTAINER_PREFIX, docker, PA_JOB_NETWORK_PREFIX, PAA_CONTAINER_PREFIX } from "../docker/cli.ts";
+import { PAA_CHAT_PORT, WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
 import { withPaa } from "../docker/paa.ts";
 import { jobNetworkAddresses } from "../jobNetworks.ts";
 import { PROXY_APIS, storeLlmToken, removeLlmToken } from "../routes/llm.ts";
+import { keys } from "../queue/store.ts";
 import { redis } from "../redis.ts";
-import type { Benchmark } from "./types.ts";
+import { ModelAccess, type Benchmark } from "./types.ts";
 
 const WORLDS_DIR = path.join(RESOURCES_DIR, "pa", "worlds");
 /** Where agent-side world files land inside the PI agent container. */
-const AGENT_WORLD_DIR = "/pa/world";
+const AGENT_WORLD_DIR = WORLD_DIR_IN_CONTAINER;
 
 // ---------------------------------------------------------------------------
 // Types — only the fields we actually read from world.yaml / persona.json
@@ -96,7 +98,7 @@ function buildPersonaPrompt(persona: Persona, world: World): string {
 export const pa: Benchmark = {
 	name: "pa",
 	concurrency: 2,
-	modelAccess: "proxy",
+	modelAccess: ModelAccess.proxy,
 
 	async parse({ world }) {
 		if (typeof world !== "string") return { error: "world is required" };
@@ -119,7 +121,7 @@ export const pa: Benchmark = {
 		return {
 			benchmark: "pa",
 			world_id: id,
-			assistant_endpoint: `http://paa-job-${job.id}:8090/chat`,
+			assistant_endpoint: `http://${PAA_CONTAINER_PREFIX}${job.id}:${PAA_CHAT_PORT}/chat`,
 			conversation_id: `conv-${job.id}`,
 			max_exchanges: Number(process.env.PAA_MAX_EXCHANGES ?? 20),
 			max_replies: Number(process.env.PAA_MAX_REPLIES ?? 50),
@@ -145,11 +147,11 @@ export const pa: Benchmark = {
 		await storeLlmToken(redis, paaToken, job.id);
 		await storeLlmToken(redis, agentToken, job.id);
 		// Store the agent token so /register can return it in proxy mode.
-		await redis.set(`agent-llm-token:${job.id}`, agentToken, "EX", 3600);
+		await redis.set(keys.agentLlmToken(job.id), agentToken, "EX", 3600);
 
 		// Create an internal (no-internet) network for this job. The PAA and the
 		// pi agent join only this network.
-		const jobNet = `pa-job-${job.id}`;
+		const jobNet = `${PA_JOB_NETWORK_PREFIX}${job.id}`;
 		const apiContainer = process.env.HOSTNAME ?? "api";
 		let apiAddress = "";
 
@@ -165,7 +167,7 @@ export const pa: Benchmark = {
 			// start the Pi agent inside the callback so both are alive.
 			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model }, async () => {
 				return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
-					name: `agent-job-${job.id}`,
+					name: `${AGENT_CONTAINER_PREFIX}${job.id}`,
 					network: jobNet,
 					files: { from: agentDir(id), to: AGENT_WORLD_DIR },
 				});
@@ -174,7 +176,7 @@ export const pa: Benchmark = {
 			jobNetworkAddresses.delete(apiAddress);
 			await removeLlmToken(redis, paaToken).catch(() => {});
 			await removeLlmToken(redis, agentToken).catch(() => {});
-			await redis.del(`agent-llm-token:${job.id}`).catch(() => {});
+			await redis.del(keys.agentLlmToken(job.id)).catch(() => {});
 			// Disconnect the API container, then remove the per-job network.
 			await docker("network", "disconnect", jobNet, apiContainer).catch(() => {});
 			await docker("network", "rm", jobNet).catch(() => {});

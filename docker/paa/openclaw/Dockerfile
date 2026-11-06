@@ -35,9 +35,10 @@ COPY --from=deps /build/node_modules ./node_modules
 COPY package.json tsconfig.json ./
 COPY src/pa/mock-services ./src/pa/mock-services
 COPY src/pa/chat-adapter  ./src/pa/chat-adapter
+COPY src/pa/constants.ts ./src/pa/constants.ts
 
 # Entrypoint script
-COPY --chmod=755 docker/paa-entrypoint.sh /usr/local/bin/paa-entrypoint.sh
+COPY --chmod=755 docker/paa/openclaw/entrypoint.sh /usr/local/bin/paa-entrypoint.sh
 
 # Ensure the OpenClaw writable directory exists and is owned by node. It is the only
 # writable path at runtime, so the world directory (WORLD_DIR=/pa/world) points into it.

@@ -3,7 +3,7 @@ import { promisify } from "node:util";
 import { API_URL } from "../config.ts";
 import type { AgentOutcome, JobContext } from "../benchmarks/types.ts";
 import type { Job } from "../../shared/types.ts";
-import { docker, JOB_LABEL, sleep } from "./cli.ts";
+import { AGENT_CONTAINER_PREFIX, docker, JOB_LABEL, sleep } from "./cli.ts";
 
 const AGENT_PORT = 8080;
 const NETWORK = process.env.AGENT_NETWORK ?? "bench";
@@ -27,7 +27,7 @@ async function poll<T>(check: () => Promise<T | undefined>, intervalMs: number, 
 
 /** Starts the job's agent container (image `bench/<benchmark>`), runs `use` against it, then removes it. */
 export interface AgentOptions {
-	/** Container name; defaults to `agent-<jobId>`. */
+	/** Container name; defaults to the agent prefix plus the job ID. */
 	name?: string;
 	/** Network shared with the api; defaults to `AGENT_NETWORK` (the compose network). */
 	network?: string;
@@ -41,7 +41,7 @@ export async function withAgent(
 	job: Job,
 	ctx: JobContext,
 	use: (agent: Agent) => Promise<AgentOutcome>,
-	{ name = `agent-${job.id}`, network = NETWORK, networks = [], files }: AgentOptions = {},
+	{ name = `${AGENT_CONTAINER_PREFIX}${job.id}`, network = NETWORK, networks = [], files }: AgentOptions = {},
 ): Promise<AgentOutcome> {
 	const url = `http://${name}:${AGENT_PORT}`;
 	const log = (msg: string) => console.log(`[docker] ${name}: ${msg}`);
