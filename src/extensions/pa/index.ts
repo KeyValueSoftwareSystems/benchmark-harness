@@ -14,12 +14,28 @@ interface PAAContext {
 	max_replies: number;
 	execution_date: string;
 	task_name: string;
+	exchange_token: string;
 }
 
 interface Exchange {
 	user_message: string;
 	assistant_reply: string;
 	timestamp: string;  
+}
+
+/** Copies one exchange to the API so it survives the container being killed; failures don't stop the conversation. */
+async function saveExchange(token: string, exchange: Exchange): Promise<void> {
+	const { API_URL, JOB_ID } = process.env;
+	try {
+		const res = await fetch(`${API_URL}/jobs/${JOB_ID}/exchanges`, {
+			method: "POST",
+			headers: { "content-type": "application/json", authorization: `Bearer ${token}` },
+			body: JSON.stringify(exchange),
+		});
+		if (!res.ok) throw new Error(`status ${res.status}`);
+	} catch (err) {
+		console.error(`[pa] could not save exchange: ${err}`);
+	}
 }
 
 export default function (pi: ExtensionAPI) {
@@ -106,11 +122,13 @@ export default function (pi: ExtensionAPI) {
 				}
 				const reply = (await res.json()) as { response: string };
 
-				transcript.push({
+				const exchange: Exchange = {
 					user_message: params.message,
 					assistant_reply: reply.response,
 					timestamp: new Date().toISOString(),
-				});
+				};
+				transcript.push(exchange);
+				await saveExchange(context.exchange_token, exchange);
 
 				console.error(`[pa] exchange ${exchangeCount}: got reply (${reply.response.length} chars)`);
 				return { content: [{ type: "text" as const, text: reply.response }], details: undefined };

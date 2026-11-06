@@ -89,7 +89,7 @@ export async function withAgent(
 		log(`${outcome.status} after ${Math.round((Date.now() - startedAt) / 1000)}s${outcome.error ? `: ${outcome.error}` : ""}`);
 		return outcome;
 	} finally {
-		// Capture agent logs (stderr) so the caller can see the conversation exchanges.
+		// Copy the agent's stderr into the API log, for debugging.
 		try {
 			const { stderr } = await promisify(execFile)("docker", ["logs", name]);
 			if (stderr.trim()) {

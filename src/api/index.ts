@@ -1,10 +1,12 @@
 import os from "node:os";
 import express from "express";
 import { benchmarks } from "./benchmarks/index.ts";
-import { concurrencyFor, MODELS, PORT, RESULTS_DIR } from "./config.ts";
+import { concurrencyFor, MGMT_KEY, MODELS, PORT, RESULTS_DIR } from "./config.ts";
 import { db } from "./db/instance.ts";
 import { reconcileModelFiles } from "./db/reconcile.ts";
 import { sweep } from "./docker/cli.ts";
+import { createGuard } from "./guard.ts";
+import { jobNetworkAddresses } from "./jobNetworks.ts";
 import { startWorker } from "./queue/worker.ts";
 import { redis } from "./redis.ts";
 import { runJob } from "./runner.ts";
@@ -15,10 +17,10 @@ import { llmRouter } from "./routes/llm.ts";
 import { createResultsRouter } from "./routes/results.ts";
 
 const app = express();
+app.use(createGuard({ mgmtKey: MGMT_KEY, isJobNetwork: (address) => jobNetworkAddresses.has(address) }));
 // Model requests carry tool definitions and history, far beyond the 100kb default; 32mb matches Anthropic's limit.
 app.use("/llm", express.json({ limit: "32mb" }));
 app.use(express.json());
-// The jobs router guards every request it sees with MGMT_KEY, so agent-facing routers must come first.
 app.use(agents, llmRouter(redis), jobs);
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
 

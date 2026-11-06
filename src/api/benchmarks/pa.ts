@@ -2,7 +2,7 @@ import { randomBytes } from "node:crypto";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import YAML from "yaml";
-import { MODELS, RESOURCES_DIR } from "../config.ts";
+import { API_CONTAINER_NAME, MODELS, RESOURCES_DIR } from "../config.ts";
 import { withAgent } from "../docker/agent.ts";
 import { AGENT_CONTAINER_PREFIX, docker, PA_JOB_NETWORK_PREFIX, PAA_CONTAINER_PREFIX } from "../docker/cli.ts";
 import { PAA_CHAT_PORT, WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
@@ -127,6 +127,8 @@ export const pa: Benchmark = {
 			max_replies: Number(process.env.PAA_MAX_REPLIES ?? 50),
 			execution_date: world.execution_date,
 			task_name: world.task_name,
+			// Authorises POST /jobs/:id/exchanges. Served once with the context, so it never enters the container env.
+			exchange_token: (await redis.get(keys.agentLlmToken(job.id))) ?? "",
 		};
 	},
 
@@ -148,11 +150,13 @@ export const pa: Benchmark = {
 		await storeLlmToken(redis, agentToken, job.id);
 		// Store the agent token so /register can return it in proxy mode.
 		await redis.set(keys.agentLlmToken(job.id), agentToken, "EX", 3600);
+		// A re-run starts a fresh transcript.
+		await redis.del(keys.transcript(job.id));
 
 		// Create an internal (no-internet) network for this job. The PAA and the
 		// pi agent join only this network.
 		const jobNet = `${PA_JOB_NETWORK_PREFIX}${job.id}`;
-		const apiContainer = process.env.HOSTNAME ?? "api";
+		const apiContainer = API_CONTAINER_NAME;
 		let apiAddress = "";
 
 		try {

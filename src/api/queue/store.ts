@@ -8,6 +8,8 @@ const key = (id: string) => `job:${id}`;
 export const keys = {
 	agentLlmToken: (jobId: string) => `agent-llm-token:${jobId}`,
 	llmToken: (token: string) => `llm-token:${token}`,
+	llmCalls: (jobId: string) => `llm-calls:${jobId}`,
+	transcript: (jobId: string) => `job-transcript:${jobId}`,
 };
 const INDEX = "job-ids";
 

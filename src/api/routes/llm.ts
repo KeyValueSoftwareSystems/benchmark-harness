@@ -20,9 +20,9 @@ import type { Redis } from "ioredis";
 import { Agent, fetch } from "undici";
 import { MODELS, JOB_TIMEOUT_MS } from "../config.ts";
 import { getJob, keys, setStatus } from "../queue/store.ts";
-import { redact } from "../../shared/types.ts";
 
-const PAA_MAX_LLM_CALLS = Number(process.env.PAA_MAX_LLM_CALLS ?? 10_000);
+/** Cap on model calls through the proxy per job, counting both the pi agent and the PAA. */
+const LLM_MAX_CALLS_PER_JOB = Number(process.env.LLM_MAX_CALLS_PER_JOB ?? 10_000);
 
 // Long generations can exceed fetch's default 5-minute waits; the job timeout bounds them instead.
 const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
@@ -30,18 +30,26 @@ const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 /** API formats the proxy can forward: the model is named in the body and auth is a single header. */
 export const PROXY_APIS = new Set(["openai-completions", "openai-responses", "anthropic-messages"]);
 
-/** Headers that must not be forwarded upstream. */
 /** Where the proxy is mounted; the PAA and the pi agent send their model calls here. */
 export const LLM_ROUTE = "/llm/v1";
 /** Header names the proxy reads the job token from, and writes the real key to. */
 export const AUTH_HEADERS = { bearer: "authorization", apiKey: "x-api-key" } as const;
 
+/** Headers that must not be forwarded upstream. */
 const STRIP_HEADERS = new Set(["host", "content-length", AUTH_HEADERS.bearer, AUTH_HEADERS.apiKey, "connection"]);
+/**
+ * Upstream response headers that are not passed back: hop-by-hop ones, and those describing the body as sent
+ * upstream (fetch has already decompressed it, and it is re-streamed with its own framing).
+ */
+const STRIP_RESPONSE_HEADERS = new Set(["connection", "keep-alive", "transfer-encoding", "content-length", "content-encoding"]);
 
-/** Redis key for a job's LLM token. */
-const tokenKey = keys.llmToken;
-/** Redis key for a job's LLM call count. */
-const callCountKey = (jobId: string) => `llm-calls:${jobId}`;
+/**
+ * The proxy base URL a client should be given for a model's API format. pi's Anthropic client (like the
+ * Anthropic SDK) appends /v1/messages to its base URL itself; OpenAI-style clients expect the /v1 included.
+ */
+export function proxyBaseUrl(apiBase: string, api: string): string {
+	return api === "anthropic-messages" ? `${apiBase}/llm` : `${apiBase}${LLM_ROUTE}`;
+}
 
 /**
  * Store a job-scoped LLM token in Redis.  Called by the benchmark handler
@@ -49,20 +57,24 @@ const callCountKey = (jobId: string) => `llm-calls:${jobId}`;
  */
 export async function storeLlmToken(redis: Redis, token: string, jobId: string): Promise<void> {
 	const ttl = Math.ceil(JOB_TIMEOUT_MS / 1000) + 300; // job timeout + 5 min buffer
-	await redis.set(tokenKey(token), jobId, "EX", ttl);
+	await redis.set(keys.llmToken(token), jobId, "EX", ttl);
 }
 
 /** Remove a job's LLM token (cleanup). */
 export async function removeLlmToken(redis: Redis, token: string): Promise<void> {
-	await redis.del(tokenKey(token));
+	await redis.del(keys.llmToken(token));
 }
 
-/** Extract the job-scoped token from either Authorization: Bearer or x-api-key. */
-function extractToken(req: { headers: Record<string, any> }): string {
-	const auth = (req.headers[AUTH_HEADERS.bearer] ?? "") as string;
-	if (auth.startsWith("Bearer ")) return auth.slice(7);
+/**
+ * Extract the job-scoped token. A well-formed `Authorization: Bearer <token>` header wins (the scheme is
+ * case-insensitive); otherwise `x-api-key` is used. Both are trimmed.
+ */
+export function extractToken(req: { headers: Record<string, any> }): string {
+	const auth = req.headers[AUTH_HEADERS.bearer];
+	const bearer = typeof auth === "string" ? /^Bearer\s+(.+)$/i.exec(auth)?.[1].trim() : undefined;
+	if (bearer) return bearer;
 	const xApiKey = req.headers[AUTH_HEADERS.apiKey];
-	return typeof xApiKey === "string" ? xApiKey : "";
+	return typeof xApiKey === "string" ? xApiKey.trim() : "";
 }
 
 export function llmRouter(redis: Redis): Router {
@@ -75,15 +87,21 @@ export function llmRouter(redis: Redis): Router {
 			return;
 		}
 
-		const jobId = await redis.get(tokenKey(token));
+		const jobId = await redis.get(keys.llmToken(token));
 		if (!jobId) {
 			res.status(403).json({ error: "invalid or expired token" });
 			return;
 		}
 
-		const count = await redis.incr(callCountKey(jobId));
-		if (count > PAA_MAX_LLM_CALLS) {
-			const errMsg = `LLM call limit exceeded (${PAA_MAX_LLM_CALLS}). Job ${jobId} has made ${count} calls.`;
+		const hasBody = req.method !== "GET" && req.method !== "HEAD";
+		if (hasBody && (!req.body || typeof req.body !== "object" || Array.isArray(req.body))) {
+			res.status(415).json({ error: "request body must be a JSON object (send content-type: application/json)" });
+			return;
+		}
+
+		const count = await redis.incr(keys.llmCalls(jobId));
+		if (count > LLM_MAX_CALLS_PER_JOB) {
+			const errMsg = `LLM call limit (LLM_MAX_CALLS_PER_JOB=${LLM_MAX_CALLS_PER_JOB}) exceeded. Job ${jobId} has made ${count} calls.`;
 			console.error(`[llm-proxy] ${errMsg}`);
 			await setStatus(redis, jobId, "error", errMsg);
 			res.status(429).json({ error: errMsg });
@@ -125,21 +143,23 @@ export function llmRouter(redis: Redis): Router {
 		}
 
 		// Replace the model field in the body with the real model ID.
-		const body = req.body && typeof req.body === "object"
-			? JSON.stringify({ ...req.body, model: model.modelId })
-			: undefined;
+		const body = hasBody ? JSON.stringify({ ...req.body, model: model.modelId }) : undefined;
 
 		try {
-			console.error(`[llm-proxy] job=${jobId} ${req.method} /${subpath} model=${redact(model).name} calls=${count}`);
+			console.error(`[llm-proxy] job=${jobId} ${req.method} /${subpath} model=${model.name} calls=${count}`);
 			const upstream = await fetch(upstreamUrl, {
 				method: req.method,
 				headers: fwdHeaders,
-				body: req.method !== "GET" ? body : undefined,
+				body,
 				dispatcher: noTimeout,
 			});
 
-			res.status(upstream.status)
-				.set("Content-Type", upstream.headers.get("Content-Type") ?? "application/json");
+			// Pass provider headers such as retry-after back, so clients can back off on 429s.
+			res.status(upstream.status);
+			for (const [name, value] of upstream.headers) {
+				if (!STRIP_RESPONSE_HEADERS.has(name)) res.setHeader(name, value);
+			}
+			if (!upstream.headers.has("content-type")) res.setHeader("Content-Type", "application/json");
 			if (!upstream.body) {
 				res.end();
 				return;
