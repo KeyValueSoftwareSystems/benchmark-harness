@@ -1,0 +1,16 @@
+{
+  "persona_id": "T18_T01_wellington_contract_session_cancellation",
+  "name": "Brendan Okoro",
+  "email": "brendan.okoro@nhs.example",
+  "role": "Consultant Trauma & Emergency Surgeon",
+  "organization": "Royal Metro Hospital / The Westgate Hospital",
+  "communication_style": "analytical, methodical",
+  "domain_knowledge": [
+    "decision making",
+    "finance",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-02"
+}

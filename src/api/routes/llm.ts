@@ -1,0 +1,176 @@
+/**
+ * LLM proxy: lets job containers call model APIs without holding real keys.
+ *
+ * Each container gets a job-scoped bearer token. The proxy validates it,
+ * looks up the job's model, and forwards the request with the real API key.
+ * The real key is never logged; use `redact()` from `src/shared/types.ts`.
+ *
+ * `/llm/v1/<path>` is forwarded to `${model.baseUrl}/<path>`, so `/llm/v1`
+ * stands in for a versioned base URL such as `https://api.openai.com/v1`
+ * (or `https://api.anthropic.com/v1` for Anthropic-format models).
+ * Auth tokens are accepted from either Authorization: Bearer or x-api-key.
+ * Responses are streamed back as they arrive, so streaming (SSE) calls stay streaming.
+ */
+
+import { Readable } from "node:stream";
+import { pipeline } from "node:stream/promises";
+import type { ReadableStream } from "node:stream/web";
+import { Router } from "express";
+import type { Redis } from "ioredis";
+import { Agent, fetch } from "undici";
+import { MODELS, JOB_TIMEOUT_MS } from "../config.ts";
+import { getJob, keys, setStatus } from "../queue/store.ts";
+
+/** Cap on model calls through the proxy per job, counting both the pi agent and the PAA. */
+const LLM_MAX_CALLS_PER_JOB = Number(process.env.LLM_MAX_CALLS_PER_JOB ?? 10_000);
+
+// Long generations can exceed fetch's default 5-minute waits; the job timeout bounds them instead.
+const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
+
+/** API formats the proxy can forward: the model is named in the body and auth is a single header. */
+export const PROXY_APIS = new Set(["openai-completions", "openai-responses", "anthropic-messages"]);
+
+/** Where the proxy is mounted; the PAA and the pi agent send their model calls here. */
+export const LLM_ROUTE = "/llm/v1";
+/** Header names the proxy reads the job token from, and writes the real key to. */
+export const AUTH_HEADERS = { bearer: "authorization", apiKey: "x-api-key" } as const;
+
+/** Headers that must not be forwarded upstream. */
+const STRIP_HEADERS = new Set(["host", "content-length", AUTH_HEADERS.bearer, AUTH_HEADERS.apiKey, "connection"]);
+/**
+ * Upstream response headers that are not passed back: hop-by-hop ones, and those describing the body as sent
+ * upstream (fetch has already decompressed it, and it is re-streamed with its own framing).
+ */
+const STRIP_RESPONSE_HEADERS = new Set(["connection", "keep-alive", "transfer-encoding", "content-length", "content-encoding"]);
+
+/**
+ * The proxy base URL a client should be given for a model's API format. pi's Anthropic client (like the
+ * Anthropic SDK) appends /v1/messages to its base URL itself; OpenAI-style clients expect the /v1 included.
+ */
+export function proxyBaseUrl(apiBase: string, api: string): string {
+	return api === "anthropic-messages" ? `${apiBase}/llm` : `${apiBase}${LLM_ROUTE}`;
+}
+
+/**
+ * Store a job-scoped LLM token in Redis.  Called by the benchmark handler
+ * when a job starts so the proxy can validate incoming requests.
+ */
+export async function storeLlmToken(redis: Redis, token: string, jobId: string): Promise<void> {
+	const ttl = Math.ceil(JOB_TIMEOUT_MS / 1000) + 300; // job timeout + 5 min buffer
+	await redis.set(keys.llmToken(token), jobId, "EX", ttl);
+}
+
+/** Remove a job's LLM token (cleanup). */
+export async function removeLlmToken(redis: Redis, token: string): Promise<void> {
+	await redis.del(keys.llmToken(token));
+}
+
+/**
+ * Extract the job-scoped token. A well-formed `Authorization: Bearer <token>` header wins (the scheme is
+ * case-insensitive); otherwise `x-api-key` is used. Both are trimmed.
+ */
+export function extractToken(req: { headers: Record<string, any> }): string {
+	const auth = req.headers[AUTH_HEADERS.bearer];
+	const bearer = typeof auth === "string" ? /^Bearer\s+(.+)$/i.exec(auth)?.[1].trim() : undefined;
+	if (bearer) return bearer;
+	const xApiKey = req.headers[AUTH_HEADERS.apiKey];
+	return typeof xApiKey === "string" ? xApiKey.trim() : "";
+}
+
+export function llmRouter(redis: Redis): Router {
+	const router = Router();
+
+	router.all(`${LLM_ROUTE}/{*path}`, async (req, res) => {
+		const token = extractToken(req);
+		if (!token) {
+			res.status(401).json({ error: "missing auth token (send Authorization: Bearer or x-api-key)" });
+			return;
+		}
+
+		const jobId = await redis.get(keys.llmToken(token));
+		if (!jobId) {
+			res.status(403).json({ error: "invalid or expired token" });
+			return;
+		}
+
+		const hasBody = req.method !== "GET" && req.method !== "HEAD";
+		if (hasBody && (!req.body || typeof req.body !== "object" || Array.isArray(req.body))) {
+			res.status(415).json({ error: "request body must be a JSON object (send content-type: application/json)" });
+			return;
+		}
+
+		const count = await redis.incr(keys.llmCalls(jobId));
+		if (count > LLM_MAX_CALLS_PER_JOB) {
+			const errMsg = `LLM call limit (LLM_MAX_CALLS_PER_JOB=${LLM_MAX_CALLS_PER_JOB}) exceeded. Job ${jobId} has made ${count} calls.`;
+			console.error(`[llm-proxy] ${errMsg}`);
+			await setStatus(redis, jobId, "error", errMsg);
+			res.status(429).json({ error: errMsg });
+			return;
+		}
+
+		const job = await getJob(redis, jobId);
+		if (!job) {
+			res.status(404).json({ error: "job not found" });
+			return;
+		}
+
+		const model = MODELS.find((m) => m.name === job.model);
+		if (!model) {
+			res.status(404).json({ error: "model not configured" });
+			return;
+		}
+
+		// The sub-path after /llm/v1/ (e.g. "chat/completions" or "messages").
+		// Express 5 wildcard params are string arrays, one element per segment.
+		const subpath = (req.params.path as string[]).join("/");
+		const query = req.originalUrl.indexOf("?");
+		// pi expects Anthropic base URLs without the version (it appends /v1/messages itself); accept both forms.
+		const base = model.api === "anthropic-messages" ? `${model.baseUrl.replace(/\/v1\/?$/, "")}/v1` : model.baseUrl;
+		const upstreamUrl = `${base}/${subpath}${query === -1 ? "" : req.originalUrl.slice(query)}`;
+
+		// Preserve request headers except auth-related ones (we'll set the real key).
+		const fwdHeaders: Record<string, string> = {};
+		for (const [key, val] of Object.entries(req.headers)) {
+			if (STRIP_HEADERS.has(key) || typeof val !== "string") continue;
+			fwdHeaders[key] = val;
+		}
+
+		// Set the correct auth for the upstream API.
+		if (model.api === "anthropic-messages") {
+			fwdHeaders[AUTH_HEADERS.apiKey] = model.apiKey;
+		} else {
+			fwdHeaders[AUTH_HEADERS.bearer] = `Bearer ${model.apiKey}`;
+		}
+
+		// Replace the model field in the body with the real model ID.
+		const body = hasBody ? JSON.stringify({ ...req.body, model: model.modelId }) : undefined;
+
+		try {
+			console.error(`[llm-proxy] job=${jobId} ${req.method} /${subpath} model=${model.name} calls=${count}`);
+			const upstream = await fetch(upstreamUrl, {
+				method: req.method,
+				headers: fwdHeaders,
+				body,
+				dispatcher: noTimeout,
+			});
+
+			// Pass provider headers such as retry-after back, so clients can back off on 429s.
+			res.status(upstream.status);
+			for (const [name, value] of upstream.headers) {
+				if (!STRIP_RESPONSE_HEADERS.has(name)) res.setHeader(name, value);
+			}
+			if (!upstream.headers.has("content-type")) res.setHeader("Content-Type", "application/json");
+			if (!upstream.body) {
+				res.end();
+				return;
+			}
+			await pipeline(Readable.fromWeb(upstream.body as ReadableStream), res);
+		} catch (err: any) {
+			console.error(`[llm-proxy] upstream error for job ${jobId}: ${err.message}`);
+			if (res.headersSent) res.destroy();
+			else res.status(502).json({ error: "upstream unreachable", detail: err.message });
+		}
+	});
+
+	return router;
+}

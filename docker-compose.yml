@@ -22,6 +22,8 @@ services:
 
   # Provisions one agent container per job via the docker socket (agent containers never get it).
   api:
+    # Fixed so the api can join itself to per-job networks by name (see API_CONTAINER_NAME).
+    container_name: bench-api
     build:
       context: .
       dockerfile: docker/Dockerfile.api
@@ -32,6 +34,8 @@ services:
       <<: *netra
       REDIS_URL: redis://redis:6379
       RESOURCES_DIR: ${PWD}/resources
+      MGMT_KEY: ${MGMT_KEY:?set MGMT_KEY in .env}
+      API_CONTAINER_NAME: bench-api
       # Model turns an agent may take per run before it is aborted; unset or 0 means unlimited.
       MAX_TURNS: ${MAX_TURNS:-}
     depends_on:
@@ -95,3 +99,25 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.cyber
+
+  pa:
+    image: bench/pa
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.pa
+    environment:
+      <<: *netra
+      BENCHMARK: pa
+      API_URL: http://api:3000
+    depends_on:
+      - api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  pa-paa:
+    image: bench/pa-paa
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/paa/openclaw/Dockerfile

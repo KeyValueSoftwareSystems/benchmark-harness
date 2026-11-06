@@ -41,6 +41,10 @@ let lastError: string | undefined;
 let turns = 0;
 
 runtime.session.subscribe((event) => {
+	// Failed model calls end as assistant messages with stopReason "error"; the session doesn't throw.
+	if (event.type === "message_end" && event.message.role === "assistant" && event.message.stopReason === "error") {
+		console.error(`[agent] model error: ${event.message.errorMessage}`);
+	}
 	if (event.type !== "turn_start" || !MAX_TURNS || ++turns <= MAX_TURNS) return;
 	lastError = `max turns (${MAX_TURNS}) exceeded`;
 	console.error(`[agent] ${lastError}, aborting`);

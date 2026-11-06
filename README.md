@@ -62,18 +62,19 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 ## Quick start
 
 1. `cp .env.example .env` and fill in:
-   - `MODELS`: JSON list of `{ name, baseUrl, apiKey, api, modelId, cost?, thinkingLevel? }` (`cost` is `{ input, output, cacheRead?, cacheWrite? }` in USD per million tokens; without it runs report a cost of 0) (`api` e.g. `openai-completions`, `anthropic-messages`).
+   - `MODELS`: JSON list of `{ name, baseUrl, apiKey, api, modelId, cost?, thinkingLevel?, contextWindow?, maxTokens? }` (`cost` is `{ input, output, cacheRead?, cacheWrite? }` in USD per million tokens; without it runs report a cost of 0) (`api` e.g. `openai-completions`, `anthropic-messages`; `baseUrl` as pi expects it, e.g. `https://api.openai.com/v1` or `https://api.anthropic.com`). The `pa` benchmark sends model calls through the API's LLM proxy, which supports `openai-completions`, `openai-responses` and `anthropic-messages`; set `contextWindow`/`maxTokens` so the PA assistant knows the model's limits.
+   - `MGMT_KEY` (required): the key for the management routes, sent as `Authorization: Bearer <key>` or `X-Mgmt-Key`. Compose refuses to start without it.
    - `NETRA_OTLP_ENDPOINT`, `NETRA_API_KEY` (shared by all agents; tracing is skipped if the endpoint is unset). Optional `NETRA_ENV`, `NETRA_DEBUG`.
    - Optional `MAX_TURNS` (model turns per run; empty or `0` is unlimited).
 2. `npm run up` builds the benchmark images and starts the API and Redis (`bench/cyber` is large because it installs Kali tooling). Runs spend real model credits.
 3. Queue jobs:
    ```sh
-   curl -X POST localhost:3000/jobs -H 'content-type: application/json' \
+   curl -X POST localhost:3000/jobs -H 'content-type: application/json' -H "x-mgmt-key: $MGMT_KEY" \
      -d '{"benchmark": "minimal", "prompt": "Say hi in one sentence.", "models": ["model-name"]}'   # omit "models" for all
-   curl -X POST localhost:3000/jobs -H 'content-type: application/json' \
+   curl -X POST localhost:3000/jobs -H 'content-type: application/json' -H "x-mgmt-key: $MGMT_KEY" \
      -d '{"benchmark": "cyber", "challenge": "labyrinth-linguist"}'                                  # or "all"
    ```
-4. Watch progress: `curl localhost:3000/jobs/<id>`, or `curl localhost:3000/jobs` for all jobs.
+4. Watch progress: `curl -H "x-mgmt-key: $MGMT_KEY" localhost:3000/jobs/<id>`, or `.../jobs` for all jobs.
 
 ## API
 
@@ -84,6 +85,7 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 | `POST /jobs/:id/cancel` | Cancels a queued or running job |
 | `POST /register` | Used by agents: `{jobId}` → `{model}` |
 | `GET /jobs/:id/context` | Used by agents: the benchmark's context for the job, served once per run |
+| `POST /jobs/:id/exchanges` | Used by the `pa` agent: appends one exchange to the Redis list `job-transcript:<id>` as it happens; needs the job's LLM token as a bearer token |
 
 Environment: `CONCURRENCY_<BENCHMARK>` (jobs at once), `JOB_TIMEOUT_MS` (default 30 min), `MAX_TURNS`.
 
