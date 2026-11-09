@@ -16,5 +16,6 @@ RUN npm ci
 COPY tsconfig.json ./
 COPY src/shared ./src/shared
 COPY src/api ./src/api
+COPY src/ui ./src/ui
 
 CMD ["node", "--experimental-strip-types", "src/api/index.ts"]

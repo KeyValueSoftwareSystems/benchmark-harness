@@ -1,4 +1,5 @@
 import os from "node:os";
+import { fileURLToPath } from "node:url";
 import express from "express";
 import { benchmarks } from "./benchmarks/index.ts";
 import { concurrencyFor, DISCOVERY_MODEL, PORT, REPORTS_URL, RESULTS_DIR } from "./config.ts";
@@ -27,6 +28,9 @@ app.use(createReportsRouter({ baseUrl: REPORTS_URL }));
 app.use(createRunsRouter({ listJobs: () => listJobs(redis), requestCancel: (id) => requestCancel(redis, id) }));
 app.use(createModelsRouter({ registry, db, benchmarks, discovery: !!discoveryModel, discover: discoveryModel && (async (url) => discoverParameters(await fetchDocsText(url), discoveryModel)) }));
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
+
+// The Smithy page: plain files, no build step. Registered after the API routes.
+app.use(express.static(fileURLToPath(new URL("../ui", import.meta.url))));
 
 await reconcileModelFiles(db, RESULTS_DIR)
 	.then((n) => n && console.log(`[api] reconciled ${n} run(s) into the model result files`))
