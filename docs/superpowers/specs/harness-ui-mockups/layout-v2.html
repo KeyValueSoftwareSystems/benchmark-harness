@@ -1,0 +1,79 @@
+<h2>Smithy: the main screen (wireframe)</h2>
+<p class="subtitle">Crafting-menu layout. Is this the right arrangement? Your wording put both the group list and the queue "on the right", so I guessed list left, queue right.</p>
+
+<style>
+  .sm{display:grid;grid-template-columns:210px 1fr 220px;gap:10px;font-size:12px}
+  .sm .col{border:1px solid #888;border-radius:6px;padding:8px;display:flex;flex-direction:column;gap:6px}
+  .sm h4{margin:0;font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.7}
+  .tabs{display:flex;gap:6px;align-items:center;margin-bottom:10px;font-size:12px}
+  .tabs .t{padding:5px 12px;border:1px solid #888;border-radius:4px}
+  .tabs .on{font-weight:700;border-width:2px}
+  .tabs .off{opacity:.35;text-decoration:line-through}
+  .tabs .logo{margin-right:10px;display:flex;align-items:center;gap:6px;font-weight:700}
+  .grp{border:1px solid #aaa;border-radius:4px}
+  .grp>div:first-child{padding:5px 8px;font-weight:600;display:flex;justify-content:space-between}
+  .grp .it{padding:4px 8px 4px 18px;border-top:1px dashed #aaa;display:flex;justify-content:space-between}
+  .grp .sel{font-weight:700;background:rgba(128,128,128,.2)}
+  .btn{border:1px dashed #888;border-radius:4px;padding:6px 8px;text-align:center}
+  .btn.hi{border:2px solid #888;font-weight:700}
+  .btn.dim{opacity:.4}
+  .center{align-items:center;text-align:center}
+  .item{width:130px;height:130px;border:2px solid #888;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;margin:6px 0}
+  .ing{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:6px;text-align:left}
+  .ing div{border:1px solid #aaa;border-radius:4px;padding:5px 7px}
+  .ing small{display:block;opacity:.6;font-size:10px;text-transform:uppercase}
+  .ing .w{grid-column:1/-1}
+  .q{border:1px solid #aaa;border-radius:4px;padding:5px 8px;display:flex;justify-content:space-between}
+  .mut{opacity:.55}
+</style>
+
+<div class="mockup">
+  <div class="mockup-header">Smithy · benchmark crafting menu</div>
+  <div class="mockup-body">
+    <div class="tabs">
+      <span class="logo"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M3 8h13c0 2.5-1.5 4-4 4h-1v3h2v3H7v-3h2v-3H8C5 12 3 10.5 3 8Z"/><path d="M16 8h5l-2 3h-3"/></svg>Smithy</span>
+      <span class="t on">Models</span><span class="t off">Frameworks</span><span class="t off">Agents</span><span class="t off">Tools</span>
+    </div>
+
+    <div class="sm">
+      <div class="col">
+        <h4>Models</h4>
+        <div class="grp"><div><span>▾ Cyber</span><span class="mut">2</span></div>
+          <div class="it sel"><span>deepseek-v4.1-flash</span><span>✓</span></div>
+          <div class="it"><span>gpt-4.1-mini</span><span>✓</span></div></div>
+        <div class="grp"><div><span>▸ Coding</span><span class="mut">0</span></div></div>
+        <div class="grp"><div><span>▸ General</span><span class="mut">0</span></div></div>
+        <div class="btn hi">＋ Add a new model</div>
+        <div class="mut" style="font-size:10px">Button sits under the Models section while it is highlighted. Benchmarked models land in their domain group.</div>
+      </div>
+
+      <div class="col center">
+        <h4>Selected model</h4>
+        <div class="item">deepseek<br>v4.1-flash</div>
+        <h4 style="margin-top:4px">Benchmark</h4>
+        <div class="ing">
+          <div><small>Model name</small>deepseek/deepseek-v4.1-flash</div>
+          <div><small>Base URL</small>https://openrouter.ai/api/v1</div>
+          <div><small>API key · never stored</small>••••••••••••</div>
+          <div><small>Parameters</small>thinking: off · cost in/out</div>
+          <div class="w"><small>Challenges</small>All (default) · pick specific ▾</div>
+        </div>
+        <div style="display:flex;gap:8px;width:100%;margin-top:6px">
+          <div class="btn hi" style="flex:1">Benchmark now</div>
+          <div class="btn hi" style="flex:1">Add to queue</div>
+        </div>
+        <div class="mut" style="font-size:10px">Both buttons light up only when every ingredient is filled.</div>
+      </div>
+
+      <div class="col">
+        <h4>Queue</h4>
+        <div class="q"><span>gpt-4.1-mini</span><span class="mut">✕</span></div>
+        <div class="q"><span>deepseek-v4.1-flash</span><span class="mut">✕</span></div>
+        <div class="q mut"><span>empty slot</span></div>
+        <div class="btn hi">Benchmark these</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:12px">Next screens (running and report) once this layout is right.</p>
