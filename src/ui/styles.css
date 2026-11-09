@@ -73,3 +73,15 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .error { color: var(--bad); font-size: 14px; margin: 0; }
 .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .discover { display: flex; flex-direction: column; gap: 8px; }
+
+/* benchmark panel, queue, confirmation */
+.orb { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--accent); display: grid; place-items: center; text-align: center; padding: 14px; margin: 4px auto; font: 600 17px/1.2 var(--display); overflow-wrap: anywhere; background: var(--sel); }
+.center .card { width: 100%; max-width: 560px; margin: 0 auto; }
+.label { font-size: 14px; font-weight: 600; }
+.radios { display: flex; gap: 16px; flex-wrap: wrap; }
+.radios label, .checks label { display: flex; align-items: center; gap: 6px; min-height: 44px; }
+.checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0 12px; }
+.queue, .summary { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.queue li { display: flex; align-items: center; justify-content: space-between; gap: 8px; border: 1px solid var(--line); border-radius: 8px; padding: 4px 4px 4px 12px; overflow-wrap: anywhere; }
+.summary li { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.icon-btn.small { flex: none; }
