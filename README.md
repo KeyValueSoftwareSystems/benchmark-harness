@@ -113,3 +113,13 @@ Everything runs through Docker Compose; images contain the code (no bind mounts)
 | `resources/cyber/` | cyber challenges |
 | `scripts/` | `import-cybench.ts` |
 | `docker/` | `Dockerfile.api` and one `Dockerfile.<benchmark>` each |
+
+
+## Smithy: the web page
+
+Open `http://localhost:3000/` (the API serves it). Pick or add a model, choose a benchmark and challenges (all by default), then **Benchmark now** or **Add to queue**. A confirmation lists what will run before anything spends credits. Runs show live, with **Cancel run**, **Generate report** and **Benchmark again**. A sun/moon button at the top right switches between the light and dark themes.
+
+- **Keys are never stored.** An API key typed on the page is kept in the API process's memory until it restarts; it is never written to Redis, SQLite, result files, reports or logs, and the page keeps no key in browser storage. After a restart, models added on the page need their key again (shown as "needs key"). Models in `MODELS` need nothing.
+- **No login.** The API has no authentication, so keep it on localhost or a trusted network. The compose file publishes port 3000 on all interfaces; bind it to `127.0.0.1:3000:3000` (for example in `docker-compose.override.yml`) unless you mean to share it. Keys are only accepted over HTTPS or from a `localhost` address; `ALLOW_INSECURE_KEYS=1` allows plain HTTP on a trusted network.
+- **Parameter discovery** (optional). Set `DISCOVERY_MODEL` on the `api` service to one model as JSON, in the same shape as a `MODELS` item. The Add-a-model card then shows a docs link field and **Discover parameters**, which reads that page (HTTPS and public addresses only) and proposes thinking levels and prices for you to confirm. Without it the card is filled in by hand.
+- **Reports** come from the `reports-api` service, which `docker compose up` starts with the API.

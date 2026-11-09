@@ -1,8 +1,75 @@
+import { api } from "../api.js";
 import { clear, h } from "../dom.js";
+import { formatElapsed, groupRuns } from "../state.js";
 
-/** Placeholder until the running view lands in the next task. */
-export function renderRunning() {
+let timer = null;
+const solved = new Map(); // jobId -> true | false | null, filled once a run has settled
+const reports = new Map(); // runId -> { url } | { error }
+
+export const stopRunning = () => {
+	clearInterval(timer);
+	timer = null;
+};
+
+const STATUS = { queued: "waiting", provisioning: "starting", running: "running", done: "finished", error: "failed", cancelled: "cancelled" };
+
+function jobLine(job, run) {
+	const label = job.params?.challenge ?? "prompt";
+	const verdict = job.status === "done" && solved.has(job.id) ? (solved.get(job.id) === true ? " · solved" : solved.get(job.id) === false ? " · not solved" : "") : "";
+	const elapsed = job.status === "running" || job.status === "provisioning" ? ` · ${formatElapsed(Date.now() - Date.parse(job.createdAt))}` : "";
+	return h("li", { class: `jl ${job.status}` }, h("span", { "aria-hidden": "true" }, job.status === "done" ? "✓" : job.status === "error" ? "✕" : job.status === "cancelled" ? "–" : "○"), " ", h("strong", {}, label), ` ${STATUS[job.status] ?? job.status}${verdict}${elapsed}`, job.error ? h("small", { class: "error" }, ` ${job.error}`) : null);
+}
+
+function runCard(ctx, run, redraw) {
+	const running = run.status === "running";
+	const report = reports.get(run.runId);
+	return h("div", { class: "card run" },
+		h("div", { class: "run-h" },
+			running ? h("span", { class: "gear", "aria-hidden": "true" }, "⚙") : null,
+			h("div", {}, h("h3", {}, run.model), h("p", { class: "hint" }, `${run.benchmark} · ${run.finished} of ${run.total} done`))),
+		h("div", { class: "bar", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(run.total), "aria-valuenow": String(run.finished), "aria-label": "Challenges finished" }, h("i", { style: `width:${(run.finished / run.total) * 100}%` })),
+		h("ul", { class: "jobs" }, run.jobs.map((j) => jobLine(j, run))),
+		running
+			? h("button", { class: "btn", type: "button", onclick: async () => { await api.cancelRun(run.runId).catch((e) => ctx.toast(e.message)); redraw(); } }, "Cancel run")
+			: h("div", { class: "row2" },
+				report?.url ? h("a", { class: "btn primary", href: report.url, target: "_blank", rel: "noopener" }, "Open report") : h("button", { class: "btn primary", type: "button", onclick: async () => {
+					try {
+						reports.set(run.runId, { url: api.reportUrl((await api.buildReport(run.benchmark, [run.model])).id) });
+					} catch (e) {
+						reports.set(run.runId, { error: e.status === 502 ? "The report service is not running." : e.message });
+					}
+					redraw();
+				} }, "Generate report"),
+				h("button", { class: "btn", type: "button", onclick: () => ctx.again(run) }, "Benchmark again")),
+		report?.error ? h("p", { class: "error", role: "alert" }, report.error) : null);
+}
+
+/** Centre column while runs exist: rebuilt from the job list alone, so a page reload shows the same thing. */
+export function renderRunning(ctx) {
 	const root = document.getElementById("stage");
-	clear(root);
-	root.append(h("p", { class: "empty" }, "Run started."));
+	stopRunning();
+	const redraw = async () => {
+		let runs;
+		try {
+			runs = groupRuns(await api.jobs()).reverse().slice(0, 5);
+		} catch (err) {
+			return void ctx.toast(err.message);
+		}
+		for (const run of runs) {
+			if (run.status !== "running" && run.jobs.some((j) => !solved.has(j.id))) {
+				const detail = await api.run(run.runId).catch(() => undefined);
+				for (const j of detail?.jobs ?? []) solved.set(j.id, j.correct);
+			}
+		}
+		clear(root);
+		root.append(runs.length ? h("div", { class: "runs" }, runs.map((r) => runCard(ctx, r, redraw))) : h("p", { class: "empty" }, "No runs yet."));
+		if (!runs.some((r) => r.status === "running")) {
+			stopRunning();
+			ctx.reload?.();
+		}
+	};
+	redraw();
+	timer = setInterval(() => {
+		if (!document.hidden) redraw();
+	}, 3000);
 }

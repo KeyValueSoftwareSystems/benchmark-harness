@@ -90,3 +90,18 @@ export const toModelPayload = (f) => ({
 	thinkingLevel: f.thinkingLevel || undefined,
 	...(f.costIn !== "" && f.costOut !== "" ? { cost: { input: Number(f.costIn), output: Number(f.costOut) } } : {}),
 });
+
+/** mm:ss for a duration in milliseconds. */
+export const formatElapsed = (ms) => {
+	const total = Math.max(0, Math.floor(ms / 1000));
+	return `${String(Math.floor(total / 60)).padStart(2, "0")}:${String(total % 60).padStart(2, "0")}`;
+};
+
+/** The benchmark form values that repeat a finished run: same benchmark, same challenges (or prompt). */
+export function againForm(run, benchmarks) {
+	const bench = benchmarks.find((b) => b.name === run.benchmark);
+	if (bench?.needsPrompt) return { benchmark: run.benchmark, challenges: "all", prompt: run.jobs[0]?.prompt ?? "" };
+	const ids = run.jobs.map((j) => j.params?.challenge).filter(Boolean);
+	const every = bench && ids.length === bench.challenges.length && bench.challenges.every((c) => ids.includes(c));
+	return { benchmark: run.benchmark, challenges: every || !ids.length ? "all" : ids, prompt: "" };
+}

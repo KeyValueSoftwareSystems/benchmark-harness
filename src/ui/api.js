@@ -22,6 +22,7 @@ export const api = {
 	/** `challenges` is "all" or a list of challenge ids; `prompt` is for benchmarks that take one. */
 	startRun: ({ benchmark, model, challenges, prompt }) =>
 		call("POST", "/jobs", { benchmark, models: [model], ...(Array.isArray(challenges) ? { challenges } : benchmark === "cyber" ? { challenge: "all" } : {}), ...(prompt ? { prompt } : {}) }),
+	run: (runId) => call("GET", `/runs/${encodeURIComponent(runId)}`),
 	cancelRun: (runId) => call("POST", `/runs/${encodeURIComponent(runId)}/cancel`),
 	buildReport: (benchmark, models) => call("POST", "/reports", { benchmark, models }),
 	reportUrl: (id) => `/reports/${encodeURIComponent(id)}`,

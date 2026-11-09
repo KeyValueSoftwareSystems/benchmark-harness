@@ -108,3 +108,20 @@ test("toModelPayload defaults modelId to the name and only sends a price when bo
 	assert.deepEqual(toModelPayload(form()), { name: "m", modelId: "m", baseUrl: "https://x/v1", api: "openai-completions", apiKey: "k", thinkingLevel: "off" });
 	assert.deepEqual(toModelPayload(form({ modelId: "m-1", costIn: "0.1", costOut: "0.4" })).cost, { input: 0.1, output: 0.4 });
 });
+
+import { againForm, formatElapsed } from "../src/ui/state.js";
+
+test("formatElapsed shows minutes and seconds", () => {
+	assert.equal(formatElapsed(0), "00:00");
+	assert.equal(formatElapsed(65_000), "01:05");
+	assert.equal(formatElapsed(3_725_000), "62:05");
+	assert.equal(formatElapsed(-5), "00:00");
+});
+
+test("againForm reopens the same benchmark with the same challenges or prompt", () => {
+	const cyber = { runId: "r", model: "a", benchmark: "cyber", jobs: [job("1", "done", "r"), job("2", "done", "r")] };
+	assert.deepEqual(againForm(cyber, [{ name: "cyber", challenges: ["1", "2"], needsPrompt: false }]), { benchmark: "cyber", challenges: "all", prompt: "" });
+	assert.deepEqual(againForm({ ...cyber, jobs: [job("1", "done", "r")] }, [{ name: "cyber", challenges: ["1", "2"], needsPrompt: false }]), { benchmark: "cyber", challenges: ["1"], prompt: "" });
+	const minimal = { runId: "r", model: "a", benchmark: "minimal", jobs: [{ ...job("x", "done", "r"), prompt: "say hi" }] };
+	assert.deepEqual(againForm(minimal, [{ name: "minimal", challenges: [], needsPrompt: true }]), { benchmark: "minimal", challenges: "all", prompt: "say hi" });
+});

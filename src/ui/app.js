@@ -1,11 +1,11 @@
 import { api } from "./api.js";
 import { clear, h } from "./dom.js";
-import { createState, removeStaged, selectModel, stageRun } from "./state.js";
+import { againForm, createState, groupRuns, removeStaged, selectModel, stageRun } from "./state.js";
 import { renderAddModel } from "./view/addModel.js";
 import { renderBenchmark } from "./view/benchmark.js";
 import { renderConfirm } from "./view/confirm.js";
 import { renderQueue } from "./view/queue.js";
-import { renderRunning } from "./view/running.js";
+import { renderRunning, stopRunning } from "./view/running.js";
 import { renderModelList } from "./view/modelList.js";
 import { applyTheme, loadTheme, nextTheme, saveTheme } from "./theme.js";
 
@@ -69,6 +69,11 @@ const ctx = {
 		if (select) app.state = selectModel(app.state, select);
 		render();
 	},
+	again(run) {
+		app.state = { ...selectModel(app.state, run.model), form: { ...app.state.form, ...againForm(run, app.state.benchmarks), apiKey: "" } };
+		app.view = "stage";
+		render();
+	},
 	currentItem: () => stageRun({ ...app.state, queue: [] }).queue[0],
 	stage() {
 		app.state = { ...stageRun(app.state), form: { ...app.state.form, apiKey: "" } };
@@ -106,6 +111,7 @@ const ctx = {
 };
 
 function render() {
+	if (app.view !== "running") stopRunning();
 	renderModelList(ctx);
 	renderQueue(ctx);
 	if (app.view === "add") renderAddModel(ctx);
@@ -114,5 +120,16 @@ function render() {
 	else renderBenchmark(ctx);
 }
 
+document.getElementById("runs").addEventListener("click", () => {
+	app.view = app.view === "running" ? "stage" : "running";
+	render();
+});
+
+// Open on the running view when something is already running (a reload mid-run shows the same screen).
+const resumeRuns = async () => {
+	const runs = groupRuns(await api.jobs().catch(() => []));
+	if (runs.some((r) => r.status === "running")) app.view = "running";
+};
+
 setupTheme();
-load().then(render).catch((err) => toast(err.message));
+load().then(resumeRuns).then(render).catch((err) => toast(err.message));

@@ -50,3 +50,19 @@ test("an unknown run is a 404", async () => {
 		s.close();
 	}
 });
+
+test("GET /runs/:runId returns the run's jobs with whether each one solved its challenge", async () => {
+	const app = express();
+	app.use(createRunsRouter({ listJobs: async () => [job("a", "done", "r1"), job("b", "done", "r1"), job("c", "done", "r2")], requestCancel: async () => {}, correctByJob: async () => new Map([["a", true], ["b", false]]) }));
+	const server = app.listen(0);
+	try {
+		const base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
+		const res = await fetch(`${base}/runs/r1`);
+		assert.equal(res.status, 200);
+		const body = await res.json();
+		assert.deepEqual(body.jobs.map((j: { id: string; correct: boolean | null }) => [j.id, j.correct]), [["a", true], ["b", false]]);
+		assert.equal((await fetch(`${base}/runs/nope`)).status, 404);
+	} finally {
+		server.close();
+	}
+});
