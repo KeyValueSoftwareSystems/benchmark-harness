@@ -68,19 +68,16 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .card { display: flex; flex-direction: column; gap: 12px; }
 .field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .field label { font-size: 14px; font-weight: 600; }
-.field input, .field select, .field textarea { min-height: 44px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); width: 100%; }
+.field input:not([type="checkbox"]):not([type="radio"]), .field select, .field textarea { min-height: 44px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); width: 100%; }
 .field input[aria-invalid="true"] { border-color: var(--bad); }
 .error { color: var(--bad); font-size: 14px; margin: 0; }
 .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 .discover { display: flex; flex-direction: column; gap: 8px; }
 
 /* benchmark panel, queue, confirmation */
-.orb { width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--accent); display: grid; place-items: center; text-align: center; padding: 14px; margin: 4px auto; font: 600 17px/1.2 var(--display); overflow-wrap: anywhere; background: var(--sel); }
+.orb { width: 180px; height: 180px; max-width: 100%; padding: 22px; border-radius: 50%; border: 3px solid var(--accent); display: grid; place-items: center; text-align: center; margin: 4px auto; font: 600 16px/1.25 var(--display); overflow-wrap: anywhere; word-break: normal; background: var(--sel); }
 .center .card { width: 100%; max-width: 560px; margin: 0 auto; }
 .label { font-size: 14px; font-weight: 600; }
-.radios { display: flex; gap: 16px; flex-wrap: wrap; }
-.radios label, .checks label { display: flex; align-items: center; gap: 6px; min-height: 44px; }
-.checks { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0 12px; }
 .queue, .summary { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
 .queue li { display: flex; align-items: center; justify-content: space-between; gap: 8px; border: 1px solid var(--line); border-radius: 8px; padding: 4px 4px 4px 12px; overflow-wrap: anywhere; }
 .summary li { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
@@ -100,3 +97,15 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .jl.done { color: var(--ok); }
 a.btn { display: grid; place-items: center; text-decoration: none; color: inherit; }
 a.btn.primary { color: var(--on-accent); }
+
+/* challenge picker: a wide panel over the page */
+.picker { display: flex; flex-direction: column; gap: 4px; }
+.picker-btn { min-height: 44px; display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); cursor: pointer; text-align: left; }
+.picker-backdrop { position: fixed; inset: 0; background: rgb(0 0 0 / .45); z-index: 20; }
+.picker-panel { position: fixed; z-index: 21; top: 72px; left: 16px; right: 16px; max-width: 1100px; margin: 0 auto; max-height: calc(100vh - 104px); display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 20px 60px rgb(0 0 0 / .35); }
+.picker-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px; border-bottom: 1px solid var(--line); }
+.picker-bar input[type="search"] { flex: 1 1 220px; min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
+.picker-grid { list-style: none; margin: 0; padding: 12px; overflow: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 2px 16px; }
+.check { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 8px; border-radius: 8px; cursor: pointer; overflow-wrap: anywhere; font-weight: 400; }
+.check:hover { background: var(--sel); }
+.check input { width: 20px; height: 20px; flex: none; accent-color: var(--accent); }

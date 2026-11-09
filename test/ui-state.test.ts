@@ -152,3 +152,28 @@ test("settledSince is true only when a run that was running has now settled", ()
 	assert.equal(settledSince(new Map([["r1", "done"]]), runs("done")), false);
 	assert.equal(settledSince(new Map(), runs("done")), false);
 });
+
+import { challengeSummary, filterChallenges, toggleChallenge } from "../src/ui/state.js";
+
+const ALL = ["locktalk", "chunky", "ezmaze"];
+
+test("challengeSummary reads naturally for all, some and none", () => {
+	assert.equal(challengeSummary("all", 43), "All (43)");
+	assert.equal(challengeSummary(["a", "b"], 43), "2 of 43 selected");
+	assert.equal(challengeSummary([], 43), "None selected");
+	assert.equal(challengeSummary(["a"], 1), "All (1)");
+});
+
+test("toggleChallenge unticks one from all, ticks more, and goes back to all when everything is ticked", () => {
+	assert.deepEqual(toggleChallenge("all", "chunky", ALL), ["locktalk", "ezmaze"]);
+	assert.deepEqual(toggleChallenge(["locktalk"], "ezmaze", ALL), ["locktalk", "ezmaze"]);
+	assert.deepEqual(toggleChallenge(["locktalk", "ezmaze"], "locktalk", ALL), ["ezmaze"]);
+	assert.equal(toggleChallenge(["locktalk", "ezmaze"], "chunky", ALL), "all");
+});
+
+test("filterChallenges matches any part of the name, ignoring case", () => {
+	assert.deepEqual(filterChallenges(ALL, "LOCK"), ["locktalk"]);
+	assert.deepEqual(filterChallenges(ALL, "z"), ["ezmaze"]);
+	assert.deepEqual(filterChallenges(ALL, ""), ALL);
+	assert.deepEqual(filterChallenges(ALL, "nope"), []);
+});

@@ -1,5 +1,6 @@
 import { clear, h } from "../dom.js";
 import { canStart } from "../state.js";
+import { createChallengePicker } from "./challengePicker.js";
 
 /** Centre column: the chosen model drawn large, then the Benchmark section and its two buttons. */
 export function renderBenchmark(ctx) {
@@ -28,14 +29,7 @@ export function renderBenchmark(ctx) {
 		clear(challenges);
 		const b = bench();
 		if (!b || b.needsPrompt) return;
-		const all = ctx.state.form.challenges === "all";
-		challenges.append(
-			h("span", { class: "label", id: "ch-l" }, "Challenges"),
-			h("div", { role: "radiogroup", "aria-labelledby": "ch-l", class: "radios" },
-				h("label", {}, h("input", { type: "radio", name: "ch", checked: all, onchange: () => (set({ challenges: "all" }), drawChallenges()) }), ` All (${b.challenges.length})`),
-				h("label", {}, h("input", { type: "radio", name: "ch", checked: !all, onchange: () => (set({ challenges: [] }), drawChallenges()) }), " Pick some")),
-			all ? null : h("div", { class: "checks" }, b.challenges.map((c) =>
-				h("label", {}, h("input", { type: "checkbox", checked: ctx.state.form.challenges.includes(c), onchange: (e) => set({ challenges: e.target.checked ? [...ctx.state.form.challenges, c] : ctx.state.form.challenges.filter((x) => x !== c) }) }), ` ${c}`))));
+		challenges.append(createChallengePicker({ list: b.challenges, getValue: () => ctx.state.form.challenges, onChange: (next) => set({ challenges: next }) }));
 	};
 
 	const prompt = h("div", { class: "field" });
@@ -46,7 +40,7 @@ export function renderBenchmark(ctx) {
 	};
 
 	root.append(
-		h("div", { class: "orb", "aria-label": `Selected model ${model.name}` }, model.name),
+		h("div", { class: "orb", "aria-label": `Selected model ${model.name}` }, model.name.split("/").flatMap((part, i, all) => (i < all.length - 1 ? [part, "/", document.createElement("wbr")] : [part]))),
 		h("div", { class: "card" },
 			h("h3", {}, "Benchmark"),
 			h("div", { class: "field" },

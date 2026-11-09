@@ -123,3 +123,15 @@ export async function runItems(items, startOne, onStarted = (_item, _id) => {}) 
 
 /** True when a run that was running at the last look has settled since. */
 export const settledSince = (previous, runs) => runs.some((r) => previous.get(r.runId) === "running" && r.status !== "running");
+
+/** The text on the challenge picker button. */
+export const challengeSummary = (value, total) => (value === "all" || value.length === total ? `All (${total})` : value.length === 0 ? "None selected" : `${value.length} of ${total} selected`);
+
+/** Ticks or unticks one challenge; ticking the last missing one returns to "all". */
+export function toggleChallenge(value, id, all) {
+	const current = value === "all" ? all : value;
+	const next = current.includes(id) ? current.filter((c) => c !== id) : [...current, id];
+	return next.length === all.length ? "all" : next;
+}
+
+export const filterChallenges = (list, query) => list.filter((c) => c.toLowerCase().includes(query.trim().toLowerCase()));
