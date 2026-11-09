@@ -17,7 +17,7 @@
 - Typecheck with `npm run typecheck`; tests with `npm test`. Dockerfiles stay in `docker/`.
 - Tabs enabled: Models only; Frameworks, Agents, Tools shown disabled.
 - Accessibility: contrast ≥ 4.5:1, touch targets ≥ 44px, visible focus rings, labelled fields, gear animation off under `prefers-reduced-motion`.
-- Palette: charcoal background, ember-orange accent, serif display face with a plain sans for forms (Witcher 3 is an interaction reference only).
+- Themes: dark "Slate and brass" and a light pastel-blue theme, as colour tokens on `:root` (light) with dark values under `:root[data-theme="dark"]`; exact hex values are in the spec's Look entry. Serif display face with a plain sans for forms (Witcher 3 is an interaction reference only). A sun/moon switch at the header's top right sets `data-theme`; first visit follows `prefers-color-scheme`; the choice is stored as `smithy-theme` in `localStorage` inside try/catch (the one thing the page stores).
 - Discovery: HTTPS only, public addresses only (re-checked per redirect, resolved IP pinned), size and time limits, page text only goes to the extractor, never the key. `DISCOVERY_MODEL` unset hides the Discover button.
 - The API refuses an API key over plain HTTP unless the request is from localhost; env `ALLOW_INSECURE_KEYS=1` lifts it.
 
@@ -145,19 +145,19 @@
 ### Task 6: UI shell, logo, state module
 
 **Files:**
-- Create: `src/ui/index.html`, `src/ui/styles.css`, `src/ui/logo.svg`, `src/ui/app.js`, `src/ui/api.js`, `src/ui/state.js`
+- Create: `src/ui/index.html`, `src/ui/styles.css`, `src/ui/logo.svg`, `src/ui/app.js`, `src/ui/api.js`, `src/ui/state.js`, `src/ui/theme.js`
 - Modify: `src/api/index.ts` (`app.use(express.static(<src/ui>))` after the routers, resolved relative to the module), `docker/Dockerfile.api` (`COPY src/ui ./src/ui`)
-- Test: `test/ui-state.test.ts`
+- Test: `test/ui-state.test.ts`, `test/ui-theme.test.ts`
 
 **Interfaces:**
 - Produces in `state.js` (pure, no DOM): `createState()`, `selectModel(state, name)`, `canStart(state): { ok: boolean; missing: string[] }` (needs model, key present or not needed, benchmark, prompt when `needsPrompt`, challenges non-empty), `stageRun(state): Staged[]` (adds the current form as a queue item, one item per model+benchmark), `removeStaged(state, index)`, `groupModels(models: ApiModel[]): { domain: string; models: ApiModel[] }[]` (domain = benchmark; unrun models under "Not benchmarked"; a model appears in each benchmark it ran), `groupRuns(jobs: Job[]): Run[]` where `Run = { runId, model, benchmark, jobs, total, finished, status }` and `status` is `running | done | error | cancelled`.
-- `api.js` wraps `fetch` for every endpoint above and never touches `localStorage`/`sessionStorage`/`location`.
+- `api.js` wraps `fetch` for every endpoint above and never touches `localStorage`/`sessionStorage`/`location`. `theme.js`: `resolveTheme(saved: string | null, prefersDark: boolean): "light" | "dark"` (invalid saved value falls back to the system setting), `nextTheme(current)`; the only module allowed to use `localStorage`, and only for the key `smithy-theme`.
 - `escapeHtml`/text-node rendering helper `h(tag, attrs, children)` in `app.js`; no `innerHTML` with data anywhere.
 
-- [ ] **Step 1: Write failing tests** for `state.js` (import as ESM from `src/ui/state.js`): `canStart` lists exactly the missing fields; `groupModels` puts a never-run model under "Not benchmarked" and a model run on two benchmarks in both groups; `groupRuns` reports `running` while any job is queued/provisioning/running, `error` when all settled and any errored, `cancelled` when all cancelled; `stageRun` then `removeStaged` leaves an empty queue.
+- [ ] **Step 1: Write failing tests** for `theme.js` in `test/ui-theme.test.ts`: saved `"dark"` wins over a light system; saved `"purple"` or `null` follows the system; `nextTheme("light")` is `"dark"` and back. Then for `state.js` (import as ESM from `src/ui/state.js`): `canStart` lists exactly the missing fields; `groupModels` puts a never-run model under "Not benchmarked" and a model run on two benchmarks in both groups; `groupRuns` reports `running` while any job is queued/provisioning/running, `error` when all settled and any errored, `cancelled` when all cancelled; `stageRun` then `removeStaged` leaves an empty queue.
 - [ ] **Step 2: Run**; expect FAIL.
 - [ ] **Step 3: Implement** `state.js`, `api.js`, the static shell (header with logo and tabs, three empty columns) and the stylesheet with the palette and accessibility rules from Global Constraints. The anvil logo is an inline SVG using `currentColor`.
-- [ ] **Step 4: Run** `npm test && npm run typecheck`; rebuild and `docker compose up -d --build api redis`; open `http://localhost:3000/` in the browser; expect the shell with only the Models tab enabled and no console errors.
+- [ ] **Step 4: Run** `npm test && npm run typecheck`; rebuild and `docker compose up -d --build api redis`; open `http://localhost:3000/` in the browser; expect the shell with only the Models tab enabled, the theme switch at the top right toggling both themes (and a reload keeping the choice), and no console errors. Check text/accent contrast in both themes in the browser.
 - [ ] **Step 5: Commit** `feat(ui): shell, logo and state`.
 
 ### Task 7: Model list and Add-a-model card
