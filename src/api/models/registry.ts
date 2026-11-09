@@ -42,4 +42,7 @@ export function createRegistry(statics: ModelConfig[]): Registry {
 	};
 }
 
+/** Why a job on this model cannot start, if it cannot: a session model that lost its key. */
+export const keyError = (registry: Registry, name: string): string | undefined => (registry.needsKey(name) ? "needs key again" : undefined);
+
 export const registry = createRegistry(MODELS);

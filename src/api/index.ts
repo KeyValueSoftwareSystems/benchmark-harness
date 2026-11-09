@@ -9,15 +9,17 @@ import { registry } from "./models/registry.ts";
 import { startWorker } from "./queue/worker.ts";
 import { redis } from "./redis.ts";
 import { runJob } from "./runner.ts";
-import { getJob, issueResultToken, saveResult, verifyResultToken } from "./queue/store.ts";
+import { getJob, listJobs, requestCancel, issueResultToken, saveResult, verifyResultToken } from "./queue/store.ts";
 import { agents } from "./routes/agents.ts";
 import { jobs } from "./routes/jobs.ts";
 import { createModelsRouter } from "./routes/models.ts";
+import { createRunsRouter } from "./routes/runs.ts";
 import { createResultsRouter } from "./routes/results.ts";
 
 const app = express();
 app.use(express.json());
 app.use(agents, jobs);
+app.use(createRunsRouter({ listJobs: () => listJobs(redis), requestCancel: (id) => requestCancel(redis, id) }));
 app.use(createModelsRouter({ registry, db, benchmarks, discovery: false }));
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
 

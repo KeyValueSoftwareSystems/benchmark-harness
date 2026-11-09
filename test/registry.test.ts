@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { createRegistry } from "../src/api/models/registry.ts";
+import { createRegistry, keyError } from "../src/api/models/registry.ts";
 import type { ModelConfig } from "../src/shared/types.ts";
 
 const model = (name: string, apiKey = "k"): ModelConfig => ({ name, baseUrl: "https://x/v1", apiKey, api: "openai-completions", modelId: name });
@@ -51,4 +51,13 @@ test("list puts static models first without duplicates", () => {
 	assert.deepEqual(r.list().map((m) => m.name), ["a", "b", "c"]);
 	assert.equal(r.isSession("c"), true);
 	assert.equal(r.isSession("a"), false);
+});
+
+test("keyError says a session model needs its key again, and is silent otherwise", () => {
+	const r = createRegistry([model("static-a")]);
+	r.add(model("s", ""));
+	assert.equal(keyError(r, "s"), "needs key again");
+	assert.equal(keyError(r, "static-a"), undefined);
+	r.setKey("s", "k");
+	assert.equal(keyError(r, "s"), undefined);
 });
