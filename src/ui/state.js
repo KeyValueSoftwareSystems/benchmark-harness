@@ -161,3 +161,10 @@ export function describeQueueItem(item, benchmarks) {
 	}
 	return rows;
 }
+
+const MAX_ERROR = 140;
+/** One short line for a failed job; the full text stays available behind a Details control. */
+export function summarizeError(text) {
+	const line = String(text).split("\n")[0].replace(/\s+/g, " ").trim();
+	return line.length > MAX_ERROR ? `${line.slice(0, MAX_ERROR)}…` : line;
+}

@@ -1,6 +1,6 @@
 import { api } from "../api.js";
 import { clear, h } from "../dom.js";
-import { formatElapsed, groupRuns, settledSince } from "../state.js";
+import { formatElapsed, groupRuns, settledSince, summarizeError } from "../state.js";
 
 let timer = null;
 let generation = 0; // a poll that finishes after the view changed must not paint
@@ -19,11 +19,17 @@ export const stopRunning = () => {
 
 const STATUS = { queued: "waiting", provisioning: "starting", running: "running", done: "finished", error: "failed", cancelled: "cancelled" };
 
+function errorLine(text) {
+	const short = summarizeError(text);
+	const more = text !== short;
+	return h("div", { class: "error err" }, short, more ? h("details", {}, h("summary", {}, "Details"), h("pre", {}, text)) : null);
+}
+
 function jobLine(job, run) {
 	const label = job.params?.challenge ?? "prompt";
 	const verdict = job.status === "done" && solved.has(job.id) ? (solved.get(job.id) === true ? " · solved" : solved.get(job.id) === false ? " · not solved" : "") : "";
 	const elapsed = job.status === "running" || job.status === "provisioning" ? ` · ${formatElapsed(Date.now() - Date.parse(job.createdAt))}` : "";
-	return h("li", { class: `jl ${job.status}` }, h("span", { "aria-hidden": "true" }, job.status === "done" ? "✓" : job.status === "error" ? "✕" : job.status === "cancelled" ? "–" : "○"), " ", h("strong", {}, label), ` ${STATUS[job.status] ?? job.status}${verdict}${elapsed}`, job.error ? h("small", { class: "error" }, ` ${job.error}`) : null);
+	return h("li", { class: `jl ${job.status}` }, h("span", { "aria-hidden": "true" }, job.status === "done" ? "✓" : job.status === "error" ? "✕" : job.status === "cancelled" ? "–" : "○"), " ", h("strong", {}, label), ` ${STATUS[job.status] ?? job.status}${verdict}${elapsed}`, job.error ? errorLine(job.error) : null);
 }
 
 function runCard(ctx, run, redraw) {

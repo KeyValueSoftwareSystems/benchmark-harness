@@ -241,3 +241,20 @@ test("describeQueueItem shows the prompt for a prompt benchmark and never the ke
 	assert.deepEqual(rows, [["Model", "a"], ["Benchmark", "minimal"], ["Prompt", "say hi"]]);
 	assert.ok(!JSON.stringify(rows).includes("sk-secret"));
 });
+
+import { summarizeError } from "../src/ui/state.js";
+
+test("summarizeError keeps a short message as it is", () => {
+	assert.equal(summarizeError("model refused"), "model refused");
+});
+
+test("summarizeError keeps only the first line of a multi-line docker error", () => {
+	const long = `Error: Command failed: docker compose -p job-1 -f /x/compose.yml up -d --build --wait\n${"Container job-1-x Waiting ".repeat(30)}\ncontainer is unhealthy`;
+	assert.equal(summarizeError(long), "Error: Command failed: docker compose -p job-1 -f /x/compose.yml up -d --build --wait");
+});
+
+test("summarizeError cuts a very long single line and marks the cut", () => {
+	const out = summarizeError(`Error: ${"x".repeat(500)}`);
+	assert.equal(out.length, 141);
+	assert.ok(out.endsWith("…"));
+});

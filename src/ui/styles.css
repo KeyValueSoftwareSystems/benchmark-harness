@@ -122,3 +122,7 @@ dialog.picker-panel::backdrop { background: rgb(0 0 0 / .45); }
 .tour p { margin: 0; }
 .tour-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; margin-top: 6px; }
 .tour-target { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 12px; position: relative; z-index: 5; }
+
+.err { font-size: 14px; margin: 2px 0 6px 20px; }
+.err summary { cursor: pointer; color: var(--muted); }
+.err pre { white-space: pre-wrap; overflow-wrap: anywhere; max-height: 160px; overflow: auto; margin: 4px 0 0; padding: 8px; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; color: var(--text); font-size: 12px; }
