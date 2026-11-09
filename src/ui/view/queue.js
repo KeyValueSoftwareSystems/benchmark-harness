@@ -1,4 +1,4 @@
-import { clear, h } from "../dom.js";
+import { clear, h, put } from "../dom.js";
 import { describeQueueItem } from "../state.js";
 
 const open = new WeakSet(); // queued items whose settings are showing
@@ -8,7 +8,7 @@ export function renderQueue(ctx) {
 	const root = document.getElementById("queue");
 	clear(root);
 	const { queue, benchmarks, queueLimit } = ctx.state;
-	root.append(
+	put(root,
 		queue.length
 			? h("ul", { class: "queue" }, queue.map((q, i) => {
 				const showing = open.has(q);

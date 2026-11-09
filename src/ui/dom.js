@@ -13,4 +13,6 @@ export function h(tag, attrs = {}, ...children) {
 	for (const c of children.flat()) if (c !== null && c !== undefined && c !== false) el.append(c.nodeType ? c : document.createTextNode(String(c)));
 	return el;
 }
+/** Appends elements, skipping empty slots: a bare `el.append(null)` would add the text "null". */
+export const put = (el, ...children) => el.append(...children.flat().filter((c) => c !== null && c !== undefined && c !== false));
 export const clear = (el) => el.replaceChildren();
