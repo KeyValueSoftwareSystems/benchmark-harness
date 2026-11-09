@@ -1,10 +1,11 @@
 import { api } from "../api.js";
 import { clear, h } from "../dom.js";
-import { formatElapsed, groupRuns } from "../state.js";
+import { formatElapsed, groupRuns, settledSince } from "../state.js";
 
 let timer = null;
 const solved = new Map(); // jobId -> true | false | null, filled once a run has settled
 const reports = new Map(); // runId -> { url } | { error }
+let previous = new Map(); // runId -> status at the last poll
 
 export const stopRunning = () => {
 	clearInterval(timer);
@@ -30,9 +31,9 @@ function runCard(ctx, run, redraw) {
 		h("div", { class: "bar", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(run.total), "aria-valuenow": String(run.finished), "aria-label": "Challenges finished" }, h("i", { style: `width:${(run.finished / run.total) * 100}%` })),
 		h("ul", { class: "jobs" }, run.jobs.map((j) => jobLine(j, run))),
 		running
-			? h("button", { class: "btn", type: "button", onclick: async () => { await api.cancelRun(run.runId).catch((e) => ctx.toast(e.message)); redraw(); } }, "Cancel run")
+			? h("button", { class: "btn", type: "button", "data-key": `cancel-${run.runId}`, onclick: async () => { await api.cancelRun(run.runId).catch((e) => ctx.toast(e.message)); redraw(); } }, "Cancel run")
 			: h("div", { class: "row2" },
-				report?.url ? h("a", { class: "btn primary", href: report.url, target: "_blank", rel: "noopener" }, "Open report") : h("button", { class: "btn primary", type: "button", onclick: async () => {
+				report?.url ? h("a", { class: "btn primary", "data-key": `report-${run.runId}`, href: report.url, target: "_blank", rel: "noopener" }, "Open report") : h("button", { class: "btn primary", type: "button", "data-key": `report-${run.runId}`, onclick: async () => {
 					try {
 						reports.set(run.runId, { url: api.reportUrl((await api.buildReport(run.benchmark, [run.model])).id) });
 					} catch (e) {
@@ -40,7 +41,7 @@ function runCard(ctx, run, redraw) {
 					}
 					redraw();
 				} }, "Generate report"),
-				h("button", { class: "btn", type: "button", onclick: () => ctx.again(run) }, "Benchmark again")),
+				h("button", { class: "btn", type: "button", "data-key": `again-${run.runId}`, onclick: () => ctx.again(run) }, "Benchmark again")),
 		report?.error ? h("p", { class: "error", role: "alert" }, report.error) : null);
 }
 
@@ -61,12 +62,15 @@ export function renderRunning(ctx) {
 				for (const j of detail?.jobs ?? []) solved.set(j.id, j.correct);
 			}
 		}
+		// The list is rebuilt on every poll, so put keyboard focus back on the same control afterwards.
+		const focused = document.activeElement?.closest?.("[data-key]")?.dataset.key;
 		clear(root);
 		root.append(runs.length ? h("div", { class: "runs" }, runs.map((r) => runCard(ctx, r, redraw))) : h("p", { class: "empty" }, "No runs yet."));
-		if (!runs.some((r) => r.status === "running")) {
-			stopRunning();
-			ctx.reload?.();
-		}
+		if (focused) root.querySelector(`[data-key="${focused}"]`)?.focus();
+		const settled = settledSince(previous, runs);
+		previous = new Map(runs.map((r) => [r.runId, r.status]));
+		if (!runs.some((r) => r.status === "running")) stopRunning();
+		if (settled) ctx.refreshModels();
 	};
 	redraw();
 	timer = setInterval(() => {

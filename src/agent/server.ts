@@ -23,6 +23,8 @@ async function register(): Promise<ModelConfig> {
 			});
 			if (res.ok) return ((await res.json()) as { model: ModelConfig }).model;
 			console.error(`[agent] register failed: ${res.status}`);
+			// The API will not hand this job a model (gone, no key, or the job is not running): retrying cannot help.
+			if (res.status === 404 || res.status === 409) process.exit(1);
 		} catch (err) {
 			console.error(`[agent] register error: ${err}`);
 		}

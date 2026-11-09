@@ -105,3 +105,21 @@ export function againForm(run, benchmarks) {
 	const every = bench && ids.length === bench.challenges.length && bench.challenges.every((c) => ids.includes(c));
 	return { benchmark: run.benchmark, challenges: every || !ids.length ? "all" : ids, prompt: "" };
 }
+
+/** Runs items one at a time, reporting each as it starts, and stops at the first failure so nothing starts twice. */
+export async function runItems(items, startOne, onStarted = (_item, _id) => {}) {
+	const started = [];
+	for (const item of items) {
+		try {
+			const id = await startOne(item);
+			started.push(id);
+			onStarted(item, id);
+		} catch (error) {
+			return { started, failed: item, error };
+		}
+	}
+	return { started, failed: null, error: null };
+}
+
+/** True when a run that was running at the last look has settled since. */
+export const settledSince = (previous, runs) => runs.some((r) => previous.get(r.runId) === "running" && r.status !== "running");

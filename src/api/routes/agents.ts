@@ -1,5 +1,6 @@
 import { Router } from "express";
 import { benchmarks } from "../benchmarks/index.ts";
+import { canRegister } from "../models/register.ts";
 import { keyError, registry } from "../models/registry.ts";
 import { claimContext, getJob } from "../queue/store.ts";
 import { redis } from "../redis.ts";
@@ -12,6 +13,7 @@ agents.post("/register", async (req, res) => {
 	const { jobId } = req.body ?? {};
 	if (typeof jobId !== "string") return void res.status(400).json({ error: "jobId is required" });
 	const job = await getJob(redis, jobId);
+	if (job && !canRegister(job.status)) return void res.status(409).json({ error: "job is not running" });
 	const model = job && registry.find(job.model);
 	if (!model) return void res.status(404).json({ error: "unknown job" });
 	const missing = keyError(registry, model.name);

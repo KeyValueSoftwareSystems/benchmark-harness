@@ -1,6 +1,6 @@
 import { api } from "./api.js";
 import { clear, h } from "./dom.js";
-import { againForm, createState, groupRuns, removeStaged, selectModel, stageRun } from "./state.js";
+import { againForm, createState, groupRuns, runItems, removeStaged, selectModel, stageRun } from "./state.js";
 import { renderAddModel } from "./view/addModel.js";
 import { renderBenchmark } from "./view/benchmark.js";
 import { renderConfirm } from "./view/confirm.js";
@@ -93,20 +93,36 @@ const ctx = {
 		app.view = "stage";
 		render();
 	},
-	/** Hands any key to the API (memory only), then starts one run per item. */
+	/** Hands any key to the API (memory only), then starts one run per item. Each item leaves the queue the moment its run starts. */
 	async startItems(items) {
-		const runs = [];
-		for (const it of items) {
-			const model = app.state.models.find((m) => m.name === it.model);
-			if (model?.needsKey && it.apiKey) await api.setKey(it.model, it.apiKey);
-			const { runId } = await api.startRun({ benchmark: it.benchmark, model: it.model, challenges: it.challenges, prompt: it.prompt });
-			runs.push(runId);
+		const { started, failed, error } = await runItems(
+			items,
+			async (it) => {
+				const model = app.state.models.find((m) => m.name === it.model);
+				if (model?.needsKey && it.apiKey) await api.setKey(it.model, it.apiKey);
+				return (await api.startRun({ benchmark: it.benchmark, model: it.model, challenges: it.challenges, prompt: it.prompt })).runId;
+			},
+			(it) => {
+				app.state = { ...app.state, queue: app.state.queue.filter((q) => q !== it), form: { ...app.state.form, apiKey: "" } };
+				app.pending = app.pending.filter((p) => p !== it);
+			},
+		);
+		app.runs = [...started, ...app.runs];
+		if (failed) {
+			// Stay on the confirmation with only what has not started, so a second click cannot start anything twice.
+			toast(`${started.length ? `${started.length} started. ` : ""}${failed.model} could not start: ${error.message}`);
+			await load().catch(() => {});
+			return render();
 		}
-		app.state = { ...app.state, queue: app.state.queue.filter((q) => !items.includes(q)), form: { ...app.state.form, apiKey: "" } };
-		app.runs = [...runs, ...app.runs];
 		app.view = "running";
 		await load();
 		render();
+	},
+	/** Reloads the model list after a run settles, without redrawing the running view. */
+	async refreshModels() {
+		await load();
+		renderModelList(ctx);
+		renderQueue(ctx);
 	},
 };
 

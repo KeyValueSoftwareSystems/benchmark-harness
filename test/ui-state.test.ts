@@ -125,3 +125,30 @@ test("againForm reopens the same benchmark with the same challenges or prompt", 
 	const minimal = { runId: "r", model: "a", benchmark: "minimal", jobs: [{ ...job("x", "done", "r"), prompt: "say hi" }] };
 	assert.deepEqual(againForm(minimal, [{ name: "minimal", challenges: [], needsPrompt: true }]), { benchmark: "minimal", challenges: "all", prompt: "say hi" });
 });
+
+import { runItems, settledSince } from "../src/ui/state.js";
+
+test("runItems starts items one by one and reports each as it starts", async () => {
+	const seen: string[] = [];
+	const out = await runItems(["a", "b"], async (x: string) => `run-${x}`, (item: string, id: string) => seen.push(`${item}:${id}`));
+	assert.deepEqual(out, { started: ["run-a", "run-b"], failed: null, error: null });
+	assert.deepEqual(seen, ["a:run-a", "b:run-b"]);
+});
+
+test("runItems stops at the first failure and says what already started and what failed", async () => {
+	const seen: string[] = [];
+	const boom = new Error("model refused");
+	const out = await runItems(["a", "b", "c"], async (x: string) => { if (x === "b") throw boom; return `run-${x}`; }, (item: string) => seen.push(item));
+	assert.deepEqual(out.started, ["run-a"]);
+	assert.equal(out.failed, "b");
+	assert.equal(out.error, boom);
+	assert.deepEqual(seen, ["a"]);
+});
+
+test("settledSince is true only when a run that was running has now settled", () => {
+	const runs = (status: string) => [{ runId: "r1", status }];
+	assert.equal(settledSince(new Map([["r1", "running"]]), runs("done")), true);
+	assert.equal(settledSince(new Map([["r1", "running"]]), runs("running")), false);
+	assert.equal(settledSince(new Map([["r1", "done"]]), runs("done")), false);
+	assert.equal(settledSince(new Map(), runs("done")), false);
+});

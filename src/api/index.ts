@@ -8,6 +8,7 @@ import { fetchDocsText } from "./discovery/fetch.ts";
 import { db } from "./db/instance.ts";
 import { listRuns } from "./db/runs.ts";
 import { reconcileModelFiles } from "./db/reconcile.ts";
+import { jsonErrorHandler } from "./errors.ts";
 import { sweep } from "./docker/cli.ts";
 import { registry } from "./models/registry.ts";
 import { startWorker } from "./queue/worker.ts";
@@ -29,6 +30,8 @@ app.use(createReportsRouter({ baseUrl: REPORTS_URL }));
 app.use(createRunsRouter({ listJobs: () => listJobs(redis), requestCancel: (id) => requestCancel(redis, id), correctByJob: async (ids) => new Map(listRuns(db, {}).filter((r) => ids.includes(r.jobId)).map((r) => [r.jobId, r.correct])) }));
 app.use(createModelsRouter({ registry, db, benchmarks, discovery: !!discoveryModel, discover: discoveryModel && (async (url) => discoverParameters(await fetchDocsText(url), discoveryModel)) }));
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
+
+app.use(jsonErrorHandler);
 
 // The Smithy page: plain files, no build step. Registered after the API routes.
 app.use(express.static(fileURLToPath(new URL("../ui", import.meta.url))));

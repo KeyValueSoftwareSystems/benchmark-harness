@@ -1,3 +1,4 @@
+import { slug } from "../../shared/results.ts";
 import type { ModelConfig } from "../../shared/types.ts";
 import { MODELS } from "../config.ts";
 
@@ -27,7 +28,8 @@ export function createRegistry(statics: ModelConfig[]): Registry {
 		find,
 		isSession: (name) => session.has(name),
 		add(model) {
-			if (find(model.name)) return "clash";
+			// Result files are keyed by slug(name), so names that slug the same would share one file.
+			if (find(model.name) || [...statics, ...session.values()].some((m) => slug(m.name) === slug(model.name))) return "clash";
 			session.set(model.name, { ...model });
 			return "ok";
 		},
@@ -42,7 +44,11 @@ export function createRegistry(statics: ModelConfig[]): Registry {
 	};
 }
 
-/** Why a job on this model cannot start, if it cannot: a session model that lost its key. */
-export const keyError = (registry: Registry, name: string): string | undefined => (registry.needsKey(name) ? "needs key again" : undefined);
+/**
+ * Why a job on this model cannot start, if it cannot: a session model that lost its key, or one that is gone (the API
+ * restarted, or it was removed). Without this a queued job would provision containers and then wait forever for a model.
+ */
+export const keyError = (registry: Registry, name: string): string | undefined =>
+	!registry.find(name) ? "model is no longer available, add it again" : registry.needsKey(name) ? "needs key again" : undefined;
 
 export const registry = createRegistry(MODELS);

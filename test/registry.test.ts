@@ -61,3 +61,15 @@ test("keyError says a session model needs its key again, and is silent otherwise
 	r.setKey("s", "k");
 	assert.equal(keyError(r, "s"), undefined);
 });
+
+test("keyError also stops a job whose model is gone (an API restart or a delete), not just one without a key", () => {
+	const r = createRegistry([model("static-a")]);
+	assert.match(keyError(r, "vanished") ?? "", /add it again/i);
+});
+
+test("a name is a clash when it slugs to an existing model, because result files are keyed by slug", () => {
+	const r = createRegistry([model("gpt-5")]);
+	assert.equal(r.add(model("GPT 5")), "clash");
+	assert.equal(r.add(model("openai/gpt-5")), "ok");
+	assert.equal(r.add(model("Openai Gpt-5")), "clash");
+});
