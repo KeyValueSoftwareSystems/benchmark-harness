@@ -219,3 +219,25 @@ test("a duplicate is reported before the queue is reported full", () => {
 	s = stageRun(s);
 	assert.equal(stageCheck(s).message, "Model configuration already in queue");
 });
+
+import { describeQueueItem } from "../src/ui/state.js";
+
+const benchList = [
+	{ name: "cyber", challenges: ["locktalk", "chunky", "ezmaze"], needsPrompt: false },
+	{ name: "minimal", challenges: [], needsPrompt: true },
+];
+
+test("describeQueueItem lists exactly what a queued cyber run will do", () => {
+	assert.deepEqual(describeQueueItem({ model: "a", benchmark: "cyber", challenges: "all", prompt: "", apiKey: "secret" }, benchList), [
+		["Model", "a"],
+		["Benchmark", "cyber"],
+		["Challenges", "All (3): locktalk, chunky, ezmaze"],
+	]);
+	assert.deepEqual(describeQueueItem({ model: "a", benchmark: "cyber", challenges: ["chunky"], prompt: "", apiKey: "" }, benchList).at(-1), ["Challenges", "1 of 3: chunky"]);
+});
+
+test("describeQueueItem shows the prompt for a prompt benchmark and never the key", () => {
+	const rows = describeQueueItem({ model: "a", benchmark: "minimal", challenges: "all", prompt: "say hi", apiKey: "sk-secret" }, benchList);
+	assert.deepEqual(rows, [["Model", "a"], ["Benchmark", "minimal"], ["Prompt", "say hi"]]);
+	assert.ok(!JSON.stringify(rows).includes("sk-secret"));
+});

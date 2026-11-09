@@ -79,7 +79,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .center .card { width: 100%; max-width: 560px; margin: 0 auto; }
 .label { font-size: 14px; font-weight: 600; }
 .queue, .summary { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
-.queue li { display: flex; align-items: center; justify-content: space-between; gap: 8px; border: 1px solid var(--line); border-radius: 8px; padding: 4px 4px 4px 12px; overflow-wrap: anywhere; }
+.queue li { border: 1px solid var(--line); border-radius: 8px; padding: 4px 4px 4px 12px; overflow-wrap: anywhere; }
+.qrow { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.qbtns { display: flex; gap: 4px; flex: none; }
+.qinfo { margin: 4px 8px 8px 0; display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; font-size: 14px; }
+.qinfo[hidden] { display: none; }
+.qinfo dt { color: var(--muted); }
+.qinfo dd { margin: 0; overflow-wrap: anywhere; }
 .summary li { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
 .icon-btn.small { flex: none; }
 
@@ -109,3 +115,9 @@ a.btn.primary { color: var(--on-accent); }
 .check { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 0 8px; border-radius: 8px; cursor: pointer; overflow-wrap: anywhere; font-weight: 400; }
 .check:hover { background: var(--sel); }
 .check input { width: 20px; height: 20px; flex: none; accent-color: var(--accent); }
+
+/* first-time tour */
+.tour { position: fixed; z-index: 30; background: var(--panel); color: var(--text); border: 2px solid var(--accent); border-radius: 12px; padding: 16px; box-shadow: 0 16px 48px rgb(0 0 0 / .35); display: flex; flex-direction: column; gap: 6px; }
+.tour p { margin: 0; }
+.tour-actions { display: flex; gap: 8px; justify-content: flex-end; flex-wrap: wrap; margin-top: 6px; }
+.tour-target { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 12px; position: relative; z-index: 5; }

@@ -149,3 +149,15 @@ export function stageCheck(s) {
 	if (s.queue.length >= s.queueLimit) return { ok: false, message: `Queue is full (${s.queueLimit} items). Start some first.` };
 	return { ok: true };
 }
+
+/** The exact settings of a queued item as label/value rows. The API key is never part of it. */
+export function describeQueueItem(item, benchmarks) {
+	const bench = benchmarks.find((b) => b.name === item.benchmark);
+	const rows = [["Model", item.model], ["Benchmark", item.benchmark]];
+	if (bench?.needsPrompt) rows.push(["Prompt", item.prompt]);
+	else {
+		const all = bench?.challenges ?? [];
+		rows.push(["Challenges", item.challenges === "all" ? `All (${all.length}): ${all.join(", ")}` : `${item.challenges.length} of ${all.length}: ${item.challenges.join(", ")}`]);
+	}
+	return rows;
+}

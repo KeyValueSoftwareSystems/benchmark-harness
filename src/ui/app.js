@@ -7,6 +7,7 @@ import { renderConfirm } from "./view/confirm.js";
 import { renderQueue } from "./view/queue.js";
 import { renderRunning, stopRunning } from "./view/running.js";
 import { renderModelList } from "./view/modelList.js";
+import { hasSeenTour, startTour } from "./tour.js";
 import { applyTheme, loadTheme, nextTheme, saveTheme } from "./theme.js";
 
 const SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
@@ -150,4 +151,6 @@ const resumeRuns = async () => {
 };
 
 setupTheme();
-load().then(resumeRuns).then(render).catch((err) => toast(err.message));
+document.getElementById("tour").addEventListener("click", startTour);
+
+load().then(resumeRuns).then(render).then(() => hasSeenTour() || startTour()).catch((err) => toast(err.message));
