@@ -77,7 +77,8 @@ export function startTour() {
 	};
 
 	const onKey = (e) => {
-		if (e.key === "Escape") finish();
+		// An open dialog (the challenge picker) takes the Escape; the tour waits.
+		if (e.key === "Escape" && !document.querySelector("dialog[open]")) finish();
 	};
 	function finish() {
 		markSeen();

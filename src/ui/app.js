@@ -41,7 +41,7 @@ function setupTheme() {
 
 async function load() {
 	const [{ models, discovery, queueLimit }, benchmarks] = await Promise.all([api.models(), api.benchmarks()]);
-	app.state = { ...app.state, models, discovery, queueLimit, benchmarks };
+	app.state = { ...app.state, models, discovery, queueLimit: queueLimit ?? 5, benchmarks };
 }
 
 const ctx = {
@@ -86,6 +86,7 @@ const ctx = {
 	unstage(i) {
 		app.state = removeStaged(app.state, i);
 		render();
+		document.getElementById("queue-h")?.focus();
 	},
 	confirm(items) {
 		app.view = "confirm";
@@ -118,7 +119,8 @@ const ctx = {
 			return render();
 		}
 		app.view = "running";
-		await load();
+		// Every run has started: a failed refresh must not leave Confirm clickable on the old items.
+		await load().catch(() => {});
 		render();
 	},
 	/** Reloads the model list after a run settles, without redrawing the running view. */

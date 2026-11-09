@@ -3,13 +3,18 @@ import { clear, h } from "../dom.js";
 import { formatElapsed, groupRuns, settledSince } from "../state.js";
 
 let timer = null;
+let generation = 0; // a poll that finishes after the view changed must not paint
 const solved = new Map(); // jobId -> true | false | null, filled once a run has settled
 const reports = new Map(); // runId -> { url } | { error }
 let previous = new Map(); // runId -> status at the last poll
 
-export const stopRunning = () => {
+const stopTimer = () => {
 	clearInterval(timer);
 	timer = null;
+};
+export const stopRunning = () => {
+	generation++;
+	stopTimer();
 };
 
 const STATUS = { queued: "waiting", provisioning: "starting", running: "running", done: "finished", error: "failed", cancelled: "cancelled" };
@@ -49,6 +54,7 @@ function runCard(ctx, run, redraw) {
 export function renderRunning(ctx) {
 	const root = document.getElementById("stage");
 	stopRunning();
+	const mine = generation;
 	const redraw = async () => {
 		let runs;
 		try {
@@ -56,12 +62,14 @@ export function renderRunning(ctx) {
 		} catch (err) {
 			return void ctx.toast(err.message);
 		}
+		if (mine !== generation) return;
 		for (const run of runs) {
 			if (run.status !== "running" && run.jobs.some((j) => !solved.has(j.id))) {
 				const detail = await api.run(run.runId).catch(() => undefined);
 				for (const j of detail?.jobs ?? []) solved.set(j.id, j.correct);
 			}
 		}
+		if (mine !== generation) return;
 		// The list is rebuilt on every poll, so put keyboard focus back on the same control afterwards.
 		const focused = document.activeElement?.closest?.("[data-key]")?.dataset.key;
 		clear(root);
@@ -69,8 +77,8 @@ export function renderRunning(ctx) {
 		if (focused) root.querySelector(`[data-key="${focused}"]`)?.focus();
 		const settled = settledSince(previous, runs);
 		previous = new Map(runs.map((r) => [r.runId, r.status]));
-		if (!runs.some((r) => r.status === "running")) stopRunning();
-		if (settled) ctx.refreshModels();
+		if (!runs.some((r) => r.status === "running")) stopTimer();
+		if (settled) ctx.refreshModels().catch(() => {});
 	};
 	redraw();
 	timer = setInterval(() => {

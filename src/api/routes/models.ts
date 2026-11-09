@@ -16,6 +16,8 @@ export interface ModelsRouterDeps {
 	discovery: boolean;
 	/** How many items the page may hold in its queue. */
 	queueLimit: number;
+	/** Whether a job on this model is still queued or running. */
+	isBusy?: (name: string) => Promise<boolean>;
 	/** Reads a docs link and proposes parameters; absent when no discovery model is configured. */
 	discover?: (docsUrl: string) => Promise<unknown>;
 }
@@ -24,7 +26,7 @@ const THINKING = new Set(["off", "minimal", "low", "medium", "high", "xhigh", "m
 const isStr = (v: unknown): v is string => typeof v === "string" && v.trim() !== "";
 
 /** Models the UI can show and add, and the benchmarks it can start. API keys never appear in a response. */
-export function createModelsRouter({ registry, db, benchmarks, discovery, discover, queueLimit }: ModelsRouterDeps): Router {
+export function createModelsRouter({ registry, db, benchmarks, discovery, discover, queueLimit, isBusy }: ModelsRouterDeps): Router {
 	const router = Router();
 	const keyGuard = insecureKeyGuard();
 
@@ -64,7 +66,12 @@ export function createModelsRouter({ registry, db, benchmarks, discovery, discov
 		res.status(201).json({ ...redact(model), session: true, needsKey: model.apiKey === "", benchmarked: [] });
 	});
 
-	router.delete("/models/:name", (req, res) => void res.status(registry.remove(String(req.params.name)) ? 204 : 404).end());
+	router.delete("/models/:name", async (req, res) => {
+		const name = String(req.params.name);
+		// Removing a model under a running job would strand it until the job times out.
+		if (registry.isSession(name) && (await isBusy?.(name))) return void res.status(409).json({ error: "this model still has a job queued or running" });
+		res.status(registry.remove(name) ? 204 : 404).end();
+	});
 
 	router.put("/models/:name/key", keyGuard, (req, res) => {
 		const apiKey = req.body?.apiKey;

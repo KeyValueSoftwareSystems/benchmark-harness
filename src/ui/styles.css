@@ -107,8 +107,9 @@ a.btn.primary { color: var(--on-accent); }
 /* challenge picker: a wide panel over the page */
 .picker { display: flex; flex-direction: column; gap: 4px; }
 .picker-btn { min-height: 44px; display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); cursor: pointer; text-align: left; }
-.picker-backdrop { position: fixed; inset: 0; background: rgb(0 0 0 / .45); z-index: 20; }
-.picker-panel { position: fixed; z-index: 21; top: 72px; left: 16px; right: 16px; max-width: 1100px; margin: 0 auto; max-height: calc(100vh - 104px); display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 20px 60px rgb(0 0 0 / .35); }
+dialog.picker-panel { position: fixed; top: 72px; left: 16px; right: 16px; width: auto; max-width: 1100px; margin: 0 auto; padding: 0; max-height: calc(100vh - 104px); flex-direction: column; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 20px 60px rgb(0 0 0 / .35); }
+dialog.picker-panel[open] { display: flex; }
+dialog.picker-panel::backdrop { background: rgb(0 0 0 / .45); }
 .picker-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px; border-bottom: 1px solid var(--line); }
 .picker-bar input[type="search"] { flex: 1 1 220px; min-height: 44px; padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); }
 .picker-grid { list-style: none; margin: 0; padding: 12px; overflow: auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 2px 16px; }

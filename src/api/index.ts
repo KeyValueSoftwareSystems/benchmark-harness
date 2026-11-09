@@ -28,7 +28,7 @@ app.use(express.json());
 app.use(agents, jobs);
 app.use(createReportsRouter({ baseUrl: REPORTS_URL }));
 app.use(createRunsRouter({ listJobs: () => listJobs(redis), requestCancel: (id) => requestCancel(redis, id), correctByJob: async (ids) => new Map(listRuns(db, {}).filter((r) => ids.includes(r.jobId)).map((r) => [r.jobId, r.correct])) }));
-app.use(createModelsRouter({ registry, db, benchmarks, discovery: !!discoveryModel, queueLimit: QUEUE_LIMIT, discover: discoveryModel && (async (url) => discoverParameters(await fetchDocsText(url), discoveryModel)) }));
+app.use(createModelsRouter({ registry, db, benchmarks, discovery: !!discoveryModel, queueLimit: QUEUE_LIMIT, isBusy: async (name) => (await listJobs(redis)).some((j) => j.model === name && ["queued", "provisioning", "running"].includes(j.status)), discover: discoveryModel && (async (url) => discoverParameters(await fetchDocsText(url), discoveryModel)) }));
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
 
 app.use(jsonErrorHandler);

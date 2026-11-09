@@ -23,12 +23,12 @@ const run = (model: string, benchmark: string): RunRecord => ({
 	conditions: {}, createdAt: "2026-11-09T00:00:00Z", finishedAt: "2026-11-09T00:00:01Z",
 });
 
-async function serve(opts: { discovery?: boolean; discover?: (url: string) => Promise<unknown> } = {}) {
+async function serve(opts: { discovery?: boolean; discover?: (url: string) => Promise<unknown>; busy?: string[] } = {}) {
 	const db = openDb(":memory:");
 	const registry = createRegistry([staticModel]);
 	const app = express();
 	app.use(express.json());
-	app.use(createModelsRouter({ registry, db, benchmarks, discovery: opts.discovery ?? false, discover: opts.discover as never, queueLimit: 4 }));
+	app.use(createModelsRouter({ registry, db, benchmarks, discovery: opts.discovery ?? false, discover: opts.discover as never, queueLimit: 4, isBusy: async (name: string) => (opts.busy ?? []).includes(name) }));
 	const server = app.listen(0);
 	const base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
 	const call = async (method: string, path: string, body?: unknown) => {
@@ -205,6 +205,19 @@ test("GET /models tells the page how many items its queue may hold", async () =>
 	const s = await serve();
 	try {
 		assert.equal((await s.call("GET", "/models")).json.queueLimit, 4);
+	} finally {
+		s.close();
+	}
+});
+
+test("a model with a job still queued or running cannot be removed, so its job is not stranded", async () => {
+	const s = await serve({ busy: ["new-m"] });
+	try {
+		await s.call("POST", "/models", body());
+		const res = await s.call("DELETE", "/models/new-m");
+		assert.equal(res.status, 409);
+		assert.match(res.json.error, /still has a job/i);
+		assert.ok(s.registry.find("new-m"), "the model must still be there");
 	} finally {
 		s.close();
 	}
