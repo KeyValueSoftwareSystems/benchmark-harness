@@ -1,6 +1,6 @@
 import { api } from "./api.js";
 import { clear, h } from "./dom.js";
-import { againForm, createState, groupRuns, runItems, removeStaged, selectModel, stageRun } from "./state.js";
+import { againForm, createState, groupRuns, runItems, stageCheck, removeStaged, selectModel, stageRun } from "./state.js";
 import { renderAddModel } from "./view/addModel.js";
 import { renderBenchmark } from "./view/benchmark.js";
 import { renderConfirm } from "./view/confirm.js";
@@ -39,8 +39,8 @@ function setupTheme() {
 }
 
 async function load() {
-	const [{ models, discovery }, benchmarks] = await Promise.all([api.models(), api.benchmarks()]);
-	app.state = { ...app.state, models, discovery, benchmarks };
+	const [{ models, discovery, queueLimit }, benchmarks] = await Promise.all([api.models(), api.benchmarks()]);
+	app.state = { ...app.state, models, discovery, queueLimit, benchmarks };
 }
 
 const ctx = {
@@ -76,6 +76,8 @@ const ctx = {
 	},
 	currentItem: () => stageRun({ ...app.state, queue: [] }).queue[0],
 	stage() {
+		const check = stageCheck(app.state);
+		if (!check.ok) return toast(check.message);
 		app.state = { ...stageRun(app.state), form: { ...app.state.form, apiKey: "" } };
 		render();
 		toast("Added to the queue");

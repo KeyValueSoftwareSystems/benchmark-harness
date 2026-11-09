@@ -28,7 +28,7 @@ async function serve(opts: { discovery?: boolean; discover?: (url: string) => Pr
 	const registry = createRegistry([staticModel]);
 	const app = express();
 	app.use(express.json());
-	app.use(createModelsRouter({ registry, db, benchmarks, discovery: opts.discovery ?? false, discover: opts.discover as never }));
+	app.use(createModelsRouter({ registry, db, benchmarks, discovery: opts.discovery ?? false, discover: opts.discover as never, queueLimit: 4 }));
 	const server = app.listen(0);
 	const base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
 	const call = async (method: string, path: string, body?: unknown) => {
@@ -198,5 +198,14 @@ test("POST /models/discover shows a refused link as a 400 with the reason, and h
 	} finally {
 		refused.close();
 		broken.close();
+	}
+});
+
+test("GET /models tells the page how many items its queue may hold", async () => {
+	const s = await serve();
+	try {
+		assert.equal((await s.call("GET", "/models")).json.queueLimit, 4);
+	} finally {
+		s.close();
 	}
 });

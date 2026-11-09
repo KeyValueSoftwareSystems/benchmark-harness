@@ -177,3 +177,45 @@ test("filterChallenges matches any part of the name, ignoring case", () => {
 	assert.deepEqual(filterChallenges(ALL, ""), ALL);
 	assert.deepEqual(filterChallenges(ALL, "nope"), []);
 });
+
+import { stageCheck } from "../src/ui/state.js";
+
+const withForm = (s: ReturnType<typeof ready>, patch: Record<string, unknown>) => ({ ...s, form: { ...s.form, ...patch } });
+
+test("a model with the same benchmark, challenges and prompt is a duplicate in the queue", () => {
+	const s = stageRun(ready());
+	assert.deepEqual(stageCheck(s), { ok: false, message: "Model configuration already in queue" });
+});
+
+test("the same model with different parameters is allowed", () => {
+	const s = stageRun(ready());
+	assert.equal(stageCheck(withForm(s, { challenges: ["locktalk"] })).ok, true);
+	assert.equal(stageCheck(withForm(s, { benchmark: "minimal", prompt: "hi" })).ok, true);
+});
+
+test("challenge order does not make a configuration different, and the key never counts", () => {
+	let s = ready();
+	s = stageRun(withForm(s, { challenges: ["locktalk", "chunky"], apiKey: "one" }));
+	assert.equal(stageCheck(withForm(s, { challenges: ["chunky", "locktalk"], apiKey: "two" })).ok, false);
+});
+
+test("prompts that differ only by surrounding spaces are the same configuration", () => {
+	let s = withForm(ready(), { benchmark: "minimal", prompt: "say hi" });
+	s = stageRun(s);
+	assert.equal(stageCheck(withForm(s, { prompt: "  say hi  " })).ok, false);
+	assert.equal(stageCheck(withForm(s, { prompt: "say bye" })).ok, true);
+});
+
+test("the queue holds at most the API's limit, 5 unless it says otherwise", () => {
+	assert.equal(createState().queueLimit, 5);
+	let s = { ...ready(), queueLimit: 2 };
+	s = stageRun(withForm(s, { benchmark: "minimal", prompt: "a" }));
+	s = stageRun(withForm(s, { benchmark: "minimal", prompt: "b" }));
+	assert.deepEqual(stageCheck(withForm(s, { benchmark: "minimal", prompt: "c" })), { ok: false, message: "Queue is full (2 items). Start some first." });
+});
+
+test("a duplicate is reported before the queue is reported full", () => {
+	let s = { ...ready(), queueLimit: 1 };
+	s = stageRun(s);
+	assert.equal(stageCheck(s).message, "Model configuration already in queue");
+});

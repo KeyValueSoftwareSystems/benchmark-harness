@@ -14,6 +14,8 @@ export interface ModelsRouterDeps {
 	benchmarks: Map<string, Benchmark>;
 	/** Whether a discovery model is configured (the page hides "Discover parameters" without one). */
 	discovery: boolean;
+	/** How many items the page may hold in its queue. */
+	queueLimit: number;
 	/** Reads a docs link and proposes parameters; absent when no discovery model is configured. */
 	discover?: (docsUrl: string) => Promise<unknown>;
 }
@@ -22,7 +24,7 @@ const THINKING = new Set(["off", "minimal", "low", "medium", "high", "xhigh", "m
 const isStr = (v: unknown): v is string => typeof v === "string" && v.trim() !== "";
 
 /** Models the UI can show and add, and the benchmarks it can start. API keys never appear in a response. */
-export function createModelsRouter({ registry, db, benchmarks, discovery, discover }: ModelsRouterDeps): Router {
+export function createModelsRouter({ registry, db, benchmarks, discovery, discover, queueLimit }: ModelsRouterDeps): Router {
 	const router = Router();
 	const keyGuard = insecureKeyGuard();
 
@@ -39,7 +41,7 @@ export function createModelsRouter({ registry, db, benchmarks, discovery, discov
 		const readOnly = [...benchmarked]
 			.filter(([name]) => !registry.find(name))
 			.map(([name, set]) => ({ name, modelId: name, baseUrl: "", api: "", session: false, needsKey: true, readOnly: true, benchmarked: [...set] }));
-		res.json({ discovery, models: [...known, ...readOnly] });
+		res.json({ discovery, queueLimit, models: [...known, ...readOnly] });
 	});
 
 	router.post("/models", keyGuard, (req, res) => {

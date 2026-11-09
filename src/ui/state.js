@@ -6,6 +6,7 @@ export const createState = () => ({
 	selected: null,
 	form: { benchmark: "cyber", challenges: "all", prompt: "", apiKey: "" },
 	queue: [],
+	queueLimit: 5,
 });
 
 const selectedModel = (s) => s.models.find((m) => m.name === s.selected);
@@ -135,3 +136,16 @@ export function toggleChallenge(value, id, all) {
 }
 
 export const filterChallenges = (list, query) => list.filter((c) => c.toLowerCase().includes(query.trim().toLowerCase()));
+
+const sameConfig = (a, b) => {
+	const ids = (c) => (c === "all" ? "all" : [...c].sort().join("\u0000"));
+	return a.model === b.model && a.benchmark === b.benchmark && ids(a.challenges) === ids(b.challenges) && a.prompt.trim() === b.prompt.trim();
+};
+
+/** Whether the current form may join the queue: not a repeat of something queued, and the queue is not full. */
+export function stageCheck(s) {
+	const item = { model: s.selected, benchmark: s.form.benchmark, challenges: s.form.challenges, prompt: s.form.prompt };
+	if (s.queue.some((q) => sameConfig(q, item))) return { ok: false, message: "Model configuration already in queue" };
+	if (s.queue.length >= s.queueLimit) return { ok: false, message: `Queue is full (${s.queueLimit} items). Start some first.` };
+	return { ok: true };
+}
