@@ -20,6 +20,9 @@ export const RESULTS_DIR = process.env.RESULTS_DIR ?? "/data/results";
 /** Run conditions recorded with every result (shown on reports). */
 export const CONDITIONS = { maxTurns: Number(process.env.MAX_TURNS) || null, jobTimeoutMs: JOB_TIMEOUT_MS };
 
+/** The report service the page asks to build and serve reports. */
+export const REPORTS_URL = process.env.REPORTS_URL ?? "http://reports-api:3001";
+
 /** Optional: one model (same JSON shape as a `MODELS` item) that reads a docs page to propose parameters for a new model. */
 export const DISCOVERY_MODEL: ModelConfig | undefined = process.env.DISCOVERY_MODEL ? JSON.parse(process.env.DISCOVERY_MODEL) : undefined;
 
