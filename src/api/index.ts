@@ -1,7 +1,9 @@
 import os from "node:os";
 import express from "express";
 import { benchmarks } from "./benchmarks/index.ts";
-import { concurrencyFor, PORT, RESULTS_DIR } from "./config.ts";
+import { concurrencyFor, DISCOVERY_MODEL, PORT, RESULTS_DIR } from "./config.ts";
+import { discoverParameters } from "./discovery/extract.ts";
+import { fetchDocsText } from "./discovery/fetch.ts";
 import { db } from "./db/instance.ts";
 import { reconcileModelFiles } from "./db/reconcile.ts";
 import { sweep } from "./docker/cli.ts";
@@ -16,11 +18,12 @@ import { createModelsRouter } from "./routes/models.ts";
 import { createRunsRouter } from "./routes/runs.ts";
 import { createResultsRouter } from "./routes/results.ts";
 
+const discoveryModel = DISCOVERY_MODEL;
 const app = express();
 app.use(express.json());
 app.use(agents, jobs);
 app.use(createRunsRouter({ listJobs: () => listJobs(redis), requestCancel: (id) => requestCancel(redis, id) }));
-app.use(createModelsRouter({ registry, db, benchmarks, discovery: false }));
+app.use(createModelsRouter({ registry, db, benchmarks, discovery: !!discoveryModel, discover: discoveryModel && (async (url) => discoverParameters(await fetchDocsText(url), discoveryModel)) }));
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
 
 await reconcileModelFiles(db, RESULTS_DIR)

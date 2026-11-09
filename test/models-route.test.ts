@@ -6,6 +6,7 @@ import type { Benchmark } from "../src/api/benchmarks/types.ts";
 import { openDb, upsertRun } from "../src/api/db/runs.ts";
 import { insecureKeyGuard } from "../src/api/models/guard.ts";
 import { createRegistry } from "../src/api/models/registry.ts";
+import { DiscoveryError } from "../src/api/discovery/fetch.ts";
 import { createModelsRouter } from "../src/api/routes/models.ts";
 import type { RunRecord } from "../src/shared/results.ts";
 import type { ModelConfig } from "../src/shared/types.ts";
@@ -22,12 +23,12 @@ const run = (model: string, benchmark: string): RunRecord => ({
 	conditions: {}, createdAt: "2026-11-09T00:00:00Z", finishedAt: "2026-11-09T00:00:01Z",
 });
 
-async function serve(opts: { discovery?: boolean } = {}) {
+async function serve(opts: { discovery?: boolean; discover?: (url: string) => Promise<unknown> } = {}) {
 	const db = openDb(":memory:");
 	const registry = createRegistry([staticModel]);
 	const app = express();
 	app.use(express.json());
-	app.use(createModelsRouter({ registry, db, benchmarks, discovery: opts.discovery ?? false }));
+	app.use(createModelsRouter({ registry, db, benchmarks, discovery: opts.discovery ?? false, discover: opts.discover as never }));
 	const server = app.listen(0);
 	const base = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
 	const call = async (method: string, path: string, body?: unknown) => {
@@ -153,4 +154,41 @@ test("the key guard refuses plain HTTP from a non-loopback address unless allowe
 	assert.equal(guardCall({}, { protocol: "http", remote: "::1" }).nextCalled, true);
 	assert.equal(guardCall({}, { protocol: "https", remote: "192.168.1.20" }).nextCalled, true);
 	assert.equal(guardCall({ ALLOW_INSECURE_KEYS: "1" }, { protocol: "http", remote: "192.168.1.20" }).nextCalled, true);
+});
+
+test("POST /models/discover returns the discovered parameters", async () => {
+	const s = await serve({ discovery: true, discover: async (url) => ({ thinkingLevels: ["off"], seen: url }) });
+	try {
+		const res = await s.call("POST", "/models/discover", { docsUrl: "https://docs.example/m" });
+		assert.equal(res.status, 200);
+		assert.deepEqual(res.json, { thinkingLevels: ["off"], seen: "https://docs.example/m" });
+	} finally {
+		s.close();
+	}
+});
+
+test("POST /models/discover is 404 when no discovery model is configured", async () => {
+	const s = await serve();
+	try {
+		assert.equal((await s.call("POST", "/models/discover", { docsUrl: "https://docs.example/m" })).status, 404);
+	} finally {
+		s.close();
+	}
+});
+
+test("POST /models/discover shows a refused link as a 400 with the reason, and hides other failures", async () => {
+	const refused = await serve({ discovery: true, discover: async () => { throw new DiscoveryError("only https links are allowed"); } });
+	const broken = await serve({ discovery: true, discover: async () => { throw new Error("secret internal detail"); } });
+	try {
+		const a = await refused.call("POST", "/models/discover", { docsUrl: "http://x" });
+		assert.equal(a.status, 400);
+		assert.equal(a.json.error, "only https links are allowed");
+		const b = await broken.call("POST", "/models/discover", { docsUrl: "https://x" });
+		assert.equal(b.status, 502);
+		assert.ok(!b.text.includes("secret internal detail"));
+		assert.equal((await refused.call("POST", "/models/discover", {})).status, 400);
+	} finally {
+		refused.close();
+		broken.close();
+	}
 });

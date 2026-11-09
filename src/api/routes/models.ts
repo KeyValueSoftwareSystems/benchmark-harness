@@ -1,6 +1,7 @@
 import type { DatabaseSync } from "node:sqlite";
 import { Router } from "express";
 import type { Benchmark } from "../benchmarks/types.ts";
+import { DiscoveryError } from "../discovery/fetch.ts";
 import { listRuns } from "../db/runs.ts";
 import { insecureKeyGuard } from "../models/guard.ts";
 import type { Registry } from "../models/registry.ts";
@@ -13,13 +14,15 @@ export interface ModelsRouterDeps {
 	benchmarks: Map<string, Benchmark>;
 	/** Whether a discovery model is configured (the page hides "Discover parameters" without one). */
 	discovery: boolean;
+	/** Reads a docs link and proposes parameters; absent when no discovery model is configured. */
+	discover?: (docsUrl: string) => Promise<unknown>;
 }
 
 const THINKING = new Set(["off", "minimal", "low", "medium", "high", "xhigh", "max"]);
 const isStr = (v: unknown): v is string => typeof v === "string" && v.trim() !== "";
 
 /** Models the UI can show and add, and the benchmarks it can start. API keys never appear in a response. */
-export function createModelsRouter({ registry, db, benchmarks, discovery }: ModelsRouterDeps): Router {
+export function createModelsRouter({ registry, db, benchmarks, discovery, discover }: ModelsRouterDeps): Router {
 	const router = Router();
 	const keyGuard = insecureKeyGuard();
 
@@ -65,6 +68,19 @@ export function createModelsRouter({ registry, db, benchmarks, discovery }: Mode
 		const apiKey = req.body?.apiKey;
 		if (typeof apiKey !== "string") return void res.status(400).json({ error: "apiKey is required" });
 		res.status(registry.setKey(String(req.params.name), apiKey) ? 204 : 404).end();
+	});
+
+	router.post("/models/discover", async (req, res) => {
+		if (!discover) return void res.status(404).json({ error: "parameter discovery is not configured" });
+		const docsUrl = req.body?.docsUrl;
+		if (!isStr(docsUrl)) return void res.status(400).json({ error: "docsUrl is required" });
+		try {
+			res.json(await discover(docsUrl));
+		} catch (err) {
+			if (err instanceof DiscoveryError) return void res.status(400).json({ error: err.message });
+			console.error(`[api] discovery failed: ${err instanceof Error ? err.name : "error"}`);
+			res.status(502).json({ error: "could not read the docs page" });
+		}
 	});
 
 	router.get("/benchmarks", async (_req, res) => {

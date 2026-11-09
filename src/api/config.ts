@@ -20,6 +20,9 @@ export const RESULTS_DIR = process.env.RESULTS_DIR ?? "/data/results";
 /** Run conditions recorded with every result (shown on reports). */
 export const CONDITIONS = { maxTurns: Number(process.env.MAX_TURNS) || null, jobTimeoutMs: JOB_TIMEOUT_MS };
 
+/** Optional: one model (same JSON shape as a `MODELS` item) that reads a docs page to propose parameters for a new model. */
+export const DISCOVERY_MODEL: ModelConfig | undefined = process.env.DISCOVERY_MODEL ? JSON.parse(process.env.DISCOVERY_MODEL) : undefined;
+
 /** Netra MCP (insights are skipped when no key is set). EU projects use https://api.eu.getnetra.ai/mcp. */
 export const NETRA_MCP_ENDPOINT = process.env.NETRA_MCP_ENDPOINT ?? "https://api.getnetra.ai/mcp";
 export const NETRA_API_KEY = process.env.NETRA_API_KEY ?? "";
