@@ -64,3 +64,29 @@ export function groupRuns(jobs) {
 		return { runId, model: list[0].model, benchmark: list[0].benchmark, jobs: list, total: list.length, finished, status };
 	});
 }
+
+const isHttp = (u) => /^https?:\/\/\S+$/.test(u);
+const isPrice = (v) => v !== "" && Number.isFinite(Number(v)) && Number(v) >= 0;
+
+/** The Add-a-model card's checks; `errors` is keyed by field so each message sits beside its field. */
+export function validateNewModel(f) {
+	const errors = {};
+	if (!f.name.trim()) errors.name = "Enter the model name.";
+	if (!f.baseUrl.trim()) errors.baseUrl = "Enter the base URL.";
+	else if (!isHttp(f.baseUrl.trim())) errors.baseUrl = "The base URL must start with http:// or https://.";
+	if (!f.api.trim()) errors.api = "Choose the API type.";
+	if (!f.apiKey) errors.apiKey = "Enter the API key. It is kept in memory only.";
+	if ((f.costIn !== "" || f.costOut !== "") && !(isPrice(f.costIn) && isPrice(f.costOut))) errors.cost = "Enter both prices as numbers, or leave both empty.";
+	return { ok: Object.keys(errors).length === 0, errors };
+}
+
+/** The body of `POST /models` from a valid card. */
+export const toModelPayload = (f) => ({
+	name: f.name.trim(),
+	modelId: f.modelId.trim() || f.name.trim(),
+	baseUrl: f.baseUrl.trim(),
+	api: f.api.trim(),
+	apiKey: f.apiKey,
+	thinkingLevel: f.thinkingLevel || undefined,
+	...(f.costIn !== "" && f.costOut !== "" ? { cost: { input: Number(f.costIn), output: Number(f.costOut) } } : {}),
+});

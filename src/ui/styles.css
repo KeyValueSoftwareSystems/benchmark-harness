@@ -50,3 +50,26 @@ button, input, select, textarea { font: inherit; color: inherit; }
 #toast.show { opacity: 1; }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* model list */
+.add { width: 100%; }
+.group { border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+.group-h { width: 100%; min-height: 44px; display: flex; align-items: center; gap: 6px; padding: 0 12px; background: none; border: 0; cursor: pointer; text-align: left; font-weight: 600; }
+.count { margin-left: auto; color: var(--muted); font-weight: 400; }
+.items { list-style: none; margin: 0; padding: 0; }
+.items[hidden] { display: none; }
+.item { width: 100%; min-height: 44px; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 6px 12px 6px 28px; border: 0; border-top: 1px solid var(--line); background: none; cursor: pointer; text-align: left; }
+.item[aria-pressed="true"] { background: var(--sel); box-shadow: inset 3px 0 0 var(--accent); font-weight: 600; }
+.item-name { overflow-wrap: anywhere; }
+.chip { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+.chip.warn { color: var(--bad); border-color: var(--bad); }
+
+/* add-a-model card and forms */
+.card { display: flex; flex-direction: column; gap: 12px; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.field label { font-size: 14px; font-weight: 600; }
+.field input, .field select, .field textarea { min-height: 44px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); width: 100%; }
+.field input[aria-invalid="true"] { border-color: var(--bad); }
+.error { color: var(--bad); font-size: 14px; margin: 0; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.discover { display: flex; flex-direction: column; gap: 8px; }

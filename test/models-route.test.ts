@@ -140,11 +140,12 @@ test("GET /benchmarks lists challenges and which benchmark needs a prompt", asyn
 	}
 });
 
-const guardCall = (env: Record<string, string | undefined>, req: { protocol: string; remote: string }) => {
+const guardCall = (env: Record<string, string | undefined>, req: { protocol: string; remote: string; host?: string }) => {
 	let status = 0;
 	let nextCalled = false;
 	const res = { status: (c: number) => ({ json: () => void (status = c) }) };
-	insecureKeyGuard(env)({ protocol: req.protocol, socket: { remoteAddress: req.remote } } as never, res as never, () => void (nextCalled = true));
+	const fake = { protocol: req.protocol, hostname: req.host ?? "api.internal", socket: { remoteAddress: req.remote } };
+	insecureKeyGuard(env)(fake as never, res as never, () => void (nextCalled = true));
 	return { status, nextCalled };
 };
 
@@ -154,6 +155,13 @@ test("the key guard refuses plain HTTP from a non-loopback address unless allowe
 	assert.equal(guardCall({}, { protocol: "http", remote: "::1" }).nextCalled, true);
 	assert.equal(guardCall({}, { protocol: "https", remote: "192.168.1.20" }).nextCalled, true);
 	assert.equal(guardCall({ ALLOW_INSECURE_KEYS: "1" }, { protocol: "http", remote: "192.168.1.20" }).nextCalled, true);
+});
+
+test("a browser using a localhost address counts as local even though Docker shows a bridge address", () => {
+	assert.equal(guardCall({}, { protocol: "http", remote: "172.18.0.1", host: "localhost" }).nextCalled, true);
+	assert.equal(guardCall({}, { protocol: "http", remote: "172.18.0.1", host: "127.0.0.1" }).nextCalled, true);
+	assert.equal(guardCall({}, { protocol: "http", remote: "172.18.0.1", host: "192.168.1.5" }).nextCalled, false);
+	assert.equal(guardCall({}, { protocol: "http", remote: "172.18.0.1", host: "localhost.evil.test" }).nextCalled, false);
 });
 
 test("POST /models/discover returns the discovered parameters", async () => {

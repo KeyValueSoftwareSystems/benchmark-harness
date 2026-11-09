@@ -82,3 +82,29 @@ test("groupRuns ignores jobs without a runId and rebuilds a run from the jobs al
 	assert.equal(runs[0].model, "a");
 	assert.equal(runs[0].benchmark, "cyber");
 });
+
+import { toModelPayload, validateNewModel } from "../src/ui/state.js";
+
+const form = (over: Record<string, string> = {}) => ({ name: "m", modelId: "", baseUrl: "https://x/v1", api: "openai-completions", apiKey: "k", thinkingLevel: "off", costIn: "", costOut: "", ...over });
+
+test("validateNewModel lists every missing required field", () => {
+	const { ok, errors } = validateNewModel({ name: "", modelId: "", baseUrl: "", api: "", apiKey: "", thinkingLevel: "off", costIn: "", costOut: "" });
+	assert.equal(ok, false);
+	assert.deepEqual(Object.keys(errors).sort(), ["api", "apiKey", "baseUrl", "name"]);
+});
+
+test("validateNewModel rejects a base URL that is not http or https and accepts a valid form", () => {
+	assert.ok(validateNewModel(form({ baseUrl: "ftp://x" })).errors.baseUrl);
+	assert.deepEqual(validateNewModel(form()), { ok: true, errors: {} });
+});
+
+test("validateNewModel rejects prices that are not non-negative numbers", () => {
+	assert.ok(validateNewModel(form({ costIn: "-1", costOut: "2" })).errors.cost);
+	assert.ok(validateNewModel(form({ costIn: "1" })).errors.cost);
+	assert.equal(validateNewModel(form({ costIn: "0.1", costOut: "0.4" })).ok, true);
+});
+
+test("toModelPayload defaults modelId to the name and only sends a price when both are set", () => {
+	assert.deepEqual(toModelPayload(form()), { name: "m", modelId: "m", baseUrl: "https://x/v1", api: "openai-completions", apiKey: "k", thinkingLevel: "off" });
+	assert.deepEqual(toModelPayload(form({ modelId: "m-1", costIn: "0.1", costOut: "0.4" })).cost, { input: 0.1, output: 0.4 });
+});
