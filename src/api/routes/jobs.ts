@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { benchmarks } from "../benchmarks/index.ts";
-import { MODELS } from "../config.ts";
+import { registry } from "../models/registry.ts";
 import { createJob, getJob, listJobs, requestCancel } from "../queue/store.ts";
 import { enqueue } from "../queue/worker.ts";
 import { redis } from "../redis.ts";
@@ -13,7 +13,7 @@ jobs.post("/jobs", async (req, res) => {
 	if (!benchmark) return void res.status(404).json({ error: "unknown benchmark" });
 	const input = await benchmark.parse(req.body);
 	if ("error" in input) return void res.status(400).json({ error: input.error });
-	const selected = Array.isArray(models) ? MODELS.filter((m) => models.includes(m.name)) : MODELS;
+	const selected = Array.isArray(models) ? registry.list().filter((m) => models.includes(m.name)) : registry.list();
 	if (!selected.length) return void res.status(404).json({ error: "no matching models" });
 
 	const created = [];

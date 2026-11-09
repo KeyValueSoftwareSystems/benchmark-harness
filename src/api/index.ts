@@ -1,10 +1,11 @@
 import os from "node:os";
 import express from "express";
 import { benchmarks } from "./benchmarks/index.ts";
-import { concurrencyFor, MODELS, PORT, RESULTS_DIR } from "./config.ts";
+import { concurrencyFor, PORT, RESULTS_DIR } from "./config.ts";
 import { db } from "./db/instance.ts";
 import { reconcileModelFiles } from "./db/reconcile.ts";
 import { sweep } from "./docker/cli.ts";
+import { registry } from "./models/registry.ts";
 import { startWorker } from "./queue/worker.ts";
 import { redis } from "./redis.ts";
 import { runJob } from "./runner.ts";
@@ -26,7 +27,7 @@ for (const b of benchmarks.values()) {
 	void startWorker(redis, b.name, runJob, { concurrency: concurrencyFor(b.name, b.concurrency), consumer: os.hostname() });
 }
 
-const server = app.listen(PORT, () => console.error(`[api] listening on ${PORT}, ${MODELS.length} model(s) configured`));
+const server = app.listen(PORT, () => console.error(`[api] listening on ${PORT}, ${registry.list().length} model(s) configured`));
 
 // PID 1 ignores SIGTERM unless handled. Jobs interrupted here are re-run from the stream and swept on next start.
 for (const signal of ["SIGTERM", "SIGINT"]) {
