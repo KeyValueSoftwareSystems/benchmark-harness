@@ -12,11 +12,13 @@ import { runJob } from "./runner.ts";
 import { getJob, issueResultToken, saveResult, verifyResultToken } from "./queue/store.ts";
 import { agents } from "./routes/agents.ts";
 import { jobs } from "./routes/jobs.ts";
+import { createModelsRouter } from "./routes/models.ts";
 import { createResultsRouter } from "./routes/results.ts";
 
 const app = express();
 app.use(express.json());
 app.use(agents, jobs);
+app.use(createModelsRouter({ registry, db, benchmarks, discovery: false }));
 app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
 
 await reconcileModelFiles(db, RESULTS_DIR)

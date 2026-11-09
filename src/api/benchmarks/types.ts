@@ -26,6 +26,8 @@ export interface Benchmark {
 	name: string;
 	/** Default for how many of this benchmark's jobs run at once (`CONCURRENCY_<NAME>` overrides it). */
 	concurrency: number;
+	/** Challenge ids a run can pick from; absent for benchmarks that take a free prompt instead. */
+	challenges?(): Promise<string[]>;
 	/** Validates a `POST /jobs` body and turns it into the inputs of the jobs to create (one per challenge, say). */
 	parse(body: Record<string, unknown>): Promise<JobInput[] | { error: string }>;
 	/** What the agent's extension asks for at startup (served once per run). */
