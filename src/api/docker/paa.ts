@@ -90,6 +90,7 @@ export async function withPaa(
 			"--network", network,
 			"--read-only",
 			"--tmpfs", `${SCRATCH_DIR}:uid=1000,gid=1000`,
+			"--tmpfs", "/tmp:uid=1000,gid=1000",
 			...env,
 			PAA_IMAGE,
 		);
