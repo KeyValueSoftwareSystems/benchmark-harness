@@ -33,6 +33,7 @@ import { clawSlackRoutes } from "./claw_slack.ts";
 import { clawWechatRoutes } from "./claw_wechat.ts";
 import { sheetRoutes } from "./sheet.ts";
 import { slideRoutes } from "./slide.ts";
+import { datetimeRoutes } from "./datetime.ts";
 import { mcpRouter, type ToolDef, type ToolEndpoint } from "./mcp.ts";
 import type { FixtureLoader } from "./types.ts";
 
@@ -60,6 +61,7 @@ const ROUTE_FACTORIES: Record<string, (load: FixtureLoader) => express.Router> =
 		claw_wechat: clawWechatRoutes,
 		sheet: sheetRoutes,
 		slide: slideRoutes,
+		datetime: datetimeRoutes,
 	};
 
 function createFixtureLoader(worldDir: string): FixtureLoader {

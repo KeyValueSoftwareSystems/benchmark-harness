@@ -7,6 +7,11 @@ prompt:
   language: en
 execution_date: 2026-04-08
 tools:
+  - name: get_current_datetime
+    description: "Returns the current date and time in the scenario. Use this instead of the system clock."
+    input_schema:
+      type: object
+      properties: {}
   - name: gmail_list_messages
     description: "List inbox messages. Returns subject/from/date (no body). Default:
       last 7 days, max 20 results. Response includes 'total' (all matching) and
@@ -38,6 +43,9 @@ tools:
       required:
         - message_id
 tool_endpoints:
+  - tool_name: get_current_datetime
+    url: http://localhost:9101/datetime
+    method: POST
   - tool_name: gmail_list_messages
     url: http://localhost:9100/gmail/messages
     method: POST
@@ -47,6 +55,8 @@ tool_endpoints:
 services:
   - name: gmail
     port: 9100
+  - name: datetime
+    port: 9101
 environment:
   timeout_seconds: 1200
   max_turns: 100

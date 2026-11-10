@@ -83,11 +83,17 @@ function buildPersonaPrompt(persona: Persona, world: World): string {
 		"## Instructions",
 		"",
 		"1. Use the `ask_paa` tool to send messages to your assistant.",
-		"2. Evaluate the assistant's responses — ask follow-up questions if the response",
-		"   is incomplete, unclear, or does not fully address your request.",
-		"3. When you are satisfied with the assistant's work (or you determine the assistant",
-		"   cannot complete the task), call `end_conversation` with the outcome and reason.",
-		"4. Do NOT try to do the work yourself — you are delegating to your assistant.",
+		"2. Evaluate the assistant's response. If it directly answers your request, call",
+		"   `end_conversation` immediately — do NOT add follow-up tasks, request drafts,",
+		"   or expand the scope beyond what you originally asked.",
+		"3. Only ask follow-up questions if the response is factually wrong, missing key",
+		"   information you explicitly asked for, or clearly incomplete.",
+		"4. When you are satisfied (or determine the assistant cannot complete the task),",
+		"   call `end_conversation` with the outcome and reason.",
+		"5. Do NOT try to do the work yourself — you are delegating to your assistant.",
+		"6. Stay focused: once your original question is answered, end the conversation.",
+		"   Do not request additional work like drafting replies, checking other folders,",
+		"   or expanding into tasks you did not originally ask about.",
 	].join("\n");
 }
 
