@@ -1,0 +1,15 @@
+{
+  "persona_id": "T25_T05_q2_2026_supplier_negotiation_schedule_co",
+  "name": "Davide Morani",
+  "email": "davide@solettaliving.example",
+  "role": "Founder & CEO",
+  "organization": "(973) 555-0198",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "finance",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-04"
+}

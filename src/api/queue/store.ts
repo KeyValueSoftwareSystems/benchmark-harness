@@ -4,6 +4,13 @@ import type { ResultPayload } from "../../shared/results.ts";
 import type { Job, JobStatus } from "../../shared/types.ts";
 
 const key = (id: string) => `job:${id}`;
+/** Redis keys written outside this file. */
+export const keys = {
+	agentLlmToken: (jobId: string) => `agent-llm-token:${jobId}`,
+	llmToken: (token: string) => `llm-token:${token}`,
+	llmCalls: (jobId: string) => `llm-calls:${jobId}`,
+	transcript: (jobId: string) => `job-transcript:${jobId}`,
+};
 const INDEX = "job-ids";
 
 export async function createJob(redis: Redis, input: Pick<Job, "benchmark" | "prompt" | "model" | "params">): Promise<Job> {

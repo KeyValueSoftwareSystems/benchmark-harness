@@ -6,6 +6,12 @@ export const API_URL = `http://api:${PORT}`;
 export const REDIS_URL = process.env.REDIS_URL ?? "redis://redis:6379";
 export const MODELS: ModelConfig[] = JSON.parse(process.env.MODELS ?? "[]");
 export const JOB_TIMEOUT_MS = Number(process.env.JOB_TIMEOUT_MS ?? 30 * 60_000);
+/** Required for the management routes; without it anyone who can reach the API could queue jobs. */
+export const MGMT_KEY = process.env.MGMT_KEY ?? "";
+if (!MGMT_KEY) throw new Error("MGMT_KEY is required (set it in .env)");
+/** This container's name, used to connect it to per-job networks; set in docker-compose.yml alongside container_name. */
+export const API_CONTAINER_NAME = process.env.API_CONTAINER_NAME ?? "";
+if (!API_CONTAINER_NAME) throw new Error("API_CONTAINER_NAME is required (set in docker-compose.yml)");
 
 /** Max jobs of one benchmark running at once: `CONCURRENCY_<NAME>` overrides the benchmark's default. */
 export const concurrencyFor = (benchmark: string, fallback: number) =>

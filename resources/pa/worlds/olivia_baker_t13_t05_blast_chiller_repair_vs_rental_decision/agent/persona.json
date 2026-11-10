@@ -1,0 +1,17 @@
+{
+  "persona_id": "T13_T05_blast_chiller_repair_vs_rental_decision",
+  "name": "Orla Bennett",
+  "email": "orla.bennett@starlingandthorn.example",
+  "role": "Owner & Head Pastry Chef",
+  "organization": "Sterling & Oak Patisserie",
+  "communication_style": "analytical, methodical",
+  "domain_knowledge": [
+    "client management",
+    "decision making",
+    "finance",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-02"
+}

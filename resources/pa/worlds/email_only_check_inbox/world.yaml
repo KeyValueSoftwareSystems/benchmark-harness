@@ -1,0 +1,76 @@
+task_id: EMAIL_ONLY_CHECK_INBOX
+task_name: "Email check: which messages need a reply"
+category: email_triage
+difficulty: simple
+prompt:
+  text: Check my email and tell me if anything needs a reply from me.
+  language: en
+execution_date: 2026-04-08
+tools:
+  - name: get_current_datetime
+    description: "Returns the current date and time in the scenario. Use this instead of the system clock."
+    input_schema:
+      type: object
+      properties: {}
+  - name: gmail_list_messages
+    description: "List inbox messages. Returns subject/from/date (no body). Default:
+      last 7 days, max 20 results. Response includes 'total' (all matching) and
+      'returned' (this page) counts. Use query to search (matches if ALL words
+      appear in subject or sender). Use offset for pagination. If query returns
+      0, retry without query to browse all messages."
+    input_schema:
+      type: object
+      properties:
+        days_back:
+          type: integer
+          description: How many days back to search, default 7
+        max_results:
+          type: integer
+          description: Max messages to return, default 20
+        offset:
+          type: integer
+          description: Skip first N results for pagination, default 0
+        query:
+          type: string
+          description: Search keyword in subject and sender (optional)
+  - name: gmail_get_message
+    description: Get full message details including body by message_id
+    input_schema:
+      type: object
+      properties:
+        message_id:
+          type: string
+      required:
+        - message_id
+tool_endpoints:
+  - tool_name: get_current_datetime
+    url: http://localhost:9101/datetime
+    method: POST
+  - tool_name: gmail_list_messages
+    url: http://localhost:9100/gmail/messages
+    method: POST
+  - tool_name: gmail_get_message
+    url: http://localhost:9100/gmail/messages/get
+    method: POST
+services:
+  - name: gmail
+    port: 9100
+  - name: datetime
+    port: 9101
+environment:
+  timeout_seconds: 1200
+  max_turns: 100
+  fixtures:
+    - fixtures/gmail/inbox.json
+    - fixtures/calendar/events.json
+    - fixtures/contacts/contacts.json
+    - fixtures/todo/tasks.json
+    - fixtures/kb/articles.json
+    - fixtures/inventory/products.json
+    - fixtures/helpdesk/tickets.json
+    - fixtures/crm/customers.json
+    - fixtures/finance/transactions.json
+    - fixtures/scheduler/jobs.json
+    - fixtures/rss/articles.json
+    - fixtures/config/integrations.json
+    - fixtures/notes/notes.json

@@ -1,0 +1,17 @@
+{
+  "persona_id": "T11_T01_clearview_source_a_interview_multi_timez",
+  "name": "Parul Iyengar",
+  "email": "parul.iyengar@morningledger.example",
+  "role": "The Dawn Chronicle",
+  "organization": "The Dawn Chronicle",
+  "communication_style": "analytical, methodical",
+  "domain_knowledge": [
+    "client management",
+    "finance",
+    "procurement",
+    "scheduling",
+    "support operations",
+    "workflow execution"
+  ],
+  "execution_date": "2026-04-01"
+}
