@@ -10,6 +10,10 @@ export const keys = {
 	llmToken: (token: string) => `llm-token:${token}`,
 	llmCalls: (jobId: string) => `llm-calls:${jobId}`,
 	transcript: (jobId: string) => `job-transcript:${jobId}`,
+	/** JSON array of the PAA's tool calls (`ToolCallRecord[]`), fetched from the PAA container before it stops. */
+	paToolCalls: (jobId: string) => `pa-tool-calls:${jobId}`,
+	/** List of JSON `LlmCallRecord`s, one per model call through the proxy. */
+	llmCallLog: (jobId: string) => `llm-call-log:${jobId}`,
 };
 const INDEX = "job-ids";
 

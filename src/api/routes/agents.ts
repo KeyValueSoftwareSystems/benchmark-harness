@@ -1,9 +1,9 @@
 import { Router } from "express";
 import { benchmarks } from "../benchmarks/index.ts";
 import { ModelAccess } from "../benchmarks/types.ts";
-import { API_URL, JOB_TIMEOUT_MS, MODELS } from "../config.ts";
+import { API_URL, JOB_DATA_TTL_S, MODELS } from "../config.ts";
 import { claimContext, getJob, keys } from "../queue/store.ts";
-import { extractToken, proxyBaseUrl } from "./llm.ts";
+import { extractToken, proxyBaseUrl, readLlmToken } from "./llm.ts";
 import { redis } from "../redis.ts";
 
 /** Endpoints called by provisioned agent containers. */
@@ -40,7 +40,7 @@ agents.get("/jobs/:id/context", async (req, res) => {
 // Saves each exchange as it happens, so a job killed mid-run keeps its transcript so far.
 agents.post("/jobs/:id/exchanges", async (req, res) => {
 	const token = extractToken(req);
-	if (!token || (await redis.get(keys.llmToken(token))) !== req.params.id) {
+	if (!token || (await readLlmToken(redis, token))?.jobId !== req.params.id) {
 		return void res.status(403).json({ error: "token does not belong to this job" });
 	}
 	const { user_message, assistant_reply, timestamp } = req.body ?? {};
@@ -51,7 +51,7 @@ agents.post("/jobs/:id/exchanges", async (req, res) => {
 	await redis
 		.multi()
 		.rpush(key, JSON.stringify({ user_message, assistant_reply, timestamp }))
-		.expire(key, Math.ceil(JOB_TIMEOUT_MS / 1000) + 300)
+		.expire(key, JOB_DATA_TTL_S)
 		.exec();
 	res.status(202).end();
 });

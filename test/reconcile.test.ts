@@ -14,6 +14,7 @@ const run = (jobId: string, over: Partial<RunRecord> = {}): RunRecord => ({
 	model: "gpt-x",
 	modelId: "m",
 	challenge: jobId,
+	assistant: null,
 	status: "done",
 	correct: true,
 	outcome: null,

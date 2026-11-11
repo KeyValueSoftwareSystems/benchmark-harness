@@ -115,8 +115,9 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
-  pa-paa:
-    image: bench/pa-paa
+  # One image per personal assistant under test (PAA_IMAGES in src/pa/constants.ts); see docker/paa/<name>/.
+  pa-paa-openclaw:
+    image: bench/pa-paa-openclaw
     profiles: ["agents"]
     build:
       context: .

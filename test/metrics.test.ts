@@ -9,6 +9,7 @@ const run = (jobId: string, correct: boolean | null, durationMs: number, costUsd
 	model: "gpt-x",
 	modelId: "m",
 	challenge: jobId,
+	assistant: null,
 	status: "done",
 	correct,
 	outcome: null,

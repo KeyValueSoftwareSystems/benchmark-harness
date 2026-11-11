@@ -10,7 +10,7 @@
  */
 
 import { Router } from "express";
-import { MCP_PATH } from "../constants.ts";
+import { MCP_PATH, MOCK_CALLS_PATH, TOOL_CALL_ARGS_MAX_CHARS, type ToolCallRecord } from "../constants.ts";
 import { Server } from "@modelcontextprotocol/sdk/server/index.js";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
 import { CallToolRequestSchema, ListToolsRequestSchema } from "@modelcontextprotocol/sdk/types.js";
@@ -27,6 +27,18 @@ export interface ToolEndpoint {
 	method: string;
 }
 
+/** Every tool call made through any service's `/mcp` in this process, in order; served by the control server. */
+export const toolCalls: ToolCallRecord[] = [];
+
+function capArgs(args: unknown): unknown {
+	const text = JSON.stringify(args ?? {});
+	return text.length > TOOL_CALL_ARGS_MAX_CHARS ? `${text.slice(0, TOOL_CALL_ARGS_MAX_CHARS)}…[truncated]` : (args ?? {});
+}
+
+export function recordToolCall(service: string, tool: string, args: unknown, ok: boolean): void {
+	toolCalls.push({ service, tool, args: capArgs(args), ok, at: new Date().toISOString() });
+}
+
 function createServer(service: string, tools: ToolDef[], endpoints: Map<string, ToolEndpoint>): Server {
 	const server = new Server({ name: `pa-${service}`, version: "1.0.0" }, { capabilities: { tools: {} } });
 
@@ -39,16 +51,24 @@ function createServer(service: string, tools: ToolDef[], endpoints: Map<string, 
 	}));
 
 	server.setRequestHandler(CallToolRequestSchema, async (req) => {
-		const endpoint = endpoints.get(req.params.name);
+		const { name, arguments: args } = req.params;
+		const endpoint = endpoints.get(name);
 		if (!endpoint) {
-			return { isError: true, content: [{ type: "text" as const, text: `unknown tool: ${req.params.name}` }] };
+			recordToolCall(service, name, args, false);
+			return { isError: true, content: [{ type: "text" as const, text: `unknown tool: ${name}` }] };
 		}
-		const res = await fetch(endpoint.url, {
-			method: endpoint.method,
-			headers: { "content-type": "application/json" },
-			body: JSON.stringify(req.params.arguments ?? {}),
-		});
-		return { isError: !res.ok, content: [{ type: "text" as const, text: await res.text() }] };
+		try {
+			const res = await fetch(endpoint.url, {
+				method: endpoint.method,
+				headers: { "content-type": "application/json" },
+				body: JSON.stringify(args ?? {}),
+			});
+			recordToolCall(service, name, args, res.ok);
+			return { isError: !res.ok, content: [{ type: "text" as const, text: await res.text() }] };
+		} catch (err) {
+			recordToolCall(service, name, args, false);
+			throw err;
+		}
 	});
 
 	return server;
@@ -80,5 +100,12 @@ export function mcpRouter(service: string, tools: ToolDef[], endpoints: ToolEndp
 	// Stateless: no server-initiated stream (GET) and no sessions to end (DELETE).
 	router.all(MCP_PATH, (_req, res) => void res.status(405).set("Allow", "POST").end());
 
+	return router;
+}
+
+/** Control routes for the API (the tool-call log); served on their own port, never as an MCP server. */
+export function controlRouter(): Router {
+	const router = Router();
+	router.get(MOCK_CALLS_PATH, (_req, res) => void res.json(toolCalls));
 	return router;
 }

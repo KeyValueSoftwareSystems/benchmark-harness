@@ -78,7 +78,8 @@ PROVIDER_JSON=$(node -e '
 ')
 openclaw config set models.providers.benchmark "$PROVIDER_JSON"
 
-# Register each mock service as an MCP server
+# Register each mock service as an MCP server. Only world.services: the mock control
+# port (MOCK_CONTROL_PORT, the tool-call log) is for the API and must never be a tool.
 log "Registering MCP servers..."
 node --experimental-strip-types -e "
   import { readFileSync } from 'node:fs';

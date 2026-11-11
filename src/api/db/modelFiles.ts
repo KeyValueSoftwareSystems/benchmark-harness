@@ -13,9 +13,13 @@ function serialized<T>(file: string, task: () => Promise<T>): Promise<T> {
 	return next;
 }
 
+/** Entries written before a field existed get its default, so they compare equal to the SQLite row. */
+const withDefaults = (run: RunRecord): RunRecord => ({ ...run, assistant: run.assistant ?? null });
+
 export async function readModelFile(dir: string, benchmark: string, model: string): Promise<ModelFile | undefined> {
 	try {
-		return JSON.parse(await readFile(filePath(dir, benchmark, model), "utf8")) as ModelFile;
+		const file = JSON.parse(await readFile(filePath(dir, benchmark, model), "utf8")) as ModelFile;
+		return { ...file, runs: file.runs.map(withDefaults) };
 	} catch (err) {
 		if ((err as NodeJS.ErrnoException).code === "ENOENT") return undefined;
 		throw err;

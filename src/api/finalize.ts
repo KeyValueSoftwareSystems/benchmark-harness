@@ -52,6 +52,7 @@ export async function finalizeRun(
 		model: job.model,
 		modelId: deps.modelIdFor(job.model),
 		challenge: job.params?.challenge ?? null,
+		assistant: job.params?.assistant ?? null,
 		status: outcome.status,
 		correct: typeof reported?.correct === "boolean" ? reported.correct : null,
 		outcome: reported,

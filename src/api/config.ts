@@ -6,6 +6,8 @@ export const API_URL = `http://api:${PORT}`;
 export const REDIS_URL = process.env.REDIS_URL ?? "redis://redis:6379";
 export const MODELS: ModelConfig[] = JSON.parse(process.env.MODELS ?? "[]");
 export const JOB_TIMEOUT_MS = Number(process.env.JOB_TIMEOUT_MS ?? 30 * 60_000);
+/** How long per-job data in Redis (transcript, tool-call log, LLM call log) outlives the job timeout. */
+export const JOB_DATA_TTL_S = Math.ceil(JOB_TIMEOUT_MS / 1000) + 300;
 /** Required for the management routes; without it anyone who can reach the API could queue jobs. */
 export const MGMT_KEY = process.env.MGMT_KEY ?? "";
 if (!MGMT_KEY) throw new Error("MGMT_KEY is required (set it in .env)");

@@ -5,10 +5,10 @@ import YAML from "yaml";
 import { API_CONTAINER_NAME, MODELS, RESOURCES_DIR } from "../config.ts";
 import { withAgent } from "../docker/agent.ts";
 import { AGENT_CONTAINER_PREFIX, docker, PA_JOB_NETWORK_PREFIX, PAA_CONTAINER_PREFIX } from "../docker/cli.ts";
-import { PAA_CHAT_PORT, WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
+import { DEFAULT_PA_ASSISTANT, isPaAssistant, PAA_CHAT_PORT, PAA_IMAGES, WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
 import { withPaa } from "../docker/paa.ts";
 import { jobNetworkAddresses } from "../jobNetworks.ts";
-import { PROXY_APIS, storeLlmToken, removeLlmToken } from "../routes/llm.ts";
+import { LlmRole, PROXY_APIS, storeLlmToken, removeLlmToken } from "../routes/llm.ts";
 import { keys } from "../queue/store.ts";
 import { redis } from "../redis.ts";
 import { ModelAccess, type Benchmark } from "./types.ts";
@@ -106,14 +106,15 @@ export const pa: Benchmark = {
 	concurrency: 2,
 	modelAccess: ModelAccess.proxy,
 
-	async parse({ world }) {
+	async parse({ world, assistant = DEFAULT_PA_ASSISTANT }) {
 		if (typeof world !== "string") return { error: "world is required" };
+		if (!isPaAssistant(assistant)) return { error: `unknown assistant ${String(assistant)} (one of: ${Object.keys(PAA_IMAGES).join(", ")})` };
 		try {
 			const ids = world === "all" ? (await readdir(WORLDS_DIR)).sort() : [world];
 			return await Promise.all(
 				ids.map(async (id) => {
 					const [w, p] = await Promise.all([loadWorld(id), loadPersona(id)]);
-					return { prompt: buildPersonaPrompt(p, w), params: { world: id } };
+					return { prompt: buildPersonaPrompt(p, w), params: { challenge: id, assistant } };
 				}),
 			);
 		} catch {
@@ -122,7 +123,7 @@ export const pa: Benchmark = {
 	},
 
 	async context(job) {
-		const id = job.params?.world ?? "";
+		const id = job.params?.challenge ?? "";
 		const world = await loadWorld(id);
 		return {
 			benchmark: "pa",
@@ -139,8 +140,10 @@ export const pa: Benchmark = {
 	},
 
 	async run(job, ctx) {
-		const id = job.params?.world ?? "";
-		console.log(`[pa] job-${job.id}: starting world ${id}`);
+		const id = job.params?.challenge ?? "";
+		const assistant = job.params?.assistant ?? DEFAULT_PA_ASSISTANT;
+		if (!isPaAssistant(assistant)) return { status: "error", error: `unknown assistant ${assistant}` };
+		console.log(`[pa] job-${job.id}: starting world ${id} with assistant ${assistant}`);
 
 		const model = MODELS.find((m) => m.name === job.model);
 		if (!model) return { status: "error", error: `model ${job.model} is not configured` };
@@ -152,12 +155,12 @@ export const pa: Benchmark = {
 		// Neither container receives the real model API key.
 		const paaToken = randomBytes(24).toString("hex");
 		const agentToken = randomBytes(24).toString("hex");
-		await storeLlmToken(redis, paaToken, job.id);
-		await storeLlmToken(redis, agentToken, job.id);
+		await storeLlmToken(redis, paaToken, job.id, LlmRole.paa);
+		await storeLlmToken(redis, agentToken, job.id, LlmRole.persona);
 		// Store the agent token so /register can return it in proxy mode.
 		await redis.set(keys.agentLlmToken(job.id), agentToken, "EX", 3600);
-		// A re-run starts a fresh transcript.
-		await redis.del(keys.transcript(job.id));
+		// A re-run starts with fresh logs.
+		await redis.del(keys.transcript(job.id), keys.paToolCalls(job.id), keys.llmCallLog(job.id));
 
 		// Create an internal (no-internet) network for this job. The PAA and the
 		// pi agent join only this network.
@@ -175,7 +178,7 @@ export const pa: Benchmark = {
 
 			// Start the PAA container first (waits for healthy), then
 			// start the Pi agent inside the callback so both are alive.
-			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model }, async () => {
+			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model, image: PAA_IMAGES[assistant], worldId: id }, async () => {
 				return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
 					name: `${AGENT_CONTAINER_PREFIX}${job.id}`,
 					network: jobNet,

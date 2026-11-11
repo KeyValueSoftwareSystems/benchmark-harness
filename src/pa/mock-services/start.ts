@@ -34,8 +34,9 @@ import { clawWechatRoutes } from "./claw_wechat.ts";
 import { sheetRoutes } from "./sheet.ts";
 import { slideRoutes } from "./slide.ts";
 import { datetimeRoutes } from "./datetime.ts";
-import { mcpRouter, type ToolDef, type ToolEndpoint } from "./mcp.ts";
+import { controlRouter, mcpRouter, type ToolDef, type ToolEndpoint } from "./mcp.ts";
 import type { FixtureLoader } from "./types.ts";
+import { MOCK_CONTROL_PORT } from "../constants.ts";
 
 const ROUTE_FACTORIES: Record<string, (load: FixtureLoader) => express.Router> =
 	{
@@ -127,8 +128,12 @@ async function main() {
 		started.push(promise);
 	}
 
+	const control = express();
+	control.use(controlRouter());
+	started.push(new Promise<void>((resolve) => void control.listen(MOCK_CONTROL_PORT, () => resolve())));
+
 	await Promise.all(started);
-	console.log(`[mock] All ${started.length} services started`);
+	console.log(`[mock] All ${started.length - 1} services started; tool-call log on :${MOCK_CONTROL_PORT}`);
 }
 
 main().catch((err) => {
