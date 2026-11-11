@@ -1,3 +1,4 @@
+import type { ResultPayload, RunMetrics } from "../../shared/results.ts";
 import type { Job, JobStatus } from "../../shared/types.ts";
 
 /** How the pi agent gets its model config. */
@@ -15,6 +16,15 @@ export interface JobContext {
 	deadline: number;
 	cancelled(): Promise<boolean>;
 	setStatus(status: JobStatus): Promise<void>;
+}
+
+/** What a benchmark's `score` hook overrides on the stored run; fields left out keep what the agent reported. */
+export interface RunScore {
+	correct?: boolean | null;
+	outcome?: Record<string, unknown> | null;
+	metrics?: RunMetrics;
+	sessionId?: string | null;
+	assistant?: string | null;
 }
 
 export interface JobInput {
@@ -41,4 +51,9 @@ export interface Benchmark {
 	/** What the agent's extension asks for at startup (served once per run). */
 	context?(job: Job): Promise<unknown>;
 	run(job: Job, ctx: JobContext): Promise<AgentOutcome>;
+	/**
+	 * Grades a settled job once the agent's result is in (or known to be missing). Runs before the run is stored; a
+	 * throw stores the run unscored.
+	 */
+	score?(job: Job, result: ResultPayload | undefined): Promise<RunScore>;
 }

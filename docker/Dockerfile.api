@@ -17,5 +17,6 @@ COPY tsconfig.json ./
 COPY src/shared ./src/shared
 COPY src/api ./src/api
 COPY src/pa/constants.ts ./src/pa/constants.ts
+COPY src/pa/grading ./src/pa/grading
 
 CMD ["node", "--experimental-strip-types", "src/api/index.ts"]

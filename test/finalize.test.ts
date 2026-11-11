@@ -107,6 +107,64 @@ test("a failing file write is retried, so the run still reaches the JSON", async
 	assert.equal(listRuns(db, {}).length, 1);
 });
 
+test("a benchmark's score hook overrides the reported verdict, outcome, metrics, session and assistant", async () => {
+	const { db, deps } = setup({ outcome: { verdict: "satisfied" }, metrics, sessionId: "persona-session" });
+	const scored = { turns: 9, durationMs: 5000, inputTokens: 900, outputTokens: 90, costUsd: 0.02 };
+	let seen: unknown;
+	const run = await finalizeRun(
+		{
+			...deps,
+			benchmark: {
+				score: async (j, result) => {
+					seen = [j.id, result?.sessionId];
+					return { correct: true, outcome: { verdict: "satisfied", score: { total: 0.8 } }, metrics: scored, sessionId: "trace-session", assistant: "openclaw" };
+				},
+			},
+		},
+		job,
+		{ status: "done" },
+		{ waitMs: 0 },
+	);
+	assert.deepEqual(seen, ["j1", "persona-session"]);
+	assert.deepEqual([run.correct, run.sessionId, run.assistant], [true, "trace-session", "openclaw"]);
+	assert.deepEqual(run.metrics, scored);
+	const [row] = listRuns(db, {});
+	assert.deepEqual(row.outcome, { verdict: "satisfied", score: { total: 0.8 } });
+	assert.equal(row.assistant, "openclaw");
+});
+
+test("fields the score hook leaves out keep what the agent reported", async () => {
+	const { deps } = setup({ outcome: { correct: false }, metrics, sessionId: "s1" });
+	const run = await finalizeRun({ ...deps, benchmark: { score: async () => ({ correct: null }) } }, job, { status: "done" }, { waitMs: 0 });
+	assert.deepEqual([run.correct, run.sessionId, run.outcome], [null, "s1", { correct: false }]);
+	assert.deepEqual(run.metrics, metrics);
+});
+
+test("a throwing score hook still saves the run, unscored", async () => {
+	const { db, deps } = setup({ outcome: { correct: true }, metrics });
+	const run = await finalizeRun(
+		{ ...deps, benchmark: { score: async () => Promise.reject(new Error("judge exploded")) } },
+		job,
+		{ status: "done" },
+		{ waitMs: 0 },
+	);
+	assert.equal(run.correct, true);
+	assert.deepEqual(run.outcome, { correct: true });
+	assert.equal(listRuns(db, {}).length, 1);
+});
+
+test("cyber and minimal have no score hook, so their runs are stored as before", async () => {
+	process.env.MGMT_KEY ??= "test";
+	process.env.API_CONTAINER_NAME ??= "test";
+	const { cyber } = await import("../src/api/benchmarks/cyber.ts");
+	const { minimal } = await import("../src/api/benchmarks/minimal.ts");
+	assert.equal(cyber.score, undefined);
+	assert.equal(minimal.score, undefined);
+	const { deps } = setup({ outcome: { correct: true }, metrics, sessionId: "s1" });
+	const run = await finalizeRun({ ...deps, benchmark: cyber }, job, { status: "done" }, { waitMs: 0 });
+	assert.deepEqual([run.correct, run.sessionId, run.assistant], [true, "s1", null]);
+});
+
 test("a file write that keeps failing surfaces the error but keeps the SQLite row", async () => {
 	const { db, deps } = setup({ outcome: { correct: true }, metrics });
 	deps.writeRun = async () => {

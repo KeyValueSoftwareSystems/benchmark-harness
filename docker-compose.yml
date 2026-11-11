@@ -38,6 +38,8 @@ services:
       API_CONTAINER_NAME: bench-api
       # Model turns an agent may take per run before it is aborted; unset or 0 means unlimited.
       MAX_TURNS: ${MAX_TURNS:-}
+      # The MODELS entry that judges PA runs.
+      JUDGE_MODEL: ${JUDGE_MODEL:-}
     depends_on:
       - redis
     volumes:

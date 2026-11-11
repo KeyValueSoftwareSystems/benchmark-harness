@@ -28,6 +28,9 @@ export const RESULTS_DIR = process.env.RESULTS_DIR ?? "/data/results";
 /** Run conditions recorded with every result (shown on reports). */
 export const CONDITIONS = { maxTurns: Number(process.env.MAX_TURNS) || null, jobTimeoutMs: JOB_TIMEOUT_MS };
 
+/** The MODELS entry that judges PA runs; only the API reads it. PA runs are stored unscored-by-judge without it. */
+export const JUDGE_MODEL = process.env.JUDGE_MODEL ?? "";
+
 /** Netra MCP (insights are skipped when no key is set). EU projects use https://api.eu.getnetra.ai/mcp. */
 export const NETRA_MCP_ENDPOINT = process.env.NETRA_MCP_ENDPOINT ?? "https://api.getnetra.ai/mcp";
 export const NETRA_API_KEY = process.env.NETRA_API_KEY ?? "";
