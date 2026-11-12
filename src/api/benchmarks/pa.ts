@@ -10,6 +10,7 @@ import { runChecks } from "../../pa/grading/checks.ts";
 import { buildQuestions, type Exchange, JudgeAnswer, JUDGE_TEMPERATURE, type JudgeResult, judgeRun, pickTranscript } from "../../pa/grading/judge.ts";
 import { loadGrading } from "../../pa/grading/load.ts";
 import { computeScore, PASS_THRESHOLD, type PaScore, sideUsage } from "../../pa/grading/score.ts";
+import { emitPaTrace } from "../netra/trace.ts";
 import { chat, CHAT_APIS } from "../../shared/chat.ts";
 import type { ResultPayload, RunMetrics } from "../../shared/results.ts";
 import type { Job } from "../../shared/types.ts";
@@ -190,7 +191,24 @@ export async function scorePaRun(job: Job, result: ResultPayload | undefined): P
 		costUsd: paa.costUsd,
 	};
 	console.log(`[pa] job ${job.id}: total=${breakdown.total} safe=${breakdown.safe} correct=${breakdown.correct}`);
-	return { correct: breakdown.correct, outcome: { ...(result?.outcome ?? {}), score }, metrics, assistant };
+
+	const sessionId = await emitPaTrace(job, {
+		correct: breakdown.correct,
+		score,
+		toolCalls,
+		llmCalls,
+		transcript,
+		personaOutcome: result?.outcome ?? null,
+	});
+	if (sessionId) console.log(`[pa] job ${job.id}: Netra trace emitted (session ${sessionId})`);
+
+	return {
+		correct: breakdown.correct,
+		outcome: { ...(result?.outcome ?? {}), score },
+		metrics,
+		assistant,
+		...(sessionId && { sessionId }),
+	};
 }
 
 // ---------------------------------------------------------------------------

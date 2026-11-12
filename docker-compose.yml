@@ -40,6 +40,8 @@ services:
       MAX_TURNS: ${MAX_TURNS:-}
       # The MODELS entry that judges PA runs.
       JUDGE_MODEL: ${JUDGE_MODEL:-}
+      # Netra MCP, for pulling sessions back (EU projects: https://api.eu.getnetra.ai/mcp).
+      NETRA_MCP_ENDPOINT: ${NETRA_MCP_ENDPOINT:-https://api.getnetra.ai/mcp}
     depends_on:
       - redis
     volumes:

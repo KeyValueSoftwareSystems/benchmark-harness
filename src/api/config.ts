@@ -34,3 +34,7 @@ export const JUDGE_MODEL = process.env.JUDGE_MODEL ?? "";
 /** Netra MCP (insights are skipped when no key is set). EU projects use https://api.eu.getnetra.ai/mcp. */
 export const NETRA_MCP_ENDPOINT = process.env.NETRA_MCP_ENDPOINT ?? "https://api.getnetra.ai/mcp";
 export const NETRA_API_KEY = process.env.NETRA_API_KEY ?? "";
+/** Netra OTLP endpoint for trace export; PA tracing is skipped without it. */
+export const NETRA_OTLP_ENDPOINT = process.env.NETRA_OTLP_ENDPOINT ?? "";
+/** Environment label on exported traces (keeps test runs apart from real ones). */
+export const NETRA_ENV = process.env.NETRA_ENV ?? "local";
