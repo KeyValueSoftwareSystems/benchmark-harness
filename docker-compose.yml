@@ -58,6 +58,20 @@ services:
     volumes:
       - harness-data:/data
 
+  # The report service over HTTP, for the page's "Generate report" (the api calls it on the compose network).
+  reports-api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.reports
+    entrypoint: ["node", "--experimental-strip-types", "src/reports/server.ts"]
+    environment:
+      RESULTS_DIR: /data/results
+      REPORTS_DIR: /data/reports
+      NARRATIVE_MODEL: ${NARRATIVE_MODEL:-}
+    volumes:
+      - harness-data:/data
+    restart: unless-stopped
+
   # AI Scout Slack bot (../Quartermaster): reads the harness SQLite and reports read-only.
   # Publish: `docker compose --profile bot run --rm quartermaster python publish.py --report /data/reports/<id>.html --model <name>`
   quartermaster:

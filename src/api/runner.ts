@@ -1,8 +1,9 @@
 import { benchmarks } from "./benchmarks/index.ts";
 import type { AgentOutcome, JobContext } from "./benchmarks/types.ts";
-import { CONDITIONS, JOB_TIMEOUT_MS, MODELS, NETRA_API_KEY, NETRA_MCP_ENDPOINT, RESULTS_DIR } from "./config.ts";
+import { CONDITIONS, JOB_TIMEOUT_MS, NETRA_API_KEY, NETRA_MCP_ENDPOINT, RESULTS_DIR } from "./config.ts";
 import { db } from "./db/instance.ts";
 import { finalizeRun } from "./finalize.ts";
+import { keyError, registry } from "./models/registry.ts";
 import { enrichRun } from "./netra/enrich.ts";
 import { createNetraClient } from "./netra/mcp.ts";
 import { getJob, getResult, isCancelRequested, resetContextClaim, setStatus } from "./queue/store.ts";
@@ -18,6 +19,12 @@ export async function runJob(id: string) {
 	}
 	const benchmark = benchmarks.get(job.benchmark);
 	if (!benchmark) return void (await setStatus(redis, id, "error", `unknown benchmark ${job.benchmark}`));
+
+	const missingKey = keyError(registry, job.model);
+	if (missingKey) {
+		console.error(`[api] job ${id}: ${missingKey} (${job.model})`);
+		return void (await setStatus(redis, id, "error", missingKey));
+	}
 
 	const ctx: JobContext = {
 		deadline: Date.now() + JOB_TIMEOUT_MS,
@@ -38,7 +45,7 @@ export async function runJob(id: string) {
 				db,
 				resultsDir: RESULTS_DIR,
 				getResult: (jobId) => getResult(redis, jobId),
-				modelIdFor: (name) => MODELS.find((m) => m.name === name)?.modelId ?? name,
+				modelIdFor: (name) => registry.find(name)?.modelId ?? name,
 				conditions: CONDITIONS,
 			},
 			job,
