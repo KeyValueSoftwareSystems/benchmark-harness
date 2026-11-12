@@ -61,10 +61,12 @@ services:
     environment:
       RESULTS_DIR: /data/results
       REPORTS_DIR: /data/reports
+      RESOURCES_DIR: /resources
       # Optional: one model config as JSON to write the report narrative (never the api's MODELS).
       NARRATIVE_MODEL: ${NARRATIVE_MODEL:-}
     volumes:
       - harness-data:/data
+      - ${PWD}/resources:/resources:ro
 
   # AI Scout Slack bot (../Quartermaster): reads the harness SQLite and reports read-only.
   # Publish: `docker compose --profile bot run --rm quartermaster python publish.py --report /data/reports/<id>.html --model <name>`
