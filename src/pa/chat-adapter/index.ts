@@ -20,6 +20,7 @@ const OPENCLAW_URL =
 	process.env.OPENCLAW_URL ?? "http://localhost:18789/v1/chat/completions";
 const OPENCLAW_TOKEN = process.env.OPENCLAW_GATEWAY_TOKEN ?? "";
 const PORT = Number(process.env.CHAT_ADAPTER_PORT ?? PAA_CHAT_PORT);
+const EXECUTION_DATE = process.env.EXECUTION_DATE ?? "";
 
 interface Message {
 	role: "system" | "user" | "assistant";
@@ -50,12 +51,18 @@ app.post("/chat", async (req, res) => {
 	}
 
 	let history = conversations.get(conversation_id);
+	const isFirst = !history;
 	if (!history) {
 		history = [];
 		conversations.set(conversation_id, history);
 	}
 
-	history.push({ role: "user", content: message });
+	// On the first message, instruct the PAA to check the scenario clock via
+	// the get_current_datetime tool instead of relying on the system clock.
+	const content = isFirst && EXECUTION_DATE
+		? `[Important: do NOT use the system clock for the current date/time. You MUST call the get_current_datetime tool to get the correct date before doing any work.]\n\n${message}`
+		: message;
+	history.push({ role: "user", content });
 
 	try {
 		const upstream = await fetch(OPENCLAW_URL, {
