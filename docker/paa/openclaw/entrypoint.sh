@@ -10,7 +10,7 @@
 #   LLM_BASE_URL       – API proxy URL for model calls
 #   LLM_TOKEN          – job-scoped bearer token for model calls
 #   LLM_API            – model API format (e.g. openai-completions, anthropic-messages)
-#   OPENCLAW_GATEWAY_TOKEN – bearer token for OpenClaw gateway
+#   PAA_GATEWAY_TOKEN  – bearer token for the OpenClaw gateway
 # Optional env:
 #   LLM_CONTEXT_WINDOW, LLM_MAX_TOKENS – model limits, when MODELS sets them
 
@@ -18,7 +18,11 @@ set -euo pipefail
 
 log() { echo "[paa-entrypoint] $*" >&2; }
 
-: "${WORLD_DIR:?}" "${LLM_BASE_URL:?}" "${LLM_TOKEN:?}" "${LLM_API:?}" "${OPENCLAW_GATEWAY_TOKEN:?}"
+: "${WORLD_DIR:?}" "${LLM_BASE_URL:?}" "${LLM_TOKEN:?}" "${LLM_API:?}" "${PAA_GATEWAY_TOKEN:?}"
+
+export OPENCLAW_GATEWAY_TOKEN="$PAA_GATEWAY_TOKEN"
+export PAA_UPSTREAM_URL="http://localhost:18789/v1/chat/completions"
+export PAA_UPSTREAM_MODEL="openclaw"
 
 MOCK_PID=""
 OPENCLAW_PID=""
@@ -92,6 +96,10 @@ node --experimental-strip-types -e "
 		"{\"transport\":\"streamable-http\",\"url\":\"http://localhost:${port}/mcp\"}"
 	log "  registered ${name} → :${port}"
 done
+
+# What ran, for the run record. OpenClaw's toolsets are not listed.
+OPENCLAW_VERSION_OUTPUT=$(openclaw --version)
+node --experimental-strip-types /paa/src/pa/paa-info/index.ts "${OPENCLAW_VERSION_OUTPUT%%$'\n'*}" > /tmp/paa-info.json
 
 # ---------- 3. Start OpenClaw gateway ----------
 log "Starting OpenClaw gateway..."

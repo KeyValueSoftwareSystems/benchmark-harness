@@ -148,6 +148,8 @@ export async function emitPaTrace(
 				"pa.world": job.params?.challenge ?? "",
 				"pa.category": data.score.category ?? "",
 				"pa.assistant": job.params?.assistant ?? "",
+				"pa.assistant_version": data.score.assistantInfo?.version ?? "",
+				"pa.assistant_toolsets": data.score.assistantInfo?.toolsets.join(",") ?? "",
 				"pa.model": job.model,
 				"pa.total": str(data.score.total),
 				"pa.checksScore": str(data.score.checksScore),

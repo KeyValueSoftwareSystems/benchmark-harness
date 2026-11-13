@@ -17,8 +17,10 @@ import {
 	MOCK_CALLS_PATH,
 	MOCK_CONTROL_PORT,
 	PAA_CHAT_PORT,
+	PAA_INFO_PATH,
 	PAA_HEALTH_PATH,
 	WORLD_DIR_IN_CONTAINER,
+	type PaaProfile,
 	type ToolCallRecord,
 } from "../../pa/constants.ts";
 import { keys } from "../queue/store.ts";
@@ -26,9 +28,6 @@ import { redis } from "../redis.ts";
 import { proxyBaseUrl } from "../routes/llm.ts";
 
 const TOOL_CALLS_FETCH_TIMEOUT_MS = 10_000;
-/** The only writable path in the container (OpenClaw's state), owned by the image's `node` user. */
-const SCRATCH_DIR = "/home/node/.openclaw";
-/** A symlink in the image to `${SCRATCH_DIR}/world`. */
 
 export interface PaaOptions {
 	/** The job-scoped LLM proxy token for the PAA container. */
@@ -37,8 +36,8 @@ export interface PaaOptions {
 	network: string;
 	/** The job's model; only its API format and limits reach the container, never its key. */
 	model: ModelConfig;
-	/** The assistant's image (`PAA_IMAGES`). */
-	image: string;
+	/** The assistant's image, scratch directory and user (`PAA_PROFILES`). */
+	profile: PaaProfile;
 	worldId: string;
 }
 
@@ -58,6 +57,17 @@ async function saveToolCalls(jobId: string, host: string): Promise<void> {
 	}
 }
 
+/** Saves the assistant's version and enabled toolsets, which its entrypoint wrote at startup. */
+async function savePaaInfo(jobId: string, name: string): Promise<void> {
+	try {
+		const info = await docker("exec", name, "cat", PAA_INFO_PATH);
+		JSON.parse(info);
+		await redis.set(keys.paInfo(jobId), info, "EX", JOB_DATA_TTL_S);
+	} catch (err) {
+		console.error(`[docker] ${name}: could not read the assistant info: ${err}`);
+	}
+}
+
 /** Polls `check` every `intervalMs` until truthy or ctx expires; an error from `check` ends the wait. */
 async function poll(check: () => Promise<boolean>, intervalMs: number, ctx: JobContext): Promise<boolean> {
 	while (true) {
@@ -73,11 +83,11 @@ async function poll(check: () => Promise<boolean>, intervalMs: number, ctx: JobC
  * container's scratch directory, then marks it ready for the entrypoint.
  * `docker cp` can't write to a container with a read-only root filesystem.
  */
-async function copyWorld(hostWorldDir: string, name: string): Promise<void> {
+async function copyWorld(hostWorldDir: string, name: string, scratchDir: string): Promise<void> {
 	await promisify(execFile)("bash", [
 		"-o", "pipefail", "-c",
 		`tar -C "$1" -cf - agent world.yaml | docker exec -i "$2" sh -c 'mkdir -p "$1" && tar -x -C "$1"' sh "$3" && docker exec "$2" touch "$3/.ready"`,
-		"copy-world", hostWorldDir, name, `${SCRATCH_DIR}/world`,
+		"copy-world", hostWorldDir, name, `${scratchDir}/world`,
 	]);
 }
 
@@ -88,24 +98,24 @@ async function copyWorld(hostWorldDir: string, name: string): Promise<void> {
 export async function withPaa(
 	job: Job,
 	ctx: JobContext,
-	{ llmToken, network, model, image, worldId }: PaaOptions,
+	{ llmToken, network, model, profile, worldId }: PaaOptions,
 	use: () => Promise<AgentOutcome>,
 ): Promise<AgentOutcome> {
 	const name = `${PAA_CONTAINER_PREFIX}${job.id}`;
 	const log = (msg: string) => console.log(`[docker] ${name}: ${msg}`);
 
-	const openclawToken = randomBytes(24).toString("hex");
+	const gatewayToken = randomBytes(24).toString("hex");
 	const hostWorldDir = `${RESOURCES_DIR}/pa/worlds/${worldId}`;
 	let started = false;
 
 	const env = [
-		// OpenClaw talks to the model in its own API format (LLM_API below), so it follows the same URL rule as the pi agent.
+		// The assistant talks to the model in its own API format (LLM_API below), so it follows the same URL rule as the pi agent.
 		["LLM_BASE_URL", proxyBaseUrl(API_URL, model.api)],
 		["LLM_TOKEN", llmToken],
 		["LLM_API", model.api],
 		["LLM_CONTEXT_WINDOW", model.contextWindow?.toString()],
 		["LLM_MAX_TOKENS", model.maxTokens?.toString()],
-		["OPENCLAW_GATEWAY_TOKEN", openclawToken],
+		["PAA_GATEWAY_TOKEN", gatewayToken],
 		["WORLD_DIR", WORLD_DIR_IN_CONTAINER],
 	].flatMap(([k, v]) => (v ? ["-e", `${k}=${v}`] : []));
 
@@ -117,13 +127,13 @@ export async function withPaa(
 			"--label", `${JOB_LABEL}=${job.id}`,
 			"--network", network,
 			"--read-only",
-			"--tmpfs", `${SCRATCH_DIR}:uid=1000,gid=1000`,
-			"--tmpfs", "/tmp:uid=1000,gid=1000",
+			"--tmpfs", `${profile.scratchDir}:uid=${profile.uid},gid=${profile.uid}`,
+			"--tmpfs", `/tmp:uid=${profile.uid},gid=${profile.uid}`,
 			...env,
-			image,
+			profile.image,
 		);
 		started = true;
-		await copyWorld(hostWorldDir, name);
+		await copyWorld(hostWorldDir, name, profile.scratchDir);
 
 		log("waiting for the assistant to be healthy");
 		const healthy = await poll(
@@ -145,8 +155,11 @@ export async function withPaa(
 
 		return await use();
 	} finally {
-		if (started) await saveToolCalls(job.id, name);
-		// Capture PAA logs (chat adapter, OpenClaw, mock services) before removal.
+		if (started) {
+				await saveToolCalls(job.id, name);
+				await savePaaInfo(job.id, name);
+			}
+		// Capture PAA logs (chat adapter, the assistant, mock services) before removal.
 		try {
 			const { stdout, stderr } = await promisify(execFile)("docker", ["logs", "--tail", "50", name]);
 			const combined = (stderr || stdout || "").trim();
