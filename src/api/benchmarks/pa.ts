@@ -267,6 +267,8 @@ export const pa: Benchmark = {
 		if (!isPaAssistant(assistant)) return { status: "error", error: `unknown assistant ${assistant}` };
 		console.log(`[pa] job-${job.id}: starting world ${id} with assistant ${assistant}`);
 
+		const world = await loadWorld(id);
+
 		const model = MODELS.find((m) => m.name === job.model);
 		if (!model) return { status: "error", error: `model ${job.model} is not configured` };
 		if (!PROXY_APIS.has(model.api)) {
@@ -300,7 +302,7 @@ export const pa: Benchmark = {
 
 			// Start the PAA container first (waits for healthy), then
 			// start the Pi agent inside the callback so both are alive.
-			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model, profile: PAA_PROFILES[assistant], worldId: id }, async () => {
+			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model, profile: PAA_PROFILES[assistant], worldId: id, executionDate: world.execution_date }, async () => {
 				return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
 					name: `${AGENT_CONTAINER_PREFIX}${job.id}`,
 					network: jobNet,
