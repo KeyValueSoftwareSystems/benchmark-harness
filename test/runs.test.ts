@@ -9,6 +9,7 @@ const run = (over: Partial<RunRecord> = {}): RunRecord => ({
 	model: "gpt-x",
 	modelId: "gpt-x-2026",
 	challenge: "locktalk",
+	assistant: null,
 	status: "done",
 	correct: true,
 	outcome: { correct: true },
@@ -75,6 +76,29 @@ test("updateNetraMetadata ignores a stale session: a newer attempt's row is left
 	upsertRun(db, run({ sessionId: "s2" }));
 	assert.equal(updateNetraMetadata(db, "job1", "s1", { spans: 4 }, ["t1"]), false);
 	assert.equal(listRuns(db, {})[0].netraMetadata, null);
+});
+
+test("the assistant column is added to a database created before it existed, and values round-trip", async () => {
+	const { DatabaseSync } = await import("node:sqlite");
+	const { mkdtempSync } = await import("node:fs");
+	const { tmpdir } = await import("node:os");
+	const { join } = await import("node:path");
+	const file = join(mkdtempSync(join(tmpdir(), "db-")), "old.db");
+	const old = new DatabaseSync(file);
+	old.exec(`CREATE TABLE runs (job_id TEXT PRIMARY KEY, benchmark TEXT NOT NULL, model TEXT NOT NULL, model_id TEXT NOT NULL,
+		challenge TEXT, status TEXT NOT NULL, correct INTEGER, outcome TEXT, metrics TEXT NOT NULL, session_id TEXT, trace_ids TEXT,
+		netra_metadata TEXT, conditions TEXT NOT NULL, created_at TEXT NOT NULL, finished_at TEXT NOT NULL)`);
+	old.exec(`INSERT INTO runs VALUES ('legacy', 'cyber', 'gpt-x', 'g', 'c', 'done', 1, NULL, '{"turns":1,"durationMs":1,"inputTokens":1,"outputTokens":1,"costUsd":0}', NULL, NULL, NULL, '{}', '2026-01-01', '2026-01-01')`);
+	old.close();
+
+	const db = openDb(file);
+	upsertRun(db, run({ jobId: "pa1", benchmark: "pa", assistant: "openclaw" }));
+	const byId = new Map(listRuns(db, {}).map((r) => [r.jobId, r]));
+	assert.equal(byId.get("legacy")?.assistant, null);
+	assert.equal(byId.get("pa1")?.assistant, "openclaw");
+	db.close();
+	// Opening again is a no-op for the schema.
+	assert.equal(listRuns(openDb(file), {}).length, 2);
 });
 
 test("re-saving the same attempt keeps the Netra data already stored for its session", () => {

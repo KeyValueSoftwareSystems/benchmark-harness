@@ -40,6 +40,7 @@ export async function runJob(id: string) {
 				getResult: (jobId) => getResult(redis, jobId),
 				modelIdFor: (name) => MODELS.find((m) => m.name === name)?.modelId ?? name,
 				conditions: CONDITIONS,
+				benchmark,
 			},
 			job,
 			outcome,

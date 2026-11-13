@@ -6,6 +6,8 @@ export const API_URL = `http://api:${PORT}`;
 export const REDIS_URL = process.env.REDIS_URL ?? "redis://redis:6379";
 export const MODELS: ModelConfig[] = JSON.parse(process.env.MODELS ?? "[]");
 export const JOB_TIMEOUT_MS = Number(process.env.JOB_TIMEOUT_MS ?? 30 * 60_000);
+/** How long per-job data in Redis (transcript, tool-call log, LLM call log) outlives the job timeout. */
+export const JOB_DATA_TTL_S = Math.ceil(JOB_TIMEOUT_MS / 1000) + 300;
 /** Required for the management routes; without it anyone who can reach the API could queue jobs. */
 export const MGMT_KEY = process.env.MGMT_KEY ?? "";
 if (!MGMT_KEY) throw new Error("MGMT_KEY is required (set it in .env)");
@@ -26,6 +28,13 @@ export const RESULTS_DIR = process.env.RESULTS_DIR ?? "/data/results";
 /** Run conditions recorded with every result (shown on reports). */
 export const CONDITIONS = { maxTurns: Number(process.env.MAX_TURNS) || null, jobTimeoutMs: JOB_TIMEOUT_MS };
 
+/** The MODELS entry that judges PA runs; only the API reads it. PA runs are stored unscored-by-judge without it. */
+export const JUDGE_MODEL = process.env.JUDGE_MODEL ?? "";
+
 /** Netra MCP (insights are skipped when no key is set). EU projects use https://api.eu.getnetra.ai/mcp. */
 export const NETRA_MCP_ENDPOINT = process.env.NETRA_MCP_ENDPOINT ?? "https://api.getnetra.ai/mcp";
 export const NETRA_API_KEY = process.env.NETRA_API_KEY ?? "";
+/** Netra OTLP endpoint for trace export; PA tracing is skipped without it. */
+export const NETRA_OTLP_ENDPOINT = process.env.NETRA_OTLP_ENDPOINT ?? "";
+/** Environment label on exported traces (keeps test runs apart from real ones). */
+export const NETRA_ENV = process.env.NETRA_ENV ?? "local";

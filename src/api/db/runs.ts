@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS runs (
 	model TEXT NOT NULL,
 	model_id TEXT NOT NULL,
 	challenge TEXT,
+	assistant TEXT,
 	status TEXT NOT NULL,
 	correct INTEGER,
 	outcome TEXT,
@@ -22,11 +23,22 @@ CREATE TABLE IF NOT EXISTS runs (
 CREATE INDEX IF NOT EXISTS runs_benchmark_model ON runs (benchmark, model);
 `;
 
+/** Columns added after the table first shipped; an older database gets them on open. */
+const ADDED_COLUMNS: Record<string, string> = { assistant: "TEXT" };
+
+function addMissingColumns(db: DatabaseSync): void {
+	const present = new Set((db.prepare("PRAGMA table_info(runs)").all() as { name: string }[]).map((c) => c.name));
+	for (const [name, type] of Object.entries(ADDED_COLUMNS)) {
+		if (!present.has(name)) db.exec(`ALTER TABLE runs ADD COLUMN ${name} ${type}`);
+	}
+}
+
 /** Opens (and creates) the runs database. No WAL, so a read-only mount of the file works for readers. */
 export function openDb(path: string): DatabaseSync {
 	const db = new DatabaseSync(path);
 	db.exec("PRAGMA journal_mode = DELETE");
 	db.exec(SCHEMA);
+	addMissingColumns(db);
 	return db;
 }
 
@@ -39,11 +51,11 @@ const parse = <T>(value: unknown): T | null => (typeof value === "string" ? (JSO
  */
 export function upsertRun(db: DatabaseSync, run: RunRecord): void {
 	db.prepare(
-		`INSERT INTO runs (job_id, benchmark, model, model_id, challenge, status, correct, outcome, metrics,
+		`INSERT INTO runs (job_id, benchmark, model, model_id, challenge, assistant, status, correct, outcome, metrics,
 			session_id, trace_ids, netra_metadata, conditions, created_at, finished_at)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		ON CONFLICT(job_id) DO UPDATE SET benchmark = excluded.benchmark, model = excluded.model,
-			model_id = excluded.model_id, challenge = excluded.challenge, status = excluded.status,
+			model_id = excluded.model_id, challenge = excluded.challenge, assistant = excluded.assistant, status = excluded.status,
 			correct = excluded.correct, outcome = excluded.outcome, metrics = excluded.metrics,
 			session_id = excluded.session_id,
 			-- the same attempt (same Netra session) keeps insights already saved; a new attempt starts clean
@@ -57,6 +69,7 @@ export function upsertRun(db: DatabaseSync, run: RunRecord): void {
 		run.model,
 		run.modelId,
 		run.challenge,
+		run.assistant ?? null,
 		run.status,
 		run.correct === null ? null : run.correct ? 1 : 0,
 		json(run.outcome),
@@ -99,6 +112,7 @@ export function listRuns(db: DatabaseSync, filter: { benchmark?: string; model?:
 		model: r.model as string,
 		modelId: r.model_id as string,
 		challenge: (r.challenge as string | null) ?? null,
+		assistant: (r.assistant as string | null) ?? null,
 		status: r.status as string,
 		correct: r.correct === null ? null : r.correct === 1,
 		outcome: parse<Record<string, unknown>>(r.outcome),

@@ -8,15 +8,24 @@
 import { randomBytes } from "node:crypto";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
+import { fetch } from "undici";
 import type { AgentOutcome, JobContext } from "../benchmarks/types.ts";
 import type { Job, ModelConfig } from "../../shared/types.ts";
-import { API_URL, RESOURCES_DIR } from "../config.ts";
+import { API_URL, JOB_DATA_TTL_S, RESOURCES_DIR } from "../config.ts";
 import { docker, JOB_LABEL, PAA_CONTAINER_PREFIX, sleep } from "./cli.ts";
-import { WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
+import {
+	MOCK_CALLS_PATH,
+	MOCK_CONTROL_PORT,
+	PAA_CHAT_PORT,
+	PAA_HEALTH_PATH,
+	WORLD_DIR_IN_CONTAINER,
+	type ToolCallRecord,
+} from "../../pa/constants.ts";
+import { keys } from "../queue/store.ts";
+import { redis } from "../redis.ts";
 import { proxyBaseUrl } from "../routes/llm.ts";
 
-const PAA_IMAGE = "bench/pa-paa";
-const OPENCLAW_PORT = 18789;
+const TOOL_CALLS_FETCH_TIMEOUT_MS = 10_000;
 /** The only writable path in the container (OpenClaw's state), owned by the image's `node` user. */
 const SCRATCH_DIR = "/home/node/.openclaw";
 /** A symlink in the image to `${SCRATCH_DIR}/world`. */
@@ -28,6 +37,25 @@ export interface PaaOptions {
 	network: string;
 	/** The job's model; only its API format and limits reach the container, never its key. */
 	model: ModelConfig;
+	/** The assistant's image (`PAA_IMAGES`). */
+	image: string;
+	worldId: string;
+}
+
+/** Saves the mock services' tool-call log for scoring. Over the job network, before the container stops. */
+async function saveToolCalls(jobId: string, host: string): Promise<void> {
+	try {
+		const res = await fetch(`http://${host}:${MOCK_CONTROL_PORT}${MOCK_CALLS_PATH}`, {
+			signal: AbortSignal.timeout(TOOL_CALLS_FETCH_TIMEOUT_MS),
+		});
+		if (!res.ok) throw new Error(`status ${res.status}`);
+		const calls = (await res.json()) as ToolCallRecord[];
+		if (!Array.isArray(calls)) throw new Error("not a list");
+		await redis.set(keys.paToolCalls(jobId), JSON.stringify(calls), "EX", JOB_DATA_TTL_S);
+		console.log(`[docker] ${host}: saved ${calls.length} tool call(s)`);
+	} catch (err) {
+		console.error(`[docker] ${host}: could not fetch the tool-call log: ${err}`);
+	}
 }
 
 /** Polls `check` every `intervalMs` until truthy or ctx expires; an error from `check` ends the wait. */
@@ -60,15 +88,15 @@ async function copyWorld(hostWorldDir: string, name: string): Promise<void> {
 export async function withPaa(
 	job: Job,
 	ctx: JobContext,
-	{ llmToken, network, model }: PaaOptions,
+	{ llmToken, network, model, image, worldId }: PaaOptions,
 	use: () => Promise<AgentOutcome>,
 ): Promise<AgentOutcome> {
 	const name = `${PAA_CONTAINER_PREFIX}${job.id}`;
 	const log = (msg: string) => console.log(`[docker] ${name}: ${msg}`);
 
 	const openclawToken = randomBytes(24).toString("hex");
-	const worldId = job.params?.world ?? "";
 	const hostWorldDir = `${RESOURCES_DIR}/pa/worlds/${worldId}`;
+	let started = false;
 
 	const env = [
 		// OpenClaw talks to the model in its own API format (LLM_API below), so it follows the same URL rule as the pi agent.
@@ -92,20 +120,19 @@ export async function withPaa(
 			"--tmpfs", `${SCRATCH_DIR}:uid=1000,gid=1000`,
 			"--tmpfs", "/tmp:uid=1000,gid=1000",
 			...env,
-			PAA_IMAGE,
+			image,
 		);
+		started = true;
 		await copyWorld(hostWorldDir, name);
 
-		log("waiting for OpenClaw gateway to be healthy");
+		log("waiting for the assistant to be healthy");
 		const healthy = await poll(
 			async () => {
 				if ((await docker("inspect", "-f", "{{.State.Running}}", name)) !== "true") {
 					throw new Error("PAA container exited during startup");
 				}
-				const out = await docker(
-					"exec", name, "curl", "-sf", `http://localhost:${OPENCLAW_PORT}/healthz`,
-				).catch(() => "");
-				return out.length > 0;
+				const res = await fetch(`http://${name}:${PAA_CHAT_PORT}${PAA_HEALTH_PATH}`, { signal: AbortSignal.timeout(2000) }).catch(() => undefined);
+				return res?.ok ?? false;
 			},
 			2000,
 			ctx,
@@ -118,6 +145,7 @@ export async function withPaa(
 
 		return await use();
 	} finally {
+		if (started) await saveToolCalls(job.id, name);
 		// Capture PAA logs (chat adapter, OpenClaw, mock services) before removal.
 		try {
 			const { stdout, stderr } = await promisify(execFile)("docker", ["logs", "--tail", "50", name]);

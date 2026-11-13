@@ -9,5 +9,7 @@ COPY tsconfig.json ./
 COPY src/shared ./src/shared
 COPY src/api/db ./src/api/db
 COPY src/reports ./src/reports
+# PA report reads judge calibration from resources/pa/
+# and PA metrics types are self-contained in src/reports/pa/
 
 ENTRYPOINT ["node", "--experimental-strip-types", "src/reports/index.ts"]

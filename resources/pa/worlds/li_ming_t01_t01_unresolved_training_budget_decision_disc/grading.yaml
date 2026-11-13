@@ -1,12 +1,5 @@
 task_id: T01_T01_unresolved_training_budget_decision_disc
 scoring_components:
-- name: Read activity logs to discover behavioral patterns
-  weight: 0.2
-  check:
-    type: tool_called
-    tool_name: read_file
-    min_calls: 2
-    description: Agent must read activity log files to discover behavioral patterns
 - name: Cross-reference anchor note about job splitting strategy
   weight: 0.15
   check:

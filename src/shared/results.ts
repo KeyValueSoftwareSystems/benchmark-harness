@@ -20,6 +20,8 @@ export interface RunRecord {
 	model: string;
 	modelId: string;
 	challenge: string | null;
+	/** The personal assistant under test (PA runs); null for other benchmarks. */
+	assistant: string | null;
 	status: string;
 	correct: boolean | null;
 	outcome: Record<string, unknown> | null;

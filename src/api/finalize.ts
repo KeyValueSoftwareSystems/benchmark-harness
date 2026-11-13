@@ -1,7 +1,7 @@
 import type { DatabaseSync } from "node:sqlite";
 import type { ResultPayload, RunRecord } from "../shared/results.ts";
 import type { Job } from "../shared/types.ts";
-import type { AgentOutcome } from "./benchmarks/types.ts";
+import type { AgentOutcome, Benchmark, RunScore } from "./benchmarks/types.ts";
 import { upsertRunInFile } from "./db/modelFiles.ts";
 import { upsertRun } from "./db/runs.ts";
 
@@ -11,6 +11,8 @@ export interface FinalizeDeps {
 	getResult: (jobId: string) => Promise<ResultPayload | undefined>;
 	modelIdFor: (model: string) => string;
 	conditions: Record<string, unknown>;
+	/** The job's benchmark; its optional `score` hook grades the run before it is stored. */
+	benchmark?: Pick<Benchmark, "score">;
 	/** Writes the run to its model file; defaults to the real writer (injectable for tests). */
 	writeRun?: (dir: string, run: RunRecord) => Promise<void>;
 }
@@ -46,12 +48,19 @@ export async function finalizeRun(
 ): Promise<RunRecord> {
 	const result = await waitForResult(deps, job.id, waitMs, pollMs);
 	const reported = result?.outcome ?? null;
+	let score: RunScore = {};
+	try {
+		score = (await deps.benchmark?.score?.(job, result)) ?? {};
+	} catch (err) {
+		console.error(`[api] job ${job.id}: scoring failed, storing the run unscored: ${err}`);
+	}
 	const run: RunRecord = {
 		jobId: job.id,
 		benchmark: job.benchmark,
 		model: job.model,
 		modelId: deps.modelIdFor(job.model),
 		challenge: job.params?.challenge ?? null,
+		assistant: job.params?.assistant ?? null,
 		status: outcome.status,
 		correct: typeof reported?.correct === "boolean" ? reported.correct : null,
 		outcome: reported,
@@ -63,6 +72,11 @@ export async function finalizeRun(
 		createdAt: job.createdAt,
 		finishedAt: new Date().toISOString(),
 	};
+	if (score.correct !== undefined) run.correct = score.correct;
+	if (score.outcome !== undefined) run.outcome = score.outcome;
+	if (score.metrics !== undefined) run.metrics = score.metrics;
+	if (score.sessionId !== undefined) run.sessionId = score.sessionId;
+	if (score.assistant !== undefined) run.assistant = score.assistant;
 	upsertRun(deps.db, run);
 	const write = deps.writeRun ?? upsertRunInFile;
 	for (let attempt = 1; ; attempt++) {

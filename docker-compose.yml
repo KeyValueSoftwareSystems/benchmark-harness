@@ -38,6 +38,10 @@ services:
       API_CONTAINER_NAME: bench-api
       # Model turns an agent may take per run before it is aborted; unset or 0 means unlimited.
       MAX_TURNS: ${MAX_TURNS:-}
+      # The MODELS entry that judges PA runs.
+      JUDGE_MODEL: ${JUDGE_MODEL:-}
+      # Netra MCP, for pulling sessions back (EU projects: https://api.eu.getnetra.ai/mcp).
+      NETRA_MCP_ENDPOINT: ${NETRA_MCP_ENDPOINT:-https://api.getnetra.ai/mcp}
     depends_on:
       - redis
     volumes:
@@ -57,10 +61,12 @@ services:
     environment:
       RESULTS_DIR: /data/results
       REPORTS_DIR: /data/reports
+      RESOURCES_DIR: /resources
       # Optional: one model config as JSON to write the report narrative (never the api's MODELS).
       NARRATIVE_MODEL: ${NARRATIVE_MODEL:-}
     volumes:
       - harness-data:/data
+      - ${PWD}/resources:/resources:ro
 
   # AI Scout Slack bot (../Quartermaster): reads the harness SQLite and reports read-only.
   # Publish: `docker compose --profile bot run --rm quartermaster python publish.py --report /data/reports/<id>.html --model <name>`
@@ -115,8 +121,9 @@ services:
     extra_hosts:
       - "host.docker.internal:host-gateway"
 
-  pa-paa:
-    image: bench/pa-paa
+  # One image per personal assistant under test (PAA_IMAGES in src/pa/constants.ts); see docker/paa/<name>/.
+  pa-paa-openclaw:
+    image: bench/pa-paa-openclaw
     profiles: ["agents"]
     build:
       context: .

@@ -13,6 +13,7 @@ const run = (jobId: string, model = "gpt-x"): RunRecord => ({
 	model,
 	modelId: "m",
 	challenge: null,
+	assistant: null,
 	status: "done",
 	correct: true,
 	outcome: null,
@@ -61,6 +62,15 @@ test("updateRunInFile replaces the run with the same job id", async () => {
 	await upsertRunInFile(dir, run("a"));
 	await updateRunInFile(dir, { ...run("a"), netraMetadata: { x: 1 } });
 	assert.deepEqual((await readModelFile(dir, "cyber", "gpt-x"))?.runs[0].netraMetadata, { x: 1 });
+});
+
+test("an entry written before runs had an assistant reads back with assistant null", async () => {
+	const { mkdirSync, writeFileSync } = await import("node:fs");
+	const dir = tmp();
+	const { assistant: _omitted, ...old } = run("old");
+	mkdirSync(join(dir, "cyber"));
+	writeFileSync(join(dir, "cyber", "gpt-x.json"), JSON.stringify({ benchmark: "cyber", model: "gpt-x", modelId: "m", runs: [old] }));
+	assert.equal((await readModelFile(dir, "cyber", "gpt-x"))?.runs[0].assistant, null);
 });
 
 test("readModelFile returns undefined when there is no file", async () => {
