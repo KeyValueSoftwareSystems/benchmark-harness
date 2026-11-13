@@ -40,6 +40,8 @@ export interface PaaOptions {
 	/** The assistant's image (`PAA_IMAGES`). */
 	image: string;
 	worldId: string;
+	/** The scenario date (from world.yaml); injected so the PAA knows "today". */
+	executionDate: string;
 }
 
 /** Saves the mock services' tool-call log for scoring. Over the job network, before the container stops. */
@@ -88,7 +90,7 @@ async function copyWorld(hostWorldDir: string, name: string): Promise<void> {
 export async function withPaa(
 	job: Job,
 	ctx: JobContext,
-	{ llmToken, network, model, image, worldId }: PaaOptions,
+	{ llmToken, network, model, image, worldId, executionDate }: PaaOptions,
 	use: () => Promise<AgentOutcome>,
 ): Promise<AgentOutcome> {
 	const name = `${PAA_CONTAINER_PREFIX}${job.id}`;
@@ -107,6 +109,8 @@ export async function withPaa(
 		["LLM_MAX_TOKENS", model.maxTokens?.toString()],
 		["OPENCLAW_GATEWAY_TOKEN", openclawToken],
 		["WORLD_DIR", WORLD_DIR_IN_CONTAINER],
+		// The scenario date so the PAA (and chat adapter) know "today" without a tool call.
+		["EXECUTION_DATE", executionDate],
 	].flatMap(([k, v]) => (v ? ["-e", `${k}=${v}`] : []));
 
 	try {
