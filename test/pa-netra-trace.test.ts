@@ -48,6 +48,7 @@ function makeData(overrides?: Partial<PaTraceData>): PaTraceData {
 			paa: { calls: 1, inputTokens: 100, outputTokens: 50, costUsd: 0.001, costUnknown: false },
 			persona: { calls: 1, inputTokens: 80, outputTokens: 40, costUsd: 0.0008, costUnknown: false },
 		},
+		assistantInfo: { version: "1.2.3", toolsets: ["terminal", "file"] },
 		},
 		toolCalls: [
 			{ service: "gmail", tool: "gmail_check_inbox", args: {}, ok: true, at: T1 },
@@ -81,6 +82,8 @@ test("emitPaTrace returns a session id and emits the expected span tree", async 
 	assert.equal(root.attributes["netra.tenant_id"], "pa");
 	assert.equal(root.attributes["pa.world"], "email_only_check_inbox");
 	assert.equal(root.attributes["pa.assistant"], "openclaw");
+	assert.equal(root.attributes["pa.assistant_version"], "1.2.3");
+	assert.equal(root.attributes["pa.assistant_toolsets"], "terminal,file");
 	assert.equal(root.attributes["pa.model"], "test-model");
 	assert.equal(root.attributes["pa.total"], "0.85");
 	assert.equal(root.attributes["pa.safe"], "true");

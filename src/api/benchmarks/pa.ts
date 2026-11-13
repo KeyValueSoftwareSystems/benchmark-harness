@@ -5,7 +5,7 @@ import YAML from "yaml";
 import { API_CONTAINER_NAME, JUDGE_MODEL, MODELS, RESOURCES_DIR } from "../config.ts";
 import { withAgent } from "../docker/agent.ts";
 import { AGENT_CONTAINER_PREFIX, docker, PA_JOB_NETWORK_PREFIX, PAA_CONTAINER_PREFIX } from "../docker/cli.ts";
-import { DEFAULT_PA_ASSISTANT, isPaAssistant, PAA_CHAT_PORT, PAA_IMAGES, type ToolCallRecord, WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
+import { DEFAULT_PA_ASSISTANT, isPaAssistant, PAA_CHAT_PORT, PAA_PROFILES, type PaaInfo, type ToolCallRecord, WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
 import { runChecks } from "../../pa/grading/checks.ts";
 import { buildQuestions, type Exchange, JudgeAnswer, JUDGE_TEMPERATURE, type JudgeResult, judgeRun, pickTranscript } from "../../pa/grading/judge.ts";
 import { loadGrading } from "../../pa/grading/load.ts";
@@ -117,6 +117,11 @@ async function readToolCalls(jobId: string): Promise<ToolCallRecord[] | undefine
 	return raw ? (JSON.parse(raw) as ToolCallRecord[]) : undefined;
 }
 
+async function readPaaInfo(jobId: string): Promise<PaaInfo | null> {
+	const raw = await redis.get(keys.paInfo(jobId));
+	return raw ? (JSON.parse(raw) as PaaInfo) : null;
+}
+
 async function readTranscript(jobId: string, result: ResultPayload | undefined): Promise<Exchange[]> {
 	const saved = (await redis.lrange(keys.transcript(jobId), 0, -1)).map((line) => JSON.parse(line) as Exchange);
 	return pickTranscript(saved, result?.outcome);
@@ -143,12 +148,13 @@ async function judgeConversation(world: World, input: Parameters<typeof judgeRun
 export async function scorePaRun(job: Job, result: ResultPayload | undefined): Promise<RunScore> {
 	const id = job.params?.challenge ?? "";
 	const assistant = job.params?.assistant ?? DEFAULT_PA_ASSISTANT;
-	const [world, grading, toolCalls, transcript, llmCalls] = await Promise.all([
+	const [world, grading, toolCalls, transcript, llmCalls, assistantInfo] = await Promise.all([
 		loadWorld(id),
 		loadGrading(worldDir(id)),
 		readToolCalls(job.id),
 		readTranscript(job.id, result),
 		listLlmCalls(redis, job.id),
+		readPaaInfo(job.id),
 	]);
 	if (!toolCalls) console.error(`[pa] job ${job.id}: no tool-call log; tool checks are unknown`);
 
@@ -179,6 +185,7 @@ export async function scorePaRun(job: Job, result: ResultPayload | undefined): P
 		exchanges: transcript.length,
 		category: world.category ?? null,
 		llm: { paa, persona: sideUsage(llmCalls, LlmRole.persona) },
+		assistantInfo,
 	};
 	const span = llmCalls.length
 		? Math.max(...llmCalls.map((c) => Date.parse(c.startedAt) + c.latencyMs)) - Math.min(...llmCalls.map((c) => Date.parse(c.startedAt)))
@@ -223,7 +230,7 @@ export const pa: Benchmark = {
 
 	async parse({ world, assistant = DEFAULT_PA_ASSISTANT }) {
 		if (typeof world !== "string") return { error: "world is required" };
-		if (!isPaAssistant(assistant)) return { error: `unknown assistant ${String(assistant)} (one of: ${Object.keys(PAA_IMAGES).join(", ")})` };
+		if (!isPaAssistant(assistant)) return { error: `unknown assistant ${String(assistant)} (one of: ${Object.keys(PAA_PROFILES).join(", ")})` };
 		try {
 			const ids = world === "all" ? (await readdir(WORLDS_DIR)).sort() : [world];
 			return await Promise.all(
@@ -277,7 +284,7 @@ export const pa: Benchmark = {
 		// Store the agent token so /register can return it in proxy mode.
 		await redis.set(keys.agentLlmToken(job.id), agentToken, "EX", 3600);
 		// A re-run starts with fresh logs.
-		await redis.del(keys.transcript(job.id), keys.paToolCalls(job.id), keys.llmCallLog(job.id));
+		await redis.del(keys.transcript(job.id), keys.paToolCalls(job.id), keys.paInfo(job.id), keys.llmCallLog(job.id));
 
 		// Create an internal (no-internet) network for this job. The PAA and the
 		// pi agent join only this network.
@@ -295,7 +302,7 @@ export const pa: Benchmark = {
 
 			// Start the PAA container first (waits for healthy), then
 			// start the Pi agent inside the callback so both are alive.
-			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model, image: PAA_IMAGES[assistant], worldId: id, executionDate: world.execution_date }, async () => {
+			return await withPaa(job, ctx, { llmToken: paaToken, network: jobNet, model, profile: PAA_PROFILES[assistant], worldId: id, executionDate: world.execution_date }, async () => {
 				return await withAgent(job, ctx, (agent) => agent.run(job.prompt), {
 					name: `${AGENT_CONTAINER_PREFIX}${job.id}`,
 					network: jobNet,

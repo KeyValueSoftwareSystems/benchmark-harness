@@ -3,7 +3,7 @@
  * Chat adapter for the PAA container.
  *
  * Translates between the benchmark protocol ({conversation_id, message} / {response})
- * and OpenClaw's OpenAI-compatible /v1/chat/completions API.
+ * and the assistant's OpenAI-compatible /v1/chat/completions API.
  *
  * Maintains an in-memory conversation history per conversation_id so the
  * stateless OpenAI endpoint sees the full message history on every call.
@@ -16,9 +16,15 @@ import { PAA_CHAT_PORT, PAA_HEALTH_PATH } from "../constants.ts";
 // An assistant turn can take longer than fetch's default 5-minute header wait; the job timeout bounds it instead.
 const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 
-const OPENCLAW_URL =
-	process.env.OPENCLAW_URL ?? "http://localhost:18789/v1/chat/completions";
-const OPENCLAW_TOKEN = process.env.OPENCLAW_GATEWAY_TOKEN ?? "";
+function requiredEnv(name: string): string {
+	const value = process.env[name];
+	if (!value) throw new Error(`${name} is required`);
+	return value;
+}
+
+const UPSTREAM_URL = requiredEnv("PAA_UPSTREAM_URL");
+const UPSTREAM_MODEL = requiredEnv("PAA_UPSTREAM_MODEL");
+const UPSTREAM_TOKEN = requiredEnv("PAA_GATEWAY_TOKEN");
 const PORT = Number(process.env.CHAT_ADAPTER_PORT ?? PAA_CHAT_PORT);
 const EXECUTION_DATE = process.env.EXECUTION_DATE ?? "";
 
@@ -65,14 +71,14 @@ app.post("/chat", async (req, res) => {
 	history.push({ role: "user", content });
 
 	try {
-		const upstream = await fetch(OPENCLAW_URL, {
+		const upstream = await fetch(UPSTREAM_URL, {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
-				...(OPENCLAW_TOKEN ? { Authorization: `Bearer ${OPENCLAW_TOKEN}` } : {}),
+				Authorization: `Bearer ${UPSTREAM_TOKEN}`,
 			},
 			body: JSON.stringify({
-				model: "openclaw",
+				model: UPSTREAM_MODEL,
 				messages: history,
 			}),
 			dispatcher: noTimeout,
@@ -80,7 +86,7 @@ app.post("/chat", async (req, res) => {
 
 		if (!upstream.ok) {
 			const body = await upstream.text();
-			console.error(`[chat-adapter] OpenClaw returned ${upstream.status}: ${body}`);
+			console.error(`[chat-adapter] assistant returned ${upstream.status}: ${body}`);
 			res.status(502).json({ error: `upstream ${upstream.status}`, detail: body });
 			return;
 		}

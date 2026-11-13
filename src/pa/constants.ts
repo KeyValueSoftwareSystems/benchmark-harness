@@ -22,11 +22,33 @@ export interface ToolCallRecord {
 	at: string;
 }
 
+/** Where each assistant's entrypoint writes its `PaaInfo`; the API reads it before the container stops. */
+export const PAA_INFO_PATH = "/tmp/paa-info.json";
+
+/** What ran for one job: the assistant's version and the toolsets it had enabled. */
+export interface PaaInfo {
+	version: string;
+	toolsets: string[];
+}
+
 /** The personal assistants a PA job can test. Each lives in `docker/paa/<name>/`. */
-export const PaAssistant = { openclaw: "openclaw" } as const;
+export const PaAssistant = { openclaw: "openclaw", hermes: "hermes" } as const;
 export type PaAssistant = (typeof PaAssistant)[keyof typeof PaAssistant];
 export const DEFAULT_PA_ASSISTANT: PaAssistant = PaAssistant.openclaw;
-export const PAA_IMAGES: Record<PaAssistant, string> = { [PaAssistant.openclaw]: "bench/pa-paa-openclaw" };
+
+/** How the API runs an assistant's container. */
+export interface PaaProfile {
+	image: string;
+	/** The only writable path in the container (the assistant's state), mounted as tmpfs and owned by `uid`. */
+	scratchDir: string;
+	/** The assistant's user in the image. */
+	uid: number;
+}
+
+export const PAA_PROFILES: Record<PaAssistant, PaaProfile> = {
+	[PaAssistant.openclaw]: { image: "bench/pa-paa-openclaw", scratchDir: "/home/node/.openclaw", uid: 1000 },
+	[PaAssistant.hermes]: { image: "bench/pa-paa-hermes", scratchDir: "/opt/data", uid: 10000 },
+};
 
 export const isPaAssistant = (value: unknown): value is PaAssistant =>
-	typeof value === "string" && Object.hasOwn(PAA_IMAGES, value);
+	typeof value === "string" && Object.hasOwn(PAA_PROFILES, value);

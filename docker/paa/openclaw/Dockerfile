@@ -35,6 +35,7 @@ COPY --from=deps /build/node_modules ./node_modules
 COPY package.json tsconfig.json ./
 COPY src/pa/mock-services ./src/pa/mock-services
 COPY src/pa/chat-adapter  ./src/pa/chat-adapter
+COPY src/pa/paa-info ./src/pa/paa-info
 COPY src/pa/constants.ts ./src/pa/constants.ts
 
 # Entrypoint script

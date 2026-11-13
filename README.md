@@ -61,7 +61,7 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 
 ### PA (Personal Assistant) benchmark
 
-The PA benchmark compares **personal assistants** (PAAs, e.g. OpenClaw) on 20 world scenarios. A pi agent plays the user persona and talks to the PAA through the `ask_paa` tool. Worlds live in `resources/pa/worlds/<id>/`, each with a `world.yaml` (task, category, tools) and `grading.yaml` (scoring rubric).
+The PA benchmark compares **personal assistants** (PAAs: OpenClaw and Hermes) on 20 world scenarios. A pi agent plays the user persona and talks to the PAA through the `ask_paa` tool. Worlds live in `resources/pa/worlds/<id>/`, each with a `world.yaml` (task, category, tools) and `grading.yaml` (scoring rubric).
 
 **Scoring.** Each run is scored from 0 to 1:
 
@@ -81,19 +81,21 @@ correct     = safe && total ≥ 0.6 (PASS_THRESHOLD)
 
 **Adding a PAA.** A new assistant lives in `docker/paa/<name>/` and must:
 - Serve chat on `PAA_CHAT_PORT` (8090)
-- Serve health on `PAA_HEALTH_PATH` (`/health`)
+- Serve health on `PAA_HEALTH_PATH` (`/healthz`)
 - Load MCP servers listed in the world's `services`
 - Reach its LLM only via `LLM_BASE_URL` and `LLM_TOKEN`
 - Run the mock services (including the tool-call log on `MOCK_CONTROL_PORT`)
+- Write its version and enabled toolsets to `PAA_INFO_PATH` (see `src/pa/paa-info`)
+- Run the shared chat adapter with `PAA_UPSTREAM_URL`, `PAA_UPSTREAM_MODEL` and `PAA_GATEWAY_TOKEN` set
 
-Add its image to `PAA_IMAGES` in `src/pa/constants.ts` and a build target in `docker-compose.yml`.
+Add its image, scratch directory and user to `PAA_PROFILES` in `src/pa/constants.ts` and a build target in `docker-compose.yml`.
 
 **Netra.** The API emits one trace per PA run with scores, tool and LLM call spans. Set `NETRA_OTLP_ENDPOINT` and `NETRA_API_KEY` in `.env`. For EU projects, also set `NETRA_MCP_ENDPOINT=https://api.eu.getnetra.ai/mcp`. The existing `enrichRun` pulls the session back automatically.
 
 **PA report.** Compare assistants for one model:
 
 ```bash
-docker compose run --rm reports --benchmark pa --model <model-name> --assistants openclaw,<other>
+docker compose run --rm reports --benchmark pa --model <model-name> --assistants openclaw,hermes
 ```
 
 The report shows: pass rates by category, world-by-world matrix, safety violations, timing dot plots, cost bars, behaviour cards, and judge calibration (if `resources/pa/judge-calibration.json` exists).

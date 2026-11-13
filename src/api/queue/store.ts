@@ -12,6 +12,8 @@ export const keys = {
 	transcript: (jobId: string) => `job-transcript:${jobId}`,
 	/** JSON array of the PAA's tool calls (`ToolCallRecord[]`), fetched from the PAA container before it stops. */
 	paToolCalls: (jobId: string) => `pa-tool-calls:${jobId}`,
+	/** JSON `PaaInfo` (assistant version and enabled toolsets), read from the PAA container before it stops. */
+	paInfo: (jobId: string) => `pa-info:${jobId}`,
 	/** List of JSON `LlmCallRecord`s, one per model call through the proxy. */
 	llmCallLog: (jobId: string) => `llm-call-log:${jobId}`,
 };

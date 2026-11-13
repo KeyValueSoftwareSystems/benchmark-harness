@@ -16,7 +16,7 @@ const { values } = parseArgs({
 
 if (!values.benchmark) {
 	console.error("usage: report --benchmark <name> --models <model,model,...>");
-	console.error("   PA: report --benchmark pa --model <model> --assistants openclaw,<other>");
+	console.error("   PA: report --benchmark pa --model <model> --assistants openclaw,hermes");
 	process.exit(2);
 }
 
@@ -26,7 +26,7 @@ const narrator = process.env.NARRATIVE_MODEL ? narrateWithModel(JSON.parse(proce
 try {
 	if (values.benchmark === "pa") {
 		if (!values.model || !values.assistants) {
-			console.error("PA usage: report --benchmark pa --model <model> --assistants openclaw,<other>");
+			console.error("PA usage: report --benchmark pa --model <model> --assistants openclaw,hermes");
 			process.exit(2);
 		}
 		const assistants = values.assistants.split(",").map((a) => a.trim()).filter(Boolean);

@@ -1,3 +1,4 @@
+import type { PaaInfo } from "../constants.ts";
 import type { LlmCallRecord, LlmRole } from "../../api/routes/llm.ts";
 import { type CheckResult, CheckKind, CheckStatus } from "./checks.ts";
 import { JudgeAnswer, type JudgeItem, type JudgeResult } from "./judge.ts";
@@ -35,6 +36,8 @@ export interface PaScore {
 	exchanges: number;
 	category: string | null;
 	llm: Record<LlmRole, LlmSideUsage>;
+	/** Null when the assistant did not report it. */
+	assistantInfo: PaaInfo | null;
 }
 
 export function sideUsage(calls: LlmCallRecord[], role: LlmRole): LlmSideUsage {
