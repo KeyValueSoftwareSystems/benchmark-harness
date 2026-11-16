@@ -10,6 +10,10 @@ import { Bucket, type SelectionManifest } from "../../pa/selection.ts";
 import { latestPerChallengeTrial } from "../metrics.ts";
 
 const FIRST_TRIAL = 1;
+const DISAGREEMENT_SCORE_GAP = 0.2;
+const ANOMALY_TOOL_CALL_RATIO = 3;
+const ANOMALY_MIN_EXTRA_TOOL_CALLS = 10;
+const MS_PER_DAY = 86_400_000;
 
 // ---------------------------------------------------------------------------
 // Types — the PA score shape as stored in outcome.score
@@ -24,8 +28,28 @@ interface LlmSideShape {
 	costUsd: number;
 }
 
+/** One grading check as stored. A `judge` status means the LLM judge decided it; its answer is in the matching item. */
+interface CheckShape {
+	kind: string;
+	index: number;
+	name: string;
+	status: string;
+}
+
+interface JudgeItemShape {
+	kind: string;
+	index: number;
+	counted: string;
+}
+
 interface PaScoreShape {
 	total: number | null;
+	checksScore?: number | null;
+	judgeScore?: number | null;
+	judgeWeight?: number;
+	judgeReasoning?: string;
+	checks?: CheckShape[];
+	items?: JudgeItemShape[];
 	safe: boolean | null;
 	violations: { rule: string; source: string; tool?: string; evidence?: string }[];
 	judgeFailed: boolean;
@@ -60,6 +84,17 @@ export interface PaWorldResult {
 	violations: PaScoreShape["violations"];
 	durationMs: number;
 	judgeFailed: boolean;
+	/** Mean over trials of the points earned from code checks and from the judge; they add up to `score`. */
+	checksScore: number | null;
+	judgePoints: number | null;
+	/** Names of the checks missed in any trial. */
+	missedChecks: string[];
+	/** The judge's reasoning from the lowest-scoring trial. */
+	judgeReasoning: string;
+	/** Mean tool calls per trial; null when no trial logged them. */
+	toolCalls: number | null;
+	/** Job of the lowest-scoring trial, to find its trace. */
+	jobId: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -110,6 +145,7 @@ export interface PaBucketMetrics {
 	runs: number;
 	/** Percent, one decimal; null when the assistant has no runs in the bucket. */
 	passRate: number | null;
+	meanScore: number | null;
 	meanTotalCostUsd: number | null;
 }
 
@@ -123,6 +159,9 @@ export interface PaAssistantMetrics {
 	total: number;
 	passRate: number;
 	meanScore: number | null;
+	/** Mean points per run earned from code checks and from the judge; they add up to `meanScore`. */
+	meanChecksScore: number | null;
+	meanJudgePoints: number | null;
 	unsafeRuns: number;
 	totalViolations: number;
 	safetyDetails: PaScoreShape["violations"][];
@@ -154,9 +193,41 @@ export interface PaAssistantMetrics {
 // Full report data
 // ---------------------------------------------------------------------------
 
+/** One assistant's result on a world where assistants differ. */
+export interface PaDisagreementEntry {
+	assistant: string;
+	passed: boolean | null;
+	score: number | null;
+	missedChecks: string[];
+	judgeReasoning: string;
+	jobId: string;
+}
+
+/** A world where scores differ by more than DISAGREEMENT_SCORE_GAP, or where one assistant passed and another failed. */
+export interface PaDisagreement {
+	worldId: string;
+	entries: PaDisagreementEntry[];
+}
+
+/** An assistant that made far more tool calls on a world than the other assistants did. */
+export interface PaToolCallAnomaly {
+	assistant: string;
+	worldId: string;
+	toolCalls: number;
+	othersMedian: number;
+}
+
 export interface PaReportData {
 	model: string;
 	assistants: PaAssistantMetrics[];
+	/** World id to the task name from its world.yaml; a world missing here is shown by its id. */
+	worldTitles: Record<string, string>;
+	disagreements: PaDisagreement[];
+	/** Worlds run by two or more assistants whose scores stay within DISAGREEMENT_SCORE_GAP. */
+	agreeingWorlds: number;
+	anomalies: PaToolCallAnomaly[];
+	/** True when the runs span more than one calendar day, a sign that older runs were mixed in. */
+	runsSpanMultipleDays: boolean;
 	allWorlds: string[];
 	allCategories: string[];
 	selection: { name: string; taskCount: number } | null;
@@ -249,9 +320,38 @@ function aggregateSafe(scores: (PaScoreShape | undefined)[]): boolean | null {
 	return safeFlags.every((safe) => safe === true) ? true : null;
 }
 
+function numbers(values: (number | null | undefined)[]): number[] {
+	return values.filter((value): value is number => typeof value === "number");
+}
+
+function roundedMean(values: number[], digits: number): number | null {
+	const average = mean(values);
+	return average === null ? null : round(average, digits);
+}
+
+/** Checks the assistant did not satisfy: code checks that failed, and judge checks the judge did not count as yes. */
+function missedCheckNames(score: PaScoreShape | undefined): string[] {
+	const judgedAsMissed = new Set(
+		(score?.items ?? []).filter((item) => item.counted !== "yes").map((item) => `${item.kind}:${item.index}`),
+	);
+	return (score?.checks ?? [])
+		.filter((check) => (check.status === "judge" ? judgedAsMissed.has(`${check.kind}:${check.index}`) : check.status === "fail"))
+		.map((check) => check.name);
+}
+
+/** The judge's share of the total: its rubric score times the weight the task gives the rubric. */
+function judgePoints(score: PaScoreShape | undefined): number | null {
+	return typeof score?.judgeScore === "number" && typeof score.judgeWeight === "number" ? score.judgeScore * score.judgeWeight : null;
+}
+
+function lowestScoringRun(runs: RunRecord[]): RunRecord {
+	return runs.reduce((lowest, run) => ((paScore(run)?.total ?? 0) < (paScore(lowest)?.total ?? 0) ? run : lowest));
+}
+
 function computeWorldResult(worldId: string, runs: RunRecord[]): PaWorldResult {
 	const scores = runs.map((run) => paScore(run));
-	const averageScore = mean(scores.map((s) => s?.total).filter((t): t is number => typeof t === "number"));
+	const averageScore = mean(numbers(scores.map((s) => s?.total)));
+	const weakestRun = lowestScoringRun(runs);
 	return {
 		worldId,
 		category: paScore(runs[0])?.category ?? "unknown",
@@ -263,6 +363,12 @@ function computeWorldResult(worldId: string, runs: RunRecord[]): PaWorldResult {
 		violations: scores.flatMap((s) => s?.violations ?? []),
 		durationMs: median(runs.map((run) => run.metrics.durationMs))!,
 		judgeFailed: scores.some((s) => s?.judgeFailed ?? false),
+		checksScore: roundedMean(numbers(scores.map((s) => s?.checksScore)), 2),
+		judgePoints: roundedMean(numbers(scores.map(judgePoints)), 2),
+		missedChecks: [...new Set(scores.flatMap(missedCheckNames))],
+		judgeReasoning: paScore(weakestRun)?.judgeReasoning ?? "",
+		toolCalls: roundedMean(numbers(scores.map((s) => s?.toolCallCount)), 1),
+		jobId: weakestRun.jobId,
 	};
 }
 
@@ -337,6 +443,7 @@ function computeBucketMetric(bucket: Bucket, runs: RunRecord[], selection: Selec
 		worlds: bucketWorldIds.size,
 		runs: bucketRuns.length,
 		passRate: bucketRuns.length ? round((passes / bucketRuns.length) * 100) : null,
+		meanScore: roundedMean(numbers(scores.map((score) => score.total)), 2),
 		meanTotalCostUsd: averageTotalCostUsd(scores),
 	};
 }
@@ -427,6 +534,8 @@ function computeAssistantMetrics(assistant: string, runs: RunRecord[], selection
 		total,
 		passRate: total ? round((passed / total) * 100) : 0,
 		meanScore: totals.length ? round(mean(totals)!, 2) : null,
+		meanChecksScore: roundedMean(numbers(scores.map((s) => s?.checksScore)), 2),
+		meanJudgePoints: roundedMean(numbers(scores.map(judgePoints)), 2),
 		unsafeRuns,
 		totalViolations,
 		safetyDetails,
@@ -473,7 +582,85 @@ function describeRunWindow(runs: RunRecord[]): string {
 	return first === last ? fmt(first) : `${fmt(first)} – ${fmt(last)}`;
 }
 
-export function computePaReportData(file: ModelFile, assistantNames: string[], selection: SelectionManifest | null = null): PaReportData {
+/** Best first: pass rate, then mean score, then cheaper per passed task, then faster. */
+export function rankAssistants(assistants: PaAssistantMetrics[]): PaAssistantMetrics[] {
+	const lowerIsBetter = (a: number | null, b: number | null) => (a ?? Infinity) - (b ?? Infinity);
+	return [...assistants].sort(
+		(a, b) =>
+			b.passRate - a.passRate ||
+			(b.meanScore ?? -1) - (a.meanScore ?? -1) ||
+			lowerIsBetter(a.costPerPassedTask, b.costPerPassedTask) ||
+			lowerIsBetter(a.medianDurationMs, b.medianDurationMs),
+	);
+}
+
+interface AssistantWorld {
+	assistant: string;
+	result: PaWorldResult;
+}
+
+/** Every world with the results of the assistants that ran it, for worlds two or more assistants ran. */
+function sharedWorlds(assistants: PaAssistantMetrics[]): Map<string, AssistantWorld[]> {
+	const byWorld = new Map<string, AssistantWorld[]>();
+	for (const a of assistants) {
+		for (const result of a.worlds) byWorld.set(result.worldId, [...(byWorld.get(result.worldId) ?? []), { assistant: a.assistant, result }]);
+	}
+	return new Map([...byWorld].filter(([, entries]) => entries.length > 1));
+}
+
+function scoresDiffer(entries: AssistantWorld[]): boolean {
+	const scores = numbers(entries.map((entry) => entry.result.score));
+	const gap = scores.length ? Math.max(...scores) - Math.min(...scores) : 0;
+	const verdicts = new Set(entries.map((entry) => entry.result.passed));
+	return gap > DISAGREEMENT_SCORE_GAP || verdicts.size > 1;
+}
+
+function computeDisagreements(shared: Map<string, AssistantWorld[]>): { disagreements: PaDisagreement[]; agreeingWorlds: number } {
+	const disagreements: PaDisagreement[] = [];
+	for (const [worldId, entries] of shared) {
+		if (!scoresDiffer(entries)) continue;
+		disagreements.push({
+			worldId,
+			entries: entries.map(({ assistant, result }) => ({
+				assistant,
+				passed: result.passed,
+				score: result.score,
+				missedChecks: result.missedChecks,
+				judgeReasoning: result.judgeReasoning,
+				jobId: result.jobId,
+			})),
+		});
+	}
+	return { disagreements, agreeingWorlds: shared.size - disagreements.length };
+}
+
+function computeToolCallAnomalies(shared: Map<string, AssistantWorld[]>): PaToolCallAnomaly[] {
+	const anomalies: PaToolCallAnomaly[] = [];
+	for (const [worldId, entries] of shared) {
+		for (const { assistant, result } of entries) {
+			const others = numbers(entries.filter((entry) => entry.assistant !== assistant).map((entry) => entry.result.toolCalls));
+			const othersMedian = median(others);
+			if (result.toolCalls === null || othersMedian === null) continue;
+			const farAboveOthers = result.toolCalls > othersMedian * ANOMALY_TOOL_CALL_RATIO;
+			if (farAboveOthers && result.toolCalls - othersMedian >= ANOMALY_MIN_EXTRA_TOOL_CALLS) {
+				anomalies.push({ assistant, worldId, toolCalls: result.toolCalls, othersMedian });
+			}
+		}
+	}
+	return anomalies;
+}
+
+function spansMultipleDays(runs: RunRecord[]): boolean {
+	const times = runs.map((run) => Date.parse(run.createdAt)).filter(Number.isFinite);
+	return times.length > 0 && Math.max(...times) - Math.min(...times) > MS_PER_DAY;
+}
+
+export function computePaReportData(
+	file: ModelFile,
+	assistantNames: string[],
+	selection: SelectionManifest | null = null,
+	worldTitles: Record<string, string> = {},
+): PaReportData {
 	const scopedRuns = selection ? runsInSelection(file.runs, selection) : file.runs;
 	const byAssistant = new Map<string, RunRecord[]>();
 	for (const name of assistantNames) byAssistant.set(name, []);
@@ -487,10 +674,15 @@ export function computePaReportData(file: ModelFile, assistantNames: string[], s
 	const allWorlds = [...new Set(assistants.flatMap((a) => a.worlds.map((w) => w.worldId)))].sort();
 	const allCategories = [...new Set(assistants.flatMap((a) => a.categories.map((c) => c.category)))].sort();
 	const allRuns = assistantNames.flatMap((name) => byAssistant.get(name) ?? []);
+	const shared = sharedWorlds(assistants);
 
 	return {
 		model: file.model,
 		assistants,
+		worldTitles,
+		...computeDisagreements(shared),
+		anomalies: computeToolCallAnomalies(shared),
+		runsSpanMultipleDays: spansMultipleDays(allRuns),
 		allWorlds,
 		allCategories,
 		selection: selection ? { name: selection.name, taskCount: selection.tasks.length } : null,
