@@ -39,7 +39,9 @@ curl -X POST localhost:3000/jobs -H 'content-type: application/json' -H "x-mgmt-
 
 - Give exactly one of `world` or `selection`.
 - `trials` is an integer from 1 to 10 (default 1). The API creates one job per world, model and trial, and each run records its trial.
-- In reports, a re-run of the same world and trial replaces the earlier run.
+- In reports, a re-run of the same world and trial replaces the earlier run. Cancelled runs are ignored.
+- The simulated user keeps asking until everything its goal asks for has been done, or the assistant says it cannot do it; the turn cap and the time limit bound the conversation.
+- Both assistants run on their own default tools plus the world's mock services, in a container with no internet. Hermes runs with `approvals.mode: off`, so it can run code as OpenClaw can. Each run records the tools the assistant had.
 
 Report the selection:
 
@@ -71,7 +73,7 @@ The returned folder must contain `data/*.parquet`. The pipeline runs in this ord
 3. `select_tasks.py select` fills the buckets and writes the selection manifest.
 4. `import_claw_anything.py --manifest ... --overlay ...` writes the worlds.
 5. `translate_world.py` extract, translate and apply, for the worlds with Chinese text.
-6. `review_worlds.py` reports quality problems. `propose_removals.py` lists analysis notes to remove; approved removals go into the overlay, and the worlds are re-imported with `--force`.
+6. `review_worlds.py` reports quality problems, including dates in the prompt that fall before the world's clock (a person decides whether a past date is fine; a task whose deadline has already passed goes into the rejections file passed to `select_tasks.py select`). It reads month-and-day dates in the opening prompt only; fixture data and relative wording such as "tomorrow" are not checked. `propose_removals.py` lists analysis notes to remove; approved removals go into the overlay, and the worlds are re-imported with `--force`.
 
 | Script | Purpose | Key arguments |
 |---|---|---|

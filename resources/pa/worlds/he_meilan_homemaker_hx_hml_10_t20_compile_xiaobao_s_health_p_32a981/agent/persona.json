@@ -1,0 +1,15 @@
+{
+  "persona_id": "HX_HML_10_T20_compile_xiaobao_s_health_pattern_review",
+  "name": "He Meilan",
+  "email": "hemeilan2026@gmail.example",
+  "role": "full-time mother",
+  "organization": "",
+  "communication_style": "professional",
+  "domain_knowledge": [
+    "finance",
+    "personal productivity",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-01"
+}
