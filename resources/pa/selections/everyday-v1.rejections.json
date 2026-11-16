@@ -1,0 +1,26 @@
+[
+  {
+    "split": "benchmark",
+    "bundle": "tool",
+    "taskId": "T22_T08_budget_constraint_violation_detection_du",
+    "reason": "The prompt calls March 15 a final-sprint deadline, but the world's clock is April 3."
+  },
+  {
+    "split": "benchmark",
+    "bundle": "tool",
+    "taskId": "T01_T07_multi_property_acquisition_decision_chai",
+    "reason": "The prompt expects a loan decision around March 17, but the world's clock is April 1."
+  },
+  {
+    "split": "train",
+    "bundle": "abdullah_rashid_11_331_40event_80noise_403_20task_simple",
+    "taskId": "T14_T13_rotation_week_6_cognitive_capacity_manag",
+    "reason": "The prompt has an appointment on March 27 that cannot be missed, but the world's clock is April 3."
+  },
+  {
+    "split": "train",
+    "bundle": "he_meilan_homemaker_11_331_40event_20noise_401_20task_hard",
+    "taskId": "HX_HML_10_T09_daily_task_scheduling_with_energy_manage",
+    "reason": "The prompt is set at 9:30 PM on March 31, but the world's clock is April 1."
+  }
+]

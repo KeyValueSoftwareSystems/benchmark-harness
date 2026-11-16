@@ -1,0 +1,507 @@
+[
+  {
+    "transaction_id": "TXN-6001",
+    "date": "2026-02-10",
+    "amount": 7500.0,
+    "currency": "CNY",
+    "merchant": "Beijing Structural Consulting Group",
+    "category": "professional_services",
+    "description": "50% deposit for independent structural engineering verification service - Unit 2106 Chaoyang Plaza (Dr. Zhang Guoqiang). Total fee ¥15,000, balance due upon report delivery.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6002",
+    "date": "2026-02-13",
+    "amount": 7500.0,
+    "currency": "CNY",
+    "merchant": "Beijing Structural Consulting Group",
+    "category": "professional_services",
+    "description": "Final payment for independent structural engineering verification - Unit 2106 Chaoyang Plaza. Report delivered February 13, 2026. Structural integrity confirmed, no major defects identified.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6003",
+    "date": "2026-02-20",
+    "amount": 800000.0,
+    "currency": "CNY",
+    "merchant": "Chaoyang Development Group",
+    "category": "property_deposit",
+    "description": "Non-refundable deposit payment for Unit 2106 Chaoyang Plaza Commercial Property. Inspection contingency satisfied February 18, 2026. Purchase agreement executed.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6004",
+    "date": "2026-02-21",
+    "amount": 50000.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Properties - Liu Meiling",
+    "category": "negotiation_premium",
+    "description": "Scheduling flexibility premium for Shanghai Pudong Unit 3501 viewing reschedule (February 17-19 → February 21-22). Applied toward purchase price upon contract signing. Goodwill compensation to seller.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6005",
+    "date": "2026-03-05",
+    "amount": 45000.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Structural Consulting Group",
+    "category": "professional_services",
+    "description": "Structural engineering consultation fee - Jing'an District property due diligence (building defect assessment and negotiation support)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6006",
+    "date": "2026-02-28",
+    "amount": 1847392.56,
+    "currency": "CNY",
+    "merchant": "Bank of China",
+    "category": "account_balance",
+    "description": "Bank of China checking account balance as of February 28, 2026 - available liquid capital for investment deposits and down payments",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6007",
+    "date": "2026-03-08",
+    "amount": 3200.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Law Partners",
+    "category": "professional_services",
+    "description": "Legal consultation - contract review for Beijing Chaoyang property rental agreement",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6008",
+    "date": "2026-02-26",
+    "amount": 15000.0,
+    "currency": "CNY",
+    "merchant": "Bank of China",
+    "category": "loan_application_fee",
+    "description": "Investment loan application processing fee - Application #INV-2026-0142 for ¥8M preferential rate tier qualification",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6009",
+    "date": "2026-03-03",
+    "amount": 8500.0,
+    "currency": "CNY",
+    "merchant": "Zhonglian Property Evaluation Services",
+    "category": "appraisal_fee",
+    "description": "Expedited property appraisal service (3-5 business days) - Haidian Office Unit 506 for loan collateral substitute evaluation",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6010",
+    "date": "2026-03-04",
+    "amount": 4200.0,
+    "currency": "CNY",
+    "merchant": "Chang Law Firm",
+    "category": "legal_consultation",
+    "description": "Legal consultation - expedited litigation resolution options for BJ-COM-2803 tenant dispute case (collateral clearance analysis)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6011",
+    "date": "2026-02-24",
+    "amount": 15000.0,
+    "currency": "CNY",
+    "merchant": "Finance Structures Consulting",
+    "category": "consulting_fees",
+    "description": "Dr. Sun Jianmin - Structured finance consulting for Jing'an JV alternative financing structures (50% LTV compliant options analysis, mezzanine financing modeling, phased acquisition feasibility)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6012",
+    "date": "2026-03-05",
+    "amount": 2800.0,
+    "currency": "CNY",
+    "merchant": "Kerry Centre Shanghai",
+    "category": "meeting_venue",
+    "description": "Conference room rental for Jing'an JV final financing structure decision meeting (4 partners, 2.5 hours)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6013",
+    "date": "2026-02-17",
+    "amount": 680.0,
+    "currency": "CNY",
+    "merchant": "Starbucks Reserve Roastery Shanghai",
+    "category": "business_meals",
+    "description": "Initial JV partners financing structure discussion - coffee and light refreshments for 4 attendees",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6014",
+    "date": "2026-03-16",
+    "amount": 3500.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Property Appraisal Services",
+    "category": "professional_services",
+    "description": "Property appraisal fee - Century Park Unit 2803 scheduled for March 21, 2026. Pre-payment for appraisal services to support Pudong property due diligence and potential loan collateral documentation."
+  },
+  {
+    "transaction_id": "TXN-6015",
+    "date": "2026-03-14",
+    "amount": 8500.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Structural Consulting Group",
+    "category": "professional_services",
+    "description": "Building inspection consultation fees for 3 Jing'an district properties viewed during March 14-16 Shanghai trip (Units 1205, 3301, 2108). Structural assessment reports to support due diligence."
+  },
+  {
+    "transaction_id": "TXN-6016",
+    "date": "2026-02-10",
+    "amount": 15000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Union Medical College Hospital",
+    "category": "family_medical",
+    "description": "Mother's preliminary cardiovascular examination and specialist consultation booking deposit - Dr. Li Wenhua",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6017",
+    "date": "2026-01-15",
+    "amount": 180000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Prestige Renovations",
+    "category": "renovation_expense",
+    "description": "Unit 3208 Haidian - Custom partition wall installation (Phase 1 renovation work)",
+    "receipt_url": "https://finance.example/receipts/txn-6017-partition-walls.pdf"
+  },
+  {
+    "transaction_id": "TXN-6018",
+    "date": "2026-01-22",
+    "amount": 120000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Prestige Renovations",
+    "category": "renovation_expense",
+    "description": "Unit 3208 Haidian - HVAC system upgrades (Phase 1 renovation work)",
+    "receipt_url": "https://finance.example/receipts/txn-6018-hvac-upgrades.pdf"
+  },
+  {
+    "transaction_id": "TXN-6019",
+    "date": "2026-01-08",
+    "amount": 80000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Architectural Design Studio",
+    "category": "professional_services",
+    "description": "Unit 3208 Haidian - Interior design and renovation planning fees",
+    "receipt_url": "https://finance.example/receipts/txn-6019-design-fees.pdf"
+  },
+  {
+    "transaction_id": "TXN-6020",
+    "date": "2026-02-15",
+    "amount": 18500.0,
+    "currency": "CNY",
+    "merchant": "Bank of China",
+    "category": "mortgage_interest",
+    "description": "Unit 3208 Haidian - Mortgage interest payment (January 2026) - carrying cost during renovation period",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6021",
+    "date": "2026-02-18",
+    "amount": 45000.0,
+    "currency": "CNY",
+    "merchant": "Bank of China",
+    "category": "financing_fees",
+    "description": "Mortgage application processing fee - Commercial property loan pre-approval #INV-2026-0142 (¥18M loan amount, 0.25% processing fee)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6022",
+    "date": "2026-02-19",
+    "amount": 15000.0,
+    "currency": "CNY",
+    "merchant": "Zhonglian Property Evaluation Services",
+    "category": "professional_services",
+    "description": "Property valuation report - Hongqiao Hub Unit 1502 commercial property assessment for financing application",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6023",
+    "date": "2026-02-15",
+    "amount": 8500.0,
+    "currency": "CNY",
+    "merchant": "Kerry Centre Shanghai",
+    "category": "business_expenses",
+    "description": "Conference room rental - Q1 investment strategy meetings (3 sessions)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6024",
+    "date": "2026-02-28",
+    "amount": 1850000.0,
+    "currency": "CNY",
+    "merchant": "Bank of China - Account Statement",
+    "category": "account_balance",
+    "description": "Verified liquid capital balance as of February 28, 2026 statement. Available for Q1 property acquisition deployment after February expenses settled. Balance: ¥1,850,000 (¥1.85M). Note: This represents current deployable capital before loan approval. Loan application #INV-2026-0142 for additional ¥4.8M pending credit committee decision March 17.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6025",
+    "date": "2026-03-10",
+    "amount": 35000.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Properties - Liu Meiling",
+    "category": "property_evaluation_fee",
+    "description": "Due diligence and property evaluation services for Pudong Century Park Unit 2803. Comprehensive market analysis, structural assessment coordination, and negotiation support. Property details: 168 sqm, ¥8.5M asking price, premium south-facing unit.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6026",
+    "date": "2026-03-12",
+    "amount": 28000.0,
+    "currency": "CNY",
+    "merchant": "Hongqiao Hub Development",
+    "category": "property_evaluation_fee",
+    "description": "Property evaluation and due diligence services for Xujiahui Unit 1502. Developer documentation review, location analysis, rental yield projection. Property details: 142 sqm, ¥6.0M discounted price (¥6.18M full price), early-bird discount expires March 22.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6027",
+    "date": "2026-02-15",
+    "amount": 850000.0,
+    "currency": "CNY",
+    "merchant": "Chaoyang Development Group",
+    "category": "property_acquisition",
+    "description": "Final payment for Chaoyang District Unit 2106 acquisition - 85 sqm residential property",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6028",
+    "date": "2026-02-17",
+    "amount": 12500.0,
+    "currency": "CNY",
+    "merchant": "Beijing Structural Consulting Group",
+    "category": "professional_services",
+    "description": "Property inspection and structural assessment - Chaoyang Unit 2106 pre-renovation evaluation",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6029",
+    "date": "2026-03-09",
+    "amount": 10275.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Municipal Tax Bureau",
+    "category": "property_tax",
+    "description": "Q1 2026 property tax payment - Century Park Unit 2803 (assessed value ¥6.85M, 0.6% annual rate, quarterly installment)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6030",
+    "date": "2026-01-15",
+    "amount": 180000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Prestige Renovations",
+    "category": "renovation_expense",
+    "description": "Unit 3208 Haidian - Custom partition installation (Phase 1 of 3) - Contract #BPR-2026-0089",
+    "receipt_url": "https://finance.receipts.example/txn-6030"
+  },
+  {
+    "transaction_id": "TXN-6031",
+    "date": "2026-01-28",
+    "amount": 120000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Prestige Renovations",
+    "category": "renovation_expense",
+    "description": "Unit 3208 Haidian - HVAC system upgrade (Daikin VRV commercial units) - Contract #BPR-2026-0089",
+    "receipt_url": "https://finance.receipts.example/txn-6031"
+  },
+  {
+    "transaction_id": "TXN-6032",
+    "date": "2026-02-10",
+    "amount": 80000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Structural Consulting Group",
+    "category": "professional_services",
+    "description": "Unit 3208 Haidian - Commercial interior design consultation and regulatory compliance review",
+    "receipt_url": "https://finance.receipts.example/txn-6032"
+  },
+  {
+    "transaction_id": "TXN-6033",
+    "date": "2026-03-05",
+    "amount": 8500.0,
+    "currency": "CNY",
+    "merchant": "Kerry Centre Shanghai",
+    "category": "business_meal",
+    "description": "Business lunch with property investment partners - Q1 portfolio review",
+    "receipt_url": "https://finance.receipts.example/txn-6033"
+  },
+  {
+    "transaction_id": "TXN-6034",
+    "date": "2026-02-08",
+    "amount": 50000.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Properties Group - Liu Meiling",
+    "category": "earnest_money",
+    "description": "Earnest money deposit for Xujiahui Premium Tower Unit 1208 negotiation - refundable if deal does not proceed to formal deposit stage. Demonstrates serious buyer intent during 48-hour decision window.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6035",
+    "date": "2026-01-28",
+    "amount": 3800.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Sixth People's Hospital",
+    "category": "medical_expense",
+    "description": "Mother's cardiovascular specialist consultation and diagnostic imaging (cardiac CT scan, blood work panel). Follow-up appointment scheduled for February 12 to review results.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6036",
+    "date": "2026-03-10",
+    "amount": 1850000.0,
+    "currency": "CNY",
+    "merchant": "Bank of China - Account Balance Verification",
+    "category": "asset_verification",
+    "description": "Liquid capital available for property acquisitions as of March 10, 2026. Total portfolio requirement: ¥2.1M (Pudong ¥640K deposit + Xujiahui ¥300K deposit + transaction costs ¥160K). Current shortfall: ¥250K, covered by pending loan approval #INV-2026-0142 for ¥5.2M financing.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6037",
+    "date": "2026-03-13",
+    "amount": 50000.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Properties - Liu Meiling",
+    "category": "good_faith_deposit",
+    "description": "Proposed good-faith deposit for Pudong Century Park Unit 2803 deadline extension negotiation (March 19 to March 21). Refundable if extension granted and property subsequently declined. Non-refundable if extension granted and property accepted. Strategic cost to align deposit deadline with loan approval timing.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6038",
+    "date": "2026-03-18",
+    "amount": 300000.0,
+    "currency": "CNY",
+    "merchant": "Hongqiao Hub Properties - Lin Xiaofeng",
+    "category": "property_deposit",
+    "description": "Planned deposit for Xujiahui Unit 1502 with improved refund terms (70% refundable if Bank of China loan #INV-2026-0142 rejected). Secures ¥150K early-bird discount. Risk exposure: ¥90K (30% non-refundable portion). Expected value calculation: 82.5% approval probability × ¥150K - 17.5% rejection probability × ¥90K = +¥108K net expected value. Transaction pending loan decision March 17.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6039",
+    "date": "2026-03-05",
+    "amount": 850000.0,
+    "currency": "CNY",
+    "merchant": "Beijing Chaoyang Property Management",
+    "category": "rental_income",
+    "description": "Q1 2026 rental income from Beijing portfolio - Units 1205, 1808, 2403 (Chaoyang District commercial properties)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6040",
+    "date": "2026-03-01",
+    "amount": 45000.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Structural Consulting Group",
+    "category": "professional_services",
+    "description": "Due diligence structural assessment - Hongqiao Hub Unit 1502 (February 2026 acquisition)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6041",
+    "date": "2026-02-28",
+    "amount": 1250000.0,
+    "currency": "CNY",
+    "merchant": "Personal Savings Account",
+    "category": "internal_transfer",
+    "description": "Liquid capital reserve for Q1 investment opportunities - Available for deposits and down payments",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6042",
+    "date": "2026-03-08",
+    "amount": 850000.0,
+    "currency": "CNY",
+    "merchant": "Bank of China - Liquid Capital Account",
+    "category": "account_balance",
+    "description": "Current liquid capital available for deployment - verified balance as of March 8, 2026. Includes cash reserves and immediately accessible investment account funds. Does not include pending loan approvals or illiquid property equity.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6043",
+    "date": "2026-03-05",
+    "amount": 45000.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Property Valuation Services",
+    "category": "professional_services",
+    "description": "Property valuation reports for three target acquisitions: Pudong Century Park Unit 2803, Xujiahui Unit 1502, Jing'an Unit 3801. Required for financing applications and due diligence documentation.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6044",
+    "date": "2026-02-28",
+    "amount": 380000.0,
+    "currency": "CNY",
+    "merchant": "Haidian Warehouse Property Acquisition",
+    "category": "property_acquisition",
+    "description": "Historical acquisition cost for Haidian warehouse property (2024 purchase, recorded for reference). Current market value ¥450K. Property under consideration for liquidation to raise deposit capital vs maintaining for future refinancing collateral (¥300K credit line potential).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6045",
+    "date": "2026-03-20",
+    "amount": 2800.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Properties - Liu Meiling",
+    "category": "property_research",
+    "description": "Broker service fee - March 18-20 Shanghai property viewing coordination (3 properties: Jing'an Temple Unit 1208, Xujiahui Garden Unit 3305, Lujiazui Finance Tower Unit 2106)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6046",
+    "date": "2026-03-21",
+    "amount": 15000.0,
+    "currency": "CNY",
+    "merchant": "Zhonglian Property Evaluation Services",
+    "category": "due_diligence",
+    "description": "Preliminary property evaluation reports - Three Shanghai properties (Jing'an, Xujiahui, Lujiazui). Detailed appraisals pending final property selection.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6047",
+    "date": "2026-03-18",
+    "amount": 1248.0,
+    "currency": "CNY",
+    "merchant": "Shanghai Railway Station",
+    "category": "travel",
+    "description": "High-speed rail tickets - Beijing to Shanghai round trip for March property viewing trip (Business class for schedule flexibility)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6048",
+    "date": "2026-03-19",
+    "amount": 3600.0,
+    "currency": "CNY",
+    "merchant": "Kerry Centre Shanghai",
+    "category": "accommodation",
+    "description": "Hotel accommodation - March 18-20 Shanghai property viewing trip (3 nights)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6049",
+    "date": "2026-03-05",
+    "amount": 3200000.0,
+    "currency": "CNY",
+    "merchant": "Jing'an Commercial Property Escrow Account",
+    "category": "property_deposit_reserved",
+    "description": "Reserved funds for Jing'an commercial property earnest money deposit (20% of ¥16M purchase price). Deadline: March 17, 5:00 PM. Joint venture with Chen Wei, Zhang Weimin, and two other partners."
+  },
+  {
+    "transaction_id": "TXN-6050",
+    "date": "2026-03-08",
+    "amount": 1850.0,
+    "currency": "CNY",
+    "merchant": "China Railway High-Speed",
+    "category": "travel_reserved",
+    "description": "Reserved Beijing-Shanghai round-trip tickets for March 14-18 property viewing trip. Outbound G101 (Business Class ¥1,748), Return G128 (Second Class ¥553). Total flexibility for schedule changes."
+  },
+  {
+    "transaction_id": "TXN-6051",
+    "date": "2026-03-06",
+    "amount": 450000.0,
+    "currency": "CNY",
+    "merchant": "Chaoyang Unit 1808 Negotiation Deposit",
+    "category": "property_negotiation_deposit",
+    "description": "Good faith deposit for Chaoyang Unit 1808 ongoing negotiation with Wang Jianhua. Refundable if deal doesn't proceed. Viewing required by March 16 to maintain negotiation momentum."
+  }
+]

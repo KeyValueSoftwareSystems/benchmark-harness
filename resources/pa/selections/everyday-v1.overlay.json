@@ -89,14 +89,8 @@
     }
   },
   "worlds": {
-    "abdullah_rashid_t14_t13_rotation_week_6_cognitive_capaci_333895": {
-      "persona": "abdullah_rashid"
-    },
     "abdullah_rashid_t14_t20_marine_foundation_approval_inter_25c35b": {
       "persona": "abdullah_rashid"
-    },
-    "bench_t01_t07_multi_property_acquisition_decision_chai": {
-      "persona": "qi_cheng_an"
     },
     "bench_t04_t08_multi_project_deadline_consolidation_and": {
       "persona": "carlos_rivera"
@@ -196,16 +190,6 @@
         }
       ]
     },
-    "bench_t22_t08_budget_constraint_violation_detection_du": {
-      "persona": "hannah_wei",
-      "removeFixtureItems": [
-        {
-          "file": "fixtures/claw_obsidian/vault.json",
-          "id": "OBSN-33",
-          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
-        }
-      ]
-    },
     "bench_t22_t16_interview_time_slot_selection_under_mult": {
       "persona": "hannah_wei",
       "removeFixtureItems": [
@@ -301,9 +285,6 @@
     "he_meilan_homemaker_hx_hml_10_t08_urgent_parent_teacher_conf_32a981": {
       "persona": "he_meilan"
     },
-    "he_meilan_homemaker_hx_hml_10_t09_daily_task_scheduling_with_32a981": {
-      "persona": "he_meilan"
-    },
     "he_meilan_homemaker_hx_hml_10_t10_parent_teacher_conference_32a981": {
       "persona": "he_meilan"
     },
@@ -347,6 +328,15 @@
     },
     "rachel_summers_wedding_planner_free03_t03_weekly_goal_to_task_breakdown_2a2d03": {
       "persona": "rachel_summers"
+    },
+    "bench_t22_t05_budget_reallocation_decision_expedited_t": {
+      "persona": "hannah_wei"
+    },
+    "qi_cheng_an_t01_t19_multi_property_acquisition_finan_011575": {
+      "persona": "qi_cheng_an"
+    },
+    "he_meilan_homemaker_hx_hml_10_t20_compile_xiaobao_s_health_p_32a981": {
+      "persona": "he_meilan"
     }
   }
 }
