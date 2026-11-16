@@ -53,3 +53,13 @@ node --experimental-strip-types scripts/pa/calibrate-judge.ts --results /data/re
 ```
 
 It writes `resources/pa/judge-calibration.json` and the report shows the agreement numbers. If agreement is below 80%, do not publish scores.
+
+## Call trace
+
+The LLM proxy writes one JSON line per model call to `/data/results/llm-calls/<jobId>.jsonl` in the `api` container, as each call finishes. A line has the role (persona or PAA), model, tokens (input, cache read, cache write, output), cost, the provider's own cost when reported, latency, status, the job's running cost, the request and the reply (text, tool calls, finish reason). After a role's first call, `request.messages` holds only the messages added since that role's previous call (`continuesPreviousCall: true`). Judge calls do not go through the proxy; their usage is in the run's score.
+
+Follow a job live:
+
+```bash
+docker compose exec -T api tail -f /data/results/llm-calls/<jobId>.jsonl | jq -c '{call,role,inputTokens,cacheReadTokens,outputTokens,costUsd,runningCostUsd}'
+```

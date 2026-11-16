@@ -1,8 +1,12 @@
 import assert from "node:assert/strict";
 import { createServer } from "node:http";
 import type { AddressInfo } from "node:net";
+import { mkdtemp, readFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import pathModule from "node:path";
 import test from "node:test";
 import express from "express";
+import { createLlmCallTrace } from "../src/api/llm-call-trace.ts";
 import type { Redis } from "ioredis";
 import { createUsageScanner } from "../src/shared/llm-usage.ts";
 
@@ -95,7 +99,8 @@ const redis = {
 
 const app = express();
 app.use("/llm", express.json());
-app.use(llmRouter(redis));
+const traceDir = await mkdtemp(pathModule.join(tmpdir(), "llm-trace-"));
+app.use(llmRouter(redis, createLlmCallTrace(traceDir)));
 const server = app.listen(0);
 const base = `http://127.0.0.1:${(server.address() as AddressInfo).port}/llm/v1`;
 test.after(() => {
@@ -120,6 +125,24 @@ test("upstream headers such as retry-after reach the client", async () => {
 	assert.equal(res.headers.get("x-request-id"), "req-1");
 	const body = (await res.json()) as { received: { model: string } };
 	assert.equal(body.received.model, "real-model");
+});
+
+test("a call is traced with its request, reply and running cost", async () => {
+	const before = logged.length;
+	await (await call("chat/completions", "tok", { model: "x", messages: [{ role: "user", content: "hi" }] })).text();
+	await nextLog(before);
+	const traceFile = pathModule.join(traceDir, "j1.jsonl");
+	let lines: string[] = [];
+	for (let i = 0; i < 100 && lines.length === 0; i++) {
+		await new Promise((r) => setTimeout(r, 5));
+		lines = (await readFile(traceFile, "utf8").catch(() => "")).trim().split("\n").filter(Boolean);
+	}
+	const line = JSON.parse(lines[lines.length - 1]);
+	assert.equal(line.role, "persona");
+	assert.equal(line.reply.text, "ok");
+	// An earlier test sent an empty history for this job and role, so this call continues it.
+	assert.deepEqual(line.request, { messages: [{ role: "user", content: "hi" }], continuesPreviousCall: true });
+	assert.ok(line.runningCostUsd >= line.costUsd);
 });
 
 test("a non-JSON body is rejected with 415", async () => {
