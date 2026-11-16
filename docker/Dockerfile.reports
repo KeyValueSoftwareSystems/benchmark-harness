@@ -8,6 +8,7 @@ RUN npm ci --omit=dev
 COPY tsconfig.json ./
 COPY src/shared ./src/shared
 COPY src/api/db ./src/api/db
+COPY src/api/trials.ts ./src/api/trials.ts
 COPY src/pa/selection.ts ./src/pa/selection.ts
 COPY src/reports ./src/reports
 # PA report reads judge calibration from resources/pa/
