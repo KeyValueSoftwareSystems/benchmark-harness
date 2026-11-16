@@ -97,9 +97,12 @@ node --experimental-strip-types -e "
 	log "  registered ${name} → :${port}"
 done
 
-# What ran, for the run record. OpenClaw's toolsets are not listed.
+# What ran, for the run record: the version, the exec/process tools the exec policy allows, and the tools of the enabled plugins.
 OPENCLAW_VERSION_OUTPUT=$(openclaw --version)
-node --experimental-strip-types /paa/src/pa/paa-info/index.ts "${OPENCLAW_VERSION_OUTPUT%%$'\n'*}" > /tmp/paa-info.json
+OPENCLAW_EXEC_TOOLS=$(openclaw exec-policy show | awk -F: '/^(exec|process):/ && /Allowed/ { print $1 }')
+OPENCLAW_PLUGIN_TOOLS=$(openclaw plugins list --json | node --experimental-strip-types /paa/src/pa/paa-info/openclaw-tools.ts)
+# shellcheck disable=SC2086
+node --experimental-strip-types /paa/src/pa/paa-info/index.ts "${OPENCLAW_VERSION_OUTPUT%%$'\n'*}" $OPENCLAW_EXEC_TOOLS $OPENCLAW_PLUGIN_TOOLS > /tmp/paa-info.json
 
 # ---------- 3. Start OpenClaw gateway ----------
 log "Starting OpenClaw gateway..."

@@ -12,6 +12,7 @@
 import express from "express";
 import { Agent, fetch } from "undici";
 import { PAA_CHAT_PORT, PAA_HEALTH_PATH } from "../constants.ts";
+import { withFirstMessageNotes } from "./first-message-notes.ts";
 
 // An assistant turn can take longer than fetch's default 5-minute header wait; the job timeout bounds it instead.
 const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
@@ -27,6 +28,7 @@ const UPSTREAM_MODEL = requiredEnv("PAA_UPSTREAM_MODEL");
 const UPSTREAM_TOKEN = requiredEnv("PAA_GATEWAY_TOKEN");
 const PORT = Number(process.env.CHAT_ADAPTER_PORT ?? PAA_CHAT_PORT);
 const EXECUTION_DATE = process.env.EXECUTION_DATE ?? "";
+const SCRATCH_DIR = process.env.PAA_SCRATCH_DIR ?? "";
 
 interface Message {
 	role: "system" | "user" | "assistant";
@@ -63,11 +65,8 @@ app.post("/chat", async (req, res) => {
 		conversations.set(conversation_id, history);
 	}
 
-	// On the first message, instruct the PAA to check the scenario clock via
-	// the get_current_datetime tool instead of relying on the system clock.
-	const content = isFirst && EXECUTION_DATE
-		? `[Important: do NOT use the system clock for the current date/time. You MUST call the get_current_datetime tool to get the correct date before doing any work.]\n\n${message}`
-		: message;
+	// On the first message, tell the PAA to use the scenario clock and what its sandbox allows.
+	const content = isFirst ? withFirstMessageNotes(message, { executionDate: EXECUTION_DATE, scratchDir: SCRATCH_DIR }) : message;
 	history.push({ role: "user", content });
 
 	try {

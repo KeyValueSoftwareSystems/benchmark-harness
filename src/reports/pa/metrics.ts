@@ -14,6 +14,7 @@ const DISAGREEMENT_SCORE_GAP = 0.2;
 const ANOMALY_TOOL_CALL_RATIO = 3;
 const ANOMALY_MIN_EXTRA_TOOL_CALLS = 10;
 const MS_PER_DAY = 86_400_000;
+const CANCELLED_STATUS = "cancelled";
 
 // ---------------------------------------------------------------------------
 // Types — the PA score shape as stored in outcome.score
@@ -661,7 +662,9 @@ export function computePaReportData(
 	selection: SelectionManifest | null = null,
 	worldTitles: Record<string, string> = {},
 ): PaReportData {
-	const scopedRuns = selection ? runsInSelection(file.runs, selection) : file.runs;
+	// A cancelled run is not a result, and must not replace a finished run of the same world and trial.
+	const finishedRuns = file.runs.filter((run) => run.status !== CANCELLED_STATUS);
+	const scopedRuns = selection ? runsInSelection(finishedRuns, selection) : finishedRuns;
 	const byAssistant = new Map<string, RunRecord[]>();
 	for (const name of assistantNames) byAssistant.set(name, []);
 	for (const run of scopedRuns) {

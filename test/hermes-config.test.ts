@@ -38,3 +38,7 @@ test("serves the API on loopback", () => {
 	const api = (buildHermesConfig(base) as any).gateway.api_server;
 	assert.deepEqual([api.host, api.port, api.enabled], ["127.0.0.1", HERMES_API_PORT, true]);
 });
+
+test("turns Hermes approvals off so code execution is not blocked in the unattended session", () => {
+	assert.equal((buildHermesConfig(base) as any).approvals.mode, "off");
+});

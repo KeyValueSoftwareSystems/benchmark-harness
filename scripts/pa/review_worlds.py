@@ -16,6 +16,7 @@ import statistics
 import sys
 from collections import Counter, defaultdict
 from collections.abc import Callable, Sequence
+from datetime import date
 from dataclasses import asdict, dataclass, field
 from enum import Enum
 from pathlib import Path, PurePosixPath
@@ -86,6 +87,16 @@ ANSWER_LEAK_NOTE = (
     "Per-world details are in the JSON output."
 )
 WORD_PATTERN = re.compile(r"[a-z0-9]+")
+MONTH_NAMES = (
+    "january", "february", "march", "april", "may", "june",
+    "july", "august", "september", "october", "november", "december",
+)
+_MONTH_ALTERNATIVES = "|".join(MONTH_NAMES)
+# "March 15" or "15 March"
+PROMPT_DATE_PATTERN = re.compile(
+    rf"\b(?P<month_first>{_MONTH_ALTERNATIVES})\s+(?P<day_after>\d{{1,2}})\b|\b(?P<day_before>\d{{1,2}})\s+(?P<month_second>{_MONTH_ALTERNATIVES})\b",
+    re.IGNORECASE,
+)
 ID_PATTERN = re.compile(r"\b[A-Z]{2,}-\d+\b")
 CJK_PATTERN = re.compile(r"[一-鿿]")
 STOPWORDS = frozenset(
@@ -110,6 +121,7 @@ class FindingKind(str, Enum):
     DANGLING_REFERENCE = "dangling_reference"
     PERSONA_PROBLEM = "persona_problem"
     PROMPT_PROBLEM = "prompt_problem"
+    PROMPT_DATE_BEFORE_EXECUTION = "prompt_date_before_execution"
     SIZE_WARNING = "size_warning"
 
 
@@ -137,6 +149,7 @@ KIND_SEVERITY: dict[FindingKind, Severity] = {
     FindingKind.DANGLING_REFERENCE: Severity.WARN,
     FindingKind.PERSONA_PROBLEM: Severity.WARN,
     FindingKind.PROMPT_PROBLEM: Severity.ERROR,
+    FindingKind.PROMPT_DATE_BEFORE_EXECUTION: Severity.WARN,
     FindingKind.SIZE_WARNING: Severity.WARN,
 }
 
@@ -539,6 +552,37 @@ def check_prompt(world: World) -> list[Finding]:
     return [make_finding(world, FindingKind.PROMPT_PROBLEM, problem) for problem in problems if problem is not None]
 
 
+def _prompt_date(match: re.Match[str], year: int) -> date | None:
+    month_name = match.group("month_first") or match.group("month_second")
+    day = int(match.group("day_after") or match.group("day_before"))
+    try:
+        return date(year, MONTH_NAMES.index(month_name.lower()) + 1, day)
+    except ValueError:
+        return None
+
+
+def check_prompt_dates(world: World) -> list[Finding]:
+    """Flags dates in the prompt that fall before the execution date, for a person to judge.
+
+    A past date can be fine (a review of last week) or wrong (a deadline the assistant would treat as already missed).
+    Only month-and-day dates are read, in the execution date's year.
+    """
+    execution_text = world.world_yaml.get("execution_date")
+    prompt_text = (world.world_yaml.get("prompt") or {}).get("text")
+    if not isinstance(execution_text, str) or not isinstance(prompt_text, str):
+        return []
+    execution_date = date.fromisoformat(execution_text)
+    findings = []
+    for match in PROMPT_DATE_PATTERN.finditer(prompt_text):
+        mentioned = _prompt_date(match, execution_date.year)
+        if mentioned is None or mentioned >= execution_date:
+            continue
+        days_before = (execution_date - mentioned).days
+        message = f"prompt names {match.group(0)}, {days_before} days before the execution date {execution_text}"
+        findings.append(make_finding(world, FindingKind.PROMPT_DATE_BEFORE_EXECUTION, message, WORLD_YAML, _snippet(prompt_text, match.start())))
+    return findings
+
+
 def check_size(world: World) -> list[Finding]:
     if world.size_bytes <= MAX_WORLD_BYTES:
         return []
@@ -559,6 +603,7 @@ WORLD_CHECKS: tuple[Callable[[World], list[Finding]], ...] = (
     check_dangling_references,
     check_persona,
     check_prompt,
+    check_prompt_dates,
     check_size,
 )
 

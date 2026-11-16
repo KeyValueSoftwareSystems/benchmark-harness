@@ -325,3 +325,13 @@ test("world titles replace the id, and five assistants render one ranked row eac
 	assert.equal((html.match(/<tr><td>a\d<\/td>/g) ?? []).length >= 5, true);
 	assert.deepEqual(rankAssistants(data.assistants).map((a) => a.assistant), ["a5", "a4", "a3", "a2", "a1"]);
 });
+
+test("a cancelled run is not counted and does not replace a finished run of the same world and trial", () => {
+	const finished = scoredRun({ assistant: "a", world: "w1", total: 0.9, correct: true, createdAt: "2026-01-01T00:00:00Z" });
+	const cancelled = { ...scoredRun({ assistant: "a", world: "w1", total: 0.1, correct: false, createdAt: "2026-01-02T00:00:00Z" }), status: "cancelled" };
+	const metrics = multiAssistantData([finished, cancelled], ["a"]).assistants[0];
+	assert.deepEqual([metrics.total, metrics.passed, metrics.meanScore], [1, 1, 0.9]);
+
+	const onlyCancelled = multiAssistantData([cancelled], ["a"]).assistants[0];
+	assert.equal(onlyCancelled.total, 0);
+});

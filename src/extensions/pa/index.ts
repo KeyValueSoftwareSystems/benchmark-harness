@@ -5,6 +5,11 @@ import { Agent, fetch } from "undici";
 // An assistant turn can take longer than fetch's default 5-minute header wait; the job timeout bounds it instead.
 const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 
+/** How many times in a row the simulated user is reminded to use a tool after it answered in plain text. */
+const MAX_TOOL_CALL_REMINDERS = 2;
+const TOOL_CALL_REMINDER =
+	"Plain text is not delivered to your assistant. Send what you want to say with the ask_paa tool, or call end_conversation if everything your goal asks for is done.";
+
 interface PAAContext {
 	benchmark: string;
 	world_id: string;
@@ -43,6 +48,7 @@ export default function (pi: ExtensionAPI) {
 	let announced = false;
 	let ended = false;
 	let exchangeCount = 0;
+	let remindersSinceLastTool = 0;
 	const transcript: Exchange[] = [];
 
 	// Fetch the one-time context from the API (assistant endpoint, limits, metadata).
@@ -87,6 +93,7 @@ export default function (pi: ExtensionAPI) {
 		}),
 		async execute(_toolCallId, params) {
 			if (!context) throw new Error("context is not loaded");
+			remindersSinceLastTool = 0;
 			if (ended) return { content: [{ type: "text" as const, text: "Conversation has already ended." }], details: undefined };
 			if (exchangeCount >= context.max_exchanges) {
 				ended = true;
@@ -179,14 +186,21 @@ export default function (pi: ExtensionAPI) {
 		},
 	});
 
-	// If the agent run ends without an explicit end_conversation, still emit a result.
+	// The simulated user's turn can end with plain text instead of a tool call. Remind it to use a tool; if it keeps
+	// answering in plain text, end the conversation with a result.
 	pi.on("agent_end", () => {
 		if (ended || !context) return;
+		if (remindersSinceLastTool < MAX_TOOL_CALL_REMINDERS) {
+			remindersSinceLastTool++;
+			console.error(`[pa] simulated user answered without a tool call; reminder ${remindersSinceLastTool}`);
+			pi.sendUserMessage(TOOL_CALL_REMINDER, { deliverAs: "followUp" });
+			return;
+		}
 		ended = true;
 		pi.events.emit("benchmark_result", {
-			ended_by: "agent_timeout",
+			ended_by: "persona_stopped_without_tool_call",
 			outcome: "unsatisfied",
-			reason: "Agent run ended without calling end_conversation",
+			reason: "The simulated user stopped without calling end_conversation",
 			exchange_count: exchangeCount,
 			transcript,
 		});
