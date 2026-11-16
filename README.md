@@ -115,14 +115,20 @@ Everything runs through Docker Compose; images contain the code (no bind mounts)
 | `docker/` | `Dockerfile.api` and one `Dockerfile.<benchmark>` each |
 
 
-## Smithy: the web page
+## The web page (AI Scout · Benchmark Harness)
 
-Open `http://localhost:3000/` (the API serves it). Pick or add a model, choose a benchmark and challenges (all by default), then **Benchmark now** or **Add to queue**. A confirmation lists what will run before anything spends credits. Runs show live, with **Cancel run**, **Generate report** and **Benchmark again**. A sun/moon button at the top right switches between the light and dark themes.
+Open `http://localhost:3000/` (the API serves it). The page has three tabs, each a pair of cards:
 
-- **What the page stores in your browser.** The theme name (`smithy-theme`, local storage) and one cookie, `smithy-tour=done` (one year, same-site only), so the first-visit intro shows once. The **?** button in the header replays it. Nothing else, and never a key.
+- **Models.** The right card lists every model with its last result (solved out of run, sortable), the benchmarks it has run on and its status; filter it by benchmark. Click a row to select it. The left card, **Run setup**, holds the benchmark switch, the challenges as toggles (all by default, with a filter, Select all and Clear) or a prompt box, a key field when the model needs one, a readiness ring, and **Add to queue** / **Benchmark now**. Once something is queued it also offers **Start queue**.
+- **Queue.** What is queued, with each item's exact settings, and **Benchmark these**.
+- **Runs.** Live progress: a chart of challenges solved per run (compared with recent runs on the same benchmark), each challenge's result with error details, and **Cancel run**, **Generate report** / **Open report** and **Benchmark again**.
+
+**＋ Add model** (top right) opens a side panel. A confirmation lists what will run before anything spends credits. The footer has **Take the tour**, the light/dark switch, and whether the page can reach the API.
+
+- **What the page stores in your browser.** The theme name (`smithy-theme`, local storage) and one cookie, `smithy-tour=done` (one year, same-site only), so the first-visit intro shows once. **Take the tour** in the footer replays it. Nothing else, and never a key.
 - **Keys are never stored.** An API key typed on the page is kept in the API process's memory until it restarts; it is never written to Redis, SQLite, result files, reports or logs, and the page keeps no key in browser storage. After a restart, models added on the page are gone from the list (their earlier results still show, read-only, as "add again to re-run"); add them again with their key. A job still queued for such a model ends as an error instead of starting. Models in `MODELS` need nothing.
 - **No login.** The API has no authentication, so keep it on localhost or a trusted network. The compose file publishes port 3000 on all interfaces; bind it to `127.0.0.1:3000:3000` (for example in `docker-compose.override.yml`) unless you mean to share it. Keys are only accepted over HTTPS or from a `localhost` address; `ALLOW_INSECURE_KEYS=1` allows plain HTTP on a trusted network.
 - **Queue size.** The page's queue holds at most `QUEUE_LIMIT` items (default 5, set on the `api` service). Adding the same model with the same benchmark, challenges and prompt twice is refused with a toast; the same model with different settings is fine.
-- **Parameter discovery** (optional). Set `DISCOVERY_MODEL` on the `api` service to one model as JSON, in the same shape as a `MODELS` item. The Add-a-model card then shows a docs link field and **Discover parameters**, which reads that page (HTTPS and public addresses only) and proposes thinking levels and prices for you to confirm. Without it the card is filled in by hand.
+- **Parameter discovery** (optional). Set `DISCOVERY_MODEL` on the `api` service to one model as JSON, in the same shape as a `MODELS` item. The Add model panel then shows a docs link field and **Discover**, which reads that page (HTTPS and public addresses only) and proposes thinking levels and prices for you to confirm. Without it the panel is filled in by hand.
 - **Who can read keys.** An agent container fetches its model, key included, from `/register` while its job is starting or running. Anything that can reach the API can do the same, as before; the API has no login, so this is another reason to keep it off untrusted networks. A reverse proxy on the same machine that forwards plain HTTP with `Host: localhost` would also pass the localhost check for keys.
 - **Reports** come from the `reports-api` service, which `docker compose up` starts with the API.

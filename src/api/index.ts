@@ -33,7 +33,7 @@ app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id
 
 app.use(jsonErrorHandler);
 
-// The Smithy page: plain files, no build step. Registered after the API routes.
+// The harness web page: plain files, no build step. Registered after the API routes.
 app.use(express.static(fileURLToPath(new URL("../ui", import.meta.url))));
 
 await reconcileModelFiles(db, RESULTS_DIR)

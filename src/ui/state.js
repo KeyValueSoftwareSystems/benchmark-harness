@@ -168,3 +168,64 @@ export function summarizeError(text) {
 	const line = String(text).split("\n")[0].replace(/\s+/g, " ").trim();
 	return line.length > MAX_ERROR ? `${line.slice(0, MAX_ERROR)}…` : line;
 }
+
+/** Every benchmark any model has run on, once each, sorted: the options of the models filter. */
+export const benchmarkNames = (models) => [...new Set(models.flatMap((m) => m.benchmarked ?? []))].sort();
+
+/** "all", "none" (never benchmarked) or one benchmark name. */
+export const filterModels = (models, filter) =>
+	filter === "all" ? models : filter === "none" ? models.filter((m) => !m.benchmarked?.length) : models.filter((m) => m.benchmarked?.includes(filter));
+
+/** The status pill for a model row. Read-only wins: such a model cannot run even with a key. */
+export const modelStatus = (m) =>
+	m.readOnly ? { label: "Read-only", tone: "mute" } : m.needsKey ? { label: "Needs key", tone: "warn" } : m.session ? { label: "Session", tone: "mute" } : { label: "Ready", tone: "ok" };
+
+/** The run-setup checklist: what this run needs and whether each part is done. */
+export function readiness(s) {
+	const model = selectedModel(s);
+	if (!model) return [{ label: "Model selected", done: false }];
+	const bench = selectedBenchmark(s);
+	const checks = [{ label: "Model selected", done: !model.readOnly }, { label: "Benchmark chosen", done: !!bench }];
+	if (bench?.needsPrompt) checks.push({ label: "Prompt written", done: !!s.form.prompt.trim() });
+	else if (bench) {
+		const n = s.form.challenges === "all" ? bench.challenges.length : s.form.challenges.length;
+		checks.push({ label: `${n} challenge${n === 1 ? "" : "s"} selected`, done: n > 0 });
+	}
+	if (model.needsKey) checks.push({ label: "API key entered", done: !!s.form.apiKey });
+	return checks;
+}
+
+const startedAt = (run) => Date.parse(run.jobs[0]?.createdAt ?? "") || 0;
+/** Runs with the most recently started first. */
+export const newestFirst = (runs) => [...runs].sort((a, b) => startedAt(b) - startedAt(a));
+
+const UNSETTLED = new Set(["queued", "provisioning", "running"]);
+/** Counts for one run; `correct` maps job id to its verdict (true, false or null when unknown). */
+export function runStats(run, correct) {
+	return {
+		total: run.jobs.length,
+		finished: run.jobs.filter((j) => !UNSETTLED.has(j.status)).length,
+		solved: run.jobs.filter((j) => correct.get(j.id) === true).length,
+		errors: run.jobs.filter((j) => j.status === "error").length,
+	};
+}
+
+/** Solved so far after each settled job, in run order, starting from 0: one line on the progress chart. */
+export function solveCurve(run, correct) {
+	const out = [0];
+	let solved = 0;
+	for (const j of run.jobs) {
+		if (UNSETTLED.has(j.status)) break;
+		if (correct.get(j.id) === true) solved++;
+		out.push(solved);
+	}
+	return out;
+}
+
+/** Sorts by `score(item)`; items without a score stay at the end in either direction. */
+export function sortByResult(list, score, dir) {
+	const known = list.filter((x) => score(x) !== undefined);
+	const unknown = list.filter((x) => score(x) === undefined);
+	known.sort((a, b) => (dir === "desc" ? score(b) - score(a) : score(a) - score(b)));
+	return [...known, ...unknown];
+}
