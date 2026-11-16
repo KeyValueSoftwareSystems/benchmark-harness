@@ -1,9 +1,11 @@
 import { Router } from "express";
+import { SentMailbox } from "./sent-mail.ts";
 import type { FixtureLoader } from "./types.ts";
 
 export function workmailRoutes(load: FixtureLoader): Router {
 	const r = Router();
-	const messages = (): any[] => load("workmail/inbox.json");
+	const sentMailbox = new SentMailbox("WM-SENT", "me");
+	const messages = (): any[] => [...load("workmail/inbox.json"), ...sentMailbox.all()];
 
 	r.post("/workmail/messages", (req, res) => {
 		const all = messages();
@@ -37,7 +39,8 @@ export function workmailRoutes(load: FixtureLoader): Router {
 
 	r.post("/workmail/send", (req, res) => {
 		console.log("[mock-workmail] send:", req.body.to, req.body.subject);
-		res.json({ success: true, message_id: `WM-SENT-${Date.now()}` });
+		const sent = sentMailbox.record(req.body);
+		res.json({ success: true, message_id: sent.message_id });
 	});
 
 	r.post("/workmail/drafts/save", (req, res) => {

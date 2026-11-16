@@ -28,6 +28,9 @@ const HERMES_API_MODE: Record<string, string> = {
 	"anthropic-messages": "anthropic_messages",
 };
 
+/** Hermes approval mode that runs tools, including code execution, without asking. */
+const HERMES_APPROVALS_OFF = "off";
+
 export interface HermesConfigInput {
 	/** The LLM proxy URL for the model's API format. */
 	llmBaseUrl: string;
@@ -56,6 +59,8 @@ export function buildHermesConfig(input: HermesConfigInput): object {
 			...(input.contextWindow ? { context_length: input.contextWindow } : {}),
 		},
 		mcp_servers: mcpServers,
+		// The container is the sandbox (no internet, read-only root, no Docker socket), and there is no user to approve; without this Hermes blocks code execution.
+		approvals: { mode: HERMES_APPROVALS_OFF },
 		gateway: {
 			api_server: { enabled: true, host: HERMES_API_HOST, port: HERMES_API_PORT, model_name: HERMES_MODEL_NAME },
 		},

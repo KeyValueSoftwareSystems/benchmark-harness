@@ -59,3 +59,12 @@ test("buildPersonaPrompt never leaves ' at ' dangling when organization is empty
 	assert.ok(!firstLine.includes(" at "));
 	assert.ok(!firstLine.includes("at ."));
 });
+
+test("buildPersonaPrompt tells the persona to keep asking until the goal is done, using only tool calls", () => {
+	const prompt = buildPersonaPrompt(persona, world);
+	assert.ok(prompt.includes("never reply with plain text"));
+	assert.ok(prompt.includes("not only described it"));
+	assert.ok(prompt.includes("reply with `ask_paa`"));
+	assert.ok(prompt.includes("never mention how you are being evaluated"));
+	assert.ok(!prompt.includes("immediately"));
+});

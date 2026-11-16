@@ -134,6 +134,8 @@ export async function withPaa(
 		["WORLD_DIR", WORLD_DIR_IN_CONTAINER],
 		// The scenario date so the PAA (and chat adapter) know "today" without a tool call.
 		["EXECUTION_DATE", executionDate],
+		// So the assistant can be told where it may write.
+		["PAA_SCRATCH_DIR", profile.scratchDir],
 	].flatMap(([k, v]) => (v ? ["-e", `${k}=${v}`] : []));
 
 	try {

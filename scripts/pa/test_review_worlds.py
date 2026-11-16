@@ -109,6 +109,24 @@ class ReviewWorldsTest(unittest.TestCase):
     def test_clean_world_has_no_findings(self) -> None:
         self.assertEqual(self.review(clean_spec()), [])
 
+    def test_prompt_date_before_execution_date_is_flagged_for_review(self) -> None:
+        spec = clean_spec()
+        spec["world"]["prompt"]["text"] = "I am in the final sprint (March 15 deadline) and need to approve expenses."
+        findings = self.assert_flags(spec, FindingKind.PROMPT_DATE_BEFORE_EXECUTION)
+        self.assertEqual(findings[0].severity, Severity.WARN)
+        self.assertIn("March 15", findings[0].message)
+        self.assertIn("21 days before", findings[0].message)
+
+    def test_day_first_prompt_date_is_read(self) -> None:
+        spec = clean_spec()
+        spec["world"]["prompt"]["text"] = "The loan decision comes around 17 March."
+        self.assert_flags(spec, FindingKind.PROMPT_DATE_BEFORE_EXECUTION)
+
+    def test_prompt_date_on_or_after_execution_date_is_not_flagged(self) -> None:
+        spec = clean_spec()
+        spec["world"]["prompt"]["text"] = "Plan the week from April 5 to April 12 and the 30 June review."
+        self.assertEqual(self.review(spec), [])
+
     def test_empty_grading_field(self) -> None:
         spec = clean_spec()
         spec["grading"]["judge_rubric"] = "   "

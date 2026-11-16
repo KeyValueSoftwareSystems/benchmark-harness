@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { SentMailbox } from "./sent-mail.ts";
 import type { FixtureLoader } from "./types.ts";
 
 interface Message {
@@ -14,7 +15,8 @@ interface Message {
 
 export function gmailRoutes(load: FixtureLoader): Router {
 	const r = Router();
-	const messages = (): Message[] => load("gmail/inbox.json");
+	const sentMailbox = new SentMailbox("MSG-SENT", "me");
+	const messages = (): Message[] => [...load("gmail/inbox.json"), ...sentMailbox.all()];
 
 	r.post("/gmail/messages", (req, res) => {
 		const all = messages();
@@ -50,7 +52,8 @@ export function gmailRoutes(load: FixtureLoader): Router {
 
 	r.post("/gmail/send", (req, res) => {
 		console.log("[mock-gmail] send:", req.body.to, req.body.subject);
-		res.json({ success: true, message_id: `MSG-SENT-${Date.now()}` });
+		const sent = sentMailbox.record(req.body);
+		res.json({ success: true, message_id: sent.message_id });
 	});
 
 	r.post("/gmail/drafts/save", (req, res) => {
