@@ -13,14 +13,17 @@
  * token usage from the bytes on their way to the client, and each call is logged per job with the caller's role.
  */
 
+import path from "node:path";
 import { Readable, Transform } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import type { ReadableStream } from "node:stream/web";
 import { Router } from "express";
 import type { Redis } from "ioredis";
 import { Agent, fetch } from "undici";
+import { createReplyCollector } from "../../shared/llm-reply.ts";
 import { callCost, createUsageScanner, type LlmUsage } from "../../shared/llm-usage.ts";
-import { JOB_DATA_TTL_S, MODELS } from "../config.ts";
+import { JOB_DATA_TTL_S, MODELS, RESULTS_DIR } from "../config.ts";
+import { createLlmCallTrace, type LlmCallTrace } from "../llm-call-trace.ts";
 import { getJob, keys, setStatus } from "../queue/store.ts";
 
 /** Cap on model calls through the proxy per job, counting both the pi agent and the PAA. */
@@ -31,6 +34,12 @@ const noTimeout = new Agent({ headersTimeout: 0, bodyTimeout: 0 });
 
 /** API formats the proxy can forward: the model is named in the body and auth is a single header. */
 export const PROXY_APIS = new Set(["openai-completions", "openai-responses", "anthropic-messages"]);
+
+/** Error code of a stream that closed before it finished; once the reply's end marker was seen it means the client closed first. */
+const PREMATURE_CLOSE_CODE = "ERR_STREAM_PREMATURE_CLOSE";
+
+/** Where each job's call trace is written: `<dir>/<jobId>.jsonl`. */
+export const LLM_TRACE_DIR = path.join(RESULTS_DIR, "llm-calls");
 
 /** Where the proxy is mounted; the PAA and the pi agent send their model calls here. */
 export const LLM_ROUTE = "/llm/v1";
@@ -143,7 +152,7 @@ export function extractToken(req: { headers: Record<string, any> }): string {
 	return typeof xApiKey === "string" ? xApiKey.trim() : "";
 }
 
-export function llmRouter(redis: Redis): Router {
+export function llmRouter(redis: Redis, callTrace: LlmCallTrace = createLlmCallTrace(LLM_TRACE_DIR)): Router {
 	const router = Router();
 
 	router.all(`${LLM_ROUTE}/{*path}`, async (req, res) => {
@@ -210,11 +219,14 @@ export function llmRouter(redis: Redis): Router {
 		}
 
 		// Replace the model field in the body with the real model ID.
-		const body = hasBody ? JSON.stringify(withStreamUsage(model.api, { ...req.body, model: model.modelId })) : undefined;
+		const requestBody = hasBody ? withStreamUsage(model.api, { ...req.body, model: model.modelId }) : undefined;
+		const body = requestBody && JSON.stringify(requestBody);
 
 		const started = Date.now();
 		let status = 502;
 		let scanner: ReturnType<typeof createUsageScanner> | undefined;
+		let replyCollector: ReturnType<typeof createReplyCollector> | undefined;
+		let failure: string | undefined;
 		try {
 			console.error(`[llm-proxy] job=${jobId} role=${role} ${req.method} /${subpath} model=${model.name} calls=${count}`);
 			const upstream = await fetch(upstreamUrl, {
@@ -237,15 +249,22 @@ export function llmRouter(redis: Redis): Router {
 			}
 			const scan = createUsageScanner(upstream.headers.get("content-type"));
 			scanner = scan;
+			const collector = createReplyCollector(upstream.headers.get("content-type"));
+			replyCollector = collector;
 			const tap = new Transform({
 				transform(chunk, _encoding, done) {
 					scan.push(chunk);
+					collector.push(chunk);
 					done(null, chunk);
 				},
 			});
 			await pipeline(Readable.fromWeb(upstream.body as ReadableStream), tap, res);
 		} catch (err: any) {
-			console.error(`[llm-proxy] upstream error for job ${jobId}: ${err.message}`);
+			const clientLeftAfterReply = err.code === PREMATURE_CLOSE_CODE && replyCollector?.streamEnded === true;
+			if (!clientLeftAfterReply) {
+				failure = err.message;
+				console.error(`[llm-proxy] upstream error for job ${jobId}: ${err.message}`);
+			}
 			if (res.headersSent) res.destroy();
 			else res.status(502).json({ error: "upstream unreachable", detail: err.message });
 		} finally {
@@ -260,6 +279,10 @@ export function llmRouter(redis: Redis): Router {
 				status,
 			};
 			await logCall(redis, jobId, record).catch((err) => console.error(`[llm-proxy] could not log call for job ${jobId}: ${err.message}`));
+			const reply = replyCollector?.finish() ?? { text: "", toolCalls: [] };
+			await callTrace
+				.append(jobId, count, record, requestBody, reply, failure)
+				.catch((err) => console.error(`[llm-proxy] could not trace call for job ${jobId}: ${err.message}`));
 		}
 	});
 
