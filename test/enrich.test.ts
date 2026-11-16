@@ -15,6 +15,7 @@ const base: RunRecord = {
 	modelId: "m",
 	challenge: null,
 	assistant: null,
+	trial: 1,
 	status: "done",
 	correct: true,
 	outcome: null,

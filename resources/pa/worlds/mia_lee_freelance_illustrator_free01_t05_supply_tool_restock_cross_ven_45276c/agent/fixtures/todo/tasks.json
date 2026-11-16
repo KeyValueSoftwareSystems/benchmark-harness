@@ -1,0 +1,891 @@
+[
+  {
+    "task_id": "TODO-501",
+    "title": "Look into new paper texture brushes for editorial work",
+    "description": "",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-02-20",
+    "tags": [
+      "research"
+    ],
+    "created_at": "2026-02-17T10:35:00-08:00",
+    "_noise": true
+  },
+  {
+    "task_id": "TODO-502",
+    "title": "Execute software subscription payments — channel allocation order",
+    "description": "Follow the allocation plan from NOTE-101. Step 1: Apply studio referral credit ($125) to Fontspring renewal, pay $64 remainder on debit. Step 2: Apply promo voucher CP-2026-MIA to Procreate bundle ($79.99). Step 3: Apply voucher to Dropbox renewal ($16.58). Step 4: Apply remaining voucher balance ($103.43) to Adobe CC, pay $556.45 on debit. All steps must be completed before 2026-03-03 (Procreate due date). Voucher expires 2026-03-15 — do not delay.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-03",
+    "tags": [
+      "subscriptions",
+      "finance",
+      "payments",
+      "admin"
+    ],
+    "created_at": "2026-02-24T14:00:00-08:00"
+  },
+  {
+    "task_id": "TODO-503",
+    "title": "Log subscription allocation savings in expense sheet WB-1",
+    "description": "After all payments are executed, verify each transaction in the finance log and confirm the sheet WB-1 'Software Subscriptions' tab reflects actual charges. Total savings to record: $325.00 ($125 referral credit + $200 promo voucher). Tag entries for Q1 2026 tax deduction review.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-05",
+    "tags": [
+      "subscriptions",
+      "finance",
+      "expense-tracking",
+      "admin"
+    ],
+    "created_at": "2026-02-24T14:05:00-08:00"
+  },
+  {
+    "task_id": "TODO-504",
+    "title": "Check if Backblaze B2 is eligible for next promo voucher cycle",
+    "description": "Backblaze auto-renewed Feb 19 before the current voucher was available. Cloud Storage is an eligible category — note this for the next billing cycle or any future CreativePro voucher. Consider switching Backblaze to manual renewal to capture future discounts.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-03-15",
+    "tags": [
+      "subscriptions",
+      "finance",
+      "admin"
+    ],
+    "created_at": "2026-02-24T14:10:00-08:00"
+  },
+  {
+    "task_id": "TODO-505",
+    "title": "Follow up on Artboard Collective price-match reply — Bundle 1 & 2",
+    "description": "Price-match request emailed to support@artboardcollective.example on 2026-04-21 for Bundle 1 (Brush Texture Pack, competing price $94 via Gumroad) and Bundle 2 (Editorial Photo Reference Library, competing price $155 via CreativePro). Follow up if no reply by 2026-04-28. Final payment deadline for all three bundles is 2026-05-02 — do NOT miss this window regardless of price-match outcome.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-28",
+    "tags": [
+      "licensing",
+      "price-match",
+      "artboard-collective",
+      "deadline"
+    ],
+    "created_at": "2026-04-21T15:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-506",
+    "title": "Complete final payments — Artboard Collective all 3 bundles (deadline 2026-05-02)",
+    "description": "Final payment due 2026-05-02 for all three Artboard Collective pre-order bundles. Amounts depend on price-match outcome: Bundle 1 remaining = $72 (or ~$4 if price-match honored); Bundle 2 remaining = $104 (or $25 if price-match honored); Bundle 3 remaining = $56 (no price-match requested). Total worst-case remaining: $232. Log payments in WB-1 Business Expenses sheet once completed.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-02",
+    "tags": [
+      "licensing",
+      "payment",
+      "artboard-collective",
+      "deadline",
+      "finance"
+    ],
+    "created_at": "2026-04-21T15:05:00-07:00"
+  },
+  {
+    "task_id": "TODO-507",
+    "title": "Log AC pre-order decision matrix in WB-1 — new tab 'AC Pre-Order Analysis'",
+    "description": "Add a new tab to the Business Expenses workbook WB-1 with the per-bundle decision matrix: deposit paid, deposit multiplier credit value, remaining balance, competing channel price, net delta (S−D), bonus asset value estimate, channel reliability rating, price-match status, and final decision. Reference NOTE-104 for the full analysis.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-23",
+    "tags": [
+      "licensing",
+      "expense-tracking",
+      "sheet",
+      "artboard-collective"
+    ],
+    "created_at": "2026-04-21T15:10:00-07:00"
+  },
+  {
+    "task_id": "TODO-508",
+    "title": "Review CreativePro flash deal expiry — Editorial Photo Ref Library (expires 2026-04-25)",
+    "description": "The CreativePro Partner Flash Deal for the Stock Editorial Photo Reference Library Vol. 3 expires 2026-04-25. If Artboard Collective price-match is denied before then, evaluate whether to forfeit the $130 deposit and switch (net loss = $25 vs. keeping). Current recommendation: keep pre-order, but monitor inbox for AC reply before deal expires.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-25",
+    "tags": [
+      "licensing",
+      "deadline",
+      "creativepro",
+      "price-match"
+    ],
+    "created_at": "2026-04-21T15:15:00-07:00"
+  },
+  {
+    "task_id": "TODO-509",
+    "title": "Verify Vera Moss brush pack covers paper texture need — close TODO-501 if confirmed",
+    "description": "TODO-501 ('Look into new paper texture brushes for editorial work') was cancelled on 2026-04-10. On the same date, TXN-6008 records a $94 Gumroad purchase of the Vera Moss Brush Texture Pack (47 paper texture brushes, Procreate + Photoshop compatible). Confirm the pack satisfies the original need and mark TODO-501 resolved rather than cancelled, or note any gap.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-18",
+    "tags": [
+      "brushes",
+      "admin",
+      "open-loop",
+      "editorial-tools"
+    ],
+    "created_at": "2026-04-16T10:30:00-07:00"
+  },
+  {
+    "task_id": "TODO-510",
+    "title": "Escalate AC price-match if no reply by 2026-04-19 — call support directly",
+    "description": "Price-match request (MSG-5008) was sent 2026-04-14. Follow-up sent 2026-04-16 (MSG-5011). If no confirmed reply arrives by end of day 2026-04-19, escalate: call Artboard Collective support line or submit a formal dispute ticket. Final payment deadline is 2026-05-02 — insufficient buffer to wait past next week. TODO-505 and TODO-506 remain blocked until price-match is resolved.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-19",
+    "tags": [
+      "artboard-collective",
+      "price-match",
+      "escalation",
+      "deadline-risk"
+    ],
+    "created_at": "2026-04-16T10:45:00-07:00"
+  },
+  {
+    "task_id": "TODO-511",
+    "title": "Log Gumroad brush purchase (TXN-6008) in WB-1 expense sheet",
+    "description": "Vera Moss Brush Texture Pack purchased via Gumroad on 2026-04-10 for $94 (TXN-6008). Needs to be logged under 'Digital Tools / Brushes' category in WB-1 (Mia Lee Illustration — Business Expenses 2026) for Q2 tax tracking.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-21",
+    "tags": [
+      "finance",
+      "expense-log",
+      "gumroad",
+      "tax-prep"
+    ],
+    "created_at": "2026-04-16T11:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-515",
+    "title": "Monitor for next Pressline Studio promotional offer — target Tier 3+ credit block",
+    "description": "Tranche 2 of the April 2026 Pressline bulk credit offer was not feasible within the monthly discretionary cap ($750). April headroom after Tranche 1 ($360) was only $56 — insufficient for any additional tier. Offer expired 2026-04-30. Watch for next promotional window from Pressline Studio (contact: Marco Reyes, hello@presslinestudio.example). Target Tier 3 (60 credits × $14 = $840) or higher in a month with minimal prior discretionary spend. Ensure no large software renewals fall in the same month.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-06-15",
+    "tags": [
+      "print-production",
+      "pressline-studio",
+      "budget",
+      "discretionary-cap"
+    ],
+    "created_at": "2026-04-02T14:15:00-07:00"
+  },
+  {
+    "task_id": "TODO-516",
+    "title": "Confirm Greenfield Press $1,600 deposit cleared — reconcile in WB-1",
+    "description": "Greenfield Press issued 50% deposit invoice on 2026-04-01 (Net 7, due 2026-04-08). Expected ACH clearance ~2026-04-08 to 2026-04-10. Once confirmed in bank account, log TXN-6013 in WB-1 April sheet and update Notion client log (NPAG-1 — Client Log Greenfield Press). This deposit was assessed as a potential trigger for Pressline Tranche 2 but ultimately could not free April discretionary headroom — no further action needed on that front.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-10",
+    "tags": [
+      "greenfield-press",
+      "invoices",
+      "deposit",
+      "reconciliation"
+    ],
+    "created_at": "2026-04-02T14:20:00-07:00"
+  },
+  {
+    "task_id": "TODO-517",
+    "title": "Log Pressline Tranche 1 receipt and verify credit balance in Pressline account",
+    "description": "After completing Tier 1 purchase (20 credits, $360, TXN-6014), log in to Pressline Studio account and confirm credit balance shows 20 credits. Save receipt PDF to LLC records folder. Cross-check against WB-1 Print Production Budget tab.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-04",
+    "tags": [
+      "print-production",
+      "pressline-studio",
+      "expense-tracking"
+    ],
+    "created_at": "2026-04-02T14:25:00-07:00"
+  },
+  {
+    "task_id": "TODO-518",
+    "title": "Run asset bundle platform allocation — determine optimal buy plan for 6-item shopping list",
+    "description": "Consolidate 6-item digital asset shopping list across Artboard Collective, Creative Market, and Envato Elements. Extract per-item prices (6×3 matrix), pull platform discount rules and any expiring credits from finance/notes, run combinatorial allocation to find minimum out-of-pocket spend. Flag any filler-purchase risks. Log winning plan in sheet and create summary note.",
+    "status": "done",
+    "priority": "medium",
+    "due_date": "2026-03-17",
+    "tags": [
+      "asset-purchase",
+      "finance",
+      "platform-optimization",
+      "licensing"
+    ],
+    "created_at": "2026-03-16T11:45:00-07:00"
+  },
+  {
+    "task_id": "TODO-519",
+    "title": "Consume AC referral credit before 2026-03-31 expiry — confirm applied to TXN-6015",
+    "description": "Artboard Collective referral credit $18.00 (AC-REF-FEB28) expires 2026-03-31. Verify it was applied to the Editorial Cover Mockup Kit purchase (TXN-6015) on 2026-03-17. Check AC account dashboard to confirm credit balance is $0. If not applied, contact AC support immediately.",
+    "status": "done",
+    "priority": "high",
+    "due_date": "2026-03-18",
+    "tags": [
+      "platform-credits",
+      "artboard-collective",
+      "expiry",
+      "finance"
+    ],
+    "created_at": "2026-03-16T11:50:00-07:00"
+  },
+  {
+    "task_id": "TODO-520",
+    "title": "Decide whether to use CM-BUNDLE20 coupon before 2026-04-05 expiry",
+    "description": "Creative Market bundle coupon CM-BUNDLE20 (20% off 3+ items) expires 2026-04-05. Current allocation plan uses Envato for all available items — no CM purchase needed. Revisit if any new asset needs arise before expiry. If no qualifying purchase by 2026-04-04, let coupon lapse (no filler purchases to chase discount).",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-04",
+    "tags": [
+      "creative-market",
+      "coupon",
+      "expiry",
+      "asset-purchase"
+    ],
+    "created_at": "2026-03-17T15:45:00-07:00"
+  },
+  {
+    "task_id": "TODO-521",
+    "title": "Verify all 5 Envato downloads are accessible and file formats correct",
+    "description": "Confirm downloaded assets from 2026-03-17 Envato batch are all usable: (1) Halftone & Grain Texture Pack, (2) Ink Wash Brush Set, (3) Vintage Editorial Layout Templates, (4) Risograph Color Palette Swatches, (5) Hand-Lettering Overlay Pack. Check file formats match Procreate/Illustrator workflow. Flag any incompatible files for CM fallback purchase.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-19",
+    "tags": [
+      "envato",
+      "asset-verification",
+      "workflow"
+    ],
+    "created_at": "2026-03-17T16:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-522",
+    "title": "Monitor Greenfield Press response to interim payment checkpoint request — do not advance to finals until resolved",
+    "description": "Sent interim payment checkpoint email to Dana Whitfield (MSG-5028) on 2026-03-24, requesting $800 milestone payment at sketch-approval stage before advancing to final artwork. Do NOT deliver final-stage files until either (a) Dana confirms the interim payment amendment, or (b) Mia explicitly decides to proceed on original terms after reviewing the risk. Check for reply by 2026-03-28 (end of sketch-review week). If no response, follow up by phone or escalate. Related: Illustrators Alliance warning MSG-5027, risk note NOTE-118, Notion log NPAG-1, calendar reminder EVT-311.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-28",
+    "tags": [
+      "greenfield-press",
+      "payment-risk",
+      "milestone",
+      "do-not-advance"
+    ],
+    "created_at": "2026-03-24T15:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-523",
+    "title": "Finalize sketch thumbnails — Greenfield Press 3 cover variations (ready for Dana review)",
+    "description": "Complete the three cover thumbnail sketches for Greenfield Press Spring 2026 commission. Target: ready for Dana Whitfield review by 2026-03-28. Hold final delivery pending resolution of interim payment checkpoint (TODO-522). Hard deadline for finals: 2026-05-12 (EVT-309).",
+    "status": "in_progress",
+    "priority": "high",
+    "due_date": "2026-03-28",
+    "tags": [
+      "greenfield-press",
+      "sketches",
+      "cover-variations",
+      "active"
+    ],
+    "created_at": "2026-03-24T15:10:00-07:00"
+  },
+  {
+    "task_id": "TODO-524",
+    "title": "Add Nadia Roth to contacts — Illustrators Alliance peer source (Greenfield Press warning)",
+    "description": "Nadia Roth (CON-203) submitted the Greenfield Press payment warning in the April Alliance Roundup (MSG-5027). Added to contacts for future client reputation checks and Alliance network referrals. Mark complete once contact record is confirmed.",
+    "status": "done",
+    "priority": "low",
+    "due_date": "2026-03-24",
+    "tags": [
+      "contacts",
+      "illustrators-alliance",
+      "greenfield-press",
+      "peer-network"
+    ],
+    "created_at": "2026-03-24T15:20:00-07:00"
+  },
+  {
+    "task_id": "TODO-532",
+    "title": "Send Harbor Press extension request — revised delivery Feb 27 EOD",
+    "description": "Draft is ready in NOTE-124. Send the timeline extension request to Derek Lam (art.director@harborpressbooks.example) by Feb 16 EOD. Reference the client-initiated scope expansion (MSG-5041) as the cause of the production constraint. Propose Feb 27 EOD delivery. Include goodwill offer: complimentary alt texture pass (~$150 value) + priority consideration for Q3 2026 Harbor Press brief. Log sent email and Harbor response in NPAG-7.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-02-16",
+    "tags": [
+      "harbor-press",
+      "client-outreach",
+      "deadline-conflict",
+      "urgent"
+    ],
+    "created_at": "2026-02-16T15:30:00-08:00"
+  },
+  {
+    "task_id": "TODO-533",
+    "title": "Update Notion client logs — Meridian Magazine + Harbor Press — after Harbor confirms extension",
+    "description": "Once Harbor Press confirms the Feb 27 extension (or counter-proposes), update NPAG-6 (Meridian Magazine) to mark March issue commitment as on-track and NPAG-7 (Harbor Press) with confirmed revised delivery date, final scope, and resolution method. Log outreach language used and any goodwill commitments made.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-02-17",
+    "tags": [
+      "notion",
+      "client-log",
+      "harbor-press",
+      "meridian-magazine"
+    ],
+    "created_at": "2026-02-16T15:35:00-08:00"
+  },
+  {
+    "task_id": "TODO-534",
+    "title": "Production self-check: Meridian March issue on track — verify by Feb 20",
+    "description": "By Feb 20 (Friday), confirm 'Rooftop Commons' editorial illustration is at minimum 50% complete (clean sketch or refined inking stage) to ensure Feb 24 5pm PT delivery is achievable at full quality. If behind, eliminate non-critical work blocks immediately and reassess daily capacity allocation for the week of Feb 23.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-02-20",
+    "tags": [
+      "meridian-magazine",
+      "production-check",
+      "deadline",
+      "self-review"
+    ],
+    "created_at": "2026-02-16T15:40:00-08:00"
+  },
+  {
+    "task_id": "TODO-540",
+    "title": "Check calendar conflicts — Coastline Quarterly call slot options (Apr 14–16)",
+    "description": "Rosa Santos (Coastline Quarterly) proposed 3 call windows: Tue Apr 14 11 AM, Wed Apr 15 2 PM, Thu Apr 16 10 AM. Cross-check each against Greenfield Press deep-work blocks, Thursday invoicing admin, and Monday admin cadence. Identify the single viable slot and reply to Rosa.",
+    "status": "done",
+    "priority": "high",
+    "due_date": "2026-04-10",
+    "tags": [
+      "new-client",
+      "scheduling",
+      "coastline-quarterly"
+    ],
+    "created_at": "2026-04-10T10:45:00-07:00"
+  },
+  {
+    "task_id": "TODO-541",
+    "title": "Reply to Rosa Santos — confirm Apr 15 2 PM call slot",
+    "description": "Send confirmation email to r.santos@coastlinequarterly.example selecting Option B (Wed Apr 15, 2:00–2:30 PM PT). Keep reply brief and professional. Log pending call in Notion client log or contact note once invite is received.",
+    "status": "done",
+    "priority": "high",
+    "due_date": "2026-04-10",
+    "tags": [
+      "new-client",
+      "coastline-quarterly",
+      "email"
+    ],
+    "created_at": "2026-04-10T10:50:00-07:00"
+  },
+  {
+    "task_id": "TODO-542",
+    "title": "Add Coastline Quarterly to Notion client log after Apr 15 call",
+    "description": "After the cover brief review call with Rosa Santos, create a new Notion client log page for Coastline Quarterly. Record: contact info, Q2 brief summary, budget, timeline, revision terms discussed, and any contract flags to watch for when the draft arrives.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-15",
+    "tags": [
+      "new-client",
+      "coastline-quarterly",
+      "notion",
+      "admin"
+    ],
+    "created_at": "2026-04-10T16:05:00-07:00"
+  },
+  {
+    "task_id": "TODO-543",
+    "title": "Review Coastline Quarterly draft contract against standard rules when received",
+    "description": "Rosa Santos will send a formal brief and draft contract next week. When it arrives, cross-check against NPAG-2 (Standard Contract Rules) — specifically: upfront deposit clause, revision round cap (2 rounds max), kill fee, and IP/usage rights. Flag any violations before replying.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-22",
+    "tags": [
+      "new-client",
+      "coastline-quarterly",
+      "contract",
+      "risk"
+    ],
+    "created_at": "2026-04-15T15:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-544",
+    "title": "Reconcile WB-1 Greenfield rows against finance TXN log — fix keying errors",
+    "description": "Three rows in WB-1 (Business Expenses 2026) reference incorrect TXN IDs for Greenfield Press entries. Row 1: TXN-6013 → TXN-6023. Row 2: amount $38.50 → $41.20, TXN-6019 → TXN-6024. Row 3: TXN-6020 → TXN-6025. Apply corrections after Mia confirms. See NOTE-130 for full reconciliation findings.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-10",
+    "tags": [
+      "greenfield-press",
+      "reconciliation",
+      "finance",
+      "expense-sheet"
+    ],
+    "created_at": "2026-03-08T10:45:00-08:00"
+  },
+  {
+    "task_id": "TODO-545",
+    "title": "Resolve Greenfield reimbursement row (WB-1 Row 4) — confirm $45 status with Dana",
+    "description": "WB-1 Row 4 shows a $45.00 reimbursement for reference print costs (Greenfield verbal approval 2026-02-26) but no finance transaction exists. Either: (a) follow up with Dana Whitfield to confirm payment is coming and log TXN when received, or (b) remove the row if Greenfield is not paying. Do not touch either record until Mia decides. See NOTE-130 for context.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-12",
+    "tags": [
+      "greenfield-press",
+      "reimbursement",
+      "reconciliation",
+      "genuine-conflict"
+    ],
+    "created_at": "2026-03-08T10:50:00-08:00"
+  },
+  {
+    "task_id": "TODO-546",
+    "title": "Confirm Blick Art Materials receipt matches TXN-6025 — file with Greenfield project folder",
+    "description": "TXN-6025 ($94.00, Blick Art Materials, 2026-03-06) is the authoritative record for the supply purchase. Physical receipt should be scanned and filed under Greenfield Press Spring 2026 project folder. Verify receipt total matches $94.00 exactly before closing.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-03-14",
+    "tags": [
+      "greenfield-press",
+      "supplies",
+      "receipts",
+      "bookkeeping"
+    ],
+    "created_at": "2026-03-08T11:00:00-08:00"
+  },
+  {
+    "task_id": "TODO-547",
+    "title": "Reply to Dana Whitfield — confirm Greenfield Press May 12 deadline on track",
+    "description": "Dana emailed 2026-03-27 requesting deadline confirmation for all 3 cover variation finals (due 2026-05-12). Also asked for resend of invoice INV-2024-09 ($2,100). Must reply and attach invoice.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-31",
+    "tags": [
+      "greenfield-press",
+      "deadline",
+      "invoice",
+      "client-reply"
+    ],
+    "created_at": "2026-03-29T10:15:00-07:00"
+  },
+  {
+    "task_id": "TODO-548",
+    "title": "Follow up on 4 overdue invoices > 30 days (~$8,400 total)",
+    "description": "Outstanding invoices: INV-2025-11 Harlow & Vane $1,950 (32 days), INV-2024-09 Greenfield Press $2,100 (resend requested), plus two additional invoices totaling ~$4,350. Send payment reminders or make calls. Block time on Monday admin.",
+    "status": "in_progress",
+    "priority": "high",
+    "due_date": "2026-03-31",
+    "tags": [
+      "invoices",
+      "overdue",
+      "admin",
+      "cash-flow"
+    ],
+    "created_at": "2026-03-29T10:20:00-07:00"
+  },
+  {
+    "task_id": "TODO-549",
+    "title": "Reply to Harbor Press — confirm April 18 finals window and flag invoice INV-2025-12",
+    "description": "Derek Lam (Harbor Press) emailed 2026-03-29 with two items: (1) revised finals window April 18 — needs confirmation; (2) invoice INV-2025-12 $2,400 unpaid since Feb 1. Reply confirming schedule and payment status. BLOCKED: need to check calendar for April 18 conflict with other commitments.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-01",
+    "tags": [
+      "harbor-press",
+      "deadline",
+      "invoice",
+      "blocked"
+    ],
+    "created_at": "2026-03-29T10:30:00-07:00"
+  },
+  {
+    "task_id": "TODO-550",
+    "title": "Reply to Rosa Santos — Coastline Quarterly April spot illo color palette",
+    "description": "Rosa asked about shifting background tone to warmer ochre for April spot illustration. Low urgency — not a hard requirement. Reply when convenient, no hard deadline stated.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-02",
+    "tags": [
+      "coastline-quarterly",
+      "client-reply",
+      "illustration"
+    ],
+    "created_at": "2026-03-29T10:35:00-07:00"
+  },
+  {
+    "task_id": "TODO-551",
+    "title": "Schedule Greenfield Press cover work blocks — V1, V2, V3 before May 12",
+    "description": "Three cover variations due May 12. Need to block dedicated work sessions for each variation on the calendar. V1 sketch block already added (EVT-331, Apr 1). Still need V2 and V3 blocks plus review/revision buffer. Cross-check against Harbor Press April 18 window.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-01",
+    "tags": [
+      "greenfield-press",
+      "scheduling",
+      "cover-art"
+    ],
+    "created_at": "2026-03-29T10:40:00-07:00"
+  },
+  {
+    "task_id": "TODO-552",
+    "title": "Draft May editorial calendar — 5 Facebook + 5 LinkedIn posts",
+    "description": "Mia's editorial calendar calls for 5 Facebook and 5 LinkedIn posts in May. Need to draft content plan, identify which projects/WIPs to feature, and schedule posts. Not urgent this week but should start outline before end of April.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-25",
+    "tags": [
+      "social-media",
+      "editorial-calendar",
+      "marketing"
+    ],
+    "created_at": "2026-03-29T10:45:00-07:00"
+  },
+  {
+    "task_id": "TODO-557",
+    "title": "Map Q2 tax dependency chain — identify blockers, parallel tracks, and critical path",
+    "description": "Full dependency map for Q2 estimated tax filing (due 2026-06-15, EVT-325):\n- Q2 income summary requires WB-1 + WB-2 reconciliation (TODO-544)\n- WB-1/WB-2 reconciliation blocked by keying errors → requires Greenfield reimbursement status (TODO-545, MSG-5052)\n- Greenfield reimbursement ($45, WB-1 Row 4) blocked until project formally closed (post May 12 finals delivery)\n- Overdue invoices (~$8,400 total) = parallel decision gate: must decide whether to count as Q2 taxable income\n- Unlogged deductible expenses: TXN-6025 Blick receipt (TODO-546), TXN-6019 shipping (TODO-527)\nParallel tracks: expense reconciliation + confirmed-invoice income tally can proceed while awaiting Greenfield reply.\nLow-risk assumption: $45 Greenfield reimbursement is small enough to estimate conservatively and unblock critical path.",
+    "status": "in_progress",
+    "priority": "high",
+    "due_date": "2026-04-07",
+    "tags": [
+      "tax",
+      "q2-estimate",
+      "dependency-map",
+      "critical-path"
+    ],
+    "created_at": "2026-04-07T10:05:00-07:00"
+  },
+  {
+    "task_id": "TODO-558",
+    "title": "Decide: count ~$8,400 overdue invoices as Q2 taxable income for estimate?",
+    "description": "Four invoices outstanding >30 days totaling ~$8,400. Must decide whether to include as received income in Q2 estimated tax calculation. Options:\n(A) Include all — conservative, avoids underpayment penalty risk\n(B) Exclude all — aggressive, may trigger underpayment if collected before June 15\n(C) Include only invoices with confirmed payment dates (e.g. Greenfield INV-2026-GP-01 ~$2,100 confirmed by Priya Nair MSG-5063 for ~Apr 24)\nThis is a parallel track — does NOT block WB-1/WB-2 expense reconciliation. Resolve by 2026-04-14 (EVT-339).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-14",
+    "tags": [
+      "tax",
+      "q2-estimate",
+      "overdue-invoices",
+      "income-decision"
+    ],
+    "created_at": "2026-04-07T10:30:00-07:00"
+  },
+  {
+    "task_id": "TODO-559",
+    "title": "Produce day-by-day Q2 tax action plan and log in NOTE-136",
+    "description": "Using the dependency map from TODO-557, produce a day-by-day action plan across available Tue–Sat working days from 2026-04-08 through 2026-06-13 (last working day before June 15 deadline). Assign each dependency step to a specific date with the relevant service action (sheet update, gmail follow-up, finance log entry, todo closure). Log completed plan and unresolved assumptions in NOTE-136 for reference during the actual filing block (EVT-323).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-08",
+    "tags": [
+      "tax",
+      "q2-estimate",
+      "action-plan",
+      "notes"
+    ],
+    "created_at": "2026-04-07T11:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-560",
+    "title": "Check Greenfield reimbursement reply — unblock WB-1 Row 4 or apply conservative estimate",
+    "description": "MSG-5052 sent to dana.whitfield@greenfieldpress.example requesting confirmation of $45 reimbursable supply expense (WB-1 Row 4). Dana's reply (MSG-5060) confirms reimbursement is tied to project close (post May 12). Decision: apply conservative estimate of $0 reimbursement for Q2 tax purposes to unblock WB-1 reconciliation critical path. Flag as low-risk assumption in NOTE-136. Revisit after Greenfield project close.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-08",
+    "tags": [
+      "greenfield",
+      "reimbursement",
+      "wb-1",
+      "tax",
+      "unblock"
+    ],
+    "created_at": "2026-04-07T11:15:00-07:00"
+  },
+  {
+    "task_id": "TODO-578",
+    "title": "HOLD — Do NOT proceed with Harlow & Vane onboarding until countersigned contract received",
+    "description": "Billing dept (billing@harlowandvane.example) sent vendor onboarding packet on 2026-03-05 implying contract is finalized. This is INCORRECT. Counter-proposal with redlined Section 7(b) rights clause was sent to contracts@harlowandvane.example on 2026-03-04 and no countersigned agreement has been returned. Per standing rule (NPAG-10): no onboarding, no work, no W-9 submission until a fully countersigned contract is in hand. Onboarding packet appears to have been auto-triggered by billing before contracts resolved the negotiation. Do not fill out W-9, ACH form, or any onboarding documents until rights clause is agreed and contract is countersigned.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-06",
+    "tags": [
+      "harlow-vane",
+      "contract",
+      "onboarding-hold",
+      "rights-clause",
+      "urgent"
+    ],
+    "created_at": "2026-03-05T11:00:00-08:00"
+  },
+  {
+    "task_id": "TODO-579",
+    "title": "Follow up with Harlow & Vane contracts on counter-proposal — rights clause (Section 7b)",
+    "description": "Sent redlined counter-proposal to contracts@harlowandvane.example on 2026-03-04 (MSG-5082). No response received as of 2026-03-05. Follow up to confirm they received the redline and get a timeline for their response. Remind them that onboarding cannot proceed and work cannot begin until a countersigned agreement is in place. Reference: NPAG-10 (standard contract rules), NPAG-2 (H&V client log).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-07",
+    "tags": [
+      "harlow-vane",
+      "contract",
+      "follow-up",
+      "negotiation"
+    ],
+    "created_at": "2026-03-05T11:15:00-08:00"
+  },
+  {
+    "task_id": "TODO-580",
+    "title": "Log Harlow & Vane onboarding conflict in Notion client log (NPAG-2)",
+    "description": "Document the billing/contracts department disconnect in the H&V Notion client log: billing sent premature onboarding packet same day as commission brief (2026-03-05); counter-proposal on rights clause still outstanding; no signed contract exists. Update client log status to 'Negotiation — Rights Clause Pending'. Cross-reference NOTE-149 conflict analysis.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-06",
+    "tags": [
+      "harlow-vane",
+      "notion",
+      "client-log",
+      "admin"
+    ],
+    "created_at": "2026-03-05T11:30:00-08:00"
+  },
+  {
+    "task_id": "TODO-581",
+    "title": "CONFIRM: Greenfield Press scope dispute — 3 vs 4 cover variations (RESOLVED pending call)",
+    "description": "Scope conflict between Obsidian risk notes (OBSN-1, OBSN-2), Notion contract log, and live email thread has been triaged. Dana Whitfield confirmed in MSG-5087 (2026-04-22) that contracted scope = 3 variations; 4th is optional add-on only. HOWEVER: formal resolution requires the 2026-04-24 call with Dana to confirm add-on terms (or decline). Until call is complete and outcome is logged in NPAG-14, this item remains open.\n\nAction required from Mia:\n1. Attend call 2026-04-24 11am PT (EVT-359)\n2. Decide on 4th variation add-on: accept (with amendment) or decline\n3. Log outcome in NPAG-14 and close this todo\n\nIf add-on accepted: draft contract amendment immediately — do not begin work without signed amendment.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-24",
+    "tags": [
+      "greenfield-press",
+      "scope-dispute",
+      "conflict-flag",
+      "needs-mia-confirmation"
+    ],
+    "created_at": "2026-04-22T16:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-582",
+    "title": "Monitor INV-2026-GP-02 ($2,800) — due 2026-05-01",
+    "description": "Greenfield Press Invoice #INV-2026-GP-02 for $2,800 was issued 2026-04-01 with net-30 terms. Due date: 2026-05-01. As of 2026-04-22 it is not yet overdue. INV-2026-GP-01 ($2,800) was paid 2026-04-21 (TXN-6036) — that outstanding item is now cleared.\n\nIf INV-2026-GP-02 is not paid by 2026-05-01, send payment reminder to Priya Nair (p.nair@greenfieldpress.example) and CC Dana Whitfield.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-01",
+    "tags": [
+      "greenfield-press",
+      "invoice",
+      "payment-tracking"
+    ],
+    "created_at": "2026-04-22T16:05:00-07:00"
+  },
+  {
+    "task_id": "TODO-583",
+    "title": "Consolidation cleanup — verify NPAG-1, NPAG-4, NPAG-9 are marked superseded in Notion",
+    "description": "As part of the Greenfield Press intelligence consolidation (2026-04-22), NPAG-14 was created as the canonical client log. The older duplicate/fragmented Notion pages NPAG-1, NPAG-4, and NPAG-9 should each have a deprecation notice added pointing to NPAG-14. Verify this was completed and that no stale data in those pages could cause future confusion.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-25",
+    "tags": [
+      "greenfield-press",
+      "notion-cleanup",
+      "consolidation"
+    ],
+    "created_at": "2026-04-22T16:10:00-07:00"
+  },
+  {
+    "task_id": "TODO-584",
+    "title": "Admin Monday: review all outstanding invoices > 30 days — update after GP-01 payment",
+    "description": "INV-2026-GP-01 ($2,800) from Greenfield Press was paid 2026-04-21, reducing the outstanding >30-day total. Previous estimate was ~$8,400 across 4 invoices. Recalculate current outstanding total on next Monday admin session and update the invoice tracker in WB-1. Confirm which of the remaining 3 invoices are still unpaid and whether any new ones have crossed the 30-day threshold.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-27",
+    "tags": [
+      "invoices",
+      "admin",
+      "finance-review"
+    ],
+    "created_at": "2026-04-22T16:15:00-07:00"
+  },
+  {
+    "task_id": "TODO-585",
+    "title": "Submit $57 reimbursement claim to Greenfield Press — clause 4b (ColorPhase invoice)",
+    "description": "Per audit in NOTE-153: GP clause 4b has $57.00 remaining headroom under the $200 per-project cap. Submit ColorPhase Supply Invoice #CP-2026-0341 line items (partial — up to $57) to Dana Whitfield before May 12 delivery deadline. Reference prior approval GP-REIMB-2026-003. Must be submitted BEFORE final cover delivery.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-25",
+    "tags": [
+      "reimbursement",
+      "greenfield-press",
+      "finance",
+      "supplies"
+    ],
+    "created_at": "2026-04-22T15:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-586",
+    "title": "Pay ColorPhase Supply Invoice #CP-2026-0341 — $273.50 via debit 4821 (corrected plan)",
+    "description": "After GP clause 4b claim ($57), remaining balance is $273.50. Pay via business debit card ending 4821. Due 2026-05-06. Do NOT wait on Harlow & Vane reimbursement — H&V contract is unsigned, clause 6.3 unenforceable. Do NOT apply Pressline credit — balance is $0. See NOTE-153 for full audit.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-01",
+    "tags": [
+      "payment",
+      "supplies",
+      "finance",
+      "colorphase"
+    ],
+    "created_at": "2026-04-22T15:05:00-07:00"
+  },
+  {
+    "task_id": "TODO-587",
+    "title": "BELIEF REVISION: Update H&V reimbursement assumption — clause NOT active until contract signed",
+    "description": "Working plan in NOTE-152 incorrectly assumed H&V onboarding Section 6.3 ($300 allowance) was claimable. Contract negotiation is still open — onboarding packet arrived prematurely. Update Notion client log for Harlow & Vane (NPAG-7) to flag that reimbursement clause is pending countersignature. Do not submit any expense claims to H&V until contract is countersigned.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-24",
+    "tags": [
+      "harlow-vane",
+      "contract",
+      "reimbursement",
+      "belief-revision"
+    ],
+    "created_at": "2026-04-22T15:10:00-07:00"
+  },
+  {
+    "task_id": "TODO-588",
+    "title": "Confirm Pressline Studio credit tranche date — note $0 balance until 2026-06-01",
+    "description": "Pressline credit balance is $0 as of 2026-04-20 (MSG-5091). Q2 tranche fully consumed on Greenfield Spring proof run. Next tranche ($200) arrives 2026-06-01. Update any open todos or notes that assumed Pressline credit was available for near-term supply expense offset. Flag in WB-7 finance tracker.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-25",
+    "tags": [
+      "pressline-studio",
+      "credit",
+      "finance",
+      "belief-revision"
+    ],
+    "created_at": "2026-04-22T15:15:00-07:00"
+  },
+  {
+    "task_id": "TODO-589",
+    "title": "Finalize & send Greenfield Press invoice INV-2026-GP-002 (capped reimbursement approach)",
+    "description": "Draft and send final invoice for Greenfield Press Spring 2026 project. Balance due: $2,250.00 + $57.00 FedEx reimbursement (capped per clause 4b). Flag $37.50 overage as GP-REIMB-2026-004-PENDING. Attach FedEx receipt (TXN-6019) and clause 4b contract excerpt. Must send by 2026-05-09 per AP requirement (MSG-5094). Decision rationale in NOTE-154.",
+    "status": "in_progress",
+    "priority": "high",
+    "due_date": "2026-04-22",
+    "tags": [
+      "greenfield",
+      "invoicing",
+      "reimbursement",
+      "finance"
+    ],
+    "created_at": "2026-04-22T10:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-590",
+    "title": "Follow up with Dana Whitfield — clause 4b cap confirmation by 2026-04-24",
+    "description": "Monitor for Dana's reply re: reimbursement cap adjustment (MSG-5093 sent 2026-04-22). If cap is raised or waived, send amended claim for $37.50 balance (GP-REIMB-2026-004-PENDING). If cap confirmed at $200, close the pending claim and note the $37.50 as unrecoverable. Check EVT-362 on 2026-04-24.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-24",
+    "tags": [
+      "greenfield",
+      "reimbursement",
+      "follow-up"
+    ],
+    "created_at": "2026-04-22T11:30:00-07:00"
+  },
+  {
+    "task_id": "TODO-591",
+    "title": "Update NPAG-14 — Greenfield Press canonical Notion log with invoice send event",
+    "description": "After INV-2026-GP-002 is sent, log the invoice send event in NPAG-14 (Greenfield Press canonical client log). Include invoice number, total, reimbursement line item detail, and GP-REIMB-2026-004-PENDING status. Reference NOTE-154 for decision rationale.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-22",
+    "tags": [
+      "greenfield",
+      "notion",
+      "admin",
+      "invoicing"
+    ],
+    "created_at": "2026-04-22T11:35:00-07:00"
+  },
+  {
+    "task_id": "TODO-592",
+    "title": "Reconcile WB-7 after Greenfield invoice send — mark GP-REIMB-2026-004 submitted",
+    "description": "Update Active Reimbursement Claims sheet (WB-7) after invoice send: set GP-REIMB-2026-004 status to 'invoiced', note $37.50 pending balance, and confirm running total against clause 4b cap ($143 paid + $57 invoiced = $200 cap reached). Flag if cap is later adjusted.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-22",
+    "tags": [
+      "greenfield",
+      "finance",
+      "sheet",
+      "reimbursement"
+    ],
+    "created_at": "2026-04-22T11:40:00-07:00"
+  },
+  {
+    "task_id": "TODO-593",
+    "title": "Submit GP clause 4b reimbursement receipts via portal — April restock",
+    "description": "Blick order receipts for Arches paper, W&N brushes, and Holbein gouache submitted 2026-04-22 via Greenfield Press supplier portal. Total claim: $145.80. Remaining clause 4b cap after claim: $6.70. Follow up with Dana Whitfield if no approval confirmation within 10 business days (by 2026-05-06).",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-06",
+    "tags": [
+      "reimbursement",
+      "greenfield-press",
+      "supplies",
+      "clause-4b"
+    ],
+    "created_at": "2026-04-22T16:00:00-07:00"
+  },
+  {
+    "task_id": "TODO-594",
+    "title": "H&V section 6.3 reimbursement — hold on Procreate Lettering Brushes ($38) until countersigned contract confirmed",
+    "description": "Procreate Lettering Brush Collection Vol. 3 purchased 2026-04-22 from Artboard Collective ($38.00, TXN-6046). Potentially claimable under Harlow & Vane section 6.3 once countersigned contract is in place. DO NOT submit claim until countersigned copy confirmed in hand. Check H&V contract status — if signed, submit claim immediately (30-day receipt window from purchase date, deadline 2026-05-22).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-22",
+    "tags": [
+      "reimbursement",
+      "harlow-and-vane",
+      "supplies",
+      "contract-dependency"
+    ],
+    "created_at": "2026-04-22T16:05:00-07:00"
+  },
+  {
+    "task_id": "TODO-595",
+    "title": "Log April restock transactions in WB-1 expense sheet (cross-reference WB-9)",
+    "description": "Three transactions logged in WB-9 (Supply Restock & Vendor Allocation Log): TXN-6045 (Blick $133.74), TXN-6046 (AC $88.00), TXN-6047 (Envato $16.20). Mirror these entries in WB-1 (Business Expenses 2026) under April operating expenses. Tag GP-reimbursable items appropriately for Q2 tax estimate workbook (WB-3).",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-25",
+    "tags": [
+      "bookkeeping",
+      "expenses",
+      "supplies",
+      "wb-1",
+      "wb-9"
+    ],
+    "created_at": "2026-04-22T16:10:00-07:00"
+  },
+  {
+    "task_id": "TODO-596",
+    "title": "Verify Blick BLICK-APR20 voucher applied correctly at checkout — confirm receipt shows $8 deduction",
+    "description": "Blick order placed 2026-04-22. Voucher BLICK-APR20 should appear as a line-item deduction on the receipt PDF. Check receipt at receipts/2026/04/blick-order-2026-04-22.pdf. If voucher was not applied, contact Blick customer service for post-purchase credit before 2026-04-30 (voucher expiry).",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-24",
+    "tags": [
+      "supplies",
+      "blick",
+      "voucher-verification"
+    ],
+    "created_at": "2026-04-22T16:15:00-07:00"
+  }
+]

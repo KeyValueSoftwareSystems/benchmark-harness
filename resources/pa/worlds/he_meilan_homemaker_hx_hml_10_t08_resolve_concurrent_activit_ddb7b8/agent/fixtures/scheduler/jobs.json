@@ -1,0 +1,101 @@
+[
+  {
+    "job_id": "JOB-701",
+    "name": "weekly_meal_planning_reminder",
+    "description": "Weekly reminder to plan family meals",
+    "cron_expression": "0 9 * * 0",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_notification",
+    "created_by": "He Meilan",
+    "tags": [
+      "family",
+      "meal_planning"
+    ],
+    "notes": "Decided not needed after all",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-702",
+    "name": "weekly_family_reminder",
+    "description": "Weekly reminder for family activities planning",
+    "cron_expression": "0 20 * * 0",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_reminder",
+    "created_by": "He Meilan",
+    "tags": [
+      "family",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Decided not needed",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-703",
+    "name": "weekly_meal_plan_reminder",
+    "description": "Weekly reminder to plan family meals for the upcoming week",
+    "cron_expression": "0 20 * * 0",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_meal_plan_reminder",
+    "created_by": "He Meilan",
+    "tags": [
+      "family",
+      "meal_planning",
+      "weekly"
+    ],
+    "notes": "Decided not needed - already have routine",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-704",
+    "name": "weekly_meal_plan_reminder",
+    "description": "Weekly reminder to plan family meals for the week",
+    "cron_expression": "0 20 * * 0",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_reminder_notification",
+    "created_by": "He Meilan",
+    "tags": [
+      "family",
+      "meal_planning",
+      "reminder"
+    ],
+    "notes": "Decided to handle meal planning more flexibly without a fixed schedule",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-705",
+    "name": "weekly_meal_planning_reminder",
+    "description": "Remind to plan weekly family meals every Sunday evening",
+    "cron_expression": "0 19 * * 0",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_reminder",
+    "created_by": "He Meilan",
+    "tags": [
+      "family",
+      "meal",
+      "weekly"
+    ],
+    "notes": "Decided to handle meal planning more flexibly without fixed reminder",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  }
+]

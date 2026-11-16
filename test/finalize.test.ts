@@ -173,3 +173,11 @@ test("a file write that keeps failing surfaces the error but keeps the SQLite ro
 	await assert.rejects(finalizeRun(deps, job, { status: "done" }, { waitMs: 0, writeDelayMs: 1 }), /disk full/);
 	assert.equal(listRuns(db, {}).length, 1);
 });
+
+test("the run records the trial from the job's params; a job without one is trial 1", async () => {
+	const { db, deps } = setup({ outcome: { correct: true }, metrics });
+	await finalizeRun(deps, { ...job, id: "t3", params: { challenge: "locktalk", trial: "3" } }, { status: "done" }, { waitMs: 0 });
+	await finalizeRun(deps, { ...job, id: "t0" }, { status: "done" }, { waitMs: 0 });
+	const trials = Object.fromEntries(listRuns(db, {}).map((r) => [r.jobId, r.trial]));
+	assert.deepEqual(trials, { t3: 3, t0: 1 });
+});

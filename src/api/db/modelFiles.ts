@@ -2,6 +2,7 @@ import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { ModelFile, RunRecord } from "../../shared/results.ts";
 import { slug } from "../../shared/results.ts";
+import { FIRST_TRIAL } from "../trials.ts";
 
 const filePath = (dir: string, benchmark: string, model: string) => path.join(dir, slug(benchmark), `${slug(model)}.json`);
 
@@ -14,7 +15,7 @@ function serialized<T>(file: string, task: () => Promise<T>): Promise<T> {
 }
 
 /** Entries written before a field existed get its default, so they compare equal to the SQLite row. */
-const withDefaults = (run: RunRecord): RunRecord => ({ ...run, assistant: run.assistant ?? null });
+const withDefaults = (run: RunRecord): RunRecord => ({ ...run, trial: run.trial ?? FIRST_TRIAL, assistant: run.assistant ?? null });
 
 export async function readModelFile(dir: string, benchmark: string, model: string): Promise<ModelFile | undefined> {
 	try {

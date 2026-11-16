@@ -1,6 +1,7 @@
 import type { DatabaseSync } from "node:sqlite";
 import type { ResultPayload, RunRecord } from "../shared/results.ts";
-import type { Job } from "../shared/types.ts";
+import { type Job, JobParam } from "../shared/types.ts";
+import { trialOf } from "./trials.ts";
 import type { AgentOutcome, Benchmark, RunScore } from "./benchmarks/types.ts";
 import { upsertRunInFile } from "./db/modelFiles.ts";
 import { upsertRun } from "./db/runs.ts";
@@ -59,8 +60,9 @@ export async function finalizeRun(
 		benchmark: job.benchmark,
 		model: job.model,
 		modelId: deps.modelIdFor(job.model),
-		challenge: job.params?.challenge ?? null,
-		assistant: job.params?.assistant ?? null,
+		challenge: job.params?.[JobParam.challenge] ?? null,
+		trial: trialOf(job.params),
+		assistant: job.params?.[JobParam.assistant] ?? null,
 		status: outcome.status,
 		correct: typeof reported?.correct === "boolean" ? reported.correct : null,
 		outcome: reported,

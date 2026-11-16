@@ -12,7 +12,7 @@ const NARRATIVE_TIMEOUT_MS = 60_000;
 export function narrateWithModel(model: ModelConfig): Narrator {
 	return async (metrics: ModelMetrics[]) => {
 		try {
-			const text = await chat(
+			const { text } = await chat(
 				model,
 				[
 					{ role: "system", content: "You write 3-4 plain sentences summarising benchmark results for engineers. Use only the numbers given. Never invent figures." },

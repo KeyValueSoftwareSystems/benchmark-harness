@@ -7,22 +7,34 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { readModelFile } from "../../api/db/modelFiles.ts";
 import { slug } from "../../shared/results.ts";
+import { loadSelection } from "../../pa/selection.ts";
 import { computePaReportData, loadCalibration, type PaReportData } from "./metrics.ts";
 import { renderPaReport } from "./render.ts";
 
 export interface PaGenerateArgs {
 	model: string;
 	assistants: string[];
+	/** Name of a file in `<resourcesDir>/pa/selections`; limits the report to that selection's worlds. */
+	selectionName?: string;
 	resultsDir: string;
 	reportsDir: string;
 	resourcesDir: string;
+}
+
+async function loadNamedSelection(name: string, resourcesDir: string) {
+	try {
+		return await loadSelection(name, path.join(resourcesDir, "pa", "selections"));
+	} catch (err) {
+		throw new Error(`selection "${name}" could not be loaded: ${err instanceof Error ? err.message : err}`);
+	}
 }
 
 export async function generatePaReport(args: PaGenerateArgs): Promise<{ id: string; htmlPath: string; jsonPath: string }> {
 	const file = await readModelFile(args.resultsDir, "pa", args.model);
 	if (!file?.runs.length) throw new Error(`no PA results for model "${args.model}"`);
 
-	const data = computePaReportData(file, args.assistants);
+	const selection = args.selectionName ? await loadNamedSelection(args.selectionName, args.resourcesDir) : null;
+	const data = computePaReportData(file, args.assistants, selection);
 	data.calibration = await loadCalibration(args.resourcesDir);
 
 	const id = `pa-${slug(args.model)}-${new Date().toISOString().replace(/[-:.TZ]/g, "").slice(0, 14)}-${randomUUID().slice(0, 4)}`;
@@ -43,6 +55,7 @@ export async function generatePaReport(args: PaGenerateArgs): Promise<{ id: stri
 				assistants: data.assistants,
 				allWorlds: data.allWorlds,
 				allCategories: data.allCategories,
+				selection: data.selection,
 				calibration: data.calibration,
 				conditions: data.conditions,
 				runWindow: data.runWindow,

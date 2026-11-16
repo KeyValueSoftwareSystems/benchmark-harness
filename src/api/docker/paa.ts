@@ -7,6 +7,7 @@
 
 import { randomBytes } from "node:crypto";
 import { execFile } from "node:child_process";
+import { readFile } from "node:fs/promises";
 import { promisify } from "node:util";
 import { fetch } from "undici";
 import type { AgentOutcome, JobContext } from "../benchmarks/types.ts";
@@ -23,6 +24,7 @@ import {
 	type PaaProfile,
 	type ToolCallRecord,
 } from "../../pa/constants.ts";
+import { withScenarioClock } from "../../pa/scenario-clock.ts";
 import { keys } from "../queue/store.ts";
 import { redis } from "../redis.ts";
 import { proxyBaseUrl } from "../routes/llm.ts";
@@ -80,17 +82,28 @@ async function poll(check: () => Promise<boolean>, intervalMs: number, ctx: JobC
 	}
 }
 
+/** Writes `text` to `dest` inside the container, reading it from stdin. */
+async function writeContainerFile(name: string, dest: string, text: string): Promise<void> {
+	const write = promisify(execFile)("docker", ["exec", "-i", name, "sh", "-c", 'cat > "$1"', "sh", dest]);
+	write.child.stdin?.end(text);
+	await write;
+}
+
 /**
- * Streams the world's `world.yaml` and `agent/` (never `grading.yaml`) into the
- * container's scratch directory, then marks it ready for the entrypoint.
+ * Streams the world's `agent/` (never `grading.yaml`) and a normalized `world.yaml`
+ * into the container's scratch directory, then marks it ready for the entrypoint.
  * `docker cp` can't write to a container with a read-only root filesystem.
  */
 async function copyWorld(hostWorldDir: string, name: string, scratchDir: string): Promise<void> {
+	const worldDir = `${scratchDir}/world`;
+	const worldYaml = withScenarioClock(await readFile(`${hostWorldDir}/world.yaml`, "utf8"));
 	await promisify(execFile)("bash", [
 		"-o", "pipefail", "-c",
-		`tar -C "$1" -cf - agent world.yaml | docker exec -i "$2" sh -c 'mkdir -p "$1" && tar -x -C "$1"' sh "$3" && docker exec "$2" touch "$3/.ready"`,
-		"copy-world", hostWorldDir, name, `${scratchDir}/world`,
+		`tar -C "$1" -cf - agent | docker exec -i "$2" sh -c 'mkdir -p "$1" && tar -x -C "$1"' sh "$3"`,
+		"copy-agent", hostWorldDir, name, worldDir,
 	]);
+	await writeContainerFile(name, `${worldDir}/world.yaml`, worldYaml);
+	await docker("exec", name, "touch", `${worldDir}/.ready`);
 }
 
 /**

@@ -1,0 +1,979 @@
+[
+  {
+    "page_id": "NPAG-1",
+    "title": "Client Log — Greenfield Press",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "status": "active",
+      "relationship_since": "2024-03",
+      "primary_contact": "Dana Whitfield",
+      "contract_history": [
+        "2024 Fall Literary Fiction Covers (3 titles)",
+        "2025 Spring Literary Fiction Covers (2 titles)"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Standing Contract Terms — Agreed Deviations"
+      },
+      {
+        "type": "paragraph",
+        "text": "No previously agreed deviations from Mia's standard terms on file. Both prior contracts (2024 fall, 2025 spring) were executed under standard terms including the two-round revision cap."
+      },
+      {
+        "type": "heading_2",
+        "text": "Active Project: Spring 2026 — Three Cover Variations"
+      },
+      {
+        "type": "paragraph",
+        "text": "Project: 3 cover illustration variations for Spring 2026 literary fiction line. Deadline: 2026-05-12. Payment: 50% deposit on signing, 50% on delivery. Contract status: PENDING — revision clause conflict flagged 2026-04-23, countersign intercepted."
+      },
+      {
+        "type": "heading_2",
+        "text": "Relationship Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reliable payer — both prior invoices settled within 21 days. Art director (Priya Nair) gives clear briefs. Revision requests on prior projects: 1 round each (well within cap). Low revision-abuse risk historically, but new contract language is a hard red-line regardless."
+      }
+    ],
+    "archived": false,
+    "created_at": "2024-03-10T10:00:00-07:00",
+    "last_updated": "2026-04-23T14:00:00-07:00"
+  },
+  {
+    "page_id": "NPAG-2",
+    "title": "Standard Contract Rules — Mia Lee Illustration LLC",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Mia Lee",
+      "type": "business_rules",
+      "last_reviewed": "2026-01-10"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Revision Cap Rule (constraint_A)"
+      },
+      {
+        "type": "paragraph",
+        "text": "All contracts must cap client revisions at two (2) rounds per project stage (e.g., sketch stage, color stage, final stage). Any revision request beyond the two-round cap triggers a mandatory change-order fee billed at $150/hour. No exceptions without written sign-off from Mia. Contracts that include unlimited revision language or omit a revision cap entirely are a hard red-line and must not be signed as presented."
+      },
+      {
+        "type": "heading_2",
+        "text": "50% Deposit Rule"
+      },
+      {
+        "type": "paragraph",
+        "text": "All new project contracts require a 50% deposit paid before work begins. Deposit is non-refundable after sketch approval."
+      },
+      {
+        "type": "heading_2",
+        "text": "Change-Order Fee Trigger"
+      },
+      {
+        "type": "paragraph",
+        "text": "Scope changes beyond the agreed deliverables list, additional revision rounds beyond the cap, or deadline compression requests after contract signing all trigger a change-order. Change-orders must be documented in writing and signed by both parties before additional work proceeds."
+      },
+      {
+        "type": "heading_2",
+        "text": "Kill Fee"
+      },
+      {
+        "type": "paragraph",
+        "text": "If a project is cancelled by the client after sketch approval, a 25% kill fee applies on the remaining balance."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-01-10T10:00:00-07:00",
+    "last_updated": "2026-01-10T10:00:00-07:00"
+  },
+  {
+    "page_id": "NPAG-3",
+    "title": "Client Log — Pressline Studio",
+    "parent_page_id": "NPAG-1",
+    "database_id": null,
+    "properties": {
+      "client_type": "vendor/fulfillment-partner",
+      "status": "active-negotiation",
+      "contact": "Marco Reyes",
+      "first_contact_date": "2026-03-31"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Pressline Studio — Print Fulfillment Partner"
+      },
+      {
+        "type": "paragraph",
+        "text": "First contact: 2026-03-31 via inbound offer email. Vendor offers giclée print-on-demand credits in bulk discount tiers. Offer expiry: 2026-04-30."
+      },
+      {
+        "type": "heading_3",
+        "text": "Staged Purchase Plan (logged 2026-04-02)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tranche 1: Tier 1 — 20 credits × $18.00 = $360.00. Executed 2026-04-02. April discretionary spend post-purchase: $694/$750 (cap not breached)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Tranche 2 (contingency): Tier 2 (40 credits × $16.00 = $640) was assessed for feasibility within offer window. Conclusion: NOT feasible in April without breaching $750 monthly cap. Offer expires April 30 — no May window available. Tranche 2 deferred; monitor for future Pressline promotional offers."
+      },
+      {
+        "type": "paragraph",
+        "text": "Greenfield Press 50% deposit ($1,600, expected ~2026-04-08) does not free up April discretionary headroom — cap is monthly spend-based, not cash-flow-based."
+      },
+      {
+        "type": "heading_3",
+        "text": "Follow-Up Items"
+      },
+      {
+        "type": "paragraph",
+        "text": "• TODO-515: Monitor for next Pressline promotional offer window — target Tier 3+ in future cycle.\n• Confirm first print order quality before scaling credit purchases."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-02T13:00:00-07:00",
+    "last_updated": "2026-04-02T13:30:00-07:00"
+  },
+  {
+    "page_id": "NPAG-4",
+    "title": "Client Log — Greenfield Press",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "status": "active — risk flag",
+      "primary_contact": "Dana Whitfield (dana.whitfield@greenfieldpress.example)",
+      "secondary_contact": "Priya Nair (p.nair@greenfieldpress.example)",
+      "active_project": "Spring 2026 — 3 Cover Variations",
+      "hard_deadline": "2026-05-12",
+      "contract_status": "countersigned",
+      "deposit_status": "cleared — TXN-6013 — $1,600",
+      "remaining_balance": "$1,600",
+      "risk_level": "medium — payment warning flagged"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Project: Spring 2026 — 3 Cover Variations"
+      },
+      {
+        "type": "paragraph",
+        "text": "Commission for three editorial cover variations. Contract countersigned ~2026-03-18. Deposit of $1,600 cleared ~2026-03-20 (TXN-6013). Sketch thumbnails in progress (TODO-513). Hard deadline: 2026-05-12 (EVT-309). Remaining balance: $1,600 due on final delivery."
+      },
+      {
+        "type": "heading_2",
+        "text": "⚠️ RISK FLAG — 2026-03-24 — Payment Warning (Illustrators Alliance)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Source: Illustrators Alliance April Roundup newsletter (MSG-5027), received 2026-03-20, read 2026-03-24."
+      },
+      {
+        "type": "paragraph",
+        "text": "Warning summary: Two Alliance members independently reported Greenfield Press for delayed or missing final payments on editorial cover commissions (late 2025 / early 2026). One report: $1,200 outstanding 90+ days, no response to follow-ups. Second report: $950 final payment arrived only after escalation to accounts payable director, four months post-delivery. Submitted by Nadia Roth (CON-203, member since 2019); corroborated by one anonymous member."
+      },
+      {
+        "type": "paragraph",
+        "text": "Credibility assessment: Medium-high. Established trade association source, multiple corroborating reports. However, reports are second-hand with no supporting documentation. Alliance inquiry to Greenfield Press unanswered as of newsletter publication. Cannot be treated as confirmed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Adjustment action: Strategy B (Pivot with Protection) selected. Email sent to Dana Whitfield (MSG-5028) on 2026-03-24 requesting $800 interim milestone payment at sketch-approval stage, framed as standard project-management practice. Mia reviewed and confirmed send."
+      },
+      {
+        "type": "paragraph",
+        "text": "Pending: Dana Whitfield response to interim payment request. Do not advance from sketches to finals until resolved. Monitor via TODO-522. Calendar reminder: EVT-311 (2026-03-28)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Payment History"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-03-20: Deposit $1,600 received — TXN-6013 (cleared on schedule — positive signal).\nRemaining: $1,600 — due on final delivery per original contract terms (subject to interim milestone amendment pending Dana's response)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contract Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Unlimited revision clause flagged and resolved prior to countersigning (see contracts note). Two-round revision cap confirmed in final signed version."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-10T10:00:00-07:00",
+    "last_updated": "2026-03-24T15:30:00-07:00"
+  },
+  {
+    "page_id": "NPAG-5",
+    "title": "Standard Contract Rules — Mia Lee Illustration LLC",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Mia Lee",
+      "last_reviewed": "2026-03-01",
+      "status": "active"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Standard Contract Rules — Mia Lee Illustration LLC"
+      },
+      {
+        "type": "paragraph",
+        "text": "These rules are NON-NEGOTIABLE and apply to all new client contracts. Any incoming contract that violates a hard rule must be counter-proposed or declined before signing. Last reviewed: March 2026."
+      },
+      {
+        "type": "heading_2",
+        "text": "HARD RULES (Non-Negotiable)"
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "RULE H-1 — 50% UPFRONT DEPOSIT: All commissions require a 50% deposit of the total agreed fee paid before any work commences (including sketches). No exceptions. Full payment-on-delivery contracts are not acceptable."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "RULE H-2 — 3-STAGE GATE STRUCTURE: All illustration work proceeds through three mandatory approval gates: (1) Rough Sketch Approval — client approves direction before rendering begins; (2) Refined Sketch / Comp Review — client approves composition and detail before finals; (3) Final Delivery — client accepts finished art. Revisions are scoped to each stage. No stage may be skipped. Unlimited open-ended revision rights are not acceptable."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "RULE H-3 — KILL FEE MINIMUM 25%: If a project is cancelled after commencement, the kill fee must be no less than 25% of the total contracted fee (not the remaining unpaid balance). Kill fees below this threshold are not acceptable."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "RULE H-4 — PAYMENT TERMS MAX 30 DAYS: Final balance payment must be due within 30 days of final delivery acceptance. Net-60 or longer terms are not acceptable without a premium rate adjustment."
+      },
+      {
+        "type": "heading_2",
+        "text": "SOFT RULES (Standard Terms — Negotiable with Justification)"
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "SOFT S-1 — PORTFOLIO DISPLAY RIGHTS: Mia Lee retains the right to display commissioned work in her portfolio (print and digital) and on social media for self-promotion purposes. Contracts that restrict portfolio display rights should be counter-proposed to include a standard portfolio clause. Acceptable to waive only for high-value confidential projects with a rate premium."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "SOFT S-2 — CREDIT LINE FORMAT: Standard credit line is 'Illustrations © Mia Lee / Mia Lee Illustration LLC'. Credit as 'Illustrations by Mia Lee' (without copyright symbol or LLC attribution) is acceptable for editorial interiors but should be flagged and negotiated where possible."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "SOFT S-3 — IP LICENSING SCOPE: Mia Lee's standard terms grant non-exclusive rights for the specific commissioned use (e.g., book interior, one edition). Worldwide perpetual exclusive rights, merchandise rights, and derivative works rights require a separate licensing fee or rate uplift of at least 30%. Full IP assignment (work-for-hire) is acceptable only at a significant rate premium."
+      },
+      {
+        "type": "bulleted_list_item",
+        "text": "SOFT S-4 — DERIVATIVE WORKS: Publisher rights to create derivative works from commissioned illustrations (e.g., merchandise, adaptations) must be separately negotiated and compensated. Blanket derivative works rights in a base commission contract should be flagged."
+      },
+      {
+        "type": "heading_2",
+        "text": "Response Protocol"
+      },
+      {
+        "type": "paragraph",
+        "text": "If any HARD RULE is violated: do not sign. Issue a redline counter-proposal addressing all hard conflicts. If client refuses to negotiate hard rules, decline the contract."
+      },
+      {
+        "type": "paragraph",
+        "text": "If only SOFT RULES are at issue: negotiate in good faith. Document all deviations from standard terms in the client log."
+      },
+      {
+        "type": "paragraph",
+        "text": "Response window: aim to return counter-proposals within 48 hours of receiving an incoming contract."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-20T10:00:00-08:00",
+    "last_updated": "2026-03-01T11:30:00-08:00"
+  },
+  {
+    "page_id": "NPAG-6",
+    "title": "Client Log — Meridian Magazine",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Meridian Magazine",
+      "relationship_start": "2022-03",
+      "status": "active_recurring",
+      "tier": "anchor",
+      "annual_value_est": "$9,600",
+      "primary_contact": "Tara Voss",
+      "contact_email": "submissions@meridianmagazine.example"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Relationship Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Recurring quarterly editorial illustration slot since March 2022. 4-year active relationship. Mia holds the primary illustration spot for Meridian's feature editorial pages. Fee: $800 per full-page editorial illustration per quarter. Reliable payer — net-30, zero late payment history. Has referred two other clients to Mia Lee Illustration LLC."
+      },
+      {
+        "type": "heading_2",
+        "text": "Active Commission — March 2026 Issue"
+      },
+      {
+        "type": "paragraph",
+        "text": "Assignment: 'Rooftop Commons — Urban Renewal Through Community Space' — 1 full-page editorial illustration for March print issue. Format: 2550x3300px, 300dpi, CMYK. Delivery deadline: 2026-02-24 by 5:00 PM PT — HARD LOCK. Layout team locks pages 2026-02-25 at 9am. Press date: 2026-02-26. ⚠️ CONFLICT ACTIVE: Harbor Press revised deadline (2026-02-25 noon) overlaps this delivery window. Resolution in progress — see NOTE-123."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contract Terms"
+      },
+      {
+        "type": "paragraph",
+        "text": "Standard Meridian editorial agreement. 2-round revision cap. §4.2 late-delivery penalty: 15% fee reduction per delayed issue cycle (~$120 on current commission). Kill fee: 25% of commission if cancelled after brief delivery. No exclusivity clause. Downstream cascade: layout lock → press → printer plates → rack date ~March 9. Zero schedule buffer exists once layout lock is called."
+      },
+      {
+        "type": "heading_2",
+        "text": "Commitment History"
+      },
+      {
+        "type": "paragraph",
+        "text": "Q1 2026 (March issue): in progress — deadline 2026-02-24. Q4 2025 (December issue): delivered on time. Q3 2025 (September issue): delivered on time. Q2 2025 (June issue): delivered on time. Zero missed deadlines in full 4-year history. Relationship risk if deadline missed: HIGH — anchor client trust damage is disproportionate to the $120 penalty figure."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-15T10:00:00-08:00",
+    "last_updated": "2026-02-16T11:30:00-08:00"
+  },
+  {
+    "page_id": "NPAG-7",
+    "title": "Client Log — Harbor Press Books",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Harbor Press Books",
+      "relationship_start": "2026-02",
+      "status": "active_new",
+      "tier": "new",
+      "annual_value_est": "$3,600",
+      "primary_contact": "Derek Lam",
+      "contact_email": "art.director@harborpressbooks.example"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Relationship Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "New client — first commission Spring 2026. Cover art for 'The Salt Margin' by Elena Vasquez. Referred via Nadia Roth (Illustrators Alliance). No prior payment history with Mia Lee Illustration LLC. High portfolio upside if relationship develops; no accumulated goodwill yet."
+      },
+      {
+        "type": "heading_2",
+        "text": "Active Commission — Spring 2026 Cover"
+      },
+      {
+        "type": "paragraph",
+        "text": "Original scope confirmed 2026-02-15: 1 front cover + 2 alt color variations. Fee: $3,200 total. 50% deposit ($1,600) received on contract signing. Original delivery deadline: 2026-02-28 EOD. SCOPE EXPANSION received 2026-02-16: add half-page spot illustration (chapter header, same palette); revised deadline 2026-02-25 noon PT; +$400 for spot illo — revised total $3,600. ⚠️ CONFLICT: Feb 25 deadline collides directly with Meridian Magazine deadline window (Feb 23–26). Extension request to Feb 27 EOD in progress — see NOTE-123 and NOTE-124."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contract Terms"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cover commission agreement. 3-round revision cap. Late-delivery clause: 10% fee reduction per 5-business-day delay (~$360 per tranche on revised $3,600 total). No confirmed kill fee clause. Downstream cascade: Mia delivery → Harbor production review → printer handoff Feb 27 → Spring release window mid-March."
+      },
+      {
+        "type": "heading_2",
+        "text": "Negotiation Leverage"
+      },
+      {
+        "type": "paragraph",
+        "text": "Scope expansion was client-initiated (Harbor Press printer rescheduling — not Mia's fault). This is clean leverage for a 2-day extension request. A Feb 27 EOD delivery still gives Harbor 2 full days before their stated printer handoff, making the ask defensible without damaging the new relationship."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-15T14:00:00-08:00",
+    "last_updated": "2026-02-16T14:30:00-08:00"
+  },
+  {
+    "page_id": "NPAG-8",
+    "title": "Client Log — Coastline Quarterly",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Coastline Quarterly",
+      "status": "prospective",
+      "art_director": "Rosa Santos",
+      "email": "r.santos@coastlinequarterly.example",
+      "first_contact": "2026-04-07",
+      "industry": "editorial / independent magazine"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Independent editorial magazine based in San Francisco. Art director Rosa Santos reached out in early April 2026 regarding a Q2 cover illustration slot. First engagement — no prior work history."
+      },
+      {
+        "type": "heading_2",
+        "text": "Q2 Cover Brief — Initial Call (Apr 15, 2026)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Theme: 'Coastal Futures' (climate, community, identity). Format: 8.5x11 portrait, full bleed, single illustration. Timeline: concept mid-May, final art June 1. Fee: $1,800 flat (50/50 split). Revision rounds: Rosa said 'a couple' — must confirm 2-round cap in contract."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contract Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "Draft contract expected week of Apr 20. Review against NPAG-2 (Standard Contract Rules) before signing. Watch for: deposit clause, revision cap, kill fee, usage rights scope."
+      },
+      {
+        "type": "heading_2",
+        "text": "Risk Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "New client — no payment history. Budget is on the lower end ($1,800). Ensure 50% deposit is locked in contract before any work begins. Timeline (final June 1) is tight but workable if Greenfield Press finals are delivered by May 12 as planned."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-15T15:10:00-07:00",
+    "last_updated": "2026-04-15T15:10:00-07:00"
+  },
+  {
+    "page_id": "NPAG-9",
+    "title": "Client Log — Greenfield Press",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "status": "active",
+      "primary_contact": "Dana Whitfield — dana.whitfield@greenfieldpress.example",
+      "secondary_contact": "Priya Nair — p.nair@greenfieldpress.example",
+      "contracts_contact": "contracts@greenfieldpress.example",
+      "relationship_since": "2023",
+      "current_project": "Spring 2026 Cover Commission — 3 variations",
+      "contract_status": "countersigned 2026-04-03",
+      "deposit_received": "$2,250 on 2026-04-01",
+      "balance_due": "$2,250 on delivery",
+      "delivery_deadline": "2026-05-12"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Project: Spring 2026 Cover Commission"
+      },
+      {
+        "type": "paragraph",
+        "text": "Scope (per signed contract, Exhibit A): Three (3) cover variations for the Greenfield Press Spring 2026 fiction series. Deliverables: print-ready layered files + web-optimized JPEGs for each cover. Revisions: up to two (2) rounds of revisions per cover included. Additional revisions billed at $150/hr."
+      },
+      {
+        "type": "paragraph",
+        "text": "Contract signed: 2026-04-03. Deposit ($2,250 / 50%) received: 2026-04-01. Balance ($2,250) due on delivery of approved finals."
+      },
+      {
+        "type": "heading_2",
+        "text": "Project Timeline"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-04-01: Deposit received, project kicked off.\n2026-04-28: Round 1 sketches delivered (all 3 covers).\n2026-04-29: Greenfield Press approved Round 1 sketches — no changes requested.\n2026-05-05: Tight sketches delivered.\n2026-05-09: ⚠️ SCOPE CHANGE REQUEST received from Dana Whitfield — 4th cover variation requested, framed as 'minor adjustment,' no additional fee offered. Contract does not cover this. See email MSG-5072.\n2026-05-12: HARD DEADLINE — 3 cover finals due."
+      },
+      {
+        "type": "heading_2",
+        "text": "Scope Change Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-05-09 — Dana Whitfield requested a 4th cover variation ('collector's edition' treatment of Cover 1, different color story, repositioned title lockup) via email. Framed as 'minor adjustment' with no mention of additional compensation. Requested same May 12 delivery date. Contract explicitly limits scope to 3 variations; any additions require written amendment signed by both parties. This is an uncompensated scope addition. Response pending — draft amendment to be prepared before any reply commits to additional work."
+      },
+      {
+        "type": "heading_2",
+        "text": "Prior Scope Accommodation History"
+      },
+      {
+        "type": "paragraph",
+        "text": "2024 Fall Commission: Dana requested a minor badge/seal element added to Cover 2 after contract signing. Mia absorbed this without pushback (~1.5 hrs unreimbursed). No amendment was executed.\n2025 Spring Commission: No scope additions requested. Clean delivery.\n2025 Fall Commission: Dana requested a color variant of Cover 1 for a digital-only edition. Mia flagged it as out of scope but ultimately delivered it at no charge to preserve the relationship (~3 hrs unreimbursed). No amendment was executed.\nPattern note: Two prior instances of informal scope absorption without compensation. This is the third request. Precedent risk is escalating."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contract Key Terms (Quick Reference)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Section 2 (Scope): Three (3) cover variations as defined in Exhibit A. No additional deliverables without written amendment.\nSection 4 (Payment): 50% deposit due before work begins; 50% balance due on delivery. Deposit is non-refundable.\nSection 5 (Revisions): Up to two (2) revision rounds per cover included. Additional rounds at $150/hr.\nSection 7 (Amendments): Any change to scope, timeline, or fee requires a written amendment countersigned by both parties before additional work commences.\nSection 9 (Delivery): Delivery deadline is 2026-05-12. Late delivery penalty waived if delay is caused by client-requested scope additions not covered by a signed amendment."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-20T10:00:00-08:00",
+    "last_updated": "2026-05-09T12:30:00-07:00"
+  },
+  {
+    "page_id": "NPAG-10",
+    "title": "Standard Contract Rules — Mia Lee Illustration LLC",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Mia Lee",
+      "type": "policy_reference",
+      "last_reviewed": "2026-02-15"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Non-Negotiable Rules (apply to all client contracts)"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. 50% deposit required before any work begins. No exceptions. Deposit is non-refundable once work commences.\n2. Scope is fixed at contract signing. Any additions — regardless of how they are framed by the client — require a written amendment with adjusted fee and timeline before additional work begins.\n3. Revision rounds are capped per contract. Additional rounds are billed at the hourly rate specified in the contract.\n4. Delivery deadlines are contingent on scope remaining as signed. Client-initiated scope additions automatically extend the delivery timeline unless the amendment explicitly waives the extension.\n5. No work on out-of-scope items until amendment is countersigned. Verbal or email agreements do not constitute amendments."
+      },
+      {
+        "type": "heading_2",
+        "text": "Scope Creep Response Protocol"
+      },
+      {
+        "type": "paragraph",
+        "text": "When a client requests additions after contract signing:\n1. Do not agree verbally or by email without a formal amendment.\n2. Acknowledge the request warmly and reference the contract scope.\n3. Prepare a written amendment with: (a) description of additional deliverable, (b) additional fee, (c) revised delivery timeline.\n4. Send amendment for countersignature before beginning any additional work.\n5. Log the request and response in the client's Notion log."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-15T10:00:00-08:00",
+    "last_updated": "2026-02-15T10:00:00-08:00"
+  },
+  {
+    "page_id": "NPAG-12",
+    "title": "Client Log — Harlow & Vane",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Harlow & Vane Publishing",
+      "status": "Negotiation — Rights Clause Pending",
+      "contact_contracts": "contracts@harlowandvane.example",
+      "contact_billing": "billing@harlowandvane.example",
+      "project": "Spring 2026 Editorial Cover Series (3 covers)",
+      "fee": "$4,200 total",
+      "contract_status": "UNSIGNED — counter-proposal outstanding"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Engagement Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Harlow & Vane approached Mia for a Spring 2026 Editorial Cover Series — 3 covers, $1,400 each, net-30. Commission brief received 2026-03-05 (MSG-5081)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contract Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "Draft contract v1 received 2026-03-03 (MSG-5083). Rights clause (Section 7b) unacceptable — all-rights perpetuity transfer including sub-licensing. Counter-proposal with redline sent 2026-03-04 (MSG-5082). NO countersigned agreement on file as of 2026-03-05."
+      },
+      {
+        "type": "heading_2",
+        "text": "⚠️ Onboarding Conflict — 2026-03-05"
+      },
+      {
+        "type": "paragraph",
+        "text": "Billing dept sent vendor onboarding packet (MSG-5080) on 2026-03-05 — same day as commission brief — implying contract is finalized. This is PREMATURE. Billing appears to have auto-triggered onboarding without confirmation from contracts that negotiation is resolved. Counter-proposal on rights clause is still outstanding. Per NPAG-10 (Standard Contract Rules): no onboarding, no work begins until countersigned contract is in hand. Onboarding packet is on HOLD."
+      },
+      {
+        "type": "heading_2",
+        "text": "Next Steps"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Follow up with contracts@harlowandvane.example re: redlined Section 7(b) — target response by 2026-03-07 (TODO-579).\n2. Do NOT submit W-9, ACH form, or any onboarding documents until countersigned contract received (TODO-578).\n3. Once rights clause agreed and contract countersigned, proceed with onboarding and schedule kickoff call."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-05T11:45:00-08:00",
+    "last_updated": "2026-03-05T11:45:00-08:00"
+  },
+  {
+    "page_id": "NPAG-13",
+    "title": "Standard Contract Rules — Mia Lee Illustration LLC (Amendment Log)",
+    "parent_page_id": "NPAG-10",
+    "database_id": null,
+    "properties": {
+      "owner": "Mia Lee",
+      "type": "policy_amendment_log",
+      "parent": "NPAG-10"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Amendment log for Standard Contract Rules (NPAG-10). Core rule reaffirmed 2026-03-05 following Harlow & Vane onboarding conflict: NO vendor onboarding forms (W-9, ACH, code of conduct, etc.) may be submitted and NO project work may begin until a fully countersigned contract is in Mia's possession. A billing department's onboarding packet does NOT constitute a signed agreement. The countersigned contract from the client's authorized signatory is the only acceptable gate-opener."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-05T12:00:00-08:00",
+    "last_updated": "2026-03-05T12:00:00-08:00"
+  },
+  {
+    "page_id": "NPAG-14",
+    "title": "Client Log — Greenfield Press (ACTIVE — canonical record as of 2026-04-22)",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "status": "active",
+      "primary_contact": "Dana Whitfield (dana.whitfield@greenfieldpress.example)",
+      "secondary_contact": "Priya Nair — AP (p.nair@greenfieldpress.example)",
+      "last_updated_by": "Mia Lee",
+      "canonical": true
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Contract State"
+      },
+      {
+        "type": "paragraph",
+        "text": "Active project: Spring 2026 Cover Series. Countersigned contract on file (executed 2026-03-05). Scope: 3 cover variations (A, B, C). Two rounds of revisions per variation. Revision clause: 2-round cap per Mia Lee Illustration LLC standard rules (NPAG-2). NOTE: Informal request for 4th 'dark palette' variation raised by Marcus (creative director) — NOT a contract obligation. Dana Whitfield confirmed in writing 2026-04-22 (MSG-5087) that contracted scope is 3 variations only; any 4th is optional add-on subject to separate agreement."
+      },
+      {
+        "type": "heading_2",
+        "text": "Payment Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "INV-2026-GP-01: $2,800.00 — PAID 2026-04-21 via ACH (TXN-6036). Ref: GP-ACH-20260421-001. Was overdue (issued 2026-03-10, net-30). Now cleared.\nINV-2026-GP-02: $2,800.00 — OUTSTANDING. Issued 2026-04-01, net-30. Due 2026-05-01. Not yet overdue as of 2026-04-22.\nINV-2026-GP-03: $1,400.00 — PENDING (to be issued on delivery of final files, 2026-05-12)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Delivery Timeline"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hard deadline: 2026-05-12 — 3 cover finals (A, B, C) due to Greenfield Press. Confirmed in contract and reiterated by Dana Whitfield (MSG-5087). WIP review checkpoint: call scheduled 2026-04-24 11am PT with Dana (EVT-359)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Open Disputes"
+      },
+      {
+        "type": "paragraph",
+        "text": "RESOLVED (2026-04-22): Scope dispute re 4th cover variation. Greenfield Press confirmed contracted scope = 3 variations. 4th variation is optional add-on only — to be discussed on 2026-04-24 call. No contract amendment required unless Mia agrees to add-on.\nRESOLVED (2026-04-21): INV-2026-GP-01 payment delay — now paid.\nNO CONFLICT: Revision clause — contract cap (2 rounds) is consistent with Mia's standard rules (NPAG-2). No dispute."
+      },
+      {
+        "type": "heading_2",
+        "text": "Next Actions"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Attend call 2026-04-24 with Dana — discuss optional 4th variation add-on terms (scope, fee, timeline impact).\n2. If add-on agreed: draft and execute contract amendment before proceeding.\n3. Monitor INV-2026-GP-02 ($2,800) — due 2026-05-01.\n4. Deliver 3 cover finals by 2026-05-12.\n5. Issue INV-2026-GP-03 ($1,400) on delivery."
+      },
+      {
+        "type": "heading_2",
+        "text": "Consolidation Note"
+      },
+      {
+        "type": "paragraph",
+        "text": "This page (NPAG-14) is the canonical Greenfield Press client log as of 2026-04-22. Prior duplicate entries NPAG-1, NPAG-4, and NPAG-9 have been superseded. Obsidian notes OBSN-1, OBSN-2, OBSN-3 have been archived with pointer to this page. Conflicts resolved per authority ranking: Gmail timestamps + finance records (TXN-6036, MSG-5086) govern payment facts; countersigned contract governs scope facts; this Notion page supersedes older Obsidian impressions for project-status summaries."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T15:30:00-07:00",
+    "last_updated": "2026-04-22T15:30:00-07:00"
+  },
+  {
+    "page_id": "NPAG-15",
+    "title": "Greenfield Press — 4th Cover Variation Add-On: Terms Scratch Pad",
+    "parent_page_id": "NPAG-14",
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "status": "draft",
+      "created_by": "Mia Lee"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Optional add-on: 'dark palette' 4th cover variation requested informally by Marcus (creative director). NOT in current contract. To be discussed on 2026-04-24 call with Dana.\n\nDraft terms to propose:\n- Additional fee: $1,200 (flat, covers 1 round of revisions)\n- Delivery: same date as contracted covers (2026-05-12) — only feasible if agreed by 2026-04-25\n- Requires signed contract amendment before work begins\n- If timeline cannot accommodate, offer post-delivery window: 2026-05-19\n\nNote: Do not begin any work on 4th variation until amendment is signed."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T15:45:00-07:00",
+    "last_updated": "2026-04-22T15:45:00-07:00"
+  },
+  {
+    "page_id": "NPAG-16",
+    "title": "Client Log — Harlow & Vane (Reimbursement Clause Status Update 2026-04-22)",
+    "parent_page_id": "NPAG-7",
+    "database_id": null,
+    "properties": {
+      "client": "Harlow & Vane",
+      "updated_by": "Mia Lee",
+      "update_date": "2026-04-22",
+      "flag_type": "reimbursement_clause_unenforceable"
+    },
+    "blocks": [
+      {
+        "type": "callout",
+        "text": "⚠️ REIMBURSEMENT CLAUSE NOT ACTIVE — Contract unsigned as of 2026-04-22. Do not submit any expense claims under Section 6.3 until countersigned agreement is in place."
+      },
+      {
+        "type": "paragraph",
+        "text": "On 2026-04-17, Harlow & Vane Contracts sent an onboarding packet (MSG-5090) referencing a $300 supply reimbursement allowance under Section 6.3 of their Standard Contributor Agreement. However, the contract negotiation has not yet concluded — the onboarding packet arrived before the agreement was finalized."
+      },
+      {
+        "type": "paragraph",
+        "text": "Per Mia's standing rules (Standard Contract Rules NPAG-2), onboarding and any associated financial arrangements are only binding after a countersigned contract is on file. The Section 6.3 allowance is therefore NOT claimable at this time."
+      },
+      {
+        "type": "paragraph",
+        "text": "Action required: Gate any H&V expense submissions behind countersignature. Update this log when contract is finalized. Reference: NOTE-153 (reimbursement audit), TODO-587 (belief revision task)."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T15:30:00-07:00",
+    "last_updated": "2026-04-22T15:30:00-07:00"
+  },
+  {
+    "page_id": "NPAG-17",
+    "title": "Supply Expense Reimbursement Audit — ColorPhase Invoice #CP-2026-0341",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Mia Lee",
+      "date": "2026-04-22",
+      "status": "resolved",
+      "invoice_total": "$330.50",
+      "net_out_of_pocket": "$273.50"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Invoice Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Vendor: ColorPhase Supply | Invoice: #CP-2026-0341 | Total: $330.50 | Due: 2026-05-06"
+      },
+      {
+        "type": "heading_2",
+        "text": "Reimbursement Path Audit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Path 1 — Greenfield Press Clause 4b: ACTIVE. Cap $200, previously consumed $143 (TXN-6038), remaining headroom $57.00. Claimable before May 12 delivery. → Claim $57.00."
+      },
+      {
+        "type": "paragraph",
+        "text": "Path 2 — Harlow & Vane Section 6.3 ($300 allowance): NOT ACTIVE. Contract unsigned. Onboarding packet premature. Cannot claim. See NPAG-16."
+      },
+      {
+        "type": "paragraph",
+        "text": "Path 3 — Pressline Studio credit offset: NOT AVAILABLE. Balance $0.00 as of 2026-04-20 (MSG-5091). Q2 tranche fully consumed. Next tranche 2026-06-01."
+      },
+      {
+        "type": "paragraph",
+        "text": "Path 4 — Business debit 4821: ACTIVE. Available balance ~$3,017 net of tax reserve. Covers full invoice."
+      },
+      {
+        "type": "heading_2",
+        "text": "Recommended Payment Plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Submit $57.00 partial reimbursement to Greenfield Press under clause 4b (before May 12). Contact: Dana Whitfield (dana.whitfield@greenfieldpress.example). Task: TODO-585."
+      },
+      {
+        "type": "paragraph",
+        "text": "2. Pay remaining $273.50 via business debit 4821 by 2026-05-01. Task: TODO-586."
+      },
+      {
+        "type": "paragraph",
+        "text": "3. Net out-of-pocket: $273.50 (vs. $0 assumed in original working plan — see NOTE-152 for original assumptions, NOTE-153 for corrections)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Belief Revisions"
+      },
+      {
+        "type": "paragraph",
+        "text": "• H&V $300 allowance assumed available in NOTE-152 → WRONG. Contract not signed.\n• Pressline ~$200 credit assumed available in NOTE-152 → WRONG. Balance $0.\n• GP clause 4b assumed to cover full $330.50 → WRONG. Only $57 headroom remains."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T15:45:00-07:00",
+    "last_updated": "2026-04-22T15:45:00-07:00"
+  },
+  {
+    "page_id": "NPAG-18",
+    "title": "Client Log — Greenfield Press (ACTIVE — canonical record as of 2026-04-22) — Invoice & Reimbursement Update",
+    "parent_page_id": "NPAG-9",
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "contact": "Dana Whitfield",
+      "contact_email": "dana.whitfield@greenfieldpress.example",
+      "project": "Spring 2026 Cover Illustrations — 3 Variations",
+      "status": "active",
+      "last_updated_by": "Mia Lee",
+      "record_type": "invoice_event"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Invoice Event — 2026-04-22"
+      },
+      {
+        "type": "paragraph",
+        "text": "Final invoice INV-2026-GP-002 drafted and queued for send. Total: $2,307.00 ($2,250.00 balance + $57.00 FedEx reimbursement capped per clause 4b)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Reimbursement decision: Full FedEx charge (TXN-6019) was $94.50. Clause 4b cap is $200; $143 already claimed (GP-REIMB-2026-003). Remaining headroom: $57. Invoiced $57 now; $37.50 flagged as GP-REIMB-2026-004-PENDING pending cap confirmation from Dana Whitfield (inquiry sent MSG-5093, response expected by 2026-04-24 per EVT-362)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Decision rationale documented in NOTE-154. WB-7 updated to reflect GP-REIMB-2026-004 status: pending_invoice."
+      },
+      {
+        "type": "heading_2",
+        "text": "Delivery Timeline"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finals hard deadline: 2026-05-12 (EVT-309 / EVT-320). AP invoice receipt deadline: 2026-05-09 per Dana's note (MSG-5094). As of 2026-04-22, ~13 working days remain — timeline is manageable."
+      },
+      {
+        "type": "heading_2",
+        "text": "Open Items"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Await Dana's clause 4b cap confirmation by 2026-04-24 (TODO-590)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "If cap raised: submit amended $37.50 claim (GP-REIMB-2026-004-PENDING)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TODO-527 marked in-progress; TODO-528 to be marked done after invoice confirmed sent"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T13:45:00-07:00",
+    "last_updated": "2026-04-22T13:45:00-07:00"
+  },
+  {
+    "page_id": "NPAG-19",
+    "title": "Greenfield Press — Clause 4b Reimbursement Cap Tracker",
+    "parent_page_id": "NPAG-9",
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "contract_clause": "4b",
+      "cap_total": "$200.00",
+      "claimed_to_date": "$143.00",
+      "headroom_remaining": "$57.00",
+      "status": "cap_nearly_exhausted"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Clause 4b Reimbursement Cap — Running Ledger"
+      },
+      {
+        "type": "paragraph",
+        "text": "Contract cap: $200.00 total reimbursable project expenses (clause 4b, countersigned contract Spring 2026)."
+      },
+      {
+        "type": "table",
+        "text": "Claim ID | Description | Amount | Status\nGP-REIMB-2026-001 | Courier — proof package (March) | $42.00 | Paid\nGP-REIMB-2026-002 | Pantone swatches — cover color matching | $101.00 | Paid\nGP-REIMB-2026-003 | Combined total (001+002) | $143.00 | Paid\nGP-REIMB-2026-004 | FedEx finals delivery (TXN-6019) — capped portion | $57.00 | Pending invoice\nGP-REIMB-2026-004-PENDING | FedEx overage above cap | $37.50 | Pending cap confirmation\nRunning total (invoiced) | | $200.00 | At cap ceiling"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cap confirmation inquiry sent to Dana Whitfield 2026-04-22 (MSG-5093). If cap is not raised, the $37.50 overage is unrecoverable under current contract terms."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T14:00:00-07:00",
+    "last_updated": "2026-04-22T14:00:00-07:00"
+  },
+  {
+    "page_id": "NPAG-20",
+    "title": "Client Log — Greenfield Press (ACTIVE — canonical record as of 2026-04-22) — Reimbursement Update",
+    "parent_page_id": "NPAG-9",
+    "database_id": null,
+    "properties": {
+      "client": "Greenfield Press",
+      "status": "active",
+      "last_updated": "2026-04-22",
+      "reimbursement_cap_clause_4b": "$200.00",
+      "reimbursement_used": "$193.30",
+      "reimbursement_remaining": "$6.70",
+      "claim_status": "pending — submitted 2026-04-22"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Clause 4b Reimbursement Tracker — Spring 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "Total clause 4b cap: $200.00. Prior claim: $47.50 (FedEx shipping, approved 2026-04-10). New claim submitted 2026-04-22: $145.80 (Blick Art Materials — Arches paper, W&N brushes, Holbein gouache). Total claimed to date: $193.30. Remaining headroom: $6.70."
+      },
+      {
+        "type": "paragraph",
+        "text": "Claim submitted via GP supplier portal 2026-04-22. Awaiting approval from Dana Whitfield. Follow-up due 2026-05-06 if no confirmation. See TODO-593."
+      },
+      {
+        "type": "heading_2",
+        "text": "April 2026 Supply Restock — Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Full restock executed 2026-04-22 across Blick Art Materials, Artboard Collective, and Envato Elements. Total gross spend: $282.75. Net after discounts/vouchers: $237.94. Net out-of-pocket after pending GP reimbursement: $92.14. Allocation analysis and price matrix documented in NOTE-157. Transactions logged in WB-9."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T17:00:00-07:00",
+    "last_updated": "2026-04-22T17:00:00-07:00"
+  },
+  {
+    "page_id": "NPAG-21",
+    "title": "Client Log — Harlow & Vane — Reimbursement Hold Note (April 2026)",
+    "parent_page_id": "NPAG-7",
+    "database_id": null,
+    "properties": {
+      "client": "Harlow & Vane",
+      "status": "active",
+      "last_updated": "2026-04-22",
+      "reimbursement_section": "6.3",
+      "contract_countersigned": false,
+      "pending_claim_amount": "$38.00",
+      "claim_deadline_if_signed": "2026-05-22"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Section 6.3 Reimbursement — HOLD"
+      },
+      {
+        "type": "paragraph",
+        "text": "Procreate Lettering Brush Collection Vol. 3 purchased 2026-04-22 from Artboard Collective ($38.00, TXN-6046). This item is project-critical for Harlow & Vane cover typography work and potentially claimable under section 6.3."
+      },
+      {
+        "type": "paragraph",
+        "text": "HOLD: Harlow & Vane contract is NOT yet countersigned as of 2026-04-22. No reimbursement claim can be filed until countersigned copy is confirmed in hand. Once contract is signed, submit claim immediately — 30-day receipt window expires 2026-05-22. See TODO-594."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T17:15:00-07:00",
+    "last_updated": "2026-04-22T17:15:00-07:00"
+  }
+]

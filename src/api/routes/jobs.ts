@@ -4,6 +4,7 @@ import { MODELS } from "../config.ts";
 import { createJob, getJob, listJobs, requestCancel } from "../queue/store.ts";
 import { enqueue } from "../queue/worker.ts";
 import { redis } from "../redis.ts";
+import { FIRST_TRIAL, parseTrials, withTrial } from "../trials.ts";
 
 export const jobs = Router();
 
@@ -11,6 +12,8 @@ jobs.post("/jobs", async (req, res) => {
 	const { benchmark: name, models } = req.body ?? {};
 	const benchmark = benchmarks.get(name);
 	if (!benchmark) return void res.status(404).json({ error: "unknown benchmark" });
+	const trials = parseTrials(req.body?.trials);
+	if (typeof trials === "object") return void res.status(400).json({ error: trials.error });
 	const input = await benchmark.parse(req.body);
 	if ("error" in input) return void res.status(400).json({ error: input.error });
 	const selected = Array.isArray(models) ? MODELS.filter((m) => models.includes(m.name)) : MODELS;
@@ -19,10 +22,12 @@ jobs.post("/jobs", async (req, res) => {
 	const created = [];
 	for (const item of input) {
 		for (const m of selected) {
-			const job = await createJob(redis, { benchmark: name, ...item, model: m.name });
-			await enqueue(redis, name, job.id);
-			console.log(`[api] job ${job.id} queued (${name}, ${m.name})`);
-			created.push(job);
+			for (let trial = FIRST_TRIAL; trial <= trials; trial++) {
+				const job = await createJob(redis, { benchmark: name, ...item, params: withTrial(item.params, trial), model: m.name });
+				await enqueue(redis, name, job.id);
+				console.log(`[api] job ${job.id} queued (${name}, ${m.name}, trial ${trial})`);
+				created.push(job);
+			}
 		}
 	}
 	res.status(202).json({ jobs: created });

@@ -1,3 +1,4 @@
+import { readUsage, type LlmUsage } from "./llm-usage.ts";
 import type { ModelConfig } from "./types.ts";
 
 /** One non-streamed chat call to a configured model, in its own API format (`openai-completions` or `anthropic-messages`). */
@@ -5,6 +6,12 @@ import type { ModelConfig } from "./types.ts";
 export interface ChatMessage {
 	role: "system" | "user" | "assistant";
 	content: string;
+}
+
+/** A reply's text, plus the call's token usage when the response reported it. */
+export interface ChatReply {
+	text: string;
+	usage?: LlmUsage;
 }
 
 export interface ChatOptions {
@@ -35,8 +42,8 @@ async function post(url: string, headers: Record<string, string>, body: unknown,
 	return res.json();
 }
 
-/** The reply's text. Throws `ChatError` (or an abort/network error) when the call fails. */
-export async function chat(model: ModelConfig, messages: ChatMessage[], options: ChatOptions = {}): Promise<string> {
+/** The reply and its usage. Throws `ChatError` (or an abort/network error) when the call fails. */
+export async function chat(model: ModelConfig, messages: ChatMessage[], options: ChatOptions = {}): Promise<ChatReply> {
 	const timeoutMs = options.timeoutMs ?? DEFAULT_TIMEOUT_MS;
 	if (model.api === ChatApi.anthropic) {
 		const system = messages.filter((m) => m.role === "system").map((m) => m.content).join("\n\n");
@@ -53,7 +60,10 @@ export async function chat(model: ModelConfig, messages: ChatMessage[], options:
 			},
 			timeoutMs,
 		)) as { content?: { type: string; text?: string }[] };
-		return (body.content ?? []).filter((c) => c.type === "text").map((c) => c.text ?? "").join("");
+		return {
+			text: (body.content ?? []).filter((c) => c.type === "text").map((c) => c.text ?? "").join(""),
+			usage: readUsage(body),
+		};
 	}
 	if (model.api !== ChatApi.openai) throw new ChatError(`unsupported model api ${model.api}`);
 	const body = (await post(
@@ -67,5 +77,5 @@ export async function chat(model: ModelConfig, messages: ChatMessage[], options:
 		},
 		timeoutMs,
 	)) as { choices?: { message?: { content?: string | null } }[] };
-	return body.choices?.[0]?.message?.content ?? "";
+	return { text: body.choices?.[0]?.message?.content ?? "", usage: readUsage(body) };
 }

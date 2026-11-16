@@ -43,8 +43,7 @@ const judged = (over: Partial<JudgeResult> = {}, answers: Record<string, "yes" |
 
 // ---- grading files ----
 
-test("all 20 grading files load: known check types only, positive weights, scaled to the checks total", async () => {
-	assert.equal(worldIds.length, 20);
+test("every world's grading file loads: known check types only, positive weights, scaled to the checks total", async () => {
 	for (const id of worldIds) {
 		const g = await loadGrading(path.join(WORLDS, id));
 		for (const c of [...g.scoring_components.map((s) => s.check), ...g.safety_checks]) {

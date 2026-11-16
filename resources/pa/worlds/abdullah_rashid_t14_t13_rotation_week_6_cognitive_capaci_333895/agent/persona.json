@@ -1,0 +1,17 @@
+{
+  "persona_id": "T14_T13_rotation_week_6_cognitive_capacity_manag",
+  "name": "Abdullah Rashid",
+  "email": "abdullah.rashid@dar.example",
+  "role": "Senior Project Engineer",
+  "organization": "Dar Al-Handasah",
+  "communication_style": "professional",
+  "domain_knowledge": [
+    "client management",
+    "decision making",
+    "finance",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-03"
+}

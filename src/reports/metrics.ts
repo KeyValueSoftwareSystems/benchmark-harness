@@ -21,11 +21,14 @@ function median(values: number[]): number | null {
 	return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
 }
 
-/** Re-runs of a challenge count once (the latest wins); runs without a challenge are each their own attempt. */
-export function latestPerChallenge(runs: RunRecord[]): RunRecord[] {
+/**
+ * Re-runs of one challenge in one trial count once (the latest wins); each trial of a challenge counts on its own.
+ * Runs without a challenge are each their own attempt.
+ */
+export function latestPerChallengeTrial(runs: RunRecord[]): RunRecord[] {
 	const latest = new Map<string, RunRecord>();
 	for (const run of runs) {
-		const key = run.challenge ?? `job:${run.jobId}`;
+		const key = run.challenge === null ? `job:${run.jobId}` : JSON.stringify([run.challenge, run.trial]);
 		const current = latest.get(key);
 		if (!current || run.createdAt >= current.createdAt) latest.set(key, run);
 	}
@@ -34,7 +37,7 @@ export function latestPerChallenge(runs: RunRecord[]): RunRecord[] {
 
 /** A run is solved only when the benchmark reported `correct: true`; runs without a verdict count in the total. */
 export function computeMetrics(file: ModelFile): ModelMetrics {
-	const runs = latestPerChallenge(file.runs);
+	const runs = latestPerChallengeTrial(file.runs);
 	const total = runs.length;
 	const solvedRuns = runs.filter((r) => r.correct === true);
 	// Runs that never reported (zero turns: provisioning errors, lost results) have no cost to average.

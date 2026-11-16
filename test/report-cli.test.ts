@@ -14,6 +14,7 @@ const run = (model: string, jobId: string, challenge: string, correct: boolean):
 	modelId: "m",
 	challenge,
 	assistant: null,
+	trial: 1,
 	status: "done",
 	correct,
 	outcome: null,

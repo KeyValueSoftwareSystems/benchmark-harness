@@ -30,3 +30,6 @@ export interface Job {
 	error?: string;
 	createdAt: string;
 }
+
+/** Keys of `Job.params` that the harness reads. */
+export const JobParam = { challenge: "challenge", assistant: "assistant", trial: "trial" } as const;

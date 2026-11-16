@@ -1,0 +1,15 @@
+{
+  "persona_id": "FREE04_T01_ceu_enrollment_decision_fast_track_certi",
+  "name": "Devon Ross",
+  "email": "devon@devonrossperformance.example",
+  "role": "fitness coach",
+  "organization": "Devon Ross Performance",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "decision making",
+    "finance",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-06-03"
+}

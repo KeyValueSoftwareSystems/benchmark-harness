@@ -45,8 +45,9 @@ function makeData(overrides?: Partial<PaTraceData>): PaTraceData {
 			exchanges: 1,
 			category: "email",
 		llm: {
-			paa: { calls: 1, inputTokens: 100, outputTokens: 50, costUsd: 0.001, costUnknown: false },
-			persona: { calls: 1, inputTokens: 80, outputTokens: 40, costUsd: 0.0008, costUnknown: false },
+			paa: { calls: 1, inputTokens: 100, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 50, costUsd: 0.001, costUnknown: false },
+			persona: { calls: 1, inputTokens: 80, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 40, costUsd: 0.0008, costUnknown: false },
+			judge: { calls: 0, inputTokens: 0, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 0, costUsd: 0, costUnknown: false },
 		},
 		assistantInfo: { version: "1.2.3", toolsets: ["terminal", "file"] },
 		},
@@ -55,8 +56,8 @@ function makeData(overrides?: Partial<PaTraceData>): PaTraceData {
 			{ service: "gmail", tool: "gmail_search", args: { query: "test" }, ok: false, at: T2 },
 		],
 		llmCalls: [
-			{ role: persona, model: "test-model", startedAt: T0, latencyMs: 500, inputTokens: 80, outputTokens: 40, costUsd: 0.0008, status: 200 },
-			{ role: paa, model: "test-model", startedAt: T1, latencyMs: 1000, inputTokens: 100, outputTokens: 50, costUsd: 0.001, status: 200 },
+			{ role: persona, model: "test-model", startedAt: T0, latencyMs: 500, inputTokens: 80, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 40, costUsd: 0.0008, status: 200 },
+			{ role: paa, model: "test-model", startedAt: T1, latencyMs: 1000, inputTokens: 100, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 50, costUsd: 0.001, status: 200 },
 		],
 		transcript: [
 			{ user_message: "Check my inbox", assistant_reply: "You have 3 emails", timestamp: T1 },
@@ -124,7 +125,7 @@ test("LLM calls with HTTP errors get error status", async () => {
 	const exporter = new InMemorySpanExporter();
 	const data = makeData({
 		llmCalls: [
-			{ role: paa, model: "test-model", startedAt: T0, latencyMs: 100, inputTokens: 0, outputTokens: 0, costUsd: 0, status: 500 },
+			{ role: paa, model: "test-model", startedAt: T0, latencyMs: 100, inputTokens: 0, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 0, costUsd: 0, status: 500 },
 		],
 	});
 	await emitPaTrace(job, data, { exporter, environment: "test" });
