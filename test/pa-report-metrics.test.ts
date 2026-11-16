@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { computePaReportData } from "../src/reports/pa/metrics.ts";
+import { computePaReportData, rankAssistants } from "../src/reports/pa/metrics.ts";
 import { renderPaReport } from "../src/reports/pa/render.ts";
 import { Bucket, type SelectionManifest, type SelectionTask } from "../src/pa/selection.ts";
 import type { ModelFile, RunRecord } from "../src/shared/results.ts";
@@ -189,9 +189,9 @@ test("byBucket groups selection worlds by bucket and missingWorlds lists worlds 
 
 	const metrics = data.assistants[0];
 	assert.deepEqual(metrics.byBucket, [
-		{ bucket: Bucket.work, worlds: 2, runs: 2, passRate: 50, meanTotalCostUsd: 0.03 },
-		{ bucket: Bucket.personalLife, worlds: 1, runs: 1, passRate: 100, meanTotalCostUsd: 0.04 },
-		{ bucket: Bucket.homeFamily, worlds: 1, runs: 0, passRate: null, meanTotalCostUsd: null },
+		{ bucket: Bucket.work, worlds: 2, runs: 2, passRate: 50, meanScore: 1, meanTotalCostUsd: 0.03 },
+		{ bucket: Bucket.personalLife, worlds: 1, runs: 1, passRate: 100, meanScore: 1, meanTotalCostUsd: 0.04 },
+		{ bucket: Bucket.homeFamily, worlds: 1, runs: 0, passRate: null, meanScore: null, meanTotalCostUsd: null },
 	]);
 	assert.deepEqual(metrics.missingWorlds, ["w4"]);
 	assert.deepEqual(data.selection, { name: "test-selection", taskCount: 4 });
@@ -230,4 +230,98 @@ test("the report escapes world ids and lists the selection worlds an assistant i
 	assert.doesNotMatch(html, /<script>/);
 	assert.match(html, /W&lt;Script&gt;&quot;X&quot;/);
 	assert.match(html, /has no runs for 1 selection world: <code>m&lt;b&gt;<\/code>/);
+});
+
+// ---------------------------------------------------------------------------
+// Ranking, disagreements, anomalies and layout
+// ---------------------------------------------------------------------------
+
+interface ScoredRun {
+	assistant: string;
+	world: string;
+	total: number;
+	correct: boolean;
+	toolCalls?: number;
+	missed?: string;
+	reasoning?: string;
+	createdAt?: string;
+}
+
+function scoredRun(options: ScoredRun): RunRecord {
+	const base = paRun(options.world, { paa: {}, persona: {} }, { correct: options.correct });
+	const outcome = base.outcome as { score: Record<string, unknown> };
+	outcome.score = {
+		...outcome.score,
+		total: options.total,
+		checksScore: options.total,
+		judgeScore: options.total,
+		judgeReasoning: options.reasoning ?? "",
+		toolCallCount: options.toolCalls ?? 5,
+		checks: options.missed ? [{ kind: "scoring", index: 0, name: options.missed, status: "fail" }] : [],
+	};
+	return { ...base, assistant: options.assistant, jobId: `job-${options.assistant}-${options.world}`, createdAt: options.createdAt ?? base.createdAt };
+}
+
+const multiAssistantData = (runs: RunRecord[], names: string[]) => computePaReportData(fileWith(runs), names);
+
+test("a tie on pass rate is broken by mean score, then cost per passed task, then time", () => {
+	const data = multiAssistantData(
+		[
+			scoredRun({ assistant: "openclaw", world: "w1", total: 0.8, correct: true }),
+			scoredRun({ assistant: "hermes", world: "w1", total: 0.9, correct: true }),
+		],
+		["openclaw", "hermes"],
+	);
+	assert.deepEqual(rankAssistants(data.assistants).map((a) => a.assistant), ["hermes", "openclaw"]);
+	assert.match(renderPaReport(data), /<b>hermes<\/b> ties openclaw on pass rate \(1 of 1\) and scores higher \(0\.90 against 0\.80\)/);
+});
+
+test("worlds where scores differ by more than 0.2 or verdicts differ are disagreements; the rest count as agreeing", () => {
+	const data = multiAssistantData(
+		[
+			scoredRun({ assistant: "a", world: "close", total: 0.8, correct: true }),
+			scoredRun({ assistant: "b", world: "close", total: 0.9, correct: true }),
+			scoredRun({ assistant: "a", world: "far", total: 0.9, correct: true }),
+			scoredRun({ assistant: "b", world: "far", total: 0.5, correct: false, missed: "Names the deadline", reasoning: "No deadline given" }),
+		],
+		["a", "b"],
+	);
+	assert.deepEqual(data.disagreements.map((d) => d.worldId), ["far"]);
+	assert.equal(data.agreeingWorlds, 1);
+	const loser = data.disagreements[0].entries.find((e) => e.assistant === "b")!;
+	assert.deepEqual([loser.missedChecks, loser.judgeReasoning], [["Names the deadline"], "No deadline given"]);
+	assert.match(renderPaReport(data), /Where assistants differ: 1 of 2 tasks/);
+});
+
+test("an assistant with far more tool calls than the others on a world is flagged", () => {
+	const data = multiAssistantData(
+		[
+			scoredRun({ assistant: "a", world: "w1", total: 0.9, correct: true, toolCalls: 6 }),
+			scoredRun({ assistant: "b", world: "w1", total: 0.9, correct: true, toolCalls: 34 }),
+			scoredRun({ assistant: "a", world: "w2", total: 0.9, correct: true, toolCalls: 2 }),
+			scoredRun({ assistant: "b", world: "w2", total: 0.9, correct: true, toolCalls: 7 }),
+		],
+		["a", "b"],
+	);
+	assert.deepEqual(data.anomalies, [{ assistant: "b", worldId: "w1", toolCalls: 34, othersMedian: 6 }]);
+});
+
+test("runs more than a day apart set the mixed-runs warning", () => {
+	const runs = [
+		scoredRun({ assistant: "a", world: "w1", total: 1, correct: true, createdAt: "2026-01-01T00:00:00Z" }),
+		scoredRun({ assistant: "a", world: "w2", total: 1, correct: true, createdAt: "2026-01-05T00:00:00Z" }),
+	];
+	assert.equal(multiAssistantData(runs, ["a"]).runsSpanMultipleDays, true);
+	assert.match(renderPaReport(multiAssistantData(runs, ["a"])), /span more than one day/);
+	assert.equal(multiAssistantData([runs[0]], ["a"]).runsSpanMultipleDays, false);
+});
+
+test("world titles replace the id, and five assistants render one ranked row each", () => {
+	const names = ["a1", "a2", "a3", "a4", "a5"];
+	const runs = names.map((assistant, i) => scoredRun({ assistant, world: "w1", total: 0.5 + i / 10, correct: true }));
+	const data = computePaReportData(fileWith(runs), names, null, { w1: "Plan the move" });
+	const html = renderPaReport(data);
+	assert.match(html, /Plan the move/);
+	assert.equal((html.match(/<tr><td>a\d<\/td>/g) ?? []).length >= 5, true);
+	assert.deepEqual(rankAssistants(data.assistants).map((a) => a.assistant), ["a5", "a4", "a3", "a2", "a1"]);
 });

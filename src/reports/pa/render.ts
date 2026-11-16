@@ -3,7 +3,7 @@
  * Layout, tone and styling follow the sample_report_cyber.html reference.
  */
 
-import type { PaReportData, JudgeCalibration } from "./metrics.ts";
+import { rankAssistants, type PaAssistantMetrics, type PaReportData, type JudgeCalibration } from "./metrics.ts";
 
 // ---------------------------------------------------------------------------
 // Escaping and formatting
@@ -27,10 +27,18 @@ const sharePct = (fraction: number) => `${(fraction * 100).toFixed(1)}%`;
 
 const sharePctOrDash = (fraction: number | null) => (fraction === null ? "–" : sharePct(fraction));
 
-const shortWorld = (id: string) =>
-	id.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()).slice(0, 60);
+const titleFromId = (id: string) => id.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
-// Series colours (up to 6 assistants)
+const worldTitle = (data: PaReportData, worldId: string) => data.worldTitles[worldId] ?? titleFromId(worldId);
+
+const score = (value: number | null) => (value === null ? "–" : value.toFixed(2));
+
+const JUDGE_REASONING_MAX_CHARS = 200;
+const SAFETY_EVIDENCE_MAX_CHARS = 120;
+
+const clip = (text: string, max: number) => (text.length > max ? `${text.slice(0, max).trimEnd()}…` : text);
+
+// Series colours, reused in order when there are more assistants than colours
 const COLOURS = ["--c-h", "--c-d", "--c-l", "--c-4", "--c-5", "--c-6"];
 const colourOf = (index: number) => `var(${COLOURS[index % COLOURS.length]})`;
 
@@ -49,7 +57,7 @@ h1{font-size:30px;margin:0 0 4px}h2{font-size:19px;margin:40px 0 4px}h3{font-siz
 svg{width:100%;height:auto;display:block;overflow:visible}svg text{fill:var(--ink);font-family:inherit}
 .t1{font-size:13px}.t2{font-size:12px;fill:var(--ink2)!important}.t3{font-size:11px;fill:var(--muted)!important}.b{font-weight:600}
 .grid{stroke:var(--line);stroke-width:1}.axis{stroke:var(--axis);stroke-width:1}.sep{stroke:var(--axis);stroke-width:1.5}
-.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin:6px 0 10px}.legend span{display:inline-flex;align-items:center;gap:6px}.legend i{width:11px;height:11px;border-radius:50%;display:inline-block}
+.rank td.best{font-weight:700}.rank small{color:var(--muted);font-weight:400}.diff{margin:6px 0 14px}.diff p{margin:2px 0;font-size:13px;white-space:normal}.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink2);margin:6px 0 10px}.legend span{display:inline-flex;align-items:center;gap:6px}.legend i{width:11px;height:11px;border-radius:50%;display:inline-block}
 .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.card{background:var(--surface);padding:14px 16px;border-radius:10px;border:1px solid var(--line);border-top:4px solid}
 .card h3{margin:0 0 6px;font-size:16px}.card ul{margin:0;padding-left:18px;font-size:14px}.card li{margin:3px 0}
@@ -66,7 +74,7 @@ function sectionTitle(data: PaReportData): string {
 	const worldCount = data.allWorlds.length;
 	const runCount = data.assistants.reduce((s, a) => s + a.total, 0);
 	return `<h1>Personal Assistant Comparison</h1>
-<div class="mut">${esc(assistantList)} on ${worldCount} worlds with ${esc(data.model)} · ${runCount} runs${data.runWindow ? `, ${esc(data.runWindow)}` : ""} · ${esc(data.conditions)}</div>`;
+<div class="mut">${assistantList} on ${worldCount} worlds with ${esc(data.model)} · ${runCount} runs${data.runWindow ? `, ${esc(data.runWindow)}` : ""} · ${esc(data.conditions)}</div>`;
 }
 
 function sectionSelection(data: PaReportData): string {
@@ -78,295 +86,162 @@ function sectionSelection(data: PaReportData): string {
 	return header + missing.join("");
 }
 
+// ---- Layer 1: verdict ----
+
+/** Why `best` leads `runnerUp`, naming the first measure that separates them. */
+function describeLead(best: PaAssistantMetrics, runnerUp: PaAssistantMetrics): string {
+	const passes = `${best.passed} of ${best.total}`;
+	if (best.passRate > runnerUp.passRate) return `passes the most runs (${passes}, ${pct(best.passRate)}) against ${pct(runnerUp.passRate)} for ${esc(runnerUp.assistant)}`;
+	const tied = `ties ${esc(runnerUp.assistant)} on pass rate (${passes})`;
+	if ((best.meanScore ?? 0) > (runnerUp.meanScore ?? 0)) return `${tied} and scores higher (${score(best.meanScore)} against ${score(runnerUp.meanScore)})`;
+	if ((best.costPerPassedTask ?? Infinity) < (runnerUp.costPerPassedTask ?? Infinity)) return `${tied} and costs less per passed task (${cost(best.costPerPassedTask)} against ${cost(runnerUp.costPerPassedTask)})`;
+	return `${tied} and is faster (median ${duration(best.medianDurationMs)} against ${duration(runnerUp.medianDurationMs)})`;
+}
+
 function sectionBottomLine(data: PaReportData): string {
-	const sorted = [...data.assistants].sort((a, b) => b.passRate - a.passRate);
-	const best = sorted[0];
+	const [best, runnerUp] = rankAssistants(data.assistants);
 	if (!best) return "";
-	const parts: string[] = [];
-	parts.push(`<b>${esc(best.assistant)}</b> passes the most runs (${best.passed} of ${best.total}, ${pct(best.passRate)})`);
-	if (best.costPerPassedTask !== null) parts.push(` at <b>${cost(best.costPerPassedTask)}</b> per passed task`);
+	const lead = runnerUp ? describeLead(best, runnerUp) : `passed ${best.passed} of ${best.total} runs`;
 	const unsafe = data.assistants.filter((a) => a.totalViolations > 0);
-	if (unsafe.length) {
-		parts.push(`. ${unsafe.map((a) => `${esc(a.assistant)} had ${a.totalViolations} safety violation${a.totalViolations > 1 ? "s" : ""}`).join("; ")}`);
-	} else {
-		parts.push(". No safety violations were recorded.");
-	}
-	return `<div class="lead"><b>Bottom line.</b> ${parts.join("")}</div>`;
+	const safety = unsafe.length
+		? unsafe.map((a) => `${esc(a.assistant)} had ${a.totalViolations} safety violation${a.totalViolations > 1 ? "s" : ""}`).join("; ")
+		: "No safety violations were recorded";
+	return `<div class="lead"><b>${esc(best.assistant)}</b> ${lead}. ${safety}.</div>`;
 }
 
-function sectionLegend(data: PaReportData): string {
-	return `<div class="legend">${data.assistants.map((a, i) => `<span><i style="background:${colourOf(i)}"></i>${esc(a.assistant)}</span>`).join("")}</div>`;
+/** The index of the best value in a column, or null when every assistant ties (nothing to highlight). */
+function bestIndex(values: (number | null)[], direction: "high" | "low"): number | null {
+	const present = values.filter((v): v is number => v !== null);
+	if (present.length < 2 || new Set(present).size === 1) return null;
+	const target = direction === "high" ? Math.max(...present) : Math.min(...present);
+	return values.indexOf(target);
 }
 
-// ---- At a glance: pass rate vs cost scatter (log scale) ----
-function scatterPassVsCost(data: PaReportData): string {
-	const hasCost = data.assistants.some((a) => a.categories.some((c) => {
-		const catRuns = a.worlds.filter((w) => w.category === c.category);
-		return catRuns.length > 0;
-	}));
-	if (!hasCost) return "";
-
-	const W = 720, H = 300, PAD_L = 70, PAD_R = 30, PAD_T = 20, PAD_B = 50;
-	const plotW = W - PAD_L - PAD_R, plotH = H - PAD_T - PAD_B;
-
-	// Per-assistant overall cost (per-category cost breakdown not available)
-	const costs = data.assistants.map((a) => a.meanPaaCostUsd).filter((c): c is number => c !== null && c > 0);
-	if (!costs.length) return "";
-
-	const minCost = Math.min(...costs) * 0.5;
-	const maxCost = Math.max(...costs) * 2;
-	const logScale = (v: number) => {
-		if (v <= 0) return PAD_L;
-		const logMin = Math.log10(minCost), logMax = Math.log10(maxCost);
-		return PAD_L + ((Math.log10(v) - logMin) / (logMax - logMin)) * plotW;
-	};
-	const yScale = (rate: number) => PAD_T + plotH - (rate / 100) * plotH;
-
-	const gridLines = [0, 25, 50, 75, 100].map((p) =>
-		`<line x1="${PAD_L}" x2="${W - PAD_R}" y1="${yScale(p)}" y2="${yScale(p)}" class="grid"/><text x="${PAD_L - 8}" y="${yScale(p) + 4}" text-anchor="end" class="t3">${p}%</text>`
-	).join("");
-
-	// X axis ticks at powers of 10
-	const xTicks: string[] = [];
-	for (let p = -4; p <= 2; p++) {
-		const v = 10 ** p;
-		if (v >= minCost && v <= maxCost) {
-			const x = logScale(v);
-			xTicks.push(`<line x1="${x}" x2="${x}" y1="${PAD_T}" y2="${H - PAD_B}" class="grid"/><text x="${x}" y="${H - PAD_B + 16}" text-anchor="middle" class="t3">${cost(v)}</text>`);
-		}
-	}
-
-	const marks = data.assistants.map((a, i) => {
-		if (a.meanPaaCostUsd === null || a.meanPaaCostUsd <= 0) return "";
-		const x = logScale(a.meanPaaCostUsd), y = yScale(a.passRate);
-		return `<g><title>${esc(a.assistant)}: ${pct(a.passRate)} pass · ${cost(a.meanPaaCostUsd)} mean cost</title><circle cx="${x}" cy="${y}" r="9" fill="${colourOf(i)}" stroke="var(--surface)" stroke-width="2"/></g>`;
-	}).join("");
-
-	return `<div class="chart"><h3>Success versus cost</h3>
-<svg viewBox="0 0 ${W} ${H}" role="img">${gridLines}${xTicks.join("")}
-<line x1="${PAD_L}" x2="${PAD_L}" y1="${PAD_T}" y2="${H - PAD_B}" class="axis"/>
-<text x="${(PAD_L + W - PAD_R) / 2}" y="${H - 4}" text-anchor="middle" class="t2">Mean cost per run (log)</text>
-<text transform="translate(14 ${(PAD_T + H - PAD_B) / 2}) rotate(-90)" text-anchor="middle" class="t2">Pass rate</text>
-${marks}</svg></div>`;
-}
-
-// ---- At a glance: pass rate vs time scatter ----
-function scatterPassVsTime(data: PaReportData): string {
-	const W = 720, H = 300, PAD_L = 70, PAD_R = 30, PAD_T = 20, PAD_B = 50;
-	const plotW = W - PAD_L - PAD_R, plotH = H - PAD_T - PAD_B;
-	const maxMs = Math.max(120_000, ...data.assistants.flatMap((a) => a.durations.map((d) => d.ms)));
-	const xScale = (ms: number) => PAD_L + (ms / maxMs) * plotW;
-	const yScale = (rate: number) => PAD_T + plotH - (rate / 100) * plotH;
-
-	const gridLines = [0, 25, 50, 75, 100].map((p) =>
-		`<line x1="${PAD_L}" x2="${W - PAD_R}" y1="${yScale(p)}" y2="${yScale(p)}" class="grid"/><text x="${PAD_L - 8}" y="${yScale(p) + 4}" text-anchor="end" class="t3">${p}%</text>`
-	).join("");
-
-	const xTicks = [0, 30, 60, 90, 120].filter((s) => s * 1000 <= maxMs * 1.05).map((s) =>
-		`<line x1="${xScale(s * 1000)}" x2="${xScale(s * 1000)}" y1="${PAD_T}" y2="${H - PAD_B}" class="grid"/><text x="${xScale(s * 1000)}" y="${H - PAD_B + 16}" text-anchor="middle" class="t3">${s}s</text>`
-	).join("");
-
-	const marks = data.assistants.flatMap((a, i) =>
-		a.categories.map((cat) => {
-			const catDurations = a.durations.filter((d) => d.category === cat.category);
-			const medMs = catDurations.length ? catDurations.sort((x, y) => x.ms - y.ms)[Math.floor(catDurations.length / 2)].ms : 0;
-			const x = xScale(medMs), y = yScale(cat.passRate);
-			return `<g><title>${esc(a.assistant)} · ${esc(cat.category)}: ${cat.passed} of ${cat.total} passed · ${duration(medMs)}</title><circle cx="${x}" cy="${y}" r="9" fill="${colourOf(i)}" stroke="var(--surface)" stroke-width="2"/></g>`;
-		})
-	).join("");
-
-	return `<div class="chart"><h3>Success versus speed</h3>
-<svg viewBox="0 0 ${W} ${H}" role="img">${gridLines}${xTicks}
-<line x1="${PAD_L}" x2="${PAD_L}" y1="${PAD_T}" y2="${H - PAD_B}" class="axis"/>
-<text x="${(PAD_L + W - PAD_R) / 2}" y="${H - 4}" text-anchor="middle" class="t2">Median time per run</text>
-<text transform="translate(14 ${(PAD_T + H - PAD_B) / 2}) rotate(-90)" text-anchor="middle" class="t2">Pass rate</text>
-${marks}</svg></div>`;
-}
-
-// ---- Which assistant is better at what (horizontal bars per category) ----
-function sectionCategoryBars(data: PaReportData): string {
-	if (!data.allCategories.length) return "";
-	const panels = data.allCategories.map((cat) => {
-		const rows = data.assistants.map((a, i) => {
-			const c = a.categories.find((x) => x.category === cat);
-			const rate = c?.passRate ?? 0;
-			const label = c ? `${c.passed} of ${c.total}` : "not run";
-			const barW = 230;
-			const barX = 100;
-			const y = 36 + i * 34;
-			return `<text x="0" y="${y}" class="t1">${esc(a.assistant)}</text>
-<line x1="${barX}" x2="${barX + barW}" y1="${y - 4}" y2="${y - 4}" class="grid"/>
-<line x1="${barX}" x2="${barX + (rate / 100) * barW}" y1="${y - 4}" y2="${y - 4}" stroke="${colourOf(i)}" stroke-width="2"/>
-<g><title>${esc(a.assistant)}: ${label} ${esc(cat)} tasks</title><circle cx="${barX + (rate / 100) * barW}" cy="${y - 4}" r="8" fill="${colourOf(i)}" stroke="var(--surface)" stroke-width="2"/></g>
-<text x="${barX + (rate / 100) * barW + 14}" y="${y}" class="t1 b">${esc(label)}</text>`;
-		}).join("\n");
-		const worldCount = new Set(data.assistants.flatMap((a) => a.worlds.filter((w) => w.category === cat).map((w) => w.worldId))).size;
-		const svgH = 36 + data.assistants.length * 34 + 10;
-		return `<div class="panel"><h3>${esc(cat.replace(/_/g, " "))} (${worldCount} worlds)</h3>
-<svg viewBox="0 0 430 ${svgH}" role="img">${rows}</svg></div>`;
+function sectionRankTable(data: PaReportData): string {
+	const ranked = rankAssistants(data.assistants);
+	const columns: { header: string; value: (a: PaAssistantMetrics) => number | null; direction: "high" | "low"; show: (a: PaAssistantMetrics) => string }[] = [
+		{ header: "Pass rate", value: (a) => a.passRate, direction: "high", show: (a) => `${pct(a.passRate)} <small>${a.passed} of ${a.total}</small>` },
+		{ header: "Mean score", value: (a) => a.meanScore, direction: "high", show: (a) => `${score(a.meanScore)} <small>checks ${score(a.meanChecksScore)} + judge ${score(a.meanJudgePoints)}</small>` },
+		{ header: "Cost per passed task", value: (a) => a.costPerPassedTask, direction: "low", show: (a) => cost(a.costPerPassedTask) },
+		{ header: "Median time", value: (a) => a.medianDurationMs, direction: "low", show: (a) => duration(a.medianDurationMs) },
+		{ header: "Safety violations", value: (a) => a.totalViolations, direction: "low", show: (a) => String(a.totalViolations) },
+	];
+	const best = columns.map((column) => bestIndex(ranked.map(column.value), column.direction));
+	const rows = ranked.map((a, row) => {
+		const cells = columns.map((column, col) => `<td${best[col] === row ? ' class="best"' : ""}>${column.show(a)}</td>`).join("");
+		return `<tr><td>${esc(a.assistant)}</td>${cells}</tr>`;
 	}).join("\n");
-
-	return `<h2>Which assistant is better at what</h2>
-<p class="mut">Pass rate by world category.</p>
-<div class="two">${panels}</div>`;
+	return `<table class="rank"><tr><th>Assistant</th>${columns.map((c) => `<th>${c.header}</th>`).join("")}</tr>\n${rows}</table>`;
 }
 
-// ---- World by world matrix ----
+// ---- Score versus cost (one dot per assistant) ----
+
+const COST_TICKS = 4;
+
+function scatterScoreVsCost(data: PaReportData): string {
+	const points = data.assistants
+		.map((a, i) => ({ assistant: a.assistant, colour: colourOf(i), cost: a.meanPaaCostUsd, score: a.meanScore }))
+		.filter((p): p is { assistant: string; colour: string; cost: number; score: number } => p.cost !== null && p.score !== null);
+	if (!points.length) return "";
+
+	const W = 720, H = 280, PAD_L = 70, PAD_R = 110, PAD_T = 20, PAD_B = 50;
+	const plotW = W - PAD_L - PAD_R, plotH = H - PAD_T - PAD_B;
+	const maxCost = Math.max(...points.map((p) => p.cost)) * 1.15;
+	const xScale = (usd: number) => PAD_L + (usd / maxCost) * plotW;
+	const yScale = (value: number) => PAD_T + plotH - value * plotH;
+
+	const yGrid = [0, 0.25, 0.5, 0.75, 1].map((v) =>
+		`<line x1="${PAD_L}" x2="${W - PAD_R}" y1="${yScale(v)}" y2="${yScale(v)}" class="grid"/><text x="${PAD_L - 8}" y="${yScale(v) + 4}" text-anchor="end" class="t3">${v.toFixed(2)}</text>`).join("");
+	const xGrid = Array.from({ length: COST_TICKS + 1 }, (_, i) => (maxCost / COST_TICKS) * i).map((usd) =>
+		`<line x1="${xScale(usd)}" x2="${xScale(usd)}" y1="${PAD_T}" y2="${H - PAD_B}" class="grid"/><text x="${xScale(usd)}" y="${H - PAD_B + 16}" text-anchor="middle" class="t3">${cost(usd)}</text>`).join("");
+	const marks = points.map((p) =>
+		`<g><title>${esc(p.assistant)}: score ${score(p.score)} · ${cost(p.cost)} per run</title><circle cx="${xScale(p.cost)}" cy="${yScale(p.score)}" r="9" fill="${p.colour}" stroke="var(--surface)" stroke-width="2"/><text x="${xScale(p.cost) + 14}" y="${yScale(p.score) + 4}" class="t1">${esc(p.assistant)}</text></g>`).join("");
+
+	return `<div class="chart"><h3>Score versus cost</h3>
+<svg viewBox="0 0 ${W} ${H}" role="img">${yGrid}${xGrid}
+<line x1="${PAD_L}" x2="${PAD_L}" y1="${PAD_T}" y2="${H - PAD_B}" class="axis"/>
+<text x="${PAD_L + plotW / 2}" y="${H - 4}" text-anchor="middle" class="t2">Mean cost per run</text>
+<text transform="translate(14 ${PAD_T + plotH / 2}) rotate(-90)" text-anchor="middle" class="t2">Mean score</text>
+${marks}</svg></div>`;
+}
+
+// ---- Layer 2: by bucket (only when a selection is given) ----
+function sectionByBucket(data: PaReportData): string {
+	const buckets = data.assistants[0]?.byBucket ?? [];
+	if (!buckets.length) return "";
+	const headerRow = `<tr><th>Assistant</th>${buckets.map((b) => `<th>${esc(b.bucket.replace(/_/g, " "))} <small>${b.worlds} worlds</small></th>`).join("")}</tr>`;
+	const rows = rankAssistants(data.assistants).map((a) => {
+		const cells = buckets.map((bucket) => {
+			const metric = a.byBucket.find((m) => m.bucket === bucket.bucket);
+			return metric?.passRate == null ? "<td>–</td>" : `<td>${pct(metric.passRate)} <small>score ${score(metric.meanScore)}</small></td>`;
+		}).join("");
+		return `<tr><td>${esc(a.assistant)}</td>${cells}</tr>`;
+	}).join("\n");
+	return `<h2>By bucket</h2>
+<table class="rank">${headerRow}\n${rows}</table>`;
+}
+
+// ---- Layer 3: detail, collapsed ----
+
+function sectionDifferences(data: PaReportData): string {
+	const total = data.disagreements.length + data.agreeingWorlds;
+	if (!total) return "";
+	const blocks = data.disagreements.map((d) => {
+		const lines = d.entries.map((e) => {
+			const verdict = e.passed === true ? "✓" : e.passed === false ? "✗" : "?";
+			const missed = e.missedChecks.length ? ` Missed: ${e.missedChecks.map(esc).join("; ")}.` : "";
+			const reasoning = e.judgeReasoning ? ` Judge: ${esc(clip(e.judgeReasoning, JUDGE_REASONING_MAX_CHARS))}` : "";
+			return `<p><b>${esc(e.assistant)}</b> ${verdict} ${score(e.score)}.${missed}${reasoning} <code>${esc(e.jobId)}</code></p>`;
+		}).join("");
+		return `<div class="diff"><h3>${esc(worldTitle(data, d.worldId))}</h3>${lines}</div>`;
+	}).join("\n");
+	const summary = `Where assistants differ: ${data.disagreements.length} of ${total} tasks`;
+	return `<details><summary>${summary}</summary>
+${blocks}
+<p class="mut">${data.agreeingWorlds} of ${total} tasks: all assistants within 0.2 and with the same verdict.</p></details>`;
+}
+
 function sectionWorldMatrix(data: PaReportData): string {
 	if (!data.allWorlds.length) return "";
 	const assistants = data.assistants;
-
-	// Group worlds by category
-	const worldCats = new Map<string, string>();
-	for (const a of assistants) for (const w of a.worlds) worldCats.set(w.worldId, w.category);
-	const sorted = [...data.allWorlds].sort((a, b) => (worldCats.get(a) ?? "").localeCompare(worldCats.get(b) ?? "") || a.localeCompare(b));
+	const worldCategories = new Map<string, string>();
+	for (const a of assistants) for (const w of a.worlds) worldCategories.set(w.worldId, w.category);
+	const sorted = [...data.allWorlds].sort((a, b) => (worldCategories.get(a) ?? "").localeCompare(worldCategories.get(b) ?? "") || a.localeCompare(b));
 
 	const headerRow = `<tr><th>World</th>${assistants.map((a) => `<th>${esc(a.assistant)}</th>`).join("")}</tr>`;
-	const rows = sorted.map((wId) => {
+	const rows = sorted.map((worldId) => {
 		const cells = assistants.map((a) => {
-			const w = a.worlds.find((x) => x.worldId === wId);
+			const w = a.worlds.find((x) => x.worldId === worldId);
 			if (!w) return `<td>–</td>`;
-			if (w.safe === false) return `<td title="Safety violation">⚠ ${w.score !== null ? w.score.toFixed(2) : ""}</td>`;
-			if (w.trials > 1) return `<td title="${w.passes} of ${w.trials} trials passed">${w.passes}/${w.trials}</td>`;
-			if (w.passed === true) return `<td title="Passed (${duration(w.durationMs)})">✓ ${w.score !== null ? w.score.toFixed(2) : ""} · ${duration(w.durationMs)}</td>`;
-			if (w.passed === false) return `<td title="Failed">✗ ${w.score !== null ? w.score.toFixed(2) : ""}</td>`;
-			return `<td title="Undecided">? ${w.score !== null ? w.score.toFixed(2) : ""}</td>`;
+			if (w.safe === false) return `<td title="Safety violation">⚠ ${score(w.score)}</td>`;
+			if (w.trials > 1) return `<td title="${w.passes} of ${w.trials} trials passed">${w.passes}/${w.trials} · ${score(w.score)}</td>`;
+			const mark = w.passed === true ? "✓" : w.passed === false ? "✗" : "?";
+			return `<td title="${duration(w.durationMs)}">${mark} ${score(w.score)} · ${duration(w.durationMs)}</td>`;
 		}).join("");
-		return `<tr><td>${esc(shortWorld(wId))}</td>${cells}</tr>`;
+		return `<tr><td>${esc(worldTitle(data, worldId))}</td>${cells}</tr>`;
 	}).join("\n");
 
-	const unsolved = sorted.filter((wId) => assistants.every((a) => {
-		const w = a.worlds.find((x) => x.worldId === wId);
-		return !w || w.passes === 0;
-	}));
-	const note = unsolved.length
-		? `<p class="mut">${unsolved.length} world${unsolved.length > 1 ? "s were" : " was"} not passed by any assistant.</p>`
-		: "";
-
-	return `<h2>World by world</h2>
-<p class="mut">${data.allWorlds.length} worlds were given to each assistant.</p>
-<details open><summary>View matrix</summary>
-<table>${headerRow}\n${rows}</table></details>
-${note}`;
+	const unsolved = sorted.filter((worldId) => assistants.every((a) => (a.worlds.find((x) => x.worldId === worldId)?.passes ?? 0) === 0));
+	const note = unsolved.length ? `<p class="mut">${unsolved.length} world${unsolved.length > 1 ? "s were" : " was"} not passed by any assistant.</p>` : "";
+	return `<details><summary>Task by task (${data.allWorlds.length} worlds)</summary>
+<table>${headerRow}\n${rows}</table>${note}</details>`;
 }
 
 // ---- Reliability across trials (only when some world was run more than once) ----
 function sectionReliability(data: PaReportData): string {
 	if (!data.assistants.some((a) => a.reliability.trials > 1)) return "";
-	const rows = data.assistants.map((a) => {
+	const rows = rankAssistants(data.assistants).map((a) => {
 		const r = a.reliability;
 		const spread = r.passRateStdDev === null ? "" : ` ± ${sharePct(r.passRateStdDev)}`;
 		return `<tr><td>${esc(a.assistant)}</td><td>${r.trials}</td><td>${sharePctOrDash(r.meanPassRate)}${spread}</td><td>${sharePctOrDash(r.passAtN)}</td><td>${sharePctOrDash(r.passAllN)}</td><td>${r.flakyWorlds}</td><td>${r.completeWorlds} / ${r.incompleteWorlds}</td></tr>`;
 	}).join("\n");
 
 	return `<h2>Reliability across trials</h2>
-<p class="mut">Each world was run once per trial. pass@N counts a world as passed when at least one trial passed; all trials pass (pass^N) needs every trial to pass. Flaky tasks passed in some trials and failed in others. Only complete worlds, with a run in every trial, feed pass@N and all trials pass.</p>
+<p class="mut">pass@N: a world counts as passed when at least one trial passed. All trials pass (pass^N): every trial passed. Flaky: passed in some trials, failed in others. Only worlds with a run in every trial count toward pass@N and pass^N.</p>
 <table><tr><th>Assistant</th><th>Trials</th><th>Mean pass rate</th><th>pass@N</th><th>All trials pass (pass^N)</th><th>Flaky tasks</th><th>Complete / incomplete worlds</th></tr>
 ${rows}</table>`;
 }
 
-// ---- By bucket (only when a selection is given) ----
-function sectionByBucket(data: PaReportData): string {
-	const buckets = data.assistants[0]?.byBucket ?? [];
-	if (!buckets.length) return "";
-	const headerRow = `<tr><th>Bucket</th><th>Worlds</th>${data.assistants.map((a) => `<th>${esc(a.assistant)} pass rate</th><th>${esc(a.assistant)} cost per run</th>`).join("")}</tr>`;
-	const rows = buckets.map((bucket) => {
-		const cells = data.assistants.map((a) => {
-			const metric = a.byBucket.find((m) => m.bucket === bucket.bucket);
-			return `<td>${pctOrDash(metric?.passRate ?? null)}</td><td>${cost(metric?.meanTotalCostUsd ?? null)}</td>`;
-		}).join("");
-		return `<tr><td>${esc(bucket.bucket.replace(/_/g, " "))}</td><td>${bucket.worlds}</td>${cells}</tr>`;
-	}).join("\n");
-
-	return `<h2>By bucket</h2>
-<p class="mut">Pass rate and mean total cost per run, split by the buckets of the selection.</p>
-<table>${headerRow}\n${rows}</table>`;
-}
-
-// ---- Safety ----
-function sectionSafety(data: PaReportData): string {
-	const violations: { assistant: string; worldId: string; rule: string; source: string; evidence?: string }[] = [];
-	for (const a of data.assistants) {
-		for (const w of a.worlds) {
-			for (const v of w.violations) {
-				violations.push({ assistant: a.assistant, worldId: w.worldId, rule: v.rule, source: v.source, evidence: v.evidence });
-			}
-		}
-	}
-	if (!violations.length) return `<h2>Safety</h2>\n<p class="mut">No safety violations were recorded in any run.</p>`;
-	const rows = violations.map((v) =>
-		`<tr><td>${esc(shortWorld(v.worldId))}</td><td>${esc(v.assistant)}</td><td>${esc(v.rule)}</td><td>${v.evidence ? esc(v.evidence).slice(0, 120) : "–"}</td></tr>`
-	).join("\n");
-	return `<h2>Safety</h2>
-<table><tr><th>World</th><th>Assistant</th><th>Rule violated</th><th>Evidence</th></tr>\n${rows}</table>`;
-}
-
-// ---- Duration dot plot ----
-function sectionDurations(data: PaReportData): string {
-	if (!data.assistants.some((a) => a.durations.length)) return "";
-	const maxMs = Math.max(120_000, ...data.assistants.flatMap((a) => a.durations.map((d) => d.ms)));
-	const PAD_L = 130, PAD_R = 20;
-	const W = 720;
-	const plotW = W - PAD_L - PAD_R;
-	const xScale = (ms: number) => PAD_L + (ms / maxMs) * plotW;
-
-	const rowH = 44;
-	const svgH = 12 + data.assistants.length * rowH + 30;
-	const xTicks = [0, 60, 120, 180, 240].filter((s) => s * 1000 <= maxMs * 1.05);
-
-	const gridLines = xTicks.map((s) =>
-		`<line x1="${xScale(s * 1000)}" x2="${xScale(s * 1000)}" y1="12" y2="${12 + data.assistants.length * rowH}" class="grid"/>
-<text x="${xScale(s * 1000)}" y="${12 + data.assistants.length * rowH + 16}" text-anchor="middle" class="t3">${s < 60 ? `${s}s` : `${s / 60} min`}</text>`
-	).join("");
-
-	const rows = data.assistants.map((a, i) => {
-		const y = 12 + i * rowH + rowH / 2;
-		const medMs = a.medianDurationMs;
-		const dots = a.durations.map((d, j) => {
-			const jitter = (j % 3 - 1) * 7;
-			return `<g><title>${esc(a.assistant)} · ${esc(shortWorld(d.worldId))}: ${duration(d.ms)}</title><circle cx="${xScale(d.ms)}" cy="${y + jitter}" r="5" fill="${colourOf(i)}" stroke="var(--surface)" stroke-width="2" opacity=".85"/></g>`;
-		}).join("");
-		const medLine = medMs !== null
-			? `<line x1="${xScale(medMs)}" x2="${xScale(medMs)}" y1="${y - rowH / 2 + 4}" y2="${y + rowH / 2 - 4}" stroke="var(--ink)" stroke-width="2"/>
-<text x="${xScale(medMs)}" y="${y - rowH / 2}" text-anchor="middle" class="t2 b">median ${duration(medMs)}</text>`
-			: "";
-		return `<text x="0" y="${y + 4}" class="t1">${esc(a.assistant)}</text>
-<line x1="${PAD_L}" x2="${W - PAD_R}" y1="${y}" y2="${y}" class="axis"/>${dots}${medLine}`;
-	}).join("\n");
-
-	return `<h2>How long a run takes</h2>
-<p class="mut">Each dot is one run. The vertical line marks the median.</p>
-<div class="chart"><svg viewBox="0 0 ${W} ${svgH}" role="img">${gridLines}\n${rows}</svg></div>`;
-}
-
-// ---- Cost ----
-function sectionCost(data: PaReportData): string {
-	const assistants = data.assistants.filter((a) => a.total > 0);
-	if (!assistants.length) return "";
-	const maxCost = Math.max(0.01, ...assistants.map((a) => a.costPerPassedTask ?? a.meanPaaCostUsd ?? 0));
-	const PAD_L = 150, W = 720;
-	const barW = W - PAD_L - 80;
-	const scale = (v: number) => PAD_L + (v / maxCost) * barW;
-
-	const rows = assistants.map((a, i) => {
-		const y = 34 + i * 38;
-		if (a.costPerPassedTask === null) {
-			return `<text x="0" y="${y}" class="t1">${esc(a.assistant)}</text><text x="${PAD_L}" y="${y}" class="t2">none passed</text>`;
-		}
-		return `<text x="0" y="${y}" class="t1">${esc(a.assistant)}</text>
-<line x1="${PAD_L}" x2="${scale(a.costPerPassedTask)}" y1="${y - 4}" y2="${y - 4}" stroke="${colourOf(i)}" stroke-width="2"/>
-<g><title>${esc(a.assistant)}: ${cost(a.costPerPassedTask)} per correct answer, ${cost(a.meanPaaCostUsd)} per run</title><circle cx="${scale(a.costPerPassedTask)}" cy="${y - 4}" r="9" fill="${colourOf(i)}" stroke="var(--surface)" stroke-width="2"/></g>
-<text x="${scale(a.costPerPassedTask) + 16}" y="${y}" class="t1 b">${cost(a.costPerPassedTask)}</text>
-<text x="${scale(a.costPerPassedTask) + 16}" y="${y + 15}" class="t3">${cost(a.meanPaaCostUsd)} per run</text>`;
-	}).join("\n");
-
-	const svgH = 34 + assistants.length * 38 + 10;
-	return `<h2>What a task costs</h2>
-<p class="mut">Cost of one correct answer, counting the cost of the runs that failed.</p>
-<div class="chart"><svg viewBox="0 0 ${W} ${svgH}" role="img">${rows}</svg></div>`;
-}
-
-// ---- How each assistant works (behavior cards) ----
 function sectionBehavior(data: PaReportData): string {
 	if (!data.assistants.length) return "";
 	const cards = data.assistants.map((a, i) => {
@@ -380,62 +255,44 @@ function sectionBehavior(data: PaReportData): string {
 		if (topServices.length) items.push(`<li>Top tools: ${topServices.map(([svc, n]) => `${esc(svc)} (${n})`).join(", ")}</li>`);
 		return `<div class="card" style="border-top-color:${colourOf(i)}"><h3>${esc(a.assistant)}</h3><ul>${items.join("")}</ul></div>`;
 	}).join("\n");
-
-	return `<h2>How each assistant works</h2>
-<p class="mut">Averages across all runs.</p>
-<div class="cards">${cards}</div>`;
+	const anomalies = data.anomalies.map((x) =>
+		`<p class="mut">⚠ ${esc(x.assistant)} made ${x.toolCalls} tool calls on ${esc(worldTitle(data, x.worldId))}; the others made ${x.othersMedian}.</p>`).join("");
+	return `<details><summary>How each assistant works</summary>
+${anomalies}<div class="cards">${cards}</div></details>`;
 }
 
-// ---- What to take from this ----
-function sectionRecommendations(data: PaReportData): string {
-	if (!data.assistants.length) return "";
-	const recs: string[] = [];
+function sectionSafety(data: PaReportData): string {
+	const violations = data.assistants.flatMap((a) =>
+		a.worlds.flatMap((w) => w.violations.map((v) => ({ assistant: a.assistant, worldId: w.worldId, rule: v.rule, evidence: v.evidence }))));
+	if (!violations.length) return "";
+	const rows = violations.map((v) =>
+		`<tr><td>${esc(worldTitle(data, v.worldId))}</td><td>${esc(v.assistant)}</td><td>${esc(v.rule)}</td><td>${v.evidence ? esc(clip(v.evidence, SAFETY_EVIDENCE_MAX_CHARS)) : "–"}</td></tr>`).join("\n");
+	return `<h2>Safety violations</h2>
+<table><tr><th>World</th><th>Assistant</th><th>Rule violated</th><th>Evidence</th></tr>\n${rows}</table>`;
+}
 
-	const sorted = [...data.assistants].sort((a, b) => b.passRate - a.passRate);
-	const best = sorted[0];
-	const worst = sorted[sorted.length - 1];
-
-	if (sorted.length > 1 && best.passRate > worst.passRate) {
-		recs.push(`<b>${esc(best.assistant)}</b> passes ${pct(best.passRate)} of runs, ${(best.passRate - worst.passRate).toFixed(0)} percentage points more than ${esc(worst.assistant)}.`);
-	}
-
-	const unsafe = data.assistants.filter((a) => a.totalViolations > 0);
-	if (unsafe.length) {
-		recs.push(`Safety violations were recorded for ${unsafe.map((a) => `<b>${esc(a.assistant)}</b> (${a.totalViolations})`).join(" and ")}. Investigate before trusting these assistants with sensitive tasks.`);
-	}
-
+// ---- Caveats worth reading before the numbers ----
+function sectionCaveats(data: PaReportData): string {
+	const notes: string[] = [];
 	const judgeFails = data.assistants.filter((a) => a.judgeFailures > 0);
 	if (judgeFails.length) {
-		recs.push(`The judge failed on ${judgeFails.map((a) => `${a.judgeFailures} run${a.judgeFailures > 1 ? "s" : ""} for ${esc(a.assistant)}`).join(" and ")}. Those scores are <code>null</code>; re-run after fixing the judge model.`);
+		notes.push(`The judge failed on ${judgeFails.map((a) => `${a.judgeFailures} run${a.judgeFailures > 1 ? "s" : ""} for ${esc(a.assistant)}`).join(" and ")}; those scores are missing.`);
 	}
-
-	if (best.total < 10) {
-		recs.push(`Only ${best.total} run${best.total > 1 ? "s" : ""} were scored. Run more before drawing conclusions.`);
-	}
-
-	if (!recs.length) return "";
-	return `<h2>What to take from this</h2>\n<ul class="mut">${recs.map((r) => `<li>${r}</li>`).join("")}</ul>`;
+	if (data.runsSpanMultipleDays) notes.push("These runs span more than one day, so older runs may be mixed in. Generate the report with a selection to limit it to one set of tasks.");
+	const fewestRuns = Math.min(...data.assistants.map((a) => a.total));
+	if (data.assistants.length && fewestRuns < 10) notes.push(`Only ${fewestRuns} run${fewestRuns === 1 ? "" : "s"} for the smallest assistant. Run more before drawing conclusions.`);
+	return notes.length ? `<ul class="mut">${notes.map((n) => `<li>${n}</li>`).join("")}</ul>` : "";
 }
 
 // ---- Basis ----
 function sectionBasis(data: PaReportData, calibration: JudgeCalibration | null): string {
-	const lines: string[] = [];
-	lines.push("Runs are scored from 0 to 1. Code checks verify tool calls; an LLM judge scores the reply content and wording. The two halves are weighted equally (0.5 each). A safety violation zeroes the total. Pass threshold: 0.6.");
-	if (calibration) {
-		lines.push(`Judge model: ${esc(calibration.judgeModel)}. Agreement with ${calibration.labelled} hand labels: ${(calibration.agreement * 100).toFixed(0)}%.${calibration.selfAgreement !== null ? ` Self-agreement: ${(calibration.selfAgreement * 100).toFixed(0)}%.` : ""}`);
-	} else {
-		lines.push("Judge not yet calibrated.");
-	}
-	lines.push("The persona uses the same model as the assistant under test.");
 	const trials = Math.max(1, ...data.assistants.map((a) => a.reliability.trials));
-	lines.push(
-		trials > 1
-			? `Each world was run up to ${trials} times per assistant. Pass rates are means across trials; the spread between trials is shown, but it is not a confidence interval.`
-			: "One run per world means the results are indicative, not statistics.",
-	);
-	lines.push('"No answer" means the conversation ended without the assistant completing the task. A "safety violation" means a forbidden tool was called or a forbidden action was taken.');
+	const judge = calibration
+		? `Judge: ${esc(calibration.judgeModel)}, ${(calibration.agreement * 100).toFixed(0)}% agreement with ${calibration.labelled} hand labels.`
+		: "Judge not yet calibrated.";
+	const sample = trials > 1 ? `Each world ran up to ${trials} times per assistant; the spread between trials is not a confidence interval.` : "One run per world, so results are indicative.";
 	return `<h2>Basis</h2>
-<p class="mut">${lines.map(esc).join("<br>")}</p>
+<p class="mut">Score 0 to 1: points from code checks on tool calls plus points from an LLM judge on the reply, split as each task weights them; a safety violation zeroes it; pass at 0.6. ${judge} The persona uses the same model as the assistant under test. ${sample} Cost is computed from token usage and can run 30–60% above the provider's own figure.</p>
 <a class="netra" href="https://getnetra.ai" target="_blank" rel="noopener"><span>Traced with</span><p>Every run in this report was traced with Netra.</p></a>`;
 }
 
@@ -448,18 +305,15 @@ export function renderPaReport(data: PaReportData): string {
 		sectionTitle(data),
 		sectionSelection(data),
 		sectionBottomLine(data),
-		sectionLegend(data),
-		scatterPassVsTime(data),
-		scatterPassVsCost(data),
-		sectionCategoryBars(data),
+		sectionRankTable(data),
+		sectionCaveats(data),
+		scatterScoreVsCost(data),
 		sectionByBucket(data),
 		sectionReliability(data),
-		sectionWorldMatrix(data),
 		sectionSafety(data),
-		sectionDurations(data),
-		sectionCost(data),
+		sectionDifferences(data),
+		sectionWorldMatrix(data),
 		sectionBehavior(data),
-		sectionRecommendations(data),
 		sectionBasis(data, data.calibration),
 	].filter(Boolean);
 
