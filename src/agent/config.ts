@@ -11,6 +11,16 @@ import type { ModelConfig } from "../shared/types.ts";
 
 export const PROVIDER = "bench";
 
+/** Prices pi uses. Cache prices fall back to the input price, as `callCost` does, so cached tokens are never free by default. */
+function piCost(cost: NonNullable<ModelConfig["cost"]>) {
+	return {
+		input: cost.input,
+		output: cost.output,
+		cacheRead: cost.cacheRead ?? cost.input,
+		cacheWrite: cost.cacheWrite ?? cost.input,
+	};
+}
+
 /** Writes a models.json defining the benchmark provider and returns its directory (used as agentDir). */
 export async function writeModelsJson(model: ModelConfig): Promise<string> {
 	const agentDir = await mkdtemp(path.join(tmpdir(), "pi-agent-"));
@@ -20,7 +30,7 @@ export async function writeModelsJson(model: ModelConfig): Promise<string> {
 				baseUrl: model.baseUrl,
 				api: model.api,
 				apiKey: model.apiKey,
-				models: [{ id: model.modelId, ...(model.cost && { cost: { cacheRead: 0, cacheWrite: 0, ...model.cost } }) }],
+				models: [{ id: model.modelId, ...(model.cost && { cost: piCost(model.cost) }) }],
 			},
 		},
 	};

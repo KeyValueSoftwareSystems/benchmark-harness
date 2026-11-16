@@ -1,0 +1,865 @@
+[
+  {
+    "workbook_id": "WB-1",
+    "name": "Rachel Summers Events — Budget Tracking 2024–2026",
+    "owner": "rachel@rachelsummersevents.example",
+    "sheets": [
+      {
+        "sheet_id": "WB-1-S1",
+        "name": "Corporate Events",
+        "rows": [
+          [
+            "Event",
+            "Client",
+            "Date",
+            "Venue",
+            "Attendance",
+            "Budget",
+            "Actuals",
+            "Variance",
+            "Planner Fee",
+            "Notes"
+          ],
+          [
+            "Q4 All-Hands",
+            "Veridian Technologies",
+            "2024-11-08",
+            "The Langham Boston",
+            60,
+            22000,
+            21340,
+            660,
+            3500,
+            "First engagement; smooth execution"
+          ],
+          [
+            "Leadership Summit 2025",
+            "Veridian Technologies",
+            "2025-09-19",
+            "The Meridian Conference Center",
+            85,
+            40000,
+            38620,
+            1380,
+            4500,
+            "4.6/5 satisfaction; floral vendor issue noted"
+          ],
+          [
+            "Tech Networking Mixer",
+            "Apex Dynamics",
+            "2025-06-12",
+            "Rowes Wharf Arts",
+            55,
+            12000,
+            11780,
+            220,
+            2200,
+            "One-off client; no repeat expected"
+          ],
+          [
+            "Q1 Sales Kickoff",
+            "Northbridge Partners",
+            "2026-02-06",
+            "Marriott Copley Place",
+            70,
+            28000,
+            27450,
+            550,
+            4000,
+            "Returning client; second event"
+          ]
+        ]
+      },
+      {
+        "sheet_id": "WB-1-S2",
+        "name": "Veridian 2026 RFP Model",
+        "rows": [
+          [
+            "Line Item",
+            "Vendor",
+            "2025 Actual",
+            "2026 Estimate (100 pax)",
+            "Notes"
+          ],
+          [
+            "Venue — Ballroom A",
+            "The Meridian",
+            12500,
+            13750,
+            "~10% YoY increase assumed; confirm with Jamie"
+          ],
+          [
+            "Venue — Breakout Rooms (3)",
+            "The Meridian",
+            3600,
+            3960,
+            "~10% YoY increase assumed"
+          ],
+          [
+            "Venue — Pre-function Foyer",
+            "The Meridian",
+            0,
+            800,
+            "New addition for 2026; address registration crowding"
+          ],
+          [
+            "Venue — Executive Suite",
+            "The Meridian",
+            0,
+            350,
+            "Green room for speakers"
+          ],
+          [
+            "Catering (breakfast + lunch + breaks)",
+            "Harvest Table",
+            9775,
+            11500,
+            "$115/head 2026 est; ~7% inflation + 15 more pax"
+          ],
+          [
+            "AV / Production",
+            "ClearSignal AV",
+            4200,
+            4500,
+            "Stable pricing; confirm updated quote"
+          ],
+          [
+            "Floral / Décor",
+            "Petal & Stem Co.",
+            1850,
+            2200,
+            "Replacing Bloom & Branch; ~$22/head est"
+          ],
+          [
+            "Photography (half-day)",
+            "Lena Park Photography",
+            2100,
+            2300,
+            "Returning vendor; slight rate increase expected"
+          ],
+          [
+            "Printed Materials + Signage",
+            "",
+            0,
+            1400,
+            "New line item; $14/head"
+          ],
+          [
+            "Contingency (3.5%)",
+            "",
+            0,
+            1440,
+            "Buffer on subtotal ~$41,160"
+          ],
+          [
+            "Planner Fee",
+            "Rachel Summers Events",
+            4500,
+            5200,
+            "Returning client rate; scope increase to 100 pax"
+          ],
+          [
+            "TOTAL",
+            "",
+            38620,
+            47400,
+            "Over $45K threshold — need to trim ~$2–3K"
+          ],
+          [
+            "TOTAL (excl. planner fee)",
+            "",
+            34120,
+            42200,
+            "Client-facing investment figure"
+          ]
+        ]
+      }
+    ],
+    "created_at": "2024-11-15T09:00:00-05:00",
+    "last_modified": "2026-02-26T12:00:00-05:00"
+  },
+  {
+    "workbook_id": "WB-2",
+    "name": "2026 Wedding Season — Budget Tracker",
+    "owner": "rachel@rachelsummersevents.example",
+    "sheets": [
+      {
+        "sheet_id": "WB-2-S1",
+        "name": "Active Weddings",
+        "rows": [
+          [
+            "Wedding",
+            "Date",
+            "Venue",
+            "Guest Count",
+            "Total Budget",
+            "Contracted",
+            "Paid to Date",
+            "Florist",
+            "Florist Budget",
+            "Florist Status"
+          ],
+          [
+            "Chen-Okafor",
+            "2026-05-09",
+            "The Linden Estate",
+            120,
+            68000,
+            68000,
+            34000,
+            "Bloom & Branch",
+            3200,
+            "AFFECTED — price increase"
+          ],
+          [
+            "Patel-Williams",
+            "2026-06-06",
+            "Harbor View Terrace",
+            95,
+            52000,
+            52000,
+            26000,
+            "Bloom & Branch",
+            2800,
+            "AFFECTED — price increase"
+          ],
+          [
+            "Nguyen-Castillo",
+            "2026-06-27",
+            "Rosewood Gardens",
+            140,
+            85000,
+            85000,
+            42500,
+            "Petal & Stem Co.",
+            4100,
+            "OK — not Bloom & Branch"
+          ],
+          [
+            "Kowalski-Reyes",
+            "2026-08-01",
+            "The Grand Pavilion",
+            110,
+            72000,
+            72000,
+            18000,
+            "Bloom & Branch",
+            3500,
+            "AFFECTED — price increase"
+          ]
+        ]
+      }
+    ],
+    "created_at": "2026-01-05T09:00:00-05:00",
+    "last_modified": "2026-02-25T16:30:00-05:00"
+  },
+  {
+    "workbook_id": "WB-3",
+    "name": "Veridian 2026 RFP — Budget Model",
+    "owner": "rachel@rachelsummersevents.example",
+    "sheets": [
+      {
+        "sheet_id": "WB-3-S1",
+        "name": "RFP Budget Model",
+        "headers": [
+          "Category",
+          "Line Item",
+          "2025 Actual",
+          "2026 Estimate",
+          "Basis / Notes",
+          "Status"
+        ],
+        "rows": [
+          [
+            "Venue",
+            "Grand Ballroom — full day",
+            6200,
+            6200,
+            "Meridian 2026 rate card — flat from 2025",
+            "confirmed"
+          ],
+          [
+            "Venue",
+            "Breakout Suite A",
+            1100,
+            1100,
+            "Meridian 2026 rate card — flat from 2025",
+            "confirmed"
+          ],
+          [
+            "Venue",
+            "Breakout Suite B",
+            1100,
+            1100,
+            "Meridian 2026 rate card — flat from 2025",
+            "confirmed"
+          ],
+          [
+            "Venue",
+            "Foyer / Pre-function add-on",
+            1150,
+            1400,
+            "Meridian 2026 rate card — increased from $1,150",
+            "PENDING CONFIRMATION"
+          ],
+          [
+            "Catering",
+            "Plated lunch + AM/PM breaks + cocktail apps (100 pax @ $95/head est.)",
+            8800,
+            9500,
+            "Harvest Table 2025 actual $88/head; 2026 est. $92–98/head — using $95 midpoint",
+            "PENDING QUOTE"
+          ],
+          [
+            "AV & Production",
+            "AV package — screens, mics, hybrid streaming",
+            7200,
+            7500,
+            "ClearSignal 2025 invoice; 2026 est. +4% — formal quote pending",
+            "PENDING QUOTE"
+          ],
+          [
+            "Floral & Décor",
+            "Stage backdrop, centerpieces, registration table",
+            3800,
+            4200,
+            "Bloom & Branch 2025 actual; 2026 estimate includes price increase",
+            "estimated"
+          ],
+          [
+            "Photography",
+            "Event photographer — full day",
+            2800,
+            2900,
+            "2025 vendor rate + standard annual increase",
+            "estimated"
+          ],
+          [
+            "Staffing",
+            "Day-of coordinator assistant (8 hrs)",
+            600,
+            650,
+            "Part-time assistant rate",
+            "confirmed"
+          ],
+          [
+            "Staffing",
+            "Registration staff x2 (6 hrs each)",
+            480,
+            500,
+            "Standard temp rate",
+            "estimated"
+          ],
+          [
+            "Printing & Signage",
+            "Programs, name badges, directional signage",
+            420,
+            450,
+            "2025 actual + modest increase",
+            "estimated"
+          ],
+          [
+            "Transportation",
+            "Shuttle service — hotel to venue x2 runs",
+            900,
+            950,
+            "2025 vendor quote + fuel surcharge",
+            "estimated"
+          ],
+          [
+            "Contingency",
+            "5% contingency buffer",
+            0,
+            2000,
+            "~5% of non-fee subtotal; held flat as floor",
+            "reserved"
+          ],
+          [
+            "Planner Fee",
+            "Rachel Summers Events planning fee",
+            5000,
+            5200,
+            "Standard fee per engagement letter — NOT included in $45k client cap",
+            "confirmed"
+          ],
+          [
+            "",
+            "SUBTOTAL (client-facing, excl. planner fee)",
+            "",
+            47450,
+            "Current model total — OVER $45k cap by ~$2,450",
+            "OVER BUDGET"
+          ],
+          [
+            "",
+            "TOTAL (all-in incl. planner fee)",
+            "",
+            52650,
+            "All-in total",
+            ""
+          ]
+        ]
+      },
+      {
+        "sheet_id": "WB-3-S2",
+        "name": "Trim Analysis",
+        "headers": [
+          "Line Item",
+          "Current Estimate",
+          "Proposed Revised",
+          "Reduction",
+          "Rationale",
+          "Risk"
+        ],
+        "rows": [
+          [
+            "Foyer / Pre-function add-on",
+            1400,
+            1200,
+            200,
+            "Negotiate with Jamie Okafor — 2025 rate was $1,150; ask for $1,200 as returning client",
+            "Low — Meridian values repeat business"
+          ],
+          [
+            "Catering (100 pax)",
+            9500,
+            9200,
+            300,
+            "Use $92/head floor of Harvest Table estimate range rather than $95 midpoint; confirm with formal quote",
+            "Medium — quote pending; could go higher"
+          ],
+          [
+            "AV & Production",
+            7500,
+            7000,
+            500,
+            "ClearSignal 2025 invoice was $7,200 for full package; request 2026 hold at 2025 rate given multi-year relationship",
+            "Medium — quote pending"
+          ],
+          [
+            "Floral & Décor",
+            4200,
+            3800,
+            400,
+            "Revert to 2025 actual; use Bloom & Branch base package without premium add-ons; Obsidian note flags GreenLeaf Studio as backup at lower rate",
+            "Low — confirmed 2025 actuals support this"
+          ],
+          [
+            "Photography",
+            2900,
+            2750,
+            150,
+            "Negotiate modest reduction or hold at 2025 rate + $0 increase",
+            "Low"
+          ],
+          [
+            "Printing & Signage",
+            450,
+            400,
+            50,
+            "Reduce print run slightly; digital programs as option",
+            "Low"
+          ],
+          [
+            "",
+            "TOTAL REDUCTIONS",
+            "",
+            1600,
+            "",
+            ""
+          ],
+          [
+            "",
+            "REVISED CLIENT-FACING SUBTOTAL",
+            47450,
+            44950,
+            2500,
+            "Under $45k cap by ~$50 — within target; contingency preserved at $2,000"
+          ],
+          [
+            "",
+            "NOTE: Three line items remain PENDING",
+            "",
+            "",
+            "Foyer add-on, catering quote, AV quote — all could shift model before RFP submission",
+            ""
+          ]
+        ]
+      }
+    ],
+    "created_at": "2026-02-20T10:00:00-05:00",
+    "last_modified": "2026-02-28T17:30:00-05:00"
+  },
+  {
+    "workbook_id": "WB-4",
+    "name": "Veridian 2026 RFP — Trim Analysis Scenarios (Foyer Pivot)",
+    "owner": "rachel@rachelsummersevents.example",
+    "sheets": [
+      {
+        "sheet_name": "Scenario Comparison",
+        "description": "Re-run of WB-3 Trim Analysis with foyer confirmed at $1,650. Three scenarios evaluated against $45,000 client ceiling.",
+        "rows": [
+          {
+            "line_item": "Venue — Main Ballroom (full day)",
+            "base_model": 12500,
+            "scenario_a_keep_foyer": 12500,
+            "scenario_b_drop_foyer": 12500,
+            "scenario_c_keep_foyer_find_cuts": 12500,
+            "notes": "Confirmed rate, no change"
+          },
+          {
+            "line_item": "Venue — Foyer Add-On",
+            "base_model": 1400,
+            "scenario_a_keep_foyer": 1650,
+            "scenario_b_drop_foyer": 0,
+            "scenario_c_keep_foyer_find_cuts": 1650,
+            "notes": "CONFIRMED $1,650 per MSG-5010. Was $1,400 in WB-3. Scenario B removes entirely."
+          },
+          {
+            "line_item": "Catering — Harvest Table (100 pax, lunch + reception)",
+            "base_model": 14200,
+            "scenario_a_keep_foyer": 14200,
+            "scenario_b_drop_foyer": 14200,
+            "scenario_c_keep_foyer_find_cuts": 13750,
+            "notes": "QUOTE PENDING — EOD 2026-03-27. Scenario C assumes $450 reduction; unconfirmed."
+          },
+          {
+            "line_item": "AV — ClearSignal (full production package)",
+            "base_model": 8800,
+            "scenario_a_keep_foyer": 8800,
+            "scenario_b_drop_foyer": 8800,
+            "scenario_c_keep_foyer_find_cuts": 8800,
+            "notes": "QUOTE PENDING. No reduction modeled in Scenario C — insufficient data."
+          },
+          {
+            "line_item": "Florals & Décor",
+            "base_model": 3200,
+            "scenario_a_keep_foyer": 3200,
+            "scenario_b_drop_foyer": 3200,
+            "scenario_c_keep_foyer_find_cuts": 3200,
+            "notes": "Already trimmed in WB-3"
+          },
+          {
+            "line_item": "Photography",
+            "base_model": 2800,
+            "scenario_a_keep_foyer": 2800,
+            "scenario_b_drop_foyer": 2800,
+            "scenario_c_keep_foyer_find_cuts": 2800,
+            "notes": "No change"
+          },
+          {
+            "line_item": "Transportation & Logistics",
+            "base_model": 1200,
+            "scenario_a_keep_foyer": 1200,
+            "scenario_b_drop_foyer": 1200,
+            "scenario_c_keep_foyer_find_cuts": 1200,
+            "notes": "No change"
+          },
+          {
+            "line_item": "Planner Fee (Rachel Summers Events)",
+            "base_model": 4500,
+            "scenario_a_keep_foyer": 4500,
+            "scenario_b_drop_foyer": 4500,
+            "scenario_c_keep_foyer_find_cuts": 4500,
+            "notes": "Floor — not negotiable"
+          },
+          {
+            "line_item": "Contingency (2%)",
+            "base_model": 900,
+            "scenario_a_keep_foyer": 900,
+            "scenario_b_drop_foyer": 900,
+            "scenario_c_keep_foyer_find_cuts": 900,
+            "notes": "Minimum contingency maintained"
+          },
+          {
+            "line_item": "SUBTOTAL (client-facing)",
+            "base_model": 49500,
+            "scenario_a_keep_foyer": 49750,
+            "scenario_b_drop_foyer": 48100,
+            "scenario_c_keep_foyer_find_cuts": 49300,
+            "notes": "Pre-trim figures shown for reference"
+          },
+          {
+            "line_item": "Applied Trims (from WB-3 Trim Analysis)",
+            "base_model": -2500,
+            "scenario_a_keep_foyer": -4050,
+            "scenario_b_drop_foyer": -4050,
+            "scenario_c_keep_foyer_find_cuts": -4050,
+            "notes": "Trims carried forward from WB-3; Scenario A requires additional $700 trim to hit ceiling"
+          },
+          {
+            "line_item": "REVISED CLIENT-FACING SUBTOTAL",
+            "base_model": 47000,
+            "scenario_a_keep_foyer": 45700,
+            "scenario_b_drop_foyer": 44050,
+            "scenario_c_keep_foyer_find_cuts": 45250,
+            "notes": "Ceiling: $45,000. A = +$700 over. B = -$950 under. C = +$250 over (pending quotes)."
+          },
+          {
+            "line_item": "GAP vs. $45,000 CEILING",
+            "base_model": "+$2,000",
+            "scenario_a_keep_foyer": "+$700",
+            "scenario_b_drop_foyer": "-$950",
+            "scenario_c_keep_foyer_find_cuts": "+$250 (UNCONFIRMED)",
+            "notes": "Scenario B is the only confirmed-data path under ceiling. Scenario C depends on pending quotes."
+          }
+        ]
+      },
+      {
+        "sheet_name": "Notes & Assumptions",
+        "rows": [
+          {
+            "item": "Foyer rate source",
+            "detail": "MSG-5010 — Meridian rate card email received 2026-03-26 09:14. Rate $1,650 confirmed firm, no discount available."
+          },
+          {
+            "item": "Previous modeled foyer rate",
+            "detail": "$1,400 (WB-3). Negotiation target was $1,200. Both superseded by confirmed rate card."
+          },
+          {
+            "item": "Catering quote status",
+            "detail": "Harvest Table quote pending — expected EOD 2026-03-27 per MSG-5012. Scenario C $450 reduction is illustrative only."
+          },
+          {
+            "item": "AV quote status",
+            "detail": "ClearSignal quote still pending as of 2026-03-26. No reduction modeled."
+          },
+          {
+            "item": "Decision deadline",
+            "detail": "Marcus Chen must confirm foyer in/out by EOD 2026-03-27 (EVT-307) before RFP writing block (EVT-303)."
+          },
+          {
+            "item": "Operational note — foyer-free viability",
+            "detail": "Per OBSN-3 site visit notes: foyer-free registration is viable for 100 pax with staggered arrivals and adequate staffing. Not operationally mandatory."
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-03-26T11:00:00-05:00",
+    "last_modified": "2026-03-26T15:00:00-05:00"
+  },
+  {
+    "workbook_id": "WB-5",
+    "name": "2026 Wedding Season — Floral Rate Impact Analysis",
+    "owner": "rachel@rachelsummersevents.example",
+    "sheets": [
+      {
+        "sheet_name": "Bloom & Branch Rate Impact",
+        "rows": [
+          [
+            "Wedding",
+            "Event Date",
+            "Contracted Floral $",
+            "New Rate (18% increase)",
+            "Delta",
+            "Contingency Reserve",
+            "Absorption Possible?",
+            "Notes"
+          ],
+          [
+            "Kowalski-Reyes",
+            "2026-05-09",
+            "$3,500",
+            "$4,130",
+            "+$630",
+            "$800",
+            "YES — $170 remaining",
+            "Tight. Wipes most of contingency. Carve-out negotiation preferred."
+          ],
+          [
+            "Chen-Okafor",
+            "2026-06-27",
+            "$3,800",
+            "$4,484",
+            "+$684",
+            "$900",
+            "YES — $216 remaining",
+            "Possible but should disclose to client proactively. Lead time allows."
+          ],
+          [
+            "Patel-Williams",
+            "2026-08-23",
+            "$4,100",
+            "$4,838",
+            "+$738",
+            "$1,000",
+            "YES — $262 remaining",
+            "Sufficient lead time. Recommend client disclosure + renegotiation."
+          ],
+          [
+            "TOTAL DELTA",
+            "",
+            "$11,400",
+            "$13,452",
+            "+$2,052",
+            "$2,700",
+            "",
+            "Total season exposure if all three absorb at new rate."
+          ]
+        ]
+      },
+      {
+        "sheet_name": "Kowalski-Reyes Budget Detail",
+        "rows": [
+          [
+            "Line Item",
+            "Budgeted",
+            "Contracted / Actual",
+            "Status",
+            "Notes"
+          ],
+          [
+            "Venue — Elm & Ivy Estate",
+            "$8,500",
+            "$8,500",
+            "Confirmed",
+            "Deposit paid Feb 2026"
+          ],
+          [
+            "Catering — Lakeview Catering Co.",
+            "$9,200",
+            "$9,200",
+            "Confirmed",
+            "Final headcount due Apr 30"
+          ],
+          [
+            "Photography — Jenna Park",
+            "$3,800",
+            "$3,800",
+            "Confirmed",
+            ""
+          ],
+          [
+            "DJ — SoundWave Events",
+            "$1,800",
+            "$1,800",
+            "Confirmed",
+            ""
+          ],
+          [
+            "Florals — Bloom & Branch",
+            "$3,500",
+            "$3,500 (contracted) / $4,130 (new rate)",
+            "⚠️ CONFLICT",
+            "See rate conflict log. Delta: +$630."
+          ],
+          [
+            "Hair & Makeup",
+            "$1,400",
+            "$1,400",
+            "Confirmed",
+            ""
+          ],
+          [
+            "Officiant",
+            "$500",
+            "$500",
+            "Confirmed",
+            ""
+          ],
+          [
+            "Stationery & Signage",
+            "$600",
+            "$600",
+            "Confirmed",
+            ""
+          ],
+          [
+            "Contingency",
+            "$800",
+            "$800",
+            "Available",
+            "Would be reduced to $170 if floral delta absorbed"
+          ],
+          [
+            "TOTAL",
+            "$30,100",
+            "$30,100 / $30,730 (if new rate)",
+            "",
+            "Client budget ceiling: $28,000 — already over; contingency is Rachel's buffer"
+          ]
+        ]
+      }
+    ],
+    "created_at": "2026-04-26T09:00:00-05:00",
+    "last_modified": "2026-04-26T10:00:00-05:00"
+  },
+  {
+    "workbook_id": "WB-6",
+    "name": "Veridian 2026 RFP — Final Budget Lock (Foyer-IN Scenario)",
+    "owner": "rachel@rachelsummersevents.example",
+    "sheets": [
+      {
+        "sheet_name": "Budget Lock — Foyer IN",
+        "rows": [
+          {
+            "line_item": "Venue — Meridian Base Rate (Sept 18–19)",
+            "modeled": 12800,
+            "confirmed": 12800,
+            "source": "Meridian rate card confirmed",
+            "status": "LOCKED"
+          },
+          {
+            "line_item": "Venue — Foyer Add-On",
+            "modeled": 1400,
+            "confirmed": 1650,
+            "source": "MSG-5014 / Meridian rate card",
+            "status": "LOCKED — $250 over model"
+          },
+          {
+            "line_item": "Catering — Harvest Table (100 pax, 2 days)",
+            "modeled": 20500,
+            "confirmed": 19900,
+            "source": "MSG-5022 confirmed quote 3/31",
+            "status": "LOCKED — $600 under model"
+          },
+          {
+            "line_item": "AV — ClearSignal (2-day full production)",
+            "modeled": 8400,
+            "confirmed": 8000,
+            "source": "MSG-5023 confirmed quote 3/31",
+            "status": "LOCKED — $400 under model"
+          },
+          {
+            "line_item": "Coordination Fee",
+            "modeled": 1200,
+            "confirmed": 1200,
+            "source": "Standard rate",
+            "status": "LOCKED"
+          },
+          {
+            "line_item": "Contingency Buffer",
+            "modeled": 1100,
+            "confirmed": 1100,
+            "source": "Trimmed from $1,400 to clear ceiling",
+            "status": "LOCKED — NOTE: tight buffer, flag to client"
+          },
+          {
+            "line_item": "TOTAL",
+            "modeled": 45400,
+            "confirmed": 44650,
+            "source": "",
+            "status": "CLEARS $45K CEILING — $350 headroom"
+          }
+        ]
+      },
+      {
+        "sheet_name": "Scenario Comparison (archived)",
+        "rows": [
+          {
+            "scenario": "Foyer-OUT (WB-4 Scenario A)",
+            "total": 43000,
+            "status": "ARCHIVED — foyer-IN confirmed by Marcus Chen 2026-04-01"
+          },
+          {
+            "scenario": "Foyer-IN (WB-4 Scenario B)",
+            "total": 44650,
+            "status": "ACTIVE — locked for proposal"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-04-01T11:15:00-05:00",
+    "last_modified": "2026-04-01T13:00:00-05:00"
+  }
+]

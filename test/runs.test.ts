@@ -10,6 +10,7 @@ const run = (over: Partial<RunRecord> = {}): RunRecord => ({
 	modelId: "gpt-x-2026",
 	challenge: "locktalk",
 	assistant: null,
+	trial: 1,
 	status: "done",
 	correct: true,
 	outcome: { correct: true },
@@ -108,4 +109,34 @@ test("re-saving the same attempt keeps the Netra data already stored for its ses
 	upsertRun(db, run({ sessionId: "s1" }));
 	const [r] = listRuns(db, {});
 	assert.deepEqual([r.netraMetadata, r.traceIds], [{ spans: 4 }, ["t1"]]);
+});
+
+test("the trial round-trips, and a re-run of one trial replaces it without touching other trials", () => {
+	const db = openDb(":memory:");
+	upsertRun(db, run({ jobId: "t1", trial: 1 }));
+	upsertRun(db, run({ jobId: "t2", trial: 2 }));
+	upsertRun(db, run({ jobId: "t2", trial: 3 }));
+	const trials = listRuns(db, {}).map((r) => [r.jobId, r.trial]);
+	assert.deepEqual(trials, [["t1", 1], ["t2", 3]]);
+});
+
+test("the trial column is added to a database created before it existed, and old rows read as trial 1", async () => {
+	const { DatabaseSync } = await import("node:sqlite");
+	const { mkdtempSync } = await import("node:fs");
+	const { tmpdir } = await import("node:os");
+	const { join } = await import("node:path");
+	const file = join(mkdtempSync(join(tmpdir(), "db-")), "pre-trial.db");
+	const old = new DatabaseSync(file);
+	old.exec(`CREATE TABLE runs (job_id TEXT PRIMARY KEY, benchmark TEXT NOT NULL, model TEXT NOT NULL, model_id TEXT NOT NULL,
+		challenge TEXT, assistant TEXT, status TEXT NOT NULL, correct INTEGER, outcome TEXT, metrics TEXT NOT NULL, session_id TEXT,
+		trace_ids TEXT, netra_metadata TEXT, conditions TEXT NOT NULL, created_at TEXT NOT NULL, finished_at TEXT NOT NULL)`);
+	old.exec(`INSERT INTO runs VALUES ('legacy', 'cyber', 'gpt-x', 'g', 'c', NULL, 'done', 1, NULL, '{"turns":1,"durationMs":1,"inputTokens":1,"outputTokens":1,"costUsd":0}', NULL, NULL, NULL, '{}', '2026-01-01', '2026-01-01')`);
+	old.close();
+
+	const db = openDb(file);
+	upsertRun(db, run({ jobId: "t2", trial: 2 }));
+	const byId = new Map(listRuns(db, {}).map((r) => [r.jobId, r]));
+	assert.equal(byId.get("legacy")?.trial, 1);
+	assert.equal(byId.get("t2")?.trial, 2);
+	db.close();
 });

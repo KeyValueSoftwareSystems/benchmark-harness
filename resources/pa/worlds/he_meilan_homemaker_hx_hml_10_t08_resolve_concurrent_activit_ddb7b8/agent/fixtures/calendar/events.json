@@ -1,0 +1,2357 @@
+[
+  {
+    "event_id": "EVT-301",
+    "title": "Xiaobao doctor appointment - Children's Hospital",
+    "start_time": "2026-03-03T14:00:00+08:00",
+    "end_time": "2026-03-03T15:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "City Children's Hospital, Building A, 3F Pediatrics",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-302",
+    "title": "Xiaobao checkup - Community Clinic",
+    "start_time": "2026-03-04T10:00:00+08:00",
+    "end_time": "2026-03-04T11:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Community Health Clinic",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-303",
+    "title": "Consultation - Dr. Wang (Children's Hospital)",
+    "start_time": "2026-03-05T15:30:00+08:00",
+    "end_time": "2026-03-05T17:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "City Children's Hospital",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-304",
+    "title": "Pick up elder son from school",
+    "start_time": "2026-03-03T16:00:00+08:00",
+    "end_time": "2026-03-03T16:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao"
+    ],
+    "location": "Sunshine Elementary School",
+    "recurring": "daily_weekdays"
+  },
+  {
+    "event_id": "EVT-0305",
+    "title": "Deadline: Finalize Spring Festival travel plan with husband",
+    "start_time": "2026-02-15T20:00:00+08:00",
+    "end_time": "2026-02-15T22:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo (husband)"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-0306",
+    "title": "Elder child tutoring class resumes (Spring Festival constraint)",
+    "start_time": "2026-02-18T09:00:00+08:00",
+    "end_time": "2026-02-18T12:00:00+08:00",
+    "attendees": [
+      "Elder child (Dabao)"
+    ],
+    "location": "Elite Education Center",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-0307",
+    "title": "Tentative: Spring Festival Eve (must be at one family's home)",
+    "start_time": "2026-02-09T18:00:00+08:00",
+    "end_time": "2026-02-09T23:59:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo",
+      "Elder child",
+      "Younger child"
+    ],
+    "location": "TBD - Shandong or Sichuan",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-0308",
+    "title": "Lantern Festival (parents want us to stay)",
+    "start_time": "2026-02-22T18:00:00+08:00",
+    "end_time": "2026-02-22T21:00:00+08:00",
+    "attendees": [
+      "Family"
+    ],
+    "location": "TBD",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-309",
+    "title": "DEADLINE: Spring outing payment (conservative)",
+    "start_time": "2026-03-18T18:00:00+08:00",
+    "end_time": "2026-03-18T19:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Online payment portal",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-310",
+    "title": "REFERENCE: Official spring outing payment deadline",
+    "start_time": "2026-03-21T17:00:00+08:00",
+    "end_time": "2026-03-21T18:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "School payment system",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-311",
+    "title": "Elder child spring outing - Science Museum",
+    "start_time": "2026-03-28T08:30:00+08:00",
+    "end_time": "2026-03-28T16:00:00+08:00",
+    "attendees": [
+      "Elder child",
+      "Grade 4 Class 2"
+    ],
+    "location": "Science and Technology Museum",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-312",
+    "title": "Dabao Math Tutoring - Elite Education",
+    "start_time": "2026-03-27T16:00:00+08:00",
+    "end_time": "2026-03-27T17:30:00+08:00",
+    "attendees": [
+      "Dabao (elder child)"
+    ],
+    "location": "Elite Education Center, Building A, Room 302",
+    "recurring": "weekly_thursday"
+  },
+  {
+    "event_id": "EVT-313",
+    "title": "Xiaobao Vaccination Appointment - Community Clinic",
+    "start_time": "2026-03-27T15:30:00+08:00",
+    "end_time": "2026-03-27T16:30:00+08:00",
+    "attendees": [
+      "Xiaobao (younger child)",
+      "He Meilan"
+    ],
+    "location": "Community Health Clinic, Vaccination Room",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-314",
+    "title": "Dabao English Class - Elite Education",
+    "start_time": "2026-03-29T09:00:00+08:00",
+    "end_time": "2026-03-29T10:30:00+08:00",
+    "attendees": [
+      "Dabao (elder child)"
+    ],
+    "location": "Elite Education Center, Building B, Room 205",
+    "recurring": "weekly_saturday"
+  },
+  {
+    "event_id": "EVT-315",
+    "title": "Xiaobao Follow-up Check - Children's Hospital",
+    "start_time": "2026-03-29T10:00:00+08:00",
+    "end_time": "2026-03-29T11:30:00+08:00",
+    "attendees": [
+      "Xiaobao (younger child)",
+      "He Meilan"
+    ],
+    "location": "City Children's Hospital, Pediatrics Dept, Dr. Wang",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-316",
+    "title": "Dabao Piano Lesson",
+    "start_time": "2026-04-01T14:00:00+08:00",
+    "end_time": "2026-04-01T15:00:00+08:00",
+    "attendees": [
+      "Dabao (elder child)"
+    ],
+    "location": "Music Academy, Room 12",
+    "recurring": "weekly_tuesday"
+  },
+  {
+    "event_id": "EVT-317",
+    "title": "Family Dinner with In-laws",
+    "start_time": "2026-03-30T18:00:00+08:00",
+    "end_time": "2026-03-30T20:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo",
+      "Dabao",
+      "Xiaobao",
+      "Parents-in-law"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-318",
+    "title": "Dabao's piano lesson (Wednesday 4:30-5:30pm)",
+    "start_time": "2026-02-19T16:30:00+08:00",
+    "end_time": "2026-02-19T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Harmony Music School - Room 203",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-319",
+    "title": "Xiaobao's swimming lesson pickup (Wednesday 5:00pm)",
+    "start_time": "2026-02-19T17:00:00+08:00",
+    "end_time": "2026-02-19T17:30:00+08:00",
+    "attendees": [
+      "Xiaobao"
+    ],
+    "location": "Community Aquatic Center",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-320",
+    "title": "Dabao school spring outing - Botanical Garden",
+    "start_time": "2026-02-19T08:00:00+08:00",
+    "end_time": "2026-02-19T16:00:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Grade 4 Class 2"
+    ],
+    "location": "City Botanical Garden",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-321",
+    "title": "Xiaobao vaccination appointment - Community Clinic",
+    "start_time": "2026-02-18T14:00:00+08:00",
+    "end_time": "2026-02-18T14:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "Dr. Li Xiaoming"
+    ],
+    "location": "Community Health Clinic - Pediatric Dept",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-322",
+    "title": "Elite Education tutoring class - Math & Chinese",
+    "start_time": "2026-02-21T14:00:00+08:00",
+    "end_time": "2026-02-21T17:00:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Elite Education Center - Classroom 5",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-323",
+    "title": "Husband business trip (out of town)",
+    "start_time": "2026-02-17T08:00:00+08:00",
+    "end_time": "2026-02-20T20:00:00+08:00",
+    "attendees": [
+      "He Jianguo"
+    ],
+    "location": "Guangzhou",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-324",
+    "title": "Review Dabao science fair project with him - Privacy check",
+    "start_time": "2026-03-22T19:00:00+08:00",
+    "end_time": "2026-03-22T20:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao"
+    ],
+    "location": "Home - study room",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-325",
+    "title": "Retake photos for Dabao's science project (plain background)",
+    "start_time": "2026-03-23T15:00:00+08:00",
+    "end_time": "2026-03-23T16:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-326",
+    "title": "DEADLINE: Science Fair Project Final Submission",
+    "start_time": "2026-03-26T17:00:00+08:00",
+    "end_time": "2026-03-26T17:00:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Teacher Chen"
+    ],
+    "location": "Elite Education Center (online portal)",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-327",
+    "title": "Science Fair Day - Dabao's project presentation",
+    "start_time": "2026-03-28T09:00:00+08:00",
+    "end_time": "2026-03-28T12:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao",
+      "parents",
+      "teachers"
+    ],
+    "location": "Elite Education Center - Main Hall",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-328",
+    "title": "Research: Compare pet care options for Spring Festival",
+    "start_time": "2026-02-03T14:00:00+08:00",
+    "end_time": "2026-02-03T15:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-329",
+    "title": "Community Spring Festival preparation meeting",
+    "start_time": "2026-02-05T19:00:00+08:00",
+    "end_time": "2026-02-05T20:30:00+08:00",
+    "attendees": [
+      "Community residents"
+    ],
+    "location": "Community center",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-330",
+    "title": "Dabao English class - Star English",
+    "start_time": "2026-02-22T14:00:00+08:00",
+    "end_time": "2026-02-22T16:00:00+08:00",
+    "attendees": [
+      "He Dabao"
+    ],
+    "location": "Star English Education Center",
+    "recurring": "weekly_saturday"
+  },
+  {
+    "event_id": "EVT-331",
+    "title": "DECISION DEADLINE: English program switch (before more sunk cost)",
+    "start_time": "2026-03-01T09:00:00+08:00",
+    "end_time": "2026-03-01T09:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-332",
+    "title": "Trial class option - Bright Future English (if decide to switch)",
+    "start_time": "2026-02-25T15:00:00+08:00",
+    "end_time": "2026-02-25T17:00:00+08:00",
+    "attendees": [
+      "He Dabao",
+      "He Meilan"
+    ],
+    "location": "Bright Future English Academy",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-333",
+    "title": "Discuss English tutoring decision with husband",
+    "start_time": "2026-02-21T21:00:00+08:00",
+    "end_time": "2026-02-21T22:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-334",
+    "title": "Xiaobao vaccination appointment - Community Clinic",
+    "start_time": "2026-03-24T10:00:00+08:00",
+    "end_time": "2026-03-24T11:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Community Health Clinic, 2nd Floor Pediatric Vaccination Center",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-335",
+    "title": "Pick up Dabao from school",
+    "start_time": "2026-03-24T15:30:00+08:00",
+    "end_time": "2026-03-24T16:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao"
+    ],
+    "location": "Primary School Main Gate",
+    "recurring": "weekdays"
+  },
+  {
+    "event_id": "EVT-336",
+    "title": "Xiaobao swimming class",
+    "start_time": "2026-01-04T11:30:00+08:00",
+    "end_time": "2026-01-04T12:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Community Pool, Dongcheng District",
+    "recurring": "weekly_saturday"
+  },
+  {
+    "event_id": "EVT-337",
+    "title": "Dabao piano lesson (NEW)",
+    "start_time": "2026-01-08T16:30:00+08:00",
+    "end_time": "2026-01-08T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Piano Teacher"
+    ],
+    "location": "Music Academy, Dongcheng",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-338",
+    "title": "DECISION DEADLINE: Select Dabao weekend math program",
+    "start_time": "2026-01-10T20:00:00+08:00",
+    "end_time": "2026-01-10T21:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Husband"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-339",
+    "title": "Family grocery shopping",
+    "start_time": "2026-01-05T15:00:00+08:00",
+    "end_time": "2026-01-05T17:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao",
+      "Xiaobao"
+    ],
+    "location": "Carrefour Supermarket",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-340",
+    "title": "Dabao Robotics Workshop - Week 1",
+    "start_time": "2026-03-11T16:00:00+08:00",
+    "end_time": "2026-03-11T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Innovation Tech Center, Building 3, Room 201",
+    "recurring": "weekly_tuesday"
+  },
+  {
+    "event_id": "EVT-341",
+    "title": "Dabao Piano Lesson",
+    "start_time": "2026-03-12T16:30:00+08:00",
+    "end_time": "2026-03-12T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Harmony Music School, 2nd Floor Studio B",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-342",
+    "title": "Xiaobao Swimming Class - Pickup Required 5:00pm",
+    "start_time": "2026-03-12T17:00:00+08:00",
+    "end_time": "2026-03-12T17:00:00+08:00",
+    "attendees": [
+      "Xiaobao"
+    ],
+    "location": "Community Aquatic Center",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-343",
+    "title": "Dabao Math Tutoring",
+    "start_time": "2026-03-13T16:00:00+08:00",
+    "end_time": "2026-03-13T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Elite Education Center, Room 305",
+    "recurring": "weekly_thursday"
+  },
+  {
+    "event_id": "EVT-344",
+    "title": "Xiaobao Vaccination Appointment - Dr. Chen Ming",
+    "start_time": "2026-03-13T15:30:00+08:00",
+    "end_time": "2026-03-13T16:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "City Children's Hospital - Vaccination Clinic",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-345",
+    "title": "Xiaobao Follow-up Doctor Visit - Recurring Fever Check",
+    "start_time": "2026-03-14T10:00:00+08:00",
+    "end_time": "2026-03-14T11:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "City Children's Hospital - Pediatrics Department",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-346",
+    "title": "Family Grocery Shopping",
+    "start_time": "2026-03-15T14:00:00+08:00",
+    "end_time": "2026-03-15T16:00:00+08:00",
+    "attendees": [
+      "Family"
+    ],
+    "location": "Carrefour Supermarket",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-347",
+    "title": "DEADLINE: Dr. Liu Specialist Booking Decision",
+    "start_time": "2026-02-02T09:00:00+08:00",
+    "end_time": "2026-02-02T09:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-348",
+    "title": "Monitor Xiaobao Temperature (4-hour check)",
+    "start_time": "2026-02-01T15:00:00+08:00",
+    "end_time": "2026-02-01T15:15:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-349",
+    "title": "Potential Appointment: Dr. Liu Zhenghua Specialist Consultation",
+    "start_time": "2026-02-08T10:30:00+08:00",
+    "end_time": "2026-02-08T12:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Provincial Children's Hospital, Building 3, 5th Floor",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-350",
+    "title": "Dr. Wang Follow-up Appointment - Xiaobao Formula Transition Assessment",
+    "start_time": "2026-02-15T10:00:00+08:00",
+    "end_time": "2026-02-15T10:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao",
+      "Dr. Wang Lijuan"
+    ],
+    "location": "Children's Hospital - Pediatric Clinic Room 203",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-351",
+    "title": "Monthly Budget Review with Husband",
+    "start_time": "2026-01-31T21:00:00+08:00",
+    "end_time": "2026-01-31T22:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "location": "Home",
+    "recurring": "monthly"
+  },
+  {
+    "event_id": "EVT-352",
+    "title": "Dabao Piano Lesson",
+    "start_time": "2026-01-08T16:30:00+08:00",
+    "end_time": "2026-01-08T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Music Academy - Studio 5",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-353",
+    "title": "DEADLINE: Submit Math Competition Form (Dabao)",
+    "start_time": "2026-04-01T15:00:00+08:00",
+    "end_time": "2026-04-01T15:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - complete and email to Teacher Chen",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-354",
+    "title": "DEADLINE: Schedule follow-up meeting with Teacher Chen",
+    "start_time": "2026-04-02T14:00:00+08:00",
+    "end_time": "2026-04-02T14:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Email or call Teacher Chen to schedule",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-355",
+    "title": "CRITICAL: Chinese Reading Program Decision (NEED HUSBAND APPROVAL)",
+    "start_time": "2026-04-04T09:00:00+08:00",
+    "end_time": "2026-04-04T09:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Must decide and contact tutoring center - Budget: 3,200-3,800 RMB",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-356",
+    "title": "REMINDER: Parent Volunteer Sign-up Deadline (Science Fair)",
+    "start_time": "2026-04-08T10:00:00+08:00",
+    "end_time": "2026-04-08T10:15:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Reply to Teacher Chen if volunteering April 15-16",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-357",
+    "title": "DEADLINE: Summer STEM Camp Early Bird (NEED HUSBAND APPROVAL)",
+    "start_time": "2026-04-10T16:00:00+08:00",
+    "end_time": "2026-04-10T16:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Register to save 500 RMB - Budget: 4,800 RMB (early) vs 5,300 RMB",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-358",
+    "title": "Xiaobao swimming class",
+    "start_time": "2026-03-29T16:00:00+08:00",
+    "end_time": "2026-03-29T17:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Community Swimming Center",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-359",
+    "title": "Parent-Teacher Conference - Dabao (Teacher Chen)",
+    "start_time": "2026-02-14T15:00:00+08:00",
+    "end_time": "2026-02-14T16:30:00+08:00",
+    "attendees": [
+      "Teacher Chen Fang",
+      "He Meilan"
+    ],
+    "location": "Elite Education Primary School - Conference Room 3B",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-360",
+    "title": "Dabao Piano Lesson",
+    "start_time": "2026-02-12T16:30:00+08:00",
+    "end_time": "2026-02-12T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Music Academy - Room 205",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-361",
+    "title": "Xiaobao Swimming Class",
+    "start_time": "2026-02-12T17:00:00+08:00",
+    "end_time": "2026-02-12T18:00:00+08:00",
+    "attendees": [
+      "Xiaobao"
+    ],
+    "location": "Community Sports Center Pool",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-362",
+    "title": "CONFLICT: Dabao Parent-Teacher Conference (MANDATORY)",
+    "start_time": "2026-01-29T14:30:00+08:00",
+    "end_time": "2026-01-29T15:15:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Teacher Chen Fang"
+    ],
+    "location": "Elite Education Academy, Classroom 4-2, Third Floor",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-363",
+    "title": "CONFLICT: Xiaobao Specialist Appointment - Dr. Liu Zhenghua (300 RMB deposit paid)",
+    "start_time": "2026-01-29T14:45:00+08:00",
+    "end_time": "2026-01-29T15:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Xiaobao",
+      "Dr. Liu Zhenghua"
+    ],
+    "location": "Children's Hospital, Building B, 5th Floor, Room 502",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-364",
+    "title": "Review: Dabao's school event attendance (past 4 weeks)",
+    "start_time": "2026-01-27T20:00:00+08:00",
+    "end_time": "2026-01-27T20:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-365",
+    "title": "Husband's work meeting (check if moveable for Jan 29 conflict)",
+    "start_time": "2026-01-29T14:00:00+08:00",
+    "end_time": "2026-01-29T16:00:00+08:00",
+    "attendees": [
+      "Wang Jianguo"
+    ],
+    "location": "Company Office",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-366",
+    "title": "Husband Travel: Shenzhen Project - Week 1",
+    "start_time": "2026-01-20T08:00:00+08:00",
+    "end_time": "2026-01-24T18:00:00+08:00",
+    "attendees": [
+      "He Jianguo"
+    ],
+    "location": "Shenzhen",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-367",
+    "title": "Dabao Piano Lesson",
+    "start_time": "2026-01-22T16:30:00+08:00",
+    "end_time": "2026-01-22T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Teacher Wang"
+    ],
+    "location": "Music Academy - Room 302",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-368",
+    "title": "Xiaobao Swimming Class",
+    "start_time": "2026-01-22T17:00:00+08:00",
+    "end_time": "2026-01-22T17:45:00+08:00",
+    "attendees": [
+      "Xiaobao"
+    ],
+    "location": "Community Sports Center Pool",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-369",
+    "title": "Husband Travel: Beijing Regional Meeting",
+    "start_time": "2026-01-27T07:00:00+08:00",
+    "end_time": "2026-01-30T20:00:00+08:00",
+    "attendees": [
+      "He Jianguo"
+    ],
+    "location": "Beijing",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-370",
+    "title": "Dabao School Pickup",
+    "start_time": "2026-01-22T15:30:00+08:00",
+    "end_time": "2026-01-22T15:45:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Dongcheng Elementary School Gate",
+    "recurring": "daily_weekday"
+  },
+  {
+    "event_id": "EVT-371",
+    "title": "Husband Travel: Guangzhou Client Site - Extended",
+    "start_time": "2026-02-03T06:00:00+08:00",
+    "end_time": "2026-02-07T22:00:00+08:00",
+    "attendees": [
+      "He Jianguo"
+    ],
+    "location": "Guangzhou",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-372",
+    "title": "Dabao Robotics Workshop (Trial Period)",
+    "start_time": "2026-01-21T16:00:00+08:00",
+    "end_time": "2026-01-21T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Innovation Lab - Building C",
+    "recurring": "weekly_tuesday"
+  },
+  {
+    "event_id": "EVT-373",
+    "title": "DEADLINE: Return window closes - NutriGrow formula (unopened cans)",
+    "start_time": "2026-02-04T21:00:00+08:00",
+    "end_time": "2026-02-04T21:30:00+08:00",
+    "attendees": [
+      "self"
+    ],
+    "location": "Mother & Baby Specialty Store",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-374",
+    "title": "Follow-up appointment with Dr. Zhao - Xiaobao formula switch monitoring",
+    "start_time": "2026-02-06T14:00:00+08:00",
+    "end_time": "2026-02-06T14:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "Dr. Zhao Meiling"
+    ],
+    "location": "Children's Health Clinic",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-375",
+    "title": "48-hour symptom checkpoint - Xiaobao formula monitoring",
+    "start_time": "2026-02-01T10:00:00+08:00",
+    "end_time": "2026-02-01T10:15:00+08:00",
+    "attendees": [
+      "self"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-376",
+    "title": "PRIORITY REVIEW SESSION - Weekly family task planning",
+    "start_time": "2026-02-18T09:00:00+08:00",
+    "end_time": "2026-02-18T10:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-377",
+    "title": "Xiaobao vaccination appointment - Community Clinic",
+    "start_time": "2026-02-20T15:30:00+08:00",
+    "end_time": "2026-02-20T16:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Community Health Clinic",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-378",
+    "title": "Dabao robotics workshop trial session (Day 3 - enrollment decision deadline)",
+    "start_time": "2026-02-18T16:00:00+08:00",
+    "end_time": "2026-02-18T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Dongcheng Youth Technology Center",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-379",
+    "title": "Dr. Liu Zhenghua specialist consultation (TENTATIVE - pending booking decision)",
+    "start_time": "2026-02-22T10:00:00+08:00",
+    "end_time": "2026-02-22T11:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Children's Hospital - Specialist Wing",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-380",
+    "title": "Dabao science fair project submission deadline",
+    "start_time": "2026-02-20T16:00:00+08:00",
+    "end_time": "2026-02-20T16:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Teacher Chen Fang"
+    ],
+    "location": "Dabao's school - Grade 4 classroom",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-381",
+    "title": "Dabao Swimming Proficiency Test - Level 3",
+    "start_time": "2026-03-18T16:00:00+08:00",
+    "end_time": "2026-03-18T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Coach Liu Wei"
+    ],
+    "location": "City Swim Club, 123 Sports Road",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-382",
+    "title": "DEADLINE: Early bird camp registration (if booking optimistically)",
+    "start_time": "2026-03-18T23:59:00+08:00",
+    "end_time": "2026-03-18T23:59:00+08:00",
+    "attendees": [],
+    "location": "",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-383",
+    "title": "Xiaobao Swimming Lesson",
+    "start_time": "2026-03-19T17:00:00+08:00",
+    "end_time": "2026-03-19T18:00:00+08:00",
+    "attendees": [
+      "Xiaobao"
+    ],
+    "location": "Community Pool",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-384",
+    "title": "Expected: Dabao test results available (Day 5 after test)",
+    "start_time": "2026-03-25T09:00:00+08:00",
+    "end_time": "2026-03-25T09:00:00+08:00",
+    "attendees": [],
+    "location": "",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-385",
+    "title": "COMPLETED: Dabao piano lesson pickup (4:30-5:30pm)",
+    "start_time": "2026-03-13T16:30:00+08:00",
+    "end_time": "2026-03-13T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "He Meilan"
+    ],
+    "location": "Music Academy - Room 302",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-386",
+    "title": "COMPLETED: Xiaobao kindergarten pickup",
+    "start_time": "2026-03-13T17:00:00+08:00",
+    "end_time": "2026-03-13T17:15:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Little Stars Kindergarten",
+    "recurring": "daily"
+  },
+  {
+    "event_id": "EVT-387",
+    "title": "Tomorrow: Morning energy block - High-cognitive decisions",
+    "start_time": "2026-03-14T09:00:00+08:00",
+    "end_time": "2026-03-14T11:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-388",
+    "title": "Dabao school pickup",
+    "start_time": "2026-03-14T15:30:00+08:00",
+    "end_time": "2026-03-14T15:45:00+08:00",
+    "attendees": [
+      "Dabao",
+      "He Meilan"
+    ],
+    "location": "Dongcheng Primary School",
+    "recurring": "daily"
+  },
+  {
+    "event_id": "EVT-389",
+    "title": "Kindergarten Admin Office - Get Continuing Student Status Letter",
+    "start_time": "2026-02-28T09:30:00+08:00",
+    "end_time": "2026-02-28T10:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Sunshine Kindergarten Administration Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-390",
+    "title": "DEADLINE: Submit District Education Bureau Pre-approval Application",
+    "start_time": "2026-03-01T10:00:00+08:00",
+    "end_time": "2026-03-01T11:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Online - Education Bureau App",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-391",
+    "title": "Expected: Receive Pre-approval Code (3 business days processing)",
+    "start_time": "2026-03-05T14:00:00+08:00",
+    "end_time": "2026-03-05T14:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Check Education Bureau App",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-392",
+    "title": "Community Health Center - Submit Health Certificate Application",
+    "start_time": "2026-03-06T09:00:00+08:00",
+    "end_time": "2026-03-06T11:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Dongcheng Community Health Center",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-393",
+    "title": "Expected: Health Certificate Ready (7 days processing)",
+    "start_time": "2026-03-13T14:00:00+08:00",
+    "end_time": "2026-03-13T15:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Community Health Center Pickup",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-394",
+    "title": "FINAL DEADLINE: Submit Complete Enrollment Renewal Package",
+    "start_time": "2026-03-20T09:00:00+08:00",
+    "end_time": "2026-03-20T10:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Sunshine Kindergarten Administration Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-395",
+    "title": "URGENT: School Administration Review - Dabao Academic Progress Presentation",
+    "start_time": "2026-01-11T14:00:00+08:00",
+    "end_time": "2026-01-11T15:30:00+08:00",
+    "attendees": [
+      "School Administration",
+      "Teacher Chen Hua",
+      "Selected Parents"
+    ],
+    "location": "Sunshine Primary School - Principal's Conference Room",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-396",
+    "title": "Dabao Piano Lesson",
+    "start_time": "2026-01-15T16:30:00+08:00",
+    "end_time": "2026-01-15T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Sunshine Piano Studio",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-397",
+    "title": "Deadline: Dabao Science Fair Project Submission",
+    "start_time": "2026-01-20T17:00:00+08:00",
+    "end_time": "2026-01-20T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Teacher Liu"
+    ],
+    "location": "Sunshine Primary School",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-398",
+    "title": "Xiaobao Vaccination - Community Clinic (CONFIRM STATUS!)",
+    "start_time": "2026-02-13T15:30:00+08:00",
+    "end_time": "2026-02-13T16:30:00+08:00",
+    "attendees": [
+      "He Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Community Health Clinic, Building A, 2nd Floor, Room 203",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-399",
+    "title": "URGENT: Call Community Clinic to verify vaccination appointment",
+    "start_time": "2026-02-11T09:00:00+08:00",
+    "end_time": "2026-02-11T09:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-400",
+    "title": "Husband's Business Trip (Solo Parenting Period)",
+    "start_time": "2026-03-24T08:00:00+08:00",
+    "end_time": "2026-04-03T20:00:00+08:00",
+    "attendees": [
+      "Wang Jianguo (husband)"
+    ],
+    "location": "Shanghai",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-401",
+    "title": "Formula Decision Deadline (before husband leaves)",
+    "start_time": "2026-03-24T19:00:00+08:00",
+    "end_time": "2026-03-24T20:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-402",
+    "title": "April Budget Reset (can reassess formula spending)",
+    "start_time": "2026-04-01T00:00:00+08:00",
+    "end_time": "2026-04-01T23:59:00+08:00",
+    "attendees": [],
+    "location": "",
+    "recurring": "monthly"
+  },
+  {
+    "event_id": "EVT-403",
+    "title": "Xiaobao Formula Switch Follow-up with Dr. Zhao",
+    "start_time": "2026-03-31T14:00:00+08:00",
+    "end_time": "2026-03-31T14:30:00+08:00",
+    "attendees": [
+      "Dr. Zhao Meiling",
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "City Children's Hospital",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-404",
+    "title": "Research formula options - compare prices and reviews",
+    "start_time": "2026-01-14T20:00:00+08:00",
+    "end_time": "2026-01-14T21:30:00+08:00",
+    "attendees": [],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-405",
+    "title": "Formula research - decision time",
+    "start_time": "2026-01-15T21:00:00+08:00",
+    "end_time": "2026-01-15T22:30:00+08:00",
+    "attendees": [],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-406",
+    "title": "Review formula options and make final decision",
+    "start_time": "2026-01-16T20:30:00+08:00",
+    "end_time": "2026-01-16T22:00:00+08:00",
+    "attendees": [],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-407",
+    "title": "Dabao piano practice session",
+    "start_time": "2026-01-16T18:00:00+08:00",
+    "end_time": "2026-01-16T18:45:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Home",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-408",
+    "title": "DEADLINE: JD Spring Festival flash coupon expiration",
+    "start_time": "2026-01-02T23:59:00+08:00",
+    "end_time": "2026-01-02T23:59:00+08:00",
+    "attendees": [],
+    "location": "JD.com online",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-409",
+    "title": "Follow-up: Check Dr. Zhao's email response on supplement substitutes",
+    "start_time": "2026-01-01T15:00:00+08:00",
+    "end_time": "2026-01-01T15:30:00+08:00",
+    "attendees": [],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-410",
+    "title": "JD Spring Festival Flash Sale - Formula Purchase Window",
+    "start_time": "2026-01-26T10:00:00+08:00",
+    "end_time": "2026-01-26T12:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home (online shopping)",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-411",
+    "title": "Verify formula delivery and batch numbers",
+    "start_time": "2026-01-28T14:00:00+08:00",
+    "end_time": "2026-01-28T15:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-412",
+    "title": "DEADLINE: Tmall 88VIP Flash Coupon Expiration",
+    "start_time": "2026-01-16T23:59:00+08:00",
+    "end_time": "2026-01-16T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Tmall Platform",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-413",
+    "title": "DEADLINE: JD.com Flash Coupon Expiration",
+    "start_time": "2026-01-18T23:59:00+08:00",
+    "end_time": "2026-01-18T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "JD.com Platform",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-414",
+    "title": "CRITICAL: Last Order Date for Pre-CNY Formula Delivery",
+    "start_time": "2026-01-22T20:00:00+08:00",
+    "end_time": "2026-01-22T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "All E-commerce Platforms",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-415",
+    "title": "Review Spring Festival bulk purchase optimization progress",
+    "start_time": "2026-01-14T21:00:00+08:00",
+    "end_time": "2026-01-14T22:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-416",
+    "title": "Xiaobao Swimming Class - Coach Liu (DECISION NEEDED)",
+    "start_time": "2026-01-18T15:00:00+08:00",
+    "end_time": "2026-01-18T16:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan",
+      "Coach Liu Ming"
+    ],
+    "location": "City Aquatic Center, Pool B",
+    "recurring": "weekly_saturday"
+  },
+  {
+    "event_id": "EVT-417",
+    "title": "Research Coach Wang Ting availability",
+    "start_time": "2026-01-14T14:00:00+08:00",
+    "end_time": "2026-01-14T15:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - phone calls",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-418",
+    "title": "Dabao Piano Practice Session",
+    "start_time": "2026-01-15T16:30:00+08:00",
+    "end_time": "2026-01-15T17:15:00+08:00",
+    "attendees": [
+      "Dabao",
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "daily_weekday"
+  },
+  {
+    "event_id": "EVT-419",
+    "title": "DEADLINE: Aqua Star Camp Early-Bird Registration (Official)",
+    "start_time": "2026-04-08T23:59:00+08:00",
+    "end_time": "2026-04-08T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Online registration portal",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-420",
+    "title": "Expected: Dabao Swimming Test Results Available",
+    "start_time": "2026-04-02T09:00:00+08:00",
+    "end_time": "2026-04-02T18:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Email notification expected",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-421",
+    "title": "REFERENCE: Possible secondary deadline (WeChat group info - verify)",
+    "start_time": "2026-04-03T23:59:00+08:00",
+    "end_time": "2026-04-03T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Unverified - parent group discussion",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-422",
+    "title": "Husband returns from business trip - discuss camp decision",
+    "start_time": "2026-04-03T19:00:00+08:00",
+    "end_time": "2026-04-03T21:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-423",
+    "title": "Dabao Piano Lesson - Teacher Zhao (CONFLICT: Teacher unavailable)",
+    "start_time": "2026-04-02T16:30:00+08:00",
+    "end_time": "2026-04-02T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Teacher Zhao - UNAVAILABLE"
+    ],
+    "location": "Harmony Music School, Room 203",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-424",
+    "title": "DECISION DEADLINE: Confirm substitute teacher or reschedule piano lesson",
+    "start_time": "2026-03-31T20:00:00+08:00",
+    "end_time": "2026-03-31T20:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-425",
+    "title": "Xiaobao Swimming Class Pickup",
+    "start_time": "2026-04-02T17:00:00+08:00",
+    "end_time": "2026-04-02T17:15:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "Coach Liu Ming"
+    ],
+    "location": "Community Swimming Center",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-426",
+    "title": "Dabao Spring Recital (Piano) - Target Performance Date",
+    "start_time": "2026-04-20T15:00:00+08:00",
+    "end_time": "2026-04-20T17:00:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Teacher Zhao",
+      "Parents"
+    ],
+    "location": "Harmony Music School Auditorium",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-427",
+    "title": "DEADLINE: Dr. Liu specialist booking decision",
+    "start_time": "2026-04-01T14:00:00+08:00",
+    "end_time": "2026-04-01T14:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-428",
+    "title": "Dr. Liu Zhenghua specialist consultation (TENTATIVE - pending booking)",
+    "start_time": "2026-04-08T10:00:00+08:00",
+    "end_time": "2026-04-08T10:45:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Provincial Children's Hospital - Building 3, Floor 5",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-429",
+    "title": "Xiaobao last fever episode (reference)",
+    "start_time": "2026-03-29T19:30:00+08:00",
+    "end_time": "2026-03-29T23:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-430",
+    "title": "48-hour fever-free deadline for Dr. Liu appointment",
+    "start_time": "2026-04-06T10:00:00+08:00",
+    "end_time": "2026-04-06T10:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - monitor Xiaobao temperature",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-431",
+    "title": "Xiaobao Swimming Lesson - Coach Liu Ming (Session 4)",
+    "start_time": "2026-04-02T16:00:00+08:00",
+    "end_time": "2026-04-02T16:45:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "Coach Liu Ming"
+    ],
+    "location": "AquaKids Swimming Center - Dongcheng District",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-432",
+    "title": "URGENT: Pediatrician consultation - Dr. Zhao Meiling (Xiaobao anxiety assessment)",
+    "start_time": "2026-04-01T10:00:00+08:00",
+    "end_time": "2026-04-01T10:45:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao",
+      "Dr. Zhao Meiling"
+    ],
+    "location": "Children's Hospital - Pediatric Psychology Department",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-433",
+    "title": "Coach Wang Ting trial lesson inquiry (backup option)",
+    "start_time": "2026-04-03T15:00:00+08:00",
+    "end_time": "2026-04-03T15:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Phone call",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-434",
+    "title": "Discuss swimming coach decision with husband",
+    "start_time": "2026-04-03T21:00:00+08:00",
+    "end_time": "2026-04-03T21:45:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-435",
+    "title": "DECISION DEADLINE: Formula purchase order (JD cutoff 10 AM)",
+    "start_time": "2026-03-31T10:00:00+08:00",
+    "end_time": "2026-03-31T10:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-436",
+    "title": "Projected formula stockout (if no purchase)",
+    "start_time": "2026-04-03T08:00:00+08:00",
+    "end_time": "2026-04-03T09:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-437",
+    "title": "Husband returns from business trip",
+    "start_time": "2026-04-05T19:00:00+08:00",
+    "end_time": "2026-04-05T20:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-438",
+    "title": "URGENT: Review JD.com cart before checkout (formula issue)",
+    "start_time": "2026-04-01T07:00:00+08:00",
+    "end_time": "2026-04-01T07:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-439",
+    "title": "Call Jianguo - explain formula brand restriction",
+    "start_time": "2026-04-01T09:00:00+08:00",
+    "end_time": "2026-04-01T09:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Phone call",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-440",
+    "title": "DEADLINE: Formula stockout projected - must order by today",
+    "start_time": "2026-04-06T09:00:00+08:00",
+    "end_time": "2026-04-06T09:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-441",
+    "title": "Dabao School Sports Meet",
+    "start_time": "2026-04-15T08:30:00+08:00",
+    "end_time": "2026-04-15T16:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao",
+      "He Jianguo"
+    ],
+    "location": "Primary School Sports Field",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-442",
+    "title": "Review April household budget with husband",
+    "start_time": "2026-03-30T20:00:00+08:00",
+    "end_time": "2026-03-30T21:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "location": "Home",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-443",
+    "title": "Monthly grocery shopping - FreshMart",
+    "start_time": "2026-04-02T14:00:00+08:00",
+    "end_time": "2026-04-02T16:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "FreshMart Supermarket",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-444",
+    "title": "URGENT: School Administration Review Meeting - Dabao Academic Progress Presentation",
+    "start_time": "2026-04-01T14:00:00+08:00",
+    "end_time": "2026-04-01T15:00:00+08:00",
+    "attendees": [
+      "Teacher Chen Fang",
+      "Principal Wang Guohua",
+      "Vice Principal Liu Mei",
+      "Academic Director Zhang Qiang"
+    ],
+    "location": "Primary School Administration Office - Conference Room 2",
+    "recurring": ""
+  },
+  {
+    "event_id": "EVT-445",
+    "title": "Dabao piano lesson",
+    "start_time": "2026-04-02T16:30:00+08:00",
+    "end_time": "2026-04-02T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Piano Teacher Li"
+    ],
+    "location": "Harmony Music Academy",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-446",
+    "title": "March 31 Evening - Energy Assessment & Task Review",
+    "start_time": "2026-03-31T21:30:00+08:00",
+    "end_time": "2026-03-31T22:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-447",
+    "title": "HIGH-COGNITIVE BLOCK: Formula Decision & Coach Communication",
+    "start_time": "2026-04-01T07:00:00+08:00",
+    "end_time": "2026-04-01T09:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - quiet desk",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-448",
+    "title": "Xiaobao swimming lesson - Coach Liu Ming",
+    "start_time": "2026-03-31T16:00:00+08:00",
+    "end_time": "2026-03-31T17:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Community Pool",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-449",
+    "title": "April Monthly Budget Planning Session",
+    "start_time": "2026-04-01T09:30:00+08:00",
+    "end_time": "2026-04-01T10:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "monthly"
+  },
+  {
+    "event_id": "EVT-450",
+    "title": "DEADLINE: Math workshop registration (Bright Future)",
+    "start_time": "2026-04-08T09:00:00+08:00",
+    "end_time": "2026-04-08T09:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Reminder only",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-451",
+    "title": "DEADLINE: Buy science fair materials for Dabao",
+    "start_time": "2026-04-10T10:00:00+08:00",
+    "end_time": "2026-04-10T10:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Online shopping or electronics store",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-452",
+    "title": "DEADLINE: Confirm Teacher Chen meeting time (April 22)",
+    "start_time": "2026-04-05T14:00:00+08:00",
+    "end_time": "2026-04-05T14:15:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Email reply needed",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-453",
+    "title": "Dabao Progress Review - Teacher Chen",
+    "start_time": "2026-04-22T15:00:00+08:00",
+    "end_time": "2026-04-22T16:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Teacher Chen Fang"
+    ],
+    "location": "Sunshine Primary School - Grade 4 Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-454",
+    "title": "Dabao Science Fair Project - Photo Revision Deadline",
+    "start_time": "2026-04-03T18:00:00+08:00",
+    "end_time": "2026-04-03T19:00:00+08:00",
+    "attendees": [
+      "Dabao",
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-455",
+    "title": "Xiaobao Vaccination - Children's Hospital",
+    "start_time": "2026-04-03T15:30:00+08:00",
+    "end_time": "2026-04-03T16:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Children's Hospital, Immunization Center, 2nd Floor",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-456",
+    "title": "DECISION POINT: Summer camp early-bird discount expires",
+    "start_time": "2026-04-03T23:59:00+08:00",
+    "end_time": "2026-04-03T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "N/A",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-457",
+    "title": "Expected: Dabao swimming test results available",
+    "start_time": "2026-04-04T17:00:00+08:00",
+    "end_time": "2026-04-04T17:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "N/A",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-458",
+    "title": "DEADLINE: BabyCare Online return window closes (7 days from March 29 delivery)",
+    "start_time": "2026-04-05T23:59:00+08:00",
+    "end_time": "2026-04-05T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Online",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-459",
+    "title": "Decision checkpoint: Formula switch final decision based on symptom trajectory",
+    "start_time": "2026-04-03T20:00:00+08:00",
+    "end_time": "2026-04-03T21:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo (if back from trip)"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-460",
+    "title": "Xiaobao symptom monitoring - morning check (rash photo + behavior log)",
+    "start_time": "2026-04-01T07:30:00+08:00",
+    "end_time": "2026-04-01T07:45:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "daily_until_2026-04-03"
+  },
+  {
+    "event_id": "EVT-461",
+    "title": "Coordinate with kindergarten nurse Wang - Xiaobao symptom update",
+    "start_time": "2026-04-01T16:30:00+08:00",
+    "end_time": "2026-04-01T16:45:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Xiaohong (nurse)"
+    ],
+    "location": "Little Star Kindergarten pickup",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-462",
+    "title": "Xiaobao Vaccination Appointment - Community Clinic (VERIFY STATUS)",
+    "start_time": "2026-04-02T10:00:00+08:00",
+    "end_time": "2026-04-02T11:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Xiaobao"
+    ],
+    "location": "Community Health Clinic, Building 3, Room 201",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-463",
+    "title": "Dabao Piano Lesson",
+    "start_time": "2026-04-02T16:30:00+08:00",
+    "end_time": "2026-04-02T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Harmony Music Academy",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-464",
+    "title": "DEADLINE: Complete Spring Festival formula bulk purchase (coupon expiration)",
+    "start_time": "2026-04-01T10:00:00+08:00",
+    "end_time": "2026-04-01T12:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - online shopping",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-465",
+    "title": "Formula inventory stock-out date (if not restocked)",
+    "start_time": "2026-04-12T09:00:00+08:00",
+    "end_time": "2026-04-12T09:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-466",
+    "title": "Xiaobao vaccination appointment - Community Health Center",
+    "start_time": "2026-04-03T15:30:00+08:00",
+    "end_time": "2026-04-03T16:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Community Health Center - Immunization Clinic",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-467",
+    "title": "DEADLINE: BabyCare Online return window expires (unopened formula cans)",
+    "start_time": "2026-03-31T18:00:00+08:00",
+    "end_time": "2026-03-31T18:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - urgent decision needed",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-468",
+    "title": "Research: BabyComfort Sensitive formula purchase options",
+    "start_time": "2026-03-31T14:00:00+08:00",
+    "end_time": "2026-03-31T15:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-469",
+    "title": "DEADLINE: Place JD formula bulk order (before coupons expire)",
+    "start_time": "2026-04-01T20:00:00+08:00",
+    "end_time": "2026-04-01T21:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - laptop",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-470",
+    "title": "Expected delivery: JD formula order (13 cans)",
+    "start_time": "2026-04-03T10:00:00+08:00",
+    "end_time": "2026-04-03T18:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home delivery",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-471",
+    "title": "CRITICAL: Current formula stock depletes (if order not placed)",
+    "start_time": "2026-04-14T08:00:00+08:00",
+    "end_time": "2026-04-14T08:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Reference marker",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-472",
+    "title": "Family Spring Festival Celebration Meal (PLANNING)",
+    "start_time": "2026-04-05T18:00:00+08:00",
+    "end_time": "2026-04-05T21:00:00+08:00",
+    "attendees": [
+      "He Jianguo",
+      "Dabao",
+      "Xiaobao",
+      "Wang Xiulan",
+      "Liu Meizhen",
+      "Extended family members"
+    ],
+    "location": "TBD - pending menu decision",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-473",
+    "title": "DEADLINE: Respond to family WeChat group about meal choice",
+    "start_time": "2026-03-29T20:00:00+08:00",
+    "end_time": "2026-03-29T20:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-474",
+    "title": "Xiaobao swimming lesson",
+    "start_time": "2026-03-29T15:00:00+08:00",
+    "end_time": "2026-03-29T16:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Community Pool",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-475",
+    "title": "Dr. Zhao Meiling Consultation - Xiaobao Fever Pattern Review",
+    "start_time": "2026-04-02T10:00:00+08:00",
+    "end_time": "2026-04-02T11:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Xiaobao",
+      "Dr. Zhao Meiling"
+    ],
+    "location": "City Children's Hospital, Building B, 3rd Floor, Room 305",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-476",
+    "title": "DEADLINE: Formula Return Window Closes (NutriGrow HA Pro - 4 unopened cans)",
+    "start_time": "2026-04-01T23:59:00+08:00",
+    "end_time": "2026-04-01T23:59:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "BabyCare Online - return policy deadline",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-477",
+    "title": "Xiaobao Temperature Monitoring - Every 3 Hours",
+    "start_time": "2026-03-31T09:00:00+08:00",
+    "end_time": "2026-03-31T21:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-478",
+    "title": "Weekly Grocery Shopping - FreshMart",
+    "start_time": "2026-03-29T14:00:00+08:00",
+    "end_time": "2026-03-29T15:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "FreshMart Supermarket",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-479",
+    "title": "DEADLINE: JD Flash Sale Expires - Formula Cart Decision Required",
+    "start_time": "2026-04-04T23:59:00+08:00",
+    "end_time": "2026-04-04T23:59:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Online",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-480",
+    "title": "Xiaobao formula inventory check",
+    "start_time": "2026-04-05T10:00:00+08:00",
+    "end_time": "2026-04-05T10:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-481",
+    "title": "Review Xiaobao formula inventory and April budget",
+    "start_time": "2026-04-03T20:00:00+08:00",
+    "end_time": "2026-04-03T21:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-482",
+    "title": "Discuss budget adjustment with Jianguo",
+    "start_time": "2026-04-06T20:30:00+08:00",
+    "end_time": "2026-04-06T21:15:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-483",
+    "title": "Formula purchase window (optimal timing)",
+    "start_time": "2026-04-10T10:00:00+08:00",
+    "end_time": "2026-04-12T18:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Online - BabyCare Online",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-484",
+    "title": "DEADLINE: Spring outing payment (URGENT - verify correct date!)",
+    "start_time": "2026-03-31T09:00:00+08:00",
+    "end_time": "2026-03-31T09:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home - online payment",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-485",
+    "title": "Contact Teacher Chen - clarify spring outing deadline",
+    "start_time": "2026-03-31T14:00:00+08:00",
+    "end_time": "2026-03-31T14:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Teacher Chen Fang"
+    ],
+    "location": "Phone call or email",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-486",
+    "title": "Pick up Dabao from school",
+    "start_time": "2026-04-01T16:00:00+08:00",
+    "end_time": "2026-04-01T16:30:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Dabao"
+    ],
+    "location": "Elite Primary School",
+    "recurring": "daily_weekday"
+  },
+  {
+    "event_id": "EVT-487",
+    "title": "Dabao Elite English Class (Final Month - Week 1)",
+    "start_time": "2026-04-05T14:00:00+08:00",
+    "end_time": "2026-04-05T16:00:00+08:00",
+    "attendees": [
+      "He Zihao (Dabao)"
+    ],
+    "location": "Elite English Academy, Chaoyang District",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-488",
+    "title": "Dabao Trial Class - Bright Future English Center",
+    "start_time": "2026-04-05T15:00:00+08:00",
+    "end_time": "2026-04-05T17:00:00+08:00",
+    "attendees": [
+      "He Zihao (Dabao)",
+      "He Meilan"
+    ],
+    "location": "Bright Future English Center, Haidian District",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-489",
+    "title": "Family Discussion: Dabao English Tutoring Decision",
+    "start_time": "2026-04-03T20:00:00+08:00",
+    "end_time": "2026-04-03T21:00:00+08:00",
+    "attendees": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-490",
+    "title": "Xiaobao Kindergarten Spring Outing",
+    "start_time": "2026-04-10T09:00:00+08:00",
+    "end_time": "2026-04-10T15:00:00+08:00",
+    "attendees": [
+      "He Xiaobao"
+    ],
+    "location": "Chaoyang Park",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-491",
+    "title": "Dabao piano lesson pickup",
+    "start_time": "2026-04-09T16:30:00+08:00",
+    "end_time": "2026-04-09T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "He Meilan"
+    ],
+    "location": "Harmony Music Academy",
+    "recurring": "weekly_wednesday"
+  },
+  {
+    "event_id": "EVT-492",
+    "title": "CRITICAL: Xiaobao formula stock depletion deadline",
+    "start_time": "2026-04-07T18:00:00+08:00",
+    "end_time": "2026-04-07T18:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-493",
+    "title": "Husband returns from business trip",
+    "start_time": "2026-04-11T19:00:00+08:00",
+    "end_time": "2026-04-11T20:00:00+08:00",
+    "attendees": [
+      "Wang Jianguo",
+      "He Meilan"
+    ],
+    "location": "Home",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-494",
+    "title": "Weekly grocery shopping",
+    "start_time": "2026-04-05T10:00:00+08:00",
+    "end_time": "2026-04-05T12:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Carrefour Supermarket",
+    "recurring": "weekly_saturday"
+  },
+  {
+    "event_id": "EVT-495",
+    "title": "Dabao Robotics Workshop Trial - Session 1",
+    "start_time": "2026-04-01T16:00:00+08:00",
+    "end_time": "2026-04-01T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Robotics Academy, Building A, Room 302",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-496",
+    "title": "Dabao Robotics Workshop Trial - Session 2 [CONFLICT RISK]",
+    "start_time": "2026-04-03T16:00:00+08:00",
+    "end_time": "2026-04-03T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Robotics Academy, Building A, Room 302",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-497",
+    "title": "Xiaobao Vaccination Appointment [CONFLICT - SAME DAY AS ROBOTICS]",
+    "start_time": "2026-04-03T15:30:00+08:00",
+    "end_time": "2026-04-03T16:30:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "He Meilan"
+    ],
+    "location": "Children's Hospital, Vaccination Center, 2nd Floor",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-498",
+    "title": "DEADLINE: Robotics Workshop Trial Confirmation",
+    "start_time": "2026-04-04T18:00:00+08:00",
+    "end_time": "2026-04-04T18:30:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Email response required",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-499",
+    "title": "Husband Business Trip (Solo Parenting Period)",
+    "start_time": "2026-04-01T08:00:00+08:00",
+    "end_time": "2026-04-05T20:00:00+08:00",
+    "attendees": [
+      "Wang Jianguo"
+    ],
+    "location": "Guangzhou",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-500",
+    "title": "Dabao Piano Lesson (Wednesday - potential reschedule option)",
+    "start_time": "2026-04-02T16:30:00+08:00",
+    "end_time": "2026-04-02T17:30:00+08:00",
+    "attendees": [
+      "Dabao"
+    ],
+    "location": "Harmony Music Academy",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-501",
+    "title": "Dabao Robotics Workshop - TRIAL SESSION 1",
+    "start_time": "2026-04-01T16:00:00+08:00",
+    "end_time": "2026-04-01T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Instructor Wang Ming"
+    ],
+    "location": "Robotics Academy, Building 2, Room 305",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-502",
+    "title": "Xiaobao Vaccination - JE Dose 2 (CANNOT POSTPONE BEYOND THIS WEEK)",
+    "start_time": "2026-04-03T15:30:00+08:00",
+    "end_time": "2026-04-03T16:00:00+08:00",
+    "attendees": [
+      "Xiaobao",
+      "Nurse Li Qing",
+      "He Meilan"
+    ],
+    "location": "Community Health Clinic, Building 3, Vaccination Dept",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-503",
+    "title": "Dabao Piano Lesson (CONFLICTS with Xiaobao pickup during husband travel)",
+    "start_time": "2026-04-02T16:30:00+08:00",
+    "end_time": "2026-04-02T17:30:00+08:00",
+    "attendees": [
+      "Dabao",
+      "Teacher Wang Mei"
+    ],
+    "location": "Harmony Music Academy",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-504",
+    "title": "DEADLINE: Confirm Robotics Workshop Enrollment (Trial Period Ends)",
+    "start_time": "2026-04-04T17:00:00+08:00",
+    "end_time": "2026-04-04T17:00:00+08:00",
+    "attendees": [
+      "He Meilan"
+    ],
+    "location": "Decision deadline",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-505",
+    "title": "Husband Business Trip - He Jianguo away (NO BACKUP AVAILABLE)",
+    "start_time": "2026-04-01T00:00:00+08:00",
+    "end_time": "2026-04-05T23:59:00+08:00",
+    "attendees": [
+      "He Jianguo"
+    ],
+    "location": "Shanghai",
+    "recurring": "none"
+  }
+]

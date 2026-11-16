@@ -4,6 +4,7 @@ import type { AddressInfo } from "node:net";
 import test from "node:test";
 import express from "express";
 import type { Redis } from "ioredis";
+import { createUsageScanner } from "../src/shared/llm-usage.ts";
 
 const OPENAI_STREAM = (withUsage: boolean) =>
 	[
@@ -62,7 +63,7 @@ process.env.MODELS = JSON.stringify([
 	{ name: "m", baseUrl: upstreamUrl, apiKey: "real-key", api: "openai-completions", modelId: "real-model", cost: { input: 2, output: 10 } },
 	{ name: "a", baseUrl: upstreamUrl, apiKey: "real-key", api: "anthropic-messages", modelId: "claude" },
 ]);
-const { createUsageScanner, extractToken, llmRouter, readLlmToken, withStreamUsage } = await import("../src/api/routes/llm.ts");
+const { extractToken, llmRouter, readLlmToken, withStreamUsage } = await import("../src/api/routes/llm.ts");
 
 const TOKENS: Record<string, string> = {
 	"llm-token:tok": JSON.stringify({ jobId: "j1", role: "persona" }),
@@ -206,5 +207,5 @@ test("the usage scanner tolerates junk and reports nothing when there is no usag
 	const json = createUsageScanner("application/json");
 	json.push(Buffer.from("{\"usage\":{\"input_tokens\":3,"));
 	json.push(Buffer.from("\"output_tokens\":4}}"));
-	assert.deepEqual(json.finish(), { inputTokens: 3, outputTokens: 4 });
+	assert.deepEqual(json.finish(), { inputTokens: 3, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 4 });
 });

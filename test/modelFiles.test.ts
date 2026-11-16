@@ -14,6 +14,7 @@ const run = (jobId: string, model = "gpt-x"): RunRecord => ({
 	modelId: "m",
 	challenge: null,
 	assistant: null,
+	trial: 1,
 	status: "done",
 	correct: true,
 	outcome: null,
@@ -75,4 +76,13 @@ test("an entry written before runs had an assistant reads back with assistant nu
 
 test("readModelFile returns undefined when there is no file", async () => {
 	assert.equal(await readModelFile(tmp(), "cyber", "nope"), undefined);
+});
+
+test("an entry written before runs had a trial reads back as trial 1", async () => {
+	const { mkdirSync, writeFileSync } = await import("node:fs");
+	const dir = tmp();
+	const { trial: _omitted, ...old } = run("old");
+	mkdirSync(join(dir, "cyber"));
+	writeFileSync(join(dir, "cyber", "gpt-x.json"), JSON.stringify({ benchmark: "cyber", model: "gpt-x", modelId: "m", runs: [old] }));
+	assert.equal((await readModelFile(dir, "cyber", "gpt-x"))?.runs[0].trial, 1);
 });

@@ -15,7 +15,12 @@ async function modelEntry(model: ModelConfig) {
 
 test("a configured price is passed to pi so runs report a cost", async () => {
 	const entry = await modelEntry({ ...base, cost: { input: 0.14, output: 0.28 } });
-	assert.deepEqual(entry.cost, { input: 0.14, output: 0.28, cacheRead: 0, cacheWrite: 0 });
+	assert.deepEqual(entry.cost, { input: 0.14, output: 0.28, cacheRead: 0.14, cacheWrite: 0.14 });
+});
+
+test("omitted cache prices fall back to the input price, not to free", async () => {
+	const entry = await modelEntry({ ...base, cost: { input: 1, output: 2, cacheRead: 0.1 } });
+	assert.deepEqual(entry.cost, { input: 1, output: 2, cacheRead: 0.1, cacheWrite: 1 });
 });
 
 test("cache prices are kept when given", async () => {

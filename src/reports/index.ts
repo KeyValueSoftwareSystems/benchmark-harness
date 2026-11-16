@@ -11,12 +11,13 @@ const { values } = parseArgs({
 		// PA-specific: one model, multiple assistants
 		model: { type: "string" },
 		assistants: { type: "string" },
+		selection: { type: "string" },
 	},
 });
 
 if (!values.benchmark) {
 	console.error("usage: report --benchmark <name> --models <model,model,...>");
-	console.error("   PA: report --benchmark pa --model <model> --assistants openclaw,hermes");
+	console.error("   PA: report --benchmark pa --model <model> --assistants openclaw,hermes [--selection <name>]");
 	process.exit(2);
 }
 
@@ -26,12 +27,13 @@ const narrator = process.env.NARRATIVE_MODEL ? narrateWithModel(JSON.parse(proce
 try {
 	if (values.benchmark === "pa") {
 		if (!values.model || !values.assistants) {
-			console.error("PA usage: report --benchmark pa --model <model> --assistants openclaw,hermes");
+			console.error("PA usage: report --benchmark pa --model <model> --assistants openclaw,hermes [--selection <name>]");
 			process.exit(2);
 		}
 		const assistants = values.assistants.split(",").map((a) => a.trim()).filter(Boolean);
 		const out = await generatePaReport({
 			model: values.model,
+			selectionName: values.selection,
 			assistants,
 			resultsDir: process.env.RESULTS_DIR ?? "/data/results",
 			reportsDir: process.env.REPORTS_DIR ?? "/data/reports",

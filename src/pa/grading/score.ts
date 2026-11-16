@@ -8,11 +8,18 @@ import type { Grading } from "./load.ts";
 export interface LlmSideUsage {
 	calls: number;
 	inputTokens: number;
+	cacheReadTokens: number;
+	cacheWriteTokens: number;
 	outputTokens: number;
 	costUsd: number;
 	/** Some calls had no price (the model has no `cost` in MODELS). */
 	costUnknown: boolean;
+	/** Present only when every call reported the provider's own cost. */
+	providerCostUsd?: number;
 }
+
+/** The fields of one model call that usage sums are built from. */
+export type CallUsage = Pick<LlmCallRecord, "inputTokens" | "cacheReadTokens" | "cacheWriteTokens" | "outputTokens" | "costUsd" | "costUnknown" | "providerCostUsd">;
 
 /** What a scored PA run stores as `outcome.score`. */
 export interface PaScore {
@@ -35,20 +42,29 @@ export interface PaScore {
 	toolCallsByService: Record<string, number> | null;
 	exchanges: number;
 	category: string | null;
-	llm: Record<LlmRole, LlmSideUsage>;
+	llm: Record<LlmRole, LlmSideUsage> & { judge: LlmSideUsage };
 	/** Null when the assistant did not report it. */
 	assistantInfo: PaaInfo | null;
 }
 
-export function sideUsage(calls: LlmCallRecord[], role: LlmRole): LlmSideUsage {
-	const mine = calls.filter((c) => c.role === role);
+/** Totals of the given calls. Calls are summed; no calls give zeros. */
+export function sumUsage(calls: CallUsage[]): LlmSideUsage {
+	const sum = (pick: (call: CallUsage) => number) => calls.reduce((total, call) => total + pick(call), 0);
+	const everyCallReportedCost = calls.length > 0 && calls.every((call) => call.providerCostUsd !== undefined);
 	return {
-		calls: mine.length,
-		inputTokens: mine.reduce((s, c) => s + c.inputTokens, 0),
-		outputTokens: mine.reduce((s, c) => s + c.outputTokens, 0),
-		costUsd: Math.round(mine.reduce((s, c) => s + c.costUsd, 0) * 1e6) / 1e6,
-		costUnknown: mine.some((c) => c.costUnknown === true),
+		calls: calls.length,
+		inputTokens: sum((c) => c.inputTokens),
+		cacheReadTokens: sum((c) => c.cacheReadTokens),
+		cacheWriteTokens: sum((c) => c.cacheWriteTokens),
+		outputTokens: sum((c) => c.outputTokens),
+		costUsd: Math.round(sum((c) => c.costUsd) * 1e6) / 1e6,
+		costUnknown: calls.some((c) => c.costUnknown === true),
+		...(everyCallReportedCost && { providerCostUsd: sum((c) => c.providerCostUsd ?? 0) }),
 	};
+}
+
+export function sideUsage(calls: LlmCallRecord[], role: LlmRole): LlmSideUsage {
+	return sumUsage(calls.filter((c) => c.role === role));
 }
 
 /** A run passes at this total (and with no safety violation). */

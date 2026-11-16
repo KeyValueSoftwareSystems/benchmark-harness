@@ -16,11 +16,10 @@
 import { Readable, Transform } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import type { ReadableStream } from "node:stream/web";
-import { StringDecoder } from "node:string_decoder";
 import { Router } from "express";
 import type { Redis } from "ioredis";
 import { Agent, fetch } from "undici";
-import type { ModelConfig } from "../../shared/types.ts";
+import { callCost, createUsageScanner, type LlmUsage } from "../../shared/llm-usage.ts";
 import { JOB_DATA_TTL_S, MODELS } from "../config.ts";
 import { getJob, keys, setStatus } from "../queue/store.ts";
 
@@ -73,9 +72,16 @@ export interface LlmCallRecord {
 	startedAt: string;
 	/** Until the last byte reached the client. */
 	latencyMs: number;
+	/** All prompt tokens, including cached ones. */
 	inputTokens: number;
+	/** Prompt tokens served from the provider's cache. */
+	cacheReadTokens: number;
+	/** Prompt tokens written to the provider's cache. */
+	cacheWriteTokens: number;
 	outputTokens: number;
 	costUsd: number;
+	/** The provider's own billed USD for the call, when its response reports one. */
+	providerCostUsd?: number;
 	/** The model has no `cost` in MODELS, so `costUsd` is 0 rather than the real cost. */
 	costUnknown?: boolean;
 	/** Upstream HTTP status; 502 when the upstream was unreachable. */
@@ -111,91 +117,6 @@ export async function removeLlmToken(redis: Redis, token: string): Promise<void>
 /** Every model call logged for a job, oldest first. */
 export async function listLlmCalls(redis: Redis, jobId: string): Promise<LlmCallRecord[]> {
 	return (await redis.lrange(keys.llmCallLog(jobId), 0, -1)).map((line) => JSON.parse(line) as LlmCallRecord);
-}
-
-export interface LlmUsage {
-	inputTokens: number;
-	outputTokens: number;
-}
-
-/** A non-streamed body is scanned for usage only up to this size; larger ones are still passed through untouched. */
-const USAGE_SCAN_MAX_CHARS = 16 * 1024 * 1024;
-const SSE_DATA_PREFIX = "data:";
-
-const count = (value: unknown): number | undefined => (typeof value === "number" && Number.isFinite(value) ? value : undefined);
-
-/**
- * Applies whatever usage one response object carries. Covers OpenAI chat completions (`usage.prompt_tokens`, the last
- * stream chunk), Anthropic messages (`usage`, `message_start.message.usage`, `message_delta.usage`) and OpenAI
- * responses (`usage`, `response.completed.response.usage`). Later values replace earlier ones, as the streams send
- * running totals.
- */
-function applyUsage(usage: Partial<LlmUsage>, obj: unknown): void {
-	if (!obj || typeof obj !== "object") return;
-	const o = obj as Record<string, any>;
-	for (const u of [o.usage, o.message?.usage, o.response?.usage]) {
-		if (!u || typeof u !== "object") continue;
-		const input = count(u.prompt_tokens) ?? count(u.input_tokens);
-		const output = count(u.completion_tokens) ?? count(u.output_tokens);
-		if (input !== undefined) usage.inputTokens = input;
-		if (output !== undefined) usage.outputTokens = output;
-	}
-}
-
-/** Reads usage from a response body chunk by chunk, server-sent events or plain JSON. Never throws. */
-export function createUsageScanner(contentType: string | null) {
-	const sse = (contentType ?? "").includes("text/event-stream");
-	const decoder = new StringDecoder("utf8");
-	const usage: Partial<LlmUsage> = {};
-	let pending = "";
-	let overflow = false;
-
-	const scanLine = (line: string) => {
-		if (!line.startsWith(SSE_DATA_PREFIX)) return;
-		const data = line.slice(SSE_DATA_PREFIX.length).trim();
-		if (!data || data === "[DONE]") return;
-		try {
-			applyUsage(usage, JSON.parse(data));
-		} catch {
-			// a data line that isn't JSON carries no usage
-		}
-	};
-
-	return {
-		push(chunk: Buffer | string): void {
-			if (overflow) return;
-			pending += typeof chunk === "string" ? chunk : decoder.write(chunk);
-			if (sse) {
-				const lines = pending.split(/\r?\n/);
-				pending = lines.pop() ?? "";
-				for (const line of lines) scanLine(line);
-			} else if (pending.length > USAGE_SCAN_MAX_CHARS) {
-				overflow = true;
-				pending = "";
-			}
-		},
-		/** The usage seen so far; undefined when the body carried none. */
-		finish(): LlmUsage | undefined {
-			pending += decoder.end();
-			if (sse) scanLine(pending);
-			else if (!overflow && pending) {
-				try {
-					applyUsage(usage, JSON.parse(pending));
-				} catch {
-					// not JSON: no usage
-				}
-			}
-			pending = "";
-			if (usage.inputTokens === undefined && usage.outputTokens === undefined) return undefined;
-			return { inputTokens: usage.inputTokens ?? 0, outputTokens: usage.outputTokens ?? 0 };
-		},
-	};
-}
-
-/** USD for one call from `model.cost` (per million tokens); unknown when the model has no prices. */
-export function callCost(model: Pick<ModelConfig, "cost">, usage: LlmUsage): { costUsd: number; costUnknown?: boolean } {
-	if (!model.cost) return { costUsd: 0, costUnknown: true };
-	return { costUsd: (usage.inputTokens * model.cost.input + usage.outputTokens * model.cost.output) / 1_000_000 };
 }
 
 /** Asks for the usage chunk at the end of an OpenAI chat-completions stream; other requests are left as they are. */
@@ -328,7 +249,7 @@ export function llmRouter(redis: Redis): Router {
 			if (res.headersSent) res.destroy();
 			else res.status(502).json({ error: "upstream unreachable", detail: err.message });
 		} finally {
-			const usage = scanner?.finish() ?? { inputTokens: 0, outputTokens: 0 };
+			const usage: LlmUsage = scanner?.finish() ?? { inputTokens: 0, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 0 };
 			const record: LlmCallRecord = {
 				role,
 				model: model.name,

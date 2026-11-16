@@ -1,5 +1,6 @@
 import { DatabaseSync } from "node:sqlite";
 import type { RunMetrics, RunRecord } from "../../shared/results.ts";
+import { FIRST_TRIAL } from "../trials.ts";
 
 const SCHEMA = `
 CREATE TABLE IF NOT EXISTS runs (
@@ -24,7 +25,7 @@ CREATE INDEX IF NOT EXISTS runs_benchmark_model ON runs (benchmark, model);
 `;
 
 /** Columns added after the table first shipped; an older database gets them on open. */
-const ADDED_COLUMNS: Record<string, string> = { assistant: "TEXT" };
+const ADDED_COLUMNS: Record<string, string> = { assistant: "TEXT", trial: "INTEGER" };
 
 function addMissingColumns(db: DatabaseSync): void {
 	const present = new Set((db.prepare("PRAGMA table_info(runs)").all() as { name: string }[]).map((c) => c.name));
@@ -51,11 +52,12 @@ const parse = <T>(value: unknown): T | null => (typeof value === "string" ? (JSO
  */
 export function upsertRun(db: DatabaseSync, run: RunRecord): void {
 	db.prepare(
-		`INSERT INTO runs (job_id, benchmark, model, model_id, challenge, assistant, status, correct, outcome, metrics,
+		`INSERT INTO runs (job_id, benchmark, model, model_id, challenge, trial, assistant, status, correct, outcome, metrics,
 			session_id, trace_ids, netra_metadata, conditions, created_at, finished_at)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 		ON CONFLICT(job_id) DO UPDATE SET benchmark = excluded.benchmark, model = excluded.model,
-			model_id = excluded.model_id, challenge = excluded.challenge, assistant = excluded.assistant, status = excluded.status,
+			model_id = excluded.model_id, challenge = excluded.challenge, trial = excluded.trial,
+			assistant = excluded.assistant, status = excluded.status,
 			correct = excluded.correct, outcome = excluded.outcome, metrics = excluded.metrics,
 			session_id = excluded.session_id,
 			-- the same attempt (same Netra session) keeps insights already saved; a new attempt starts clean
@@ -69,6 +71,7 @@ export function upsertRun(db: DatabaseSync, run: RunRecord): void {
 		run.model,
 		run.modelId,
 		run.challenge,
+		run.trial,
 		run.assistant ?? null,
 		run.status,
 		run.correct === null ? null : run.correct ? 1 : 0,
@@ -112,6 +115,7 @@ export function listRuns(db: DatabaseSync, filter: { benchmark?: string; model?:
 		model: r.model as string,
 		modelId: r.model_id as string,
 		challenge: (r.challenge as string | null) ?? null,
+		trial: (r.trial as number | null) ?? FIRST_TRIAL,
 		assistant: (r.assistant as string | null) ?? null,
 		status: r.status as string,
 		correct: r.correct === null ? null : r.correct === 1,

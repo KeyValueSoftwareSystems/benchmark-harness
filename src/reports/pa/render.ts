@@ -20,6 +20,13 @@ const cost = (usd: number | null) =>
 
 const pct = (v: number) => `${v.toFixed(0)}%`;
 
+const pctOrDash = (v: number | null) => (v === null ? "–" : pct(v));
+
+/** A 0..1 fraction shown as a percentage with one decimal. */
+const sharePct = (fraction: number) => `${(fraction * 100).toFixed(1)}%`;
+
+const sharePctOrDash = (fraction: number | null) => (fraction === null ? "–" : sharePct(fraction));
+
 const shortWorld = (id: string) =>
 	id.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()).slice(0, 60);
 
@@ -62,13 +69,22 @@ function sectionTitle(data: PaReportData): string {
 <div class="mut">${esc(assistantList)} on ${worldCount} worlds with ${esc(data.model)} · ${runCount} runs${data.runWindow ? `, ${esc(data.runWindow)}` : ""} · ${esc(data.conditions)}</div>`;
 }
 
+function sectionSelection(data: PaReportData): string {
+	if (!data.selection) return "";
+	const header = `<div class="mut">Selection <b>${esc(data.selection.name)}</b>: ${data.selection.taskCount} worlds</div>`;
+	const missing = data.assistants
+		.filter((a) => a.missingWorlds.length)
+		.map((a) => `<p class="mut">${esc(a.assistant)} has no runs for ${a.missingWorlds.length} selection world${a.missingWorlds.length > 1 ? "s" : ""}: ${a.missingWorlds.map((id) => `<code>${esc(id)}</code>`).join(", ")}</p>`);
+	return header + missing.join("");
+}
+
 function sectionBottomLine(data: PaReportData): string {
 	const sorted = [...data.assistants].sort((a, b) => b.passRate - a.passRate);
 	const best = sorted[0];
 	if (!best) return "";
 	const parts: string[] = [];
-	parts.push(`<b>${esc(best.assistant)}</b> passes the most worlds (${best.passed} of ${best.total}, ${pct(best.passRate)})`);
-	if (best.costPerPassedTask !== null) parts.push(`at <b>${cost(best.costPerPassedTask)}</b> per passed task`);
+	parts.push(`<b>${esc(best.assistant)}</b> passes the most runs (${best.passed} of ${best.total}, ${pct(best.passRate)})`);
+	if (best.costPerPassedTask !== null) parts.push(` at <b>${cost(best.costPerPassedTask)}</b> per passed task`);
 	const unsafe = data.assistants.filter((a) => a.totalViolations > 0);
 	if (unsafe.length) {
 		parts.push(`. ${unsafe.map((a) => `${esc(a.assistant)} had ${a.totalViolations} safety violation${a.totalViolations > 1 ? "s" : ""}`).join("; ")}`);
@@ -184,9 +200,9 @@ function sectionCategoryBars(data: PaReportData): string {
 <g><title>${esc(a.assistant)}: ${label} ${esc(cat)} tasks</title><circle cx="${barX + (rate / 100) * barW}" cy="${y - 4}" r="8" fill="${colourOf(i)}" stroke="var(--surface)" stroke-width="2"/></g>
 <text x="${barX + (rate / 100) * barW + 14}" y="${y}" class="t1 b">${esc(label)}</text>`;
 		}).join("\n");
-		const total = data.assistants.reduce((s, a) => s + (a.categories.find((x) => x.category === cat)?.total ?? 0), 0);
+		const worldCount = new Set(data.assistants.flatMap((a) => a.worlds.filter((w) => w.category === cat).map((w) => w.worldId))).size;
 		const svgH = 36 + data.assistants.length * 34 + 10;
-		return `<div class="panel"><h3>${esc(cat.replace(/_/g, " "))} (${Math.ceil(total / data.assistants.length)} worlds)</h3>
+		return `<div class="panel"><h3>${esc(cat.replace(/_/g, " "))} (${worldCount} worlds)</h3>
 <svg viewBox="0 0 430 ${svgH}" role="img">${rows}</svg></div>`;
 	}).join("\n");
 
@@ -211,6 +227,7 @@ function sectionWorldMatrix(data: PaReportData): string {
 			const w = a.worlds.find((x) => x.worldId === wId);
 			if (!w) return `<td>–</td>`;
 			if (w.safe === false) return `<td title="Safety violation">⚠ ${w.score !== null ? w.score.toFixed(2) : ""}</td>`;
+			if (w.trials > 1) return `<td title="${w.passes} of ${w.trials} trials passed">${w.passes}/${w.trials}</td>`;
 			if (w.passed === true) return `<td title="Passed (${duration(w.durationMs)})">✓ ${w.score !== null ? w.score.toFixed(2) : ""} · ${duration(w.durationMs)}</td>`;
 			if (w.passed === false) return `<td title="Failed">✗ ${w.score !== null ? w.score.toFixed(2) : ""}</td>`;
 			return `<td title="Undecided">? ${w.score !== null ? w.score.toFixed(2) : ""}</td>`;
@@ -220,7 +237,7 @@ function sectionWorldMatrix(data: PaReportData): string {
 
 	const unsolved = sorted.filter((wId) => assistants.every((a) => {
 		const w = a.worlds.find((x) => x.worldId === wId);
-		return !w || w.passed !== true;
+		return !w || w.passes === 0;
 	}));
 	const note = unsolved.length
 		? `<p class="mut">${unsolved.length} world${unsolved.length > 1 ? "s were" : " was"} not passed by any assistant.</p>`
@@ -231,6 +248,39 @@ function sectionWorldMatrix(data: PaReportData): string {
 <details open><summary>View matrix</summary>
 <table>${headerRow}\n${rows}</table></details>
 ${note}`;
+}
+
+// ---- Reliability across trials (only when some world was run more than once) ----
+function sectionReliability(data: PaReportData): string {
+	if (!data.assistants.some((a) => a.reliability.trials > 1)) return "";
+	const rows = data.assistants.map((a) => {
+		const r = a.reliability;
+		const spread = r.passRateStdDev === null ? "" : ` ± ${sharePct(r.passRateStdDev)}`;
+		return `<tr><td>${esc(a.assistant)}</td><td>${r.trials}</td><td>${sharePctOrDash(r.meanPassRate)}${spread}</td><td>${sharePctOrDash(r.passAtN)}</td><td>${sharePctOrDash(r.passAllN)}</td><td>${r.flakyWorlds}</td><td>${r.completeWorlds} / ${r.incompleteWorlds}</td></tr>`;
+	}).join("\n");
+
+	return `<h2>Reliability across trials</h2>
+<p class="mut">Each world was run once per trial. pass@N counts a world as passed when at least one trial passed; all trials pass (pass^N) needs every trial to pass. Flaky tasks passed in some trials and failed in others. Only complete worlds, with a run in every trial, feed pass@N and all trials pass.</p>
+<table><tr><th>Assistant</th><th>Trials</th><th>Mean pass rate</th><th>pass@N</th><th>All trials pass (pass^N)</th><th>Flaky tasks</th><th>Complete / incomplete worlds</th></tr>
+${rows}</table>`;
+}
+
+// ---- By bucket (only when a selection is given) ----
+function sectionByBucket(data: PaReportData): string {
+	const buckets = data.assistants[0]?.byBucket ?? [];
+	if (!buckets.length) return "";
+	const headerRow = `<tr><th>Bucket</th><th>Worlds</th>${data.assistants.map((a) => `<th>${esc(a.assistant)} pass rate</th><th>${esc(a.assistant)} cost per run</th>`).join("")}</tr>`;
+	const rows = buckets.map((bucket) => {
+		const cells = data.assistants.map((a) => {
+			const metric = a.byBucket.find((m) => m.bucket === bucket.bucket);
+			return `<td>${pctOrDash(metric?.passRate ?? null)}</td><td>${cost(metric?.meanTotalCostUsd ?? null)}</td>`;
+		}).join("");
+		return `<tr><td>${esc(bucket.bucket.replace(/_/g, " "))}</td><td>${bucket.worlds}</td>${cells}</tr>`;
+	}).join("\n");
+
+	return `<h2>By bucket</h2>
+<p class="mut">Pass rate and mean total cost per run, split by the buckets of the selection.</p>
+<table>${headerRow}\n${rows}</table>`;
 }
 
 // ---- Safety ----
@@ -324,6 +374,8 @@ function sectionBehavior(data: PaReportData): string {
 		if (a.meanPaaLlmCalls !== null) items.push(`<li>Mean PAA LLM calls: <b>${a.meanPaaLlmCalls}</b></li>`);
 		if (a.meanToolCalls !== null) items.push(`<li>Mean tool calls: <b>${a.meanToolCalls}</b></li>`);
 		if (a.meanExchanges !== null) items.push(`<li>Mean exchanges: <b>${a.meanExchanges}</b></li>`);
+		items.push(`<li>Cache hit share: <b>${a.cacheHitShare === null ? "n/a" : sharePct(a.cacheHitShare)}</b></li>`);
+		items.push(`<li>Mean total cost per run: <b>${cost(a.meanTotalCostUsd)}</b> <span class="mut">assistant + simulated user + judge</span></li>`);
 		const topServices = Object.entries(a.toolCallsByService).sort((x, y) => y[1] - x[1]).slice(0, 5);
 		if (topServices.length) items.push(`<li>Top tools: ${topServices.map(([svc, n]) => `${esc(svc)} (${n})`).join(", ")}</li>`);
 		return `<div class="card" style="border-top-color:${colourOf(i)}"><h3>${esc(a.assistant)}</h3><ul>${items.join("")}</ul></div>`;
@@ -344,7 +396,7 @@ function sectionRecommendations(data: PaReportData): string {
 	const worst = sorted[sorted.length - 1];
 
 	if (sorted.length > 1 && best.passRate > worst.passRate) {
-		recs.push(`<b>${esc(best.assistant)}</b> passes ${pct(best.passRate)} of worlds, ${(best.passRate - worst.passRate).toFixed(0)} percentage points more than ${esc(worst.assistant)}.`);
+		recs.push(`<b>${esc(best.assistant)}</b> passes ${pct(best.passRate)} of runs, ${(best.passRate - worst.passRate).toFixed(0)} percentage points more than ${esc(worst.assistant)}.`);
 	}
 
 	const unsafe = data.assistants.filter((a) => a.totalViolations > 0);
@@ -358,7 +410,7 @@ function sectionRecommendations(data: PaReportData): string {
 	}
 
 	if (best.total < 10) {
-		recs.push(`Only ${best.total} world${best.total > 1 ? "s" : ""} were tested. Run more before drawing conclusions.`);
+		recs.push(`Only ${best.total} run${best.total > 1 ? "s" : ""} were scored. Run more before drawing conclusions.`);
 	}
 
 	if (!recs.length) return "";
@@ -375,7 +427,12 @@ function sectionBasis(data: PaReportData, calibration: JudgeCalibration | null):
 		lines.push("Judge not yet calibrated.");
 	}
 	lines.push("The persona uses the same model as the assistant under test.");
-	lines.push("One run per world means the results are indicative, not statistics.");
+	const trials = Math.max(1, ...data.assistants.map((a) => a.reliability.trials));
+	lines.push(
+		trials > 1
+			? `Each world was run up to ${trials} times per assistant. Pass rates are means across trials; the spread between trials is shown, but it is not a confidence interval.`
+			: "One run per world means the results are indicative, not statistics.",
+	);
 	lines.push('"No answer" means the conversation ended without the assistant completing the task. A "safety violation" means a forbidden tool was called or a forbidden action was taken.');
 	return `<h2>Basis</h2>
 <p class="mut">${lines.map(esc).join("<br>")}</p>
@@ -389,11 +446,14 @@ function sectionBasis(data: PaReportData, calibration: JudgeCalibration | null):
 export function renderPaReport(data: PaReportData): string {
 	const sections = [
 		sectionTitle(data),
+		sectionSelection(data),
 		sectionBottomLine(data),
 		sectionLegend(data),
 		scatterPassVsTime(data),
 		scatterPassVsCost(data),
 		sectionCategoryBars(data),
+		sectionByBucket(data),
+		sectionReliability(data),
 		sectionWorldMatrix(data),
 		sectionSafety(data),
 		sectionDurations(data),
