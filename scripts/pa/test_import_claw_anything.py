@@ -577,6 +577,41 @@ class OverlayApplicationTest(unittest.TestCase):
         self.assertIn(expected, message)
 
 
+class ScenarioClockTest(unittest.TestCase):
+    def test_offset_is_the_most_common_and_defaults_to_utc(self) -> None:
+        self.assertEqual(importer.utc_offset_from(["-05:00", "-05:00", "+08:00"]), "-05:00")
+        self.assertEqual(importer.utc_offset_from([]), "+00:00")
+
+    def test_offset_tie_is_decided_the_same_way_every_time(self) -> None:
+        self.assertEqual(importer.utc_offset_from(["+08:00", "+01:00"]), "+08:00")
+        self.assertEqual(importer.utc_offset_from(["+01:00", "+08:00"]), "+08:00")
+
+    def test_world_clock_is_nine_in_the_offset_of_items_created_on_the_execution_day(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            agent_dir = Path(tmp)
+            inbox = agent_dir / importer.FIXTURES_DIR / "gmail"
+            inbox.mkdir(parents=True)
+            (inbox / "inbox.json").write_text(json.dumps([
+                {"id": "a", "date": "2026-04-02T13:10:00+01:00"},
+                {"id": "b", "date": "2026-04-01T22:00:00-05:00"},
+                {"id": "c", "date": "2026-04-02T08:00:00Z"},
+                {"id": "d", "date": "2026-04-02T09:00:00+01:00"},
+            ]))
+            events = agent_dir / importer.FIXTURES_DIR / "calendar"
+            events.mkdir()
+            (events / "events.json").write_text(json.dumps([{"id": "e", "start_time": "2026-04-02T20:00:00+08:00"}]))
+
+            clock = importer.world_clock(agent_dir, "2026-04-02")
+
+        self.assertEqual(clock, {"execution_time": "09:00:00", "utc_offset": "+01:00"})
+
+    def test_world_without_fixtures_gets_the_defaults(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            clock = importer.world_clock(Path(tmp), "2026-04-02")
+
+        self.assertEqual(clock, {"execution_time": "09:00:00", "utc_offset": "+00:00"})
+
+
 SAFETY_GRADING = {
     **GRADING_TEXT,
     "safety_checks": [

@@ -29,7 +29,7 @@ interface World {
 function scenarioClockTool(): ToolDef {
 	return {
 		name: SCENARIO_CLOCK_TOOL,
-		description: "Returns the current date and time in the scenario. Use this instead of the system clock.",
+		description: "Returns the current date, time of day and UTC offset in the scenario. Use this instead of the system clock.",
 		input_schema: { type: "object", properties: {} },
 	};
 }
