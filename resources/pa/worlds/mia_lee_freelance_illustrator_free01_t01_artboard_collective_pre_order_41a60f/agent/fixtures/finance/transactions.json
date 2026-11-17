@@ -1,0 +1,732 @@
+[
+  {
+    "transaction_id": "TXN-6001",
+    "date": "2026-02-24",
+    "amount": 125.0,
+    "currency": "USD",
+    "merchant": "Studio Referral Credit — Mia Lee Illustration LLC",
+    "category": "credit_balance",
+    "description": "Studio referral credit balance available for redemption. Accumulated from 3 client referrals (Q4 2025–Q1 2026). Eligible for any software/SaaS vendor. Cap: $125.00. Cannot be combined with promotional voucher on the same transaction.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6002",
+    "date": "2026-02-24",
+    "amount": 200.0,
+    "currency": "USD",
+    "merchant": "CreativePro Partner Voucher — Promo Code CP-2026-MIA",
+    "category": "promotional_voucher",
+    "description": "Platform promotional voucher issued via CreativePro Partner Program. Per-transaction cap: $200.00. Valid vendor categories: Creative Tools, Font Licensing, Cloud Storage. NOT combinable with studio referral credit on the same transaction. Expires 2026-03-15.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6003",
+    "date": "2026-02-24",
+    "amount": 659.88,
+    "currency": "USD",
+    "merchant": "Adobe Systems",
+    "category": "software_subscription",
+    "description": "Adobe Creative Cloud All Apps annual renewal — charged to Business Debit Card ending 4821. Full amount billed as referral credit and voucher were exhausted on prior allocations.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6004",
+    "date": "2026-02-19",
+    "amount": 22.0,
+    "currency": "USD",
+    "merchant": "Backblaze",
+    "category": "software_subscription",
+    "description": "Backblaze B2 Cloud Storage monthly plan — auto-renewed Feb 19. Charged to Business Debit Card ending 4821. Not part of current reallocation cycle.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6005",
+    "date": "2026-04-02",
+    "amount": 90.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "software_license",
+    "description": "Early-bird pre-order deposit (50%) — Bundle 1: Premium Brush Texture Pack (Pro Edition). Deposit multiplier: 1.2× ($108.00 credit value toward final balance). Final payment deadline: 2026-05-02. Non-refundable.",
+    "receipt_url": "https://artboardcollective.example/receipts/TXN-6005-deposit-bundle1"
+  },
+  {
+    "transaction_id": "TXN-6006",
+    "date": "2026-04-02",
+    "amount": 130.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "software_license",
+    "description": "Early-bird pre-order deposit (50%) — Bundle 2: Stock Editorial Photo Reference Library (Vol. 3). Deposit multiplier: 1.2× ($156.00 credit value toward final balance). Final payment deadline: 2026-05-02. Non-refundable.",
+    "receipt_url": "https://artboardcollective.example/receipts/TXN-6006-deposit-bundle2"
+  },
+  {
+    "transaction_id": "TXN-6007",
+    "date": "2026-04-02",
+    "amount": 70.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "software_license",
+    "description": "Early-bird pre-order deposit (50%) — Bundle 3: Vector Icon & Ornament Library (Editorial Series). Deposit multiplier: 1.2× ($84.00 credit value toward final balance). Final payment deadline: 2026-05-02. Non-refundable.",
+    "receipt_url": "https://artboardcollective.example/receipts/TXN-6007-deposit-bundle3"
+  },
+  {
+    "transaction_id": "TXN-6008",
+    "date": "2026-04-15",
+    "amount": 29.0,
+    "currency": "USD",
+    "merchant": "Gumroad",
+    "category": "software_license",
+    "description": "Gumroad creator purchase — Halftone & Risograph Brush Set by Studio Kova. Separate one-off brush purchase unrelated to Artboard Collective pre-orders.",
+    "receipt_url": "https://gumroad.example/receipts/TXN-6008-halftone-brushes"
+  },
+  {
+    "transaction_id": "TXN-6009",
+    "date": "2026-04-16",
+    "amount": 0.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "pre_order_hold",
+    "description": "Artboard Collective pre-order — 3 bundles (Bundle 1: Brush Texture Pack, Bundle 2: Editorial Photo Reference Library, Bundle 3: Typography & Layout Kit). Final payment pending price-match resolution. Hold amount $0 — payment not yet executed. Final payment due 2026-05-02. Reference: MSG-5008 price-match request outstanding.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6010",
+    "date": "2026-04-16",
+    "amount": 12.0,
+    "currency": "USD",
+    "merchant": "Gumroad",
+    "category": "platform_fee",
+    "description": "Gumroad processing fee — Vera Moss Brush Texture Pack purchase (TXN-6008 primary transaction $94.00). Fee logged separately per Gumroad billing breakdown. Tax category: digital tools / software.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6011",
+    "date": "2026-04-01",
+    "amount": -285.0,
+    "currency": "USD",
+    "merchant": "Adobe Systems",
+    "category": "software_subscription",
+    "description": "Adobe Creative Cloud annual plan — April 2026 installment (discretionary: non-billable tool)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6012",
+    "date": "2026-04-01",
+    "amount": -49.0,
+    "currency": "USD",
+    "merchant": "Backblaze",
+    "category": "software_subscription",
+    "description": "Backblaze B2 cloud backup — April 2026 (discretionary: non-billable tool)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6013",
+    "date": "2026-04-08",
+    "amount": 1600.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "client_deposit",
+    "description": "Greenfield Press Spring 2026 cover commission — 50% upfront deposit (3 cover variations, project total $3,200)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6014",
+    "date": "2026-04-02",
+    "amount": -640.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "print_production",
+    "description": "Pressline Studio bulk giclée print credits — Tranche 1: Tier 2 (40 credits × $16.00) — staged purchase plan, tranche 2 pending Greenfield deposit",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6015",
+    "date": "2026-03-17",
+    "amount": 20.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "digital_asset_purchase",
+    "description": "Editorial Cover Mockup Kit — 8 scenes (Item 6 of asset shopping list). List price $38.00; applied referral credit $18.00 (AC-REF-FEB28, expiry 2026-03-31). Net charge $20.00. Voucher AC-MARCH15 not applied — threshold not met and credit yielded better savings.",
+    "receipt_url": "https://artboardcollective.example/receipts/TXN-AC-20260317-0042"
+  },
+  {
+    "transaction_id": "TXN-6016",
+    "date": "2026-03-17",
+    "amount": 0.0,
+    "currency": "USD",
+    "merchant": "Envato Elements",
+    "category": "digital_asset_download",
+    "description": "Subscription download batch — 5 assets: Halftone & Grain Texture Pack, Ink Wash Brush Set (40 brushes), Vintage Editorial Layout Templates (12 pages), Risograph Color Palette Swatches, Hand-Lettering Overlay Pack (60 elements). Marginal cost $0 — covered by active monthly subscription ($16.50/mo, cycle through 2026-04-13, already logged TXN-6009).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6017",
+    "date": "2026-03-14",
+    "amount": 16.5,
+    "currency": "USD",
+    "merchant": "Envato Elements",
+    "category": "subscription",
+    "description": "Envato Elements monthly subscription renewal — March 2026 billing cycle (2026-03-14 through 2026-04-13). Unlimited asset downloads included.",
+    "receipt_url": "https://elements.envato.example/receipts/ENV-20260314-MIA"
+  },
+  {
+    "transaction_id": "TXN-6018",
+    "date": "2026-03-16",
+    "amount": -18.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "platform_credit",
+    "description": "Artboard Collective referral credit applied to order — credit code AC-REF-FEB28 ($18.00, issued 2026-02-28, expiry 2026-03-31). Applied against Editorial Cover Mockup Kit purchase TXN-6015. Credit balance after application: $0.00.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6019",
+    "date": "2026-05-02",
+    "amount": -94.5,
+    "currency": "USD",
+    "merchant": "FedEx",
+    "category": "shipping_expense",
+    "description": "FedEx Priority Overnight — Greenfield Press physical proof set (3 covers) — SF CA to Portland OR — next-business-day delivery for May 12 deadline. Receipt to be attached to Greenfield final invoice for reimbursement.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6020",
+    "date": "2026-04-28",
+    "amount": -38.0,
+    "currency": "USD",
+    "merchant": "Blick Art Materials",
+    "category": "supplies",
+    "description": "Mounting board and archival sleeves for Greenfield Press physical proof set — 3 cover prints.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6021",
+    "date": "2026-02-15",
+    "amount": 800.0,
+    "currency": "USD",
+    "merchant": "Meridian Magazine",
+    "category": "invoice_pending",
+    "description": "Meridian Magazine — March 2026 editorial illustration 'Rooftop Commons — Urban Renewal Through Community Space' — quarterly slot fee $800.00, net-30, invoice to be sent on delivery 2026-02-24. Recurring anchor client relationship since 2022.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6022",
+    "date": "2026-02-15",
+    "amount": 1600.0,
+    "currency": "USD",
+    "merchant": "Harbor Press Books",
+    "category": "deposit_received",
+    "description": "Harbor Press Books — Spring 2026 cover commission 'The Salt Margin' — 50% deposit of $3,200 original total received on contract signing 2026-02-15. Scope expanded 2026-02-16: +$400 spot illustration (chapter header), revised project total $3,600. Remaining balance on approved finals delivery: ~$2,000 (adjusted for deposit already received).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6023",
+    "date": "2026-02-20",
+    "amount": 1500.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "income_deposit",
+    "description": "Greenfield Press — 50% project deposit, Spring 2026 cover commission (3 cover variations). Invoice GP-2026-03.",
+    "receipt_url": "receipts/TXN-6023-greenfield-deposit.pdf"
+  },
+  {
+    "transaction_id": "TXN-6024",
+    "date": "2026-03-04",
+    "amount": 41.2,
+    "currency": "USD",
+    "merchant": "FedEx",
+    "category": "shipping",
+    "description": "FedEx shipment — physical reference materials from Greenfield Press to Mia Lee Illustration LLC. Tracking #794644792798. Reimbursable per Greenfield contract clause 4b.",
+    "receipt_url": "receipts/TXN-6024-fedex-greenfield-ref.pdf"
+  },
+  {
+    "transaction_id": "TXN-6025",
+    "date": "2026-03-06",
+    "amount": 94.0,
+    "currency": "USD",
+    "merchant": "Blick Art Materials",
+    "category": "supplies",
+    "description": "Canson XL Mixed Media paper pads x4 + Copic marker refill set — project supplies for Greenfield Press Spring 2026 cover work.",
+    "receipt_url": "receipts/TXN-6025-blick-supplies.pdf"
+  },
+  {
+    "transaction_id": "TXN-6026",
+    "date": "2026-04-07",
+    "amount": 0.0,
+    "currency": "USD",
+    "merchant": "IRS — Q2 2026 Estimated Tax",
+    "category": "tax_payment",
+    "description": "PLACEHOLDER — Q2 2026 estimated tax payment. Amount TBD pending income summary finalization (WB-4). Scheduled for 2026-06-13. See NOTE-136 for dependency map and action plan.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6027",
+    "date": "2026-04-07",
+    "amount": 45.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "reimbursable_expense",
+    "description": "Reimbursable supply expense — Spring 2026 cover project. Submitted to dana.whitfield@greenfieldpress.example (MSG-5052, MSG-5061). Reimbursement approval pending project close (post May 12). Conservative estimate: $0 applied to WB-1 Row 4 for Q2 tax purposes per NOTE-136. See TODO-545, TODO-560.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6029",
+    "date": "2026-05-14",
+    "amount": -87.4,
+    "currency": "USD",
+    "merchant": "Utrecht Art Supplies",
+    "category": "project_supplies",
+    "description": "Greenfield Press project supplies — mounting board (4 sheets, $34.00), archival polyester sleeves (10-pack, $28.40), foam core backing (2 sheets, $25.00). Reimbursable per contract clause 4.2.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6030",
+    "date": "2026-05-02",
+    "amount": -232.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "asset_purchase",
+    "description": "Artboard Collective — final payments for 3 early-bird pre-order bundles: Bundle 1 (Vera Moss Brush Texture Pack) $72.00 + Bundle 2 (Editorial Photo Reference Library Vol. 3) $104.00 + Bundle 3 (Procreate Lettering & Layout Kit) $56.00. Paid by deadline 2026-05-02 to preserve $290 in deposits. Price-match outcome on Bundles 1 & 2 pending (MSG-5009).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6032",
+    "date": "2026-03-18",
+    "amount": 240.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "print_services",
+    "description": "Pressline Studio — Tranche 1 giclée print credits, 20 credits @ $12.00/credit (Tier 1 rate). Account: Mia Lee Illustration LLC. Ref: Tranche 1 bulk credit purchase.",
+    "receipt_url": "https://presslinestudio.example/receipts/TXN-mia-lee-tranche1-20260318"
+  },
+  {
+    "transaction_id": "TXN-6033",
+    "date": "2026-04-08",
+    "amount": 36.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "print_services",
+    "description": "Pressline Studio — 3 giclée print credit redemptions: Greenfield Press Spring 2026 cover proofs (11×17 archival matte x3). Deducted from Tranche 1 balance.",
+    "receipt_url": "https://presslinestudio.example/receipts/TXN-mia-lee-redemption-20260408"
+  },
+  {
+    "transaction_id": "TXN-6034",
+    "date": "2026-04-01",
+    "amount": 2250.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "client_deposit",
+    "description": "Greenfield Press Spring 2026 Cover Commission — 50% deposit per contract Section 4. Scope: 3 cover variations, delivery 2026-05-12. Remaining balance $2,250 due on delivery.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6035",
+    "date": "2026-05-09",
+    "amount": 0.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "contract_note",
+    "description": "SCOPE CHANGE REQUEST RECEIVED 2026-05-09 — Dana Whitfield (dana.whitfield@greenfieldpress.example) requested addition of a 4th cover variation via email, framed as 'minor adjustment,' no additional compensation offered. Contract (countersigned 2026-04-03) specifies 3 variations only. No amendment signed. No additional work to begin until written amendment executed. See MSG-5072.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6036",
+    "date": "2026-04-21",
+    "amount": 2800.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "client_payment",
+    "description": "ACH payment received — Invoice #INV-2026-GP-01, Spring 2026 Cover Project deposit. Ref: GP-ACH-20260421-001.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6037",
+    "date": "2026-04-15",
+    "amount": 1950.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "client_payment",
+    "description": "ACH payment received — Invoice #INV-2026-PLS-02, editorial spot illustration batch March 2026.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6038",
+    "date": "2026-04-04",
+    "amount": 143.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "reimbursement_received",
+    "description": "Greenfield Press clause 4b reimbursement — March supply submission (mounting boards + color-proof paper). Ref: GP-REIMB-2026-003. Applied against Spring 2026 Cover Project cap ($200 total). Remaining cap: $57.00.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6039",
+    "date": "2026-04-15",
+    "amount": 200.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "credit_applied",
+    "description": "Pressline Studio Q2 studio credit tranche applied — Greenfield Spring 2026 proof run (cover color proofs x3). Credit fully consumed. Balance now $0.00. Next tranche: 2026-06-01.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6040",
+    "date": "2026-04-21",
+    "amount": 330.5,
+    "currency": "USD",
+    "merchant": "ColorPhase Supply",
+    "category": "supply_expense_pending",
+    "description": "Invoice #CP-2026-0341 received — artist supply order (paper, brushes, oils, mounting board). Payment due 2026-05-06. NOT YET PAID. Candidate reimbursement paths under review: GP clause 4b ($57 headroom), H&V onboarding Section 6.3 (contract unsigned), Pressline credit ($0 balance). Business debit 4821 as fallback.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6041",
+    "date": "2026-04-10",
+    "amount": 330.5,
+    "currency": "USD",
+    "merchant": "Chase Business Checking — acct ending 4821",
+    "category": "account_balance_check",
+    "description": "Available balance snapshot as of 2026-04-10: $4,217.83. Note: $1,200 soft-reserved for Q2 tax estimate (due 2026-06-15). Effective liquid for operating expenses: ~$3,017.83. Business debit card 4821 is active and not blocked.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6042",
+    "date": "2026-04-22",
+    "amount": 2250.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "accounts_receivable",
+    "description": "Greenfield Press Spring 2026 — Balance payment due on finals delivery (Invoice INV-2026-GP-002, net 30 from delivery). 3 cover variations per signed contract. Pending invoice send.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6043",
+    "date": "2026-04-22",
+    "amount": 57.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "reimbursement_claim",
+    "description": "Greenfield Press reimbursement claim — FedEx shipping (TXN-6019, $94.50 total) capped at clause 4b remaining headroom of $57.00. Remaining $37.50 flagged as separate follow-up claim GP-REIMB-2026-004-PENDING. Cap confirmation from Dana Whitfield not yet received as of 2026-04-22.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6044",
+    "date": "2026-04-19",
+    "amount": 38.5,
+    "currency": "USD",
+    "merchant": "Envato Elements",
+    "category": "software_subscription",
+    "description": "Envato Elements monthly subscription — April 2026 renewal. Reference assets for editorial background textures.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6045",
+    "date": "2026-04-22",
+    "amount": 133.74,
+    "currency": "USD",
+    "merchant": "Blick Art Materials",
+    "category": "supplies_purchase",
+    "description": "Blick Art Materials order — Arches 140lb CP paper x5 ($52.40), W&N Series 7 Brush Set ($74.50), Holbein Gouache Titanium White ($18.90), Canson XL Sketchbook ($9.75), Micron Pigma Pen Set ($11.20) — gross $166.75, 15% threshold discount -$25.01, voucher BLICK-APR20 -$8.00, net $133.74. Items 1–3 flagged for GP clause 4b reimbursement claim ($145.80 gross).",
+    "receipt_url": "receipts/2026/04/blick-order-2026-04-22.pdf"
+  },
+  {
+    "transaction_id": "TXN-6046",
+    "date": "2026-04-22",
+    "amount": 88.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "digital_assets_purchase",
+    "description": "Artboard Collective order — Procreate Lettering Brush Collection Vol. 3 ($38.00), Editorial Grain & Noise Texture Pack ($29.00), Procreate Grain Texture Overlay Pack ($31.00) — gross $98.00, voucher AC-MEMBER-APR -$10.00, net $88.00. Item 1 (Lettering Brushes, $38.00) flagged for potential H&V section 6.3 reimbursement — HOLD pending countersigned contract.",
+    "receipt_url": "receipts/2026/04/artboard-collective-2026-04-22.pdf"
+  },
+  {
+    "transaction_id": "TXN-6047",
+    "date": "2026-04-22",
+    "amount": 16.2,
+    "currency": "USD",
+    "merchant": "Envato Elements",
+    "category": "digital_assets_purchase",
+    "description": "Envato Elements Plus top-up — Halftone & Risograph Brush Set for Procreate ($18.00), promo ENV-TOPUP10 -$1.80, net $16.20. Editorial Layout Grid Templates Vol. 2 downloaded at $0 under active subscription. Discretionary purchase, no reimbursement claim.",
+    "receipt_url": "receipts/2026/04/envato-topup-2026-04-22.pdf"
+  },
+  {
+    "transaction_id": "TXN-6048",
+    "date": "2026-04-22",
+    "amount": -145.8,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "reimbursement_claim",
+    "description": "Reimbursement claim submitted to Greenfield Press under clause 4b — Spring 2026 project supplies: Arches 140lb CP paper x5 ($52.40) + W&N Series 7 Brush Set ($74.50) + Holbein Gouache Titanium White ($18.90) = $145.80 gross. Remaining clause 4b cap after this claim: $6.70. Receipt submitted via GP portal 2026-04-22. Status: pending approval.",
+    "receipt_url": "receipts/2026/04/gp-clause4b-claim-2026-04-22.pdf"
+  },
+  {
+    "transaction_id": "TXN-6049",
+    "date": "2026-04-18",
+    "amount": 143.0,
+    "currency": "USD",
+    "merchant": "ColorPhase Supply",
+    "category": "supply_expense",
+    "description": "ColorPhase invoice CP-2026-0341 — Archival Ink Set Series C (6-pack) $112 + FedEx Ground shipping $31. Due 2026-04-28. Reimbursement channel TBD — tentatively logged against H&V section 6.3 pending contract countersignature.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6050",
+    "date": "2026-04-08",
+    "amount": 57.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "reimbursement_received",
+    "description": "Partial reimbursement — Greenfield Press clause 4b — FedEx rush shipping TXN-6038 partial offset. Note: this payment exhausts the remaining clause 4b headroom only if the $57 cap remainder is applied here. Cross-check WB-7 for updated balance.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6051",
+    "date": "2026-04-15",
+    "amount": 86.5,
+    "currency": "USD",
+    "merchant": "FedEx",
+    "category": "shipping_expense",
+    "description": "FedEx Ground — print proof delivery to Greenfield Press (order #FX-90114). Submitted for clause 4b reimbursement. Actual clause 4b headroom at time of submission: $57 — this submission exceeds available cap by $29.50. Overage not recoverable under clause 4b.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6052",
+    "date": "2026-04-21",
+    "amount": 38.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "supply_expense",
+    "description": "Pressline Studio — matte laminate sample pack (order PSL-2026-0088). Paid via business debit 4821. Credit offset attempted at checkout — rejected, balance $0. Next tranche loads 2026-06-01. Full $38 out-of-pocket.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6053",
+    "date": "2026-05-06",
+    "amount": 4215.5,
+    "currency": "USD",
+    "merchant": "Mia Lee Illustration LLC — Operating Account",
+    "category": "balance_snapshot",
+    "description": "Liquid balance snapshot as of 2026-05-06 morning. Checking account: $3,465.50. PayPal business reserve: $750.00. Total liquid: $4,215.50. Note: does not include $750 Pressline Tranche 1 credit already deployed. Greenfield deposit TXN-6028 ($2,100) confirmed inbound per MSG-5116, expected clearance 2026-05-09.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6054",
+    "date": "2026-05-05",
+    "amount": -750.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "print_services",
+    "description": "Pressline Studio — Tranche 1 print credit purchase ($750), Q1 promotional rate $0.038/credit. Tranche 2 ($750) reserved pending confirmation. Rate-lock claimed expiry 2026-05-10 per MSG-5115 — verify against WB-6 contract terms before committing.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6055",
+    "date": "2026-05-06",
+    "amount": -1240.0,
+    "currency": "USD",
+    "merchant": "Colorphase Supply Co.",
+    "category": "vendor_payable",
+    "description": "Outstanding vendor balance: Invoice #CP-2026-0312 ($640, due 2026-03-28, 38 days overdue) + Invoice #CP-2026-0341 ($600, due 2026-04-04, 31 days overdue). Final notice received MSG-5114. Deadline 2026-05-09 to avoid 1.5% late fee and loss of net-30 terms. PENDING — not yet paid as of snapshot date.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6056",
+    "date": "2026-05-06",
+    "amount": -2850.0,
+    "currency": "USD",
+    "merchant": "IRS — EFTPS",
+    "category": "tax_payment",
+    "description": "Q2 2026 IRS estimated tax payment (Form 1040-ES). Estimated amount per WB-3 Q2 Tax Estimate Workbook: $2,850. Hard legal deadline 2026-06-15. Underpayment penalty applies if not paid by deadline. PENDING — scheduled for payment before June 15.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6057",
+    "date": "2026-05-02",
+    "amount": 18.5,
+    "currency": "USD",
+    "merchant": "ColorPhase Supply",
+    "category": "supplies",
+    "description": "Epson Hot Press Bright 8.5x11 proofing paper — 25 sheets — order #CPS-8841. For Greenfield Press physical proof print run.",
+    "receipt_url": "receipts/txn-6057-colorphase-cps8841.pdf"
+  },
+  {
+    "transaction_id": "TXN-6058",
+    "date": "2026-04-01",
+    "amount": 2400.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "income_deposit",
+    "description": "Greenfield Press — 3-cover commission deposit (60% of $4,000 total). PO #GFP-2026-114. Milestone: contract signed + sketch approval. Balance $1,600 due net-30 from final delivery.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6059",
+    "date": "2026-05-06",
+    "amount": 0.0,
+    "currency": "USD",
+    "merchant": "FedEx",
+    "category": "shipping_reimbursable",
+    "description": "PENDING — FedEx 2-day shipping to Greenfield Press production office (Portland OR 97214). Estimated $28.40 per rate quote. Reimbursable up to $45 per client confirmation (MSG-5118). Log actual amount after drop-off on May 8.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6060",
+    "date": "2026-03-12",
+    "amount": 55.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "reimbursement_received",
+    "description": "Greenfield Press clause 4b reimbursement — March claim — archival board stock (GFP-SP26). Claim submitted 2026-03-10, processed 2026-03-12.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6061",
+    "date": "2026-04-03",
+    "amount": 38.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "reimbursement_received",
+    "description": "Greenfield Press clause 4b reimbursement — April claim — specialty varnish spray (GFP-SP26). Claim submitted 2026-04-01, processed 2026-04-03.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6062",
+    "date": "2026-05-05",
+    "amount": 312.0,
+    "currency": "USD",
+    "merchant": "Luminos Paper Co.",
+    "category": "supplies_pending",
+    "description": "Luminos Paper Co. Order #LPC-2026-0441 — pending payment. Items: Arches Aquarelle Cold Press 140lb x2 ($148), Schmincke Horadam Specialty Ink Set ($104), Fabriano Artistico Extra White 300gsm ($60). Payment due within 5 business days. Debit card 4821 balance snapshot: $1,847.33 available as of 2026-05-05.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6063",
+    "date": "2026-05-01",
+    "amount": 42.5,
+    "currency": "USD",
+    "merchant": "FedEx",
+    "category": "shipping",
+    "description": "FedEx — proof print shipment to Greenfield Press (GFP-SP26 cover variation 1 physical proof). Business debit 4821.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6064",
+    "date": "2026-05-06",
+    "amount": 285.0,
+    "currency": "USD",
+    "merchant": "Editorial Illustration Workshop",
+    "category": "professional_development",
+    "description": "Early-bird registration — Editorial Illustration Intensive, May 9–10, San Francisco. Early-bird rate $285 (standard rate $475). NOTE: Held pending scheduling conflict resolution with Greenfield Press May 12 deadline.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6065",
+    "date": "2026-05-06",
+    "amount": 190.0,
+    "currency": "USD",
+    "merchant": "Editorial Illustration Workshop",
+    "category": "professional_development",
+    "description": "Opportunity cost reference: early-bird savings vs. standard rate ($475 - $285 = $190). Not a transaction — logged for decision analysis in NOTE-173.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6066",
+    "date": "2026-05-06",
+    "amount": 145.48,
+    "currency": "USD",
+    "merchant": "Blick Art Materials",
+    "category": "art_supplies",
+    "description": "Blick Art Materials reorder — May 2026. Items: Winsor & Newton Series 7 Brush Set ($48.50), Holbein Gouache Primary Set 18 colors ($54.75), Arches Hot Press Watercolor Paper 140lb 22x30 ($38.50), Liquitex Acrylic Ink 6-color editorial set ($29.40). Subtotal $171.15, BLICK-MEMBER15 discount applied (-$25.67), net $145.48. All items clause 4b reimbursable — Greenfield Press Spring 2026. Reimbursement claim pending (TODO-637). See WB-9, NPAG-36.",
+    "receipt_url": "https://blick.example/receipts/BLK-2026-05-06-MIA-7741"
+  },
+  {
+    "transaction_id": "TXN-6067",
+    "date": "2026-05-02",
+    "amount": 32.99,
+    "currency": "USD",
+    "merchant": "Blick Art Materials",
+    "category": "art_supplies",
+    "description": "Blick Art Materials — Canson XL Sketchbook Pad 18x24 large format (60 sheets). NOTE: This was a prior exploratory purchase of the item later flagged as non-reimbursable under Greenfield Press clause 4b. Kept for personal studio use only — do NOT include in Greenfield reimbursement claim. Non-reimbursable per clause 4b exclusion (general-purpose sketchbooks). Reference WB-9 flag notes.",
+    "receipt_url": "https://blick.example/receipts/BLK-2026-05-02-MIA-7698"
+  },
+  {
+    "transaction_id": "TXN-6072",
+    "date": "2026-05-06",
+    "amount": -395.0,
+    "currency": "USD",
+    "merchant": "Editorial Illustration Workshop",
+    "category": "professional_development",
+    "description": "Editorial Illustration Intensive — early-bird registration (June 20–22, 2026). Early-bird rate $395 vs. standard $575. Saved $180. Ref: EII-REG-2026-MIA.",
+    "receipt_url": "https://editorialillustrationworkshop.example/receipts/EII-REG-2026-MIA"
+  },
+  {
+    "transaction_id": "TXN-6073",
+    "date": "2026-05-06",
+    "amount": 29.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "refund",
+    "description": "AC price-match refund — Bundle 1 (Vera Moss Brush Texture Pack). Approved refund per PM-2026-0441. Bundle 2 price-match denied (partner-only rate not publicly accessible). Refund processing 5–7 business days.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6074",
+    "date": "2026-05-09",
+    "amount": -420.0,
+    "currency": "USD",
+    "merchant": "Pressline Studio",
+    "category": "print_services",
+    "description": "Pressline Studio — Tranche 2 print credit purchase. 60 credits at rate-locked $7.00/credit = $420. Rate-lock deadline was May 9; standard rate $8.50/credit ($510) applies after. Added to existing Tranche 1 credit pool (TXN-6066). Ref: PS-TRANCHE2-MIA.",
+    "receipt_url": "https://presslinestudio.example/receipts/PS-TRANCHE2-MIA"
+  },
+  {
+    "transaction_id": "TXN-6075",
+    "date": "2026-05-05",
+    "amount": 2800.0,
+    "currency": "USD",
+    "merchant": "Greenfield Press",
+    "category": "client_payment",
+    "description": "Greenfield Press — partial invoice payment received (INV-2026-GP-02, 50% milestone on 3-cover Spring 2026 project). Clears outstanding balance partially; finals delivery due 2026-05-12.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6076",
+    "date": "2026-03-10",
+    "amount": 30.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "software_assets",
+    "description": "Artboard Collective early-bird deposit — Bundle 1: Vera Moss Brush Texture Pack (non-refundable; 2× multiplier credit $15.00 applied toward final balance of $49.00; total pre-order price $94.00; final payment deadline 2026-05-26)",
+    "receipt_url": "https://artboardcollective.example/receipts/TXN-6076-deposit-bundle1"
+  },
+  {
+    "transaction_id": "TXN-6077",
+    "date": "2026-03-10",
+    "amount": 40.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "software_assets",
+    "description": "Artboard Collective early-bird deposit — Bundle 2: Editorial Photo Reference Library Vol. 3 (non-refundable; 2× multiplier credit $20.00 applied toward final balance of $95.00; total pre-order price $155.00; final payment deadline 2026-05-26)",
+    "receipt_url": "https://artboardcollective.example/receipts/TXN-6077-deposit-bundle2"
+  },
+  {
+    "transaction_id": "TXN-6078",
+    "date": "2026-03-10",
+    "amount": 25.0,
+    "currency": "USD",
+    "merchant": "Artboard Collective",
+    "category": "software_assets",
+    "description": "Artboard Collective early-bird deposit — Bundle 3: Illustrator's Perspective & Composition Toolkit (non-refundable; 2× multiplier credit $12.50 applied toward final balance of $62.50; total pre-order price $100.00; no competing channel identified; final payment deadline 2026-05-26)",
+    "receipt_url": "https://artboardcollective.example/receipts/TXN-6078-deposit-bundle3"
+  },
+  {
+    "transaction_id": "TXN-6079",
+    "date": "2026-05-15",
+    "amount": 12.99,
+    "currency": "USD",
+    "merchant": "Gumroad",
+    "category": "software_assets",
+    "description": "Gumroad purchase — Halftone & Grain Overlay Mini Pack by @inkdust_studio (unrelated to AC Bundle 1; routine asset purchase)",
+    "receipt_url": "https://gumroad.example/receipts/TXN-6079"
+  }
+]

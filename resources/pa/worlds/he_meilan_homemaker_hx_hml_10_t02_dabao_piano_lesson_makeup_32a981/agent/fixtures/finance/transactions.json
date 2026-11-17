@@ -1,0 +1,844 @@
+[
+  {
+    "transaction_id": "TXN-6001",
+    "date": "2026-03-05",
+    "amount": 3200.0,
+    "currency": "CNY",
+    "merchant": "Elite Education Center",
+    "category": "education",
+    "description": "Elder child tutoring class spring semester - math & Chinese reading",
+    "receipt_url": "NOTE-101"
+  },
+  {
+    "transaction_id": "TXN-6002",
+    "date": "2026-03-06",
+    "amount": 285.0,
+    "currency": "CNY",
+    "merchant": "Community Hospital",
+    "category": "medical",
+    "description": "Younger child fever consultation and medication",
+    "receipt_url": "NOTE-102"
+  },
+  {
+    "transaction_id": "TXN-6003",
+    "date": "2026-03-07",
+    "amount": 3200.0,
+    "currency": "CNY",
+    "merchant": "Elite Education Center",
+    "category": "education",
+    "description": "Elder child tutoring class spring semester - math & Chinese reading (duplicate entry)",
+    "receipt_url": "NOTE-101"
+  },
+  {
+    "transaction_id": "TXN-6004",
+    "date": "2026-03-08",
+    "amount": 1580.0,
+    "currency": "CNY",
+    "merchant": "City Children's Hospital",
+    "category": "medical",
+    "description": "Younger child comprehensive examination and blood test",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6005",
+    "date": "2026-03-04",
+    "amount": 450.0,
+    "currency": "CNY",
+    "merchant": "Carrefour Supermarket",
+    "category": "groceries",
+    "description": "Weekly grocery shopping",
+    "receipt_url": "NOTE-103"
+  },
+  {
+    "transaction_id": "TXN-6006",
+    "date": "2026-02-28",
+    "amount": 8500.0,
+    "currency": "CNY",
+    "merchant": "Pacific Insurance Company",
+    "category": "insurance",
+    "description": "Family health insurance annual premium - pending verification",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6007",
+    "date": "2026-02-28",
+    "amount": 156.0,
+    "currency": "CNY",
+    "merchant": "Community Health Clinic",
+    "category": "medical",
+    "description": "Xiaobao fever consultation - Dr. Li Xiaoming, basic examination, medication",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6008",
+    "date": "2026-03-01",
+    "amount": 89.5,
+    "currency": "CNY",
+    "merchant": "Pharmacy - Community Clinic",
+    "category": "medical",
+    "description": "Fever medication for Xiaobao - Ibuprofen suspension, fever patches",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6009",
+    "date": "2026-02-15",
+    "amount": 145.0,
+    "currency": "CNY",
+    "merchant": "Community Health Clinic",
+    "category": "medical",
+    "description": "Xiaobao fever consultation - first episode, diagnosed as common cold",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6010",
+    "date": "2026-03-02",
+    "amount": 234.8,
+    "currency": "CNY",
+    "merchant": "FreshMart Supermarket",
+    "category": "groceries",
+    "description": "Weekly groceries - vegetables, fruits, meat, household items",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6011",
+    "date": "2026-03-12",
+    "amount": 156.0,
+    "currency": "CNY",
+    "merchant": "Pharmacy - Community Clinic",
+    "category": "medical",
+    "description": "Fever medication refill for Xiaobao - ibuprofen suspension, acetaminophen, probiotics",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6012",
+    "date": "2026-03-15",
+    "amount": 320.0,
+    "currency": "CNY",
+    "merchant": "City Children's Hospital",
+    "category": "medical",
+    "description": "Follow-up consultation with Dr. Wang Lijuan - Xiaobao fever monitoring",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6013",
+    "date": "2026-03-14",
+    "amount": 412.0,
+    "currency": "CNY",
+    "merchant": "FreshMart Supermarket",
+    "category": "groceries",
+    "description": "Weekly grocery shopping - organic vegetables, fruits, dairy, meat (see NOTE-110)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6014",
+    "date": "2026-03-17",
+    "amount": 523.0,
+    "currency": "CNY",
+    "merchant": "Carrefour Supermarket",
+    "category": "groceries",
+    "description": "Weekly household shopping - rice, cooking oil, cleaning supplies, snacks",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6015",
+    "date": "2026-03-11",
+    "amount": 280.0,
+    "currency": "CNY",
+    "merchant": "Dongcheng Wet Market",
+    "category": "groceries",
+    "description": "Fresh vegetables and seafood - morning market shopping",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6016",
+    "date": "2025-03-18",
+    "amount": 8200.0,
+    "currency": "CNY",
+    "merchant": "Pacific Insurance Company",
+    "category": "insurance_premium",
+    "description": "Annual family insurance premium - Policy #PIF-2025-8842 (previous year renewal)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6017",
+    "date": "2026-02-13",
+    "amount": 450.0,
+    "currency": "CNY",
+    "merchant": "Chen Xiao (Pet Care Deposit - Tentative)",
+    "category": "pet_care",
+    "description": "Tentative deposit for Spring Festival pet boarding service (10 days). Full amount 450 RMB. Pending final travel date confirmation. May need to cancel if travel plans change.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6018",
+    "date": "2026-02-11",
+    "amount": 1580.0,
+    "currency": "CNY",
+    "merchant": "Online Travel Agency - Ticket Price Research",
+    "category": "travel_research",
+    "description": "Price check for Spring Festival flights: Shanghai-Jinan round trip for family of 4 approximately 3800 RMB, Shanghai-Chengdu approximately 4500 RMB. High-speed rail alternative: Shanghai-Jinan ~2400 RMB (12 hours), Shanghai-Chengdu ~3200 RMB (16 hours). Younger child tolerance for long rail journey uncertain.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6019",
+    "date": "2026-02-08",
+    "amount": 320.0,
+    "currency": "CNY",
+    "merchant": "Supermarket - Household Supplies",
+    "category": "household",
+    "description": "Stocked up on household supplies before Spring Festival. Purchased extra cat food for potential 10-day absence (if pet stays home with visitor care).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6020",
+    "date": "2026-03-19",
+    "amount": 180.0,
+    "currency": "CNY",
+    "merchant": "Elite Education Center - Spring Outing",
+    "category": "education",
+    "description": "Elder child spring outing payment - Science Museum trip March 28, includes transportation, admission, lunch, insurance",
+    "receipt_url": "school-payment-portal://receipt/spring-outing-2026"
+  },
+  {
+    "transaction_id": "TXN-6021",
+    "date": "2026-02-13",
+    "amount": 180.0,
+    "currency": "CNY",
+    "merchant": "Elite Education Center - Spring Outing",
+    "category": "education",
+    "description": "Dabao Grade 4 Class 2 spring outing to City Botanical Garden - paid via school payment portal",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6022",
+    "date": "2026-02-03",
+    "amount": 600.0,
+    "currency": "CNY",
+    "merchant": "Harmony Music School",
+    "category": "education",
+    "description": "Dabao piano lessons - February 2026 prorated tuition (3 lessons, started Feb 5)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6023",
+    "date": "2026-01-28",
+    "amount": 960.0,
+    "currency": "CNY",
+    "merchant": "Community Aquatic Center",
+    "category": "education",
+    "description": "Xiaobao swimming lessons - Spring Semester 2026 (16 lessons, Feb-May)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6024",
+    "date": "2026-01-30",
+    "amount": 50.0,
+    "currency": "CNY",
+    "merchant": "Chen Xiao (Pet Care Deposit - Tentative)",
+    "category": "pet_care",
+    "description": "Tentative deposit for neighbor pet care during Spring Festival - CANCELLED, considering professional service instead"
+  },
+  {
+    "transaction_id": "TXN-6025",
+    "date": "2025-11-20",
+    "amount": 8800.0,
+    "currency": "CNY",
+    "merchant": "Star English Education Center",
+    "category": "education",
+    "description": "Dabao English tutoring program - 6-month premium course (Nov 2025 - May 2026), prepaid in full",
+    "receipt_url": "https://star-english.example/receipt/20251120-8800"
+  },
+  {
+    "transaction_id": "TXN-6026",
+    "date": "2026-02-18",
+    "amount": 6800.0,
+    "currency": "CNY",
+    "merchant": "Bright Future English Academy",
+    "category": "education",
+    "description": "Neighbor-recommended English program - 6-month course pricing inquiry (not yet enrolled)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6027",
+    "date": "2026-02-15",
+    "amount": 450.0,
+    "currency": "CNY",
+    "merchant": "Carrefour Supermarket",
+    "category": "groceries",
+    "description": "Weekly grocery shopping - vegetables, meat, household items",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6028",
+    "date": "2026-02-19",
+    "amount": 120.0,
+    "currency": "CNY",
+    "merchant": "Dongcheng Bookstore",
+    "category": "education",
+    "description": "English workbooks for Dabao - supplementary materials",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6029",
+    "date": "2026-01-02",
+    "amount": -45.0,
+    "currency": "CNY",
+    "merchant": "Subway Card Recharge",
+    "category": "transportation",
+    "description": "Transportation recharge - considering increased weekend commute for potential Dabao math program",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6030",
+    "date": "2026-01-03",
+    "amount": -128.0,
+    "currency": "CNY",
+    "merchant": "Dongcheng Wet Market",
+    "category": "groceries",
+    "description": "Fresh vegetables and meat for weekend meals",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6031",
+    "date": "2026-01-31",
+    "amount": 120.0,
+    "currency": "RMB",
+    "merchant": "Community Health Clinic",
+    "category": "medical",
+    "description": "Xiaobao consultation - Dr. Li Xiaoming - recurring fever examination and basic blood test",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6032",
+    "date": "2026-01-31",
+    "amount": 85.0,
+    "currency": "RMB",
+    "merchant": "Pharmacy - Community Clinic",
+    "category": "medical",
+    "description": "Children's ibuprofen suspension (2 bottles), fever cooling patches",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6033",
+    "date": "2026-02-01",
+    "amount": 245.0,
+    "currency": "RMB",
+    "merchant": "FreshMart Supermarket",
+    "category": "groceries",
+    "description": "Weekly grocery shopping - vegetables, meat, staples for February 3-9 meal plan",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6034",
+    "date": "2026-01-05",
+    "amount": 2000.0,
+    "currency": "CNY",
+    "merchant": "Monthly Budget Allocation - Infant Nutrition",
+    "category": "budget_allocation",
+    "description": "January 2026 infant nutrition budget cap - allocated for Xiaobao's specialized formula and supplements",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6035",
+    "date": "2026-01-03",
+    "amount": 156.0,
+    "currency": "CNY",
+    "merchant": "BabyCare Online Store",
+    "category": "infant_nutrition",
+    "description": "Xiaobao regular infant snacks and vitamin supplements - January restock",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6036",
+    "date": "2025-12-28",
+    "amount": 1740.0,
+    "currency": "CNY",
+    "merchant": "Mother & Baby Specialty Store",
+    "category": "infant_nutrition",
+    "description": "Xiaobao previous formula brand (3 cans @ 580 RMB each) - December purchase before pediatrician recommendation change",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6037",
+    "date": "2026-03-26",
+    "amount": 180.0,
+    "currency": "CNY",
+    "merchant": "Elite Education Elementary School",
+    "category": "education",
+    "description": "Spring outing payment - Grade 4 Beijing Science Museum trip (Dabao) - Due April 3, paid early after receiving reminder email",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6038",
+    "date": "2026-03-28",
+    "amount": 85.0,
+    "currency": "CNY",
+    "merchant": "FreshMart Supermarket",
+    "category": "groceries",
+    "description": "Vegetables and fruits for weekly meal planning - bok choy, broccoli, tomatoes, apples",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6039",
+    "date": "2026-01-28",
+    "amount": 3480.0,
+    "currency": "CNY",
+    "merchant": "Mother & Baby Specialty Store",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro Hypoallergenic Formula 900g x 6 cans - Order #MB-20260128-0847 (Prescribed by Dr. Zhao for Xiaobao's digestive issues)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6040",
+    "date": "2026-01-30",
+    "amount": 150.0,
+    "currency": "CNY",
+    "merchant": "Children's Health Clinic",
+    "category": "medical_consultation",
+    "description": "Emergency consultation with Dr. Zhao Meiling - Xiaobao formula reaction assessment",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6041",
+    "date": "2026-01-26",
+    "amount": 200.0,
+    "currency": "CNY",
+    "merchant": "Children's Health Clinic",
+    "category": "medical_consultation",
+    "description": "Pediatric consultation with Dr. Zhao Meiling - Xiaobao digestive issues follow-up, new formula prescription",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6042",
+    "date": "2026-02-17",
+    "amount": -3480.0,
+    "currency": "CNY",
+    "merchant": "BabyCare Online - NutriGrow Formula",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro specialized formula - 6 cans @ 580 RMB each. Pediatrician prescription for Xiaobao's digestive issues. Monthly recommended quantity: 5 cans.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6043",
+    "date": "2026-02-18",
+    "amount": 300.0,
+    "currency": "CNY",
+    "merchant": "City Children's Hospital - Dr. Liu Zhenghua Specialist Deposit",
+    "category": "medical",
+    "description": "Non-refundable deposit for specialist consultation appointment Feb 22, 2026. Pediatric gastroenterology for Xiaobao recurring digestive issues.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6044",
+    "date": "2026-02-18",
+    "amount": 2900.0,
+    "currency": "CNY",
+    "merchant": "BabyCare Online - Formula Return Credit",
+    "category": "infant_nutrition",
+    "description": "Return credit for 5 unopened cans of NutriGrow HA Pro formula (580 RMB each). Returned due to intolerance symptoms. 1 opened can non-returnable (580 RMB loss accepted).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6045",
+    "date": "2026-02-18",
+    "amount": -1040.0,
+    "currency": "CNY",
+    "merchant": "BabyCare Online - BabyComfort Sensitive Formula",
+    "category": "infant_nutrition",
+    "description": "BabyComfort Sensitive formula trial purchase - 2 cans @ 520 RMB each. Switching from NutriGrow per Dr. Zhao recommendation due to intolerance symptoms.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6046",
+    "date": "2026-03-12",
+    "amount": 150.0,
+    "currency": "CNY",
+    "merchant": "City Swim Club",
+    "category": "children_education",
+    "description": "Dabao Level 3 Swimming Proficiency Test registration fee",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6047",
+    "date": "2026-02-28",
+    "amount": 3800.0,
+    "currency": "CNY",
+    "merchant": "Summer Camp Elite",
+    "category": "children_education",
+    "description": "REFERENCE: Last year's summer camp regular price for comparison (paid late, no early bird discount)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6048",
+    "date": "2026-03-10",
+    "amount": 2400.0,
+    "currency": "CNY",
+    "merchant": "Sunflower Daycare Center",
+    "category": "childcare",
+    "description": "Xiaobao March 2026 daycare tuition - morning session",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6049",
+    "date": "2026-03-13",
+    "amount": 28.5,
+    "currency": "CNY",
+    "merchant": "FreshMart Supermarket",
+    "category": "groceries",
+    "description": "Evening grocery run - vegetables and eggs for tomorrow's meals (bok choy, tomatoes, eggs). Quick shopping trip after children's dinner.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6050",
+    "date": "2025-12-28",
+    "amount": 200.0,
+    "currency": "CNY",
+    "merchant": "Sunshine Piano Studio",
+    "category": "education_dabao",
+    "description": "Dabao piano lesson - Wednesday Dec 25 session (makeup class during winter break)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6051",
+    "date": "2026-01-08",
+    "amount": 200.0,
+    "currency": "CNY",
+    "merchant": "Sunshine Piano Studio",
+    "category": "education_dabao",
+    "description": "Dabao piano lesson - Wednesday Jan 8 session, teacher reports good progress on new piece",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6052",
+    "date": "2025-12-15",
+    "amount": 120.0,
+    "currency": "CNY",
+    "merchant": "School Supplies Store",
+    "category": "education_dabao",
+    "description": "Science fair project materials - volcano experiment supplies (baking soda, vinegar, poster board, paint)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6053",
+    "date": "2026-01-10",
+    "amount": 85.0,
+    "currency": "CNY",
+    "merchant": "Xinhua Bookstore",
+    "category": "education_dabao",
+    "description": "Grade 4 supplementary workbooks - math practice and reading comprehension",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6054",
+    "date": "2026-03-01",
+    "amount": 2900.0,
+    "currency": "RMB",
+    "merchant": "BabyCare Online Store",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro formula - 5 cans x 580 RMB (March supply)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6055",
+    "date": "2026-03-18",
+    "amount": 240.0,
+    "currency": "RMB",
+    "merchant": "Sunshine Kindergarten",
+    "category": "childcare",
+    "description": "Xiaobao makeup class fees - 3 absence days (80 RMB/day) due to digestive discomfort",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6056",
+    "date": "2026-02-28",
+    "amount": 2900.0,
+    "currency": "RMB",
+    "merchant": "BabyCare Online Store",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro formula - 5 cans x 580 RMB (February supply)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6057",
+    "date": "2026-03-15",
+    "amount": 380.0,
+    "currency": "RMB",
+    "merchant": "Xinhua Bookstore",
+    "category": "education",
+    "description": "Dabao supplementary workbooks - Math and Reading comprehension sets",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6058",
+    "date": "2026-02-15",
+    "amount": 1740.0,
+    "currency": "CNY",
+    "merchant": "JD.com - NutriGrow Official Store",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro Formula - 3 cans purchased (580 RMB each). February infant nutrition budget: 2000 RMB cap, 1740 spent, 260 remaining.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6059",
+    "date": "2026-02-18",
+    "amount": 256.0,
+    "currency": "CNY",
+    "merchant": "Tmall - Baby Care Supplements",
+    "category": "infant_nutrition",
+    "description": "Baby probiotics (128 RMB) + Vitamin D drops (128 RMB). February infant nutrition budget: 2000 RMB cap, total spent now 1996 RMB, 4 RMB remaining.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6060",
+    "date": "2026-02-10",
+    "amount": 89.0,
+    "currency": "CNY",
+    "merchant": "Pinduoduo - Organic Baby Foods",
+    "category": "baby_food",
+    "description": "Organic baby rice cereal - 1 box. Separate from infant nutrition budget (categorized under baby food).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6061",
+    "date": "2026-01-08",
+    "amount": 2900.0,
+    "currency": "CNY",
+    "merchant": "BabyCare Online - NutriGrow HA Pro",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro infant formula - 5 cans @ 580 RMB each - January supply"
+  },
+  {
+    "transaction_id": "TXN-6062",
+    "date": "2026-01-10",
+    "amount": 285.0,
+    "currency": "CNY",
+    "merchant": "Children's Nutrition Store",
+    "category": "infant_nutrition",
+    "description": "Supplementary nutrition items for Xiaobao - vitamin drops and probiotics"
+  },
+  {
+    "transaction_id": "TXN-6064",
+    "date": "2026-01-12",
+    "amount": 156.0,
+    "currency": "CNY",
+    "merchant": "FreshMart Supermarket",
+    "category": "groceries",
+    "description": "Weekly grocery shopping - vegetables, fruits, household items"
+  },
+  {
+    "transaction_id": "TXN-6065",
+    "date": "2025-12-30",
+    "amount": -2900.0,
+    "currency": "CNY",
+    "merchant": "JD.com - NutriGrow Formula Pre-order",
+    "category": "infant_nutrition",
+    "description": "Pre-committed: NutriGrow HA Pro formula 5 cans for January delivery (part of Spring Festival bulk purchase planning). Remaining quarterly budget: 3100 RMB for supplementary items."
+  },
+  {
+    "transaction_id": "TXN-6066",
+    "date": "2025-12-28",
+    "amount": -188.0,
+    "currency": "CNY",
+    "merchant": "JD.com - VitaBaby Plus (CANCELLED)",
+    "category": "infant_nutrition",
+    "description": "VitaBaby Plus vitamin supplement added to cart Dec 28, removed Jan 1 after Dr. Zhao safety alert. Amount was contributing to 3000 RMB discount threshold."
+  },
+  {
+    "transaction_id": "TXN-6067",
+    "date": "2025-12-29",
+    "amount": -89.0,
+    "currency": "CNY",
+    "merchant": "Tmall - Baby Wipes Bulk Pack",
+    "category": "infant_care",
+    "description": "Hypoallergenic baby wipes 12-pack (household necessity, stocked during promotion period)"
+  },
+  {
+    "transaction_id": "TXN-6068",
+    "date": "2026-01-01",
+    "amount": -396.0,
+    "currency": "CNY",
+    "merchant": "JD.com - BioIsland DHA + ChildLife Probiotics",
+    "category": "infant_nutrition",
+    "description": "Emergency substitute purchase after removing prohibited VitaBaby Plus: BioIsland DHA drops 2 bottles (198x2=396 RMB). Part of revised cart to restore 3000 RMB discount threshold. Pending Dr. Zhao confirmation on probiotic selection."
+  },
+  {
+    "transaction_id": "TXN-6069",
+    "date": "2026-01-18",
+    "amount": 580.0,
+    "currency": "CNY",
+    "merchant": "JD.com - Baby Products",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro Formula - 1 can (trial purchase before bulk order)",
+    "receipt_url": "https://order.jd.example/12847563920"
+  },
+  {
+    "transaction_id": "TXN-6070",
+    "date": "2026-01-22",
+    "amount": 1740.0,
+    "currency": "CNY",
+    "merchant": "JD.com - Baby Products",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro Formula - 3 cans (testing delivery speed before mega-sale)",
+    "receipt_url": "https://order.jd.example/12859384756"
+  },
+  {
+    "transaction_id": "TXN-6071",
+    "date": "2026-01-25",
+    "amount": 88.0,
+    "currency": "CNY",
+    "merchant": "JD.com",
+    "category": "membership",
+    "description": "JD PLUS annual membership renewal (for Spring Festival bulk purchase optimization)",
+    "receipt_url": "https://order.jd.example/12867492013"
+  },
+  {
+    "transaction_id": "TXN-6072",
+    "date": "2026-01-20",
+    "amount": 156.0,
+    "currency": "CNY",
+    "merchant": "Tmall - Imported Foods",
+    "category": "groceries",
+    "description": "Organic baby snacks and supplements",
+    "receipt_url": "https://trade.tmall.example/detail/8473920147.htm"
+  },
+  {
+    "transaction_id": "TXN-6073",
+    "date": "2026-01-08",
+    "amount": 1740.0,
+    "currency": "CNY",
+    "merchant": "Tmall - BabyCare Flagship Store",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro specialized formula - 3 cans (emergency restock during husband's business trip)",
+    "receipt_url": "https://trade.tmall.example/receipt/TM20260108-8834"
+  },
+  {
+    "transaction_id": "TXN-6074",
+    "date": "2026-01-12",
+    "amount": 3480.0,
+    "currency": "CNY",
+    "merchant": "JD.com - NutriGrow Official Flagship",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro specialized formula - 6 cans (bulk purchase before Spring Festival logistics freeze)",
+    "receipt_url": "https://order.jd.example/receipt/JD20260112-4521"
+  },
+  {
+    "transaction_id": "TXN-6075",
+    "date": "2026-01-16",
+    "amount": 2320.0,
+    "currency": "CNY",
+    "merchant": "Pinduoduo - Baby Nutrition Authorized Store",
+    "category": "infant_nutrition",
+    "description": "NutriGrow HA Pro formula - 4 cans (found good discount, stocking up)",
+    "receipt_url": "https://mobile.pinduoduo.example/order/PDD20260116-7723"
+  },
+  {
+    "transaction_id": "TXN-6076",
+    "date": "2026-01-17",
+    "amount": 850.0,
+    "currency": "CNY",
+    "merchant": "FreshMart Supermarket",
+    "category": "groceries",
+    "description": "Weekly groceries - vegetables, fruits, meat, snacks for kids",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6077",
+    "date": "2026-01-08",
+    "amount": 2900.0,
+    "currency": "CNY",
+    "merchant": "NutriGrow Official Store - JD.com",
+    "category": "infant_nutrition",
+    "description": "Previous formula purchase - 5 cans NutriGrow HA Pro (580 RMB/can) - January stock replenishment. Note: Current inventory will deplete mid-February based on 5 cans/month consumption rate.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6078",
+    "date": "2026-01-10",
+    "amount": 88.0,
+    "currency": "CNY",
+    "merchant": "Tmall 88VIP Annual Membership",
+    "category": "membership_fee",
+    "description": "Renewed Tmall 88VIP membership for 2026. Provides access to exclusive Spring Festival sale discounts (200 off 2000, 400 off 3500). Need to amortize this cost across Q1 bulk purchases to calculate true discount yield.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6079",
+    "date": "2026-01-12",
+    "amount": 198.0,
+    "currency": "CNY",
+    "merchant": "JD.com - Baby Supplements",
+    "category": "infant_nutrition",
+    "description": "ProBio Kids Probiotics - 128 RMB, test purchase to verify product quality before bulk order. Will include in Spring Festival bulk purchase if suitable. January infant nutrition spending: 3186 RMB so far (budget cap: 6000 RMB/quarter, remaining: 2814 RMB for bulk purchase).",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6080",
+    "date": "2026-03-02",
+    "amount": 580.0,
+    "currency": "CNY",
+    "merchant": "JD.com - NutriGrow Official Store",
+    "category": "infant_nutrition",
+    "description": "Single can purchase (emergency restock before bulk order decision) - NutriGrow HA Pro Formula 900g",
+    "receipt_url": "https://order.jd.example/receipt/20260302-5847392"
+  },
+  {
+    "transaction_id": "TXN-6081",
+    "date": "2026-02-06",
+    "amount": 300.0,
+    "currency": "CNY",
+    "merchant": "City Children's Hospital - Dr. Liu Zhenghua",
+    "category": "medical_appointment_deposit",
+    "description": "Non-refundable appointment deposit for Dr. Liu Zhenghua pediatric consultation - Feb 12, 2026. Patient: He Xiaobao. Note: Deposit will be forfeited if appointment cancelled or patient has fever within 48 hours of appointment time.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6082",
+    "date": "2025-12-22",
+    "amount": 2800.0,
+    "currency": "CNY",
+    "merchant": "City Aquatic Center - Coach Liu Ming",
+    "category": "children_education",
+    "description": "Xiaobao swimming lessons - Spring semester 2026 (16 sessions, Saturday 3:00-4:00 PM). Enrolled based on positive initial observations November-December 2025. Non-refundable semester fee.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6083",
+    "date": "2026-01-14",
+    "amount": 85.0,
+    "currency": "CNY",
+    "merchant": "Dongcheng Wet Market",
+    "category": "groceries",
+    "description": "Fresh vegetables and meat for weekly meal planning: bok choy, tomatoes, pork, chicken drumsticks",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6084",
+    "date": "2026-03-26",
+    "amount": 350.0,
+    "currency": "CNY",
+    "merchant": "Aqua Star Training Center",
+    "category": "children_education",
+    "description": "Dabao swimming proficiency test fee - Level 3 assessment for summer camp prerequisite",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6085",
+    "date": "2026-03-05",
+    "amount": 720.0,
+    "currency": "CNY",
+    "merchant": "Harmony Music School",
+    "category": "children_education",
+    "description": "Dabao piano lessons - March 2026 (4 weekly sessions with Teacher Zhao)",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6086",
+    "date": "2026-02-05",
+    "amount": 720.0,
+    "currency": "CNY",
+    "merchant": "Harmony Music School",
+    "category": "children_education",
+    "description": "Dabao piano lessons - February 2026 (4 weekly sessions with Teacher Zhao)",
+    "receipt_url": ""
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "note_id": "OBSN-1",
+    "title": "Greenfield Press — Risk Flags & Raw Impressions (ARCHIVED 2026-04-22)",
+    "folder": "Clients/Greenfield Press",
+    "tags": [
+      "greenfield-press",
+      "risk",
+      "archived"
+    ],
+    "content": "# Greenfield Press — Risk Flags & Raw Impressions\n\n⚠️ ARCHIVED 2026-04-22 — Superseded by Notion NPAG-14. Do not edit. See NPAG-14 for canonical record.\n\n---\n\n## Original notes (pre-consolidation)\n\n**Scope risk (logged ~2026-04-10):** Marcus (creative director) mentioned wanting a 4th cover variation in a casual Zoom aside. Not sure if this is a real ask or just brainstorming. Contract says 3. Need to clarify with Dana before I do any extra work. This could blow up the timeline.\n\n**Payment risk (logged ~2026-04-08):** INV-2026-GP-01 ($2,800) is now 29 days out. Greenfield has always paid eventually but they're slow. Watch this one.\n\n**Revision clause (logged ~2026-03-06):** Caught an unlimited revision clause in the first draft — flagged and got it capped at 2 rounds before countersigning. Contract is clean now.\n\n**General vibe:** Dana is solid and communicates well. Marcus is the wildcard — creative ideas but doesn't always loop in contracts. Keep all scope conversations in writing.\n\n**Deadline pressure:** May 12 is real. No buffer. Don't let scope creep eat the timeline.",
+    "outlinks": [
+      "NPAG-14"
+    ],
+    "inlinks": [],
+    "created_at": "2026-03-06T11:00:00-07:00",
+    "last_updated": "2026-04-22T15:50:00-07:00"
+  },
+  {
+    "note_id": "OBSN-2",
+    "title": "Greenfield Press — Scope Change Draft Note (ARCHIVED 2026-04-22)",
+    "folder": "Clients/Greenfield Press",
+    "tags": [
+      "greenfield-press",
+      "scope",
+      "archived"
+    ],
+    "content": "# Greenfield Press — Scope Change Draft Note\n\n⚠️ ARCHIVED 2026-04-22 — Superseded by Notion NPAG-14. Do not edit. See NPAG-14 for canonical record.\n\n---\n\n## Original draft (pre-consolidation, ~2026-04-12)\n\nThinking through the 4th variation ask from Marcus. Possibilities:\n1. It's just Marcus being Marcus — not a real deliverable expectation\n2. He actually told Dana it's in scope and Dana hasn't told me\n3. He's going to try to hold final payment pending a 4th variation I never agreed to\n\nOption 3 is the scary one. Need to get Dana on record about what the contract actually says.\n\nIf they want a 4th, I'd charge $1,200 extra minimum. Timeline would need to slip or I'd have to work the weekend before May 12 — not ideal.\n\n**STATUS AS OF 2026-04-22:** Resolved. Dana confirmed in MSG-5087 that contracted scope = 3 variations. 4th is optional add-on only. See NPAG-14.",
+    "outlinks": [
+      "NPAG-14"
+    ],
+    "inlinks": [
+      "OBSN-1"
+    ],
+    "created_at": "2026-04-12T14:30:00-07:00",
+    "last_updated": "2026-04-22T15:52:00-07:00"
+  },
+  {
+    "note_id": "OBSN-3",
+    "title": "Greenfield Press — Payment Tracker Scratch (ARCHIVED 2026-04-22)",
+    "folder": "Clients/Greenfield Press",
+    "tags": [
+      "greenfield-press",
+      "payment",
+      "archived"
+    ],
+    "content": "# Greenfield Press — Payment Tracker Scratch\n\n⚠️ ARCHIVED 2026-04-22 — Superseded by Notion NPAG-14. Do not edit. See NPAG-14 for canonical record.\n\n---\n\n## Original notes (pre-consolidation)\n\n**INV-2026-GP-01 ($2,800):** Issued 2026-03-10. Net-30 = due 2026-04-09. As of my last check (~2026-04-15) still unpaid. This is 35+ days out. Part of the ~$8,400 outstanding pile.\n\n**INV-2026-GP-02 ($2,800):** Issued 2026-04-01. Net-30 = due 2026-05-01. Not yet overdue.\n\n**INV-2026-GP-03 ($1,400):** On-delivery invoice, not yet issued. Due on 2026-05-12 delivery.\n\n**NOTE — possible conflict with Notion:** Notion client log (NPAG-1 or NPAG-4?) may show different payment status. Need to reconcile against actual bank/email confirmation.\n\n**STATUS AS OF 2026-04-22:** INV-2026-GP-01 PAID 2026-04-21 per Priya Nair email (MSG-5086) and TXN-6036. Notion NPAG-14 is now authoritative. This note archived.",
+    "outlinks": [
+      "NPAG-14"
+    ],
+    "inlinks": [
+      "OBSN-1"
+    ],
+    "created_at": "2026-04-15T10:00:00-07:00",
+    "last_updated": "2026-04-22T15:55:00-07:00"
+  }
+]

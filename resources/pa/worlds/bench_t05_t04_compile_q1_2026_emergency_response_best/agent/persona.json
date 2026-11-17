@@ -1,0 +1,17 @@
+{
+  "persona_id": "T05_T04_compile_q1_2026_emergency_response_best",
+  "name": "Zhuo Ma Yang Zong",
+  "email": "zhuo.yangzong@aidforeducation.example",
+  "role": "junior program manager",
+  "organization": "Aid and Education for All",
+  "communication_style": "analytical, methodical",
+  "domain_knowledge": [
+    "client management",
+    "finance",
+    "knowledge management",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-05"
+}

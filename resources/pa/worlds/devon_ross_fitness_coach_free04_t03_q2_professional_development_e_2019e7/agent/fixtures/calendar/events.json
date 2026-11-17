@@ -1,0 +1,921 @@
+[
+  {
+    "event_id": "EVT-301",
+    "title": "Spring Cohort In-Person Kickoff – Iron House Gym",
+    "start_time": "2026-03-26T10:00:00-05:00",
+    "end_time": "2026-03-26T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "cohort-spring2026@devonrossperformance.example",
+      "jamie.okafor@gmail.example",
+      "sara.lindqvist@gmail.example",
+      "marcus.bell@ironhousegym.example"
+    ],
+    "location": "Iron House Gym, 412 Meridian Ave – Main Training Floor",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-302",
+    "title": "Cohort Kickoff – Venue Decision & Comms Block",
+    "start_time": "2026-03-18T11:00:00-05:00",
+    "end_time": "2026-03-18T12:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-303",
+    "title": "Spring Cohort Virtual Kickoff (Zoom) – REVISED",
+    "start_time": "2026-03-26T10:00:00-05:00",
+    "end_time": "2026-03-26T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "cohort-spring2026@devonrossperformance.example",
+      "jamie.okafor@gmail.example",
+      "sara.lindqvist@gmail.example"
+    ],
+    "location": "Zoom – link in description",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-304",
+    "title": "Friday Program Design Block",
+    "start_time": "2026-03-20T09:00:00-05:00",
+    "end_time": "2026-03-20T17:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-305",
+    "title": "Spring Cohort In-Person Kickoff – Ironside Athletic Club [REVISED: June 9]",
+    "start_time": "2026-06-09T07:00:00-05:00",
+    "end_time": "2026-06-09T09:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "cohort-spring2026@devonrossperformance.example"
+    ],
+    "location": "Ironside Athletic Club, 2847 N. Elston Ave, Chicago, IL",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-306",
+    "title": "Tuesday Morning 1:1 Block – In-Person Clients (Preserved)",
+    "start_time": "2026-06-09T06:00:00-05:00",
+    "end_time": "2026-06-09T07:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Devon Ross Performance Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-307",
+    "title": "Call: Marcus Teel – Ironside Referral Partnership Terms",
+    "start_time": "2026-06-10T10:00:00-05:00",
+    "end_time": "2026-06-10T10:20:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "marcus.teel@ironsideathletic.example"
+    ],
+    "location": "Phone / Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-308",
+    "title": "DECISION BLOCK – Brendan Holt Credibility Review: Verify or Confront?",
+    "start_time": "2026-06-06T14:00:00-05:00",
+    "end_time": "2026-06-06T15:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-309",
+    "title": "DECISION BLOCK – Cohort Kickoff Venue: Final Call + Participant Comms",
+    "start_time": "2026-06-06T09:00:00-05:00",
+    "end_time": "2026-06-06T10:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-310",
+    "title": "Darnell Shaw – Physician Clearance Follow-Up Block",
+    "start_time": "2026-06-10T10:00:00-05:00",
+    "end_time": "2026-06-10T10:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-311",
+    "title": "LinkedIn Content Catch-Up – Draft 2 Posts (Missed Cadence Recovery)",
+    "start_time": "2026-06-12T09:00:00-05:00",
+    "end_time": "2026-06-12T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-312",
+    "title": "Friday Triage Block – Cognitive Load Reorder & EOD Admin",
+    "start_time": "2026-03-06T09:00:00-06:00",
+    "end_time": "2026-03-06T11:30:00-06:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-313",
+    "title": "DEFERRED – Brendan Holt Credibility Confrontation Draft",
+    "start_time": "2026-03-13T09:00:00-06:00",
+    "end_time": "2026-03-13T10:30:00-06:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-314",
+    "title": "DEFERRED – Darnell Shaw Physician Clearance Outreach + Notion Flag",
+    "start_time": "2026-03-13T10:30:00-06:00",
+    "end_time": "2026-03-13T11:30:00-06:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-315",
+    "title": "Mon–Thu Session Block Recap (Fatigue Signal Reference)",
+    "start_time": "2026-03-02T06:00:00-06:00",
+    "end_time": "2026-03-05T18:00:00-06:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Iron House Gym / Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-316",
+    "title": "CEU Program Evaluation – Decision Block",
+    "start_time": "2026-04-18T14:00:00-05:00",
+    "end_time": "2026-04-18T16:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-317",
+    "title": "NSCA CSCS Recertification Deadline – CEU Submission Due",
+    "start_time": "2026-06-01T09:00:00-05:00",
+    "end_time": "2026-06-01T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-318",
+    "title": "Friday Program Design Block – CEU Enrollment + Admin",
+    "start_time": "2026-04-25T09:00:00-05:00",
+    "end_time": "2026-04-25T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-319",
+    "title": "Call: Marcus Teel – Ironside Referral Partnership Terms",
+    "start_time": "2026-02-17T09:00:00-06:00",
+    "end_time": "2026-02-17T09:20:00-06:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "marcus.teel@ironsideathletic.example"
+    ],
+    "location": "Phone / Zoom (Marcus to confirm)",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-320",
+    "title": "Prep Block – Ironside Partnership Call (Marcus Teel)",
+    "start_time": "2026-02-17T08:30:00-06:00",
+    "end_time": "2026-02-17T09:00:00-06:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-321",
+    "title": "Friday Program Design Block",
+    "start_time": "2026-02-20T09:00:00-06:00",
+    "end_time": "2026-02-20T17:00:00-06:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-322",
+    "title": "Morning Digest Review + Priority Triage Block",
+    "start_time": "2026-03-30T06:00:00-05:00",
+    "end_time": "2026-03-30T07:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "daily"
+  },
+  {
+    "event_id": "EVT-323",
+    "title": "DEADLINE – Marcus Teel Venue Decision (EOD Friday)",
+    "start_time": "2026-03-31T16:00:00-05:00",
+    "end_time": "2026-03-31T17:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "marcus.teel@ironsideathletic.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-324",
+    "title": "In-Person Client Block – Monday Morning (6 clients)",
+    "start_time": "2026-03-30T07:00:00-05:00",
+    "end_time": "2026-03-30T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Iron House Gym",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-325",
+    "title": "Q2 Tax Estimate – Prep & Reconciliation Block",
+    "start_time": "2026-04-04T09:00:00-05:00",
+    "end_time": "2026-04-04T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-326",
+    "title": "DEADLINE AUDIT – Cohort Onboarding Submission Window: Cross-Channel Reconciliation",
+    "start_time": "2026-04-15T09:00:00-05:00",
+    "end_time": "2026-04-15T10:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-327",
+    "title": "Cohort Onboarding Deadline – Conservative Cutoff (April 25)",
+    "start_time": "2026-04-25T17:00:00-05:00",
+    "end_time": "2026-04-25T17:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-328",
+    "title": "Friday Program Design Block – Cohort Week 1 Programming (Pending Onboarding Completion)",
+    "start_time": "2026-04-17T09:00:00-05:00",
+    "end_time": "2026-04-17T17:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-329",
+    "title": "Send Cohort Onboarding Deadline Clarification Email",
+    "start_time": "2026-04-15T10:00:00-05:00",
+    "end_time": "2026-04-15T10:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-330",
+    "title": "DECISION BLOCK – CEU Early-Bird Enrollment: Apex Periodization Course (window closes EOD)",
+    "start_time": "2026-05-13T10:00:00-05:00",
+    "end_time": "2026-05-13T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-331",
+    "title": "Friday Program Design Block – CEU Research + Admin Batch",
+    "start_time": "2026-05-15T09:00:00-05:00",
+    "end_time": "2026-05-15T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-332",
+    "title": "Weekly Schedule Consolidation & Conflict Audit Block",
+    "start_time": "2026-04-22T09:00:00-05:00",
+    "end_time": "2026-04-22T10:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-333",
+    "title": "Wednesday Morning 1:1 Block – In-Person Clients",
+    "start_time": "2026-04-22T06:00:00-05:00",
+    "end_time": "2026-04-22T09:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Iron House Gym",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-334",
+    "title": "Cohort Coordination – Week 10 Check-In Digest Review",
+    "start_time": "2026-04-22T10:30:00-05:00",
+    "end_time": "2026-04-22T11:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-335",
+    "title": "Call: Jordan Hayes – Prospect Intake Call",
+    "start_time": "2026-04-23T09:00:00-05:00",
+    "end_time": "2026-04-23T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "jordan.hayes@gmail.example"
+    ],
+    "location": "Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-336",
+    "title": "Thursday Morning 1:1 Block – In-Person Clients",
+    "start_time": "2026-04-23T06:00:00-05:00",
+    "end_time": "2026-04-23T09:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Iron House Gym",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-337",
+    "title": "CONFLICT FLAG – Jordan Hayes Intake Call overlaps Thursday Morning 1:1 Block",
+    "start_time": "2026-04-23T09:00:00-05:00",
+    "end_time": "2026-04-23T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-338",
+    "title": "Friday Program Design Block",
+    "start_time": "2026-04-24T09:00:00-05:00",
+    "end_time": "2026-04-24T17:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-339",
+    "title": "Adherence Review – Casey Drummond + 3 Flagged Clients",
+    "start_time": "2026-04-24T14:00:00-05:00",
+    "end_time": "2026-04-24T15:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-340",
+    "title": "Saturday Open Hours – Drop-In / Async Client Support",
+    "start_time": "2026-04-25T08:00:00-05:00",
+    "end_time": "2026-04-25T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Iron House Gym",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-341",
+    "title": "DECISION BLOCK – PureForm Vendor Offer: Commit or Decline Before Expiry",
+    "start_time": "2026-04-22T13:00:00-05:00",
+    "end_time": "2026-04-22T14:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-342",
+    "title": "Cohort Supplement Protocol – Precondition Audit Block",
+    "start_time": "2026-04-25T09:00:00-05:00",
+    "end_time": "2026-04-25T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-343",
+    "title": "Tuesday Morning 1:1 Block – In-Person Clients (Preserved)",
+    "start_time": "2026-04-28T06:00:00-05:00",
+    "end_time": "2026-04-28T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Devon Ross Performance Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-344",
+    "title": "Call: Marcus Teel – Ironside Referral Partnership Terms",
+    "start_time": "2026-04-29T11:00:00-05:00",
+    "end_time": "2026-04-29T11:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "marcus.teel@ironsideathletic.example"
+    ],
+    "location": "Video call / Phone",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-345",
+    "title": "Cohort Coordination Block – Week 2 Pre-Kickoff Logistics",
+    "start_time": "2026-04-30T13:30:00-05:00",
+    "end_time": "2026-04-30T15:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-346",
+    "title": "Partnership Call Prep – Ironside Referral Terms Review",
+    "start_time": "2026-04-29T10:00:00-05:00",
+    "end_time": "2026-04-29T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-347",
+    "title": "INTERNAL CUTOFF – Cohort Onboarding Non-Submitter Follow-Up",
+    "start_time": "2026-05-06T14:00:00-05:00",
+    "end_time": "2026-05-06T15:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-348",
+    "title": "Cohort Onboarding Hard Deadline – May 8 (Final Submission Window Closes)",
+    "start_time": "2026-05-08T20:00:00-05:00",
+    "end_time": "2026-05-08T23:59:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-349",
+    "title": "Cohort Onboarding Review – Finalize Supplement Protocol & Programming (Post-Deadline)",
+    "start_time": "2026-05-09T09:00:00-05:00",
+    "end_time": "2026-05-09T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-350",
+    "title": "CEU Headroom Analysis – ASCS Module 4 Enrollment Decision Block",
+    "start_time": "2026-05-06T10:00:00-05:00",
+    "end_time": "2026-05-06T11:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-351",
+    "title": "DEADLINE: ASCS Module 4 Early-Bird Enrollment Decision (Apex CEU – $149)",
+    "start_time": "2026-05-10T09:00:00-05:00",
+    "end_time": "2026-05-10T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-352",
+    "title": "Submit Module 3 CEU Certificate to NSCA Portal",
+    "start_time": "2026-05-07T09:00:00-05:00",
+    "end_time": "2026-05-07T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-353",
+    "title": "LinkedIn Content Audit + Cadence Recovery Block",
+    "start_time": "2026-05-06T09:00:00-05:00",
+    "end_time": "2026-05-06T11:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-354",
+    "title": "LinkedIn Post Scheduling – Week 18 Compliant Queue (4 posts)",
+    "start_time": "2026-05-06T13:00:00-05:00",
+    "end_time": "2026-05-06T13:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-355",
+    "title": "Weekly Digest Review + Client Outreach Planning Block",
+    "start_time": "2026-05-06T08:00:00-05:00",
+    "end_time": "2026-05-06T09:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-356",
+    "title": "DECISION BLOCK – Brendan Holt Credibility Review: Verify or Confront?",
+    "start_time": "2026-05-07T14:00:00-05:00",
+    "end_time": "2026-05-07T15:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-357",
+    "title": "Darnell Shaw – Physician Clearance Follow-Up Block",
+    "start_time": "2026-05-08T10:00:00-05:00",
+    "end_time": "2026-05-08T10:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-358",
+    "title": "Re-Engagement Call – Casey Drummond",
+    "start_time": "2026-05-06T15:00:00-05:00",
+    "end_time": "2026-05-06T15:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "casey.drummond@gmail.example"
+    ],
+    "location": "Phone / Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-359",
+    "title": "DECISION BLOCK – NSCA ASCS Module 4 Early-Bird: CEU Headroom Check + Enrollment Decision",
+    "start_time": "2026-05-20T10:00:00-05:00",
+    "end_time": "2026-05-20T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-360",
+    "title": "NSCA ASCS Module 4 Early-Bird Enrollment Deadline",
+    "start_time": "2026-05-22T23:59:00-05:00",
+    "end_time": "2026-05-22T23:59:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-361",
+    "title": "DECISION BLOCK – NSCA ASCS Module 4 Early-Bird: Portal CEU Reconciliation + Enrollment Call",
+    "start_time": "2026-05-21T10:00:00-05:00",
+    "end_time": "2026-05-21T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-362",
+    "title": "Friday Program Design Block – CEU Planning + Q3 Professional Dev Review",
+    "start_time": "2026-05-22T09:00:00-05:00",
+    "end_time": "2026-05-22T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-363",
+    "title": "Tuesday Morning 1:1 Block – In-Person Clients",
+    "start_time": "2026-05-19T06:00:00-05:00",
+    "end_time": "2026-05-19T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Devon Ross Performance Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-364",
+    "title": "Call: Marcus Teel – Ironside Referral Partnership Terms",
+    "start_time": "2026-05-19T09:45:00-05:00",
+    "end_time": "2026-05-19T10:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "marcus.teel@ironsideathletic.example"
+    ],
+    "location": "Phone / Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-365",
+    "title": "DECISION BLOCK – Cohort Kickoff Venue: Final Call + Participant Comms",
+    "start_time": "2026-05-20T10:00:00-05:00",
+    "end_time": "2026-05-20T11:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-366",
+    "title": "DECISION BLOCK – Brendan Holt Credibility Review: Verify or Confront?",
+    "start_time": "2026-05-20T13:00:00-05:00",
+    "end_time": "2026-05-20T14:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-367",
+    "title": "Wednesday Morning 1:1 Block – In-Person Clients",
+    "start_time": "2026-05-20T06:00:00-05:00",
+    "end_time": "2026-05-20T09:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Devon Ross Performance Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-368",
+    "title": "Spring Cohort Coordination Block – Onboarding Deadline Reconciliation",
+    "start_time": "2026-05-21T10:00:00-05:00",
+    "end_time": "2026-05-21T11:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-369",
+    "title": "Darnell Shaw – Physician Clearance Follow-Up Block",
+    "start_time": "2026-05-21T14:00:00-05:00",
+    "end_time": "2026-05-21T15:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-370",
+    "title": "Thursday Morning 1:1 Block – In-Person Clients",
+    "start_time": "2026-05-21T06:00:00-05:00",
+    "end_time": "2026-05-21T09:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Devon Ross Performance Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-371",
+    "title": "Friday Program Design Block",
+    "start_time": "2026-05-22T09:00:00-05:00",
+    "end_time": "2026-05-22T13:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-372",
+    "title": "Saturday Open Hours – Drop-In Coaching",
+    "start_time": "2026-05-23T08:00:00-05:00",
+    "end_time": "2026-05-23T11:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Devon Ross Performance Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-373",
+    "title": "Weekly Schedule Preview & Planning Block",
+    "start_time": "2026-06-03T09:00:00-05:00",
+    "end_time": "2026-06-03T09:45:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-374",
+    "title": "Call: Marcus Teel – Ironside Referral Partnership Terms",
+    "start_time": "2026-06-04T10:00:00-05:00",
+    "end_time": "2026-06-04T10:45:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "marcus.teel@ironsideathletic.example"
+    ],
+    "location": "Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-375",
+    "title": "Tuesday Morning 1:1 Block – In-Person Clients (Preserved)",
+    "start_time": "2026-06-04T06:00:00-05:00",
+    "end_time": "2026-06-04T09:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Ironside Athletic Club",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-376",
+    "title": "DECISION BLOCK – Brendan Holt Credibility Review: Verify or Confront?",
+    "start_time": "2026-06-04T10:45:00-05:00",
+    "end_time": "2026-06-04T11:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-377",
+    "title": "Spring Cohort – Supplement Protocol Distribution Check",
+    "start_time": "2026-06-05T14:00:00-05:00",
+    "end_time": "2026-06-05T15:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-378",
+    "title": "Darnell Shaw – Physician Clearance Follow-Up Block",
+    "start_time": "2026-06-05T15:00:00-05:00",
+    "end_time": "2026-06-05T15:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-379",
+    "title": "Friday Program Design Block",
+    "start_time": "2026-06-06T09:00:00-05:00",
+    "end_time": "2026-06-06T13:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-380",
+    "title": "Q2 Tax Estimate – Final Review & Filing Prep",
+    "start_time": "2026-06-06T13:00:00-05:00",
+    "end_time": "2026-06-06T14:30:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-381",
+    "title": "Spring Cohort In-Person Kickoff – Ironside Athletic Club [REVISED: June 9]",
+    "start_time": "2026-06-09T09:00:00-05:00",
+    "end_time": "2026-06-09T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example",
+      "cohort-spring2026@devonrossperformance.example"
+    ],
+    "location": "Ironside Athletic Club",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-382",
+    "title": "LinkedIn Content Catch-Up – Draft + Schedule 2 Posts",
+    "start_time": "2026-06-05T11:00:00-05:00",
+    "end_time": "2026-06-05T12:00:00-05:00",
+    "attendees": [
+      "devon@devonrossperformance.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  }
+]

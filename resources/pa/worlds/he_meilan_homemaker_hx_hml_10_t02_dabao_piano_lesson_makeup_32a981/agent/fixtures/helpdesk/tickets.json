@@ -1,0 +1,19 @@
+[
+  {
+    "ticket_id": "TK-801",
+    "title": "How to sync family calendar across devices",
+    "reporter": "hemeilan@family.example",
+    "created_at": "2026-01-30T11:15:00+08:00",
+    "priority": "low",
+    "status": "draft",
+    "description": "Need help with calendar sync but figured out it was just the app settings",
+    "tags": [
+      "calendar",
+      "sync"
+    ],
+    "assignee": "",
+    "department": "Support",
+    "_noise": true,
+    "_status": "abandoned"
+  }
+]

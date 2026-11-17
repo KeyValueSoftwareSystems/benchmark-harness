@@ -14,28 +14,32 @@
     "noGui": true,
     "supportedServicesOnly": true,
     "excludedBecauseAlreadyAWorld": 20,
-    "buckets": {
-      "work": {
-        "count": 16,
-        "maxPerPersona": 2,
+    "buckets": [
+      {
+        "bucket": "work",
+        "count": 30,
+        "maxPerPersona": 3,
         "pool": "benchmark tasks tagged work"
       },
-      "personal_life": {
-        "count": 8,
-        "maxPerPersona": 2,
+      {
+        "bucket": "personal_family",
+        "count": 9,
+        "maxPerPersona": 4,
         "pool": "benchmark tasks tagged personal or mixed, then train tasks tagged personal or mixed"
       },
-      "home_family": {
-        "count": 8,
-        "maxPerPersona": 8,
+      {
+        "bucket": "personal_family",
+        "count": 10,
+        "maxPerPersona": 10,
         "pool": "train tasks of the homemaker persona"
       },
-      "self_employed": {
-        "count": 8,
-        "maxPerPersona": 2,
+      {
+        "bucket": "self_employed",
+        "count": 31,
+        "maxPerPersona": 8,
         "pool": "eligible English train tasks of self-employed personas"
       }
-    }
+    ]
   },
   "tasks": [
     {
@@ -114,6 +118,15 @@
       "bucket": "work",
       "split": "benchmark",
       "bundle": "skill",
+      "taskId": "T23_T03_q2_board_materials_steering_committee_sc",
+      "persona": "T23",
+      "worldId": "bench_t23_t03_q2_board_materials_steering_committee_sc",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
       "taskId": "T05_T04_weekly_training_performance_and_recovery",
       "persona": "T05",
       "worldId": "bench_t05_t04_weekly_training_performance_and_recovery",
@@ -159,6 +172,15 @@
       "bucket": "work",
       "split": "benchmark",
       "bundle": "tool",
+      "taskId": "T05_T04_compile_q1_2026_emergency_response_best",
+      "persona": "T05",
+      "worldId": "bench_t05_t04_compile_q1_2026_emergency_response_best",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "tool",
       "taskId": "T11_T07_clearview_registry_vendor_budget_realloc",
       "persona": "T11",
       "worldId": "bench_t11_t07_clearview_registry_vendor_budget_realloc",
@@ -183,7 +205,115 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T04_T20_design_newsletter_digest_and_trend_extra",
+      "persona": "T04",
+      "worldId": "bench_t04_t20_design_newsletter_digest_and_trend_extra",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T21_T06_consolidate_q2_planning_meetings_across",
+      "persona": "T21",
+      "worldId": "bench_t21_t06_consolidate_q2_planning_meetings_across",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "tool",
+      "taskId": "T18_T18_wellington_contract_q2_session_booking_u",
+      "persona": "T18",
+      "worldId": "bench_t18_t18_wellington_contract_q2_session_booking_u",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T13_T11_spring_menu_preview_tasting_dietary_cons",
+      "persona": "T13",
+      "worldId": "bench_t13_t11_spring_menu_preview_tasting_dietary_cons",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "tool",
+      "taskId": "T04_T07_software_bundle_purchase_optimization_ac",
+      "persona": "T04",
+      "worldId": "bench_t04_t07_software_bundle_purchase_optimization_ac",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T22_T18_weekly_calendar_preview_for_upcoming_inv",
+      "persona": "T22",
+      "worldId": "bench_t22_t18_weekly_calendar_preview_for_upcoming_inv",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T11_T14_clearview_week_14_calendar_preview_sourc",
+      "persona": "T11",
+      "worldId": "bench_t11_t14_clearview_week_14_calendar_preview_sourc",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "tool",
+      "taskId": "T14_T01_multi_supplier_concrete_package_procurem",
+      "persona": "T14",
+      "worldId": "bench_t14_t01_multi_supplier_concrete_package_procurem",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T01_T12_mentor_meeting_calendar_chat_conflict_ap",
+      "persona": "T01",
+      "worldId": "bench_t01_t12_mentor_meeting_calendar_chat_conflict_ap",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T18_T16_detect_hidden_conflict_between_wellingto",
+      "persona": "T18",
+      "worldId": "bench_t18_t16_detect_hidden_conflict_between_wellingto",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T01_T07_gpu_training_job_chain_sprint_demo_q1",
+      "persona": "T01",
+      "worldId": "bench_t01_t07_gpu_training_job_chain_sprint_demo_q1",
+      "translated": false
+    },
+    {
+      "bucket": "work",
+      "split": "benchmark",
+      "bundle": "tool",
+      "taskId": "T13_T15_resolve_blast_chiller_service_windows_ag",
+      "persona": "T13",
+      "worldId": "bench_t13_t15_resolve_blast_chiller_service_windows_ag",
+      "translated": false
+    },
+    {
+      "bucket": "personal_family",
       "split": "benchmark",
       "bundle": "skill",
       "taskId": "T13_T06_monthly_ice_skating_routine_effectivenes",
@@ -192,7 +322,7 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "personal_family",
       "split": "benchmark",
       "bundle": "skill",
       "taskId": "T04_T19_print_vendor_subscription_sunk_cost_anal",
@@ -201,7 +331,7 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "personal_family",
       "split": "benchmark",
       "bundle": "tool",
       "taskId": "T04_T08_multi_project_deadline_consolidation_and",
@@ -210,7 +340,7 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "personal_family",
       "split": "benchmark",
       "bundle": "skill",
       "taskId": "T05_T02_post_competition_recovery_week_email_tri",
@@ -219,7 +349,7 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "abdullah_rashid_11_331_40event_80noise_401_20task_simple",
       "taskId": "T14_T20_marine_foundation_approval_interception",
@@ -228,7 +358,7 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "abdullah_rashid_11_331_40event_80noise_403_20task_simple",
       "taskId": "T14_T16_multi_project_critical_path_consolidatio",
@@ -237,7 +367,7 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "carlos_rivera_11_331_10event_30noise_405_20task_simple",
       "taskId": "T04_T08_promockup_studio_subscription_renewal_de",
@@ -246,7 +376,16 @@
       "translated": false
     },
     {
-      "bucket": "personal_life",
+      "bucket": "personal_family",
+      "split": "train",
+      "bundle": "abdullah_rashid_11_331_40event_80noise_403_20task_simple",
+      "taskId": "T14_T19_rotation_schedule_alignment_with_critica",
+      "persona": "abdullah_rashid",
+      "worldId": "abdullah_rashid_t14_t19_rotation_schedule_alignment_with_333895",
+      "translated": false
+    },
+    {
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "qi_cheng_an_11_331_20event_40noise_401_20task_simple",
       "taskId": "T01_T19_multi_property_acquisition_financing_dea",
@@ -255,7 +394,7 @@
       "translated": false
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_401_20task_hard",
       "taskId": "HX_HML_10_T11_formula_purchase_payment_path_optimizati",
@@ -264,7 +403,7 @@
       "translated": true
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_401_20task_hard",
       "taskId": "HX_HML_10_T10_parent_teacher_conference_action_items_s",
@@ -273,7 +412,7 @@
       "translated": true
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_404_20task_hard",
       "taskId": "HX_HML_10_T03_conflicting_deadline_information_for_dab",
@@ -282,7 +421,7 @@
       "translated": true
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_404_20task_hard",
       "taskId": "HX_HML_10_T07_detect_hidden_conflict_between_dabao_s_n",
@@ -291,7 +430,7 @@
       "translated": true
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_404_20task_hard",
       "taskId": "HX_HML_10_T15_spring_festival_formula_bulk_purchase_op",
@@ -300,7 +439,7 @@
       "translated": true
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_404_20task_hard",
       "taskId": "HX_HML_10_T08_resolve_concurrent_activity_scheduling_c",
@@ -309,7 +448,7 @@
       "translated": true
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_401_20task_hard",
       "taskId": "HX_HML_10_T08_urgent_parent_teacher_conference_present",
@@ -318,12 +457,30 @@
       "translated": true
     },
     {
-      "bucket": "home_family",
+      "bucket": "personal_family",
       "split": "train",
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_401_20task_hard",
       "taskId": "HX_HML_10_T20_compile_xiaobao_s_health_pattern_review",
       "persona": "he_meilan_homemaker",
       "worldId": "he_meilan_homemaker_hx_hml_10_t20_compile_xiaobao_s_health_p_32a981",
+      "translated": true
+    },
+    {
+      "bucket": "personal_family",
+      "split": "train",
+      "bundle": "he_meilan_homemaker_11_331_40event_20noise_401_20task_hard",
+      "taskId": "HX_HML_10_T02_dabao_piano_lesson_makeup_professional_s",
+      "persona": "he_meilan_homemaker",
+      "worldId": "he_meilan_homemaker_hx_hml_10_t02_dabao_piano_lesson_makeup_32a981",
+      "translated": true
+    },
+    {
+      "bucket": "personal_family",
+      "split": "train",
+      "bundle": "he_meilan_homemaker_11_331_40event_20noise_404_20task_hard",
+      "taskId": "HX_HML_10_T05_optimize_xiaobao_s_specialized_formula_p",
+      "persona": "he_meilan_homemaker",
+      "worldId": "he_meilan_homemaker_hx_hml_10_t05_optimize_xiaobao_s_special_ddb7b8",
       "translated": true
     },
     {
@@ -392,10 +549,217 @@
     {
       "bucket": "self_employed",
       "split": "train",
+      "bundle": "devon_ross_fitness_coach_r25_n20_20260506_5task_medium",
+      "taskId": "FREE04_T01_linkedin_educational_post_audit_client_d",
+      "persona": "devon_ross_fitness_coach",
+      "worldId": "devon_ross_fitness_coach_free04_t01_linkedin_educational_post_aud_980a05",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
       "bundle": "mia_lee_freelance_illustrator_r25_n20_20260603_5task_medium",
       "taskId": "FREE01_T01_portfolio_submission_risk_audit_harlow_v",
       "persona": "mia_lee_freelance_illustrator",
       "worldId": "mia_lee_freelance_illustrator_free01_t01_portfolio_submission_risk_aud_5aab58",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "mia_lee_freelance_illustrator_r25_n20_20260603_5task_medium",
+      "taskId": "FREE01_T05_blick_reorder_threshold_trap_clause_4b_r",
+      "persona": "mia_lee_freelance_illustrator",
+      "worldId": "mia_lee_freelance_illustrator_free01_t05_blick_reorder_threshold_trap_5aab58",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "nina_caldwell_travel_creator_r25_n20_20260506_5task_simple",
+      "taskId": "FREE08_T03_q2_newsletter_bundle_threshold_rescue_ro",
+      "persona": "nina_caldwell_travel_creator",
+      "worldId": "nina_caldwell_travel_creator_free08_t03_q2_newsletter_bundle_threshol_15fc35",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "devon_ross_fitness_coach_r25_n20_20260520_5task_simple",
+      "taskId": "FREE04_T01_ceu_enrollment_sunk_cost_vs_net_savings",
+      "persona": "devon_ross_fitness_coach",
+      "worldId": "devon_ross_fitness_coach_free04_t01_ceu_enrollment_sunk_cost_vs_n_3e1547",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "rachel_summers_wedding_planner_r25_n20_20260506_5task_simple",
+      "taskId": "FREE03_T05_mid_execution_rfp_schedule_reversal_veri",
+      "persona": "rachel_summers_wedding_planner",
+      "worldId": "rachel_summers_wedding_planner_free03_t05_mid_execution_rfp_schedule_re_3d1480",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "nina_caldwell_travel_creator_r25_n20_20260603_5task_simple",
+      "taskId": "FREE08_T05_q2_deliverable_batch_dispatch_shared_sta",
+      "persona": "nina_caldwell_travel_creator",
+      "worldId": "nina_caldwell_travel_creator_free08_t05_q2_deliverable_batch_dispatch_141ed3",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "nina_caldwell_travel_creator_r25_n20_20260520_5task_simple",
+      "taskId": "FREE08_T01_weekly_industry_digest_aggregate_rss_fee",
+      "persona": "nina_caldwell_travel_creator",
+      "worldId": "nina_caldwell_travel_creator_free08_t01_weekly_industry_digest_aggreg_706d41",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "mia_lee_freelance_illustrator_r25_n20_20260520_5task_simple",
+      "taskId": "FREE01_T01_artboard_collective_pre_order_deposit_fo",
+      "persona": "mia_lee_freelance_illustrator",
+      "worldId": "mia_lee_freelance_illustrator_free01_t01_artboard_collective_pre_order_41a60f",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "mia_lee_freelance_illustrator_r25_n20_20260520_5task_simple",
+      "taskId": "FREE01_T04_reimbursable_supply_expense_summary_extr",
+      "persona": "mia_lee_freelance_illustrator",
+      "worldId": "mia_lee_freelance_illustrator_free01_t04_reimbursable_supply_expense_s_41a60f",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "mia_lee_freelance_illustrator_r25_n20_20260520_5task_medium",
+      "taskId": "FREE01_T01_contract_clause_conflict_interception_ha",
+      "persona": "mia_lee_freelance_illustrator",
+      "worldId": "mia_lee_freelance_illustrator_free01_t01_contract_clause_conflict_inte_752ba6",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "mia_lee_freelance_illustrator_r25_n20_20260603_5task_medium",
+      "taskId": "FREE01_T02_greenfield_press_project_status_digest_c",
+      "persona": "mia_lee_freelance_illustrator",
+      "worldId": "mia_lee_freelance_illustrator_free01_t02_greenfield_press_project_stat_5aab58",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "mia_lee_freelance_illustrator_r25_n20_20260520_5task_simple",
+      "taskId": "FREE01_T03_greenfield_press_finals_delivery_rush_vs",
+      "persona": "mia_lee_freelance_illustrator",
+      "worldId": "mia_lee_freelance_illustrator_free01_t03_greenfield_press_finals_deliv_41a60f",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "rachel_summers_wedding_planner_r25_n20_20260603_5task_medium",
+      "taskId": "FREE03_T04_scheduling_block_upgrade_fast_vs_slow_pr",
+      "persona": "rachel_summers_wedding_planner",
+      "worldId": "rachel_summers_wedding_planner_free03_t04_scheduling_block_upgrade_fast_532a3e",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "nina_caldwell_travel_creator_r25_n20_20260422_5task_simple",
+      "taskId": "FREE08_T03_inbox_triage_surface_priority_unread_mes",
+      "persona": "nina_caldwell_travel_creator",
+      "worldId": "nina_caldwell_travel_creator_free08_t03_inbox_triage_surface_priority_f56e05",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "rachel_summers_wedding_planner_r25_n20_20260422_5task_medium",
+      "taskId": "FREE03_T04_parallel_vendor_outreach_workflow_shared",
+      "persona": "rachel_summers_wedding_planner",
+      "worldId": "rachel_summers_wedding_planner_free03_t04_parallel_vendor_outreach_work_8c385f",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "devon_ross_fitness_coach_r25_n20_20260506_5task_simple",
+      "taskId": "FREE04_T05_spring_cohort_launch_readiness_dependenc",
+      "persona": "devon_ross_fitness_coach",
+      "worldId": "devon_ross_fitness_coach_free04_t05_spring_cohort_launch_readines_c18cc7",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "rachel_summers_wedding_planner_r25_n20_20260603_5task_simple",
+      "taskId": "FREE03_T03_scheduler_job_activation_risk_intercept",
+      "persona": "rachel_summers_wedding_planner",
+      "worldId": "rachel_summers_wedding_planner_free03_t03_scheduler_job_activation_risk_808ad7",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "devon_ross_fitness_coach_r25_n20_20260603_5task_simple",
+      "taskId": "FREE04_T03_q2_professional_development_expense_summ",
+      "persona": "devon_ross_fitness_coach",
+      "worldId": "devon_ross_fitness_coach_free04_t03_q2_professional_development_e_2019e7",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "devon_ross_fitness_coach_r25_n20_20260520_5task_medium",
+      "taskId": "FREE04_T05_weekly_schedule_preview_flag_prep_needs",
+      "persona": "devon_ross_fitness_coach",
+      "worldId": "devon_ross_fitness_coach_free04_t05_weekly_schedule_preview_flag_522efd",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "rachel_summers_wedding_planner_r25_n20_20260506_5task_simple",
+      "taskId": "FREE03_T04_weekly_action_plan_build_goals_to_tasks",
+      "persona": "rachel_summers_wedding_planner",
+      "worldId": "rachel_summers_wedding_planner_free03_t04_weekly_action_plan_build_goal_3d1480",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "nina_caldwell_travel_creator_r25_n20_20260506_5task_simple",
+      "taskId": "FREE08_T05_intercept_roam_earn_contract_signing_bef",
+      "persona": "nina_caldwell_travel_creator",
+      "worldId": "nina_caldwell_travel_creator_free08_t05_intercept_roam_earn_contract_15fc35",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "devon_ross_fitness_coach_r25_n20_20260506_5task_medium",
+      "taskId": "FREE04_T04_spring_cohort_launch_dependency_chain_ma",
+      "persona": "devon_ross_fitness_coach",
+      "worldId": "devon_ross_fitness_coach_free04_t04_spring_cohort_launch_dependen_980a05",
+      "translated": false
+    },
+    {
+      "bucket": "self_employed",
+      "split": "train",
+      "bundle": "nina_caldwell_travel_creator_r25_n20_20260603_5task_simple",
+      "taskId": "FREE08_T04_q2_newsletter_deliverable_conflict_inter",
+      "persona": "nina_caldwell_travel_creator",
+      "worldId": "nina_caldwell_travel_creator_free08_t04_q2_newsletter_deliverable_con_141ed3",
       "translated": false
     }
   ],
@@ -423,6 +787,48 @@
       "bundle": "he_meilan_homemaker_11_331_40event_20noise_401_20task_hard",
       "taskId": "HX_HML_10_T09_daily_task_scheduling_with_energy_manage",
       "reason": "The prompt is set at 9:30 PM on March 31, but the world's clock is April 1."
+    },
+    {
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T22_T17_interview_resource_allocation_under_time",
+      "reason": "The prompt names March 15 as the date to hit the two-source standard, but the world's clock is April 3."
+    },
+    {
+      "split": "benchmark",
+      "bundle": "skill",
+      "taskId": "T14_T08_subcontractor_coordination_gap_discovery",
+      "reason": "The task asks the assistant to review a system log file with read_file, which the world does not provide."
+    },
+    {
+      "split": "benchmark",
+      "bundle": "tool",
+      "taskId": "T13_T09_detect_supplier_quality_escalation_avoid",
+      "reason": "The task checks for read_file use on a system log, which the world does not provide."
+    },
+    {
+      "split": "train",
+      "bundle": "abdullah_rashid_11_331_40event_80noise_406_20task_simple",
+      "taskId": "T14_T13_rotation_week_6_priority_assessment_site",
+      "reason": "The prompt has meetings on March 28 and 30 as upcoming, but the world's clock is April 6."
+    },
+    {
+      "split": "train",
+      "bundle": "abdullah_rashid_11_331_40event_80noise_406_20task_simple",
+      "taskId": "T14_T18_week_6_rotation_cognitive_load_managemen",
+      "reason": "The prompt has a cardiology appointment on March 29, but the world's clock is April 6."
+    },
+    {
+      "split": "train",
+      "bundle": "abdullah_rashid_11_331_40event_80noise_406_20task_simple",
+      "taskId": "T14_T05_zone_3a_marine_foundation_approval_meeti",
+      "reason": "The prompt has a cardiology appointment on March 27 ahead of it, but the world's clock is April 6."
+    },
+    {
+      "split": "train",
+      "bundle": "abdullah_rashid_11_331_40event_80noise_401_20task_simple",
+      "taskId": "T14_T10_critical_path_task_sequencing_during_lat",
+      "reason": "The prompt has an approval due March 28 and an appointment March 27 ahead of it, but the world's clock is April 1."
     }
   ]
 }
