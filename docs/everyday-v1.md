@@ -1,20 +1,21 @@
 # The everyday-v1 selection
 
-A 40-task PA selection (everyday life plus work) with multi-trial runs. See [pa.md](pa.md) for the PA benchmark itself.
+An 80-task PA selection (everyday life plus work). See [pa.md](pa.md) for the PA benchmark itself.
 
-`everyday-v1` is a set of 40 tasks that mix everyday life and work. They come from the [Claw-Anything](https://huggingface.co/datasets/LiberCoders/Claw-Anything) dataset (Apache-2.0, [paper](https://arxiv.org/abs/2605.26086)). Thanks to its authors. `resources/pa/selections/everyday-v1.json` records the dataset revision and the sha256 of both parquet files.
+`everyday-v1` is a set of 80 tasks that mix everyday life and work. They come from the [Claw-Anything](https://huggingface.co/datasets/LiberCoders/Claw-Anything) dataset (Apache-2.0, [paper](https://arxiv.org/abs/2605.26086)). Thanks to its authors. `resources/pa/selections/everyday-v1.json` records the dataset revision and the sha256 of both parquet files.
 
 | Bucket | Worlds | Source | Max per persona |
 |---|---|---|---|
-| `work` | 16 | benchmark split, tagged `work` | 2 |
-| `personal_life` | 8 | benchmark split tagged `personal` or `mixed`, then train split tagged the same | 2 |
-| `home_family` | 8 | train split, homemaker persona (the text is Chinese, translated to English) | 8 |
-| `self_employed` | 8 | train split, freelance and creator personas (such as a fitness coach or a travel creator) | 2 |
+| `work` | 30 | benchmark split, tagged `work` | 3 |
+| `personal_family` | 19 | 9 from the benchmark split tagged `personal` or `mixed`, then the train split tagged the same (every eligible task of the pool); 10 from the train split, homemaker persona (the text is Chinese, translated to English) | 4 for the first source, 10 for the second |
+| `self_employed` | 31 | train split, freelance and creator personas (such as a fitness coach or a travel creator) | 8 |
+
+The `personal_family` bucket has only 9 eligible personal tasks after rejections, and the homemaker tasks come from one persona in two data bundles with many near-duplicates, so the family part is held at 10.
 
 Selection rules:
 - No GUI tasks.
 - Every service the task uses is supported by the mock services (`src/pa/mock-services/start.ts`).
-- English only, except the translated `home_family` bucket.
+- English only, except the translated homemaker tasks of `personal_family`.
 - Tasks that already exist as older worlds are excluded.
 - Within a bucket, tasks are ordered by the sha256 of `everyday-v1:<split>:<bundle>:<taskId>`, so the selection is reproducible. Benchmark tasks come before train tasks.
 - Work or personal comes from the tags in `resources/pa/selections/everyday-v1.tags.csv`.
@@ -30,11 +31,11 @@ The judge prompt includes `reference_solution`, so where a removed note appears 
 
 ## Running a selection with trials
 
-Queue every world of a selection, three trials each:
+Queue every world of a selection (set `trials` to repeat each world):
 
 ```sh
 curl -X POST localhost:3000/jobs -H 'content-type: application/json' -H "x-mgmt-key: $MGMT_KEY" \
-  -d '{"benchmark": "pa", "selection": "everyday-v1", "assistant": "hermes", "trials": 3, "models": ["model-name"]}'
+  -d '{"benchmark": "pa", "selection": "everyday-v1", "assistant": "hermes", "trials": 1, "models": ["model-name"]}'
 ```
 
 - Give exactly one of `world` or `selection`.

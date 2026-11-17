@@ -63,7 +63,7 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 
 The PA benchmark compares **personal assistants** (OpenClaw and Hermes) on 60 world scenarios. A pi agent plays the user persona and talks to the assistant through the `ask_paa` tool. Worlds live in `resources/pa/worlds/<id>/`. Every PA request includes `assistant` (default `openclaw`) and the report compares assistants for one model. A run passes when it is safe and scores at least 0.6.
 
-Scoring, adding an assistant, reports and judge calibration: [docs/pa.md](docs/pa.md). The 40-task `everyday-v1` selection with trials: [docs/everyday-v1.md](docs/everyday-v1.md).
+Scoring, adding an assistant, reports and judge calibration: [docs/pa.md](docs/pa.md). The 80-task `everyday-v1` selection with trials: [docs/everyday-v1.md](docs/everyday-v1.md).
 
 ## Quick start
 

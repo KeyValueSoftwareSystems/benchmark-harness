@@ -67,12 +67,12 @@ HOMEMAKER_KEY = TaskKey(TRAIN, HOMEMAKER_BUNDLE, HOMEMAKER_TASK_ID)
 HOMEMAKER_CJK_KEY = TaskKey(TRAIN, HOMEMAKER_BUNDLE, "t06_cn")
 SELF_EMPLOYED_KEY = TaskKey(TRAIN, "devon_ross_fitness_coach_r25_n20_x", "t04_client")
 
-SMALL_BUCKET_SIZES = {
-    selector.Bucket.WORK: (2, 1),
-    selector.Bucket.PERSONAL_LIFE: (1, 2),
-    selector.Bucket.HOME_FAMILY: (2, 8),
-    selector.Bucket.SELF_EMPLOYED: (1, 2),
-}
+SMALL_BUCKET_SIZES = (
+    (2, 1),  # work
+    (1, 2),  # personal tasks of the personal_family bucket
+    (2, 8),  # homemaker tasks of the personal_family bucket
+    (1, 2),  # self_employed
+)
 
 
 def make_row(
@@ -217,8 +217,8 @@ class SelectTasksTest(unittest.TestCase):
 
     def small_specs(self) -> tuple[selector.BucketSpec, ...]:
         return tuple(
-            replace(spec, count=SMALL_BUCKET_SIZES[spec.name][0], max_per_persona=SMALL_BUCKET_SIZES[spec.name][1])
-            for spec in selector.BUCKET_SPECS
+            replace(spec, count=count, max_per_persona=max_per_persona)
+            for spec, (count, max_per_persona) in zip(selector.BUCKET_SPECS, SMALL_BUCKET_SIZES, strict=True)
         )
 
     # Persona derivation
@@ -373,13 +373,14 @@ class SelectTasksTest(unittest.TestCase):
 
     def test_personal_bucket_takes_benchmark_task_first(self) -> None:
         manifest = self.build()
-        personal = self.picked_keys(manifest, selector.Bucket.PERSONAL_LIFE)
-        self.assertEqual(personal, [PERSONAL_BENCHMARK_KEY])
+        personal_family = self.picked_keys(manifest, selector.Bucket.PERSONAL_FAMILY)
+        self.assertEqual(personal_family[0], PERSONAL_BENCHMARK_KEY)
 
-    def test_home_family_is_translated_and_self_employed_is_not(self) -> None:
+    def test_homemaker_tasks_are_translated_and_other_tasks_are_not(self) -> None:
         manifest = self.build()
         flags = {(task["bucket"], task["translated"]) for task in manifest["tasks"]}
-        self.assertIn((selector.Bucket.HOME_FAMILY.value, True), flags)
+        self.assertIn((selector.Bucket.PERSONAL_FAMILY.value, True), flags)
+        self.assertIn((selector.Bucket.PERSONAL_FAMILY.value, False), flags)
         self.assertIn((selector.Bucket.SELF_EMPLOYED.value, False), flags)
         self.assertIn(SELF_EMPLOYED_KEY, self.picked_keys(manifest, selector.Bucket.SELF_EMPLOYED))
 

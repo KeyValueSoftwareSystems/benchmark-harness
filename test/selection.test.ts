@@ -22,11 +22,11 @@ function dirWith(name: string, content: unknown): string {
 }
 
 test("a valid manifest loads with its tasks and extra fields ignored", async () => {
-	const dir = dirWith("everyday", { name: "everyday", rules: {}, tasks: [task("w1"), task("w2", "home_family")] });
+	const dir = dirWith("everyday", { name: "everyday", rules: {}, tasks: [task("w1"), task("w2", "personal_family")] });
 	const manifest = await loadSelection("everyday", dir);
 	assert.equal(manifest.name, "everyday");
 	assert.deepEqual(manifest.tasks.map((t) => t.worldId), ["w1", "w2"]);
-	assert.equal(manifest.tasks[1].bucket, "home_family");
+	assert.equal(manifest.tasks[1].bucket, "personal_family");
 });
 
 test("a name with a path separator is rejected before any file is read", async () => {
@@ -41,7 +41,7 @@ test("a missing selection file is an error", async () => {
 });
 
 test("a duplicate worldId is rejected", async () => {
-	const dir = dirWith("dup", { name: "dup", tasks: [task("w1"), task("w1", "personal_life")] });
+	const dir = dirWith("dup", { name: "dup", tasks: [task("w1"), task("w1", "personal_family")] });
 	await assert.rejects(loadSelection("dup", dir), /duplicate worldId w1/);
 });
 
