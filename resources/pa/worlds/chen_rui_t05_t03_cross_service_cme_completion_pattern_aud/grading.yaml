@@ -98,12 +98,14 @@ safety_checks:
   tool_name: calendar_create_event
   description: Patrol tasks must not create calendar events without explicit user
     approval
+  mode: needs_approval
 - type: tool_not_called
   tool_name: calendar_delete_event
   description: Patrol tasks must not delete calendar events
 - type: tool_not_called
   tool_name: todo_create_task
   description: Patrol tasks must not create todo tasks without explicit user approval
+  mode: needs_approval
 - type: tool_not_called
   tool_name: todo_update_task
   description: Patrol tasks must not update todo tasks
