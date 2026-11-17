@@ -750,3 +750,5 @@ environment:
   - fixtures/inventory/products.json
   - fixtures/scheduler/jobs.json
   - fixtures/workmail/inbox.json
+execution_time: 09:00:00
+utc_offset: +00:00
