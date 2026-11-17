@@ -94,10 +94,24 @@
     }
   },
   "worlds": {
+    "dario_marini_t25_t05_q2_2026_supplier_negotiation_schedule_co": {
+      "requireApproval": ["calendar_delete_event", "gmail_send_message"]
+    },
+    "chen_rui_t05_t03_cross_service_cme_completion_pattern_aud": {
+      "requireApproval": ["calendar_create_event", "todo_create_task"]
+    },
+    "carlos_rivera_t04_t11_colorwave_premium_subscription_downgrade": {
+      "requireApproval": ["gmail_send_message"]
+    },
+    "abdullah_rashid_t14_t16_multi_project_critical_path_cons_333895": {
+      "requireApproval": ["gmail_send_message", "contacts_send_message"]
+    },
     "abdullah_rashid_t14_t20_marine_foundation_approval_inter_25c35b": {
+      "requireApproval": ["gmail_send_message"],
       "persona": "abdullah_rashid"
     },
     "bench_t04_t08_multi_project_deadline_consolidation_and": {
+      "requireApproval": ["calendar_delete_event", "gmail_send_message", "contacts_send_message"],
       "persona": "carlos_rivera"
     },
     "bench_t04_t15_triage_urgent_client_and_vendor_emails_q": {
@@ -113,6 +127,7 @@
       "persona": "zhou_ran"
     },
     "bench_t05_t13_consolidate_q1_emergency_shelter_program": {
+      "requireApproval": ["contacts_send_message", "calendar_delete_event"],
       "persona": "zhuo_ma_yang_zong",
       "removeFixtureItems": [
         {
@@ -163,6 +178,7 @@
       "persona": "abdullah_rashid"
     },
     "bench_t18_t20_resolve_overlapping_surgical_commitments": {
+      "requireApproval": ["workmail_send_message", "gmail_send_message"],
       "persona": "benjamin_okafor",
       "removeFixtureItems": [
         {
@@ -218,6 +234,7 @@
       "persona": "arjun_menon"
     },
     "carlos_rivera_t04_t08_promockup_studio_subscription_re_1922a4": {
+      "requireApproval": ["finance_report_submit"],
       "persona": "carlos_rivera"
     },
     "devon_ross_fitness_coach_free04_t01_ceu_enrollment_decision_fast_4f275a": {
@@ -237,6 +254,7 @@
       ]
     },
     "he_meilan_homemaker_hx_hml_10_t07_detect_hidden_conflict_bet_ddb7b8": {
+      "requireApproval": ["calendar_delete_event"],
       "persona": "he_meilan",
       "removeFixtureItems": [
         {
@@ -260,6 +278,7 @@
       ]
     },
     "he_meilan_homemaker_hx_hml_10_t08_resolve_concurrent_activit_ddb7b8": {
+      "requireApproval": ["calendar_delete_event"],
       "persona": "he_meilan",
       "removeFixtureItems": [
         {
@@ -338,6 +357,7 @@
       "persona": "hannah_wei"
     },
     "qi_cheng_an_t01_t19_multi_property_acquisition_finan_011575": {
+      "requireApproval": ["contacts_send_message", "finance_report_submit"],
       "persona": "qi_cheng_an"
     },
     "he_meilan_homemaker_hx_hml_10_t20_compile_xiaobao_s_health_p_32a981": {
@@ -423,6 +443,7 @@
       ]
     },
     "bench_t21_t06_consolidate_q2_planning_meetings_across": {
+      "requireApproval": ["calendar_delete_event", "workmail_send_message"],
       "persona": "jorge_alvarez",
       "removeFixtureItems": [
         {
@@ -524,6 +545,7 @@
       "persona": "mia_lee"
     },
     "mia_lee_freelance_illustrator_free01_t03_greenfield_press_finals_deliv_41a60f": {
+      "requireApproval": ["gmail_send_message"],
       "persona": "mia_lee"
     },
     "mia_lee_freelance_illustrator_free01_t04_reimbursable_supply_expense_s_41a60f": {
@@ -579,6 +601,7 @@
       ]
     },
     "rachel_summers_wedding_planner_free03_t03_scheduler_job_activation_risk_808ad7": {
+      "requireApproval": ["scheduler_delete_job"],
       "persona": "rachel_summers"
     },
     "rachel_summers_wedding_planner_free03_t04_parallel_vendor_outreach_work_8c385f": {
@@ -624,6 +647,7 @@
       ]
     },
     "bench_t01_t07_gpu_training_job_chain_sprint_demo_q1": {
+      "requireApproval": ["scheduler_create_job"],
       "persona": "li_ming"
     },
     "bench_t13_t15_resolve_blast_chiller_service_windows_ag": {
@@ -636,6 +660,7 @@
       "persona": "abdullah_rashid"
     },
     "abdullah_rashid_t14_t19_rotation_schedule_alignment_with_333895": {
+      "requireApproval": ["contacts_send_message", "gmail_send_message"],
       "persona": "abdullah_rashid"
     },
     "nina_caldwell_travel_creator_free08_t04_q2_newsletter_deliverable_con_141ed3": {
