@@ -1110,3 +1110,5 @@ environment:
   - fixtures/workmail/inbox.json
   - fixtures/claw_notion/pages.json
   - fixtures/claw_slack/workspace.json
+execution_time: 09:00:00
+utc_offset: +00:00

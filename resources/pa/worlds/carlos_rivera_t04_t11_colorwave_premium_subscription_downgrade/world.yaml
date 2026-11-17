@@ -795,3 +795,5 @@ environment:
   - fixtures/rss/articles.json
   - fixtures/config/integrations.json
   - fixtures/notes/notes.json
+execution_time: 09:00:00
+utc_offset: -08:00

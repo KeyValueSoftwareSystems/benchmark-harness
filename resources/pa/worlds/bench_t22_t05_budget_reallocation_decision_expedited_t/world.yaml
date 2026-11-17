@@ -1025,3 +1025,5 @@ environment:
   - fixtures/workmail/inbox.json
   - fixtures/claw_obsidian/vault.json
   - fixtures/claw_zotero/library.json
+execution_time: 09:00:00
+utc_offset: +08:00

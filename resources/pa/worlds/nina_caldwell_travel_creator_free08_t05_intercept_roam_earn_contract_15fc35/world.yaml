@@ -1173,3 +1173,5 @@ environment:
   - fixtures/claw_notion/pages.json
   - fixtures/claw_obsidian/vault.json
   - fixtures/sheet/workbooks.json
+execution_time: 09:00:00
+utc_offset: +01:00

@@ -1045,3 +1045,5 @@ environment:
   - fixtures/workmail/inbox.json
   - fixtures/claw_notion/pages.json
   - fixtures/meeting/meetings.json
+execution_time: 09:00:00
+utc_offset: +01:00

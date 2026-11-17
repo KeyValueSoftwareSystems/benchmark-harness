@@ -1238,3 +1238,5 @@ environment:
   - fixtures/claw_wechat/chats.json
   - fixtures/claw_wechat/moments.json
   - fixtures/sheet/workbooks.json
+execution_time: 09:00:00
+utc_offset: +00:00
