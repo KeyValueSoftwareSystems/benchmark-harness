@@ -1,0 +1,919 @@
+[
+  {
+    "workbook_id": "WB-1",
+    "name": "Devon Ross Performance – Client Adherence & Progress Tracker",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "name": "Adherence Tracker",
+        "description": "Weekly session adherence per online client. Columns: client_name, week_label, sessions_planned, sessions_completed, adherence_pct, streak_weeks, flag, notes.",
+        "last_updated": "2026-05-29T11:45:00-05:00",
+        "sample_rows": [
+          {
+            "client_name": "Jordan Hayes",
+            "week_label": "W15 (May 26–Jun 1)",
+            "sessions_planned": 3,
+            "sessions_completed": 2,
+            "adherence_pct": 67,
+            "streak_weeks": 4,
+            "flag": "",
+            "notes": "Missed Wed – work conflict communicated in advance"
+          },
+          {
+            "client_name": "Casey Drummond",
+            "week_label": "W15 (May 26–Jun 1)",
+            "sessions_planned": 3,
+            "sessions_completed": 0,
+            "adherence_pct": 0,
+            "streak_weeks": 0,
+            "flag": "ADHERENCE_DROP",
+            "notes": "3 consecutive missed weeks – re-engagement email sent 2026-05-29"
+          },
+          {
+            "client_name": "Tyler Wren",
+            "week_label": "W15 (May 26–Jun 1)",
+            "sessions_planned": 3,
+            "sessions_completed": 3,
+            "adherence_pct": 100,
+            "streak_weeks": 7,
+            "flag": "",
+            "notes": "Strong week – front squat PR"
+          },
+          {
+            "client_name": "Brendan Holt",
+            "week_label": "W15 (May 26–Jun 1)",
+            "sessions_planned": 3,
+            "sessions_completed": 1,
+            "adherence_pct": 33,
+            "streak_weeks": 0,
+            "flag": "ADHERENCE_DROP",
+            "notes": "2 misses – re-engagement check-in sent"
+          }
+        ]
+      },
+      {
+        "name": "Progress Metrics – May 2026",
+        "description": "Key performance metrics tracked monthly per client.",
+        "last_updated": "2026-05-29T11:50:00-05:00",
+        "sample_rows": [
+          {
+            "client_name": "Jordan Hayes",
+            "metric": "Back Squat 5RM (lbs)",
+            "baseline_feb": 165,
+            "current_may": 185,
+            "delta": "+20",
+            "notes": "Steady 5-week linear progression – on pace for 195 Q2 target"
+          },
+          {
+            "client_name": "Casey Drummond",
+            "metric": "Weekly Session Avg",
+            "baseline_feb": 3.0,
+            "current_may": 0.0,
+            "delta": "-3.0",
+            "notes": "Flagged – 3-week zero-session dropout"
+          },
+          {
+            "client_name": "Tyler Wren",
+            "metric": "Front Squat 3RM (lbs)",
+            "baseline_feb": 155,
+            "current_may": 175,
+            "delta": "+20",
+            "notes": "W15 PR confirmed"
+          },
+          {
+            "client_name": "Brendan Holt",
+            "metric": "Pull-up Max Reps",
+            "baseline_feb": 8,
+            "current_may": 11,
+            "delta": "+3",
+            "notes": "Progress stalling – adherence drop affecting accumulated volume"
+          }
+        ]
+      },
+      {
+        "name": "W15 DRAFT BUFFER (2026-05-29)",
+        "description": "Temporary isolation buffer for Friday batch admin write sequence. Values staged here before pushing to live columns. Do NOT reference for email drafting — use committed live columns only.",
+        "last_updated": "2026-05-29T11:05:00-05:00",
+        "sample_rows": [
+          {
+            "client_name": "Jordan Hayes",
+            "W15_adherence_draft": 67,
+            "W15_sessions_draft": "2/3",
+            "commit_status": "pending"
+          },
+          {
+            "client_name": "Casey Drummond",
+            "W15_adherence_draft": 0,
+            "W15_sessions_draft": "0/3",
+            "commit_status": "pending"
+          },
+          {
+            "client_name": "Tyler Wren",
+            "W15_adherence_draft": 100,
+            "W15_sessions_draft": "3/3",
+            "commit_status": "pending"
+          },
+          {
+            "client_name": "Brendan Holt",
+            "W15_adherence_draft": 33,
+            "W15_sessions_draft": "1/3",
+            "commit_status": "pending"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-17T10:00:00-05:00",
+    "last_modified": "2026-05-29T11:50:00-05:00"
+  },
+  {
+    "workbook_id": "WB-2",
+    "name": "Devon Ross Performance – Q2 2026 Tax Estimate Worksheet",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "name": "Q2 Income & Expenses",
+        "description": "Quarterly estimated tax prep — revenue by category, deductions, and net.",
+        "last_updated": "2026-05-25T15:00:00-05:00",
+        "sample_rows": [
+          {
+            "category": "Online Coaching Revenue",
+            "apr": 6200,
+            "may_to_date": 5800,
+            "projected_q2_total": 18400
+          },
+          {
+            "category": "In-Person Sessions Revenue",
+            "apr": 4100,
+            "may_to_date": 3900,
+            "projected_q2_total": 12200
+          },
+          {
+            "category": "Group Program – Spring Cohort",
+            "apr": 0,
+            "may_to_date": 7200,
+            "projected_q2_total": 7200
+          },
+          {
+            "category": "Business Expenses",
+            "apr": -1850,
+            "may_to_date": -1600,
+            "projected_q2_total": -5400
+          },
+          {
+            "category": "Estimated Net",
+            "apr": 8450,
+            "may_to_date": 15300,
+            "projected_q2_total": 32400
+          }
+        ]
+      },
+      {
+        "name": "SE Tax Estimate – Q2",
+        "description": "Self-employment tax and quarterly payment calculation. Due date: 2026-06-15.",
+        "last_updated": "2026-05-25T15:10:00-05:00",
+        "sample_rows": [
+          {
+            "line": "Projected Q2 Net Profit",
+            "amount": 32400
+          },
+          {
+            "line": "SE Tax Base (92.35%)",
+            "amount": 29921
+          },
+          {
+            "line": "SE Tax (15.3%)",
+            "amount": 4578
+          },
+          {
+            "line": "Income Tax Estimate (22% bracket)",
+            "amount": 7128
+          },
+          {
+            "line": "Total Q2 Estimated Payment Due",
+            "amount": 11706
+          },
+          {
+            "line": "Payment Due Date",
+            "amount": "2026-06-15"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-04-01T09:00:00-05:00",
+    "last_modified": "2026-05-25T15:10:00-05:00"
+  },
+  {
+    "workbook_id": "WB-3",
+    "name": "Devon Ross Performance – Client Adherence & Progress Tracker",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "sheet_name": "Weekly Adherence Log",
+        "headers": [
+          "Client Name",
+          "Program Type",
+          "Week Of",
+          "Sessions Scheduled",
+          "Sessions Logged",
+          "Adherence %",
+          "Flag Status",
+          "Coach Notes"
+        ],
+        "rows": [
+          [
+            "Brendan Holt",
+            "Online – Strength Foundation",
+            "2026-04-27",
+            3,
+            1,
+            "33%",
+            "PARTIAL – REVIEW",
+            "Apr metrics flat for 4th consecutive week; 1 session logged this week (Wed only). Platform status: partial, no auto-alert."
+          ],
+          [
+            "Jordan Hayes",
+            "Online – General Fitness",
+            "2026-04-27",
+            3,
+            3,
+            "100%",
+            "OK",
+            ""
+          ],
+          [
+            "Casey Drummond",
+            "Online – Hybrid",
+            "2026-04-27",
+            3,
+            0,
+            "0%",
+            "FLAGGED – MISSED 3+",
+            "3rd consecutive zero week. Re-engagement outreach sent 2026-04-30."
+          ],
+          [
+            "Darnell Shaw",
+            "Online – Strength Foundation",
+            "2026-04-27",
+            3,
+            1,
+            "33%",
+            "PARTIAL – MONITOR",
+            ""
+          ],
+          [
+            "Rachel Kim",
+            "Online – General Fitness",
+            "2026-04-27",
+            3,
+            2,
+            "67%",
+            "OK",
+            ""
+          ]
+        ]
+      },
+      {
+        "sheet_name": "Brendan Holt – Metric History",
+        "headers": [
+          "Date",
+          "Exercise",
+          "Sets",
+          "Reps / Load",
+          "Coach-Verified?",
+          "Notes"
+        ],
+        "rows": [
+          [
+            "2026-02-18",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            "Self-logged via app"
+          ],
+          [
+            "2026-02-21",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            "Self-logged via app"
+          ],
+          [
+            "2026-02-25",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            "Self-logged via app"
+          ],
+          [
+            "2026-03-04",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            "Self-logged via app"
+          ],
+          [
+            "2026-03-11",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            ""
+          ],
+          [
+            "2026-03-18",
+            "Pull-ups (BW)",
+            3,
+            "7 / BW",
+            "No",
+            ""
+          ],
+          [
+            "2026-03-25",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-01",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-08",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-15",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-22",
+            "Pull-ups (BW)",
+            3,
+            "7 / BW",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-29",
+            "Pull-ups (BW)",
+            3,
+            "8 / BW",
+            "No",
+            "Self-logged Wed 7:44 AM"
+          ],
+          [
+            "2026-02-18",
+            "Back Squat",
+            3,
+            "185 lb",
+            "No",
+            ""
+          ],
+          [
+            "2026-03-04",
+            "Back Squat",
+            3,
+            "185 lb",
+            "No",
+            ""
+          ],
+          [
+            "2026-03-18",
+            "Back Squat",
+            3,
+            "190 lb",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-01",
+            "Back Squat",
+            3,
+            "185 lb",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-15",
+            "Back Squat",
+            3,
+            "185 lb",
+            "No",
+            ""
+          ],
+          [
+            "2026-04-29",
+            "Back Squat",
+            3,
+            "185 lb",
+            "No",
+            "NOTE (Devon 2026-05-02): No load progression in 11 weeks. Flat metrics across all lifts. Cross-referencing forum warning re: possible fabricated logging. Flagging for verification before next cycle."
+          ]
+        ]
+      }
+    ],
+    "created_at": "2026-02-17T09:00:00-05:00",
+    "last_modified": "2026-05-02T14:30:00-05:00"
+  },
+  {
+    "workbook_id": "WB-4",
+    "name": "Devon Ross Performance – Weekly Fatigue & Cognitive Load Log",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "sheet_name": "Weekly Load Tracker",
+        "rows": [
+          {
+            "week_start": "2026-03-02",
+            "day": "Monday",
+            "billable_session_blocks": 4,
+            "decision_blocks": 1,
+            "focused_hours": 3.0,
+            "notes": "In-person AM block: 4 clients. Cohort venue decision block 30 min."
+          },
+          {
+            "week_start": "2026-03-02",
+            "day": "Tuesday",
+            "billable_session_blocks": 4,
+            "decision_blocks": 1,
+            "focused_hours": 3.0,
+            "notes": "In-person AM block: 4 clients. Brendan Holt review prep 45 min."
+          },
+          {
+            "week_start": "2026-03-02",
+            "day": "Wednesday",
+            "billable_session_blocks": 3,
+            "decision_blocks": 1,
+            "focused_hours": 2.5,
+            "notes": "In-person AM block: 3 clients. Cohort participant comms review."
+          },
+          {
+            "week_start": "2026-03-02",
+            "day": "Thursday",
+            "billable_session_blocks": 3,
+            "decision_blocks": 0,
+            "focused_hours": 3.0,
+            "notes": "In-person AM block: 3 clients. Online check-in batch PM."
+          },
+          {
+            "week_start": "2026-03-02",
+            "day": "TOTAL",
+            "billable_session_blocks": 14,
+            "decision_blocks": 3,
+            "focused_hours": 11.5,
+            "notes": "THRESHOLD EXCEEDED: >8 hrs focused work. Auto-downgrade to low-cognitive tasks triggered for Friday 2026-03-06."
+          }
+        ]
+      },
+      {
+        "sheet_name": "Triage Decision Log",
+        "rows": [
+          {
+            "date": "2026-03-06",
+            "task": "Q2 Tax Estimate",
+            "cognitive_load": "high",
+            "deadline_type": "hard-external",
+            "deadline_date": "2026-06-15",
+            "action": "minimum-viable-action",
+            "rationale": "Hard deadline but not this week; confirm figures + schedule payment only"
+          },
+          {
+            "date": "2026-03-06",
+            "task": "Brendan Holt Credibility Confrontation",
+            "cognitive_load": "high",
+            "deadline_type": "self-imposed",
+            "deadline_date": null,
+            "action": "deferred-2026-03-13",
+            "rationale": "No hard deadline; high-stakes message; defer to restored energy state"
+          },
+          {
+            "date": "2026-03-06",
+            "task": "Darnell Shaw Physician Clearance",
+            "cognitive_load": "high",
+            "deadline_type": "self-imposed",
+            "deadline_date": null,
+            "action": "deferred-2026-03-13",
+            "rationale": "No hard deadline this week; interim constraint (no supplement recs) covers risk"
+          },
+          {
+            "date": "2026-03-06",
+            "task": "Notion Cohort Page Update",
+            "cognitive_load": "low",
+            "deadline_type": "soft",
+            "deadline_date": "2026-03-06",
+            "action": "execute-now",
+            "rationale": "Mechanical update; low cognitive demand; clears backlog"
+          },
+          {
+            "date": "2026-03-06",
+            "task": "Adherence Sheet Row Entries",
+            "cognitive_load": "low",
+            "deadline_type": "soft",
+            "deadline_date": "2026-03-06",
+            "action": "execute-now",
+            "rationale": "Data entry only; supports 24-hr outreach rule compliance"
+          },
+          {
+            "date": "2026-03-06",
+            "task": "LinkedIn Draft Scheduling",
+            "cognitive_load": "low",
+            "deadline_type": "soft",
+            "deadline_date": "2026-03-09",
+            "action": "execute-now",
+            "rationale": "Use existing outline; schedule only; addresses 8-day content gap"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-03-06T09:05:00-06:00",
+    "last_modified": "2026-03-06T11:00:00-06:00"
+  },
+  {
+    "workbook_id": "WB-5",
+    "name": "Devon Ross Performance – Client Adherence & Progress Tracker (Week of Apr 28)",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "sheet_name": "Adherence Flags – Week 18 (Apr 28–May 4)",
+        "rows": [
+          {
+            "client": "Casey Drummond",
+            "sessions_scheduled": 3,
+            "sessions_completed": 0,
+            "consecutive_missed_weeks": 4,
+            "flag": "ADHERENCE_DROP",
+            "notes": "Re-engagement email sent Apr 30; client replied May 3 requesting call"
+          },
+          {
+            "client": "Tyler Wren",
+            "sessions_scheduled": 3,
+            "sessions_completed": 0,
+            "consecutive_missed_weeks": 3,
+            "flag": "ADHERENCE_DROP",
+            "notes": "No response to last two check-in messages; 24hr rule triggered"
+          },
+          {
+            "client": "Darnell Shaw",
+            "sessions_scheduled": 3,
+            "sessions_completed": 1,
+            "consecutive_missed_weeks": 1,
+            "flag": "PARTIAL-REVIEW",
+            "notes": "Travel reported; renal contraindication flag still pending in Notion"
+          },
+          {
+            "client": "Jordan Hayes",
+            "sessions_scheduled": 3,
+            "sessions_completed": 0,
+            "consecutive_missed_weeks": 1,
+            "flag": "PARTIAL-REVIEW",
+            "notes": "New client — onboarding week; zero log may reflect app setup delay"
+          },
+          {
+            "client": "Brendan Holt",
+            "sessions_scheduled": 4,
+            "sessions_completed": 4,
+            "consecutive_missed_weeks": 0,
+            "flag": "CREDIBILITY-REVIEW",
+            "notes": "All sessions logged but credibility review pending per forum warning; do not advance programming until verification call complete"
+          }
+        ]
+      },
+      {
+        "sheet_name": "Online Client Roster – Check-In Status",
+        "rows": [
+          {
+            "client": "Casey Drummond",
+            "last_checkin": "2026-04-06",
+            "checkin_method": "manual",
+            "automated_reminder_active": false,
+            "job_ref": "JOB-701"
+          },
+          {
+            "client": "Tyler Wren",
+            "last_checkin": "2026-04-14",
+            "checkin_method": "manual",
+            "automated_reminder_active": false,
+            "job_ref": "JOB-702"
+          },
+          {
+            "client": "Brendan Holt",
+            "last_checkin": "2026-05-01",
+            "checkin_method": "manual",
+            "automated_reminder_active": false,
+            "job_ref": "JOB-703"
+          },
+          {
+            "client": "Darnell Shaw",
+            "last_checkin": "2026-05-02",
+            "checkin_method": "manual",
+            "automated_reminder_active": false,
+            "job_ref": "JOB-701"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-02-17T09:00:00-05:00",
+    "last_modified": "2026-05-05T07:15:00-05:00"
+  },
+  {
+    "workbook_id": "WB-6",
+    "name": "Devon Ross Performance – Client Adherence & Progress Tracker (Week of May 13)",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "sheet_name": "Week of May 13 – Online Clients",
+        "rows": [
+          {
+            "client": "Casey Drummond",
+            "planned_sessions": 3,
+            "completed_sessions": 0,
+            "completion_pct": 0,
+            "consecutive_miss_weeks": 3,
+            "streak_status": "CRITICAL",
+            "notes": "Work travel Dallas Mon–Wed; 1 unlogged home workout Thu per client email"
+          },
+          {
+            "client": "Brendan Holt",
+            "planned_sessions": 4,
+            "completed_sessions": 0,
+            "completion_pct": 0,
+            "consecutive_miss_weeks": 2,
+            "streak_status": "WARNING",
+            "notes": "Self-reported 4/4 complete via email 5/18 — NOT reflected in Trainerize; credibility review pending"
+          },
+          {
+            "client": "Darnell Shaw",
+            "planned_sessions": 4,
+            "completed_sessions": 2,
+            "completion_pct": 50,
+            "consecutive_miss_weeks": 0,
+            "streak_status": "PARTIAL",
+            "notes": "Nephrology appt Tue; fatigue Fri; physician clearance form outstanding"
+          },
+          {
+            "client": "Jordan Hayes",
+            "planned_sessions": 3,
+            "completed_sessions": 1,
+            "completion_pct": 33,
+            "consecutive_miss_weeks": 1,
+            "streak_status": "WARNING",
+            "notes": "No reason provided"
+          },
+          {
+            "client": "Renata Voss",
+            "planned_sessions": 4,
+            "completed_sessions": 2,
+            "completion_pct": 50,
+            "consecutive_miss_weeks": 0,
+            "streak_status": "PARTIAL",
+            "notes": ""
+          },
+          {
+            "client": "Marcus Bell",
+            "planned_sessions": 3,
+            "completed_sessions": 0,
+            "completion_pct": 0,
+            "consecutive_miss_weeks": 2,
+            "streak_status": "WARNING",
+            "notes": "No contact this week"
+          },
+          {
+            "client": "Tanya Osei",
+            "planned_sessions": 2,
+            "completed_sessions": 0,
+            "completion_pct": 0,
+            "consecutive_miss_weeks": 2,
+            "streak_status": "WARNING",
+            "notes": "No contact this week"
+          },
+          {
+            "client": "Liam Cho",
+            "planned_sessions": 3,
+            "completed_sessions": 0,
+            "completion_pct": 0,
+            "consecutive_miss_weeks": 1,
+            "streak_status": "AT_RISK",
+            "notes": ""
+          },
+          {
+            "client": "Tyler Wren",
+            "planned_sessions": 3,
+            "completed_sessions": 3,
+            "completion_pct": 100,
+            "consecutive_miss_weeks": 0,
+            "streak_status": "ON_TRACK",
+            "notes": ""
+          },
+          {
+            "client": "Jamie Okafor",
+            "planned_sessions": 4,
+            "completed_sessions": 4,
+            "completion_pct": 100,
+            "consecutive_miss_weeks": 0,
+            "streak_status": "ON_TRACK",
+            "notes": ""
+          },
+          {
+            "client": "Priya Nair",
+            "planned_sessions": 4,
+            "completed_sessions": 3,
+            "completion_pct": 75,
+            "consecutive_miss_weeks": 0,
+            "streak_status": "ON_TRACK",
+            "notes": ""
+          },
+          {
+            "client": "Alex Torres",
+            "planned_sessions": 4,
+            "completed_sessions": 4,
+            "completion_pct": 100,
+            "consecutive_miss_weeks": 0,
+            "streak_status": "ON_TRACK",
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-05-20T07:00:00-05:00",
+    "last_modified": "2026-05-20T09:15:00-05:00"
+  },
+  {
+    "workbook_id": "WB-7",
+    "name": "Devon Ross Performance – Adherence Digest: Re-Engagement Priority Queue (May 20)",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "sheet_name": "Re-Engagement Priority Queue",
+        "rows": [
+          {
+            "priority_rank": 1,
+            "client": "Casey Drummond",
+            "reason": "3 consecutive miss weeks; 24hr outreach rule triggered; schedule reset conversation needed",
+            "action": "Call or email today – offer 2x/week adjusted block",
+            "outreach_sent": false,
+            "todo_ref": "TODO-511"
+          },
+          {
+            "priority_rank": 2,
+            "client": "Brendan Holt",
+            "reason": "0 Trainerize logs vs. self-reported 4/4 complete; credibility discrepancy; forum warning active",
+            "action": "Credibility review conversation — do NOT send standard re-engagement; escalate to verification protocol",
+            "outreach_sent": false,
+            "todo_ref": "TODO-pending"
+          },
+          {
+            "priority_rank": 3,
+            "client": "Marcus Bell",
+            "reason": "2 consecutive miss weeks; no contact; 24hr rule triggered last week — check if outreach was sent",
+            "action": "Send check-in email today; confirm 24hr rule compliance",
+            "outreach_sent": false,
+            "todo_ref": "TODO-pending"
+          },
+          {
+            "priority_rank": 4,
+            "client": "Tanya Osei",
+            "reason": "2 consecutive miss weeks; no stated reason",
+            "action": "Send check-in email this week",
+            "outreach_sent": false,
+            "todo_ref": "TODO-pending"
+          },
+          {
+            "priority_rank": 5,
+            "client": "Jordan Hayes",
+            "reason": "1 miss week + 33% completion; new client — early dropout risk",
+            "action": "Warm check-in; assess motivation and schedule fit",
+            "outreach_sent": false,
+            "todo_ref": "TODO-pending"
+          },
+          {
+            "priority_rank": 6,
+            "client": "Darnell Shaw",
+            "reason": "50% completion; medical context (nephrology appt); physician clearance still outstanding",
+            "action": "Acknowledge medical context; follow up on clearance form with Dr. Osei",
+            "outreach_sent": false,
+            "todo_ref": "TODO-pending"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-05-20T09:30:00-05:00",
+    "last_modified": "2026-05-20T09:30:00-05:00"
+  },
+  {
+    "workbook_id": "WB-8",
+    "name": "Spring 2026 Cohort – Recovery Protocol Scoring Matrix",
+    "owner": "devon@devonrossperformance.example",
+    "sheets": [
+      {
+        "sheet_name": "Protocol Scoring",
+        "rows": [
+          [
+            "Criteria",
+            "Weight",
+            "Option A: Apex Creatine Stack",
+            "Option B: PureForm Low-Load",
+            "Option C: Passive/Cold Contrast"
+          ],
+          [
+            "Hard contraindication check",
+            "PASS/FAIL",
+            "FAIL – renal veto (Darnell Shaw)",
+            "PASS",
+            "PASS"
+          ],
+          [
+            "Poll preference alignment (rank)",
+            "25%",
+            "ELIMINATED",
+            "2nd (3/12 votes)",
+            "3rd (2/12 votes)"
+          ],
+          [
+            "Strength-phase programming fit (1–5)",
+            "30%",
+            "ELIMINATED",
+            "5",
+            "3"
+          ],
+          [
+            "Logistical complexity – inverse (1–5)",
+            "25%",
+            "ELIMINATED",
+            "5",
+            "2"
+          ],
+          [
+            "Per-participant cost – inverse (1–5)",
+            "20%",
+            "ELIMINATED",
+            "5",
+            "3"
+          ],
+          [
+            "Weighted score (compliant only)",
+            "",
+            "N/A – VETOED",
+            "5.0",
+            "2.75"
+          ],
+          [
+            "Final rank",
+            "",
+            "EXCLUDED",
+            "1st – SELECTED",
+            "2nd"
+          ]
+        ]
+      },
+      {
+        "sheet_name": "Health Disclosure Summary",
+        "rows": [
+          [
+            "Participant",
+            "Hard Contraindication",
+            "Relevant Restriction",
+            "Option A Safe?",
+            "Option B Safe?",
+            "Option C Safe?"
+          ],
+          [
+            "Darnell Shaw",
+            "YES",
+            "Single kidney – no high-dose creatine, no aggressive stimulant/diuretic",
+            "NO",
+            "YES",
+            "YES"
+          ],
+          [
+            "All other 11 participants",
+            "NO",
+            "None flagged",
+            "YES (pre-veto)",
+            "YES",
+            "YES"
+          ]
+        ]
+      }
+    ],
+    "created_at": "2026-05-20T09:30:00-05:00",
+    "last_modified": "2026-05-20T12:30:00-05:00"
+  }
+]

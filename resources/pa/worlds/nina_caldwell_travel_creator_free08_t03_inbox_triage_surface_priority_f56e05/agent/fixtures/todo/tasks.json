@@ -1,0 +1,707 @@
+[
+  {
+    "task_id": "TODO-501",
+    "title": "HOLD — Do not reply to Algarve Coast Campaign offer (Marco Ferreira / Visit Lisbon)",
+    "description": "Incoming email MSG-5002 + MSG-5003 from Marco Ferreira (Visit Lisbon Algarve Division) contains a CLASS I policy violation: Section 4.2 of the contract addendum requires omission of #ad/#sponsored disclosure. This is a hard red-line per Partnership Standards & Disclosure Policy (NPAG-1). DO NOT draft or send an acceptance reply. Nina must choose a response path: (a) clean decline with relationship preservation language, (b) counter-propose compliant terms allowing full disclosure, (c) defer conversation until after Lisbon deliverables (post May 19). Also flag: Section 4.3 exclusivity clause (60 days, competing coastal destinations) may conflict with existing Lisbon trip commitments. Log outcome in Trip Pipeline (NPAG-2) once Nina decides.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-24",
+    "tags": [
+      "brand-compliance",
+      "policy-violation",
+      "disclosure",
+      "class-i-violation",
+      "needs-nina-decision"
+    ],
+    "created_at": "2026-03-21T11:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-502",
+    "title": "Log Algarve inquiry outcome in Trip Pipeline and update Marco Ferreira contact note",
+    "description": "After Nina decides on response path for the Algarve Coast Campaign (MSG-5002/MSG-5003), update NPAG-2 (Trip Pipeline) with the chosen action and outcome. Update CON-201 (Marco Ferreira) contact note with relationship status. Even if declining, maintain a warm record — Visit Lisbon is an active partner for the May Lisbon trip and the relationship has future value.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-27",
+    "tags": [
+      "brand-compliance",
+      "crm",
+      "follow-up",
+      "visit-lisbon",
+      "relationship-management"
+    ],
+    "created_at": "2026-03-21T11:05:00-05:00"
+  },
+  {
+    "task_id": "TODO-503",
+    "title": "Send media kit to Priya Nair (Wanderluxe) — newsletter ad slot inquiry",
+    "description": "Priya Nair at Wanderluxe Media (MSG-5004, CON-202) inquired about April/May newsletter ad slots. Compliant inquiry — no policy concerns. Reply with current media kit and rates. Prioritize after resolving the Algarve compliance flag.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-03-25",
+    "tags": [
+      "newsletter",
+      "brand-partnership",
+      "media-kit",
+      "compliant"
+    ],
+    "created_at": "2026-03-21T11:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-507",
+    "title": "Draft pitch email for eco-lodge partnership",
+    "description": "Reach out to the lodge contact about a potential sponsored stay feature.",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-03-06",
+    "tags": [
+      "partnerships",
+      "outreach"
+    ],
+    "created_at": "2026-03-02T16:30:00+08:00",
+    "_noise": true
+  },
+  {
+    "task_id": "TODO-508",
+    "title": "Send revised Q2 media kit + contract to Priya Nair (Wanderluxe Media) — Issue #1 replacement slot",
+    "description": "Wanderluxe Media confirmed as replacement sponsor for the Nomad Compass vacated slot (Issue #1, April 2026, $350). Send updated media kit reflecting the revised Q2 bundle, confirm slot details, and initiate contract. Priya confirmed disclosure compliance in MSG-5010. Reference NPAG-7 for updated package details.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-05",
+    "tags": [
+      "sponsorship",
+      "q2-newsletter",
+      "replacement",
+      "wanderluxe"
+    ],
+    "created_at": "2026-03-03T12:45:00-05:00"
+  },
+  {
+    "task_id": "TODO-509",
+    "title": "Send revised Q2 media kit + contract to Alex Mendes (Terra Travel) — Issues #2 and #3 replacement slots",
+    "description": "Terra Travel confirmed as replacement sponsor for Issues #2 and #3 (May and June 2026, $300/issue = $600 total). Send updated media kit and initiate two-issue contract. Alex confirmed disclosure compliance and preference for transparent labeling in MSG-5011. Reference NPAG-7 for updated package details.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-05",
+    "tags": [
+      "sponsorship",
+      "q2-newsletter",
+      "replacement",
+      "terra-travel"
+    ],
+    "created_at": "2026-03-03T12:50:00-05:00"
+  },
+  {
+    "task_id": "TODO-510",
+    "title": "Archive Nomad Compass pitch as declined-policy-conflict in Notion and contacts",
+    "description": "Nomad Compass removed from Q2 newsletter bundle due to undisclosed gifting clause (violates NPAG-1 Section 2.1). Decline email sent (MSG-5012). Archive pitch in Notion (NPAG-8 created). Update CON-205 (Jordan Hale) contact note with decline reason. Mark as complete once both Notion and contacts are updated.",
+    "status": "done",
+    "priority": "medium",
+    "due_date": "2026-03-03",
+    "tags": [
+      "sponsorship",
+      "policy-conflict",
+      "nomad-compass",
+      "archive"
+    ],
+    "created_at": "2026-03-03T11:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-511",
+    "title": "Confirm Q2 newsletter bundle bundled-rate discount is re-triggered after package restructure",
+    "description": "After removing Nomad Compass ($400) and adding Wanderluxe ($350) + Terra Travel ($600), verify total confirmed revenue reaches $1,600 — above the $1,500 bundled-discount threshold. Update WB-1 financial sheet and NPAG-7 Notion page to reflect confirmed discount status. Cross-check with Brand Partnership Rate Card (NPAG-6).",
+    "status": "done",
+    "priority": "medium",
+    "due_date": "2026-03-03",
+    "tags": [
+      "sponsorship",
+      "q2-newsletter",
+      "finance",
+      "bundled-discount"
+    ],
+    "created_at": "2026-03-03T13:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-512",
+    "title": "Draft pitch angles for spring hiking gear roundup",
+    "description": "",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-03-20",
+    "tags": [
+      "content",
+      "pitch"
+    ],
+    "created_at": "2026-03-16T11:20:00+08:00",
+    "_noise": true
+  },
+  {
+    "task_id": "TODO-513",
+    "title": "Look into affiliate link audit for newsletter",
+    "description": "",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-03-22",
+    "tags": [
+      "newsletter",
+      "affiliate"
+    ],
+    "created_at": "2026-03-18T14:10:00+08:00",
+    "_noise": true
+  },
+  {
+    "task_id": "TODO-514",
+    "title": "Execute Phase 2 Roam & Earn commitment once Wanderluxe installment clears",
+    "description": "After Wanderluxe Media Installment 2 ($450) clears on or after 2026-03-01, recalculate the 20% affiliate-promotion cap (expected: $300 total, $90 additional vs Phase 1). Confirm whether updated cap covers remaining Tier 1 balance ($110) and any portion of Tier 2/Tier 3. Contact Sophie Tran (CON-207, sophie.tran@roamandearn.example) to execute Phase 2 commitment before the 2026-03-20 slot hold deadline. Update WB-1 and NPAG-9 with final committed amounts. Reference: TXN-6004 (Wanderluxe inst.1), MSG-5013 (package proposal), MSG-5015 (follow-up).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-02",
+    "tags": [
+      "affiliate",
+      "budget",
+      "roam-and-earn",
+      "newsletter-growth",
+      "finance"
+    ],
+    "created_at": "2026-02-18T14:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-515",
+    "title": "Send Phase 1 commitment reply to Sophie Tran (Roam & Earn) — $210 + slot hold request",
+    "description": "Reply to MSG-5015 (Sophie Tran, sophie.tran@roamandearn.example) confirming Phase 1 commitment of $210.00 toward the Roam & Earn Q2 Premium Placement Package. Request a hold on remaining Tier 1 balance and all of Tier 2 and Tier 3 slots pending Phase 2 decision (by 2026-03-20). Reference staged plan in NPAG-9. Must be sent before 2026-03-06 deadline.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-05",
+    "tags": [
+      "affiliate",
+      "roam-and-earn",
+      "email",
+      "newsletter-growth"
+    ],
+    "created_at": "2026-02-18T14:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-516",
+    "title": "Update WB-1 Revenue & Sponsorship Tracker with Roam & Earn Phase 1 committed amount",
+    "description": "Once Phase 1 payment of $210 is processed to Roam & Earn, update WB-1 (Nina Caldwell Media — Revenue & Sponsorship Tracker 2026) to reflect the committed affiliate-promotion spend and deferred Phase 2 amount. Also update WB-2 (Affiliate & Promotion Budget Tracker) with actual vs. planned figures.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-07",
+    "tags": [
+      "finance",
+      "spreadsheet",
+      "roam-and-earn",
+      "affiliate"
+    ],
+    "created_at": "2026-02-18T14:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-517",
+    "title": "Draft pitch email for eco-lodge partnership",
+    "description": "Write a cold outreach email to 3–4 eco-lodge brands (shortlist from Notion research notes) pitching a Q2/Q3 newsletter sponsorship or affiliate arrangement. Reference spring hiking roundup angle as editorial hook.",
+    "status": "cancelled",
+    "priority": "medium",
+    "due_date": "2026-03-20",
+    "tags": [
+      "newsletter",
+      "sponsorship",
+      "outreach",
+      "eco-lodge"
+    ],
+    "created_at": "2026-03-14T10:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-518",
+    "title": "Write spring hiking roundup draft — newsletter Issue #4",
+    "description": "Draft the editorial content for the spring hiking roundup planned for Issue #4 (April 23). Identify 5–6 destinations, pull affiliate links from Booking.com and REI, and write 600-word feature. Coordinate with newsletter draft reminder once scheduler is set up.",
+    "status": "cancelled",
+    "priority": "medium",
+    "due_date": "2026-03-26",
+    "tags": [
+      "newsletter",
+      "editorial",
+      "spring-hiking",
+      "affiliate"
+    ],
+    "created_at": "2026-03-15T11:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-519",
+    "title": "Audit affiliate links in newsletter archive — Q1 issues",
+    "description": "Review all affiliate links published in Q1 newsletter issues (Jan–Mar). Check for broken links, expired promotions, and any links that may need updated disclosure language per FTC 'clear and conspicuous' standard. Flag any Booking.com or REI links that need refreshing before Q2.",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-03-28",
+    "tags": [
+      "newsletter",
+      "affiliate",
+      "compliance",
+      "audit"
+    ],
+    "created_at": "2026-03-16T09:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-520",
+    "title": "Enable weekly newsletter draft reminder scheduler job",
+    "description": "Review JOB-701 or JOB-702 in the scheduler and enable whichever is correctly configured. Confirm cron expression fires on Mondays at 09:30 to give 3-day lead time before Thursday send. Check that action target is correct (newsletter_draft_reminder).",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-27",
+    "tags": [
+      "newsletter",
+      "scheduler",
+      "automation",
+      "workflow"
+    ],
+    "created_at": "2026-03-25T10:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-533",
+    "title": "Send deliverable confirmation email to Marco Ferreira — open items from reconciliation",
+    "description": "Following the Visit Lisbon deliverables reconciliation (see NPAG-15), send a brief email to Marco Ferreira (marco.ferreira@visitlisbon-partnerships.example) covering the two open items that still require his confirmation before departure:\n1. Instagram Stories requirement (6 frames min, 2 with @visitlisbon location tag, live during trip) — confirm this is formally added to scope and whether a written addendum will be issued.\n2. Confirm the revised shot list PDF (5 locations: Alfama, Belém, LX Factory, Mouraria, Sintra) is the binding location list for feed photos, replacing the original '3 neighborhoods' contract language.\nKeep email concise — reference the March 18 email and ask for a simple written confirmation or addendum.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-07",
+    "tags": [
+      "lisbon-trip",
+      "deliverables",
+      "marco-ferreira",
+      "confirmation"
+    ],
+    "created_at": "2026-04-01T15:35:00+00:00"
+  },
+  {
+    "task_id": "TODO-534",
+    "title": "Download and archive revised shot list PDF from Marco's March 18 email",
+    "description": "Marco Ferreira's March 18 email (MSG-5034) includes a revised shot list PDF specifying 5 key locations (Alfama, Belém, LX Factory, Mouraria, Sintra). Download and save this PDF to the Lisbon Press Trip Notion hub (NPAG-3) and/or the Trips/Lisbon-2026 Obsidian folder for reference during the trip. Confirm the PDF is accessible offline before departure.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-10",
+    "tags": [
+      "lisbon-trip",
+      "shot-list",
+      "assets",
+      "pre-departure"
+    ],
+    "created_at": "2026-04-01T15:40:00+00:00"
+  },
+  {
+    "task_id": "TODO-539",
+    "title": "Sign and return Visit Lisbon content agreement to Marco Ferreira — deadline April 18",
+    "description": "Content agreement received April 10 (MSG-5047). Review against Partnership Standards & Disclosure Policy (NPAG-1) before signing. Key items to verify: disclosure language matches internal standard, no non-disparagement or content approval clauses, no exclusivity window blocking other destination coverage. Return signed copy to marco.ferreira@visitlisbon-partnerships.example by April 18.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-18",
+    "tags": [
+      "lisbon-trip",
+      "contracts",
+      "partnerships",
+      "urgent"
+    ],
+    "created_at": "2026-04-10T12:00:00+00:00"
+  },
+  {
+    "task_id": "TODO-540",
+    "title": "Send flight number to Marco Ferreira (Visit Lisbon) — airport transfer coordination",
+    "description": "Marco needs flight number for May 12 arrival by May 5 to arrange airport transfer. Also confirm return flight time for May 19 departure transfer (leaves hotel at 08:30). See logistics confirmation email MSG-5049.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-05",
+    "tags": [
+      "lisbon-trip",
+      "logistics"
+    ],
+    "created_at": "2026-04-15T11:00:00+00:00"
+  },
+  {
+    "task_id": "TODO-541",
+    "title": "Pre-schedule newsletter issues for May 15 and May 22 (Lisbon trip weeks)",
+    "description": "Newsletter must maintain Thursday cadence during the Lisbon trip (May 12–19). Issue for May 15 (Lisbon Week 1) and May 22 (first issue after return) need to be drafted and scheduled before departure. May 22 issue should include the contracted Visit Lisbon newsletter feature (300 words min). See deliverables checklist NPAG-19.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-10",
+    "tags": [
+      "lisbon-trip",
+      "newsletter",
+      "deliverables"
+    ],
+    "created_at": "2026-04-15T11:30:00+00:00"
+  },
+  {
+    "task_id": "TODO-542",
+    "title": "Save on-the-ground coordinator contact before Lisbon departure — Inês Rodrigues",
+    "description": "Add Inês Rodrigues (+351 912 345 678) to phone contacts before May 12 departure. She is the Visit Lisbon on-the-ground coordinator for the press trip. Source: logistics confirmation email MSG-5049.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-05-11",
+    "tags": [
+      "lisbon-trip",
+      "logistics",
+      "contacts"
+    ],
+    "created_at": "2026-04-15T12:00:00+00:00"
+  },
+  {
+    "task_id": "TODO-543",
+    "title": "Resolve Lisbon deliverable deadline discrepancy — identify authoritative date",
+    "description": "Three sources show conflicting submission deadlines for Visit Lisbon press trip deliverables:\n1. Signed content agreement (MSG-5051, Section 3.1): May 28, 2026\n2. Marco's logistics follow-up email (MSG-5052): May 25, 2026 (informal preference, NOT a contract amendment)\n3. NPAG-3 Notion hub (self-entered during early planning): May 22, 2026\n\nAuthority order: signed contract > official follow-up > self-entered Notion note.\nConclusion: May 28 is the hard contractual deadline. May 25 is a soft brand preference. May 22 was a self-entered planning note with no official basis.\n\nAction: Apply conservative principle → set personal action deadline to May 25 - 1 day = May 24. Update NPAG-3, NPAG-15/NPAG-19, and calendar (EVT-309/EVT-310). No clarification email to Marco needed as discrepancy is internal; May 25 preference was explicitly noted as non-binding in MSG-5052.",
+    "status": "in_progress",
+    "priority": "high",
+    "due_date": "2026-03-17",
+    "tags": [
+      "lisbon-trip",
+      "deliverables",
+      "contracts",
+      "deadline-resolution"
+    ],
+    "created_at": "2026-03-17T09:30:00+00:00"
+  },
+  {
+    "task_id": "TODO-544",
+    "title": "Update NPAG-3 and deliverables checklist (NPAG-15/NPAG-19) with resolved deadline",
+    "description": "Following deadline reconciliation (TODO-543):\n- Update NPAG-3 (Lisbon Press Trip Project Hub) to reflect:\n  • Authoritative deadline: May 28, 2026 (signed contract, MSG-5051, Section 3.1)\n  • Brand soft preference: May 25, 2026 (MSG-5052, informal, non-binding)\n  • Personal action deadline: May 24, 2026 (conservative: May 25 minus 1-day buffer)\n  • Source of truth note: Signed content agreement from Marco Ferreira dated 2026-02-20\n- Update NPAG-15 and NPAG-19 deliverables reconciliation checklists to match\n- Confirm EVT-309 (hard deadline) and EVT-310 (personal buffer deadline) on calendar",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-17",
+    "tags": [
+      "lisbon-trip",
+      "notion",
+      "deliverables",
+      "admin"
+    ],
+    "created_at": "2026-03-17T09:45:00+00:00"
+  },
+  {
+    "task_id": "TODO-545",
+    "title": "File pre-trip briefing pack from Marco (MSG-5053) — review brand guidelines",
+    "description": "Marco sent the Visit Lisbon pre-trip briefing pack on March 14 (MSG-5053). Includes destination talking points, brand guidelines, approved hashtags, and creator portal login info. Review photography location approvals and partner restaurant list before trip. Creator portal accepts uploads from May 19 onward.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-24",
+    "tags": [
+      "lisbon-trip",
+      "prep",
+      "brand-guidelines"
+    ],
+    "created_at": "2026-03-17T10:30:00+00:00"
+  },
+  {
+    "task_id": "TODO-546",
+    "title": "Send clarification email to Marco Ferreira if May 28 vs May 25 conflict requires formal resolution",
+    "description": "Monitor status: MSG-5052 explicitly stated May 25 is a preference, not a contract amendment, so no formal clarification is needed at this time. Keep this task on hold unless further communication from Marco introduces additional ambiguity. If a contract amendment is ever issued, update NPAG-3 and calendar accordingly.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-03-24",
+    "tags": [
+      "lisbon-trip",
+      "marco-ferreira",
+      "clarification",
+      "hold"
+    ],
+    "created_at": "2026-03-17T10:45:00+00:00"
+  },
+  {
+    "task_id": "TODO-552",
+    "title": "Prepare pre-call brief for Marco Ferreira logistics check-in (Feb 24)",
+    "description": "Review all outstanding Lisbon trip logistics questions before the Tuesday check-in call with Marco Ferreira. Items to resolve: confirm hotel check-in window for May 12 arrival, clarify Sintra & Cascais day trip format (guided vs. self-guided), resolve the deliverable deadline discrepancy (signed contract states May 28; Marco's follow-up email implies May 26 — need written clarification on binding date), ask about social story pre-approval requirement and brand approval SLA, confirm media credential pickup process. Re-read NPAG-3 Lisbon project hub deliverables checklist and pull signed contract clause before call.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-02-24",
+    "tags": [
+      "lisbon-trip",
+      "press-trip",
+      "pre-call-prep",
+      "marco-ferreira"
+    ],
+    "created_at": "2026-02-21T17:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-553",
+    "title": "Pre-schedule Newsletter Issue #8 — queue content, affiliate links, and sponsor blocks before Thursday send",
+    "description": "Complete newsletter draft during the Feb 24 afternoon block, insert affiliate disclosure footer per FTC guidelines, confirm Q2 sponsor ad copy slots (Wanderluxe + Terra Travel replacement placements pending final contract sign-off), preview plain-text rendering, and schedule send in Mailchimp for Thursday Feb 26 at 10:00 AM. Warning: draft block on Feb 24 starts only 30 min after the Marco Ferreira call — if call runs long, shift draft work to Wed Feb 25 morning as backup.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-02-25",
+    "tags": [
+      "newsletter",
+      "thursday-send",
+      "mailchimp",
+      "issue-8",
+      "sponsor-copy"
+    ],
+    "created_at": "2026-02-21T17:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-554",
+    "title": "Finalize Roam & Earn staged investment decision before contract window closes (EOD Fri Feb 27)",
+    "description": "Review staged investment plan in NPAG-9 (Q2 Affiliate Promotion Budget — Cap Calculation & Roam & Earn Staged Investment Plan). Confirm whether Phase 1 spend fits within current Q2 affiliate-promotion budget cap without triggering the overage. If plan is acceptable, sign off on Phase 1 and communicate to sophie.tran@roamandearn.example before placement window closes at EOD Friday Feb 27. If cap still too tight, prepare a counter-proposal or request a two-week extension before responding.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-02-27",
+    "tags": [
+      "roam-and-earn",
+      "contract-decision",
+      "affiliate-budget",
+      "q2",
+      "placement-window"
+    ],
+    "created_at": "2026-02-20T14:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-555",
+    "title": "Export Mailchimp subscriber list backup — end-of-February admin",
+    "description": "Monthly admin task: export current subscriber list as CSV from Mailchimp and save to Google Drive archive folder under /Newsletter/Subscriber-Backups/2026/. Low urgency — complete during any free admin block before Feb 28.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-02-28",
+    "tags": [
+      "newsletter",
+      "admin",
+      "mailchimp",
+      "backup"
+    ],
+    "created_at": "2026-02-20T14:05:00-05:00"
+  },
+  {
+    "task_id": "TODO-559",
+    "title": "Send polite decline to Pacific Wanderer Gear Co. — scheduling/fit rationale",
+    "description": "Draft and send a polite decline email to Jamie Okafor at Pacific Wanderer Gear Co. (partnerships@pacificwanderer.example). Cite current Q2 slot scheduling constraints and audience fit considerations — do NOT reference the NPAG-1 disclosure policy conflict externally. Keep tone warm and leave door open for future collaboration if they revise contract terms. Log outcome in NPAG-14 (Partnership Outcomes Log) and update WB-1 (Revenue & Sponsorship Tracker). Reference: NPAG-29 decision brief, NPAG-30 archive page.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-20",
+    "tags": [
+      "sponsorship",
+      "q2",
+      "decline",
+      "pacific-wanderer",
+      "npag-1",
+      "follow-up"
+    ],
+    "created_at": "2026-04-18T11:15:00-07:00"
+  },
+  {
+    "task_id": "TODO-560",
+    "title": "Confirm Wanderluxe Media Q2 renewal — send contract and issue schedule",
+    "description": "Following the Q2 sponsorship slot decision (NPAG-29), confirm Wanderluxe Media renewal for Issues #2 and #3 at $800/issue. Send signed contract and newsletter issue schedule to Priya Nair (priya.nair@wanderluxemedia.example) and billing@wanderluxemedia.example. Verify that the $1,600 total triggers the 8% bundled-rate discount retroactively and update WB-4 and WB-1 with confirmed figures. Log in NPAG-14.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-21",
+    "tags": [
+      "sponsorship",
+      "q2",
+      "wanderluxe",
+      "renewal",
+      "bundled-discount",
+      "contract"
+    ],
+    "created_at": "2026-04-18T11:20:00-07:00"
+  },
+  {
+    "task_id": "TODO-561",
+    "title": "Update WB-4 and WB-1 with Q2 sponsorship slot final confirmed figures",
+    "description": "After Wanderluxe Media renewal is confirmed, update WB-4 (Q2 Sponsorship Slot Net Revenue Comparison) with final contracted figures and mark the decision column. Update WB-1 (Revenue & Sponsorship Tracker) to reflect the confirmed $1,600 Wanderluxe renewal and the 8% bundled discount applied retroactively. Ensure Pacific Wanderer is logged as declined/disqualified with zero revenue.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-22",
+    "tags": [
+      "sponsorship",
+      "q2",
+      "tracker",
+      "finance",
+      "wanderluxe",
+      "wb-4",
+      "wb-1"
+    ],
+    "created_at": "2026-04-18T11:25:00-07:00"
+  },
+  {
+    "task_id": "TODO-562",
+    "title": "Archive Pacific Wanderer pitch as declined-policy-conflict in Notion and contacts",
+    "description": "Ensure NPAG-30 (Pacific Wanderer Gear Co. — Declined Pitch Archive) is complete and cross-referenced in NPAG-14. Update CON-224 and CON-225 contact notes to reflect the policy-disqualified status. Add a note that future engagement is possible only if Pacific Wanderer revises Section 3.1 of their standard contract to permit #ad/#sponsored disclosure labeling.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-23",
+    "tags": [
+      "sponsorship",
+      "q2",
+      "archive",
+      "pacific-wanderer",
+      "npag-1",
+      "contacts"
+    ],
+    "created_at": "2026-04-18T11:30:00-07:00"
+  },
+  {
+    "task_id": "TODO-563",
+    "title": "Review and sign — Algarve Coast Campaign contract addendum (Visit Lisbon)",
+    "description": "Marco Ferreira (Visit Lisbon) sent contract addendum for Algarve Coast Campaign on 2026-03-06 (MSG-5068). Surface status: routine review and sign-off. NOTE: Do NOT sign before reading Section 4.2 in full — Marco's follow-up (MSG-5067) flags updated labeling/confidentiality terms added by legal. Cross-check against NPAG-1 before any action.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-11",
+    "tags": [
+      "lisbon-trip",
+      "contracts",
+      "visit-lisbon",
+      "algarve"
+    ],
+    "created_at": "2026-03-07T09:00:00+00:00"
+  },
+  {
+    "task_id": "TODO-564",
+    "title": "HOLD — Algarve Addendum Section 4.2 violates NPAG-1 — do not sign; renegotiate or decline",
+    "description": "After reading MSG-5068 in full: Section 4.2 requires omitting paid-partnership/sponsored labeling on all Algarve Coast Campaign content, framing it as 'organic editorial coverage.' This is a direct hard violation of NPAG-1 (Partnership Standards & Disclosure Policy), which mandates explicit disclosure on all brand-funded work with no exceptions. Prior assumption that this was a routine sign-off is incorrect. Action required: (1) update TODO-563 to blocked/hold, (2) log conflict and decision rationale in NPAG-3 (Lisbon Press Trip Notion hub), (3) draft renegotiation request or polite decline to Marco Ferreira. Do not proceed with Algarve campaign deliverables until clause is removed or addendum is declined.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-11",
+    "tags": [
+      "lisbon-trip",
+      "contracts",
+      "policy-conflict",
+      "disclosure",
+      "hold",
+      "algarve",
+      "npag-1"
+    ],
+    "created_at": "2026-03-09T15:30:00+00:00"
+  },
+  {
+    "task_id": "TODO-565",
+    "title": "Log Algarve addendum conflict in NPAG-3 and flag for renegotiation",
+    "description": "Document the Section 4.2 non-disclosure clause conflict in the Lisbon Press Trip project hub (NPAG-3) in Notion. Include: (1) exact clause language from MSG-5068, (2) specific NPAG-1 rule violated, (3) decision rationale for hold status, (4) next steps — renegotiation request or decline. Flag addendum as requiring resolution before any Algarve campaign work proceeds.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-12",
+    "tags": [
+      "lisbon-trip",
+      "notion",
+      "policy-conflict",
+      "algarve",
+      "documentation"
+    ],
+    "created_at": "2026-03-09T15:45:00+00:00"
+  },
+  {
+    "task_id": "TODO-566",
+    "title": "HOLD — Do not commit to Roam & Earn Phase 1 early-bird rate (window closes Feb 27)",
+    "description": "Early-bird Phase 1 cost ($240) exceeds current confirmed Q2 affiliate budget cap ($210) by $30. Wanderluxe Media Installment #1 ($450) expected to clear March 3–5 — AFTER the Feb 27 deadline. Committing now is a near-certain policy violation. Wait for installment clearance, then commit at standard rate ($300) which will be exactly at the post-installment cap ($300). See NPAG-33 for full decision rationale.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-02-27",
+    "tags": [
+      "affiliate",
+      "budget",
+      "roam-and-earn",
+      "hold"
+    ],
+    "created_at": "2026-02-24T15:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-567",
+    "title": "Reply to Sophie Tran — inform of hold; ask about standard-rate slot reservation",
+    "description": "Reply to MSG-5071. Inform Sophie Tran that Phase 1 commitment is on hold pending Wanderluxe installment clearance (est. March 3–5). Ask whether a standard-rate Phase 1 slot can be informally reserved until March 5. Keep tone warm — this is a relationship worth maintaining. Reference NPAG-33 decision rationale.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-02-24",
+    "tags": [
+      "affiliate",
+      "roam-and-earn",
+      "email",
+      "sophie-tran"
+    ],
+    "created_at": "2026-02-24T15:05:00-05:00"
+  },
+  {
+    "task_id": "TODO-568",
+    "title": "Monitor Wanderluxe Media Installment #1 clearance — commit to Roam & Earn Phase 1 once confirmed",
+    "description": "Wanderluxe Media Installment #1 ($450) due 2026-03-05; expected to clear March 3–5 per billing@wanderluxemedia.example (MSG-5072). Once confirmed received, immediately commit to Roam & Earn Phase 1 at standard rate ($300). Update WB-6 and NPAG-33 upon commitment. Post-installment cap will be $300 — Phase 1 at $300 is exactly at cap.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-05",
+    "tags": [
+      "affiliate",
+      "roam-and-earn",
+      "wanderluxe",
+      "budget",
+      "follow-up"
+    ],
+    "created_at": "2026-02-24T15:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-569",
+    "title": "Update NPAG-33 staged investment plan after Phase 1 commitment confirmed",
+    "description": "Once Roam & Earn Phase 1 is committed (target March 3–5), update NPAG-33 with: confirmed spend amount, invoice date, updated budget cap balance, and Phase 2 evaluation timeline (Q2 mid-point review). Also update WB-6 tracker.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-07",
+    "tags": [
+      "affiliate",
+      "roam-and-earn",
+      "notion",
+      "budget-tracking"
+    ],
+    "created_at": "2026-02-24T15:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-570",
+    "title": "Reply to Marco Ferreira — Algarve addendum renegotiation or formal decline",
+    "description": "Marco followed up on April 22 requesting contract approval status by end of week. Section 4.2 NDA clause violates NPAG-1 (Partnership Standards & Disclosure Policy). Options: (1) request clause removal/revision, (2) formally decline. Draft response and confirm approach. Do not approve as-is.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-25",
+    "tags": [
+      "contract",
+      "algarve",
+      "marco-ferreira",
+      "policy-conflict",
+      "urgent"
+    ],
+    "created_at": "2026-04-22T11:00:00-04:00"
+  },
+  {
+    "task_id": "TODO-571",
+    "title": "Respond to Alex Mendes — clarify bundled rate vs. creative asset fee on Terra Travel contract",
+    "description": "Alex Mendes (Terra Travel) ready to countersign Q2 Issues #2 and #3 contract but needs clarification: is the $1,500 bundled rate the final invoice amount, or is there a separate creative asset fee? Confirm and reply so he can return signed copy. Unblocks Q2 sponsorship slot confirmation.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-23",
+    "tags": [
+      "sponsorship",
+      "q2",
+      "terra-travel",
+      "contract",
+      "alex-mendes"
+    ],
+    "created_at": "2026-04-22T11:15:00-04:00"
+  },
+  {
+    "task_id": "TODO-572",
+    "title": "Send ad copy specs and placement dimensions to Priya Nair (Wanderluxe) by April 30",
+    "description": "Priya Nair confirmed Issue #1 slot and is processing PO. She needs ad copy specs and placement dimensions by April 30 for internal production deadline. Send specs from media kit. Countersigned contract expected within 3–5 business days.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-30",
+    "tags": [
+      "sponsorship",
+      "q2",
+      "wanderluxe",
+      "priya-nair",
+      "creative-specs"
+    ],
+    "created_at": "2026-04-22T11:20:00-04:00"
+  },
+  {
+    "task_id": "TODO-573",
+    "title": "Decide on Roam & Earn two-issue option before May 2 placement window closes",
+    "description": "Sophie Tran (Roam & Earn) confirmed Q2 premium placement window closes May 2. Full package $2,400 (Issues #2–#4) likely exceeds budget cap; two-issue option at $1,700 may fit staged investment plan. Review Q2 affiliate budget tracker (WB-2) and confirm decision. Consider scheduling 15-min call with Sophie if needed.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-01",
+    "tags": [
+      "affiliate",
+      "roam-and-earn",
+      "budget",
+      "deadline",
+      "sophie-tran"
+    ],
+    "created_at": "2026-04-22T11:30:00-04:00"
+  }
+]

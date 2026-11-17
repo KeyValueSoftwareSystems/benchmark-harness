@@ -86,6 +86,11 @@
       "name": "Zhuo Ma Yang Zong",
       "role": "junior program manager",
       "organization": "Aid and Education for All"
+    },
+    "li_ming": {
+      "name": "Li Ming",
+      "role": "algorithm intern",
+      "organization": "ByteDance"
     }
   },
   "worlds": {
@@ -337,6 +342,304 @@
     },
     "he_meilan_homemaker_hx_hml_10_t20_compile_xiaobao_s_health_p_32a981": {
       "persona": "he_meilan"
+    },
+    "bench_t01_t12_mentor_meeting_calendar_chat_conflict_ap": {
+      "persona": "li_ming",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-134",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        },
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-140",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ],
+      "editGrading": [
+        {
+          "field": "reference_solution",
+          "find": "**Action**: `notes_list()` and check if NOTE-140 exists\n**Action**: Review NOTE-140 content if it exists, or create similar documentation",
+          "replace": "**Action**: Create a note documenting the pattern",
+          "reason": "The note this step reads was removed from the world because it contained the task's answer"
+        }
+      ]
+    },
+    "bench_t04_t07_software_bundle_purchase_optimization_ac": {
+      "persona": "carlos_rivera"
+    },
+    "bench_t04_t20_design_newsletter_digest_and_trend_extra": {
+      "persona": "carlos_rivera"
+    },
+    "bench_t05_t04_compile_q1_2026_emergency_response_best": {
+      "persona": "zhuo_ma_yang_zong"
+    },
+    "bench_t11_t14_clearview_week_14_calendar_preview_sourc": {
+      "persona": "priya_iyer"
+    },
+    "bench_t13_t11_spring_menu_preview_tasting_dietary_cons": {
+      "persona": "olivia_baker"
+    },
+    "bench_t14_t01_multi_supplier_concrete_package_procurem": {
+      "persona": "abdullah_rashid"
+    },
+    "bench_t18_t16_detect_hidden_conflict_between_wellingto": {
+      "persona": "benjamin_okafor",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-170",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        },
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-192",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ],
+      "editGrading": [
+        {
+          "field": "reference_solution",
+          "find": "7. Reference NOTE-192 which documents Benjamin's analysis of this exact conflict and his decision to decline the April 3rd slot.",
+          "replace": "7. Weigh the booking against Benjamin's post-call safety protocol.",
+          "reason": "The note this step reads was removed from the world because it contained the task's answer"
+        }
+      ]
+    },
+    "bench_t18_t18_wellington_contract_q2_session_booking_u": {
+      "persona": "benjamin_okafor",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-170",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        },
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-192",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "bench_t21_t06_consolidate_q2_planning_meetings_across": {
+      "persona": "jorge_alvarez",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-115",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        },
+        {
+          "file": "fixtures/claw_notion/pages.json",
+          "id": "NPAG-45",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ],
+      "editGrading": [
+        {
+          "field": "reference_solution",
+          "find": "7. Retrieve notes_get for NOTE-115 which contains the existing consolidated analysis with conflict annotations and resolution recommendations",
+          "replace": "7. Review the meetings for conflicts in the consolidated schedule",
+          "reason": "The note this step reads was removed from the world because it contained the task's answer"
+        }
+      ]
+    },
+    "bench_t23_t03_q2_board_materials_steering_committee_sc": {
+      "persona": "sven_lindgren"
+    },
+    "devon_ross_fitness_coach_free04_t01_ceu_enrollment_sunk_cost_vs_n_3e1547": {
+      "persona": "devon_ross",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/claw_obsidian/vault.json",
+          "id": "OBSN-5",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "devon_ross_fitness_coach_free04_t01_linkedin_educational_post_aud_980a05": {
+      "persona": "devon_ross",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/claw_obsidian/vault.json",
+          "id": "OBSN-22",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "devon_ross_fitness_coach_free04_t03_q2_professional_development_e_2019e7": {
+      "persona": "devon_ross"
+    },
+    "devon_ross_fitness_coach_free04_t04_spring_cohort_launch_dependen_980a05": {
+      "persona": "devon_ross",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/claw_obsidian/vault.json",
+          "id": "OBSN-22",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "devon_ross_fitness_coach_free04_t05_spring_cohort_launch_readines_c18cc7": {
+      "persona": "devon_ross",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/claw_obsidian/vault.json",
+          "id": "OBSN-22",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "devon_ross_fitness_coach_free04_t05_weekly_schedule_preview_flag_522efd": {
+      "persona": "devon_ross",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/claw_obsidian/vault.json",
+          "id": "OBSN-5",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "he_meilan_homemaker_hx_hml_10_t02_dabao_piano_lesson_makeup_32a981": {
+      "persona": "he_meilan"
+    },
+    "he_meilan_homemaker_hx_hml_10_t05_optimize_xiaobao_s_special_ddb7b8": {
+      "persona": "he_meilan",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-241",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "mia_lee_freelance_illustrator_free01_t01_artboard_collective_pre_order_41a60f": {
+      "persona": "mia_lee"
+    },
+    "mia_lee_freelance_illustrator_free01_t01_contract_clause_conflict_inte_752ba6": {
+      "persona": "mia_lee"
+    },
+    "mia_lee_freelance_illustrator_free01_t02_greenfield_press_project_stat_5aab58": {
+      "persona": "mia_lee"
+    },
+    "mia_lee_freelance_illustrator_free01_t03_greenfield_press_finals_deliv_41a60f": {
+      "persona": "mia_lee"
+    },
+    "mia_lee_freelance_illustrator_free01_t04_reimbursable_supply_expense_s_41a60f": {
+      "persona": "mia_lee"
+    },
+    "mia_lee_freelance_illustrator_free01_t05_blick_reorder_threshold_trap_5aab58": {
+      "persona": "mia_lee"
+    },
+    "nina_caldwell_travel_creator_free08_t01_weekly_industry_digest_aggreg_706d41": {
+      "persona": "nina_caldwell"
+    },
+    "nina_caldwell_travel_creator_free08_t03_inbox_triage_surface_priority_f56e05": {
+      "persona": "nina_caldwell"
+    },
+    "nina_caldwell_travel_creator_free08_t03_q2_newsletter_bundle_threshol_15fc35": {
+      "persona": "nina_caldwell"
+    },
+    "nina_caldwell_travel_creator_free08_t05_intercept_roam_earn_contract_15fc35": {
+      "persona": "nina_caldwell"
+    },
+    "nina_caldwell_travel_creator_free08_t05_q2_deliverable_batch_dispatch_141ed3": {
+      "persona": "nina_caldwell",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-130",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        },
+        {
+          "file": "fixtures/claw_notion/pages.json",
+          "id": "NPAG-55",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        },
+        {
+          "file": "fixtures/claw_notion/pages.json",
+          "id": "NPAG-56",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ],
+      "editGrading": [
+        {
+          "field": "reference_solution",
+          "find": "2. Pull existing conflict analysis note: notes_get(NOTE-130) \u2014 this contains the full read/write footprint map, conflict matrix, and layered execution plan already drafted.",
+          "replace": "2. Map the read/write footprint of each task and build the conflict matrix.",
+          "reason": "The note this step reads was removed from the world because it contained the task's answer"
+        },
+        {
+          "field": "reference_solution",
+          "find": "5. Retrieve the Notion conflict log for execution status: claw_notion_get_page(NPAG-55) \u2014 confirms Stage 1/2/3 breakdown and key conflict flags.",
+          "replace": "5. Work out the Stage 1/2/3 breakdown and the key conflict flags.",
+          "reason": "The note this step reads was removed from the world because it contained the task's answer"
+        }
+      ]
+    },
+    "rachel_summers_wedding_planner_free03_t03_scheduler_job_activation_risk_808ad7": {
+      "persona": "rachel_summers"
+    },
+    "rachel_summers_wedding_planner_free03_t04_parallel_vendor_outreach_work_8c385f": {
+      "persona": "rachel_summers",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/notes/notes.json",
+          "id": "NOTE-138",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ],
+      "editGrading": [
+        {
+          "field": "reference_solution",
+          "find": "Save execution summary note (NOTE-138) via notes tool",
+          "replace": "Save an execution summary note via notes tool",
+          "reason": "The note this step reads was removed from the world because it contained the task's answer"
+        }
+      ]
+    },
+    "rachel_summers_wedding_planner_free03_t04_scheduling_block_upgrade_fast_532a3e": {
+      "persona": "rachel_summers"
+    },
+    "rachel_summers_wedding_planner_free03_t04_weekly_action_plan_build_goal_3d1480": {
+      "persona": "rachel_summers"
+    },
+    "rachel_summers_wedding_planner_free03_t05_mid_execution_rfp_schedule_re_3d1480": {
+      "persona": "rachel_summers"
+    },
+    "bench_t22_t18_weekly_calendar_preview_for_upcoming_inv": {
+      "persona": "hannah_wei",
+      "removeFixtureItems": [
+        {
+          "file": "fixtures/claw_obsidian/vault.json",
+          "id": "OBSN-33",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        },
+        {
+          "file": "fixtures/claw_obsidian/vault.json",
+          "id": "OBSN-46",
+          "reason": "Analysis note written about this task's own situation (a solution artifact); removed so the assistant must work it out"
+        }
+      ]
+    },
+    "bench_t01_t07_gpu_training_job_chain_sprint_demo_q1": {
+      "persona": "li_ming"
+    },
+    "bench_t13_t15_resolve_blast_chiller_service_windows_ag": {
+      "persona": "olivia_baker"
+    },
+    "abdullah_rashid_t14_t05_zone_3a_marine_foundation_approv_415aca": {
+      "persona": "abdullah_rashid"
+    },
+    "abdullah_rashid_t14_t10_critical_path_task_sequencing_du_25c35b": {
+      "persona": "abdullah_rashid"
+    },
+    "abdullah_rashid_t14_t19_rotation_schedule_alignment_with_333895": {
+      "persona": "abdullah_rashid"
+    },
+    "nina_caldwell_travel_creator_free08_t04_q2_newsletter_deliverable_con_141ed3": {
+      "persona": "nina_caldwell"
     }
   }
 }

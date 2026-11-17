@@ -1,0 +1,2037 @@
+[
+  {
+    "page_id": "NPAG-1",
+    "title": "Partnership Standards & Disclosure Policy",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "category": "Business Policy",
+      "status": "Active",
+      "last_reviewed": "2026-02-20"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Nina Caldwell Media — Partnership Standards & Disclosure Policy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Last reviewed: February 20, 2026. This document governs all brand partnerships, sponsored trips, gifted products, and paid collaborations entered into by Nina Caldwell Media LLC."
+      },
+      {
+        "type": "heading_2",
+        "text": "Core Disclosure Rule (Non-Negotiable)"
+      },
+      {
+        "type": "paragraph",
+        "text": "ALL sponsored, gifted, or compensated content — regardless of platform, format, or brand request — must include explicit disclosure language. This includes but is not limited to: #ad, #sponsored, #gifted, or equivalent plain-language disclosure ('This post is sponsored by...', 'I was hosted by...'). This rule applies to Instagram posts, Reels, Stories, newsletter issues, blog posts, YouTube videos, and any other published format."
+      },
+      {
+        "type": "heading_2",
+        "text": "Class I Violations — Automatic Decline"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Any contract clause requiring omission of #ad, #sponsored, or equivalent disclosure language."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Any brand request to present paid/gifted content as purely organic or editorial without disclosure."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Any agreement that includes a clawback clause triggered by disclosure compliance (i.e., penalizes Nina for following FTC/ASA guidelines)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Class II Concerns — Negotiate or Decline"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Exclusivity clauses exceeding 30 days for competing destinations."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Pre-approval rights that require brand sign-off more than 48 hours before publication."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Messaging exclusivity that restricts Nina's editorial voice or requires brand-scripted copy."
+      },
+      {
+        "type": "heading_2",
+        "text": "Rationale"
+      },
+      {
+        "type": "paragraph",
+        "text": "Audience trust is the foundation of Nina Caldwell Media's value to both readers and brand partners. Non-disclosure clauses violate FTC guidelines, undermine reader trust, and expose Nina to legal liability. No partnership fee justifies this risk. Partners who cannot accommodate standard disclosure are not aligned with Nina Caldwell Media's editorial values."
+      },
+      {
+        "type": "heading_2",
+        "text": "Response Protocol for Non-Compliant Inquiries"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Do not draft or send an acceptance reply before policy review is complete.\n2. Flag the inquiry in the Trip Pipeline database with status 'Policy Violation — Pending Decision'.\n3. Present Nina with decline, counter-proposal, or defer options.\n4. Log outcome in Trip Pipeline and add follow-up todo to maintain contact relationship."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-20T11:00:00-05:00",
+    "last_updated": "2026-02-20T11:45:00-05:00"
+  },
+  {
+    "page_id": "NPAG-2",
+    "title": "Trip Pipeline — 2026",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "category": "Project Tracking",
+      "year": "2026"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "2026 Trip Pipeline"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tracks all sponsored trip inquiries, active partnerships, and pipeline status for 2026."
+      },
+      {
+        "type": "heading_2",
+        "text": "Active / Confirmed"
+      },
+      {
+        "type": "paragraph",
+        "text": "✅ Lisbon Press Trip — Visit Lisbon Partnership\nDates: May 12–19, 2026\nStatus: Confirmed. Contract signed. Deliverables: 3 Instagram posts (#ad), 1 newsletter feature (disclosed), 1 blog post.\nBrand contact: Visit Lisbon main partnerships team.\nNotes: On-the-road newsletter send required for May 14 Thursday cadence."
+      },
+      {
+        "type": "heading_2",
+        "text": "Flagged — Policy Review Required"
+      },
+      {
+        "type": "paragraph",
+        "text": "🚨 Algarve Coast Campaign — Visit Lisbon (Algarve Division) / Marco Ferreira\nDate flagged: March 21, 2026\nViolation: Section 4.2 of contract addendum requires omission of #ad/#sponsored — CLASS I VIOLATION per Partnership Standards & Disclosure Policy.\nAdditional concerns: Section 4.3 exclusivity clause (60 days, competing coastal destinations) exceeds Nina's 30-day threshold — CLASS II CONCERN.\nStatus: HOLD — do not accept. Awaiting Nina's decision on response path.\nOptions: (a) Clean decline with relationship preservation, (b) Counter-propose compliant terms, (c) Defer until post-Lisbon deliverables.\nContact: Marco Ferreira — CON-201"
+      },
+      {
+        "type": "heading_2",
+        "text": "Incoming Inquiries"
+      },
+      {
+        "type": "paragraph",
+        "text": "📩 Wanderluxe Media — Newsletter ad slot (April/May)\nContact: Priya Nair — CON-202\nStatus: Compliant inquiry. Follow up with media kit."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-15T10:00:00-05:00",
+    "last_updated": "2026-03-21T11:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-3",
+    "title": "Lisbon Press Trip — May 2026 — Project Hub",
+    "parent_page_id": "NPAG-2",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "category": "Trip Project",
+      "status": "Active",
+      "trip_dates": "2026-05-12 to 2026-05-19",
+      "partner": "Visit Lisbon"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Lisbon Press Trip — May 12–19, 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sponsored by Visit Lisbon. Contract signed. All deliverables require #ad/#sponsored disclosure per Nina Caldwell Media policy and contract terms."
+      },
+      {
+        "type": "heading_2",
+        "text": "Deliverables"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "3x Instagram posts (in-feed, #ad disclosed) — due within 7 days of return"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "1x Newsletter feature — Thursday May 14 (on-the-road send, disclosed as sponsored)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "1x Blog post — due May 26"
+      },
+      {
+        "type": "heading_2",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Active Lisbon commitments mean any new conflicting partnership (especially competing Portugal/Spain coastal destinations with exclusivity clauses) carries heightened reputational and contractual risk. Review all new inquiries against Lisbon contract exclusivity terms before proceeding."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-10T09:30:00-05:00",
+    "last_updated": "2026-03-18T14:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-4",
+    "title": "Holding Response Draft — Wanderluxe Media Newsletter Ad Slot Inquiry",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "status": "draft",
+      "recipient": "Priya Nair — priya.nair@wanderluxemedia.example",
+      "related_email": "MSG-5004",
+      "send_by": "2026-04-30",
+      "created_by": "Inbox triage — 2026-04-26"
+    },
+    "blocks": [
+      {
+        "type": "callout",
+        "text": "⚠️ Draft only — review before sending. Confirm May newsletter slot availability against content calendar. Lisbon press trip (May 12–19) may affect May 15 issue production. Cross-check rate card in NPAG-6 before following up with full proposal."
+      },
+      {
+        "type": "heading_2",
+        "text": "Draft Email — Holding Acknowledgment"
+      },
+      {
+        "type": "paragraph",
+        "text": "To: priya.nair@wanderluxemedia.example\nSubject: Re: Newsletter ad slot inquiry — April/May availability?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hi Priya,\n\nThank you for reaching out about an ad slot in my newsletter — really glad Wanderluxe is exploring a partnership!\n\nI'm reviewing current availability for April and May slots and will have the full picture by end of this week. I'll follow up by Friday, April 30 with my media kit, current rates, and open dates so you can plan your campaign timeline.\n\nIf you have a specific campaign brief, target window, or audience objectives you'd like to share in the meantime, feel free to send them over — it'll help me tailor the proposal.\n\nLooking forward to connecting!\n\nBest,\nNina Caldwell\nNina Caldwell Media\nnina@ninacaldwellmedia.example"
+      },
+      {
+        "type": "heading_3",
+        "text": "Context Notes"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Priya Nair is an established media partnerships contact at Wanderluxe Media (CON-202). Prior conversation on Q2 rates on record (MSG-5001)."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "May 8 issue is pre-trip prep content; May 15 issue falls during Lisbon trip — on-the-road send, reduced production buffer. Both slots are potentially sellable but flag the constraint to Priya when confirming."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Reference NPAG-6 (Brand Partnership Rate Card Q2 2026) when preparing the full follow-up proposal."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-26T11:30:00-05:00",
+    "last_updated": "2026-04-26T11:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-5",
+    "title": "Inbox Triage Log — April 26, 2026",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "date": "2026-04-26",
+      "triage_type": "Brand Inquiries, Contract Flags, Newsletter Leads",
+      "status": "complete",
+      "emails_reviewed": 8
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Triage Summary — April 26, 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "Total unread or flagged emails reviewed: 8. Three action items created (TODO-504, TODO-505, TODO-506). One holding response drafted (NPAG-4). One new contact added (CON-203). Priority breakdown below."
+      },
+      {
+        "type": "heading_3",
+        "text": "🔴 Immediate Action Required"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "MSG-5006 — Marco Ferreira (Visit Lisbon): Urgent follow-up pressing for Algarve Coast Campaign contract signature by end of week. Marco frames Section 4.2 NDA clause as standard embargo language, but this directly conflicts with disclosed sponsorship labeling requirements. DO NOT SIGN and do not send any acknowledgment of acceptance. → TODO-504: review clause against Partnership Standards & Disclosure Policy (NPAG-1) by April 28."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "MSG-5002 / MSG-5003 — Algarve Coast Campaign prior emails (contract addendum thread): Policy conflict hold remains active. See TODO-501 (hold) and TODO-502 (pipeline log)."
+      },
+      {
+        "type": "heading_3",
+        "text": "🟡 Review Pending"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "MSG-5004 — Priya Nair (Wanderluxe Media): Newsletter ad slot inquiry for April/May. Holding acknowledgment drafted in NPAG-4 — send by April 30. Follow up with full media kit and rate card (NPAG-6). → TODO-503."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "MSG-5007 — Alex Mendes (Terra Travel): New inbound partnership inquiry — clean, FTC-compliant, no policy flags. New contact added as CON-203. Respond with media kit and Q2/Q3 newsletter rates by April 30, noting May slot constraints around Lisbon trip. → TODO-505."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "MSG-5001 / MSG-5005 — Newsletter rate and Q2 partnership follow-ups: Addressed via TODO-503 and NPAG-4 holding draft."
+      },
+      {
+        "type": "heading_3",
+        "text": "🟢 Low Priority — No Action Required"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "MSG-5008 — Nomad Compass (collab@nomadcompass.example): Cold pitch, no contract framework, no rate discussion. Archive. Contact logged as CON-204. → TODO-506."
+      },
+      {
+        "type": "heading_3",
+        "text": "Recommended Next Steps (in priority order)"
+      },
+      {
+        "type": "numbered_list",
+        "text": "1. Review Algarve contract Section 4.2 against NPAG-1 — due April 28. Do not respond to Marco until complete (TODO-504)."
+      },
+      {
+        "type": "numbered_list",
+        "text": "2. Send holding acknowledgment to Priya Nair using NPAG-4 draft — by April 30 (TODO-503)."
+      },
+      {
+        "type": "numbered_list",
+        "text": "3. Send media kit to Alex Mendes / Terra Travel — by April 30 (TODO-505)."
+      },
+      {
+        "type": "numbered_list",
+        "text": "4. Archive Nomad Compass and similar cold pitches (TODO-506)."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-26T11:45:00-05:00",
+    "last_updated": "2026-04-26T11:45:00-05:00"
+  },
+  {
+    "page_id": "NPAG-6",
+    "title": "Brand Partnership Rate Card — Q2 2026",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "quarter": "Q2 2026",
+      "status": "active",
+      "last_reviewed": "2026-04-01"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Nina Caldwell Media — Q2 2026 Brand Partnership Rates"
+      },
+      {
+        "type": "paragraph",
+        "text": "All partnerships must comply with FTC disclosure requirements and Nina Caldwell Media's Partnership Standards & Disclosure Policy (NPAG-1). Explicit #ad or #sponsored labeling is non-negotiable on all deliverables. Non-compliant contract terms will not be accepted."
+      },
+      {
+        "type": "heading_3",
+        "text": "Newsletter (The Wanderlust Wire) — ~11,200 subscribers"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Dedicated solo-sponsored send: $1,800"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Sponsored header banner: $900"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Inline sponsored section (mid-letter, ~150 words): $700"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Affiliate link placement (footer): 15–20% revenue share"
+      },
+      {
+        "type": "heading_3",
+        "text": "Instagram — ~28,500 followers"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Feed post (single image or carousel): $1,200"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Reel: $1,500"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Stories set (3 frames): $600"
+      },
+      {
+        "type": "heading_3",
+        "text": "Bundled Packages"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Newsletter inline + IG feed post: $2,700 (10% bundle discount)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Newsletter dedicated send + Reel: $3,000"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rates valid through June 30, 2026. All deliverables include one round of revisions. Minimum lead time: 10 business days from signed contract. May slots subject to limited availability due to Lisbon press trip May 12–19."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-01T10:00:00-05:00",
+    "last_updated": "2026-04-26T10:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-7",
+    "title": "Q2 Newsletter Sponsorship Package — Issue Run #1 (April–June 2026)",
+    "parent_page_id": "NPAG-6",
+    "database_id": null,
+    "properties": {
+      "status": "Active — Updated",
+      "total_confirmed_revenue": "$1,600 USD",
+      "bundled_discount_threshold": "$1,500 USD",
+      "discount_status": "ACTIVE",
+      "last_updated": "2026-03-03",
+      "issues_in_bundle": 3
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Package Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Three-issue Q2 newsletter sponsorship bundle (April, May, June 2026). Bundled-rate discount applies when total confirmed sponsor revenue meets or exceeds $1,500. Package was restructured on 2026-03-03 following removal of Nomad Compass due to policy conflict."
+      },
+      {
+        "type": "heading_2",
+        "text": "Sponsor Line-Items"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Sponsor",
+            "Issue",
+            "Rate",
+            "Status",
+            "Disclosure Compliant"
+          ],
+          [
+            "Nomad Compass",
+            "Issue #1 (April)",
+            "$400",
+            "VOIDED — Policy Conflict (see NPAG-1)",
+            "NO — REMOVED"
+          ],
+          [
+            "Wanderluxe Media (Priya Nair)",
+            "Issue #1 (April)",
+            "$350",
+            "Confirmed — Pending Contract",
+            "YES"
+          ],
+          [
+            "Terra Travel (Alex Mendes)",
+            "Issue #2 (May)",
+            "$300",
+            "Confirmed — Pending Contract",
+            "YES"
+          ],
+          [
+            "Terra Travel (Alex Mendes)",
+            "Issue #3 (June)",
+            "$300",
+            "Confirmed — Pending Contract",
+            "YES"
+          ],
+          [
+            "Existing Sponsor A",
+            "Issue #2 (May)",
+            "$350",
+            "Confirmed",
+            "YES"
+          ],
+          [
+            "Existing Sponsor B",
+            "Issue #3 (June)",
+            "$300",
+            "Confirmed",
+            "YES"
+          ]
+        ]
+      },
+      {
+        "type": "heading_2",
+        "text": "Revenue Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Total confirmed revenue: $1,600 USD. Bundled-rate discount threshold ($1,500) exceeded by $100. Discount status: ACTIVE."
+      },
+      {
+        "type": "heading_2",
+        "text": "Nomad Compass Removal — Policy Conflict Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nomad Compass was removed from the package on 2026-03-03. Their collab offer (MSG-5009) required that gifted product placements not be explicitly labeled as sponsored or gifted. This directly violates Section 2.1 of the Partnership Standards & Disclosure Policy (NPAG-1), which mandates explicit disclosure (#ad / #sponsored / #gifted) on ALL sponsored content and gifted placements without exception. The slot was vacated and a decline email was sent (MSG-5012). Contact archived as declined-policy-conflict (CON-205)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Replacement Strategy"
+      },
+      {
+        "type": "paragraph",
+        "text": "Revenue gap after Nomad Compass removal: $400 (package dropped from $1,050 pre-existing + $400 Nomad Compass = $1,450 to $1,050, which is $450 below threshold). Replacement combination: Wanderluxe Media ($350, Issue #1) + Terra Travel ($300 x2, Issues #2 and #3) = $950 replacement revenue added. New total: $1,600. Threshold re-triggered."
+      },
+      {
+        "type": "heading_2",
+        "text": "Next Actions"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Send revised media kit and contract to Priya Nair (Wanderluxe Media) — TODO-508.\n2. Send revised media kit and contract to Alex Mendes (Terra Travel) — TODO-509.\n3. Archive Nomad Compass pitch as declined-policy-conflict — completed 2026-03-03.\n4. Update financial sheet WB-1 — completed 2026-03-03."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-20T10:00:00-05:00",
+    "last_updated": "2026-03-03T12:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-8",
+    "title": "Nomad Compass — Declined Pitch Archive (Policy Conflict)",
+    "parent_page_id": "NPAG-1",
+    "database_id": null,
+    "properties": {
+      "status": "Archived — Declined",
+      "decline_reason": "Policy Conflict — Undisclosed Gifting",
+      "contact": "Jordan Hale / collab@nomadcompass.example",
+      "date_declined": "2026-03-03",
+      "policy_clause_violated": "Section 2.1 — Mandatory Explicit Disclosure"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nomad Compass (contact: Jordan Hale, collab@nomadcompass.example) was confirmed for a Q2 newsletter sponsorship slot (Issue #1, April 2026, $400) but was subsequently removed after their collab terms required that gifted product placements not be explicitly labeled as sponsored or gifted."
+      },
+      {
+        "type": "heading_2",
+        "text": "Policy Clause Violated"
+      },
+      {
+        "type": "paragraph",
+        "text": "Partnership Standards & Disclosure Policy (NPAG-1), Section 2.1 — Mandatory Explicit Disclosure: All sponsored content, gifted products, and paid placements must be explicitly labeled with #ad, #sponsored, or #gifted as appropriate. No exceptions. Undisclosed or ambiguously framed placements are prohibited regardless of brand preference or performance rationale."
+      },
+      {
+        "type": "heading_2",
+        "text": "Correspondence"
+      },
+      {
+        "type": "paragraph",
+        "text": "Inbound pitch: MSG-5009 (2026-02-24). Decline sent: MSG-5012 (2026-03-03). Tone: polite, firm, door left open for future compliant collaboration."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contact Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "CON-205 (Jordan Hale) updated with decline note. Do not re-engage unless Nomad Compass brand guidelines change to permit explicit disclosure labeling."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-03T11:30:00-05:00",
+    "last_updated": "2026-03-03T12:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-9",
+    "title": "Q2 Affiliate Promotion Budget — Cap Calculation & Roam & Earn Staged Investment Plan",
+    "parent_page_id": "NPAG-1",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "category": "Financial Policy Log",
+      "status": "Active — Phase 1 pending commitment",
+      "date_logged": "2026-02-18",
+      "related_policy": "NPAG-1 — Partnership Standards & Disclosure Policy",
+      "related_tracker": "WB-1 — Revenue & Sponsorship Tracker 2026"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Policy Rule"
+      },
+      {
+        "type": "paragraph",
+        "text": "Per Nina Caldwell Media financial policy: affiliate-promotion budget is capped at 20% of confirmed Q2 sponsorship revenue (cash received, not invoiced). This cap is evaluated at time of commitment, not at end of quarter."
+      },
+      {
+        "type": "heading_2",
+        "text": "Confirmed Q2 Revenue as of 2026-02-18"
+      },
+      {
+        "type": "paragraph",
+        "text": "• TXN-6005 — Terra Travel full payment: $600.00 (received 2026-02-14)\n• TXN-6004 — Wanderluxe Media Installment 1 of 2: $450.00 (received 2026-02-17)\n• TOTAL CONFIRMED: $1,050.00\n• 20% CAP (current): $210.00\n\nNote: Wanderluxe Media Installment 2 ($450.00) is due 2026-03-01 but NOT yet received — excluded from cap calculation per policy."
+      },
+      {
+        "type": "heading_2",
+        "text": "Roam & Earn Package — Full Cost vs. Cap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Full package cost (MSG-5013): $1,550.00\n• Tier 1 — Directory Featured Listing: $320\n• Tier 2 — Weekly Digest Placement (6 issues): $480\n• Tier 3 — Co-branded Subscriber Campaign (2 sends): $750\n\nCommitment deadline (Phase 1): 2026-03-06\nSlot hold deadline (Phase 2): 2026-03-20\n\nFull package cost ($1,550) EXCEEDS current cap ($210) by $1,340. Even the cheapest individual tier ($320) exceeds the current cap."
+      },
+      {
+        "type": "heading_2",
+        "text": "Staged Investment Plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "PHASE 1 (by 2026-03-06):\n• Maximum commitment within current cap: $210.00\n• This covers a partial commitment toward Tier 1 ($320 total); request Roam & Earn hold remaining Tier 1 balance + all of Tier 2 and Tier 3 pending Phase 2.\n• Action: Draft reply to Sophie Tran (sophie.tran@roamandearn.example) confirming $210 Phase 1 commitment and requesting slot hold.\n\nPHASE 2 (after 2026-03-01, if Wanderluxe installment clears):\n• Post-installment confirmed revenue: $1,500.00\n• Post-installment 20% cap: $300.00\n• Additional budget unlocked: $90.00 (from $210 to $300)\n• Phase 2 can cover remaining $110 of Tier 1 ($320 − $210 = $110) — within the $90 additional budget? NO — $110 > $90. Tier 1 alone requires $320 total; Phase 1 + Phase 2 combined = $300, still $20 short of Tier 1.\n• CONCLUSION: Even with Wanderluxe Installment 2, the 20% cap ($300 total) does not cover the full Tier 1 cost ($320), and Tier 2 and Tier 3 remain far out of reach without additional confirmed revenue.\n• Recommendation: Commit $210 in Phase 1 toward Tier 1 partial; reassess after Wanderluxe installment clears and after any additional Q2 sponsorship confirmations (e.g. replacement slot from compliant partner)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Decision Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-02-18: Cap calculated at $210 based on $1,050 confirmed Q2 revenue. Full Roam & Earn package ($1,550) confirmed to exceed cap. Staged plan approved: Phase 1 commitment of $210 to be sent by 2026-03-06; Phase 2 reassessment after 2026-03-01 Wanderluxe installment. Follow-up todo created (TODO-514). Reply to Sophie Tran drafted."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-18T13:30:00-05:00",
+    "last_updated": "2026-02-18T13:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-10",
+    "title": "Roam & Earn — Affiliate Network Research Notes",
+    "parent_page_id": "NPAG-1",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "category": "Affiliate Research",
+      "status": "Reference",
+      "date_logged": "2026-02-17"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Network Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Roam & Earn is a travel-focused affiliate network offering creator placement programs. Their Q2 2026 Premium Newsletter Placement Package targets travel newsletter creators looking to grow subscriber bases ahead of peak content windows (spring/summer travel season)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contact"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sophie Tran — Partner Success Manager\nsophie.tran@roamandearn.example\n+1 (415) 882-0047\nFirst contact: MSG-5013 (received 2026-02-16)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Fit Assessment"
+      },
+      {
+        "type": "paragraph",
+        "text": "Strong strategic fit: Lisbon trip coverage (2026-05-12 to 2026-05-19) is a high-traffic content window. Growing subscriber base ahead of that window aligns with Q2 content strategy. Disclosure compliance: affiliate placement fees are a business expense, not a brand partnership — no disclosure conflict. Budget constraint is the limiting factor (see NPAG-9)."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-17T16:00:00-05:00",
+    "last_updated": "2026-02-18T13:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-11",
+    "title": "Newsletter Workflow Automation — Planning Scratchpad",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "status": "stalled",
+      "created": "2026-03-10"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Goal"
+      },
+      {
+        "type": "paragraph",
+        "text": "Build a more systematic weekly newsletter drafting workflow so issues don't get written in a panic on Wednesday night. Key pain points: (1) no consistent trigger to start drafting early in the week, (2) sponsorship outreach happens reactively rather than proactively, (3) affiliate link audit keeps getting pushed."
+      },
+      {
+        "type": "heading_2",
+        "text": "Ideas explored"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Set up a Monday morning scheduler reminder to open the draft — tried twice (JOB-701, JOB-702), never actually enabled either one."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Draft a reusable sponsorship outreach email template — started twice in Gmail drafts, abandoned both times before sending."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Create a standing TODO for affiliate link audit each quarter — added to todo list, cancelled twice when other priorities took over."
+      },
+      {
+        "type": "heading_2",
+        "text": "Blockers / why this keeps stalling"
+      },
+      {
+        "type": "paragraph",
+        "text": "Honestly not sure. Each piece feels small on its own but I never sit down to connect them into an actual system. The Lisbon trip prep is taking up most of my planning bandwidth right now. Revisit after May 19 return?"
+      },
+      {
+        "type": "heading_2",
+        "text": "Next step (if I ever come back to this)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Enable one of the scheduler jobs. Pick JOB-701 or JOB-702 — they're already configured, just sitting there disabled. That's the lowest-friction entry point."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-10T14:00:00-05:00",
+    "last_updated": "2026-03-22T16:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-12",
+    "title": "Eco-Lodge Partnership Shortlist — Q2/Q3 Outreach",
+    "parent_page_id": "NPAG-2",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "status": "draft",
+      "linked_to": "Trip Pipeline — 2026"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Shortlist of eco-lodge brands to approach for Q2/Q3 newsletter sponsorship or affiliate deal. Compiled from reader survey responses (top requested content: sustainable stays) and RSS feed monitoring."
+      },
+      {
+        "type": "heading_2",
+        "text": "Candidates"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Under Canvas (glamping, US) — strong brand fit, has worked with travel newsletter creators before"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Ecobnb (European eco-stays directory) — affiliate program available, good CPM potential"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Finca Bellavista (Costa Rica treehouse resort) — aspirational fit, likely lower budget but high engagement potential"
+      },
+      {
+        "type": "heading_2",
+        "text": "Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "Outreach email drafted twice (see Gmail drafts) but never sent. TODO-517 was created to action this and was subsequently cancelled. Revisit once Q2 sponsorship bundle is stabilized and Nomad Compass replacement slots are confirmed."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-17T11:00:00-05:00",
+    "last_updated": "2026-03-23T10:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-13",
+    "title": "Q2 Newsletter Sponsorship Slot Allocation — Threshold Optimization Analysis",
+    "parent_page_id": "NPAG-7",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "quarter": "Q2 2026",
+      "status": "Decision Logged",
+      "anchor_date": "2026-04-29",
+      "related_workbook": "WB-1"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Q2 Newsletter Sponsorship Slot Allocation — Threshold Optimization"
+      },
+      {
+        "type": "paragraph",
+        "text": "After Nomad Compass was removed from the Q2 package (policy violation, archived NPAG-8), confirmed bundle revenue dropped to $650 (pre-replacement). Replacement candidates identified: Wanderluxe Media (Priya Nair), Terra Travel (Alex Mendes), and new inbound Pacific Wanderer Gear Co. (Lena Park). Analysis conducted 2026-04-29."
+      },
+      {
+        "type": "heading_2",
+        "text": "Per-Issue Slot Inventory (Q2 Run)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Issue #1 (May 1): Dedicated Feature — OPEN, Sidebar — OPEN\nIssue #2 (May 8): Dedicated Feature — OPEN (Nomad Compass removed), Sidebar — OPEN\nIssue #3 (May 15): Dedicated Feature — OPEN, Sidebar — OPEN\nIssue #4 (May 22): Dedicated Feature — OPEN, Sidebar — OPEN"
+      },
+      {
+        "type": "heading_2",
+        "text": "Candidate × Issue Eligibility Matrix"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wanderluxe Media: Issue #1 (Dedicated Feature, $400) ✓ | Issue #3 (Sidebar, $250) ✓ | Disclosure: YES\nTerra Travel: Issue #2 (Sidebar, $275) ✓ | Issue #3 (Sidebar, $275) ✓ | Issue #4 (Dedicated Feature, $400) ✓ | Disclosure: YES\nPacific Wanderer Gear Co.: Issue #4 (Sidebar, $300) ✓ | Any open issue (Sidebar, $300) ✓ | Disclosure: YES (stated — contract pending)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Valid Allocation Combinations & Revenue Totals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Combination A: Wanderluxe #1 Dedicated ($400) + Terra #2 Sidebar ($275) + Terra #3 Sidebar ($275) = $950. Below $1,500 threshold. ✗\n\nCombination B: Wanderluxe #1 Dedicated ($400) + Terra #2 Sidebar ($275) + Terra #3 Sidebar ($275) + Pacific Wanderer #4 Sidebar ($300) = $1,250. Below $1,500 threshold. ✗\n\nCombination C: Wanderluxe #1 Dedicated ($400) + Terra #2 Sidebar ($275) + Terra #4 Dedicated ($400) = $1,075. Below threshold. ✗\n\nCombination D: Wanderluxe #1 Dedicated ($400) + Terra #2 Sidebar ($275) + Terra #3 Sidebar ($275) + Pacific Wanderer #4 Sidebar ($300) + Wanderluxe #3 Sidebar ($250) = $1,500. THRESHOLD MET. ✓ — No slot conflicts (Wanderluxe sidebar + Terra sidebar on Issue #3 = two different slot types, valid).\n\nCombination E: Wanderluxe #1 Dedicated ($400) + Terra #4 Dedicated ($400) + Pacific Wanderer #2 Sidebar ($300) + Pacific Wanderer #3 Sidebar ($300) = $1,400. Below threshold. ✗\n\nCombination F (OPTIMAL): Wanderluxe #1 Dedicated ($400) + Terra #2 Sidebar ($275) + Terra #3 Sidebar ($275) + Pacific Wanderer #4 Sidebar ($300) + Wanderluxe #3 Sidebar ($250) = $1,500. Threshold re-triggered. All slots filled. No double-booking. All sponsors disclosure-compliant. Net confirmed revenue = $1,500 (bundled discount applied — rate locked). ✓"
+      },
+      {
+        "type": "heading_2",
+        "text": "Optimal Allocation — Recommended Assignment"
+      },
+      {
+        "type": "paragraph",
+        "text": "RECOMMENDED: Combination F\n• Wanderluxe Media — Issue #1, Dedicated Feature, $400 (Confirmed — Pending Contract)\n• Terra Travel — Issue #2, Sidebar, $275 (Confirmed — Pending Contract)\n• Terra Travel — Issue #3, Sidebar, $275 (Confirmed — Pending Contract)\n• Wanderluxe Media — Issue #3, Sidebar, $250 (Confirmed — Pending Contract) — no conflict with Terra sidebar on same issue as slot types differ\n• Pacific Wanderer Gear Co. — Issue #4, Sidebar, $300 (Confirmed — Pending Contract)\n\nTotal confirmed package: $1,500. Bundled discount threshold re-triggered. Zero open slots remaining in replacement window. All five sponsors disclosure-compliant (YES). WB-1 updated accordingly."
+      },
+      {
+        "type": "heading_2",
+        "text": "Marginal Sponsor Check"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pacific Wanderer Gear Co. ($300) is the marginal sponsor that pushes the package from $1,200 to $1,500. The bundled discount benefit (estimated 10% on $1,500 = $150 value) exceeds $0 marginal cost of adding the slot, so the addition is net-positive. Wanderluxe Issue #3 sidebar ($250) is also marginal — without it, total is $1,250 and threshold is not met. Both marginal additions are justified."
+      },
+      {
+        "type": "heading_2",
+        "text": "Next Actions"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Send contracts to Priya Nair (Wanderluxe) for Issues #1 and #3.\n2. Send contracts to Alex Mendes (Terra Travel) for Issues #2 and #3.\n3. Send contract to Lena Park (Pacific Wanderer) for Issue #4 — verify disclosure compliance in contract language before countersigning.\n4. Issue invoices upon contract execution.\n5. Update Q2 Tax Estimate Tracker (WB-1) with final $1,500 confirmed sponsorship revenue.\n6. Update TODO items: TODO-529, TODO-530."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-29T11:00:00-04:00",
+    "last_updated": "2026-04-29T11:45:00-04:00"
+  },
+  {
+    "page_id": "NPAG-14",
+    "title": "Pacific Wanderer Gear Co. — New Partner Intake Notes",
+    "parent_page_id": "NPAG-7",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "status": "Pending Contract",
+      "contact": "Lena Park",
+      "email": "hello@pacificwanderer.example"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Pacific Wanderer Gear Co. — New Partner Intake"
+      },
+      {
+        "type": "paragraph",
+        "text": "Inbound inquiry received 2026-04-29 from Lena Park, Partnerships Lead. Sustainable travel accessories brand. No prior relationship with Nina Caldwell Media."
+      },
+      {
+        "type": "heading_2",
+        "text": "Offered Terms"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rate: $300/issue (sidebar placement)\nAvailability: Any open May–June issue\nSlot type preference: Sidebar\nDisclosure compliance: Stated YES in initial email — requires contract verification before slot is finalized."
+      },
+      {
+        "type": "heading_2",
+        "text": "Compliance Check"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lena Park stated in MSG-5031: 'Full disclosure compliance is a given for us — we actually require it in all our creator contracts.' This is a positive signal. Contract must be reviewed against Partnership Standards & Disclosure Policy (NPAG-1) before countersigning. No NDA or non-disclosure clause should be present in their insertion order."
+      },
+      {
+        "type": "heading_2",
+        "text": "Allocation Decision"
+      },
+      {
+        "type": "paragraph",
+        "text": "Assigned to Issue #4 (May 22), Sidebar, $300. Included in Combination F optimal allocation. Status: Confirmed — Pending Contract."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-29T11:50:00-04:00",
+    "last_updated": "2026-04-29T12:00:00-04:00"
+  },
+  {
+    "page_id": "NPAG-15",
+    "title": "Lisbon Press Trip — Deliverables Reconciliation Checklist",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "trip": "Visit Lisbon Press Trip — May 2026",
+      "status": "reconciled — 1 item pending Marco confirmation",
+      "last_updated_by": "agent",
+      "anchor_date": "2026-04-01"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Reconciled Deliverables Checklist — Visit Lisbon Press Trip (May 12–19, 2026)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sources reviewed: (1) Signed Content Agreement dated ~2026-03-05 [CONTRACT], (2) Marco Ferreira follow-up email 2026-03-18 [EMAIL-REV], (3) Notion/Obsidian planning notes predating contract [NOTES-DRAFT]. Authority ranking applied: CONTRACT > EMAIL-REV > NOTES-DRAFT."
+      },
+      {
+        "type": "heading_2",
+        "text": "Reconciled Deliverable Table"
+      },
+      {
+        "type": "table",
+        "text": "| # | Deliverable Type | Count | Format Spec | Submission Deadline | Source | Notes / Conflicts |\n|---|---|---|---|---|---|---|\n| 1 | Instagram Reels | 2 | Min 30 sec, vertical 9:16, @visitlisbon + #VisitLisbon2026 | 2026-06-07 | CONTRACT + EMAIL-REV (deadline updated) | Deadline conflict: CONTRACT said 2026-06-01; EMAIL-REV extended to 2026-06-07. AUTHORITATIVE: 2026-06-07 (EMAIL-REV, most recent). |\n| 2 | Blog Post | 1 | Min 1,200 words, published on ninacaldwellmedia.example, min 3 hyperlinks to visitlisbon.example | 2026-06-07 | CONTRACT + EMAIL-REV (deadline updated) | Deadline conflict: CONTRACT said 2026-06-01; EMAIL-REV extended to 2026-06-07. AUTHORITATIVE: 2026-06-07. |\n| 3 | Instagram Feed Photos | 5 | Static, one per specified location (Alfama, Belém, LX Factory, Mouraria, Sintra) | 2026-06-01 | EMAIL-REV overrides CONTRACT | Quantity conflict: CONTRACT said 3 (min 1 per neighborhood); EMAIL-REV revised to 5 specific locations. AUTHORITATIVE: 5 (EMAIL-REV). Deadline unchanged at 2026-06-01. |\n| 4 | Instagram Stories | 6 frames min | Min 2 frames with @visitlisbon location tag; live during trip (May 12–19 only) | Live during trip — no portal submission | EMAIL-REV only | Addition not in CONTRACT or NOTES-DRAFT. Present only in EMAIL-REV. No formal countersignature. ⚠️ REQUIRES MARCO CONFIRMATION before departure. |\n| 5 | Shot List Compliance | — | Revised shot list (PDF attached to EMAIL-REV): Alfama, Belém, LX Factory, Mouraria, Sintra | Tied to feed photo deadline 2026-06-01 | EMAIL-REV only | Not in CONTRACT. Replaces original neighborhood framing. AUTHORITATIVE: EMAIL-REV revised list. |"
+      },
+      {
+        "type": "heading_2",
+        "text": "Discrepancy Summary"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "🔴 DEADLINE CONFLICT (highest priority): Reels + Blog post deadline — CONTRACT: 2026-06-01 vs EMAIL-REV: 2026-06-07. Resolved: 2026-06-07 authoritative."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "🟠 QUANTITY CONFLICT: Feed Photos — CONTRACT: 3 vs EMAIL-REV: 5. Resolved: 5 authoritative (EMAIL-REV)."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "🟡 ADDITION (one source only): Instagram Stories (6 frames min) — present only in EMAIL-REV, not countersigned. ⚠️ Flagged for Marco confirmation."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "🟡 ADDITION (one source only): Revised shot list PDF — present only in EMAIL-REV. Treated as authoritative given recency, but confirm receipt of PDF."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "ℹ️ NOTES-DRAFT (Obsidian): Predates contract (created ~2026-02-20). References 2 Reels, 1 blog post, 3 photos — consistent with original contract but does not reflect any EMAIL-REV updates. No authoritative weight for disputed fields."
+      },
+      {
+        "type": "heading_2",
+        "text": "Open Items Requiring Marco Confirmation"
+      },
+      {
+        "type": "numbered_list",
+        "text": "1. Instagram Stories requirement (6 frames, 2 with location tag, live during trip): confirm this is formally added to scope and whether any written addendum will be issued."
+      },
+      {
+        "type": "numbered_list",
+        "text": "2. Confirm revised shot list PDF is the binding location list for feed photos (replacing original 'any 3 neighborhoods' language)."
+      },
+      {
+        "type": "paragraph",
+        "text": "→ See TODO-533: Send confirmation email to Marco Ferreira covering open items above before departure (due 2026-04-07)."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-01T15:30:00+00:00",
+    "last_updated": "2026-04-01T15:30:00+00:00"
+  },
+  {
+    "page_id": "NPAG-16",
+    "title": "Lisbon Press Trip — Source Documents Archive (Contract + Email Thread)",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "trip": "Visit Lisbon Press Trip — May 2026",
+      "status": "archived reference",
+      "document_types": [
+        "signed_contract",
+        "email_thread_excerpts"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Source Documents — Visit Lisbon Content Agreement & Marco Ferreira Email Thread"
+      },
+      {
+        "type": "heading_2",
+        "text": "Source 1: Signed Content Agreement (received ~2026-03-05)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Deliverables as contracted:\n- 2 x Instagram Reels (min 30 sec, 9:16, @visitlisbon + #VisitLisbon2026)\n- 1 x Blog post (min 1,200 words, ninacaldwellmedia.example, min 3 links to visitlisbon.example)\n- 3 x Instagram Feed Photos (static, min 1 per distinct neighborhood)\n- Submission deadline: 2026-06-01 (all deliverables)\nAuthority: HIGHEST (signed agreement)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Source 2: Marco Ferreira Email — Revisions (2026-03-18)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Revisions confirmed in writing:\n- Feed photos revised from 3 to 5 (specific locations: Alfama, Belém, LX Factory, Mouraria, Sintra)\n- Instagram Stories ADDED: min 6 frames, min 2 with @visitlisbon location tag, live during trip May 12–19\n- Submission deadline for Reels + Blog extended to 2026-06-07\n- Feed photo deadline unchanged: 2026-06-01\n- Reel count unchanged: 2\nAuthority: HIGH (formal written follow-up from brand contact, most recent)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Source 3: Logistics Confirmation Email (2026-03-28)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reaffirms: portal submissions (Reels + Blog) due 2026-06-07; feed photos due 2026-06-01; Stories live during trip. No new deliverable changes. Consistent with EMAIL-REV."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-01T15:00:00+00:00",
+    "last_updated": "2026-04-01T15:00:00+00:00"
+  },
+  {
+    "page_id": "NPAG-19",
+    "title": "Lisbon Press Trip — Deliverables Reconciliation Checklist",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "status": "active",
+      "trip": "Lisbon — May 2026",
+      "partner": "Visit Lisbon",
+      "last_reviewed": "2026-04-15"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Deliverables Checklist — Visit Lisbon Press Trip (May 12–19, 2026)"
+      },
+      {
+        "type": "paragraph",
+        "text": "This checklist tracks all contracted deliverables for the Visit Lisbon partnership. Cross-reference with the signed content agreement (MSG-5047) and revised shot list (MSG-5048) before departure."
+      },
+      {
+        "type": "heading_3",
+        "text": "Contracted Deliverables"
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Blog Post #1 — minimum 1,200 words — due within 30 days of return (deadline: June 18, 2026)",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Blog Post #2 — minimum 1,200 words — due within 30 days of return (deadline: June 18, 2026)",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Instagram feed posts × 6 (static or Reel) — tagged @visitlisbon — due within 14 days of return (deadline: June 2, 2026)",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Newsletter feature — minimum 300-word dedicated section — first Thursday issue after return (May 21 issue)",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Story frames × 15 — approved set delivered to Visit Lisbon Dropbox — due within 7 days of return (deadline: May 26, 2026)",
+        "checked": false
+      },
+      {
+        "type": "heading_3",
+        "text": "Disclosure Requirements"
+      },
+      {
+        "type": "paragraph",
+        "text": "Required disclosure language (per content agreement and Partnership Standards & Disclosure Policy NPAG-1): 'This trip was hosted by Visit Lisbon in partnership with Nina Caldwell Media. All opinions are my own.'"
+      },
+      {
+        "type": "paragraph",
+        "text": "Placement rules: Disclosure must appear at the TOP of each blog post (before body text), in the caption of each Instagram post (first line, not buried after line breaks), in the newsletter section header or first sentence, and in story frame #1 of the delivered set."
+      },
+      {
+        "type": "heading_3",
+        "text": "Reimbursable Expenses"
+      },
+      {
+        "type": "paragraph",
+        "text": "Covered: Ground transport within Lisbon (metro/tram, up to €15/day), hosted restaurant meals (receipt required), museum/attraction entry on approved itinerary list, Sintra & Cascais train tickets (pre-arranged via CP)."
+      },
+      {
+        "type": "paragraph",
+        "text": "NOT covered: Personal shopping, alcohol beyond one drink at hosted dinners, unapproved transport, personal meals outside hosted events."
+      },
+      {
+        "type": "paragraph",
+        "text": "Submission deadline: Receipts must be submitted within 14 days of return (deadline: June 2, 2026). Submit via email to marco.ferreira@visitlisbon-partnerships.example with subject line 'Expense Claim — Nina Caldwell Media — Lisbon May 2026'."
+      },
+      {
+        "type": "heading_3",
+        "text": "Pre-Departure Action Items"
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Sign and return content agreement to Marco by April 18",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Send flight number to Marco by May 5 (for airport transfer coordination)",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Confirm return flight time to Marco (transfer departs hotel 08:30 on May 19)",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Download and review full day-by-day itinerary PDF from Marco's logistics email",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Save on-the-ground coordinator contact: Inês Rodrigues +351 912 345 678",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "[ ] Pre-schedule newsletter issues for May 15 and May 22 (Lisbon trip weeks)",
+        "checked": false
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-12T10:00:00+00:00",
+    "last_updated": "2026-04-15T11:30:00+00:00"
+  },
+  {
+    "page_id": "NPAG-20",
+    "title": "Source Documents Archive — Lisbon Press Trip (Visit Lisbon, May 2026)",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "status": "active",
+      "trip": "Lisbon — May 2026",
+      "partner": "Visit Lisbon",
+      "document_count": 4
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Source Documents Archive — Lisbon Press Trip"
+      },
+      {
+        "type": "paragraph",
+        "text": "Central archive of all inbound documents, agreements, and correspondence related to the Visit Lisbon press trip (May 12–19, 2026). Use this page to locate originals before drafting deliverables or submitting expenses."
+      },
+      {
+        "type": "heading_3",
+        "text": "Document Index"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Content Agreement (unsigned) — received April 10 via email (MSG-5047). Covers deliverable scope, disclosure language requirements, and publication deadlines. PENDING SIGNATURE — due April 18."
+      },
+      {
+        "type": "paragraph",
+        "text": "2. Revised Shot List — received April 14 via email (MSG-5048). Priority locations: Alfama, Belém, LX Factory, Mouraria, Sintra & Cascais, Bairro Alto. Includes reimbursable expense categories and per-day transport cap (€15/day metro/tram)."
+      },
+      {
+        "type": "paragraph",
+        "text": "3. Logistics Confirmation — received April 15 via email (MSG-5049). Hotel: Bairro Alto Hotel. Airport transfer details. Full group itinerary (PDF attached to email). Emergency contact: Inês Rodrigues +351 912 345 678."
+      },
+      {
+        "type": "paragraph",
+        "text": "4. Partnership Standards & Disclosure Policy — internal reference (NPAG-1). Governs all hosted trip disclosures, editorial independence requirements, and brand partnership acceptance criteria. Review before signing content agreement."
+      },
+      {
+        "type": "heading_3",
+        "text": "Open Items as of April 15, 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "- Content agreement signature outstanding (deadline April 18)\n- Flight number not yet sent to Marco (deadline May 5)\n- Return flight time confirmation pending\n- Newsletter pre-scheduling for May 15 and May 22 issues not yet done"
+      },
+      {
+        "type": "heading_3",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cross-check all deliverable deadlines against the Deliverables Reconciliation Checklist (NPAG-19) before departure. Expense receipts must be submitted within 14 days of return — set a reminder for May 26 at the latest."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-15T12:00:00+00:00",
+    "last_updated": "2026-04-15T12:00:00+00:00"
+  },
+  {
+    "page_id": "NPAG-21",
+    "title": "Lisbon Press Trip — Pre-Departure Briefing Notes (April 2026)",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "status": "draft",
+      "trip": "Lisbon — May 2026",
+      "partner": "Visit Lisbon",
+      "briefing_date": "2026-04-15"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Pre-Departure Briefing — Lisbon Press Trip (May 12–19, 2026)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Working notes compiled April 15 in preparation for the Visit Lisbon press trip. Synthesizes content agreement terms, deliverable scope, disclosure requirements, reimbursement rules, and open action items. Intended as an on-the-road reference."
+      },
+      {
+        "type": "heading_3",
+        "text": "Key Contacts"
+      },
+      {
+        "type": "paragraph",
+        "text": "Partnership Manager: Marco Ferreira (marco.ferreira@visitlisbon-partnerships.example)\nOn-the-ground coordinator: Inês Rodrigues (+351 912 345 678)\nHotel: Bairro Alto Hotel, Praça Luís de Camões 2, Lisboa — breakfast included"
+      },
+      {
+        "type": "heading_3",
+        "text": "Disclosure — Required Language"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use exactly: 'This trip was hosted by Visit Lisbon in partnership with Nina Caldwell Media. All opinions are my own.' Place at TOP of blog posts, first line of Instagram captions, first sentence of newsletter section, and story frame #1."
+      },
+      {
+        "type": "heading_3",
+        "text": "Deliverable Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Blog posts × 2 (1,200 words min, due June 18) | Instagram posts × 6 (tagged @visitlisbon, due June 2) | Newsletter feature × 1 (300 words min, May 21 issue) | Story frames × 15 (to Visit Lisbon Dropbox, due May 26)"
+      },
+      {
+        "type": "heading_3",
+        "text": "Reimbursement Rules"
+      },
+      {
+        "type": "paragraph",
+        "text": "Covered: metro/tram up to €15/day, hosted meals (receipt required), approved attraction entry, CP train for Sintra day trip. NOT covered: personal shopping, excess alcohol, unapproved transport, personal meals. Submit receipts by June 2 to Marco."
+      },
+      {
+        "type": "heading_3",
+        "text": "Open Pre-Departure Items"
+      },
+      {
+        "type": "paragraph",
+        "text": "URGENT: Sign content agreement and return to Marco by April 18.\nSend flight number to Marco by May 5.\nConfirm return flight time (transfer departs 08:30 May 19).\nPre-schedule newsletter issues for May 15 and May 22.\nSave Inês Rodrigues contact to phone before departure."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-15T15:00:00+00:00",
+    "last_updated": "2026-04-15T15:00:00+00:00"
+  },
+  {
+    "page_id": "NPAG-22",
+    "title": "Lisbon Press Trip — May 2026 — Project Hub (UPDATED: Deadline Reconciliation 2026-03-17)",
+    "parent_page_id": "NPAG-2",
+    "database_id": null,
+    "properties": {
+      "trip": "Visit Lisbon Press Trip",
+      "dates": "2026-05-12 to 2026-05-19",
+      "partner": "Visit Lisbon",
+      "primary_contact": "Marco Ferreira (CON-219)",
+      "status": "Confirmed — Pre-Trip Prep",
+      "authoritative_deadline": "2026-05-28",
+      "deadline_source": "Signed Content Agreement — MSG-5051 — Section 3.1",
+      "brand_soft_preference": "2026-05-25 (MSG-5052 — informal, non-binding)",
+      "personal_action_deadline": "2026-05-24 (conservative: May 25 − 1-day buffer)",
+      "original_notion_date_DEPRECATED": "2026-05-22 (self-entered planning note — superseded)"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Visit Lisbon Press Trip — May 12–19, 2026"
+      },
+      {
+        "type": "callout",
+        "text": "⚠️ DEADLINE RECONCILIATION NOTE (2026-03-17): Three sources previously showed conflicting submission deadlines. Resolved as follows — see Deliverables Reconciliation section below."
+      },
+      {
+        "type": "heading_2",
+        "text": "Deliverable Submission Deadline — Source of Truth"
+      },
+      {
+        "type": "paragraph",
+        "text": "AUTHORITATIVE DEADLINE: May 28, 2026\nSource: Signed Content Agreement, MSG-5051 (received 2026-02-20), Section 3.1\nThis is the contractually binding hard deadline."
+      },
+      {
+        "type": "paragraph",
+        "text": "BRAND SOFT PREFERENCE: May 25, 2026\nSource: Marco Ferreira follow-up logistics email, MSG-5052 (sent 2026-03-05)\nNOTE: Marco explicitly stated this is a preference for their editorial calendar, NOT a formal contract amendment. Contractual deadline of May 28 remains in force."
+      },
+      {
+        "type": "paragraph",
+        "text": "ORIGINAL NOTION PLANNING NOTE (DEPRECATED): May 22, 2026\nThis date was self-entered during early planning (prior to receiving full contract details) and has no official basis. It has been superseded by the signed agreement."
+      },
+      {
+        "type": "heading_2",
+        "text": "Personal Action Deadline"
+      },
+      {
+        "type": "paragraph",
+        "text": "PERSONAL ACTION DEADLINE: May 24, 2026\nMethod: Conservative principle applied — earliest credible official date (May 25 brand preference) minus one-day personal buffer = May 24.\nCalendar events: EVT-310 (personal action deadline) and EVT-309 (hard contractual deadline) both set."
+      },
+      {
+        "type": "heading_2",
+        "text": "Discrepancy Classification"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Signed contract (May 28) vs. follow-up email (May 25): NOT a contract amendment. Marco's email is an informal editorial preference. No formal conflict requiring clarification with Marco at this time (see TODO-546 for monitoring).\n2. Notion planning note (May 22) vs. official sources: Data-entry error / premature planning note entered before contract was finalized. No official basis."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contracted Deliverables"
+      },
+      {
+        "type": "paragraph",
+        "text": "Per signed agreement (MSG-5051):\n• 2x long-form blog posts (min. 1,200 words each)\n• 1x newsletter feature (min. 400 words)\n• Minimum 15 Instagram Stories archived to Highlights\nSubmission via creator portal (accessible from May 19 onward)"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-18T10:00:00+00:00",
+    "last_updated": "2026-03-17T11:00:00+00:00"
+  },
+  {
+    "page_id": "NPAG-23",
+    "title": "Visit Lisbon — Deliverables Reconciliation Log (Deadline Conflict Resolution)",
+    "parent_page_id": "NPAG-22",
+    "database_id": null,
+    "properties": {
+      "related_hub": "NPAG-22",
+      "related_checklists": "NPAG-15, NPAG-19",
+      "resolved_date": "2026-03-17",
+      "resolution_status": "Resolved — no Marco clarification needed"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Deliverables Deadline Conflict Resolution Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "Date of resolution: 2026-03-17\nResolved by: Nina Caldwell"
+      },
+      {
+        "type": "heading_2",
+        "text": "Three-Way Comparison"
+      },
+      {
+        "type": "table",
+        "text": "Source | Date | Type | Authority\nSigned Content Agreement (MSG-5051, Section 3.1) | May 28, 2026 | Contractual hard deadline | PRIMARY — binding\nMarco Ferreira logistics follow-up (MSG-5052) | May 25, 2026 | Informal editorial preference | SECONDARY — non-binding\nNina's Notion planning note (pre-contract) | May 22, 2026 | Self-entered estimate | TERTIARY — no official basis"
+      },
+      {
+        "type": "heading_2",
+        "text": "Authority Classification"
+      },
+      {
+        "type": "paragraph",
+        "text": "Signed contract > Official follow-up email from brand contact > Self-entered Notion planning note\nApplied per standard source-of-truth hierarchy."
+      },
+      {
+        "type": "heading_2",
+        "text": "Discrepancy Diagnosis"
+      },
+      {
+        "type": "paragraph",
+        "text": "Contract vs. follow-up email: MSG-5052 does NOT constitute a contract amendment. Marco explicitly wrote 'The contractual deadline of May 28 of course still stands as the hard deadline.' The May 25 date is a soft editorial preference only.\n\nNotion planning note vs. official sources: The May 22 date was entered during early trip planning before the signed agreement was received. It represents a conservative self-estimate with no official basis. Classified as data-entry / premature planning note."
+      },
+      {
+        "type": "heading_2",
+        "text": "Resolution"
+      },
+      {
+        "type": "paragraph",
+        "text": "Conservative principle: Personal action deadline = May 25 (earliest credible official date) − 1 day buffer = May 24, 2026.\n\nActions taken:\n✅ NPAG-22 (Project Hub) updated with authoritative deadline and source notes\n✅ NPAG-15 and NPAG-19 deliverables checklists updated\n✅ EVT-309 created: Hard contractual deadline — May 28\n✅ EVT-310 created: Personal action deadline — May 24\n✅ TODO-543 marked in_progress; TODO-544 created for Notion update confirmation\n✅ TODO-546 created on hold — no Marco clarification email needed at this time"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-17T11:00:00+00:00",
+    "last_updated": "2026-03-17T11:15:00+00:00"
+  },
+  {
+    "page_id": "NPAG-24",
+    "title": "Creator Portal — Access Notes & Upload Checklist (Visit Lisbon May 2026)",
+    "parent_page_id": "NPAG-22",
+    "database_id": null,
+    "properties": {
+      "related_hub": "NPAG-22",
+      "portal_available_from": "2026-05-19",
+      "status": "Pending — awaiting login credentials from Marco"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Visit Lisbon Creator Portal — Upload Checklist"
+      },
+      {
+        "type": "paragraph",
+        "text": "Per MSG-5053 (Marco, 2026-03-14): Creator portal accepts uploads from May 19 onward. Login credentials to follow separately.\n\nChecklist before first upload:\n☐ Login credentials received from Marco\n☐ Blog post #1 draft reviewed and proofread\n☐ Blog post #2 draft reviewed and proofread\n☐ Newsletter feature (400+ words) finalized\n☐ Instagram Stories (minimum 15) archived to Highlights\n☐ All content reviewed against brand guidelines (MSG-5053 attachment)\n☐ All content reviewed against Partnership Standards & Disclosure Policy (NPAG-1)\n☐ Upload complete by personal action deadline: May 24, 2026"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-17T11:30:00+00:00",
+    "last_updated": "2026-03-17T11:30:00+00:00"
+  },
+  {
+    "page_id": "NPAG-29",
+    "title": "Q2 Newsletter Sponsorship — Candidate Review & Decision Brief (April 2026)",
+    "parent_page_id": "NPAG-7",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "status": "decision-required",
+      "date": "2026-04-18",
+      "related_policy": "NPAG-1",
+      "related_tracker": "WB-4"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Q2 Newsletter Sponsorship Slot — Candidate Review & Decision Brief"
+      },
+      {
+        "type": "paragraph",
+        "text": "Date: 2026-04-18 | Prepared by: Nina Caldwell Media internal review"
+      },
+      {
+        "type": "heading_2",
+        "text": "Context"
+      },
+      {
+        "type": "paragraph",
+        "text": "Following the removal of Nomad Compass from the Q2 sponsorship package (policy conflict — see NPAG-8), the Q2 bundle fell below the $1,500 bundled-discount threshold. Three candidate sponsors were evaluated for the open slot(s): Pacific Wanderer Gear Co., Wanderluxe Media (renewal), and Terra Travel (expansion)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Majority Preference Signal"
+      },
+      {
+        "type": "paragraph",
+        "text": "Both Priya Nair (Wanderluxe Media) and Alex Mendes (Terra Travel) independently recommended Pacific Wanderer Gear Co. as the strongest candidate based on: (1) audience alignment with adventure/outdoor travel readers, and (2) headline rate of $950/issue — highest of the three options. This constitutes a majority preference among consulted contacts."
+      },
+      {
+        "type": "heading_2",
+        "text": "Policy Review — NPAG-1 Hard Constraint Check"
+      },
+      {
+        "type": "paragraph",
+        "text": "Per NPAG-1 (Partnership Standards & Disclosure Policy), Section 2 — Hard Constraints: ALL paid placements must include explicit #ad or #sponsored disclosure. Any contract clause that bars, limits, or conditions disclosure labeling is an AUTOMATIC DISQUALIFIER regardless of rate, audience fit, or third-party recommendation."
+      },
+      {
+        "type": "heading_2",
+        "text": "Candidate Assessment"
+      },
+      {
+        "type": "paragraph",
+        "text": "CANDIDATE A — Pacific Wanderer Gear Co.\n• Headline rate: $950/issue ($1,900 for two issues)\n• Audience fit: High (adventure gear, outdoor travel)\n• Contract clause: Section 3.1 requires placements appear as native editorial content WITHOUT #ad/#sponsored labeling\n• NPAG-1 compliance: ❌ DISQUALIFIED — Section 3.1 is a direct hard violation of NPAG-1 disclosure requirement\n• Decision: VETO — majority preference does not override hard policy constraint. Headline rate is irrelevant once the disclosure clause is identified."
+      },
+      {
+        "type": "paragraph",
+        "text": "CANDIDATE B — Wanderluxe Media (Renewal)\n• Headline rate: $800/issue ($1,600 for two issues)\n• Audience fit: High (established partner, proven engagement with Nina's readership)\n• Contract clause: Full compliance with #ad/#sponsored labeling — no restrictions\n• NPAG-1 compliance: ✅ COMPLIANT\n• Bundled-discount impact: $1,600 renewal pushes Q2 total above $1,500 threshold — 8% bundled discount applies retroactively across all Q2 placements\n• Net revenue (see WB-4): Highest confirmed net revenue among compliant options after bundled discount applied\n• Relationship history: Existing partner, low onboarding friction, billing process established"
+      },
+      {
+        "type": "paragraph",
+        "text": "CANDIDATE C — Terra Travel (Expansion)\n• Headline rate: $700/issue (estimated, per WB-4 and prior correspondence)\n• Audience fit: Medium-high (destination travel focus, good but narrower overlap)\n• Contract clause: Standard terms, no disclosure restrictions flagged\n• NPAG-1 compliance: ✅ COMPLIANT\n• Bundled-discount impact: $700/issue for two issues = $1,400 — does NOT reach $1,500 threshold alone; would require additional slot to trigger discount\n• Net revenue: Lower than Wanderluxe renewal on a two-issue basis; does not independently trigger bundled discount"
+      },
+      {
+        "type": "heading_2",
+        "text": "Recommendation"
+      },
+      {
+        "type": "paragraph",
+        "text": "RECOMMENDED: Candidate B — Wanderluxe Media Renewal (Path B)\n\nRationale:\n1. Disclosure compliance: Fully compliant with NPAG-1; no contract risk.\n2. Net revenue: $1,600 confirmed for two issues — highest net revenue among compliant options.\n3. Bundled-discount trigger: $1,600 pushes Q2 total above $1,500 threshold, activating 8% retroactive discount across all Q2 placements — improving overall Q2 net revenue beyond the face rate.\n4. Relationship continuity: Established partner reduces negotiation time and onboarding overhead ahead of Lisbon trip.\n5. Pacific Wanderer exclusion is non-negotiable: The non-disclosure clause in Section 3.1 of their contract is a hard NPAG-1 violation. Majority preference from Priya Nair and Alex Mendes, and the higher headline rate, do not override this constraint."
+      },
+      {
+        "type": "heading_2",
+        "text": "Follow-Up Actions Required"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Confirm Wanderluxe Media renewal — send signed contract and issue schedule\n2. Send polite decline to Pacific Wanderer Gear Co. — cite scheduling/fit (do not detail policy conflict externally)\n3. Log outcome in NPAG-14 (Partnership Outcomes Log) and WB-1 (Revenue Tracker)\n4. Update WB-4 (Q2 Sponsorship Slot Net Revenue Comparison) with final confirmed figures"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-18T10:30:00-07:00",
+    "last_updated": "2026-04-18T10:30:00-07:00"
+  },
+  {
+    "page_id": "NPAG-30",
+    "title": "Pacific Wanderer Gear Co. — Declined Pitch Archive (Disclosure Violation)",
+    "parent_page_id": "NPAG-1",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "status": "archived-declined",
+      "date": "2026-04-18",
+      "related_policy": "NPAG-1",
+      "outcome": "policy-disqualified"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Pacific Wanderer Gear Co. — Declined Pitch Archive"
+      },
+      {
+        "type": "paragraph",
+        "text": "Date of inquiry: 2026-04-15 | Date of decision: 2026-04-18 | Outcome: Declined — NPAG-1 hard violation"
+      },
+      {
+        "type": "heading_2",
+        "text": "Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pacific Wanderer Gear Co. (contact: Jamie Okafor, partnerships@pacificwanderer.example) proposed a two-issue Q2 newsletter sponsorship at $950/issue. The proposal was majority-recommended by Priya Nair (Wanderluxe Media) and Alex Mendes (Terra Travel) based on audience alignment and headline rate."
+      },
+      {
+        "type": "heading_2",
+        "text": "Disqualification Reason"
+      },
+      {
+        "type": "paragraph",
+        "text": "Contract Section 3.1 requires that sponsored placements appear as native editorial content without #ad or #sponsored labeling. This is a direct and irreconcilable violation of NPAG-1 (Partnership Standards & Disclosure Policy), Section 2 Hard Constraints. The clause cannot be waived or negotiated around — it triggers automatic disqualification per policy."
+      },
+      {
+        "type": "heading_2",
+        "text": "External Communication Note"
+      },
+      {
+        "type": "paragraph",
+        "text": "Decline response to Pacific Wanderer should cite scheduling constraints and current slot availability — do not reference the policy conflict externally. Keep the door open for future engagement if they revise their standard contract terms to permit disclosure labeling."
+      },
+      {
+        "type": "heading_2",
+        "text": "Cross-References"
+      },
+      {
+        "type": "paragraph",
+        "text": "• NPAG-1 — Partnership Standards & Disclosure Policy\n• NPAG-14 — Partnership Outcomes Log\n• WB-1 — Revenue & Sponsorship Tracker\n• WB-4 — Q2 Sponsorship Slot Net Revenue Comparison\n• See also: NPAG-8 (Nomad Compass — prior disclosure-violation decline)"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-18T11:00:00-07:00",
+    "last_updated": "2026-04-18T11:00:00-07:00"
+  },
+  {
+    "page_id": "NPAG-31",
+    "title": "Algarve Coast Campaign Addendum — Section 4.2 Policy Conflict Log",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "status": "on-hold",
+      "partner": "Visit Lisbon",
+      "contact": "Marco Ferreira (CON-226)",
+      "conflict_type": "disclosure-policy-violation",
+      "policy_reference": "NPAG-1",
+      "created_date": "2026-03-09",
+      "resolution": "pending — renegotiation or decline required"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "On 2026-03-06, Marco Ferreira (Visit Lisbon) sent a contract addendum for the Algarve Coast Campaign (MSG-5068), framed as a routine scope extension to the existing May 2026 press trip agreement. A follow-up email (MSG-5067, received 2026-03-09) flagged that Section 4.2 contains updated labeling terms requiring review."
+      },
+      {
+        "type": "heading_2",
+        "text": "Section 4.2 — Exact Clause Language"
+      },
+      {
+        "type": "paragraph",
+        "text": "\"For the Algarve Coast Campaign specifically, Visit Lisbon requests that published content not include any explicit paid-partnership, sponsored, or gifted-trip labeling. This is to preserve the editorial authenticity of the campaign and align with Visit Lisbon's destination-marketing positioning. Content should be presented as organic editorial coverage. This clause supersedes any general disclosure language in the original agreement for Algarve-specific deliverables only.\""
+      },
+      {
+        "type": "heading_2",
+        "text": "Policy Conflict Assessment"
+      },
+      {
+        "type": "paragraph",
+        "text": "NPAG-1 (Partnership Standards & Disclosure Policy) states a hard requirement: all brand-funded work — including press trips, gifted experiences, and sponsored content — must carry explicit paid-partnership or sponsored disclosure in every published piece, with no exceptions permitted by partner request. Section 4.2 directly contradicts this by requiring omission of all such labeling and framing paid content as organic editorial. This is not a gray area or ambiguous interpretation — it is a clear, material conflict with a non-negotiable policy rule."
+      },
+      {
+        "type": "heading_2",
+        "text": "Credibility Assessment"
+      },
+      {
+        "type": "paragraph",
+        "text": "The addendum is from a verified partner contact (Marco Ferreira, CON-226) via official domain (visitlisbon-partnerships.example), timestamped 2026-03-06, and references an existing signed agreement. The clause language is unambiguous. High credibility — not a phishing attempt or misunderstanding."
+      },
+      {
+        "type": "heading_2",
+        "text": "Decision"
+      },
+      {
+        "type": "paragraph",
+        "text": "Do NOT sign the addendum as written. The surface assumption that this was a routine sign-off (TODO-563) was incorrect. The addendum is placed on hold (TODO-564). Next step: draft a renegotiation request asking Visit Lisbon to remove Section 4.2 entirely, or decline the Algarve campaign extension while preserving the existing Lisbon press trip agreement. The core May 2026 trip is not affected — only the Algarve Coast Campaign addendum is in dispute."
+      },
+      {
+        "type": "heading_2",
+        "text": "Next Steps"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Draft renegotiation email to Marco Ferreira requesting removal of Section 4.2 (or decline Algarve extension)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Confirm existing Lisbon press trip agreement remains intact and unaffected"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Update TODO-563 status to blocked"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Do not begin any Algarve-specific content planning until clause is resolved"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-09T16:00:00+00:00",
+    "last_updated": "2026-03-09T16:00:00+00:00"
+  },
+  {
+    "page_id": "NPAG-32",
+    "title": "Visit Lisbon — Algarve Coast Campaign: Renegotiation Draft (Section 4.2 Removal Request)",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "status": "draft",
+      "partner": "Visit Lisbon",
+      "contact": "Marco Ferreira (CON-226)",
+      "type": "renegotiation-response",
+      "created_date": "2026-03-09"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Draft Response to Marco Ferreira — Renegotiation Request"
+      },
+      {
+        "type": "paragraph",
+        "text": "Subject: Re: Algarve Coast Campaign — Contract Addendum (Section 4.2 Non-Disclosure Clause)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Hi Marco,\n\nThank you for sending over the Algarve Coast Campaign addendum and for the follow-up. I've reviewed the document carefully and I'm excited about the scope extension — the Lagos and Sagres segment sounds like a wonderful addition to the itinerary.\n\nHowever, I need to flag a concern with Section 4.2 before I can move forward with signing. The clause as written requires me to omit paid-partnership and sponsored labeling from Algarve content and present it as organic editorial coverage. I'm not able to agree to this term.\n\nMy Partnership Standards & Disclosure Policy requires explicit disclosure on all brand-funded work — including press trips and gifted experiences — without exception. This isn't a preference; it's a firm policy I maintain to stay compliant with FTC guidelines and to protect both my audience's trust and my own professional standing. A clause requiring me to suppress that disclosure would put me in violation of federal guidelines regardless of the contractual language.\n\nI'd love to find a path forward that works for both of us. My proposal: remove Section 4.2 in its entirety, and I'll proceed with the addendum as amended. All Algarve content would carry standard paid-partnership disclosure consistent with my existing Visit Lisbon agreement — which I believe is already the case for the core Lisbon deliverables.\n\nIf Visit Lisbon's legal team requires the confidentiality language for other reasons, I'm happy to discuss alternative wording that doesn't require suppression of disclosure. But I can't sign the addendum as currently drafted.\n\nPlease let me know how you'd like to proceed. I want to make this campaign work and I'm committed to the May trip — I just need the disclosure requirement to stay intact.\n\nBest,\nNina Caldwell\nNina Caldwell Media"
+      },
+      {
+        "type": "paragraph",
+        "text": "--- STATUS: Draft — review before sending. Do not send until Nina confirms. ---"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-09T16:30:00+00:00",
+    "last_updated": "2026-03-09T16:30:00+00:00"
+  },
+  {
+    "page_id": "NPAG-33",
+    "title": "Q2 Affiliate Promotion Budget — Cap Calculation & Roam & Earn Staged Investment Plan",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "quarter": "Q2 2026",
+      "status": "active",
+      "last_decision_date": "2026-02-24",
+      "linked_workbook": "WB-6"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Q2 Affiliate Promotion Budget — Cap Calculation & Roam & Earn Staged Investment Plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Policy: Affiliate promotion spend is capped at 20% of confirmed Q2 sponsorship revenue (cash received, not invoiced). This page tracks the cap calculation, the Roam & Earn staged investment plan, and the decision log for the early-bird window."
+      },
+      {
+        "type": "heading_2",
+        "text": "Budget Cap Scenarios (as of 2026-02-24)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Confirmed Q2 sponsorship revenue (cash received): $1,050.00\n- Terra Travel (received 2026-02-14): $600.00\n- Other confirmed income: $450.00\n- Wanderluxe Media Installment #1 (PENDING — due 2026-03-05): NOT YET CONFIRMED\n\nCurrent confirmed cap (20% × $1,050): $210.00\nPost-installment cap (20% × $1,500): $300.00"
+      },
+      {
+        "type": "heading_2",
+        "text": "Roam & Earn Phase 1 — Early-Bird Window Analysis"
+      },
+      {
+        "type": "paragraph",
+        "text": "Early-bird Phase 1 cost: $240.00 (non-refundable; window closes 2026-02-27 at 5 PM ET)\nStandard Phase 1 cost: $300.00 (available from 2026-03-01)\nPrice delta (opportunity cost of waiting): $60.00\n\nPhase 1 vs. current confirmed cap: OVER by $30.00\nPhase 1 vs. post-installment cap: WITHIN cap by $60.00"
+      },
+      {
+        "type": "heading_2",
+        "text": "Risk Assessment"
+      },
+      {
+        "type": "paragraph",
+        "text": "Commitment is NON-REFUNDABLE once invoice is issued (within 24 hours of sign-off).\n\nScenario A — Commit now, installment clears on time:\n- Spend: $240 | Cap after clearance: $300 | Within cap ✓\n- Net outcome: saves $60 vs. standard rate\n\nScenario B — Commit now, installment does NOT clear before deadline (or clears after Feb 27):\n- Spend: $240 | Current cap: $210 | Overspend: $30 (non-refundable)\n- Policy violation: 20% cap exceeded by $30\n\nScenario C — Wait for installment to clear, then commit at standard rate:\n- Spend: $300 | Cap after clearance: $300 | At cap exactly ✓\n- Opportunity cost: $60 (price delta)\n- No policy violation risk\n\nExpected risk loss calculation:\n- Estimated probability installment clears before Feb 27 deadline: LOW (~15–20%) — Wanderluxe billing confirmed March 1 batch processing; earliest realistic clearance is March 3–5, which is AFTER the Feb 27 deadline.\n- Expected overspend exposure if committing now: ~80–85% probability × $30 overspend = ~$24–$25.50 expected loss\n- Opportunity cost of waiting: $60 (certain)\n\nConclusion: Expected risk loss (~$24–$25.50) < Opportunity cost of waiting ($60). However, the non-refundable nature of the commitment and the near-certain timing mismatch (installment clears AFTER deadline) means the overspend is not probabilistic — it is near-certain at ~80–85%. Committing now at $240 against a $210 confirmed cap is a policy violation with ~80–85% probability."
+      },
+      {
+        "type": "heading_2",
+        "text": "Decision Rationale (NPAG-9 Log)"
+      },
+      {
+        "type": "paragraph",
+        "text": "RECOMMENDATION: HOLD — Do not commit to Phase 1 early-bird rate at this time.\n\nRationale: The Wanderluxe Media Installment #1 ($450) is confirmed to process in the March 1 billing batch, with clearance expected March 3–5. The early-bird window closes February 27 — a gap of 4–6 days. Committing now at $240 against a confirmed cap of $210 would exceed the 20% policy cap by $30 with ~80–85% probability (near-certain, not speculative). While the $60 opportunity cost of waiting is real, it is a known, bounded loss versus a near-certain policy violation.\n\nWait for installment clearance (est. March 3–5), then commit to Phase 1 at the standard rate of $300, which will be exactly at the post-installment cap. Queue follow-up todo tied to installment clearance date.\n\nStaged investment plan:\n- Phase 1: Commit at standard rate ($300) once installment clears — target March 3–5\n- Phase 2: Evaluate after Phase 1 performance data available (Q2 mid-point review)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Action Items"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Reply to Sophie Tran — inform her of hold decision; ask if standard rate Phase 1 slot can be reserved pending installment clearance (target: 2026-02-24 EOD)\n2. Monitor Wanderluxe installment clearance — check finance records week of March 3\n3. Once installment confirmed, commit to Phase 1 at standard rate ($300) — deadline: March 5\n4. Update this page and WB-6 upon commitment"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-24T14:30:00-05:00",
+    "last_updated": "2026-02-24T15:45:00-05:00"
+  },
+  {
+    "page_id": "NPAG-34",
+    "title": "Roam & Earn — Affiliate Network Research Notes",
+    "parent_page_id": "NPAG-33",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "status": "reference",
+      "created": "2026-02-22"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Roam & Earn — Affiliate Network Research Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Background research compiled before evaluating the Q2 placement package offer from Sophie Tran."
+      },
+      {
+        "type": "heading_2",
+        "text": "Network Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Roam & Earn is a travel-focused affiliate placement network connecting content creators with travel brands for newsletter and blog placements. Founded 2021. Reported 22% YoY creator partnership growth (Travel Media Briefing, Feb 2026).\n\nContact: Sophie Tran, Partnership Manager — sophie.tran@roamandearn.example\nGeneral partnerships: partnerships@roamandearn.example"
+      },
+      {
+        "type": "heading_2",
+        "text": "Q2 2026 Package Details"
+      },
+      {
+        "type": "paragraph",
+        "text": "Premium newsletter placement — Q2 2026:\n- Phase 1 (Issues #1–2): $240 early-bird / $300 standard\n- Phase 2 (Issues #3–4): $240 early-bird / $300 standard\n- Full package (all 4): $450 early-bird / $560 standard\n\nEarly-bird deadline: 2026-02-27 at 5 PM ET\nCommitment terms: Non-refundable once invoice issued (within 24 hours of sign-off)\nPhase 2: Optional add-on; can be committed separately at then-current rate\n\nDisclosure compliance: Roam & Earn placements are affiliate-based; standard FTC disclosure language applies. No gifting or undisclosed compensation — compliant with NPAG-1 Partnership Standards."
+      },
+      {
+        "type": "heading_2",
+        "text": "Fit Assessment"
+      },
+      {
+        "type": "paragraph",
+        "text": "Audience alignment: Travel-focused, mid-tier newsletter (5k–20k range) — good fit for Nina Caldwell Media audience demographics.\nRevenue potential: Affiliate commission structure — conversion-dependent. Not a guaranteed flat-fee sponsorship.\nRisk: Non-refundable placement cost is an upfront expense against uncertain affiliate revenue. Budget cap policy (20% of confirmed sponsorship revenue) applies.\nPrevious relationship: No prior placements with Roam & Earn. First engagement."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-22T11:00:00-05:00",
+    "last_updated": "2026-02-24T10:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-35",
+    "title": "Inbox Triage Report — April 22, 2026",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "date": "2026-04-22",
+      "type": "triage-report"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Inbox Triage — April 22, 2026"
+      },
+      {
+        "type": "callout",
+        "text": "⚠️ HARD DEADLINE / POLICY CONFLICT FLAGS: (1) MSG-5075 — Marco Ferreira / Algarve addendum: Section 4.2 NDA violates NPAG-1; Marco requesting approval by end of week. (2) MSG-5076 — Sophie Tran / Roam & Earn: Q2 premium placement window closes May 2."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 1 — Algarve Contract Addendum (Marco Ferreira)"
+      },
+      {
+        "type": "paragraph",
+        "text": "MSG-5075 | From: marco.ferreira@visitlisbon-partnerships.example | Received: April 22, 10:14 AM\nWhy it matters: Marco is following up on the Algarve Coast Campaign addendum (sent April 8). Section 4.2 contains a non-disclosure clause that violates Partnership Standards & Disclosure Policy (NPAG-1). He is requesting approval status by end of this week. This is a policy-conflict signal — contract cannot be approved as-is.\nSuggested action: Draft response requesting removal or revision of Section 4.2, or issue formal decline. Do not approve. Create TODO-570. Due: April 25."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 2 — Roam & Earn Placement Window Closing (Sophie Tran)"
+      },
+      {
+        "type": "paragraph",
+        "text": "MSG-5076 | From: sophie.tran@roamandearn.example | Received: April 21, 2:37 PM\nWhy it matters: Q2 premium placement window closes May 2 — after that, 20% early-commitment discount is lost. Two-issue option ($1,700) may fit within Q2 affiliate budget cap vs. full package ($2,400). Hard deadline with financial consequence.\nSuggested action: Review WB-2 (Affiliate & Promotion Budget Tracker), determine if two-issue option fits staged plan, then reply to Sophie or schedule 15-min call. Create TODO-573. Due: May 1."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 3 — Terra Travel Contract Clarification (Alex Mendes)"
+      },
+      {
+        "type": "paragraph",
+        "text": "MSG-5077 | From: alex.mendes@terratravel.example | Received: April 22, 9:02 AM\nWhy it matters: Alex is ready to countersign Q2 Issues #2 and #3 contract (replacement slots after Nomad Compass removal). He needs one clarification on bundled rate vs. creative asset fee before signing. Quick reply unblocks Q2 sponsorship package re-assembly.\nSuggested action: Reply confirming $1,500 bundled rate is final invoice amount (no separate creative fee, per standard media kit terms). Create TODO-571. Due: April 23."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 4 — Wanderluxe Issue #1 Slot Confirmed (Priya Nair)"
+      },
+      {
+        "type": "paragraph",
+        "text": "MSG-5079 | From: priya.nair@wanderluxemedia.example | Received: April 21, 11:20 AM\nWhy it matters: Priya confirmed Issue #1 slot and is processing PO. Countersigned contract expected in 3–5 business days. She needs ad copy specs and placement dimensions by April 30 for production. Action required to keep onboarding on track.\nSuggested action: Send ad copy specs and placement dimensions by April 30. Create TODO-572. No urgency today but calendar the deadline."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 5 — Industry Digests (Low Priority)"
+      },
+      {
+        "type": "paragraph",
+        "text": "MSG-5078 (Travel Media Briefing, April 22) and MSG-5080 (Travel Industry Insider, April 21): Standard industry digests. Notable items: FTC affiliate disclosure memo expected Q3 2026 (audit footer language); Portugal destination marketing spend up; Lisbon #2 most-searched European city. Relevant context for newsletter content and Lisbon trip framing.\nSuggested action: Skim and archive. Pull relevant stats for Thursday newsletter draft if useful."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T11:45:00-04:00",
+    "last_updated": "2026-04-22T11:45:00-04:00"
+  },
+  {
+    "page_id": "NPAG-36",
+    "title": "Q2 Affiliate Promotion Budget — Cap Calculation & Roam & Earn Staged Investment Plan",
+    "parent_page_id": "NPAG-9",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "quarter": "Q2 2026",
+      "status": "active",
+      "last_reviewed": "2026-04-22",
+      "policy_ref": "NPAG-9"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Q2 Affiliate Promotion Budget — Cap Compliance Check & Roam & Earn Staged Investment Plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Anchor date: 2026-04-22. This page documents the hard cap rule, current confirmed revenue, cap calculation, and the optimal phased commitment plan for the Roam & Earn Premium Newsletter Placement Package."
+      },
+      {
+        "type": "heading_2",
+        "text": "1. Hard Policy Constraint (NPAG-9)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Per NPAG-9 (Partnership Standards & Disclosure Policy, Section: Affiliate Promotion Budget), the affiliate promotion budget cap is set at 20% of confirmed Q2 sponsorship revenue (cash received only — pending/ACH-in-transit payments do NOT count). This is a hard ceiling. No commitment may be authorized that would cause cumulative Q2 affiliate promotion spend to exceed this cap, even by a small margin."
+      },
+      {
+        "type": "heading_2",
+        "text": "2. Roam & Earn Package Details (MSG-5013, MSG-5015)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Full package cost: $1,800 (standard rate, due upfront if early-bird window missed)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Early-bird Phase 1 commitment: $900 (locks placement slot; due by April 25, 2026 EOD — EVT-321 / EVT-325)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Phase 2 balance: $900 (due by May 10, 2026 upon campaign launch)"
+      },
+      {
+        "type": "heading_2",
+        "text": "3. Confirmed Q2 Sponsorship Revenue (as of 2026-04-22)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Source: WB-2 (Affiliate & Promotion Budget Tracker), finance records TXN-6004, TXN-6005, TXN-6018."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TXN-6004 — Wanderluxe Media, Q2 Sponsorship Installment 1: $600.00 (CONFIRMED — cash received)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TXN-6005 — Terra Travel, Q2 Sponsorship Issues #2 & #3: $800.00 (CONFIRMED — cash received)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TXN-6018 — Wanderluxe Media, Q2 Sponsorship Installment 2: $600.00 (PENDING — ACH initiated 2026-04-20, expected clearance 2026-04-25 to 2026-04-28; NOT confirmed)"
+      },
+      {
+        "type": "paragraph",
+        "text": "CONFIRMED Q2 Sponsorship Revenue (cash received only): $600 + $800 = $1,400.00"
+      },
+      {
+        "type": "heading_2",
+        "text": "4. Cap Calculation"
+      },
+      {
+        "type": "paragraph",
+        "text": "20% cap on confirmed Q2 revenue: 20% × $1,400.00 = $280.00"
+      },
+      {
+        "type": "paragraph",
+        "text": "Current Q2 affiliate promotion spend to date: $0.00 (no affiliate promotion commitments made yet in Q2)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Maximum safe commitment NOW (as of 2026-04-22): $280.00"
+      },
+      {
+        "type": "heading_2",
+        "text": "5. Overage Analysis — Full Phase 1 Early-Bird Rate"
+      },
+      {
+        "type": "paragraph",
+        "text": "If Nina commits the full Phase 1 early-bird rate of $900 today (2026-04-22): $900 > $280 cap. OVERAGE = $620. THIS COMMITMENT IS BLOCKED. NPAG-9 hard constraint prohibits authorization."
+      },
+      {
+        "type": "heading_2",
+        "text": "6. Pending Installment Replenishment Analysis (TXN-6018 / TXN-6022)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wanderluxe Media Installment 2 ($600) is expected to clear ACH by April 25–28, 2026 (EVT-327). The early-bird Phase 1 deadline is April 25, 2026 EOD (EVT-321 / EVT-325)."
+      },
+      {
+        "type": "paragraph",
+        "text": "IF installment clears by April 25 EOD: Confirmed Q2 revenue would rise to $1,400 + $600 = $2,000. New cap = 20% × $2,000 = $400. Phase 1 commitment of $900 would still exceed $400 cap. OVERAGE = $500. STILL BLOCKED even after installment clears."
+      },
+      {
+        "type": "paragraph",
+        "text": "CONCLUSION: Even with the Wanderluxe installment clearing before the early-bird deadline, the cap only rises to $400 — which is still $500 short of the $900 Phase 1 rate. The full Phase 1 early-bird commitment cannot be authorized under any near-term replenishment scenario within the April 25 window."
+      },
+      {
+        "type": "heading_2",
+        "text": "7. Optimal Staged Commitment Plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "SAFE AMOUNT TO COMMIT NOW (2026-04-22): $280.00 (= 20% of $1,400 confirmed revenue). This is the maximum Phase 1 partial commitment that stays within the current hard cap."
+      },
+      {
+        "type": "paragraph",
+        "text": "NOTE: $280 is below the $900 Phase 1 early-bird rate. Roam & Earn's early-bird structure requires the full $900 Phase 1 payment to lock the discounted rate. A partial $280 payment does not satisfy their Phase 1 terms. Therefore, Nina cannot lock the early-bird rate at this time without breaching NPAG-9."
+      },
+      {
+        "type": "paragraph",
+        "text": "RECOMMENDED ACTION: Contact Sophie Tran (Roam & Earn) to request an extension of the early-bird window, citing budget cycle timing. If extension is denied, the standard rate ($1,800 upfront) becomes the only path — which requires confirmed Q2 revenue of at least $9,000 to stay within cap (20% × $9,000 = $1,800). Current trajectory does not support this without significant additional confirmed sponsorship revenue."
+      },
+      {
+        "type": "paragraph",
+        "text": "HOLD CONDITION: Do not commit any amount to Roam & Earn Phase 1 until either (a) Roam & Earn grants an early-bird extension and confirmed Q2 revenue reaches $4,500+ (cap = $900), or (b) a revised package structure is negotiated that fits within the current or near-term cap."
+      },
+      {
+        "type": "heading_2",
+        "text": "8. Intercept Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-04-22: Cap compliance check performed. Full Phase 1 early-bird commitment of $900 BLOCKED — exceeds 20% cap by $620 (current cap: $280). Post-installment scenario also BLOCKED — cap rises to $400 after TXN-6022 clears, still $500 short of Phase 1 rate. No commitment authorized. TODOs updated: TODO-554, TODO-566, TODO-567, TODO-568."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T14:05:00-05:00",
+    "last_updated": "2026-04-22T15:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-37",
+    "title": "Roam & Earn — Affiliate Network Research Notes",
+    "parent_page_id": "NPAG-9",
+    "database_id": null,
+    "properties": {
+      "owner": "Nina Caldwell",
+      "status": "reference",
+      "last_reviewed": "2026-04-22"
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Roam & Earn — Affiliate Network Research Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Background research on Roam & Earn affiliate network, compiled prior to Q2 placement decision."
+      },
+      {
+        "type": "heading_2",
+        "text": "Network Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Roam & Earn is a travel-focused affiliate network offering newsletter placement packages for content creators. They specialize in connecting travel brands with newsletter audiences in the 5K–50K subscriber range."
+      },
+      {
+        "type": "heading_2",
+        "text": "Q2 Premium Newsletter Placement Package"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Full package rate: $1,800 (standard, upfront)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Early-bird Phase 1: $900 by April 25, 2026 EOD (locks slot)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Phase 2 balance: $900 by May 10, 2026"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Includes: dedicated newsletter placement (1 issue), co-branded social post, performance bonus tier (>2% CTR)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Disclosure Compliance Check"
+      },
+      {
+        "type": "paragraph",
+        "text": "Roam & Earn contract reviewed against NPAG-1 (Partnership Standards & Disclosure Policy). No non-disclosure or exclusivity clauses identified. Affiliate disclosure language is compatible with Nina's standard footer disclosure. CONTRACT IS COMPLIANT — no policy conflict. Budget cap is the only blocking issue."
+      },
+      {
+        "type": "heading_2",
+        "text": "Contact"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sophie Tran, Partnership Manager — sophie.tran@roamandearn.example. See also: partnerships@roamandearn.example (general inquiries)."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-15T10:00:00-05:00",
+    "last_updated": "2026-04-22T15:35:00-05:00"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "persona_id": "T18_T18_wellington_contract_q2_session_booking_u",
+  "name": "Benjamin Okafor",
+  "email": "benjamin.okafor@nhs.example",
+  "role": "consultant trauma and emergency surgeon",
+  "organization": "Royal London Hospital",
+  "communication_style": "analytical, methodical",
+  "domain_knowledge": [
+    "decision making",
+    "finance",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-02"
+}

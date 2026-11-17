@@ -1,0 +1,17 @@
+{
+  "persona_id": "T01_T07_gpu_training_job_chain_sprint_demo_q1",
+  "name": "Li Ming",
+  "email": "li.ming@bytedance.example",
+  "role": "algorithm intern",
+  "organization": "ByteDance",
+  "communication_style": "collaborative, inclusive",
+  "domain_knowledge": [
+    "client management",
+    "finance",
+    "multi d tradeoff",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-05"
+}

@@ -1,0 +1,14 @@
+{
+  "persona_id": "FREE03_T04_parallel_vendor_outreach_workflow_shared",
+  "name": "Rachel Summers",
+  "email": "rachel@rachelsummersevents.example",
+  "role": "wedding planner",
+  "organization": "Rachel Summers Events",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "scheduling",
+    "support operations",
+    "workflow execution"
+  ],
+  "execution_date": "2026-04-22"
+}
