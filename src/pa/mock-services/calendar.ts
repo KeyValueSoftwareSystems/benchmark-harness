@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { RecordStore } from "./record-store.ts";
 import type { FixtureLoader } from "./types.ts";
 
 interface CalendarEvent {
@@ -13,7 +14,8 @@ interface CalendarEvent {
 
 export function calendarRoutes(load: FixtureLoader): Router {
 	const r = Router();
-	const events = (): CalendarEvent[] => load("calendar/events.json");
+	const store = new RecordStore<CalendarEvent>(() => load("calendar/events.json"), ["event_id"], "EVT");
+	const events = (): CalendarEvent[] => store.all();
 
 	r.post("/calendar/events", (req, res) => {
 		const all = events();
@@ -57,12 +59,20 @@ export function calendarRoutes(load: FixtureLoader): Router {
 	});
 
 	r.post("/calendar/events/create", (req, res) => {
-		console.log("[mock-calendar] create:", req.body.title);
-		res.json({ success: true, event_id: `EVT-${Date.now()}` });
+		const { title, start_time, end_time, attendees, location } = req.body;
+		const event = store.create({
+			title,
+			start_time,
+			end_time,
+			attendees: attendees ?? [],
+			location: location ?? "",
+			recurring: false,
+		});
+		res.json({ success: true, event_id: event.event_id });
 	});
 
 	r.post("/calendar/events/delete", (req, res) => {
-		console.log("[mock-calendar] delete:", req.body.event_id);
+		if (!store.remove(req.body.event_id)) return res.status(404).json({ success: false, error: "event not found" });
 		res.json({ success: true });
 	});
 

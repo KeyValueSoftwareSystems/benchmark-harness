@@ -1,8 +1,8 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 
-/** The four buckets a selection draws its worlds from. */
-export const Bucket = { work: "work", personalLife: "personal_life", homeFamily: "home_family", selfEmployed: "self_employed" } as const;
+/** The three buckets a selection draws its worlds from. */
+export const Bucket = { work: "work", personalFamily: "personal_family", selfEmployed: "self_employed" } as const;
 export type Bucket = (typeof Bucket)[keyof typeof Bucket];
 const BUCKETS = new Set<string>(Object.values(Bucket));
 

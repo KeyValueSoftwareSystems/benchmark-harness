@@ -125,8 +125,7 @@ PERSONAL_LIFE_TAGS = frozenset({Tag.PERSONAL, Tag.MIXED})
 
 class Bucket(str, Enum):
     WORK = "work"
-    PERSONAL_LIFE = "personal_life"
-    HOME_FAMILY = "home_family"
+    PERSONAL_FAMILY = "personal_family"
     SELF_EMPLOYED = "self_employed"
 
 
@@ -172,6 +171,7 @@ class BucketSpec:
     max_per_persona: int
     pool: str
     is_member: Callable[[TaskFacts, Tag | None], bool]
+    translated: bool = False
 
 
 @dataclass(frozen=True)
@@ -389,19 +389,26 @@ def _is_self_employed_task(facts: TaskFacts, _tag: Tag | None) -> bool:
 
 
 BUCKET_SPECS = (
-    BucketSpec(Bucket.WORK, 16, 2, "benchmark tasks tagged work", _is_work_task),
+    BucketSpec(Bucket.WORK, 30, 3, "benchmark tasks tagged work", _is_work_task),
     BucketSpec(
-        Bucket.PERSONAL_LIFE,
-        8,
-        2,
+        Bucket.PERSONAL_FAMILY,
+        9,
+        4,
         "benchmark tasks tagged personal or mixed, then train tasks tagged personal or mixed",
         _is_personal_life_task,
     ),
-    BucketSpec(Bucket.HOME_FAMILY, 8, 8, "train tasks of the homemaker persona", _is_home_family_task),
+    BucketSpec(
+        Bucket.PERSONAL_FAMILY,
+        10,
+        10,
+        "train tasks of the homemaker persona",
+        _is_home_family_task,
+        translated=True,
+    ),
     BucketSpec(
         Bucket.SELF_EMPLOYED,
+        31,
         8,
-        2,
         "eligible English train tasks of self-employed personas",
         _is_self_employed_task,
     ),
@@ -453,7 +460,7 @@ def select_tasks(usable: Sequence[TaskFacts], tags: Mapping[TaskKey, Tag]) -> li
                     bucket=spec.name,
                     facts=item,
                     world_id=world_id_for(item),
-                    translated=spec.name is Bucket.HOME_FAMILY,
+                    translated=spec.translated,
                 )
             )
             taken.add(item.key)
@@ -536,10 +543,15 @@ def build_manifest(
             "noGui": True,
             "supportedServicesOnly": True,
             "excludedBecauseAlreadyAWorld": report.excluded[ExclusionRule.ALREADY_A_WORLD],
-            "buckets": {
-                spec.name.value: {"count": spec.count, "maxPerPersona": spec.max_per_persona, "pool": spec.pool}
+            "buckets": [
+                {
+                    "bucket": spec.name.value,
+                    "count": spec.count,
+                    "maxPerPersona": spec.max_per_persona,
+                    "pool": spec.pool,
+                }
                 for spec in BUCKET_SPECS
-            },
+            ],
         },
         "tasks": [picked_entry(item) for item in picked],
         "rejected": [rejection_entry(rejection) for rejection in rejections],

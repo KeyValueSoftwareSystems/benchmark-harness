@@ -1,9 +1,11 @@
 import { Router } from "express";
+import { RecordStore, type FixtureRecord } from "./record-store.ts";
 import type { FixtureLoader } from "./types.ts";
 
 export function clawObsidianRoutes(load: FixtureLoader): Router {
 	const r = Router();
-	const vault = (): any[] => load("claw_obsidian/vault.json");
+	const store = new RecordStore<FixtureRecord>(() => load("claw_obsidian/vault.json"), ["note_id", "id", "path"], "OBSN");
+	const vault = (): FixtureRecord[] => store.all();
 
 	r.post("/claw_obsidian/notes", (req, res) => {
 		res.json({ total: vault().length, notes: vault() });
@@ -12,28 +14,33 @@ export function clawObsidianRoutes(load: FixtureLoader): Router {
 	r.post("/claw_obsidian/notes/get", (req, res) => {
 		const { note_id } = req.body;
 		if (!note_id) return res.json({ error: "note_id required" });
-		const n = vault().find((n) => n.note_id === note_id || n.id === note_id || n.path === note_id);
+		const n = store.find(note_id);
 		if (!n) return res.status(404).json({ error: "note not found" });
 		res.json(n);
 	});
 
 	r.post("/claw_obsidian/notes/create", (req, res) => {
-		console.log("[mock-obsidian] create:", req.body.title);
-		res.json({ success: true, note_id: `OBS-${Date.now()}` });
+		const { title, folder, tags, content } = req.body;
+		const note = store.create({ title, folder: folder ?? "", tags: tags ?? [], content: content ?? "" });
+		res.json({ success: true, note_id: note.note_id });
 	});
 
 	r.post("/claw_obsidian/notes/update", (req, res) => {
-		console.log("[mock-obsidian] update:", req.body.note_id);
+		const { note_id, ...changes } = req.body;
+		if (!store.update(note_id, changes)) return res.status(404).json({ success: false, error: "note not found" });
 		res.json({ success: true });
 	});
 
 	r.post("/claw_obsidian/notes/delete", (req, res) => {
-		console.log("[mock-obsidian] delete:", req.body.note_id);
+		if (!store.remove(req.body.note_id)) return res.status(404).json({ success: false, error: "note not found" });
 		res.json({ success: true });
 	});
 
 	r.post("/claw_obsidian/notes/append", (req, res) => {
-		console.log("[mock-obsidian] append:", req.body.note_id);
+		const { note_id, text } = req.body;
+		const note = store.find(note_id);
+		if (!note) return res.status(404).json({ success: false, error: "note not found" });
+		store.update(note_id, { content: `${note.content ?? ""}\n${text}` });
 		res.json({ success: true });
 	});
 

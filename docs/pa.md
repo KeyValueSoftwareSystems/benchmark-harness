@@ -1,6 +1,6 @@
 # PA (Personal Assistant) benchmark
 
-The PA benchmark compares **personal assistants** (PAAs: OpenClaw and Hermes) on 60 world scenarios: the original 20 and the 40 worlds of the [`everyday-v1` selection](everyday-v1.md). A pi agent plays the user persona and talks to the PAA through the `ask_paa` tool. Worlds live in `resources/pa/worlds/<id>/`, each with a `world.yaml` (task, category, tools) and `grading.yaml` (scoring rubric).
+The PA benchmark compares **personal assistants** (PAAs: OpenClaw and Hermes) on 100 world scenarios: the original 20 and the 80 worlds of the [`everyday-v1` selection](everyday-v1.md). A pi agent plays the user persona and talks to the PAA through the `ask_paa` tool. Worlds live in `resources/pa/worlds/<id>/`, each with a `world.yaml` (task, category, tools) and `grading.yaml` (scoring rubric).
 
 ## Scoring
  Each run is scored from 0 to 1:

@@ -177,7 +177,7 @@ test("a world's trials collapse into one world result with its pass count", () =
 });
 
 test("byBucket groups selection worlds by bucket and missingWorlds lists worlds the assistant never ran", () => {
-	const selection = selectionOf([task("w1", Bucket.work), task("w2", Bucket.work), task("w3", Bucket.personalLife), task("w4", Bucket.homeFamily)]);
+	const selection = selectionOf([task("w1", Bucket.work), task("w2", Bucket.work), task("w3", Bucket.personalFamily), task("w4", Bucket.selfEmployed)]);
 	const data = dataFor(
 		[
 			paRun("w1", { paa: { costUsd: 0.01 }, persona: { costUsd: 0.01 } }),
@@ -190,8 +190,8 @@ test("byBucket groups selection worlds by bucket and missingWorlds lists worlds 
 	const metrics = data.assistants[0];
 	assert.deepEqual(metrics.byBucket, [
 		{ bucket: Bucket.work, worlds: 2, runs: 2, passRate: 50, meanScore: 1, meanTotalCostUsd: 0.03 },
-		{ bucket: Bucket.personalLife, worlds: 1, runs: 1, passRate: 100, meanScore: 1, meanTotalCostUsd: 0.04 },
-		{ bucket: Bucket.homeFamily, worlds: 1, runs: 0, passRate: null, meanScore: null, meanTotalCostUsd: null },
+		{ bucket: Bucket.personalFamily, worlds: 1, runs: 1, passRate: 100, meanScore: 1, meanTotalCostUsd: 0.04 },
+		{ bucket: Bucket.selfEmployed, worlds: 1, runs: 0, passRate: null, meanScore: null, meanTotalCostUsd: null },
 	]);
 	assert.deepEqual(metrics.missingWorlds, ["w4"]);
 	assert.deepEqual(data.selection, { name: "test-selection", taskCount: 4 });
