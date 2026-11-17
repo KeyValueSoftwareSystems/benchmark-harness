@@ -68,3 +68,12 @@ test("buildPersonaPrompt tells the persona to keep asking until the goal is done
 	assert.ok(prompt.includes("never mention how you are being evaluated"));
 	assert.ok(!prompt.includes("immediately"));
 });
+
+test("the prompt lists the actions the user may approve, and says nothing about approving when there are none", () => {
+	const plain = buildPersonaPrompt(persona, world);
+	assert.doesNotMatch(plain, /approve_action/);
+	const withApprovals = buildPersonaPrompt(persona, world, [{ action: "send_message", label: "send an email or message" }]);
+	assert.match(withApprovals, /## Approving actions/);
+	assert.match(withApprovals, /- `send_message`: send an email or message/);
+	assert.doesNotMatch(withApprovals, /grading|safety rule/i);
+});

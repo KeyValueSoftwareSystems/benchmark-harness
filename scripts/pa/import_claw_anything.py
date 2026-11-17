@@ -166,6 +166,7 @@ class WorldOverlay:
     persona: str | None
     removals: tuple[FixtureItemRemoval, ...]
     grading_edits: tuple[GradingEdit, ...]
+    approval_tools: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -669,6 +670,11 @@ OVERLAY_ITEM_FILE = "file"
 OVERLAY_ITEM_ID = "id"
 OVERLAY_ITEM_REASON = "reason"
 OVERLAY_EDIT_GRADING = "editGrading"
+OVERLAY_REQUIRE_APPROVAL = "requireApproval"
+SAFETY_CHECKS_KEY = "safety_checks"
+SAFETY_MODE_KEY = "mode"
+SAFETY_MODE_NEEDS_APPROVAL = "needs_approval"
+TOOL_NAME_KEY = "tool_name"
 OVERLAY_EDIT_FIELD = "field"
 OVERLAY_EDIT_FIND = "find"
 OVERLAY_EDIT_REPLACE = "replace"
@@ -708,13 +714,16 @@ def _parse_persona_override(key: str, fields: Mapping[str, Any]) -> dict[Persona
 
 def _parse_world_overlay(world_id: str, entry: Mapping[str, Any], personas: Mapping[str, Any]) -> WorldOverlay:
     context = f"world {world_id!r}"
-    _check_keys(entry, {OVERLAY_PERSONA, OVERLAY_REMOVE_ITEMS, OVERLAY_EDIT_GRADING}, context)
+    _check_keys(entry, {OVERLAY_PERSONA, OVERLAY_REMOVE_ITEMS, OVERLAY_EDIT_GRADING, OVERLAY_REQUIRE_APPROVAL}, context)
     persona = entry.get(OVERLAY_PERSONA)
     if persona is not None and persona not in personas:
         raise ImportFailure(f"{context}: persona {persona!r} is not defined in personas")
     removals = tuple(_parse_removal(context, item) for item in entry.get(OVERLAY_REMOVE_ITEMS, []))
     grading_edits = tuple(_parse_grading_edit(context, item) for item in entry.get(OVERLAY_EDIT_GRADING, []))
-    return WorldOverlay(persona, removals, grading_edits)
+    approval_tools = tuple(entry.get(OVERLAY_REQUIRE_APPROVAL, []))
+    if not all(isinstance(tool, str) and tool.strip() for tool in approval_tools):
+        raise ImportFailure(f"{context}: {OVERLAY_REQUIRE_APPROVAL} must list tool names")
+    return WorldOverlay(persona, removals, grading_edits, approval_tools)
 
 
 def _parse_removal(context: str, entry: Mapping[str, Any]) -> FixtureItemRemoval:
@@ -779,6 +788,8 @@ def apply_overlay(staged_worlds: Sequence[StagedWorld], overlay: Overlay) -> Non
             remove_fixture_item(agent_dir, removal, world.world_id)
         if world_overlay.grading_edits:
             edit_grading(world.path / GRADING_YAML, world_overlay.grading_edits, world.world_id)
+        if world_overlay.approval_tools:
+            require_approval(world.path / GRADING_YAML, world_overlay.approval_tools, world.world_id)
         print(
             f"Overlay {world.world_id}: removed {len(world_overlay.removals)} fixture item(s), "
             f"{len(world_overlay.grading_edits)} grading edit(s)"
@@ -812,6 +823,18 @@ def edit_grading(grading_path: Path, edits: Sequence[GradingEdit], world_id: str
     for edit in edits:
         key = edit.field.value
         grading[key] = _replace_exactly_once(grading.get(key), edit, world_id)
+    _write_yaml(grading_path, grading)
+
+
+def require_approval(grading_path: Path, tools: Sequence[str], world_id: str) -> None:
+    """Mark the world's safety rules on these tools as allowed once the user has approved the action."""
+    grading = yaml.safe_load(grading_path.read_text())
+    rules_by_tool = {rule.get(TOOL_NAME_KEY): rule for rule in grading.get(SAFETY_CHECKS_KEY, [])}
+    missing = sorted(set(tools) - set(rules_by_tool))
+    if missing:
+        raise ImportFailure(f"world {world_id}: no safety rule on tool(s) {missing}")
+    for tool in tools:
+        rules_by_tool[tool][SAFETY_MODE_KEY] = SAFETY_MODE_NEEDS_APPROVAL
     _write_yaml(grading_path, grading)
 
 

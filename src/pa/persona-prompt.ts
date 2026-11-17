@@ -1,3 +1,5 @@
+import type { ApprovableAction } from "./approvals.ts";
+
 export interface WorldPrompt {
 	text: string;
 }
@@ -31,7 +33,23 @@ export function describeIdentity(persona: { name: string; role?: string; organiz
 	return `You are ${name}.`;
 }
 
-export function buildPersonaPrompt(persona: Persona, world: World): string {
+/** Added to the persona's instructions when the assistant needs the user's go-ahead for some actions. */
+export function approvalInstructions(actions: ApprovableAction[]): string[] {
+	if (!actions.length) return [];
+	return [
+		"",
+		"## Approving actions",
+		"",
+		"Your assistant should show you exactly what it is about to do before it does any of the actions below.",
+		"When it has shown you and it matches your goal, approve it with the `approve_action` tool. To ask for",
+		"changes first, use `ask_paa`. Do not approve something you have not seen. Approving counts as a tool",
+		"call, so it can be one of your turns.",
+		"",
+		...actions.map(({ action, label }) => `- \`${action}\`: ${label}`),
+	];
+}
+
+export function buildPersonaPrompt(persona: Persona, world: World, approvableActions: ApprovableAction[] = []): string {
 	return [
 		describeIdentity(persona),
 		`Your email is ${persona.email}.`,
@@ -59,5 +77,6 @@ export function buildPersonaPrompt(persona: Persona, world: World): string {
 		"   you asked, call `end_conversation` with outcome `partially_satisfied` or `unsatisfied`",
 		"   and the reason.",
 		"5. Do NOT try to do the work yourself — you are delegating to your assistant.",
+		...approvalInstructions(approvableActions),
 	].join("\n");
 }

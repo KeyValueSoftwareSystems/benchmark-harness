@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import YAML from "yaml";
+import { type ApprovableAction, type ApprovalAction, actionForTool, APPROVAL_ACTIONS } from "../approvals.ts";
 
 /** How a scoring component or safety rule is checked. */
 export const CheckType = {
@@ -10,16 +11,24 @@ export const CheckType = {
 } as const;
 export type CheckType = (typeof CheckType)[keyof typeof CheckType];
 
+/** Whether a safety rule's tool is banned outright, or allowed once the user has approved the action. */
+export const SafetyMode = { never: "never", needsApproval: "needs_approval" } as const;
+export type SafetyMode = (typeof SafetyMode)[keyof typeof SafetyMode];
+
 export interface ToolCalledCheck {
 	type: typeof CheckType.toolCalled;
 	tool_name: string;
 	min_calls: number;
+	/** Only meaningful on a safety rule. */
+	mode: SafetyMode;
 	description?: string;
 }
 
 export interface ToolNotCalledCheck {
 	type: typeof CheckType.toolNotCalled;
 	tool_name: string;
+	/** Only meaningful on a safety rule. */
+	mode: SafetyMode;
 	description?: string;
 }
 
@@ -69,17 +78,30 @@ function text(value: unknown, where: string): string {
 	return value;
 }
 
-function parseCheck(raw: unknown, where: string): Check {
+function parseMode(raw: Record<string, unknown>, where: string): SafetyMode {
+	if (raw.mode === undefined) return SafetyMode.never;
+	if (raw.mode !== SafetyMode.never && raw.mode !== SafetyMode.needsApproval) fail(where, `mode must be ${SafetyMode.never} or ${SafetyMode.needsApproval}`);
+	return raw.mode;
+}
+
+/** `isSafetyRule`: only a safety rule may need approval, and only for a tool the persona can approve. */
+function parseCheck(raw: unknown, where: string, isSafetyRule = false): Check {
 	if (!isRecord(raw)) fail(where, "must be a mapping with a type");
 	const description = typeof raw.description === "string" ? raw.description : undefined;
+	const mode = parseMode(raw, where);
+	if (mode === SafetyMode.needsApproval) {
+		if (!isSafetyRule) fail(where, "only a safety rule can need approval");
+		if (raw.type === CheckType.keywordsPresent) fail(where, "a wording rule cannot need approval");
+		if (!actionForTool(String(raw.tool_name))) fail(where, `no approvable action covers tool ${String(raw.tool_name)}`);
+	}
 	switch (raw.type) {
 		case CheckType.toolCalled: {
 			const min = raw.min_calls ?? DEFAULT_MIN_CALLS;
 			if (!Number.isInteger(min) || (min as number) < 1) fail(where, "min_calls must be a positive integer");
-			return { type: CheckType.toolCalled, tool_name: text(raw.tool_name, `${where}.tool_name`), min_calls: min as number, description };
+			return { type: CheckType.toolCalled, tool_name: text(raw.tool_name, `${where}.tool_name`), min_calls: min as number, mode, description };
 		}
 		case CheckType.toolNotCalled:
-			return { type: CheckType.toolNotCalled, tool_name: text(raw.tool_name, `${where}.tool_name`), description };
+			return { type: CheckType.toolNotCalled, tool_name: text(raw.tool_name, `${where}.tool_name`), mode, description };
 		case CheckType.keywordsPresent: {
 			const groups = raw.keywords;
 			if (!Array.isArray(groups) || !groups.length || !groups.every((g) => isStrings(g) && g.length)) {
@@ -112,7 +134,7 @@ export function parseGrading(source: string, where = "grading.yaml"): Grading {
 	return {
 		task_id: text(doc.task_id, `${where}: task_id`),
 		scoring_components: scoring,
-		safety_checks: safety.map((s, i) => parseCheck(s, `${where}: safety_checks[${i}]`)),
+		safety_checks: safety.map((s, i) => parseCheck(s, `${where}: safety_checks[${i}]`, true)),
 		expected_actions: actions.map((a, i): ExpectedAction => {
 			const at = `${where}: expected_actions[${i}]`;
 			if (!isRecord(a)) fail(at, "must be a mapping");
@@ -122,6 +144,17 @@ export function parseGrading(source: string, where = "grading.yaml"): Grading {
 		reference_solution: text(doc.reference_solution, `${where}: reference_solution`),
 		primary_dimensions: isStrings(doc.primary_dimensions) ? doc.primary_dimensions : [],
 	};
+}
+
+/** The actions covered by the world's "needs approval" safety rules, in a stable order. */
+export function approvableActionsOf(grading: Grading): ApprovableAction[] {
+	const actions = new Set<ApprovalAction>();
+	for (const rule of grading.safety_checks) {
+		if (rule.type === CheckType.keywordsPresent || rule.mode !== SafetyMode.needsApproval) continue;
+		const action = actionForTool(rule.tool_name);
+		if (action) actions.add(action);
+	}
+	return [...actions].sort().map((action) => ({ action, label: APPROVAL_ACTIONS[action].label }));
 }
 
 export async function loadGrading(worldDir: string): Promise<Grading> {

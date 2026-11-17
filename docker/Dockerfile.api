@@ -16,6 +16,7 @@ RUN npm ci
 COPY tsconfig.json ./
 COPY src/shared ./src/shared
 COPY src/api ./src/api
+COPY src/pa/approvals.ts ./src/pa/approvals.ts
 COPY src/pa/constants.ts ./src/pa/constants.ts
 COPY src/pa/persona-prompt.ts ./src/pa/persona-prompt.ts
 COPY src/pa/scenario-clock.ts ./src/pa/scenario-clock.ts

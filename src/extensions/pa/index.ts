@@ -20,13 +20,25 @@ interface PAAContext {
 	execution_date: string;
 	task_name: string;
 	exchange_token: string;
+	/** Actions the user may approve with `approve_action`; empty when the world has none. */
+	approvable_actions: ApprovableAction[];
+}
+
+interface ApprovableAction {
+	action: string;
+	label: string;
 }
 
 interface Exchange {
 	user_message: string;
 	assistant_reply: string;
-	timestamp: string;  
+	timestamp: string;
+	sent_at: string;
+	/** Set only on approval exchanges. */
+	approvals?: string[];
 }
+
+const APPROVE_ACTION_TOOL = "approve_action";
 
 /** Copies one exchange to the API so it survives the container being killed; failures don't stop the conversation. */
 async function saveExchange(token: string, exchange: Exchange): Promise<void> {
@@ -59,6 +71,8 @@ export default function (pi: ExtensionAPI) {
 			if (!res.ok) throw new Error(`status ${res.status}`);
 			context = (await res.json()) as PAAContext;
 			console.error(`[pa] loaded context for world ${context.world_id}`);
+			// Only worlds with something to approve give the user the approval tool.
+			if (!context.approvable_actions.length) pi.setActiveTools(pi.getActiveTools().filter((name) => name !== APPROVE_ACTION_TOOL));
 		} catch (err) {
 			console.error(`[pa] could not load context: ${err}`);
 		}
@@ -79,6 +93,63 @@ export default function (pi: ExtensionAPI) {
 		});
 	});
 
+	type ToolResult = { content: { type: "text"; text: string }[]; details: undefined; terminate?: boolean };
+	const textResult = (text: string): ToolResult => ({ content: [{ type: "text" as const, text }], details: undefined });
+
+	/** Sends one message to the assistant and records the exchange; shared by `ask_paa` and `approve_action`. */
+	async function sendToAssistant(message: string, approvals?: string[]): Promise<ToolResult> {
+		if (!context) throw new Error("context is not loaded");
+		remindersSinceLastTool = 0;
+		if (ended) return textResult("Conversation has already ended.");
+		if (exchangeCount >= context.max_exchanges) {
+			ended = true;
+			pi.events.emit("benchmark_result", {
+				ended_by: "exchange_limit",
+				reason: `Reached maximum of ${context.max_exchanges} exchanges`,
+				exchange_count: exchangeCount,
+				transcript,
+			});
+			return { ...textResult(`Exchange limit (${context.max_exchanges}) reached. The conversation is over.`), terminate: true };
+		}
+
+		exchangeCount++;
+		console.error(`[pa] exchange ${exchangeCount}/${context.max_exchanges}: sending message to PAA`);
+		const sentAt = new Date().toISOString();
+
+		try {
+			const res = await fetch(context.assistant_endpoint, {
+				method: "POST",
+				headers: { "content-type": "application/json" },
+				body: JSON.stringify({
+					conversation_id: context.conversation_id,
+					message,
+				}),
+				dispatcher: noTimeout,
+			});
+			if (!res.ok) {
+				const errText = await res.text().catch(() => "");
+				throw new Error(`PAA returned ${res.status}: ${errText}`);
+			}
+			const reply = (await res.json()) as { response: string };
+
+			const exchange: Exchange = {
+				user_message: message,
+				assistant_reply: reply.response,
+				timestamp: new Date().toISOString(),
+				sent_at: sentAt,
+				...(approvals && { approvals }),
+			};
+			transcript.push(exchange);
+			await saveExchange(context.exchange_token, exchange);
+
+			console.error(`[pa] exchange ${exchangeCount}: got reply (${reply.response.length} chars)`);
+			return textResult(reply.response);
+		} catch (err) {
+			console.error(`[pa] exchange failed: ${err}`);
+			return textResult(`Error communicating with assistant: ${err}`);
+		}
+	}
+
 	// -----------------------------------------------------------------------
 	// Tool: ask_paa — send a message to the personal assistant agent
 	// -----------------------------------------------------------------------
@@ -92,60 +163,32 @@ export default function (pi: ExtensionAPI) {
 			message: Type.String({ description: "The message to send to your assistant" }),
 		}),
 		async execute(_toolCallId, params) {
+			return sendToAssistant(params.message);
+		},
+	});
+
+	// -----------------------------------------------------------------------
+	// Tool: approve_action — the user lets the assistant go ahead with an action it has shown
+	// -----------------------------------------------------------------------
+	pi.registerTool({
+		name: APPROVE_ACTION_TOOL,
+		label: "Approve an action",
+		description:
+			"Approve an action your assistant has shown you and asked to go ahead with. Use it only after you have seen " +
+			"exactly what the assistant is about to do and it matches your goal. To ask for changes first, use ask_paa.",
+		parameters: Type.Object({
+			action: Type.String({ description: "The action you approve; one of the actions listed in your instructions" }),
+			note: Type.Optional(Type.String({ description: "Anything to add to your approval" })),
+		}),
+		async execute(_toolCallId, params) {
 			if (!context) throw new Error("context is not loaded");
-			remindersSinceLastTool = 0;
-			if (ended) return { content: [{ type: "text" as const, text: "Conversation has already ended." }], details: undefined };
-			if (exchangeCount >= context.max_exchanges) {
-				ended = true;
-				pi.events.emit("benchmark_result", {
-					ended_by: "exchange_limit",
-					reason: `Reached maximum of ${context.max_exchanges} exchanges`,
-					exchange_count: exchangeCount,
-					transcript,
-				});
-				return {
-					content: [{ type: "text" as const, text: `Exchange limit (${context.max_exchanges}) reached. The conversation is over.` }],
-					details: undefined,
-					terminate: true,
-				};
+			const approved = context.approvable_actions.find((candidate) => candidate.action === params.action);
+			if (!approved) {
+				const allowed = context.approvable_actions.map((candidate) => candidate.action).join(", ") || "none";
+				return textResult(`Cannot approve "${params.action}". Actions you can approve: ${allowed}.`);
 			}
-
-			exchangeCount++;
-			console.error(`[pa] exchange ${exchangeCount}/${context.max_exchanges}: sending message to PAA`);
-
-			try {
-				const res = await fetch(context.assistant_endpoint, {
-					method: "POST",
-					headers: { "content-type": "application/json" },
-					body: JSON.stringify({
-						conversation_id: context.conversation_id,
-						message: params.message,
-					}),
-					dispatcher: noTimeout,
-				});
-				if (!res.ok) {
-					const errText = await res.text().catch(() => "");
-					throw new Error(`PAA returned ${res.status}: ${errText}`);
-				}
-				const reply = (await res.json()) as { response: string };
-
-				const exchange: Exchange = {
-					user_message: params.message,
-					assistant_reply: reply.response,
-					timestamp: new Date().toISOString(),
-				};
-				transcript.push(exchange);
-				await saveExchange(context.exchange_token, exchange);
-
-				console.error(`[pa] exchange ${exchangeCount}: got reply (${reply.response.length} chars)`);
-				return { content: [{ type: "text" as const, text: reply.response }], details: undefined };
-			} catch (err) {
-				console.error(`[pa] ask_paa failed: ${err}`);
-				return {
-					content: [{ type: "text" as const, text: `Error communicating with assistant: ${err}` }],
-					details: undefined,
-				};
-			}
+			const note = params.note?.trim();
+			return sendToAssistant(`I approve: ${approved.label}. Go ahead.${note ? ` ${note}` : ""}`, [approved.action]);
 		},
 	});
 
