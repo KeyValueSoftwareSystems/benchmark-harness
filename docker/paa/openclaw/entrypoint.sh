@@ -82,6 +82,14 @@ PROVIDER_JSON=$(node -e '
 ')
 openclaw config set models.providers.benchmark "$PROVIDER_JSON"
 
+# The assistant gets the world's tools (bundle-mcp) and its memory tools, nothing that runs commands, reaches files
+# or the network, or starts other agents: the same surface as the other assistants.
+OPENCLAW_ALLOWED_TOOLS="bundle-mcp group:memory"
+openclaw exec-policy preset deny-all
+openclaw config set tools.profile minimal
+# shellcheck disable=SC2086
+openclaw config set tools.alsoAllow "$(node -e 'console.log(JSON.stringify(process.argv.slice(1)))' $OPENCLAW_ALLOWED_TOOLS)"
+
 # Register each mock service as an MCP server. Only world.services: the mock control
 # port (MOCK_CONTROL_PORT, the tool-call log) is for the API and must never be a tool.
 log "Registering MCP servers..."
@@ -97,12 +105,10 @@ node --experimental-strip-types -e "
 	log "  registered ${name} → :${port}"
 done
 
-# What ran, for the run record: the version, the exec/process tools the exec policy allows, and the tools of the enabled plugins.
+# What ran, for the run record: the version and the tools the assistant may use.
 OPENCLAW_VERSION_OUTPUT=$(openclaw --version)
-OPENCLAW_EXEC_TOOLS=$(openclaw exec-policy show | awk -F: '/^(exec|process):/ && /Allowed/ { print $1 }')
-OPENCLAW_PLUGIN_TOOLS=$(openclaw plugins list --json | node --experimental-strip-types /paa/src/pa/paa-info/openclaw-tools.ts)
 # shellcheck disable=SC2086
-node --experimental-strip-types /paa/src/pa/paa-info/index.ts "${OPENCLAW_VERSION_OUTPUT%%$'\n'*}" $OPENCLAW_EXEC_TOOLS $OPENCLAW_PLUGIN_TOOLS > /tmp/paa-info.json
+node --experimental-strip-types /paa/src/pa/paa-info/index.ts "${OPENCLAW_VERSION_OUTPUT%%$'\n'*}" $OPENCLAW_ALLOWED_TOOLS > /tmp/paa-info.json
 
 # ---------- 3. Start OpenClaw gateway ----------
 log "Starting OpenClaw gateway..."

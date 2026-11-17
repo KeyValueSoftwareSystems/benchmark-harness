@@ -602,6 +602,54 @@ def _drop_items_in_file(path: Path, service: str, execution_date: str) -> int:
     return dropped
 
 
+# ---------------------------------------------------------------------------
+# Scenario clock
+# ---------------------------------------------------------------------------
+
+EXECUTION_TIME_KEY = "execution_time"
+UTC_OFFSET_KEY = "utc_offset"
+DEFAULT_EXECUTION_TIME = "09:00:00"
+DEFAULT_UTC_OFFSET = "+00:00"
+UTC_OFFSET_PATTERN = re.compile(r"(Z|[+-]\d{2}:\d{2})$")
+
+
+def _utc_offset_of(timestamp: str) -> str | None:
+    match = UTC_OFFSET_PATTERN.search(timestamp)
+    if match is None:
+        return None
+    return DEFAULT_UTC_OFFSET if match.group(1) == "Z" else match.group(1)
+
+
+def creation_utc_offsets_on(agent_dir: Path, execution_date: str) -> list[str]:
+    """UTC offsets of the fixture items created on the execution day. Items that may refer to the future are not used."""
+    offsets: list[str] = []
+    for service, keys in CREATION_TIME_KEYS.items():
+        for path in sorted((agent_dir / FIXTURES_DIR / service).glob("*.json")):
+            for record in fixture_records(json.loads(path.read_text(encoding="utf-8")), str(path)):
+                created = creation_time(record, service)
+                if created is None or created[:ISO_DAY_LENGTH] != execution_date:
+                    continue
+                raw = next(record[key] for key in keys if isinstance(record.get(key), str) and TIMESTAMP_PATTERN.match(record[key]))
+                offset = _utc_offset_of(raw)
+                if offset is not None:
+                    offsets.append(offset)
+    return offsets
+
+
+def utc_offset_from(offsets: Sequence[str]) -> str:
+    """The most common offset (the lower one on a tie), or +00:00 when there are none."""
+    counts = Counter(offsets)
+    return max(counts, key=lambda offset: (counts[offset], offset), default=DEFAULT_UTC_OFFSET)
+
+
+def world_clock(agent_dir: Path, execution_date: str) -> dict[str, str]:
+    """The `execution_time` and `utc_offset` fields of a world's world.yaml: a morning start in the user's UTC offset."""
+    return {
+        EXECUTION_TIME_KEY: DEFAULT_EXECUTION_TIME,
+        UTC_OFFSET_KEY: utc_offset_from(creation_utc_offsets_on(agent_dir, execution_date)),
+    }
+
+
 def describe_dropped(dropped: Mapping[str, int]) -> str:
     counts = [f"{service} {count}" for service, count in dropped.items() if count]
     return ", ".join(counts) if counts else "none"
@@ -623,7 +671,8 @@ def stage_world(record: TaskRecord, world_id: str | None, staging_root: Path) ->
     persona = build_persona(task_yaml, agent_dir / FIXTURES_DIR, agent_dir / LOGS_DIR)
     resolved_world_id = world_id or derive_world_id(task_yaml["task_id"], persona["name"])
 
-    _write_yaml(staging_dir / WORLD_YAML, build_world(task_yaml))
+    world = {**build_world(task_yaml), **world_clock(agent_dir, str(task_yaml["execution_date"]))}
+    _write_yaml(staging_dir / WORLD_YAML, world)
     _write_yaml(staging_dir / GRADING_YAML, build_grading(task_yaml))
     write_persona(agent_dir / PERSONA_JSON, persona)
     return StagedWorld(resolved_world_id, staging_dir, dropped)

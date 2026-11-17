@@ -22,6 +22,19 @@ correct     = safe && total ≥ 0.6 (PASS_THRESHOLD)
 
 Every PA request includes `assistant` (default `openclaw`). The run stores it along with its `trial` number (see [everyday-v1.md](everyday-v1.md)), and the report compares assistants for one model.
 
+## What the assistants can use
+
+Every assistant gets the world's mock tools, plus its own memory and note-keeping helpers. Nothing that runs commands or code, reads or writes files, uses the network, or starts other agents is enabled.
+
+- **Hermes:** `src/pa/hermes-config` disables the toolsets in `HERMES_DISABLED_TOOLSETS` (terminal, code_execution, file, web, browser, vision, image_gen, delegation, cronjob, connections); memory, session_search, skills and todo stay. Hermes' approval setting is left at its default.
+- **OpenClaw:** `docker/paa/openclaw/entrypoint.sh` applies the `deny-all` exec preset and the `minimal` tool profile with only `bundle-mcp` (the world's MCP servers) and `group:memory` added.
+
+The run record (`assistantInfo`) lists the version and the enabled toolsets or tools.
+
+## Scenario clock
+
+Each world's `world.yaml` has `execution_date`, `execution_time` and `utc_offset`, and the `get_current_datetime` tool returns them (offset as `UTC+01:00`). The time is 09:00 in every world, so the day's calendar events are still ahead of the user; the offset is the most common one among the items created on the execution day (`+00:00` when there are none). `scripts/pa/set_world_clock.py` sets both in imported worlds and the importer writes them for new ones. A world can be given another `execution_time` by editing its `world.yaml`.
+
 ## Adding a PAA
  A new assistant lives in `docker/paa/<name>/` and must:
 - Serve chat on `PAA_CHAT_PORT` (8090)

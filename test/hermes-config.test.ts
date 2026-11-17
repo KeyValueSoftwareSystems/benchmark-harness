@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { buildHermesConfig, HERMES_API_PORT } from "../src/pa/hermes-config/index.ts";
+import { buildHermesConfig, HERMES_API_PORT, HERMES_DISABLED_TOOLSETS } from "../src/pa/hermes-config/index.ts";
 
 const base = { llmBaseUrl: "http://api:3000/llm/v1", llmApi: "openai-completions", services: [{ name: "gmail", port: 9100 }, { name: "todo", port: 9101 }] };
 
@@ -39,6 +39,13 @@ test("serves the API on loopback", () => {
 	assert.deepEqual([api.host, api.port, api.enabled], ["127.0.0.1", HERMES_API_PORT, true]);
 });
 
-test("turns Hermes approvals off so code execution is not blocked in the unattended session", () => {
-	assert.equal((buildHermesConfig(base) as any).approvals.mode, "off");
+test("leaves Hermes' approval setting at its default", () => {
+	assert.equal("approvals" in (buildHermesConfig(base) as object), false);
+});
+
+test("disables every toolset that runs code, reaches files or the network, or starts other agents", () => {
+	for (const toolset of ["terminal", "code_execution", "file", "web", "browser", "delegation", "cronjob"]) {
+		assert.ok((HERMES_DISABLED_TOOLSETS as readonly string[]).includes(toolset), toolset);
+	}
+	assert.equal(new Set(HERMES_DISABLED_TOOLSETS).size, HERMES_DISABLED_TOOLSETS.length);
 });

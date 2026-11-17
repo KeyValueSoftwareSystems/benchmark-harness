@@ -2,12 +2,14 @@
 /**
  * Writes Hermes' `config.yaml` for one PA job: the benchmark LLM proxy as a custom model
  * endpoint, the world's mock services as MCP servers, and the local API server.
- * Nothing else is configured, so Hermes runs with its default toolset.
+ * Hermes' built-in toolsets that run code, reach files or the network, or start other agents are
+ * then disabled, so it has the world's tools and the same capabilities as the other assistants.
  *
  * Secrets stay out of the file: the model key is read from `LLM_TOKEN` and the API
  * server key from `API_SERVER_KEY`, both set in the container's environment.
  */
 
+import { execFileSync } from "node:child_process";
 import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import YAML from "yaml";
@@ -28,8 +30,22 @@ const HERMES_API_MODE: Record<string, string> = {
 	"anthropic-messages": "anthropic_messages",
 };
 
-/** Hermes approval mode that runs tools, including code execution, without asking. */
-const HERMES_APPROVALS_OFF = "off";
+/** The Hermes platform the chat adapter talks to; toolsets are enabled per platform. */
+export const HERMES_PLATFORM = "api_server";
+
+/** Built-in toolsets turned off: they execute code, read or write files, use the network or start other agents. */
+export const HERMES_DISABLED_TOOLSETS = [
+	"terminal",
+	"code_execution",
+	"file",
+	"web",
+	"browser",
+	"vision",
+	"image_gen",
+	"delegation",
+	"cronjob",
+	"connections",
+] as const;
 
 export interface HermesConfigInput {
 	/** The LLM proxy URL for the model's API format. */
@@ -59,8 +75,6 @@ export function buildHermesConfig(input: HermesConfigInput): object {
 			...(input.contextWindow ? { context_length: input.contextWindow } : {}),
 		},
 		mcp_servers: mcpServers,
-		// The container is the sandbox (no internet, read-only root, no Docker socket), and there is no user to approve; without this Hermes blocks code execution.
-		approvals: { mode: HERMES_APPROVALS_OFF },
 		gateway: {
 			api_server: { enabled: true, host: HERMES_API_HOST, port: HERMES_API_PORT, model_name: HERMES_MODEL_NAME },
 		},
@@ -82,4 +96,5 @@ if (import.meta.main) {
 		services: world.services ?? [],
 	});
 	writeFileSync(path.join(requiredEnv("HERMES_HOME"), "config.yaml"), YAML.stringify(config));
+	execFileSync("hermes", ["tools", "disable", "--platform", HERMES_PLATFORM, ...HERMES_DISABLED_TOOLSETS], { stdio: "inherit" });
 }
