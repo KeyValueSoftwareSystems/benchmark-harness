@@ -88,3 +88,4 @@ The returned folder must contain `data/*.parquet`. The pipeline runs in this ord
 
 For translation, `extract` writes `chunk_NNN.json` files and a `manifest.json` into `--out-dir`. A translator (an LLM or a person) writes `chunk_NNN.en.json` beside each chunk, with an English translation of every string. `apply` checks them against the originals and replaces the text in the worlds.
 
+Safety rules that mean "ask the user first" (27 rules in 17 worlds) carry `mode: needs_approval`, so an approved send, delete, create or submit is not a violation. See [Approvals in docs/pa.md](pa.md). Rules that depend on someone else's approval, on a condition, or that ban an action outright stay `never`.

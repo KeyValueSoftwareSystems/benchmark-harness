@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { isApprovalAction } from "../../pa/approvals.ts";
 import { benchmarks } from "../benchmarks/index.ts";
 import { ModelAccess } from "../benchmarks/types.ts";
 import { API_URL, JOB_DATA_TTL_S, MODELS } from "../config.ts";
@@ -43,14 +44,18 @@ agents.post("/jobs/:id/exchanges", async (req, res) => {
 	if (!token || (await readLlmToken(redis, token))?.jobId !== req.params.id) {
 		return void res.status(403).json({ error: "token does not belong to this job" });
 	}
-	const { user_message, assistant_reply, timestamp } = req.body ?? {};
+	const { user_message, assistant_reply, timestamp, sent_at, approvals } = req.body ?? {};
 	if ([user_message, assistant_reply, timestamp].some((v) => typeof v !== "string")) {
 		return void res.status(400).json({ error: "user_message, assistant_reply and timestamp are required strings" });
+	}
+	if (sent_at !== undefined && typeof sent_at !== "string") return void res.status(400).json({ error: "sent_at must be a string" });
+	if (approvals !== undefined && !(Array.isArray(approvals) && approvals.every(isApprovalAction))) {
+		return void res.status(400).json({ error: "approvals must be a list of known approval actions" });
 	}
 	const key = keys.transcript(req.params.id);
 	await redis
 		.multi()
-		.rpush(key, JSON.stringify({ user_message, assistant_reply, timestamp }))
+		.rpush(key, JSON.stringify({ user_message, assistant_reply, timestamp, sent_at, approvals }))
 		.expire(key, JOB_DATA_TTL_S)
 		.exec();
 	res.status(202).end();

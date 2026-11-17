@@ -43,6 +43,7 @@ function makeData(overrides?: Partial<PaTraceData>): PaTraceData {
 			toolCallCount: 2,
 			toolCallsByService: { gmail: 2 },
 			exchanges: 1,
+			approvals: [],
 			category: "email",
 		llm: {
 			paa: { calls: 1, inputTokens: 100, cacheReadTokens: 0, cacheWriteTokens: 0, outputTokens: 50, costUsd: 0.001, costUnknown: false },

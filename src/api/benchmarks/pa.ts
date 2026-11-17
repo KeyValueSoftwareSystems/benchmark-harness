@@ -8,7 +8,7 @@ import { AGENT_CONTAINER_PREFIX, docker, PA_JOB_NETWORK_PREFIX, PAA_CONTAINER_PR
 import { DEFAULT_PA_ASSISTANT, isPaAssistant, PAA_CHAT_PORT, PAA_PROFILES, type PaaInfo, type PaAssistant, type ToolCallRecord, WORLD_DIR_IN_CONTAINER } from "../../pa/constants.ts";
 import { runChecks } from "../../pa/grading/checks.ts";
 import { buildQuestions, type Exchange, JudgeAnswer, JUDGE_TEMPERATURE, type JudgeChat, type JudgeResult, judgeRun, pickTranscript } from "../../pa/grading/judge.ts";
-import { loadGrading } from "../../pa/grading/load.ts";
+import { approvableActionsOf, loadGrading } from "../../pa/grading/load.ts";
 import { loadSelection } from "../../pa/selection.ts";
 import { type CallUsage, computeScore, type LlmSideUsage, PASS_THRESHOLD, type PaScore, sideUsage, sumUsage } from "../../pa/grading/score.ts";
 import { buildPersonaPrompt, type Persona, type World } from "../../pa/persona-prompt.ts";
@@ -54,8 +54,8 @@ async function worldIdsFor(world: unknown, selection: unknown): Promise<string[]
 
 async function jobInputFor(id: string, assistant: PaAssistant): Promise<JobInput | undefined> {
 	try {
-		const [w, p] = await Promise.all([loadWorld(id), loadPersona(id)]);
-		return { prompt: buildPersonaPrompt(p, w), params: { [JobParam.challenge]: id, [JobParam.assistant]: assistant } };
+		const [w, p, grading] = await Promise.all([loadWorld(id), loadPersona(id), loadGrading(worldDir(id))]);
+		return { prompt: buildPersonaPrompt(p, w, approvableActionsOf(grading)), params: { [JobParam.challenge]: id, [JobParam.assistant]: assistant } };
 	} catch {
 		return undefined;
 	}
@@ -128,7 +128,7 @@ export async function scorePaRun(job: Job, result: ResultPayload | undefined): P
 	]);
 	if (!toolCalls) console.error(`[pa] job ${job.id}: no tool-call log; tool checks are unknown`);
 
-	const checks = runChecks(grading, toolCalls);
+	const checks = runChecks(grading, toolCalls, transcript);
 	const { judgement, usage: judgeUsage } = await judgeConversation(world, { taskPrompt: world.prompt.text, grading, transcript, toolCalls });
 	const breakdown = computeScore(grading, checks, judgement);
 
@@ -153,6 +153,7 @@ export async function scorePaRun(job: Job, result: ResultPayload | undefined): P
 		toolCallCount: toolCalls ? toolCalls.length : null,
 		toolCallsByService: toolCalls ? byService : null,
 		exchanges: transcript.length,
+		approvals: transcript.flatMap((e, index) => (e.approvals?.length ? [{ exchange: index + 1, actions: e.approvals }] : [])),
 		category: world.category ?? null,
 		llm: { paa, persona: sideUsage(llmCalls, LlmRole.persona), judge: judgeUsage },
 		assistantInfo,
@@ -217,7 +218,7 @@ export const pa: Benchmark = {
 
 	async context(job) {
 		const id = job.params?.[JobParam.challenge] ?? "";
-		const world = await loadWorld(id);
+		const [world, grading] = await Promise.all([loadWorld(id), loadGrading(worldDir(id))]);
 		return {
 			benchmark: "pa",
 			world_id: id,
@@ -227,6 +228,7 @@ export const pa: Benchmark = {
 			max_replies: Number(process.env.PAA_MAX_REPLIES ?? 50),
 			execution_date: world.execution_date,
 			task_name: world.task_name,
+			approvable_actions: approvableActionsOf(grading),
 			// Authorises POST /jobs/:id/exchanges. Served once with the context, so it never enters the container env.
 			exchange_token: (await redis.get(keys.agentLlmToken(job.id))) ?? "",
 		};

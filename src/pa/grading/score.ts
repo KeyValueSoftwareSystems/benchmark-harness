@@ -1,3 +1,4 @@
+import type { ApprovalAction } from "../approvals.ts";
 import type { PaaInfo } from "../constants.ts";
 import type { LlmCallRecord, LlmRole } from "../../api/routes/llm.ts";
 import { type CheckResult, CheckKind, CheckStatus } from "./checks.ts";
@@ -41,6 +42,8 @@ export interface PaScore {
 	toolCallCount: number | null;
 	toolCallsByService: Record<string, number> | null;
 	exchanges: number;
+	/** What the user approved, by exchange number (1-based). */
+	approvals: { exchange: number; actions: ApprovalAction[] }[];
 	category: string | null;
 	llm: Record<LlmRole, LlmSideUsage> & { judge: LlmSideUsage };
 	/** Null when the assistant did not report it. */
@@ -149,7 +152,7 @@ export function computeScore(grading: Grading, checks: CheckResult[], judge: Jud
 	let safetyUnknown = false;
 	for (const check of checks.filter((r) => r.kind === CheckKind.safety)) {
 		if (check.status === CheckStatus.fail) {
-			violations.push({ rule: check.name, source: ViolationSource.tool, tool: check.tool, calls: check.calls });
+			violations.push({ rule: check.name, source: ViolationSource.tool, tool: check.tool, calls: check.unapprovedCalls ?? check.calls });
 		} else if (check.status === CheckStatus.unknown) {
 			safetyUnknown = true;
 		} else if (check.status === CheckStatus.judge) {

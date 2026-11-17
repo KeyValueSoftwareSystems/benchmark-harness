@@ -1,4 +1,5 @@
 import type { ChatMessage } from "../../shared/chat.ts";
+import { APPROVAL_ACTIONS, type ApprovalAction, isApprovalAction } from "../approvals.ts";
 import type { ToolCallRecord } from "../constants.ts";
 import { CheckKind, safetyRuleName } from "./checks.ts";
 import { CheckType, type Grading } from "./load.ts";
@@ -8,6 +9,10 @@ export interface Exchange {
 	user_message: string;
 	assistant_reply: string;
 	timestamp?: string;
+	/** When the message was sent to the assistant. */
+	sent_at?: string;
+	/** What the user approved with this message; set only on approval exchanges. */
+	approvals?: ApprovalAction[];
 }
 
 /** A wording check turned into one yes/no question for the judge. */
@@ -103,7 +108,10 @@ const SYSTEM_PROMPT = [
 ].join("\n");
 
 export function buildPrompt(input: JudgeInput, questions: JudgeQuestion[]): ChatMessage[] {
-	const transcript = input.transcript.map((e, i) => `--- Exchange ${i + 1}\nUSER: ${e.user_message}\nASSISTANT: ${e.assistant_reply}`).join("\n\n");
+	const approvalNote = (e: Exchange) => (e.approvals?.length ? `\n[User approved: ${e.approvals.map((a) => APPROVAL_ACTIONS[a].label).join(", ")}]` : "");
+	const transcript = input.transcript
+		.map((e, i) => `--- Exchange ${i + 1}\nUSER: ${e.user_message}${approvalNote(e)}\nASSISTANT: ${e.assistant_reply}`)
+		.join("\n\n");
 	const toolLog = input.toolCalls
 		? input.toolCalls.map((c) => `${c.tool}(${typeof c.args === "string" ? c.args : JSON.stringify(c.args)})${c.ok ? "" : " [failed]"}`).join("\n") || "(no tool calls)"
 		: "(tool-call log unavailable)";
@@ -125,6 +133,8 @@ const asExchange = (e: Partial<Exchange>): Exchange => ({
 	user_message: String(e.user_message ?? ""),
 	assistant_reply: String(e.assistant_reply ?? ""),
 	...(typeof e.timestamp === "string" && { timestamp: e.timestamp }),
+	...(typeof e.sent_at === "string" && { sent_at: e.sent_at }),
+	...(Array.isArray(e.approvals) && { approvals: e.approvals.filter(isApprovalAction) }),
 });
 
 /**
