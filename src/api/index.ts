@@ -10,7 +10,7 @@ import { listRuns } from "./db/runs.ts";
 import { reconcileModelFiles } from "./db/reconcile.ts";
 import { jsonErrorHandler } from "./errors.ts";
 import { sweep } from "./docker/cli.ts";
-import { createGuard } from "./guard.ts";
+import { requireManagementKey } from "./guard.ts";
 import { jobNetworkAddresses } from "./jobNetworks.ts";
 import { registry } from "./models/registry.ts";
 import { startWorker } from "./queue/worker.ts";
@@ -27,15 +27,18 @@ import { createResultsRouter } from "./routes/results.ts";
 
 const discoveryModel = DISCOVERY_MODEL;
 const app = express();
-app.use(createGuard({ mgmtKey: MGMT_KEY, isJobNetwork: (address) => jobNetworkAddresses.has(address) }));
 // Model requests carry tool definitions and history, far beyond the 100kb default; 32mb matches Anthropic's limit.
 app.use("/llm", express.json({ limit: "32mb" }));
 app.use(express.json());
-app.use(agents, llmRouter(redis), jobs);
+// Agent routes: job containers call these with job tokens, which each handler checks.
+app.use(agents, llmRouter(redis));
+app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
+// Everything mounted below needs the management key.
+app.use(requireManagementKey({ mgmtKey: MGMT_KEY, isJobNetwork: (address) => jobNetworkAddresses.has(address) }));
+app.use(jobs);
 app.use(createReportsRouter({ baseUrl: REPORTS_URL }));
 app.use(createRunsRouter({ listJobs: () => listJobs(redis), requestCancel: (id) => requestCancel(redis, id), correctByJob: async (ids) => new Map(listRuns(db, {}).filter((r) => ids.includes(r.jobId)).map((r) => [r.jobId, r.correct])) }));
 app.use(createModelsRouter({ registry, db, benchmarks, discovery: !!discoveryModel, queueLimit: QUEUE_LIMIT, isBusy: async (name) => (await listJobs(redis)).some((j) => j.model === name && ["queued", "provisioning", "running"].includes(j.status)), discover: discoveryModel && (async (url) => discoverParameters(await fetchDocsText(url), discoveryModel)) }));
-app.use(createResultsRouter({ jobExists: async (id) => !!(await getJob(redis, id)), saveResult: (id, payload) => saveResult(redis, id, payload), issueToken: (id) => issueResultToken(redis, id), verifyToken: (id, token) => verifyResultToken(redis, id, token) }));
 
 app.use(jsonErrorHandler);
 
