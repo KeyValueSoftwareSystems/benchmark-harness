@@ -45,6 +45,9 @@ export function approvalInstructions(actions: ApprovableAction[]): string[] {
 		"changes first, use `ask_paa`. Do not approve something you have not seen. Approving counts as a tool",
 		"call, so it can be one of your turns.",
 		"",
+		"Only `approve_action` approves these actions. Never tell your assistant in an `ask_paa` message to go",
+		"ahead, send, delete, create or submit one of them: ask to see it first, then approve it with the tool.",
+		"",
 		...actions.map(({ action, label }) => `- \`${action}\`: ${label}`),
 	];
 }
