@@ -3,11 +3,11 @@ import { clear, h } from "./dom.js";
 export const TOUR_COOKIE = "smithy-tour";
 
 export const TOUR_STEPS = [
-	{ target: ".add", title: "Start here", text: "Add a model with its name, base URL and API key. The key is never stored: it stays in memory until the API restarts." },
-	{ target: "#list", title: "Your models", text: "Models are grouped by the benchmark they have run on. Click one to select it." },
-	{ target: "#stage", title: "Set up a run", text: "The selected model sits here. Pick the benchmark and challenges, then Benchmark now or Add to queue. You confirm before anything spends credits." },
-	{ target: "#queue", title: "The queue", text: "Queued items wait here. Press the info button on an item to see exactly what it will run. The same setup can't be queued twice." },
-	{ target: "#runs", title: "Runs and reports", text: "Watch progress here, cancel a run, generate a report, or benchmark again." },
+	{ target: "#add", title: "Start here", text: "Add a model with its name, base URL and API key. The key is never stored: it stays in memory until the API restarts." },
+	{ target: "#right-card", title: "Your models", text: "Every model you can benchmark, with its last result. Filter by benchmark, sort by result, and click a row to select it." },
+	{ target: "#left-card", title: "Set up a run", text: "Pick the benchmark, tick the challenges, then Benchmark now or Add to queue. You confirm before anything spends credits." },
+	{ target: "#nav-queue", title: "The queue", text: "Queued setups wait here. Open one to see exactly what it will run, then start them together. The same setup can't be queued twice." },
+	{ target: "#nav-runs", title: "Runs and reports", text: "Watch progress live, compare runs on a chart, cancel a run, generate a report, or benchmark again." },
 ];
 
 /** The only cookie the page sets: whether the intro has been seen. It holds no personal data. */

@@ -1,35 +1,51 @@
-import { clear, h } from "../dom.js";
+import { h } from "../dom.js";
+import { describeItem } from "./parts.js";
 
-const describe = (ctx, item) => {
-	const bench = ctx.state.benchmarks.find((b) => b.name === item.benchmark);
-	if (bench?.needsPrompt) return "1 prompt";
-	const n = item.challenges === "all" ? bench?.challenges.length ?? 0 : item.challenges.length;
-	return `${n} challenge${n === 1 ? "" : "s"}${item.challenges === "all" ? " (all)" : ""}`;
-};
-
-/** Shows exactly what will run and spend credits; nothing starts until Confirm. */
-export function renderConfirm(ctx, items) {
-	const root = document.getElementById("stage");
-	clear(root);
+/** Shows exactly what will run and spend credits, as a modal; nothing starts until Confirm. */
+export function openConfirm(ctx, items) {
+	const host = document.getElementById("dialogs");
+	const opener = document.activeElement;
 	let busy = false;
 	const error = h("p", { class: "error", role: "alert" });
-	const go = h("button", { class: "btn primary", type: "button", onclick: async () => {
+	const dialog = h("dialog", { class: "modal", "aria-labelledby": "confirm-h" });
+	const go = h("button", { class: "btn primary", type: "button", id: "confirm-go", onclick: async () => {
 		if (busy) return;
 		busy = true;
 		go.disabled = true;
 		try {
-			await ctx.startItems(items);
+			const done = await ctx.startItems(items);
+			if (done) dialog.close();
+			else {
+				// Some items could not start: show only what is left, so a second click cannot start anything twice.
+				busy = false;
+				go.disabled = false;
+				list.replaceChildren(...rows(ctx.pending()));
+				if (!ctx.pending().length) dialog.close();
+			}
 		} catch (err) {
 			error.textContent = err.message;
 			busy = false;
 			go.disabled = false;
 		}
 	} }, "Confirm and start");
-	root.append(
-		h("div", { class: "card" },
-			h("h3", {}, "Ready to benchmark?"),
-			h("p", { class: "hint" }, "This uses the model's API credits."),
-			h("ul", { class: "summary" }, items.map((it) => h("li", {}, h("strong", {}, it.model), ` on ${it.benchmark}: ${describe(ctx, it)}`))),
-			error,
-			h("div", { class: "row2" }, h("button", { class: "btn", type: "button", onclick: () => ctx.back() }, "Back"), go)));
+	const rows = (list) => list.map((it) => h("li", {}, h("strong", {}, it.model), h("span", { class: "hint" }, `${it.benchmark} · ${describeItem(it, ctx.state.benchmarks)}`)));
+	const list = h("ul", { class: "sumlist" }, rows(items));
+	dialog.append(
+		h("div", { class: "d-h" }, h("h2", { id: "confirm-h" }, "Ready to benchmark?"), h("button", { class: "ghost", type: "button", "aria-label": "Close", onclick: () => dialog.close() }, "✕")),
+		h("div", { class: "d-b" }, list, h("div", { class: "credit" }, h("span", { "aria-hidden": "true" }, "⚠"), h("span", {}, "This uses the model's API credits. Nothing starts until you confirm.")), error),
+		h("div", { class: "d-f" }, h("button", { class: "btn", type: "button", onclick: () => dialog.close() }, "Back"), go));
+	dialog.addEventListener("close", () => {
+		dialog.remove();
+		if (opener?.isConnected) opener.focus();
+	});
+	dialog.addEventListener("click", (e) => {
+		if (e.target === dialog && !busy) dialog.close();
+	});
+	// While runs are being started, Escape must not hide what is happening.
+	dialog.addEventListener("cancel", (e) => {
+		if (busy) e.preventDefault();
+	});
+	host.append(dialog);
+	dialog.showModal();
+	go.focus();
 }

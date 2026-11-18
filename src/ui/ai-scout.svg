@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="AI Scout logo: a compass with a golden needle and a spark">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B3DF5"/>
+      <stop offset="1" stop-color="#0FB5A8"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD84D"/>
+      <stop offset="1" stop-color="#FF9F1C"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0B1030" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- compass ring and cardinal ticks -->
+  <g filter="url(#shadow)">
+    <circle cx="512" cy="512" r="300" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-width="34"/>
+    <g stroke="#ffffff" stroke-width="30" stroke-linecap="round">
+      <line x1="512" y1="162" x2="512" y2="222"/>
+      <line x1="512" y1="802" x2="512" y2="862"/>
+      <line x1="162" y1="512" x2="222" y2="512"/>
+      <line x1="802" y1="512" x2="862" y2="512"/>
+    </g>
+    <!-- needle, pointing up and to the right: scouting ahead -->
+    <g transform="rotate(40 512 512)">
+      <polygon points="512,250 566,512 458,512" fill="url(#gold)"/>
+      <polygon points="512,774 566,512 458,512" fill="#ffffff" fill-opacity="0.92"/>
+    </g>
+    <circle cx="512" cy="512" r="40" fill="#1B1650"/>
+    <circle cx="512" cy="512" r="16" fill="#ffffff"/>
+  </g>
+  <!-- sharp glints -->
+  <polygon points="822.0,114.0 826.6,195.0 854.5,173.5 833.0,201.4 914.0,206.0 833.0,210.6 854.5,238.5 826.6,217.0 822.0,298.0 817.4,217.0 789.5,238.5 811.0,210.6 730.0,206.0 811.0,201.4 789.5,173.5 817.4,195.0" fill="#ffffff" fill-opacity="1"/>
+  <polygon points="212.0,750.0 214.8,799.3 231.8,786.2 218.7,803.2 268.0,806.0 218.7,808.8 231.8,825.8 214.8,812.7 212.0,862.0 209.2,812.7 192.2,825.8 205.3,808.8 156.0,806.0 205.3,803.2 192.2,786.2 209.2,799.3" fill="#ffffff" fill-opacity="0.85"/>
+</svg>
