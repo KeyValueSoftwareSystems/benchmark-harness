@@ -127,7 +127,7 @@
       "persona": "zhou_ran"
     },
     "bench_t05_t13_consolidate_q1_emergency_shelter_program": {
-      "requireApproval": ["contacts_send_message", "calendar_delete_event"],
+      "requireApproval": ["contacts_send_message", "gmail_send_message", "calendar_delete_event"],
       "persona": "zhuo_ma_yang_zong",
       "removeFixtureItems": [
         {
@@ -357,7 +357,7 @@
       "persona": "hannah_wei"
     },
     "qi_cheng_an_t01_t19_multi_property_acquisition_finan_011575": {
-      "requireApproval": ["contacts_send_message", "finance_report_submit"],
+      "requireApproval": ["contacts_send_message", "gmail_send_message", "finance_report_submit"],
       "persona": "qi_cheng_an"
     },
     "he_meilan_homemaker_hx_hml_10_t20_compile_xiaobao_s_health_p_32a981": {

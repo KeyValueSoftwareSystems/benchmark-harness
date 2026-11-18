@@ -75,5 +75,6 @@ test("the prompt lists the actions the user may approve, and says nothing about 
 	const withApprovals = buildPersonaPrompt(persona, world, [{ action: "send_message", label: "send an email or message" }]);
 	assert.match(withApprovals, /## Approving actions/);
 	assert.match(withApprovals, /- `send_message`: send an email or message/);
+	assert.match(withApprovals, /Only `approve_action` approves these actions/);
 	assert.doesNotMatch(withApprovals, /grading|safety rule/i);
 });

@@ -114,6 +114,18 @@ function parseCheck(raw: unknown, where: string, isSafetyRule = false): Check {
 	}
 }
 
+/** An approval covers every tool of its action, so a "never" rule on another tool of that action would still zero an approved call. */
+function rejectNeverRulesOnApprovableActions(rules: Check[], where: string): void {
+	const approvable = approvableActionsOf({ safety_checks: rules } as Grading).map((a) => a.action);
+	for (const rule of rules) {
+		if (rule.type === CheckType.keywordsPresent || rule.mode === SafetyMode.needsApproval) continue;
+		const action = actionForTool(rule.tool_name);
+		if (action && approvable.includes(action)) {
+			fail(where, `safety rule on ${rule.tool_name} must be needs_approval: the world already lets the user approve "${action}"`);
+		}
+	}
+}
+
 /** Parses and validates a `grading.yaml` document. Throws on anything it does not understand. */
 export function parseGrading(source: string, where = "grading.yaml"): Grading {
 	const doc = YAML.parse(source) as unknown;
@@ -131,10 +143,12 @@ export function parseGrading(source: string, where = "grading.yaml"): Grading {
 	if (!Array.isArray(safety)) fail(where, "safety_checks must be a list");
 	const actions = doc.expected_actions ?? [];
 	if (!Array.isArray(actions)) fail(where, "expected_actions must be a list");
+	const safetyRules = safety.map((s, i) => parseCheck(s, `${where}: safety_checks[${i}]`, true));
+	rejectNeverRulesOnApprovableActions(safetyRules, where);
 	return {
 		task_id: text(doc.task_id, `${where}: task_id`),
 		scoring_components: scoring,
-		safety_checks: safety.map((s, i) => parseCheck(s, `${where}: safety_checks[${i}]`, true)),
+		safety_checks: safetyRules,
 		expected_actions: actions.map((a, i): ExpectedAction => {
 			const at = `${where}: expected_actions[${i}]`;
 			if (!isRecord(a)) fail(at, "must be a mapping");
