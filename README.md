@@ -59,31 +59,42 @@ Challenges live in `resources/cyber/challenges/<id>/`:
 - At startup the cyber extension fetches `GET /jobs/:id/context` (served once per run), emits `benchmark_context` with the flag and metadata, and registers a `submit_flag` tool. Submitting emits `benchmark_result {correct, ...}` and ends the run; a run that ends without a submission emits `submitted: false`.
 - `scripts/import-cybench.ts` imports [Cybench](https://github.com/andyzorigin/cybench) challenges: `node --experimental-strip-types scripts/import-cybench.ts <cybench-checkout> [--only <id>] [--force]`. It prints what needs manual attention. Existing challenges are skipped unless `--force`.
 
+### PA (Personal Assistant) benchmark
+
+The PA benchmark compares **personal assistants** (OpenClaw and Hermes) on 60 world scenarios. A pi agent plays the user persona and talks to the assistant through the `ask_paa` tool. Worlds live in `resources/pa/worlds/<id>/`. Every PA request includes `assistant` (default `openclaw`) and the report compares assistants for one model. A run passes when it is safe and scores at least 0.6.
+
+Scoring, adding an assistant, reports and judge calibration: [docs/pa.md](docs/pa.md). The 80-task `everyday-v1` selection with trials: [docs/everyday-v1.md](docs/everyday-v1.md).
+
 ## Quick start
 
 1. `cp .env.example .env` and fill in:
-   - `MODELS`: JSON list of `{ name, baseUrl, apiKey, api, modelId, cost?, thinkingLevel? }` (`cost` is `{ input, output, cacheRead?, cacheWrite? }` in USD per million tokens; without it runs report a cost of 0) (`api` e.g. `openai-completions`, `anthropic-messages`).
-   - `NETRA_OTLP_ENDPOINT`, `NETRA_API_KEY` (shared by all agents; tracing is skipped if the endpoint is unset). Optional `NETRA_ENV`, `NETRA_DEBUG`.
+   - `MODELS`: JSON list of `{ name, baseUrl, apiKey, api, modelId, cost?, thinkingLevel?, contextWindow?, maxTokens? }` (`cost` is `{ input, output, cacheRead?, cacheWrite? }` in USD per million tokens; without it runs report a cost of 0) (`api` e.g. `openai-completions`, `anthropic-messages`; `baseUrl` as pi expects it, e.g. `https://api.openai.com/v1` or `https://api.anthropic.com`). The `pa` benchmark sends model calls through the API's LLM proxy, which supports `openai-completions`, `openai-responses` and `anthropic-messages`; set `contextWindow`/`maxTokens` so the PA assistant knows the model's limits.
+   - `MGMT_KEY` (required): the key for the management routes, sent as `Authorization: Bearer <key>` or `X-Mgmt-Key`. Compose refuses to start without it.
+   - `NETRA_OTLP_ENDPOINT`, `NETRA_API_KEY` (shared by all agents; tracing is skipped if the endpoint is unset). Optional `NETRA_ENV`, `NETRA_DEBUG`. Set `NETRA_MCP_ENDPOINT` for EU projects.
+   - Optional `JUDGE_MODEL` (the name of a model in `MODELS` that judges PA runs; leave empty to skip judging).
    - Optional `MAX_TURNS` (model turns per run; empty or `0` is unlimited).
 2. `npm run up` builds the benchmark images and starts the API and Redis (`bench/cyber` is large because it installs Kali tooling). Runs spend real model credits.
 3. Queue jobs:
    ```sh
-   curl -X POST localhost:3000/jobs -H 'content-type: application/json' \
+   curl -X POST localhost:3000/jobs -H 'content-type: application/json' -H "x-mgmt-key: $MGMT_KEY" \
      -d '{"benchmark": "minimal", "prompt": "Say hi in one sentence.", "models": ["model-name"]}'   # omit "models" for all
-   curl -X POST localhost:3000/jobs -H 'content-type: application/json' \
+   curl -X POST localhost:3000/jobs -H 'content-type: application/json' -H "x-mgmt-key: $MGMT_KEY" \
      -d '{"benchmark": "cyber", "challenge": "labyrinth-linguist"}'                                  # or "all"
+   curl -X POST localhost:3000/jobs -H 'content-type: application/json' -H "x-mgmt-key: $MGMT_KEY" \
+     -d '{"benchmark": "pa", "world": "email_only_check_inbox", "assistant": "openclaw"}'            # or "all"
    ```
-4. Watch progress: `curl localhost:3000/jobs/<id>`, or `curl localhost:3000/jobs` for all jobs.
+4. Watch progress: `curl -H "x-mgmt-key: $MGMT_KEY" localhost:3000/jobs/<id>`, or `.../jobs` for all jobs.
 
 ## API
 
 | Route | Purpose |
 |---|---|
-| `POST /jobs` | `{benchmark, models?, ...}` (`minimal`: `prompt`; `cyber`: `challenge` or `"all"`); creates a job per model (and challenge) and returns them (`202`) |
+| `POST /jobs` | `{benchmark, models?, trials?, ...}`: `minimal` takes `prompt`; `cyber` takes `challenge` or `"all"`; `pa` takes `world` or `selection` (exactly one) and `assistant`. `trials` is 1 to 10 (default 1) for every benchmark. Creates a job per model, challenge or world, and trial, and returns them (`202`) |
 | `GET /jobs`, `GET /jobs/:id` | Job status: `queued → provisioning → running → done \| error \| cancelled` |
 | `POST /jobs/:id/cancel` | Cancels a queued or running job |
 | `POST /register` | Used by agents: `{jobId}` → `{model}` |
 | `GET /jobs/:id/context` | Used by agents: the benchmark's context for the job, served once per run |
+| `POST /jobs/:id/exchanges` | Used by the `pa` agent: appends one exchange to the Redis list `job-transcript:<id>` as it happens; needs the job's LLM token as a bearer token |
 
 Environment: `CONCURRENCY_<BENCHMARK>` (jobs at once), `JOB_TIMEOUT_MS` (default 30 min), `MAX_TURNS`.
 
@@ -110,8 +121,11 @@ Everything runs through Docker Compose; images contain the code (no bind mounts)
 | `src/api/` | `index.ts` (boot), `runner.ts` (runs one job), `benchmarks/` (per-benchmark handlers), `queue/` (Redis streams and job store), `docker/` (container provisioning), `routes/` |
 | `src/shared/` | types shared by agent and API |
 | `src/extensions/` | one directory per pi extension (`observability`, benchmarks) |
+| `src/pa/` | PA constants, grading (checks, judge, score, loader), mock services, chat adapter |
+| `src/reports/pa/` | PA comparison report: metrics, render, generate |
 | `resources/cyber/` | cyber challenges |
-| `scripts/` | `import-cybench.ts` |
+| `resources/pa/` | PA worlds, judge labels and calibration |
+| `scripts/` | `import-cybench.ts`, `pa/calibrate-judge.ts`, and `pa/*.py` (PA selection tooling) |
 | `docker/` | `Dockerfile.api` and one `Dockerfile.<benchmark>` each |
 
 

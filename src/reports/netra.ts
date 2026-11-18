@@ -1,5 +1,5 @@
 import type { ModelFile } from "../shared/results.ts";
-import { latestPerChallenge } from "./metrics.ts";
+import { latestPerChallengeTrial } from "./metrics.ts";
 
 export interface NetraSummary {
 	model: string;
@@ -26,7 +26,7 @@ const average = (values: (number | undefined)[]): number | null => {
  * count once). Fields a trace lacks are left out of that average. Null when no run has Netra data.
  */
 export function summarizeNetra(file: ModelFile): NetraSummary | null {
-	const traces = latestPerChallenge(file.runs).flatMap((run) => {
+	const traces = latestPerChallengeTrial(file.runs).flatMap((run) => {
 		const list = (run.netraMetadata as { traces?: unknown } | null)?.traces;
 		return Array.isArray(list) ? (list as Record<string, unknown>[]) : [];
 	});

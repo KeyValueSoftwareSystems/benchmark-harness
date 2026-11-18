@@ -1,7 +1,10 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { createRegistry, keyError } from "../src/api/models/registry.ts";
 import type { ModelConfig } from "../src/shared/types.ts";
+
+process.env.MGMT_KEY ??= "test";
+process.env.API_CONTAINER_NAME ??= "test";
+const { createRegistry, keyError } = await import("../src/api/models/registry.ts");
 
 const model = (name: string, apiKey = "k"): ModelConfig => ({ name, baseUrl: "https://x/v1", apiKey, api: "openai-completions", modelId: name });
 

@@ -22,6 +22,8 @@ services:
 
   # Provisions one agent container per job via the docker socket (agent containers never get it).
   api:
+    # Fixed so the api can join itself to per-job networks by name (see API_CONTAINER_NAME).
+    container_name: bench-api
     build:
       context: .
       dockerfile: docker/Dockerfile.api
@@ -32,8 +34,14 @@ services:
       <<: *netra
       REDIS_URL: redis://redis:6379
       RESOURCES_DIR: ${PWD}/resources
+      MGMT_KEY: ${MGMT_KEY:?set MGMT_KEY in .env}
+      API_CONTAINER_NAME: bench-api
       # Model turns an agent may take per run before it is aborted; unset or 0 means unlimited.
       MAX_TURNS: ${MAX_TURNS:-}
+      # The MODELS entry that judges PA runs.
+      JUDGE_MODEL: ${JUDGE_MODEL:-}
+      # Netra MCP, for pulling sessions back (EU projects: https://api.eu.getnetra.ai/mcp).
+      NETRA_MCP_ENDPOINT: ${NETRA_MCP_ENDPOINT:-https://api.getnetra.ai/mcp}
     depends_on:
       - redis
     volumes:
@@ -53,10 +61,12 @@ services:
     environment:
       RESULTS_DIR: /data/results
       REPORTS_DIR: /data/reports
+      RESOURCES_DIR: /resources
       # Optional: one model config as JSON to write the report narrative (never the api's MODELS).
       NARRATIVE_MODEL: ${NARRATIVE_MODEL:-}
     volumes:
       - harness-data:/data
+      - ${PWD}/resources:/resources:ro
 
   # The report service over HTTP, for the page's "Generate report" (the api calls it on the compose network).
   reports-api:
@@ -109,3 +119,33 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile.cyber
+
+  pa:
+    image: bench/pa
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.pa
+    environment:
+      <<: *netra
+      BENCHMARK: pa
+      API_URL: http://api:3000
+    depends_on:
+      - api
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # One image per personal assistant under test (PAA_IMAGES in src/pa/constants.ts); see docker/paa/<name>/.
+  pa-paa-openclaw:
+    image: bench/pa-paa-openclaw
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/paa/openclaw/Dockerfile
+
+  pa-paa-hermes:
+    image: bench/pa-paa-hermes
+    profiles: ["agents"]
+    build:
+      context: .
+      dockerfile: docker/paa/hermes/Dockerfile

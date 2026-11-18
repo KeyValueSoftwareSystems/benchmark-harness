@@ -4,6 +4,19 @@ import type { ResultPayload } from "../../shared/results.ts";
 import type { Job, JobStatus } from "../../shared/types.ts";
 
 const key = (id: string) => `job:${id}`;
+/** Redis keys written outside this file. */
+export const keys = {
+	agentLlmToken: (jobId: string) => `agent-llm-token:${jobId}`,
+	llmToken: (token: string) => `llm-token:${token}`,
+	llmCalls: (jobId: string) => `llm-calls:${jobId}`,
+	transcript: (jobId: string) => `job-transcript:${jobId}`,
+	/** JSON array of the PAA's tool calls (`ToolCallRecord[]`), fetched from the PAA container before it stops. */
+	paToolCalls: (jobId: string) => `pa-tool-calls:${jobId}`,
+	/** JSON `PaaInfo` (assistant version and enabled toolsets), read from the PAA container before it stops. */
+	paInfo: (jobId: string) => `pa-info:${jobId}`,
+	/** List of JSON `LlmCallRecord`s, one per model call through the proxy. */
+	llmCallLog: (jobId: string) => `llm-call-log:${jobId}`,
+};
 const INDEX = "job-ids";
 
 export async function createJob(redis: Redis, input: Pick<Job, "benchmark" | "prompt" | "model" | "params">): Promise<Job> {

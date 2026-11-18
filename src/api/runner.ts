@@ -47,6 +47,7 @@ export async function runJob(id: string) {
 				getResult: (jobId) => getResult(redis, jobId),
 				modelIdFor: (name) => registry.find(name)?.modelId ?? name,
 				conditions: CONDITIONS,
+				benchmark,
 			},
 			job,
 			outcome,

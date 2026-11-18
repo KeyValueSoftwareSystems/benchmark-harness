@@ -1,24 +1,37 @@
 import { Router } from "express";
+import { isApprovalAction } from "../../pa/approvals.ts";
 import { benchmarks } from "../benchmarks/index.ts";
+import { ModelAccess } from "../benchmarks/types.ts";
+import { API_URL, JOB_DATA_TTL_S } from "../config.ts";
 import { canRegister } from "../models/register.ts";
 import { keyError, registry } from "../models/registry.ts";
-import { claimContext, getJob } from "../queue/store.ts";
+import { claimContext, getJob, keys } from "../queue/store.ts";
+import { extractToken, proxyBaseUrl, readLlmToken } from "./llm.ts";
 import { redis } from "../redis.ts";
 
 /** Endpoints called by provisioned agent containers. */
 export const agents = Router();
 
 // An agent started for a job asks which model to use (keeps model keys out of container env).
+// For "proxy" benchmarks (PA), return the LLM proxy URL + job token instead of the real key.
 agents.post("/register", async (req, res) => {
 	const { jobId } = req.body ?? {};
 	if (typeof jobId !== "string") return void res.status(400).json({ error: "jobId is required" });
 	const job = await getJob(redis, jobId);
 	if (job && !canRegister(job.status)) return void res.status(409).json({ error: "job is not running" });
 	const model = job && registry.find(job.model);
-	if (!model) return void res.status(404).json({ error: "unknown job" });
+	if (!job || !model) return void res.status(404).json({ error: "unknown job" });
 	const missing = keyError(registry, model.name);
 	if (missing) return void res.status(409).json({ error: missing });
-	res.json({ model });
+
+	const benchmark = benchmarks.get(job.benchmark);
+	if (benchmark?.modelAccess === ModelAccess.proxy) {
+		const agentToken = await redis.get(keys.agentLlmToken(job.id));
+		if (!agentToken) return void res.status(503).json({ error: `LLM token missing or expired for job ${job.id}` });
+		res.json({ model: { ...model, baseUrl: proxyBaseUrl(API_URL, model.api), apiKey: agentToken } });
+	} else {
+		res.json({ model });
+	}
 });
 
 agents.get("/jobs/:id/context", async (req, res) => {
@@ -27,4 +40,27 @@ agents.get("/jobs/:id/context", async (req, res) => {
 	if (!job || !benchmark?.context) return void res.status(404).json({ error: "no context for job" });
 	if (!(await claimContext(redis, job.id))) return void res.status(403).json({ error: "context already served" });
 	res.json(await benchmark.context(job));
+});
+
+// Saves each exchange as it happens, so a job killed mid-run keeps its transcript so far.
+agents.post("/jobs/:id/exchanges", async (req, res) => {
+	const token = extractToken(req);
+	if (!token || (await readLlmToken(redis, token))?.jobId !== req.params.id) {
+		return void res.status(403).json({ error: "token does not belong to this job" });
+	}
+	const { user_message, assistant_reply, timestamp, sent_at, approvals } = req.body ?? {};
+	if ([user_message, assistant_reply, timestamp].some((v) => typeof v !== "string")) {
+		return void res.status(400).json({ error: "user_message, assistant_reply and timestamp are required strings" });
+	}
+	if (sent_at !== undefined && typeof sent_at !== "string") return void res.status(400).json({ error: "sent_at must be a string" });
+	if (approvals !== undefined && !(Array.isArray(approvals) && approvals.every(isApprovalAction))) {
+		return void res.status(400).json({ error: "approvals must be a list of known approval actions" });
+	}
+	const key = keys.transcript(req.params.id);
+	await redis
+		.multi()
+		.rpush(key, JSON.stringify({ user_message, assistant_reply, timestamp, sent_at, approvals }))
+		.expire(key, JOB_DATA_TTL_S)
+		.exec();
+	res.status(202).end();
 });

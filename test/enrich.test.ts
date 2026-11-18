@@ -14,6 +14,8 @@ const base: RunRecord = {
 	model: "gpt-x",
 	modelId: "m",
 	challenge: null,
+	assistant: null,
+	trial: 1,
 	status: "done",
 	correct: true,
 	outcome: null,

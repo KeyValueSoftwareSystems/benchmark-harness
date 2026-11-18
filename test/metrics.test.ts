@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { computeMetrics } from "../src/reports/metrics.ts";
+import { computeMetrics, latestPerChallengeTrial } from "../src/reports/metrics.ts";
 import type { ModelFile, RunRecord } from "../src/shared/results.ts";
 
 const run = (jobId: string, correct: boolean | null, durationMs: number, costUsd: number, over: Partial<RunRecord> = {}): RunRecord => ({
@@ -9,6 +9,8 @@ const run = (jobId: string, correct: boolean | null, durationMs: number, costUsd
 	model: "gpt-x",
 	modelId: "m",
 	challenge: jobId,
+	assistant: null,
+	trial: 1,
 	status: "done",
 	correct,
 	outcome: null,
@@ -64,4 +66,48 @@ test("a run that never reported (zero turns) does not drag the average cost down
 	const m = computeMetrics(file([reported, lost]));
 	assert.equal(m.total, 2);
 	assert.equal(m.avgCostUsd, 0.4);
+});
+
+test("each trial of a challenge survives: two trials count as two attempts", () => {
+	const m = computeMetrics(
+		file([
+			run("t1", true, 1000, 0.1, { challenge: "c1", trial: 1, createdAt: "2026-11-01T00:00:00Z" }),
+			run("t2", false, 1000, 0.1, { challenge: "c1", trial: 2, createdAt: "2026-11-01T00:01:00Z" }),
+		]),
+	);
+	assert.deepEqual([m.solved, m.total], [1, 2]);
+});
+
+test("a re-run of the same challenge and trial replaces the earlier run", () => {
+	const kept = latestPerChallengeTrial([
+		run("old", false, 1000, 0.1, { challenge: "c1", trial: 2, createdAt: "2026-11-01T00:00:00Z" }),
+		run("new", true, 1000, 0.1, { challenge: "c1", trial: 2, createdAt: "2026-11-02T00:00:00Z" }),
+		run("t1", false, 1000, 0.1, { challenge: "c1", trial: 1, createdAt: "2026-11-01T00:00:00Z" }),
+	]);
+	assert.deepEqual(kept.map((r) => r.jobId).sort(), ["new", "t1"]);
+});
+
+test("runs of different challenges in the same trial are not merged", () => {
+	const kept = latestPerChallengeTrial([
+		run("a", true, 1000, 0.1, { challenge: "c1", trial: 1 }),
+		run("b", true, 1000, 0.1, { challenge: "c2", trial: 1 }),
+	]);
+	assert.equal(kept.length, 2);
+});
+
+test("legacy runs recorded as trial 1 de-duplicate exactly as before", () => {
+	const kept = latestPerChallengeTrial([
+		run("old", false, 1000, 0.1, { challenge: "c1", trial: 1, createdAt: "2026-11-01T00:00:00Z" }),
+		run("new", true, 1000, 0.1, { challenge: "c1", trial: 1, createdAt: "2026-11-02T00:00:00Z" }),
+	]);
+	assert.deepEqual(kept.map((r) => r.jobId), ["new"]);
+});
+
+test("cyber-style runs without a challenge are never merged, whatever their trial", () => {
+	const kept = latestPerChallengeTrial([
+		run("a", true, 1, 0, { challenge: null, trial: 1 }),
+		run("b", true, 1, 0, { challenge: null, trial: 1 }),
+		run("c", true, 1, 0, { challenge: null, trial: 2 }),
+	]);
+	assert.equal(kept.length, 3);
 });

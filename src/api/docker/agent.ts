@@ -1,7 +1,9 @@
+import { execFile } from "node:child_process";
+import { promisify } from "node:util";
 import { API_URL } from "../config.ts";
 import type { AgentOutcome, JobContext } from "../benchmarks/types.ts";
 import type { Job } from "../../shared/types.ts";
-import { docker, JOB_LABEL, sleep } from "./cli.ts";
+import { AGENT_CONTAINER_PREFIX, docker, JOB_LABEL, sleep } from "./cli.ts";
 
 const AGENT_PORT = 8080;
 const NETWORK = process.env.AGENT_NETWORK ?? "bench";
@@ -25,6 +27,10 @@ async function poll<T>(check: () => Promise<T | undefined>, intervalMs: number, 
 
 /** Starts the job's agent container (image `bench/<benchmark>`), runs `use` against it, then removes it. */
 export interface AgentOptions {
+	/** Container name; defaults to the agent prefix plus the job ID. */
+	name?: string;
+	/** Network shared with the api; defaults to `AGENT_NETWORK` (the compose network). */
+	network?: string;
 	/** Extra networks to join besides the one shared with the api (e.g. a challenge's project network). */
 	networks?: string[];
 	/** Directory on the api host to copy into the container before the agent starts. */
@@ -35,9 +41,8 @@ export async function withAgent(
 	job: Job,
 	ctx: JobContext,
 	use: (agent: Agent) => Promise<AgentOutcome>,
-	{ networks = [], files }: AgentOptions = {},
+	{ name = `${AGENT_CONTAINER_PREFIX}${job.id}`, network = NETWORK, networks = [], files }: AgentOptions = {},
 ): Promise<AgentOutcome> {
-	const name = `agent-${job.id}`;
 	const url = `http://${name}:${AGENT_PORT}`;
 	const log = (msg: string) => console.log(`[docker] ${name}: ${msg}`);
 	const env = [
@@ -51,7 +56,7 @@ export async function withAgent(
 	try {
 		log(`starting bench/${job.benchmark}`);
 		await docker(
-			"run", "-d", "--name", name, "--label", `${JOB_LABEL}=${job.id}`, "--network", NETWORK,
+			"run", "-d", "--name", name, "--label", `${JOB_LABEL}=${job.id}`, "--network", network,
 			"--add-host", "host.docker.internal:host-gateway", ...env, `bench/${job.benchmark}`,
 		);
 		for (const network of networks) await docker("network", "connect", network, name);
@@ -84,6 +89,15 @@ export async function withAgent(
 		log(`${outcome.status} after ${Math.round((Date.now() - startedAt) / 1000)}s${outcome.error ? `: ${outcome.error}` : ""}`);
 		return outcome;
 	} finally {
+		// Copy the agent's stderr into the API log, for debugging.
+		try {
+			const { stderr } = await promisify(execFile)("docker", ["logs", name]);
+			if (stderr.trim()) {
+				for (const line of stderr.split("\n")) {
+					if (line.trim()) console.error(`[agent-log] ${name}: ${line}`);
+				}
+			}
+		} catch { /* container may already be gone */ }
 		// Stop gracefully (SIGTERM) first so the agent can flush its traces; `rm -f` would kill it outright.
 		await docker("stop", "--time", "30", name)
 			.then(() => docker("rm", name))

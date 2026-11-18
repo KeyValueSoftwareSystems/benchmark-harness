@@ -4,6 +4,8 @@ export interface RunMetrics {
 	inputTokens: number;
 	outputTokens: number;
 	costUsd: number;
+	cacheReadTokens?: number;
+	cacheWriteTokens?: number;
 }
 
 /** What an agent container reports for its run; benchmark-agnostic. `outcome` is whatever `benchmark_result` carried. */
@@ -20,6 +22,9 @@ export interface RunRecord {
 	model: string;
 	modelId: string;
 	challenge: string | null;
+	trial: number;
+	/** The personal assistant under test (PA runs); null for other benchmarks. */
+	assistant: string | null;
 	status: string;
 	correct: boolean | null;
 	outcome: Record<string, unknown> | null;

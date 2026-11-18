@@ -5,11 +5,14 @@ import express from "express";
 import type { Benchmark } from "../src/api/benchmarks/types.ts";
 import { openDb, upsertRun } from "../src/api/db/runs.ts";
 import { insecureKeyGuard } from "../src/api/models/guard.ts";
-import { createRegistry } from "../src/api/models/registry.ts";
 import { DiscoveryError } from "../src/api/discovery/fetch.ts";
 import { createModelsRouter } from "../src/api/routes/models.ts";
 import type { RunRecord } from "../src/shared/results.ts";
 import type { ModelConfig } from "../src/shared/types.ts";
+
+process.env.MGMT_KEY ??= "test";
+process.env.API_CONTAINER_NAME ??= "test";
+const { createRegistry } = await import("../src/api/models/registry.ts");
 
 const KEY = "sk-secret-123";
 const staticModel: ModelConfig = { name: "static-a", baseUrl: "https://s/v1", apiKey: "static-secret", api: "openai-completions", modelId: "a-1" };
@@ -18,7 +21,7 @@ const benchmarks = new Map<string, Benchmark>([
 	["minimal", { name: "minimal", concurrency: 1, parse: async () => [], run: async () => ({ status: "done" }) }],
 ]);
 const run = (model: string, benchmark: string): RunRecord => ({
-	jobId: `${model}-${benchmark}`, benchmark, model, modelId: model, challenge: null, status: "done", correct: true, outcome: null,
+	jobId: `${model}-${benchmark}`, benchmark, model, modelId: model, challenge: null, trial: 1, assistant: null, status: "done", correct: true, outcome: null,
 	metrics: { turns: 1, durationMs: 1, inputTokens: 1, outputTokens: 1, costUsd: 0 }, sessionId: null, traceIds: null, netraMetadata: null,
 	conditions: {}, createdAt: "2026-11-09T00:00:00Z", finishedAt: "2026-11-09T00:00:01Z",
 });

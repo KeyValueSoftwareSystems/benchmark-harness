@@ -17,6 +17,8 @@ const run = (jobId: string, traces: unknown[] | null, over: Partial<RunRecord> =
 	model: "m",
 	modelId: "m",
 	challenge: jobId,
+	assistant: null,
+	trial: 1,
 	status: "done",
 	correct: true,
 	outcome: null,
