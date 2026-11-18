@@ -22,7 +22,8 @@ import type { Redis } from "ioredis";
 import { Agent, fetch } from "undici";
 import { createReplyCollector } from "../../shared/llm-reply.ts";
 import { callCost, createUsageScanner, type LlmUsage } from "../../shared/llm-usage.ts";
-import { JOB_DATA_TTL_S, MODELS, RESULTS_DIR } from "../config.ts";
+import { JOB_DATA_TTL_S, RESULTS_DIR } from "../config.ts";
+import { registry } from "../models/registry.ts";
 import { isClientDisconnect } from "../client-disconnect.ts";
 import { createLlmCallTrace, type LlmCallTrace } from "../llm-call-trace.ts";
 import { getJob, keys, setStatus } from "../queue/store.ts";
@@ -190,7 +191,7 @@ export function llmRouter(redis: Redis, callTrace: LlmCallTrace = createLlmCallT
 			return;
 		}
 
-		const model = MODELS.find((m) => m.name === job.model);
+		const model = registry.find(job.model);
 		if (!model) {
 			res.status(404).json({ error: "model not configured" });
 			return;

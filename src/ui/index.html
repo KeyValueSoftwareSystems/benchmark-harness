@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benchmark Harness · AI Scout</title>
+<link rel="icon" href="/ai-scout.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700&display=swap">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="frame">
+  <header class="top">
+    <div class="brand"><img class="mark" src="/ai-scout.svg" alt="" width="40" height="40">AI Scout</div>
+    <nav class="nav" aria-label="Sections">
+      <button type="button" data-view="models" id="nav-models" aria-current="page"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M5 20v-6M10 20V8M15 20v-9M20 20V5"/></svg>Models</button>
+      <button type="button" data-view="runs" id="nav-runs"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v5l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 14h9"/></svg>Runs <span class="count" id="runs-count" hidden></span></button>
+      <button type="button" data-view="queue" id="nav-queue"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4 4 7l3 3M4 7h11a5 5 0 0 1 0 10h-2M17 20l3-3-3-3M20 17H9"/></svg>Queue <span class="count" id="queue-count" hidden></span></button>
+    </nav>
+    <div class="top-r"><button class="pill-btn" type="button" id="add"><svg class="i" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Add model</span></button></div>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>Benchmark Harness</h1>
+    <p>Add a model. Pick a benchmark. Confirm before any credits are spent.</p>
+    <img class="art" src="/ai-scout.svg" alt="" width="360" height="360">
+  </section>
+
+  <main class="cards">
+    <section class="card" id="left-card" aria-live="off"></section>
+    <section class="card" id="right-card"></section>
+  </main>
+</div>
+
+<footer class="foot">
+  <div class="brand"><img class="mark" src="/ai-scout.svg" alt="" width="28" height="28">AI Scout</div>
+  <span class="vsep" aria-hidden="true"></span>
+  <span>Benchmark. Build better.</span>
+  <div class="links">
+    <button type="button" id="tour">Take the tour</button><span class="vsep" aria-hidden="true"></span>
+    <button type="button" id="theme"></button><span class="vsep" aria-hidden="true"></span>
+    <span class="live" id="api-status" data-state="wait">Connecting to the harness API</span>
+  </div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="dialogs"></div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

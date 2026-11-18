@@ -46,6 +46,8 @@ export interface Benchmark {
 	 * - `"proxy"`: /register returns the LLM proxy URL + the job token instead of the real key.
 	 */
 	modelAccess?: ModelAccess;
+	/** Challenge ids a run can pick from; absent for benchmarks that take a free prompt instead. */
+	challenges?(): Promise<string[]>;
 	/** Validates a `POST /jobs` body and turns it into the inputs of the jobs to create (one per challenge, say). */
 	parse(body: Record<string, unknown>): Promise<JobInput[] | { error: string }>;
 	/** What the agent's extension asks for at startup (served once per run). */

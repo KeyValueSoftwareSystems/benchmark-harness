@@ -19,6 +19,7 @@ import type { ResultPayload, RunMetrics } from "../../shared/results.ts";
 import { type Job, JobParam } from "../../shared/types.ts";
 import { withPaa } from "../docker/paa.ts";
 import { jobNetworkAddresses } from "../jobNetworks.ts";
+import { registry } from "../models/registry.ts";
 import { listLlmCalls, LlmRole, PROXY_APIS, storeLlmToken, removeLlmToken } from "../routes/llm.ts";
 import { keys } from "../queue/store.ts";
 import { redis } from "../redis.ts";
@@ -242,7 +243,7 @@ export const pa: Benchmark = {
 
 		const world = await loadWorld(id);
 
-		const model = MODELS.find((m) => m.name === job.model);
+		const model = registry.find(job.model);
 		if (!model) return { status: "error", error: `model ${job.model} is not configured` };
 		if (!PROXY_APIS.has(model.api)) {
 			return { status: "error", error: `model api ${model.api} is not supported by the LLM proxy (use one of: ${[...PROXY_APIS].join(", ")})` };

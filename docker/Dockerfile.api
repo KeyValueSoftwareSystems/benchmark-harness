@@ -22,5 +22,6 @@ COPY src/pa/persona-prompt.ts ./src/pa/persona-prompt.ts
 COPY src/pa/scenario-clock.ts ./src/pa/scenario-clock.ts
 COPY src/pa/selection.ts ./src/pa/selection.ts
 COPY src/pa/grading ./src/pa/grading
+COPY src/ui ./src/ui
 
 CMD ["node", "--experimental-strip-types", "src/api/index.ts"]

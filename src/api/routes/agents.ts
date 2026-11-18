@@ -2,7 +2,9 @@ import { Router } from "express";
 import { isApprovalAction } from "../../pa/approvals.ts";
 import { benchmarks } from "../benchmarks/index.ts";
 import { ModelAccess } from "../benchmarks/types.ts";
-import { API_URL, JOB_DATA_TTL_S, MODELS } from "../config.ts";
+import { API_URL, JOB_DATA_TTL_S } from "../config.ts";
+import { canRegister } from "../models/register.ts";
+import { keyError, registry } from "../models/registry.ts";
 import { claimContext, getJob, keys } from "../queue/store.ts";
 import { extractToken, proxyBaseUrl, readLlmToken } from "./llm.ts";
 import { redis } from "../redis.ts";
@@ -16,9 +18,11 @@ agents.post("/register", async (req, res) => {
 	const { jobId } = req.body ?? {};
 	if (typeof jobId !== "string") return void res.status(400).json({ error: "jobId is required" });
 	const job = await getJob(redis, jobId);
-	if (!job) return void res.status(404).json({ error: "unknown job" });
-	const model = MODELS.find((m) => m.name === job.model);
-	if (!model) return void res.status(404).json({ error: "unknown model" });
+	if (job && !canRegister(job.status)) return void res.status(409).json({ error: "job is not running" });
+	const model = job && registry.find(job.model);
+	if (!job || !model) return void res.status(404).json({ error: "unknown job" });
+	const missing = keyError(registry, model.name);
+	if (missing) return void res.status(409).json({ error: missing });
 
 	const benchmark = benchmarks.get(job.benchmark);
 	if (benchmark?.modelAccess === ModelAccess.proxy) {

@@ -1,0 +1,75 @@
+<h2>Smithy: add a model, run, report</h2>
+<p class="subtitle">Three states of the same screen. Parameters are now discovered from the model's docs link.</p>
+
+<style>
+  .st{font-size:12px;display:flex;flex-direction:column;gap:7px}
+  .st h4{margin:0;font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.7}
+  .f{border:1px solid #aaa;border-radius:4px;padding:5px 8px}
+  .f small{display:block;opacity:.6;font-size:10px;text-transform:uppercase}
+  .b{border:1px dashed #888;border-radius:4px;padding:6px 8px;text-align:center}
+  .b.hi{border:2px solid #888;font-weight:700}
+  .b.dim{opacity:.4}
+  .row{display:flex;gap:8px}.row>*{flex:1}
+  .mut{opacity:.55}
+  .step{display:flex;gap:8px;align-items:center;padding:3px 0}
+  .gear{display:inline-block;animation:spin 3s linear infinite;font-size:34px;line-height:1}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .bar{height:8px;border:1px solid #888;border-radius:4px;overflow:hidden}.bar i{display:block;height:100%;width:40%;background:#888}
+  .disc{border:1px solid #888;border-radius:4px;padding:6px 8px;display:grid;grid-template-columns:1fr 1fr;gap:4px 10px}
+</style>
+
+<div class="split">
+  <div class="mockup">
+    <div class="mockup-header">1 · Add a new model (card)</div>
+    <div class="mockup-body st">
+      <div class="f"><small>Model name</small>deepseek/deepseek-v4.1-flash</div>
+      <div class="f"><small>Base URL</small>https://openrouter.ai/api/v1</div>
+      <div class="f"><small>API key · never stored</small>••••••••••••</div>
+      <div class="f"><small>Docs link (used to discover parameters)</small>https://openrouter.ai/deepseek/deepseek-v4.1-flash</div>
+      <div class="b hi">Discover parameters</div>
+      <h4>Discovered from the docs</h4>
+      <div class="disc">
+        <span>thinking level</span><span>off · low · medium · high</span>
+        <span>max output tokens</span><span>32768</span>
+        <span>price in / out</span><span>$0.10 / $0.40 per M</span>
+        <span>temperature</span><span>0 – 2</span>
+      </div>
+      <div class="mut" style="font-size:10px">You confirm or edit each value before the model is added.</div>
+      <div class="row"><div class="b">Cancel</div><div class="b hi">Add model</div></div>
+    </div>
+  </div>
+
+  <div class="mockup">
+    <div class="mockup-header">2 · Benchmark now: running</div>
+    <div class="mockup-body st" style="align-items:center;text-align:center">
+      <span class="gear">⚙</span>
+      <div style="font-weight:700">deepseek-v4.1-flash · cyber</div>
+      <div class="bar" style="width:100%"><i></i></div>
+      <div class="mut">2 of 5 challenges</div>
+      <div style="width:100%;text-align:left">
+        <div class="step">✓ locktalk · solved · 12 turns</div>
+        <div class="step">✓ chunky · not solved · 40 turns</div>
+        <div class="step">⚙ ezmaze · running · turn 7 · 01:42</div>
+        <div class="step mut">○ frog-waf · waiting</div>
+        <div class="step mut">○ quickscan · waiting</div>
+      </div>
+      <div class="b dim" style="width:100%">Cancel run</div>
+    </div>
+  </div>
+</div>
+
+<div class="mockup" style="margin-top:14px">
+  <div class="mockup-header">3 · Finished: report</div>
+  <div class="mockup-body st">
+    <div class="row">
+      <div style="flex:1.2">
+        <h4>Result</h4>
+        <div style="font-weight:700">deepseek-v4.1-flash · 3 of 5 solved (60%)</div>
+        <div class="mut">median 15 s · avg cost $0.02</div>
+      </div>
+      <div class="b hi">Generate report</div>
+      <div class="b">Benchmark again</div>
+    </div>
+    <div class="mut" style="font-size:10px">After the report is built, the model moves into its domain group on the left with the report attached and a "Benchmark again" option.</div>
+  </div>
+</div>

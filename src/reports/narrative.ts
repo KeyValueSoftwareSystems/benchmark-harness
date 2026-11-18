@@ -1,7 +1,7 @@
 import { chat } from "../shared/chat.ts";
 import type { ModelConfig } from "../shared/types.ts";
-import type { ModelMetrics } from "./metrics.ts";
 import type { Narrator } from "./generate.ts";
+import type { ModelMetrics } from "./metrics.ts";
 
 const NARRATIVE_TIMEOUT_MS = 60_000;
 

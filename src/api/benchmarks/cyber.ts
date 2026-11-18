@@ -28,6 +28,8 @@ export const cyber: Benchmark = {
 	name: "cyber",
 	concurrency: 2,
 
+	challenges: async () => (await readdir(CHALLENGES_DIR)).sort(),
+
 	async parse({ challenge }) {
 		if (typeof challenge !== "string") return { error: "challenge is required" };
 		try {
