@@ -1,0 +1,182 @@
+[
+  {
+    "contact_id": "CON-201",
+    "name": "Marcus Chen",
+    "department": "People Operations",
+    "title": "VP of People Operations",
+    "email": "marcus.chen@veridiantech.example",
+    "phone": "+1 617-555-0184",
+    "location": "Veridian Technologies, 200 State Street, Boston MA",
+    "note": "Primary contact for Veridian Technologies corporate events. Returning client since 2024. Approves budgets up to ~$45K independently; above that requires CFO (Priya Nair) sign-off. Prefers email, responds same day. Proposal deadline for 2026 Leadership Summit: May 20, 2026."
+  },
+  {
+    "contact_id": "CON-202",
+    "name": "Jamie Okafor",
+    "department": "Events",
+    "title": "Senior Events Coordinator",
+    "email": "j.okafor@themeridianhotel.example",
+    "phone": "+1 617-555-0237",
+    "location": "The Meridian Conference Center, Boston MA",
+    "note": "Venue coordinator at The Meridian. Good working relationship from Veridian 2025 event. Responsive and flexible on load-in times. Contact for 2026 availability and updated pricing."
+  },
+  {
+    "contact_id": "CON-203",
+    "name": "Priya Nair",
+    "department": "Finance",
+    "title": "CFO",
+    "email": "priya.nair@veridiantech.example",
+    "phone": "+1 617-555-0291",
+    "location": "Veridian Technologies, 200 State Street, Boston MA",
+    "note": "CFO at Veridian Technologies. Not a direct contact — Marcus shares proposals with her for sign-off on budgets above ~$45K. Keep proposal language finance-friendly."
+  },
+  {
+    "contact_id": "CON-204",
+    "name": "Dana Kowalski",
+    "department": null,
+    "title": "Bride",
+    "email": "dana.kowalski@gmail.example",
+    "phone": "+1 508-555-0163",
+    "location": "Worcester, MA",
+    "note": "Kowalski-Reyes wedding 2026-08-01. Currently requesting day-of changes 4 weeks pre-event. Handle with care — reference contract terms. Florist budget affected by Bloom & Branch price increase."
+  },
+  {
+    "contact_id": "CON-205",
+    "name": "Sophie Marchetti",
+    "department": "",
+    "title": "Owner",
+    "email": "owner@bloomandbranch.example",
+    "phone": "+1 312-555-0174",
+    "location": "Chicago, IL",
+    "note": "Owner of Bloom & Branch Studio. Preferred vendor for floral — ceremony + reception packages. Currently in rate renegotiation; raised prices ~18% spring 2026. Affects Kowalski-Reyes, Chen-Okafor, Patel-Williams. Handle carefully — long-term relationship."
+  },
+  {
+    "contact_id": "CON-206",
+    "name": "Marco Reyes",
+    "department": "",
+    "title": "Groom",
+    "email": "marco.reyes@gmail.example",
+    "phone": "+1 773-555-0291",
+    "location": "Chicago, IL",
+    "note": "Groom — Kowalski-Reyes wedding 2026-05-09. Secondary contact; Dana Kowalski (CON-204) is primary decision-maker on budget matters."
+  },
+  {
+    "contact_id": "CON-207",
+    "name": "Sienna Voss",
+    "department": "",
+    "title": "Owner",
+    "email": "owner@bloomandbranch.example",
+    "phone": "+1 312-555-0184",
+    "location": "Chicago, IL",
+    "note": "Owner of Bloom & Branch Studio. Primary floral vendor for 3 active spring 2026 weddings including Kowalski-Reyes. Issued mid-season price increase late May 2026. Dual-assurance conflict in progress — Rachel gave incompatible commitments to Sienna and to Dana Kowalski. Handle with care; relationship spans multiple weddings."
+  },
+  {
+    "contact_id": "CON-208",
+    "name": "Derek Holt",
+    "department": "Sales",
+    "title": "Senior Account Manager",
+    "email": "av@clearsignal.example",
+    "phone": "(312) 555-0174",
+    "location": "Chicago, IL",
+    "note": "ClearSignal AV primary contact for corporate events. Responsive; confirmed Veridian 2026 quote 2026-03-31. Quote expiry 2026-04-15 — flag for fast contract turnaround."
+  },
+  {
+    "contact_id": "CON-209",
+    "name": "Priya Nair",
+    "department": "People Operations",
+    "title": "Chief of Staff, People Operations",
+    "email": "priya.nair@veridiantech.example",
+    "phone": "",
+    "location": "Veridian Technologies HQ",
+    "note": "Marcus Chen's Chief of Staff; tracks internal budget approvals for the Leadership Summit. Added as attendee for May 14 scope call. Key contact for confirming hard budget ceiling."
+  },
+  {
+    "contact_id": "CON-210",
+    "name": "Priya Nair",
+    "department": "Executive Office",
+    "title": "Executive Assistant to Marcus Chen",
+    "email": "priya.nair@veridiantech.example",
+    "phone": "+1 415-555-0192",
+    "location": "Veridian Technologies HQ, San Francisco CA",
+    "note": "Primary scheduling contact for Marcus Chen. Copy on all Veridian RFP correspondence. Confirmed internal RFP approval deadline is May 22."
+  },
+  {
+    "contact_id": "CON-211",
+    "name": "Marco Reyes",
+    "department": "",
+    "title": "Groom — Kowalski-Reyes Wedding",
+    "email": "marco.reyes@gmail.example",
+    "phone": "+1 312-555-0847",
+    "location": "Chicago, IL",
+    "note": "Co-client with Dana Kowalski. Wants to be included in floral pricing conversations. Wedding date 2026-05-09 — first of season."
+  },
+  {
+    "contact_id": "CON-212",
+    "name": "Tara Bloom",
+    "department": "",
+    "title": "Freelance Day-of Coordinator",
+    "email": "tara.bloom.events@gmail.example",
+    "phone": "(312) 555-0847",
+    "location": "Chicago, IL",
+    "note": "Freelance day-of coordinator; day rate $650/10 hrs, OT $65/hr. Worked Grandview Venue twice — Marcus Bell reference. Reliable, professional. Recommended by Lena Vasquez. Booked as secondary for Kowalski-Reyes 2026-05-09."
+  },
+  {
+    "contact_id": "CON-213",
+    "name": "Lena Vasquez",
+    "department": "",
+    "title": "Independent Wedding Planner",
+    "email": "lena.vasquez.events@gmail.example",
+    "phone": "(312) 555-0374",
+    "location": "Chicago, IL",
+    "note": "Peer planner in Rachel's network; mutual-help history. Unavailable May 9 (Harrington-Park wedding). Good relationship — warm, responsive. Recommended Tara Bloom for day-of freelance work."
+  },
+  {
+    "contact_id": "CON-214",
+    "name": "Tara Bloom",
+    "department": "",
+    "title": "Freelance Day-Of Coordinator",
+    "email": "tara.bloom.events@gmail.example",
+    "phone": "+1-617-555-0192",
+    "location": "Boston, MA",
+    "note": "Day-of coordinator for multiple 2026 spring weddings. Reliable for logistics handoff. Works with Rachel seasonally since 2024."
+  },
+  {
+    "contact_id": "CON-215",
+    "name": "Claire Fontaine",
+    "department": "",
+    "title": "Owner / Lead Florist",
+    "email": "claire.fontaine@blossomfloralstudio.example",
+    "phone": "+1 617-555-0184",
+    "location": "Blossom Floral Studio, Boston MA",
+    "note": "Did excellent work on Harmon wedding Oct 2025. Aesthetic aligns well with Rachel's spring clients. Potential backup florist for Bloom & Branch-affected weddings. No formal outreach sent as of 2026-03-11 — draft sitting in gmail."
+  },
+  {
+    "contact_id": "CON-216",
+    "name": "Sienna Voss",
+    "department": "",
+    "title": "Owner",
+    "email": "owner@bloomandbranch.example",
+    "phone": "+1 312-555-0187",
+    "location": "Chicago, IL",
+    "note": "Primary contact at Bloom & Branch Studio. Rate conflict active as of April 2026 — raised prices affecting Kowalski-Reyes, Hartley, and Pemberton weddings. Deadline for signed amendment: April 24, 2026. Relationship at risk if dual-assurance conflict not resolved."
+  },
+  {
+    "contact_id": "CON-217",
+    "name": "Sienna Voss",
+    "department": "",
+    "title": "Owner / Lead Florist",
+    "email": "owner@bloomandbranch.example",
+    "phone": "+1 312-555-0184",
+    "location": "Chicago, IL",
+    "note": "Owner of Bloom & Branch Studio. Raised prices ~12% effective April 2026 citing supply chain costs. Rachel gave incompatible assurances to Sienna vs. client Dana Kowalski — conflict must be resolved before Kowalski-Reyes wedding. Relationship spans multiple active weddings; handle carefully."
+  },
+  {
+    "contact_id": "CON-218",
+    "name": "Claire Fontaine",
+    "department": "",
+    "title": "Owner / Lead Florist",
+    "email": "claire.fontaine@blossomfloralstudio.example",
+    "phone": "+1 312-555-0271",
+    "location": "Chicago, IL",
+    "note": "Owner of Blossom Floral Studio. Identified as primary florist backup candidate in research notes. Has capacity for spring 2026 weddings per informal inquiry. Pricing roughly comparable to pre-increase Bloom & Branch rates. Has not been formally soft-confirmed as contingency vendor yet."
+  }
+]

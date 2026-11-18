@@ -1,0 +1,20 @@
+[
+  {
+    "ticket_id": "TK-801",
+    "title": "calendar sync not reflecting updated session blocks",
+    "reporter": "devon@devonrossperformance.example",
+    "created_at": "2026-03-18T09:35:00+08:00",
+    "priority": "low",
+    "status": "open",
+    "description": "Session schedule blocks updated in the calendar are not appearing correctly on the client-facing booking view. Noticed after rescheduling two in-person slots this morning. May be a cache refresh issue — will check settings before escalating.",
+    "tags": [
+      "calendar",
+      "scheduling",
+      "self-resolved"
+    ],
+    "assignee": "",
+    "department": "",
+    "_noise": true,
+    "_status": "abandoned_ticket_draft"
+  }
+]

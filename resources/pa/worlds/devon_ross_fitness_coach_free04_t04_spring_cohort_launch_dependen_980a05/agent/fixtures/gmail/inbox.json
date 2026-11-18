@@ -1,0 +1,1037 @@
+[
+  {
+    "message_id": "MSG-5001",
+    "from": "devon@devonrossperformance.example",
+    "to": "",
+    "subject": "Re: group program check-in schedule",
+    "date": "2026-02-16T14:20:00+08:00",
+    "body": "",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "_noise": true,
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5002",
+    "from": "marcus.bell@ironhousegym.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "RE: Group Kickoff Session – March 26 Booking",
+    "date": "2026-03-18T08:47:00-05:00",
+    "body": "Hey Devon,\n\nReally sorry to drop this on you last minute — we just discovered a double-booking on our end for the main training floor on March 26. Another group locked in a full-day certification event back in January and it somehow didn't get flagged in our system until this morning. This is confirmed on our side; there's no flexibility on the date for that group since they have out-of-town attendees.\n\nWe do have availability the following weekend (April 4 or 5) if you want to reschedule, but I completely understand if that doesn't work for your timeline. Again, really sorry about this — it's entirely our mistake.\n\nMarcus Bell\nFacility Manager, Iron House Gym",
+    "labels": [
+      "inbox",
+      "urgent",
+      "cohort-launch"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5003",
+    "from": "devon@devonrossperformance.example",
+    "to": "cohort-spring2026@devonrossperformance.example",
+    "subject": "Spring Cohort Kickoff – Welcome + Logistics for March 26",
+    "date": "2026-03-14T10:15:00-05:00",
+    "body": "Hey everyone,\n\nSo excited to officially kick things off with you all! Here are the logistics for our in-person kickoff session on Thursday, March 26:\n\n📍 Location: Iron House Gym, 412 Meridian Ave — main training floor\n🕙 Time: 10:00 AM – 12:00 PM\n🅿️ Parking: free lot on the south side of the building\n\nWhat to bring: workout clothes, water bottle, and a notebook if you like taking notes. We'll cover the program overview, do a baseline movement screen, and run through week-1 programming together.\n\nCalendar invite has already been sent — please accept so I can confirm headcount. Reply here if you have any questions before then.\n\nLet's get to work,\nDevon",
+    "labels": [
+      "sent",
+      "cohort-launch"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5004",
+    "from": "priya.nair@crossfitlakeview.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Facility rental inquiry follow-up",
+    "date": "2026-03-11T14:30:00-05:00",
+    "body": "Hi Devon,\n\nJust following up on your inquiry from last week about renting our space for a small group session. We have availability most weekday mornings before 9 AM and Saturday afternoons. Our main floor fits up to 20 people comfortably with full equipment access. Rate is $75/hour with a 2-hour minimum.\n\nLet me know if you'd like to schedule a walkthrough!\n\nPriya Nair\nOperations, CrossFit Lakeview",
+    "labels": [
+      "inbox",
+      "venue",
+      "cohort-launch"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5005",
+    "from": "devon@devonrossperformance.example",
+    "to": "alex.torres@movewellstudio.example",
+    "subject": "Quick question – space availability late March?",
+    "date": "2026-03-17T16:05:00-05:00",
+    "body": "Hey Alex,\n\nHope you're doing well! I have a group of 12 kicking off a new training cohort and I'm exploring venue options in case my primary space falls through. Do you have any open slots on March 26 (morning preferred) or the weekend of March 28–29? Nothing fancy needed — just open floor space for movement screens and a group briefing.\n\nLet me know what you've got.\n\nDevon",
+    "labels": [
+      "sent",
+      "venue"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5006",
+    "from": "devon@devonrossperformance.example",
+    "to": "",
+    "subject": "Re: program pricing update",
+    "date": "2026-02-24T11:30:00+08:00",
+    "body": "Hey, just wanted to follow up on the",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5015",
+    "from": "partnerships@novapeaknutrition.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Exclusive Partnership Opportunity – NovaPeak Nutrition (Closing This Week)",
+    "date": "2026-02-23T09:14:00-06:00",
+    "body": "Hi Devon,\n\nMy name is Tyler Wren, Partnership Development at NovaPeak Nutrition. We've been following your work and think you'd be a perfect fit for our Elite Coach Affiliate Program.\n\nHere's what we're offering:\n- $18 per client referral (based on industry averages for sports nutrition affiliate programs)\n- Exclusive early-access window: this offer closes Friday, February 27\n- Full product line access + co-branded content kit\n- Endorsed by Coach Brendan Holt (CSCS), who saw a 22% client retention lift after integrating NovaPeak into his programming\n\nAll NovaPeak products are 'NSF Certified for Sport' — we take clean sport seriously.\n\nThis is a limited cohort of coaches we're onboarding this quarter. Spots are filling fast. Reply by Friday to lock in your rate before we move to the next candidate on our list.\n\nLooking forward to partnering,\nTyler Wren\nPartnership Development | NovaPeak Nutrition\npartnerships@novapeaknutrition.example",
+    "labels": [
+      "inbox",
+      "sponsorship"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5016",
+    "from": "devon@devonrossperformance.example",
+    "to": "partnerships@novapeaknutrition.example",
+    "subject": "Re: Exclusive Partnership Opportunity – NovaPeak Nutrition (Closing This Week)",
+    "date": "2026-02-23T14:52:00-06:00",
+    "body": "Hi Tyler,\n\nThanks for reaching out. Before I can consider this, I need a few things substantiated:\n\n1. The $18/client figure — can you share the actual affiliate agreement terms and payout structure in writing? 'Industry averages' isn't a contractual basis.\n2. NSF Certification — please provide the specific certification number and product SKUs covered. I'll verify directly at nsfsport.example.\n3. Coach Brendan Holt — I'm not familiar with this person. Can you share his public profile or contact so I can verify the endorsement independently?\n4. The Friday deadline — I'd like to understand what specifically changes after February 27. Is this a pricing change, a program close, or a different tier?\n\nI don't commit to affiliate or sponsorship arrangements without reviewing documentation. If NovaPeak is a legitimate partner, none of these should be a problem to provide.\n\nHappy to revisit once I have the above.\n\nDevon Ross\nDevon Ross Performance",
+    "labels": [
+      "sent",
+      "sponsorship"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5017",
+    "from": "priya.nair@crossfitlakeview.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: NovaPeak Nutrition – have you heard of them?",
+    "date": "2026-02-23T16:30:00-06:00",
+    "body": "Hey Devon,\n\nYeah, I got the same email last month — almost word for word. The 'closing this week' line was in mine too, dated January. So that deadline is definitely recycled.\n\nI looked into it a bit. Couldn't find a 'Brendan Holt CSCS' with any real public presence — no NSCA directory listing, no LinkedIn with coaching credentials, nothing. The NSF claim also wasn't verifiable on their site when I checked; the product names they listed didn't show up in the NSF certified database.\n\nI passed on it. Felt like a pressure play with thin backing. Let me know what you find out.\n\nPriya",
+    "labels": [
+      "inbox",
+      "sponsorship"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5018",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Weekly Activity Summary – Feb 16–22",
+    "date": "2026-02-23T07:01:00-06:00",
+    "body": "Hi Devon,\n\nHere's your Trainerize activity summary for the week of Feb 16–22:\n\n- Total active clients: 38\n- Workouts logged this week: 94\n- Clients with 0 workouts logged: 6\n- Clients with 1 workout logged: 4\n- Messages sent by clients: 27\n- Avg compliance rate: 71%\n\nClients with no activity this week: Casey Drummond, Jordan Hayes (prospect, not yet active), and 4 others.\n\nLog in to Trainerize to review individual client dashboards.\n\n— The Trainerize Team",
+    "labels": [
+      "inbox",
+      "automated"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5022",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Weekly Activity Summary – Apr 27 – May 3 | Devon Ross Performance",
+    "date": "2026-05-04T07:15:00-05:00",
+    "body": "Hi Devon,\n\nHere's your weekly client activity summary for the week of April 27 – May 3, 2026.\n\n--- ACTIVITY HIGHLIGHTS ---\n\nTotal active clients this week: 31 of 38\nClients with 0 sessions logged: 5\nClients with partial adherence (1–2 of 3 sessions): 7\nClients with full adherence (3 of 3 sessions): 19\n\n--- PARTIAL ADHERENCE CLIENTS (1–2 sessions logged) ---\n\n• Brendan Holt — 1 of 3 sessions logged\n  Last activity: Wednesday, April 29 @ 7:44 AM\n  Logged: Upper Body Strength A — Pull-ups 3×8 @ BW, DB Rows 3×10 @ 55 lb, Bench Press 3×8 @ 145 lb\n  Sessions missed: Thursday Apr 30, Saturday May 2\n  Platform note: No missed-session notification sent (threshold: 2 consecutive misses)\n\n• Rachel Kim — 2 of 3 sessions logged\n• Darnell Shaw — 1 of 3 sessions logged\n• Priya Menon — 2 of 3 sessions logged\n• ... (3 additional partial-adherence clients)\n\n--- ZERO-SESSION CLIENTS (flagged) ---\nSee separate flagged-client report.\n\n--- PLATFORM STATUS SUMMARY ---\nBrendan Holt: PARTIAL ADHERENCE — no immediate platform alert triggered.\n\nThis summary is auto-generated by Trainerize. Log in to your dashboard to view full session details.\n\nhttps://app.trainerize.example/dashboard\n\n— The Trainerize Team",
+    "labels": [
+      "trainerize",
+      "weekly-summary",
+      "clients"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5023",
+    "from": "digest@strengthcoachesforum.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "[SCF Digest] Private Thread: 'App-Based Compliance — When the Numbers Lie' + 4 other new messages",
+    "date": "2026-05-01T06:30:00-05:00",
+    "body": "Strength Coaches Forum — Private Member Digest\nWeekly Digest | Week ending May 1, 2026\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nNEW THREAD: App-Based Compliance — When the Numbers Lie\nPosted by: Coach Renata Voss (rvoss@performanceedgetraining.example)\nThread started: April 29, 2026 @ 2:17 PM CT\nReplies: 3  |  Views: 41  |  Forum: Private – Online Coaching Ops\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nOriginal post by Renata Voss:\n\n\"Wanted to flag something for any coaches running app-based programs (Trainerize, TrueCoach, etc.) — specifically around clients who may be gaming the session-logging feature.\n\nI coached a client, Brendan Holt, for about 14 months through 2024–2025 at Peak Form Athletics in Denver. Brendan is a mid-30s online client, presents as highly motivated, communicates well, and his platform compliance looked solid for the first few months. Then I started noticing that his performance metrics were going nowhere — pull-up reps stuck at 8 for 11 straight weeks, load on compound lifts essentially flat for 4 months — while his logged sessions showed consistent work at the prescribed intensity.\n\nWhen I moved him to a coach-verified check-in format (I'd send a short video-based confirmation prompt after each session), his 'completed' sessions dropped from roughly 3/week to less than 1/week overnight. He eventually stopped responding and transferred out.\n\nI later learned from another Denver-area coach that Brendan had a similar pattern at his previous gym (can't confirm details, but the other coach described it as 'tapping the app without actually training'). I don't know if he's currently with anyone, but if another coach here is working with him, worth being aware. Happy to share more details directly.\n\nNot trying to disparage the guy — some people struggle with accountability in ways they don't fully disclose. But the platform numbers alone were genuinely misleading, and I wish I'd caught it sooner.\"\n\n---\nReply #1 — Coach Dan Harwick (dharwick@harwickstrength.example), April 29 @ 3:44 PM:\n\"Renata, thanks for posting this. This is exactly the kind of thing we need to share in a space like this. I've had one similar situation — client logging sessions at 2 AM on timestamps that made zero physiological sense. App platforms have zero authentication on the session-complete tap.\"\n\nReply #2 — Coach Yuki Tanaka (y.tanaka@moveprecision.example), April 30 @ 10:02 AM:\n\"The flat metrics piece is the real tell. If someone's genuinely doing 3 sessions a week for 8+ weeks and pull-ups aren't moving at all, something's off. Either the program isn't right or the sessions aren't happening.\"\n\nReply #3 — Coach Renata Voss (rvoss@performanceedgetraining.example), April 30 @ 11:55 AM:\n\"@Yuki — exactly. And in Brendan's case I'd already adjusted the program twice thinking it was a design issue. The metrics flatness persisted regardless of the program changes. That's what finally made me try the verification prompt.\"\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nOTHER NEW THREADS THIS WEEK:\n• 'Rate anchoring for premium packages — what's working in 2026?' (Coach Lena Marsh)\n• 'Movement screen protocols for remote onboarding' (Coach Tim Achebe)\n• 'Anyone using AI-generated session notes? Thoughts?' (Coach Priya Subramanian)\n• 'Group program retention past week 6' (Coach Darnell King)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\nTo read full threads and reply, visit: https://forum.strengthcoaches.example/private\nManage digest preferences | Unsubscribe",
+    "labels": [
+      "forum-digest",
+      "peer-network",
+      "unread"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5024",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Client Progress Report – Brendan Holt – April 2026",
+    "date": "2026-05-01T07:00:00-05:00",
+    "body": "Hi Devon,\n\nYour monthly client progress snapshot for Brendan Holt is ready.\n\n--- BRENDAN HOLT | MONTHLY SNAPSHOT | APRIL 2026 ---\nProgram: Online Strength Foundation – Intermediate Block (Month 3)\nSessions logged this month: 9 of 13 scheduled (69% adherence)\n\nKEY METRICS — LOGGED IN-APP:\n• Pull-ups (max reps, bodyweight): 8, 8, 8, 8, 7, 8, 8, 8, 7\n  → No progression over 9 logged sessions (flat)\n• Barbell Back Squat (working set, lbs): 185, 185, 190, 185, 185, 190, 185, 185, 185\n  → Minimal progression; one session at 190, otherwise unchanged\n• DB Row (lbs per hand): 55, 55, 55, 55, 55, 55, 55, 60, 55\n  → One session at 60, otherwise flat at 55 for 7 of 9 sessions\n• Bench Press (lbs): 145, 145, 145, 150, 145, 145, 145, 145, 145\n  → One session at 150, otherwise flat\n\nNOTE: These metrics are self-reported by the client within the Trainerize app. Devon Ross Performance cannot independently verify in-app logging without external confirmation.\n\nCoach notes from last 30 days: None logged by Devon.\nClient notes from last 30 days: 'Feeling good, staying consistent' (April 14); 'Tough week, got it done' (April 22).\n\nView full history: https://app.trainerize.example/clients/brendan-holt\n\n— The Trainerize Team",
+    "labels": [
+      "trainerize",
+      "client-report",
+      "brendan-holt"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5025",
+    "from": "rvoss@performanceedgetraining.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: SCF thread – Brendan Holt / app logging concern",
+    "date": "2026-05-02T09:45:00-05:00",
+    "body": "Hi Devon,\n\nThanks for reaching out directly — totally fine to discuss.\n\nQuick background on me: I ran Peak Form Athletics in Denver for 6 years, online coaching arm since 2022. I'm NSCA-CSCS certified, been in the SCF community since it launched. The thread I posted was based on direct experience, not secondhand.\n\nTo your question about specifics: Brendan was a client of mine from roughly February 2024 through April 2025. The pattern I described in the thread is accurate — metrics flatlined for about 12 weeks while logged sessions looked fine, and the issue resolved (by disappearing) once I introduced a video check-in confirmation. I don't have anything personal against him, and I don't know what's going on in his life — but the behavioral pattern was clear enough that I felt it warranted a heads-up to other coaches.\n\nIf it's useful: the flat-metrics signature was the most reliable indicator. Not the missed sessions (those can be explained by life), but the fact that even the 'completed' sessions produced zero progressive adaptation across a full mesocycle. That's unusual for an intermediate trainee on a well-structured program.\n\nHappy to hop on a quick call if that's easier. You can reach me at (720) 555-0198.\n\nBest,\nRenata Voss\nPerformance Edge Training | Denver, CO\nrvoss@performanceedgetraining.example",
+    "labels": [
+      "peer-network",
+      "brendan-holt",
+      "credibility-check"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5026",
+    "from": "devon.ross.performance@gmail.example",
+    "to": "marcus.bell@gmail.example",
+    "subject": "Re: Adjusting training load this week",
+    "date": "2026-04-16T09:15:00+08:00",
+    "body": "Hey Marcus, thanks for the heads up. I was thinking we could dial back the intensity on Wednesday and shift the focus to—",
+    "labels": [
+      "DRAFT"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5035",
+    "from": "devon@devonrossperformance.example",
+    "to": "marcus.bell@gmail.example",
+    "subject": "Re: Adjusting my training block — next 4 weeks",
+    "date": "2026-05-01T10:30:00+08:00",
+    "body": "Hey Marcus, thanks for the update. I've been thinking about how to restructure your next block given the travel weeks — ",
+    "labels": [
+      "DRAFT"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5036",
+    "from": "devon@devonrossperformance.example",
+    "to": "priya.nair@outlook.example",
+    "subject": "Re: Group program — week 6 check-in",
+    "date": "2026-05-04T13:55:00+08:00",
+    "body": "Hi Priya, really glad to hear the conditioning work is clicking. For week 6 I was thinking we could shift the emphasis toward — ",
+    "labels": [
+      "DRAFT"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5037",
+    "from": "devon@devonrossperformance.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Friday Triage – Task Queue Reorder (2026-03-06)",
+    "date": "2026-03-06T09:15:00-06:00",
+    "body": "Self-note before starting the day:\n\nFatigue signal is real — Mon–Thu ran 14 billable session blocks + 3 decision blocks. Total focused-work hours: ~11.5 hrs across 4 days. Auto-downgrade rule triggered.\n\nTask queue reorder for today:\n\nEXECUTE NOW (low-cognitive, hard deadline or near-deadline):\n1. Notion cohort launch page update – revised kickoff logistics (TODO-503)\n2. Adherence sheet row entries – 4 flagged clients (TODO-509)\n3. LinkedIn draft scheduling – queue next post for Mon publish (TODO-521)\n4. Automated Trainerize summary review – flag zero-workout clients (TODO-509)\n\nMINIMUM VIABLE ACTION (high-cognitive, hard external deadline):\n5. Q2 tax estimate – confirm figures in WB-2, schedule payment only; do NOT do full review today (TODO-519)\n\nDEFERRED TO NEXT FRIDAY (high-cognitive, no hard deadline this week):\n6. Brendan Holt credibility confrontation draft → defer to 2026-03-13 program-design block\n7. Darnell Shaw physician clearance outreach → defer to 2026-03-13\n8. Cohort venue final decision comms → already actioned via EVT-302; confirm status only\n\nRISK FLAGS:\n- Brendan Holt deferral extends unresolved credibility risk into next programming cycle. Do NOT assign new programming block until verified.\n- Darnell Shaw clearance deferral: no supplement recs to go out in the interim. Notion flag must be in place before next check-in batch.\n- Scheduler jobs JOB-701/702/703 still disabled — manual check-in cadence holding but fragile.\n\nDelegate candidates:\n- LinkedIn post: pre-populate draft from saved outline, schedule via buffer; no live composition needed.\n- Adherence sheet: pull Trainerize export, paste rows — mechanical, not analytical.",
+    "labels": [
+      "self-note",
+      "triage",
+      "admin"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5038",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Weekly Activity Summary – Mar 2–8",
+    "date": "2026-03-06T07:02:00-06:00",
+    "body": "Hi Devon,\n\nHere's your weekly Trainerize activity summary for the period Mar 2–8, 2026.\n\nClient Activity Overview:\n- Total clients tracked: 24 (online)\n- Workouts logged this week: 17 clients\n- Zero-workout clients (7-day window): 7 clients\n  → Flagged for follow-up (3+ missed sessions): Casey Drummond, Brendan Holt, Jordan Hayes, Darnell Shaw\n  → New zero-workout (first miss): 3 additional clients\n\nTop performers this week:\n- Renata Voss: 4/4 sessions logged, all RPE within target range\n- Jamie Okafor: 3/3 sessions logged\n\nReminder: Your 24-hour missed-session outreach rule applies to all online clients. 7 clients currently require outreach.\n\nView full dashboard: https://app.trainerize.example/dashboard\n\n— Trainerize Automated Summary",
+    "labels": [
+      "automated",
+      "trainerize",
+      "weekly-summary"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5039",
+    "from": "casey.drummond@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Checking in – missed sessions this week",
+    "date": "2026-03-05T19:44:00-06:00",
+    "body": "Hey Devon,\n\nSorry for going quiet — work has been brutal this week and I just couldn't get the sessions in. I know that's not an excuse. I'm planning to get back on track Monday.\n\nIs there anything you want me to do over the weekend to stay in the groove? Even a short one?\n\nThanks,\nCasey",
+    "labels": [
+      "client",
+      "adherence",
+      "inbox"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5040",
+    "from": "devon@devonrossperformance.example",
+    "to": "brendan.holt@gmail.example",
+    "subject": "Quick check-in – your training this week",
+    "date": "2026-03-06T10:30:00-06:00",
+    "body": "Hey Brendan,\n\nJust doing my Friday check-in sweep. I can see a few sessions logged in Trainerize this week — wanted to touch base and see how things are feeling. Any soreness, fatigue, or anything worth flagging before I finalize next week's programming?\n\nAlso, if you have a chance, drop me a quick note on how the Tuesday and Thursday sessions actually went — RPE, how the sets felt, anything notable.\n\nTalk soon,\nDevon",
+    "labels": [
+      "client",
+      "check-in",
+      "sent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5041",
+    "from": "info@nsca.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "NSCA CEU Program: Advanced Strength & Conditioning Specialist Certificate – Spring 2026",
+    "date": "2026-04-14T10:15:00-05:00",
+    "body": "Hi Devon,\n\nThank you for your interest in NSCA continuing education. We wanted to share details on our upcoming Advanced S&C Specialist Certificate program:\n\n• Program: Advanced Strength & Conditioning Specialist Certificate (ASCS)\n• CEUs Awarded: 2.0 NSCA CEUs (fully recognized for CSCS recertification)\n• Total Cost: $749 (includes all materials)\n• Format: 100% online, self-paced — no mandatory live sessions\n• Time Commitment: ~20 hours total (8 modules, ~2.5 hrs each)\n• Content: Advanced periodization, velocity-based training, athlete monitoring, return-to-sport protocols — directly aligned with S&C coaching practice\n• Scheduling: Access 24/7; no fixed session windows; complete on your own schedule\n• Registration Deadline: May 9, 2026\n• Cohort Access Window: May 1 – July 31, 2026\n\nThis program is ideal for working coaches who need flexible scheduling. All content is delivered asynchronously.\n\nRegister at: https://www.nsca.example/education/ascs-spring2026\n\nLet us know if you have any questions.\n\nBest,\nNSCA Education Team",
+    "labels": [
+      "inbox",
+      "continuing-education",
+      "certification"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5042",
+    "from": "programs@precisionmovement.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Precision Movement Institute – Functional Hypertrophy Coach Certification (CEU Info Inside)",
+    "date": "2026-04-15T09:40:00-05:00",
+    "body": "Devon,\n\nWe came across your work online and wanted to reach out about our Functional Hypertrophy Coach Certification (FHCC):\n\n• Program: Functional Hypertrophy Coach Certification (FHCC)\n• CEUs Awarded: 1.5 CEUs — NOTE: recognized by NASM and ACE; NSCA recognition pending (application submitted, decision expected Q3 2026)\n• Total Cost: $595\n• Format: Online + one mandatory in-person workshop (Saturday, June 6, 2026, Chicago, IL)\n• Time Commitment: ~14 hours online + 6-hour in-person workshop\n• Content: Hypertrophy programming, muscle architecture, load management for general population and athletes\n• Scheduling: Online modules available anytime; in-person workshop is mandatory for certification\n• Registration Deadline: May 20, 2026\n\nNote: If NSCA recognition is not yet confirmed at time of your recertification, you may need to supplement with additional NSCA-recognized CEUs.\n\nInterested? Reply to this email or visit: https://www.precisionmovement.example/fhcc\n\nBest,\nPrecision Movement Institute Admissions",
+    "labels": [
+      "inbox",
+      "continuing-education",
+      "certification"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5043",
+    "from": "rvoss@performanceedgetraining.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "CEU rec for you – NSCA-approved, totally worth it",
+    "date": "2026-04-16T11:05:00-05:00",
+    "body": "Hey Devon,\n\nKnow you're coming up on recert — wanted to pass along a program I just finished that I think you'd get a lot out of:\n\nCoach: Dr. Marcus Edelman (former NSCA board member)\nProgram: Applied Sports Science for Strength Coaches (ASSSC) — offered through the Strength Science Collective\nWebsite: https://strengthsciencecollective.example/asssc\n\nHere's the breakdown:\n• CEUs: 1.8 NSCA-recognized CEUs (confirmed — I used them for my own CSCS recert last month)\n• Cost: $620\n• Format: Online cohort — 6 live Zoom sessions (Tuesdays, 7–9 PM CT) + async readings/assignments\n• Time Commitment: ~18 hours total (12 hrs live + 6 hrs async)\n• Content: Sports science application for S&C — force-velocity profiling, HRV-guided programming, evidence-based periodization. Genuinely one of the best things I've done for my practice.\n• Scheduling: Next cohort runs May 5 – June 9, 2026. Live sessions are Tuesday evenings only — no morning conflicts.\n• Registration Deadline: April 28, 2026\n\nThe Tuesday evening format is the only scheduling consideration — but since your mornings are blocked, this should be clean.\n\nHighly recommend. Let me know if you want me to connect you with Marcus directly.\n\nRenata",
+    "labels": [
+      "inbox",
+      "continuing-education",
+      "peer-referral"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5044",
+    "from": "admissions@elitecoachacademy.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Elite Coach Academy – Performance Nutrition for S&C Coaches (CEU Program)",
+    "date": "2026-04-17T14:20:00-05:00",
+    "body": "Hi Devon,\n\nWe're reaching out to coaches in the S&C space about our Performance Nutrition for Strength & Conditioning Coaches certificate:\n\n• Program: Performance Nutrition for S&C Coaches (PNSC)\n• CEUs Awarded: 1.2 NSCA-recognized CEUs\n• Total Cost: $875 (includes printed workbook and 1:1 nutrition consult session)\n• Format: Online, self-paced\n• Time Commitment: ~10 hours\n• Content: Macronutrient periodization, supplement protocols, body composition coaching — useful add-on for coaches who want to expand into nutrition guidance\n• Scheduling: No mandatory live sessions; complete anytime\n• Registration Deadline: May 30, 2026\n\nNote: This program is priced at a premium due to the included 1:1 consult and printed materials. Group discounts available for 3+ coaches.\n\nLearn more: https://www.elitecoachacademy.example/pnsc\n\nBest,\nElite Coach Academy Admissions",
+    "labels": [
+      "inbox",
+      "continuing-education",
+      "certification"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5045",
+    "from": "devon@devonrossperformance.example",
+    "to": "cohort-spring2026@devonrossperformance.example",
+    "subject": "Spring Cohort – Supplement Protocol Update (Please Read Before May 12)",
+    "date": "2026-03-29T14:30:00-05:00",
+    "body": "Hi everyone,\n\nAs we finalize the group supplement protocol ahead of our May 12 kickoff, I want to share the approved stack and the reasoning behind it.\n\nAfter reviewing the preference poll results and cross-checking each participant's health disclosure profile, I've selected the following protocol for the cohort:\n\n**Approved Stack: Electrolyte + Low-Dose Creatine Maintenance Protocol**\n- Electrolyte blend (sodium, potassium, magnesium) – intra-workout hydration support\n- Creatine monohydrate: 3–5g/day maintenance dose (no loading phase)\n- Optional: caffeine from whole-food sources or low-dose caffeine supplement (≤100mg pre-session)\n\nI know the poll showed strong interest in a pre-workout + creatine loading stack. After reviewing individual health profiles across the group, I identified a hard contraindication that makes the loading protocol unsuitable for at least one participant. Rather than create a two-tier system or ask anyone to disclose private health information, I've selected the highest-performing compliant alternative that still supports energy, hydration, and recovery goals for the full group.\n\nThe approved protocol is evidence-backed, well-tolerated across diverse health profiles, and aligns with the performance goals the majority of you identified in the poll.\n\nPlease do not self-supplement with the creatine loading protocol (20g/day x 5–7 days) or high-stimulant pre-workouts during the cohort program. If you have questions about your individual stack, reach out to me directly.\n\nMore logistics coming soon. Looking forward to May 12.\n\nDevon\nDevon Ross Performance",
+    "labels": [
+      "cohort",
+      "supplement",
+      "outbound"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5046",
+    "from": "partnerships@novapeaknutrition.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Cohort Supplement Recommendation – NovaPeak Pre-Workout Bundle Offer",
+    "date": "2026-03-27T10:15:00-05:00",
+    "body": "Hi Devon,\n\nFollowing up on our earlier conversation — we'd love to offer your spring cohort a discounted bundle on our NovaPeak Pre-Workout + Creatine Loading Stack (20g load / 5g maintain). We can do 12-unit cohort pricing at $38/unit, which is 30% off retail.\n\nThis stack has been used by several group programs in the Midwest and we've had great feedback on the loading protocol for rapid strength gains in the first 2–3 weeks.\n\nLet us know if you'd like to move forward before your May kickoff. We'd need a decision by April 10 to guarantee fulfillment.\n\nBest,\nNovaPeak Nutrition Partnerships Team",
+    "labels": [
+      "vendor",
+      "supplement",
+      "cohort"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5047",
+    "from": "devon@devonrossperformance.example",
+    "to": "partnerships@novapeaknutrition.example",
+    "subject": "Re: Cohort Supplement Recommendation – NovaPeak Pre-Workout Bundle Offer",
+    "date": "2026-03-29T15:45:00-05:00",
+    "body": "Hi,\n\nThanks for the offer. After completing a full health-disclosure review across all 12 cohort participants, I'm not able to move forward with the pre-workout + creatine loading stack for this cohort cycle. At least one participant has a hard contraindication that makes the loading protocol unsuitable, and I've selected a compliant alternative for the group.\n\nI've documented this decision internally and flagged the loading protocol as excluded from future cohort recommendations.\n\nI'll keep NovaPeak in mind for individual client contexts where the stack is appropriate. Not the right fit for this group program.\n\nDevon",
+    "labels": [
+      "vendor",
+      "supplement",
+      "outbound"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5048",
+    "from": "darnell.shaw@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Quick note – supplement stuff",
+    "date": "2026-03-28T09:05:00-05:00",
+    "body": "Hey Devon,\n\nJust wanted to flag — I saw the cohort poll results shared in the group thread and noticed creatine loading was the top vote. Wanted to remind you I mentioned the kidney thing in my intake form. Not sure if that affects the group recommendation but figured I'd give you a heads up.\n\nNo rush, just didn't want it to get lost.\n\nDarnell",
+    "labels": [
+      "client",
+      "supplement",
+      "health-flag"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5051",
+    "from": "marcus.teel@ironsideathletic.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Group Cohort Kickoff – Double Booking Resolution",
+    "date": "2026-02-13T11:22:00-06:00",
+    "body": "Devon,\n\nGlad we were able to sort out the scheduling mess — I know that was a stressful situation with your cohort participants already confirmed. For what it's worth, the way you handled it was professional and I appreciated the quick communication.\n\nI wanted to follow up on something I mentioned briefly when we spoke: we've been looking to build out a referral network with coaches who work with serious athletes, and your program is exactly the kind of thing we'd want to be associated with. Our members frequently ask us for coaching recommendations and we don't have a good answer right now.\n\nWould you be open to a short call — maybe 20 minutes — to talk through what a referral arrangement might look like? I'm thinking something mutually beneficial: we send qualified leads your way, you get a home base for in-person sessions, and we potentially structure something around revenue share or a preferred-partner rate on facility access.\n\nLet me know if that's of interest. Happy to find a time that works for you.\n\nBest,\nMarcus Teel\nFacility Director, Ironside Athletic Club\nmarcus.teel@ironsideathletic.example\n(312) 555-0184",
+    "labels": [
+      "inbox",
+      "partnership",
+      "ironside"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5052",
+    "from": "devon@devonrossperformance.example",
+    "to": "marcus.teel@ironsideathletic.example",
+    "subject": "Re: Group Cohort Kickoff – Double Booking Resolution",
+    "date": "2026-02-13T14:45:00-06:00",
+    "body": "Marcus,\n\nThanks for the kind words — it was a tough spot but we got there. Really appreciate how quickly Ironside moved to accommodate us on the revised date.\n\nYes, absolutely interested in exploring a referral arrangement. The facility is a great fit for the kind of clients I work with, and I've already had two cohort participants ask me about membership after the kickoff visit.\n\nA 20-minute call works well. I'm open most mornings next week — Monday through Thursday before 10am, or Friday anytime after 9. Let me know what works on your end and I'll send a calendar invite.\n\nLooking forward to it.\n\nDevon\nDevon Ross Performance\ndevon@devonrossperformance.example",
+    "labels": [
+      "sent",
+      "partnership",
+      "ironside"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5053",
+    "from": "marcus.teel@ironsideathletic.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Group Cohort Kickoff – Double Booking Resolution",
+    "date": "2026-02-14T09:08:00-06:00",
+    "body": "Devon,\n\nPerfect — let's do Tuesday February 17th at 9:00am. I'll be in my office so we can do a quick Zoom or just a phone call, whichever you prefer.\n\nA few things I'd want to cover on the call:\n- How we'd structure the referral flow (warm intro vs. landing page vs. something else)\n- Whether you'd want any kind of exclusivity arrangement on our end (i.e., we don't refer to competing coaches)\n- Facility access terms for your in-person sessions — we could look at a preferred-partner rate\n- Revenue share framing, if that's something you're open to\n\nNothing formal yet, just want to get a sense of what would work for both sides before we put anything on paper.\n\nTalk Tuesday.\n\nMarcus",
+    "labels": [
+      "inbox",
+      "partnership",
+      "ironside"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5054",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Weekly Activity Summary – Feb 9–15",
+    "date": "2026-02-16T07:02:00-06:00",
+    "body": "Hi Devon,\n\nHere's your Trainerize platform summary for the week of Feb 9–15:\n\n• Total clients active: 38\n• Workouts logged: 94 (vs. 101 prior week)\n• Clients with 0 workouts logged: 6\n• Clients with 1 workout logged: 4\n• Avg compliance rate: 71%\n\nClients with no activity this week:\n- Brendan Holt\n- Casey Drummond\n- Darnell Shaw\n- Jordan Hayes\n- (2 others)\n\nView full report in your dashboard.\n\n— The Trainerize Team",
+    "labels": [
+      "inbox",
+      "trainerize",
+      "weekly-summary"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5055",
+    "from": "digest@strengthcoachesforum.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Coach Forum Digest – Week of Mar 23: Logging Integrity Concerns + Renal Contraindication Thread",
+    "date": "2026-03-28T07:15:00-05:00",
+    "body": "Good morning Devon,\n\nThis week's digest highlights two threads you may want to review:\n\n1. LOGGING INTEGRITY ALERT (flagged by 3 coaches): A pattern of suspiciously uniform workout logs has been reported for at least two online clients across different platforms. One coach noted that a client named 'B.H.' submitted identical RPE scores and rep counts across 6 consecutive sessions — statistically improbable. The thread recommends a direct verification conversation before the next programming cycle. See full thread: forum.strengthcoaches.example/threads/logging-integrity-0326\n\n2. RENAL CONTRAINDICATION – SUPPLEMENT PROTOCOLS: A coach in the Pacific Northwest reported a near-miss where a creatine loading stack was recommended to a client with a single-kidney condition. The thread has consolidated a list of contraindicated supplements and recommends permanent profile flags in client management systems. PureForm Electrolyte Base was cited as a compliant alternative by two coaches. See full thread: forum.strengthcoaches.example/threads/renal-contraindication-0325\n\nStay sharp out there.\n— Strength Coaches Forum Digest Team",
+    "labels": [
+      "adherence",
+      "urgent",
+      "digest"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5056",
+    "from": "marcus.teel@ironsideathletic.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "RE: Group Cohort Kickoff – Double Booking Resolution",
+    "date": "2026-03-29T09:45:00-05:00",
+    "body": "Devon,\n\nFollowing up on our call last week. I want to be transparent — we have a confirmed double-booking for the May 12 date in the main training floor. A corporate wellness group locked in that slot before your hold was formalized. I apologize for the confusion on our end.\n\nOptions I can offer:\n1. Reschedule to June 9 — the full training floor is available and I can hold it for you through EOD Friday if you confirm.\n2. Hybrid pivot — we can accommodate up to 6 in-person on May 12 using the smaller annex room; remaining participants would join via Zoom.\n3. Alternative venue referral — I can connect you with CrossFit Lakeview (Priya Nair) who has a Saturday morning open slot in May.\n\nI need a decision by EOD Friday March 31 to release or hold the June 9 date. Please let me know how you'd like to proceed and I'll send a revised booking confirmation immediately.\n\nBest,\nMarcus Teel\nIronside Athletic Club",
+    "labels": [
+      "facility",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5057",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Weekly Activity Summary – Mar 23–29 | 5 clients with zero logged workouts",
+    "date": "2026-03-30T06:05:00-05:00",
+    "body": "Hi Devon,\n\nHere's your weekly Trainerize activity summary for the week of March 23–29, 2026.\n\nCLIENTS WITH ZERO LOGGED WORKOUTS THIS WEEK (5):\n- Brendan Holt — 0 workouts logged (3rd consecutive week with incomplete logging)\n- Casey Drummond — 0 workouts logged\n- Marcus Bell — 0 workouts logged\n- Participant #7 (Spring Cohort) — 0 workouts logged\n- Participant #11 (Spring Cohort) — 0 workouts logged\n\nCLIENTS WITH PARTIAL COMPLETION (<50%):\n- Jordan Hayes — 2 of 5 sessions logged\n- Tyler Wren — 1 of 4 sessions logged\n\nFULL COMPLETION (100%):\n- 16 clients completed all assigned sessions this week.\n\nNote: Brendan Holt's previous 2 weeks showed identical RPE scores (7/10) and rep counts across all logged sessions — this pattern has been flagged for your review.\n\nView full dashboard: app.trainerize.example/dashboard\n\n— Trainerize Automated Summary",
+    "labels": [
+      "adherence",
+      "missed-session"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5058",
+    "from": "casey.drummond@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Missed our session Tuesday – sorry about that",
+    "date": "2026-03-29T19:30:00-05:00",
+    "body": "Hey Devon,\n\nJust wanted to reach out — I know I've missed a few sessions lately and I haven't been great about logging. Work has been brutal the past few weeks and I've been struggling to stay consistent. I don't want to fall off completely though. Is there any flexibility to adjust my program or check in differently for a bit? I feel like the current schedule isn't working for my life right now.\n\nThanks for being patient with me.\nCasey",
+    "labels": [
+      "adherence",
+      "missed-session"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5060",
+    "from": "devon@devonrossperformance.example",
+    "to": "cohort-spring2026@devonrossperformance.example",
+    "subject": "Spring Cohort Onboarding – Health Disclosures, Waivers & Supplement Forms Due April 25",
+    "date": "2026-04-07T10:15:00-05:00",
+    "body": "Hi everyone,\n\nWelcome to the Spring 2026 cohort! Before we can finalize your programming and supplement protocol, I need all onboarding documents completed — health disclosure form, liability waiver, and supplement preference survey.\n\nPlease submit everything by April 25 (end of day). Incomplete submissions by that date will delay your Week 1 programming assignment.\n\nSubmission link: https://forms.devonrossperformance.example/cohort-spring2026-onboarding\n\nLet me know if you have any questions.\n\n— Devon",
+    "labels": [
+      "sent",
+      "cohort",
+      "onboarding"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5061",
+    "from": "devon@devonrossperformance.example",
+    "to": "cohort-spring2026@devonrossperformance.example",
+    "subject": "Spring Cohort Onboarding – REMINDER: Forms Due April 28",
+    "date": "2026-04-10T09:45:00-05:00",
+    "body": "Hi team,\n\nQuick reminder that your onboarding forms (health disclosure, liability waiver, supplement preference) are due this coming Tuesday, April 28. If you haven't submitted yet, please do so at your earliest convenience.\n\nSubmission link: https://forms.devonrossperformance.example/cohort-spring2026-onboarding\n\nNote: I'll be sending individual follow-ups to anyone who hasn't submitted by April 26.\n\n— Devon",
+    "labels": [
+      "sent",
+      "cohort",
+      "onboarding"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5062",
+    "from": "jamie.okafor@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Spring Cohort Onboarding – Forms",
+    "date": "2026-04-14T11:22:00-05:00",
+    "body": "Hey Devon,\n\nJust wanted to confirm — I saw in your first email that the deadline was April 25, but the reminder said April 28. Which one is correct? I want to make sure I don't miss it. I have my forms mostly filled out, just need to finish the supplement section.\n\nAlso, does the health disclosure need a physician signature or just my own?\n\nThanks,\nJamie",
+    "labels": [
+      "inbox",
+      "cohort",
+      "onboarding"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5063",
+    "from": "devon@devonrossperformance.example",
+    "to": "jordan.hayes@gmail.example",
+    "subject": "Re: Spring Cohort – Quick Check-In",
+    "date": "2026-04-11T14:30:00-05:00",
+    "body": "Hey Jordan,\n\nGood to hear from you! Yes, the cohort onboarding window is open now. You'll want to get your forms in before the deadline — I'll be sending a clarification to the group shortly since there's been a bit of confusion about the exact date.\n\nStand by for a follow-up email to the full cohort list.\n\n— Devon",
+    "labels": [
+      "sent",
+      "cohort"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5065",
+    "from": "recertification@nsca.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "NSCA CSCS Recertification Status – CEU Balance Update (as of May 1, 2026)",
+    "date": "2026-05-01T10:30:00-05:00",
+    "body": "Dear Devon Ross,\n\nThis is your automated NSCA CSCS recertification status update as of May 1, 2026.\n\nRecertification Cycle: January 1, 2024 – December 31, 2026\nCEU Requirement: 30 CEU hours (minimum 10 must be Category A)\nCEUs Confirmed on File: 24.0 hours (18.0 Category A, 6.0 Category B)\nCEUs In-Progress / Pending Verification: 0.0 hours\nRemaining CEU Headroom: 6.0 hours before cap\n\nNote: Your current cycle closes December 31, 2026. You may accumulate up to 30 CEU hours total. Credits earned beyond 30 hours in this cycle cannot be carried forward to the next recertification cycle.\n\nIf you have recently completed coursework not yet reflected in this balance, please submit your certificate of completion via your NSCA member portal at members.nsca.example.\n\nFor questions about your recertification status, contact NSCA Member Services at 1-800-815-6826 or certification@nsca.example.\n\nNSCA Certification Department\nrecertification@nsca.example",
+    "labels": [
+      "inbox",
+      "nsca",
+      "recertification",
+      "ceu"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5066",
+    "from": "noreply@nsca.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "CEU Credit Confirmed – NSCA ASCS Course Completion (6.0 CEU Hours Applied)",
+    "date": "2026-04-28T14:05:00-05:00",
+    "body": "Dear Devon Ross,\n\nYour CEU credit for the following course has been confirmed and applied to your CSCS recertification record:\n\nCourse: NSCA Applied Strength & Conditioning Science (ASCS) – Spring 2026 Module\nCEU Hours Awarded: 6.0 (Category A)\nDate Applied to Record: April 28, 2026\nUpdated Confirmed CEU Total: 24.0 hours\n\nYour recertification cycle closes December 31, 2026. You currently have 6.0 CEU hours of headroom remaining before reaching the 30-hour cap.\n\nPlease log in to your NSCA member portal to view your full CEU transcript.\n\nmembers.nsca.example\n\nNSCA Certification\nnoreply@nsca.example",
+    "labels": [
+      "inbox",
+      "nsca",
+      "ceu",
+      "confirmation"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5067",
+    "from": "enrollments@apexceuinstitute.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Welcome to Apex CEU Institute – Spring 2026 Course Catalog Now Live",
+    "date": "2026-04-15T11:00:00-05:00",
+    "body": "Hi Devon,\n\nSpring is here and so is our updated 2026 CEU course catalog! We've added 8 new NSCA-approved courses this quarter, including:\n\n- Advanced Periodization & Load Management (15 CEUs, Category A) – Early-bird pricing available May 1–13\n- Nutrition Periodization for Strength Athletes (8 CEUs, Category B)\n- Injury Risk Screening for S&C Coaches (6 CEUs, Category A)\n- Youth Athletic Development Fundamentals (10 CEUs, Category A)\n\nBrowse the full catalog at apexceuinstitute.example/catalog\n\nAs a returning subscriber, you'll receive early-bird pricing notifications 48 hours before each window opens.\n\nApex CEU Institute",
+    "labels": [
+      "inbox",
+      "ceu",
+      "newsletter"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5068",
+    "from": "marcus.teel@ironsideathletic.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Spring Cohort Kickoff – Venue Confirmation & Week of April 20 Availability",
+    "date": "2026-04-21T09:14:00-05:00",
+    "body": "Hey Devon,\n\nJust confirming we have you locked in for the June 9 kickoff — no conflicts on our end for that date. Also wanted to flag that I'll be out of office April 24–25, so if you need anything venue-related this week, best to reach me today or Thursday morning.\n\nAlso, I noticed you had a coordination block on the calendar for Wednesday the 22nd — happy to jump on a quick call if you need to walk through the room setup or A/V needs before then.\n\nLet me know,\nMarcus",
+    "labels": [
+      "inbox",
+      "cohort",
+      "venue"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5069",
+    "from": "devon@devonrossperformance.example",
+    "to": "cohort-spring2026@devonrossperformance.example",
+    "subject": "Week of April 20 – Your Schedule + What to Expect This Week",
+    "date": "2026-04-22T07:45:00-05:00",
+    "body": "Hey everyone,\n\nQuick heads-up on what's happening this week as we move into the final stretch before kickoff.\n\nFor those with check-ins scheduled this week: I'll be reaching out individually via Trainerize as usual. If you haven't logged your workouts from last week yet, please do so before your check-in window — it helps me give you useful feedback.\n\nA few reminders:\n- Onboarding forms are due by Friday April 24. If you haven't submitted yours, please do so ASAP — I can't finalize your supplement protocol or programming without it.\n- Kickoff is confirmed for June 9 at Ironside Athletic Club. More logistics to follow closer to the date.\n\nIf anything comes up this week, reply here or message me directly.\n\nDevon",
+    "labels": [
+      "sent",
+      "cohort"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5070",
+    "from": "jordan.hayes@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Intake call – scheduling",
+    "date": "2026-04-22T10:33:00-05:00",
+    "body": "Hi Devon,\n\nThanks for getting back to me so quickly. I'm flexible most mornings this week — Wednesday or Thursday before 10am would work great. Let me know what you have open.\n\nLooking forward to it,\nJordan",
+    "labels": [
+      "inbox",
+      "prospect"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5071",
+    "from": "casey.drummond@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Missed sessions – checking in",
+    "date": "2026-04-20T16:52:00-05:00",
+    "body": "Devon,\n\nYeah, I know — I've been pretty inconsistent the last few weeks. Work has been brutal and I keep pushing sessions to 'later' and then they just don't happen. I do want to stay on track though. Can we talk about maybe adjusting the schedule or the session length for a bit? I think 3x/week might be too much right now.\n\nCasey",
+    "labels": [
+      "inbox",
+      "adherence"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5072",
+    "from": "offers@pureformnutrition.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "48-Hour Bulk Purchase Offer – PureForm Electrolyte Base (Cohort Pricing)",
+    "date": "2026-04-22T09:14:00-05:00",
+    "body": "Hi Devon,\n\nHope your spring cohort prep is going well! We wanted to reach out with a time-sensitive opportunity for coaches running group programs.\n\nFor the next 48 hours, we're offering our PureForm Electrolyte Base at a bulk cohort rate:\n\n- 12-unit bundle (single-serve stick packs, 30-day supply per participant): $187.20 (reg. $312.00) — 40% off\n- 24-unit bundle: $348.00 (reg. $624.00) — same 40% discount\n\nThis offer expires Wednesday, April 24 at 11:59 PM CT.\n\nIMPORTANT: All bulk orders are FINAL SALE. Due to the perishable nature of supplement products and our fulfillment model for bulk cohort orders, we are unable to accept returns or issue refunds once the order is processed. Please confirm your cohort's supplement protocol is finalized before purchasing.\n\nTo lock in the discount, reply to this email with your preferred bundle size and we'll send a payment link.\n\nBest,\nSophia Reyes\nPartnership Sales | PureForm Nutrition\nsophia.reyes@pureformnutrition.example\n+1 (512) 440-8821",
+    "labels": [
+      "inbox",
+      "vendor",
+      "supplement",
+      "cohort"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5073",
+    "from": "offers@pureformnutrition.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: PureForm Electrolyte Base – Product Spec Sheet + Ingredient Disclosure",
+    "date": "2026-04-21T14:32:00-05:00",
+    "body": "Hi Devon,\n\nAttached is the full ingredient disclosure and third-party testing certificate for PureForm Electrolyte Base (current batch: Q1-2026).\n\nKey specs:\n- Sodium: 300mg per serving\n- Potassium: 200mg per serving\n- Magnesium: 100mg per serving\n- No creatine, no stimulants, no proprietary blends\n- NSF Certified for Sport\n- Renal-load note: Low phosphorus, low potassium relative to clinical thresholds — however, we always recommend coaches confirm with participant physicians for clients with known renal conditions before use.\n\nLet us know if you have any questions before placing a cohort order.\n\nBest,\nSophia Reyes\nPureForm Nutrition",
+    "labels": [
+      "inbox",
+      "vendor",
+      "supplement"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5074",
+    "from": "devon@devonrossperformance.example",
+    "to": "darnell.shaw@gmail.example",
+    "subject": "Quick check-in + supplement protocol update for spring cohort",
+    "date": "2026-04-20T10:45:00-05:00",
+    "body": "Hey Darnell,\n\nJust a quick heads-up as we get closer to the cohort launch. I'm finalizing the supplement protocol for the group and wanted to confirm a couple of things with you before I lock anything in.\n\nAs you know, I've flagged your profile with a renal contraindication note following our earlier conversation about your single-kidney condition. I want to make sure we have physician clearance documented before I include you in any cohort-wide supplement recommendations — even for products I'm confident are low-risk.\n\nHave you had a chance to loop in your doctor yet? I'd love to get a written clearance note (even a brief one) on file before May 12. No pressure, but it does gate what I can responsibly recommend for you in the group context.\n\nMore details on the cohort supplement protocol coming soon — just want to make sure your clearance is sorted first.\n\nTalk soon,\nDevon",
+    "labels": [
+      "sent",
+      "client",
+      "supplement",
+      "renal-flag"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5075",
+    "from": "darnell.shaw@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Quick check-in + supplement protocol update for spring cohort",
+    "date": "2026-04-21T18:22:00-05:00",
+    "body": "Hey Devon,\n\nThanks for the heads-up. I haven't gotten around to calling my doctor yet — been a busy couple of weeks. I'll try to get that scheduled this week or next.\n\nIs there a specific form or letter you need, or just a general clearance from my nephrologist saying I'm okay for the supplement program?\n\nAlso — just to confirm, the creatine loading thing is definitely off the table for me, right? I remember you mentioning that.\n\nDarnell",
+    "labels": [
+      "inbox",
+      "client",
+      "supplement",
+      "renal-flag"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5076",
+    "from": "marcus.teel@ironsideathletic.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Ironside Referral Partnership – Follow-Up Call Availability",
+    "date": "2026-04-21T10:15:00-05:00",
+    "body": "Hey Devon,\n\nGreat connecting last week. I've got three windows that work on my end for a follow-up call to nail down the referral partnership terms — facility access logistics, referral fee structure, and any co-programming opportunities. Let me know which works for you:\n\n1. Tuesday, April 28 at 7:00 AM (30 min)\n2. Wednesday, April 29 at 11:00 AM (30 min)\n3. Thursday, April 30 at 2:00 PM (30 min)\n\nHappy to do a video call or phone — whatever's easier on your end.\n\nLooking forward to getting this formalized.\n\nBest,\nMarcus Teel\nFacility Director, Ironside Athletic Club\nmarcus.teel@ironsideathletic.example\n(312) 555-0184",
+    "labels": [
+      "inbox",
+      "partnership",
+      "ironside"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5077",
+    "from": "devon@devonrossperformance.example",
+    "to": "marcus.teel@ironsideathletic.example",
+    "subject": "Re: Ironside Referral Partnership – Follow-Up Call Availability",
+    "date": "2026-04-22T14:30:00-05:00",
+    "body": "Hi Marcus,\n\nThanks for sending those over — appreciate the flexibility. I checked my calendar against all three slots:\n\n- Tuesday April 28 at 7:00 AM: I have in-person client sessions running 6:00–9:00 AM, so that one's a hard conflict.\n- Thursday April 30 at 2:00 PM: I have a cohort coordination block scheduled 1:30–3:30 PM that I can't move this week.\n- Wednesday April 29 at 11:00 AM: This one works. My morning in-person block wraps by 9:30 AM, which gives me a solid buffer to prep before the call.\n\nLet's lock in Wednesday, April 29 at 11:00 AM.\n\nAgenda I'd suggest for the call:\n1. Referral partnership terms and fee structure\n2. Facility access logistics for cohort sessions\n3. Any co-programming or cross-promotion opportunities\n\nI'll send a calendar invite shortly. Looking forward to it.\n\nBest,\nDevon Ross\nDevon Ross Performance\ndevon@devonrossperformance.example",
+    "labels": [
+      "sent",
+      "partnership",
+      "ironside"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5078",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Weekly Activity Summary – April 14–20",
+    "date": "2026-04-21T07:00:00-05:00",
+    "body": "Hi Devon,\n\nHere's your Trainerize weekly activity summary for April 14–20:\n\n- Total clients active: 31 of 38\n- Workouts logged this week: 94\n- Clients with 0 workouts logged: 5 (flagged: Casey Drummond, Brendan Holt, and 3 others)\n- Messages sent by clients: 47\n- Check-ins submitted: 18\n\nClients with 3+ consecutive missed sessions: 4\n\nLog in to review flagged clients.\n\n— The Trainerize Team",
+    "labels": [
+      "inbox",
+      "trainerize",
+      "weekly-summary"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5079",
+    "from": "marcus.teel@ironsideathletic.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Ironside Referral Partnership – Follow-Up Call Availability",
+    "date": "2026-04-22T15:45:00-05:00",
+    "body": "Devon,\n\nPerfect — Wednesday April 29 at 11:00 AM works great. I'll keep the slot open. Send over the invite whenever you're ready.\n\nLooking forward to it.\n\nMarcus",
+    "labels": [
+      "inbox",
+      "partnership",
+      "ironside"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5080",
+    "from": "offers@pureformnutrition.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Exclusive Cohort Offer – PureForm VitalStack Pro (NSF Certified, Renal-Safe) – 48hr Window",
+    "date": "2026-05-05T10:14:00-05:00",
+    "body": "Hi Devon,\n\nHope your spring cohort prep is going well! We've been following your work and wanted to reach out with a time-sensitive opportunity tailored specifically for group coaching programs.\n\nWe're offering Devon Ross Performance a cohort-rate bulk purchase on our newest product: **PureForm VitalStack Pro** — a pre-workout + creatine loading stack designed for performance athletes.\n\nHere's why we think it's the perfect fit for your spring cohort:\n\n✅ NSF Certified for Sport (Cert #NSF-2026-PF-0041)\n✅ Renal-safe formula — low-sodium, no nephrotoxic compounds, cleared for athletes with kidney health considerations\n✅ Endorsed by 3 NSCA-affiliated coaches: Coach Derrick Paulson (CSCS), Coach Lena Hartwell (CSCS,*D), and Coach Renata Voss (CSCS)\n✅ Cohort pricing: $18.50/unit (12-unit minimum) — saves you ~34% vs. retail\n✅ Includes co-branded label option for your program\n\nIngredient highlights: Creatine monohydrate (5g), Beta-alanine (3.2g), Citrulline malate (6g), Sodium bicarbonate (500mg), Caffeine (175mg), Vitamin B6 (10mg), Magnesium glycinate (200mg).\n\n⚠️ This pricing window closes in 48 hours (by end of day May 7). After that, we revert to standard wholesale pricing.\n\nWe know you recently moved away from the Apex Pre-Workout Ignite stack — VitalStack Pro was built to fill exactly that gap. Don't leave your cohort without a compliant, high-performance option.\n\nReply to this email or call our partnerships line at 1-800-555-0193 to lock in your order.\n\nBest,\nTyler Wren\nPartnership Development Manager\nPureForm Nutrition\noffers@pureformnutrition.example",
+    "labels": [
+      "inbox",
+      "supplement-vendor",
+      "cohort",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5081",
+    "from": "digest@strengthcoachesforum.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "SCF Weekly Digest – May 5, 2026: Vendor Alerts, Supplement Roundup, Forum Highlights",
+    "date": "2026-05-05T07:30:00-05:00",
+    "body": "STRENGTH COACHES FORUM — WEEKLY DIGEST\nMay 5, 2026\n\n---\n🔔 VENDOR ALERT (Community-Flagged)\n\nMultiple members have flagged aggressive outreach from PureForm Nutrition promoting a new product called 'VitalStack Pro.' Claims include NSF Certified for Sport status and renal-safe formulation. At least two members report receiving the same 48-hour deadline pressure email. NSF registry cross-check by member @CoachDanielleKraft returned NO active listing for Cert #NSF-2026-PF-0041 as of May 4. Community recommendation: do not distribute pending independent verification. Thread: forum.strengthcoaches.example/threads/pureform-vitalstack-alert\n\n---\n📋 SUPPLEMENT ROUNDUP\n\nPureForm Electrolyte Base continues to receive positive reviews for renal-sensitive populations. Several coaches confirm it remains on the NSF registry (Cert #NSF-2025-PFE-0017). No adverse reports in the past 30 days.\n\nReminder: creatine monohydrate loading protocols (>3g/day) remain contraindicated for single-kidney athletes per NSCA position statement. Any stack containing creatine should be individually screened before group distribution.\n\n---\n📣 FORUM HIGHLIGHTS\n\n- Thread: 'Fabricated workout logs — how are you catching them?' (47 replies) — see Brendan Holt discussion in private coaches subforum\n- Upcoming webinar: Programming for Renal-Compromised Athletes (May 19, 7pm CT)\n\nUnsubscribe | Manage preferences\nstrengthcoachesforum.example",
+    "labels": [
+      "inbox",
+      "digest",
+      "supplement-vendor",
+      "peer-network"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5082",
+    "from": "devon@devonrossperformance.example",
+    "to": "rvoss@performanceedgetraining.example",
+    "subject": "Quick question – PureForm VitalStack Pro endorsement",
+    "date": "2026-05-06T09:47:00-05:00",
+    "body": "Hey Renata,\n\nHope you're well. Quick one — I got a vendor pitch email from PureForm Nutrition yesterday claiming you're one of three NSCA-affiliated coaches endorsing their new product, 'VitalStack Pro.' They're pushing a 48-hour cohort bulk-buy window and citing your name alongside Derrick Paulson and Lena Hartwell.\n\nCan you confirm whether you've actually endorsed this product? I'm doing a full claim verification before I even consider it for my spring cohort — especially given I have a participant with a single-kidney contraindication.\n\nSCF digest this morning also flagged the NSF cert number they listed as unverifiable. Wanted to check with you directly before I document anything.\n\nThanks,\nDevon",
+    "labels": [
+      "sent",
+      "supplement-vendor",
+      "peer-network",
+      "verification"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5083",
+    "from": "rvoss@performanceedgetraining.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Quick question – PureForm VitalStack Pro endorsement",
+    "date": "2026-05-06T11:22:00-05:00",
+    "body": "Devon,\n\nAbsolutely did NOT endorse VitalStack Pro. I've never been contacted by PureForm Nutrition about this product, never trialed it, and never gave permission to use my name. This is the first I'm hearing of it.\n\nI'm going to flag this to the SCF moderators and look into whether I need to send a cease-and-desist. Derrick Paulson is in my network — I'll reach out to him too.\n\nDo NOT distribute this product. The name-dropping is fabricated, and if the NSF cert is also unverifiable, that's a serious red flag. You're right to be skeptical.\n\nThanks for the heads-up — genuinely.\nRenata",
+    "labels": [
+      "inbox",
+      "supplement-vendor",
+      "peer-network",
+      "verification"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5084",
+    "from": "devon@devonrossperformance.example",
+    "to": "cohort-spring2026@devonrossperformance.example",
+    "subject": "Spring Cohort 2026 – Onboarding Submission Deadline & Required Forms",
+    "date": "2026-04-18T10:15:00-05:00",
+    "body": "Hi everyone,\n\nWelcome to the Devon Ross Performance Spring 2026 Cohort! I'm excited to get started with all 12 of you on May 12.\n\nBefore we kick off, I need each of you to complete your onboarding submission by Friday, May 1. This is a firm deadline — programming and supplement protocol decisions cannot be finalized until all health disclosures are in.\n\nYour onboarding submission must include:\n1. Health & Medical History Disclosure Form (required — gates supplement and programming decisions)\n2. Liability Waiver & Informed Consent\n3. Supplement Preference & Contraindication Form\n4. Training History Questionnaire\n\nPlease submit everything through the onboarding portal link I'll send separately. If you have any questions or need an extension, reach out directly before the deadline.\n\nLooking forward to working with you all.\n\nDevon Ross\nDevon Ross Performance",
+    "labels": [
+      "sent",
+      "cohort",
+      "onboarding"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5085",
+    "from": "devon@devonrossperformance.example",
+    "to": "cohort-spring2026@devonrossperformance.example",
+    "subject": "IMPORTANT: Onboarding Deadline Clarification + What You Need to Submit",
+    "date": "2026-05-06T09:45:00-05:00",
+    "body": "Hi Spring Cohort,\n\nI'm reaching out to address a deadline inconsistency that I caught this morning and want to correct immediately.\n\nYou may have seen different dates across the communications you've received from me:\n- My April 18 email stated May 1\n- The Notion cohort launch hub currently shows May 8\n- My internal planning notes referenced May 5\n\nI apologize for the confusion. Here is the authoritative, reconciled deadline:\n\n**Onboarding Submission Deadline: Friday, May 8, 2026 by 11:59 PM CT**\n\nI am adopting May 8 as the official deadline because it is the date recorded in the Notion cohort hub (the participant-facing source of record), and it gives everyone who may have been tracking that date a fair window. However, I am setting an internal follow-up for May 6 (today) to reach out to anyone who has not yet submitted — so if you can get your forms in sooner, please do.\n\nWhat you must submit:\n1. Health & Medical History Disclosure Form (required — gates supplement and programming decisions)\n2. Liability Waiver & Informed Consent\n3. Supplement Preference & Contraindication Form\n4. Training History Questionnaire\n\nIncomplete health disclosures will delay your personalized programming and supplement protocol. Please do not wait until the last minute.\n\nIf you have already submitted everything, thank you — you're all set.\n\nIf you have questions, reply to this email or text me directly.\n\nDevon Ross\nDevon Ross Performance",
+    "labels": [
+      "sent",
+      "cohort",
+      "onboarding",
+      "urgent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5086",
+    "from": "jamie.okafor@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Spring Cohort 2026 – Onboarding Submission Deadline & Required Forms",
+    "date": "2026-04-22T14:30:00-05:00",
+    "body": "Hey Devon,\n\nThanks for the welcome email! Quick question — the Notion page I was given access to shows May 8 as the deadline, but your email says May 1. Which one should I go by? I want to make sure I don't miss the window.\n\nAlso, do I need to fill out the supplement form if I don't currently take anything?\n\nThanks,\nJamie",
+    "labels": [
+      "inbox",
+      "cohort",
+      "onboarding"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5087",
+    "from": "casey.drummond@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Spring Cohort 2026 – Onboarding Submission Deadline & Required Forms",
+    "date": "2026-05-02T11:10:00-05:00",
+    "body": "Devon,\n\nJust checking in — I saw the May 1 deadline in your original email but I wasn't able to get everything together in time. I have the health disclosure and waiver done but still need to finish the supplement form. Is there any flexibility? I noticed the Notion page says May 8 so I assumed I had more time.\n\nSorry for the confusion — let me know what you need from me.\n\nCasey",
+    "labels": [
+      "inbox",
+      "cohort",
+      "onboarding"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5088",
+    "from": "noreply@nsca.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "NSCA CSCS Recertification Status – Cycle Update (2024–2026)",
+    "date": "2026-05-02T09:14:00-05:00",
+    "body": "Dear Devon Ross,\n\nThis is an automated status update for your NSCA CSCS recertification cycle (2024–2026).\n\nRecertification Requirement: 6.0 CEUs required per 3-year cycle.\nCEUs Confirmed and Applied to Your Account: 4.5 CEUs\n  - NSCA ASCS Module 1 – Strength Science Foundations (completed 2026-02-28): 1.5 CEUs\n  - NSCA ASCS Module 2 – Programming for Special Populations (completed 2026-04-10): 1.5 CEUs\n  - NSCA Annual Conference Workshop – Periodization Masterclass (completed 2026-03-15): 1.5 CEUs\n\nRemaining Headroom: 1.5 CEUs\nCycle Expiration: 2026-12-31\n\nNote: CEUs submitted in excess of the 6.0 requirement will NOT carry over to the next cycle and will not be applied toward any credential.\n\nIf you have additional CEU completions to submit, please log in to your NSCA member portal.\n\nNSCA Member Services\nnoreply@nsca.example",
+    "labels": [
+      "recertification",
+      "nsca",
+      "ceu"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5089",
+    "from": "noreply@apexceuinstitute.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "CEU Completion Confirmation – ASCS Advanced Coaching Science Module 3",
+    "date": "2026-05-04T11:22:00-05:00",
+    "body": "Hi Devon,\n\nCongratulations on completing ASCS Advanced Coaching Science Module 3: Metabolic Conditioning & Energy Systems.\n\nCompletion Date: 2026-05-03\nCEUs Awarded: 1.5 CEUs (NSCA-approved)\nCertificate: Available in your Apex CEU Institute portal\n\nTo apply these CEUs to your NSCA recertification account, log in to the NSCA member portal and submit your certificate under 'CEU Submission.'\n\nIMPORTANT: Please verify your current recertification headroom before submitting. NSCA does not carry over excess CEUs beyond the 6.0-CEU cycle ceiling.\n\nThank you for choosing Apex CEU Institute.\n\nApex CEU Institute\nnoreply@apexceuinstitute.example",
+    "labels": [
+      "ceu",
+      "completion",
+      "nsca"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5090",
+    "from": "noreply@apexceuinstitute.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Early-Bird Enrollment Reminder – ASCS Module 4: Neuromuscular Adaptations (Deadline May 10)",
+    "date": "2026-05-05T08:45:00-05:00",
+    "body": "Hi Devon,\n\nJust a reminder that the early-bird enrollment window for ASCS Module 4: Neuromuscular Adaptations & Resistance Training Science closes on May 10, 2026.\n\nEarly-Bird Price: $149 (regular price $199)\nCEUs: 1.5 CEUs (NSCA-approved)\nFormat: Self-paced online, 6–8 hours of content\nStart Date: Anytime after enrollment\n\nThis module covers motor unit recruitment, rate coding, hypertrophy mechanisms, and practical programming applications — highly applicable to strength and conditioning practice.\n\nEnroll before May 10 to lock in the $149 rate.\n\nApex CEU Institute\nnoreply@apexceuinstitute.example",
+    "labels": [
+      "ceu",
+      "early-bird",
+      "enrollment"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5091",
+    "from": "digest@strengthcoachesforum.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Strength Coaches Forum – Weekly Digest (May 5, 2026)",
+    "date": "2026-05-05T07:00:00-05:00",
+    "body": "STRENGTH COACHES FORUM – WEEKLY DIGEST\nWeek of April 28 – May 4, 2026\n\n--- TOP THREADS ---\n\n[THREAD] CEU stacking trap – anyone else over-enrolled this cycle?\nPosted by: coach_ramos_atx\n\"Realized I've got 7.5 CEUs confirmed for a 6.0 ceiling. Two of those were paid courses. NSCA doesn't roll over the excess. Basically donated $200 to my own education with zero recertification return. Check your tracker before you buy another module.\"\n\nReplies: 34 | Views: 412\n\n[THREAD] Brendan Holt situation – update from original poster\n[Content redacted per forum moderation policy – see original thread for context]\n\n[THREAD] Group cohort supplement protocols – renal contraindication edge cases\nPosted by: strengthpro_midwest\n\"Had a participant with a single kidney. Caught it on intake. Creatine loading was on the group stack. Pulled it immediately. Anyone have a go-to compliant alternative?\"\n\nReplies: 19 | Views: 287\n\n--- UPCOMING EVENTS ---\n- NSCA National Conference: July 2026 (registration open)\n- ASCS Module 4 Early-Bird Deadline: May 10, 2026\n\nUnsubscribe | Manage preferences\ndigest@strengthcoachesforum.example",
+    "labels": [
+      "forum",
+      "digest",
+      "ceu"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5092",
+    "from": "devon@devonrossperformance.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "LinkedIn Draft Audit – Week 18 Complete: 2 Posts Blocked, 2 Cleared",
+    "date": "2026-05-06T11:18:00-05:00",
+    "body": "Self-memo from agent audit session:\n\nAudit of 4 LinkedIn draft posts (OBSN-25) completed 2026-05-06.\n\nRESULTS:\n\nDraft A – CLEARED (minor edit: remove client initial 'B')\nDraft B – BLOCKED. Health disclosure + supplement stack details = identifiable to Darnell Shaw (single-kidney cohort participant). Compliant redraft produced (OBSN-26 Appendix B).\nDraft C – CLEARED (no changes needed)\nDraft D – BLOCKED. Specific load data + athlete descriptor (165 lb female, late May meet) identifies real client without consent. Compliant redraft produced (OBSN-26 Appendix C).\n\nPublish-ready set: Compliant versions of all 4. See OBSN-26 for full risk log and redrafts.\n\nAction items created: TODO-593 through TODO-596.\n\nCadence recovery target: 4 posts, May 6–9.",
+    "labels": [
+      "self-memo",
+      "linkedin",
+      "content-audit",
+      "compliance"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5093",
+    "from": "digest@strengthcoachesforum.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Coaches Forum Weekly Digest – May 4: Content Ethics, Client Data on Social Media",
+    "date": "2026-05-04T08:00:00-05:00",
+    "body": "Strength Coaches Forum – Weekly Digest\nMay 4, 2026\n\n---\n\nFEATURED THREAD: \"How specific is too specific? Client data in educational posts\"\n\nCoach Renata Voss (Performance Edge Training) posted this week:\n\n\"I've been seeing more coaches share what look like real client load progressions with enough detail to identify the athlete — body weight, sport, competition date. Wanted to open a conversation about where the line is. Our clients trust us with their bodies and their performance data. That data doesn't become public just because we're proud of the result.\"\n\nSelected replies:\n\n- \"I always get written consent before using any real data. Even anonymized. One bad experience cured me fast.\" – @CoachMilesRoark\n- \"The health stuff is non-negotiable for me. A client's diagnosis is never a teaching moment for LinkedIn.\" – @DrivePhaseCoaching\n- \"Percentage-based or composite examples accomplish the same educational goal without the exposure risk. No reason to use real numbers.\" – @ScientificStrengthLab\n\n---\n\nALSO THIS WEEK:\n- Brendan Holt credibility discussion thread continues (see last week's digest for background)\n- Spring cohort supplement protocols: three coaches share pre-cohort screening frameworks\n\n---\n\nReply to this digest at forum.strengthcoaches.example",
+    "labels": [
+      "forum-digest",
+      "linkedin",
+      "professional-development"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5094",
+    "from": "brendan.holt@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "This week's workouts – all logged",
+    "date": "2026-05-05T19:42:00-05:00",
+    "body": "Hey Devon, just wanted to flag that I got everything logged in Trainerize for the week — Monday through Friday sessions all checked in. Let me know if anything looks off on your end. Ready for next cycle.",
+    "labels": [
+      "inbox",
+      "client",
+      "adherence"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5095",
+    "from": "darnell.shaw@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Missed Wednesday + Thursday – work travel",
+    "date": "2026-05-04T08:15:00-05:00",
+    "body": "Devon, heads up — I had to travel for work Wednesday and Thursday so I missed both sessions. I'll try to make up the conditioning work this weekend but the lifting is probably a wash. Back on schedule Monday. Sorry for the short notice.",
+    "labels": [
+      "inbox",
+      "client",
+      "missed-session",
+      "adherence"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5096",
+    "from": "casey.drummond@gmail.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Re: Checking in – haven't seen you log in a while",
+    "date": "2026-05-03T14:22:00-05:00",
+    "body": "Hey, yeah I know — things have been rough the last few weeks. I've been meaning to get back on track but honestly motivation has been low. I don't want to quit but I'm not sure what's going on with me. Can we talk sometime this week?",
+    "labels": [
+      "inbox",
+      "client",
+      "re-engagement",
+      "adherence",
+      "check-in"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5097",
+    "from": "noreply@trainerize.example",
+    "to": "devon@devonrossperformance.example",
+    "subject": "Weekly Activity Summary – Apr 28 – May 4",
+    "date": "2026-05-05T06:00:00-05:00",
+    "body": "Hi Devon,\n\nHere's your weekly client activity summary for Apr 28 – May 4:\n\n• Clients with 0 workouts logged: 5 (Brendan Holt, Casey Drummond, Darnell Shaw, Tyler Wren, Jordan Hayes)\n• Clients with partial completion (1–2 of 3+ scheduled): 4\n• Clients fully on track (3+ workouts): 29\n\nClients flagged for 3+ consecutive missed sessions:\n– Casey Drummond: 4 consecutive missed weeks\n– Tyler Wren: 3 consecutive missed weeks\n\nLog in to Trainerize to review individual client dashboards.\n\n— Trainerize Automated Digest",
+    "labels": [
+      "inbox",
+      "trainerize",
+      "adherence",
+      "digest"
+    ],
+    "is_read": false
+  }
+]

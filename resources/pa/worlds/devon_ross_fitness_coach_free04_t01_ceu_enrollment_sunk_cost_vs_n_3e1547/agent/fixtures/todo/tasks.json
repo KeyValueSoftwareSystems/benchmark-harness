@@ -1,0 +1,1437 @@
+[
+  {
+    "task_id": "TODO-501",
+    "title": "Resolve cohort kickoff venue conflict – choose response strategy",
+    "description": "Iron House Gym confirmed double-booking for March 26. Three options: (1) full reschedule to April 4/5, (2) hybrid-remote pivot on original date using Zoom + existing digital materials (~80% content reuse), (3) source alternative venue by March 20. Evaluate and decide before sending any participant-facing comms. Lean toward hybrid-remote if no venue confirmed by EOD March 18.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-18",
+    "tags": [
+      "cohort-launch",
+      "urgent",
+      "venue",
+      "decision"
+    ],
+    "created_at": "2026-03-18T09:05:00-05:00"
+  },
+  {
+    "task_id": "TODO-502",
+    "title": "Draft and send revised kickoff logistics email to all 12 cohort participants",
+    "description": "Once strategy is selected, draft participant-facing email reflecting the change (hybrid-remote pivot or new venue). Update calendar event EVT-301 accordingly. Send no later than March 19 to give participants maximum notice.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-19",
+    "tags": [
+      "cohort-launch",
+      "participant-comms",
+      "email"
+    ],
+    "created_at": "2026-03-18T09:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-503",
+    "title": "Update Notion cohort launch page with revised kickoff logistics",
+    "description": "Reflect chosen strategy in the Notion cohort launch page: update venue/format field, mark 'logistics email sent' step as revised, add note about Iron House conflict and resolution. Keep onboarding checklist current.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-19",
+    "tags": [
+      "cohort-launch",
+      "notion",
+      "admin"
+    ],
+    "created_at": "2026-03-18T09:12:00-05:00"
+  },
+  {
+    "task_id": "TODO-504",
+    "title": "Confirm final kickoff logistics with all 12 participants (72-hr check-in)",
+    "description": "Send a brief confirmation message to all 12 cohort participants at least 72 hours before the March 26 kickoff date (i.e., by March 23). Confirm Zoom link (if hybrid-remote) or new venue address. Ask for any last-minute questions.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-23",
+    "tags": [
+      "cohort-launch",
+      "participant-comms",
+      "follow-up"
+    ],
+    "created_at": "2026-03-18T09:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-505",
+    "title": "Check in with Alex Torres (MoveWell Studio) re: March 26 availability",
+    "description": "Sent inquiry 2026-03-17. If no response by noon March 18, follow up by phone. If space is available and cost is reasonable, could serve as alternative venue option before committing to hybrid-remote pivot.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-18",
+    "tags": [
+      "venue",
+      "cohort-launch",
+      "follow-up"
+    ],
+    "created_at": "2026-03-18T09:18:00-05:00"
+  },
+  {
+    "task_id": "TODO-514",
+    "title": "NovaPeak Nutrition – await documentation response (re-engage or reject by Mar 2)",
+    "description": "Sent documentation request to Tyler Wren (partnerships@novapeaknutrition.example) on 2026-02-23 (MSG-5016). Requested: signed affiliate agreement with payout terms, NSF certification numbers for specific products, and verifiable public profile for endorsing coach Brendan Holt. If no substantive response by 2026-03-02 (5 business days), close as rejected. Do NOT commit to any terms in the interim. Full analysis in Obsidian OBSN-2 and Notion NPAG-4.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-02",
+    "tags": [
+      "vendor-eval",
+      "sponsorship",
+      "novapeak",
+      "do-not-commit"
+    ],
+    "created_at": "2026-02-23T15:50:00-06:00"
+  },
+  {
+    "task_id": "TODO-515",
+    "title": "Verify NovaPeak NSF certification claim directly at nsfsport.example",
+    "description": "NovaPeak Nutrition claims 'NSF Certified for Sport' status. Priya Nair (CON-202) reported product names did not appear in NSF database when she checked in January. Devon should independently verify by searching nsfsport.example for NovaPeak product names once Tyler Wren provides specific SKUs/cert numbers (requested in MSG-5016). If no cert numbers provided, treat claim as unverified and factor into rejection decision.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-03-02",
+    "tags": [
+      "vendor-eval",
+      "sponsorship",
+      "novapeak",
+      "verification"
+    ],
+    "created_at": "2026-02-23T15:55:00-06:00"
+  },
+  {
+    "task_id": "TODO-516",
+    "title": "LinkedIn content – resume cadence (8-day gap, post by Feb 25)",
+    "description": "LinkedIn educational content cadence has been missed for 8 days as of 2026-02-23. Draft and schedule next post by Feb 25 to avoid further gap. Topic options: periodization basics for recreational athletes, how to evaluate supplement sponsors (timely given NovaPeak situation — could be anonymized into educational content), or adherence strategies for online clients.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-02-25",
+    "tags": [
+      "content",
+      "linkedin",
+      "marketing"
+    ],
+    "created_at": "2026-02-23T16:10:00-06:00"
+  },
+  {
+    "task_id": "TODO-517",
+    "title": "Draft new mobility circuit for group cohort",
+    "description": "",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-03-20",
+    "tags": [
+      "group-program",
+      "programming"
+    ],
+    "created_at": "2026-03-13T15:45:00+08:00",
+    "_noise": true
+  },
+  {
+    "task_id": "TODO-521",
+    "title": "Conduct direct verification check-in call with Brendan Holt before next programming cycle",
+    "description": "Schedule and complete a direct 1:1 call with Brendan Holt framed around program effectiveness and training experience — not accusation. Objective: assess whether his self-reported session logs reflect genuine training activity. Use neutral open questions (how sessions feel, what's been hard, what felt easy this week). Cross-reference responses against known metric history. Do NOT send next programming cycle until this conversation is complete. See NPAG-9 (Brendan Holt client page) for full credibility flag details and decision rationale. Source of concern: SCF peer forum warning from Coach Renata Voss (May 1, 2026) + corroborating flat-metrics pattern in adherence sheet WB-3.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "client-verification",
+      "adherence",
+      "brendan-holt",
+      "online-coaching"
+    ],
+    "created_at": "2026-05-02T15:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-522",
+    "title": "Draft and implement session verification protocol for online clients (post-Brendan flag)",
+    "description": "Based on the Brendan Holt credibility concern (May 2026), formalize a lightweight session verification option for online clients — e.g., optional post-session RPE voice note or 30-second video clip prompt. Frame as a coaching quality tool, not a surveillance measure. Draft protocol page in Notion (see NPAG-10). Decide whether to roll out proactively to new clients or reactively when trigger conditions are met. Review trigger conditions defined in NPAG-10 before implementation.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-16",
+    "tags": [
+      "operations",
+      "client-standards",
+      "online-coaching",
+      "process-improvement"
+    ],
+    "created_at": "2026-05-02T16:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-523",
+    "title": "Review SCF forum digest weekly – flag any client-specific warnings",
+    "description": "The Brendan Holt situation surfaced because a relevant peer warning sat unread in the SCF digest for 2 days (received May 1, read May 2). Add SCF digest to the Monday morning admin review pass — scan for any client-specific mentions or coaching practice alerts. Takes 5–10 min/week. Low overhead, potentially high value.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-05-05",
+    "tags": [
+      "admin",
+      "peer-network",
+      "process"
+    ],
+    "created_at": "2026-05-02T16:20:00-05:00"
+  },
+  {
+    "task_id": "TODO-524",
+    "title": "Research periodization models for group cohort",
+    "description": "",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-04-14",
+    "tags": [
+      "programming",
+      "cohort"
+    ],
+    "created_at": "2026-04-13T14:38:00+08:00",
+    "_noise": true
+  },
+  {
+    "task_id": "TODO-525",
+    "title": "Darnell Shaw – Obtain physician clearance before any ergogenic supplement recommendation",
+    "description": "Creatine loading protocol was intercepted in Week 10 check-in email due to Darnell's single-kidney contraindication (NPAG-11, NPAG-12 Class I). Devon must NOT include any supplement recommendation in Darnell's programming or check-ins until written clearance is received from Dr. Simone Achebe (nephrology, Northwestern Medicine). Prompt Darnell to contact his nephrologist and request written clearance for ergogenic supplement use. Log clearance in NPAG-11 when received. See OBSN-5 for full interception decision note.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-24",
+    "tags": [
+      "client-safety",
+      "supplement",
+      "contraindication",
+      "darnell-shaw",
+      "physician-referral"
+    ],
+    "created_at": "2026-05-17T10:43:00-05:00"
+  },
+  {
+    "task_id": "TODO-526",
+    "title": "Darnell Shaw – Follow up on physician clearance status (Week 12 programming gate)",
+    "description": "Before finalizing Week 12 programming for Darnell Shaw, confirm whether physician clearance for ergogenic supplementation has been received. If not received by May 31, proceed with Week 12 programming with zero supplement additions and note the reason in Notion (NPAG-11). Do not add any creatine, beta-alanine, or other ergogenic content to programming without documented clearance on file.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-31",
+    "tags": [
+      "client-safety",
+      "supplement",
+      "darnell-shaw",
+      "programming-gate"
+    ],
+    "created_at": "2026-05-17T10:44:00-05:00"
+  },
+  {
+    "task_id": "TODO-527",
+    "title": "Audit all active strength-phase clients for supplement contraindication flags before next batch send",
+    "description": "The Darnell Shaw interception revealed that the pre-send cross-check against client health disclosures was not part of the standard check-in drafting workflow. Before the next weekly check-in batch (week of May 24), review all online and in-person clients currently in strength-phase programming and cross-reference their Notion profiles for any health disclosures that would trigger a Class I or Class II supplement contraindication per NPAG-12. Flag any additional clients found. Update batch-draft checklist to include this step as a mandatory gate.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-22",
+    "tags": [
+      "client-safety",
+      "supplement-audit",
+      "process-improvement",
+      "batch-checkin"
+    ],
+    "created_at": "2026-05-17T10:50:00-05:00"
+  },
+  {
+    "task_id": "TODO-528",
+    "title": "Complete remaining Week 10 check-in emails (non-flagged clients)",
+    "description": "Darnell Shaw check-in resolved (revised send complete). Continue batch check-in emails for remaining strength-phase and general clients. All drafts must pass supplement contraindication cross-check before send (per process flag raised today). Target: all check-ins sent by EOD Sunday May 17.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-17",
+    "tags": [
+      "client-comms",
+      "weekly-checkin",
+      "batch"
+    ],
+    "created_at": "2026-05-17T10:55:00-05:00"
+  },
+  {
+    "task_id": "TODO-531",
+    "title": "Initiate physician clearance process for Darnell Shaw – renal contraindication flag",
+    "description": "Contact Darnell Shaw to request physician clearance documentation for single-kidney condition. Flag must be added to his Notion client profile to block future supplement recommendations. Clearance process not yet started.",
+    "status": "stale",
+    "priority": "high",
+    "due_date": "2026-06-10",
+    "tags": [
+      "darnell-shaw",
+      "medical-flag",
+      "client-safety"
+    ],
+    "created_at": "2026-05-17T09:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-533",
+    "title": "File Q2 estimated tax payment – due June 15",
+    "description": "Quarterly estimated tax payment due June 15. Q2 worksheet (WB-2) has income and expense data partially reconciled. Need to finalize net income figure, calculate estimated liability, and submit via IRS Direct Pay or mail. Do not miss deadline — penalty risk.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-06-15",
+    "tags": [
+      "tax",
+      "finance",
+      "deadline"
+    ],
+    "created_at": "2026-05-20T14:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-534",
+    "title": "Research periodization models for group cohort",
+    "description": "",
+    "status": "cancelled",
+    "priority": "low",
+    "due_date": "2026-04-30",
+    "tags": [
+      "programming",
+      "cohort"
+    ],
+    "created_at": "2026-04-30T14:15:00+08:00",
+    "_noise": true
+  },
+  {
+    "task_id": "TODO-535",
+    "title": "TRIAGE REORDER – Execute low-cognitive tasks first (Fri 2026-03-06)",
+    "description": "Fatigue-triggered reorder applied. High-cognitive tasks deferred to 2026-03-13 Friday program-design block. Execute in order: (1) Notion cohort page update, (2) adherence sheet row entries for 4 flagged clients, (3) LinkedIn draft scheduling, (4) Trainerize summary review. Tax estimate: minimum viable action only — confirm figures in WB-2, schedule payment, no full review.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-06",
+    "tags": [
+      "triage",
+      "friday-admin",
+      "cognitive-load",
+      "fatigue-protocol"
+    ],
+    "created_at": "2026-03-06T09:10:00-06:00"
+  },
+  {
+    "task_id": "TODO-536",
+    "title": "Q2 Tax Estimate – Minimum Viable Action (confirm figures + schedule payment)",
+    "description": "Fatigue protocol active. Do NOT conduct full review today. Open WB-2 (Q2 2026 Tax Estimate Worksheet), confirm Q1 income and expense totals are populated, verify estimated payment amount, and schedule payment via IRS EFTPS or equivalent. Full reconciliation deferred to next week when energy is restored. Hard deadline: 2026-06-15.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-06",
+    "tags": [
+      "tax",
+      "finance",
+      "minimum-viable-action",
+      "hard-deadline"
+    ],
+    "created_at": "2026-03-06T09:12:00-06:00"
+  },
+  {
+    "task_id": "TODO-537",
+    "title": "DEFERRED – Brendan Holt credibility confrontation draft (→ 2026-03-13)",
+    "description": "Deferred from 2026-03-06 due to accumulated fatigue (11.5 focused-work hours Mon–Thu, exceeds 8-hr downgrade threshold). High-stakes message requiring clear judgment. Risk flag: deferral extends unresolved credibility risk into next programming cycle — do NOT assign new programming block to Brendan Holt until verification conversation is complete. Calendar block EVT-313 added for 2026-03-13 09:00.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-13",
+    "tags": [
+      "brendan-holt",
+      "credibility-review",
+      "deferred",
+      "high-cognitive",
+      "risk-flag"
+    ],
+    "created_at": "2026-03-06T09:14:00-06:00"
+  },
+  {
+    "task_id": "TODO-538",
+    "title": "DEFERRED – Darnell Shaw physician clearance initiation + Notion renal flag (→ 2026-03-13)",
+    "description": "Deferred from 2026-03-06 due to fatigue protocol. Tasks: (1) draft outreach to Darnell Shaw requesting physician clearance documentation, (2) add permanent renal contraindication flag to Darnell's Notion client profile to block future supplement recommendations. Interim constraint: zero supplement recommendations to Darnell until clearance is on file. Calendar block EVT-314 added for 2026-03-13 10:30.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-13",
+    "tags": [
+      "darnell-shaw",
+      "physician-clearance",
+      "notion-flag",
+      "deferred",
+      "high-cognitive",
+      "safety"
+    ],
+    "created_at": "2026-03-06T09:16:00-06:00"
+  },
+  {
+    "task_id": "TODO-539",
+    "title": "Update adherence sheet – row entries for 4 flagged clients (Casey, Brendan, Jordan, Darnell)",
+    "description": "Low-cognitive, execute today. Open WB-1 (Client Adherence & Progress Tracker). Add missed-session rows for Casey Drummond, Brendan Holt, Jordan Hayes, and Darnell Shaw based on Trainerize weekly summary (MSG-5038). Log date, session type, missed count, and outreach status. Casey Drummond outreach already sent (MSG-5039 received). Brendan Holt outreach sent (MSG-5040).",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-06",
+    "tags": [
+      "adherence",
+      "sheet",
+      "low-cognitive",
+      "execute-today",
+      "flagged-clients"
+    ],
+    "created_at": "2026-03-06T09:18:00-06:00"
+  },
+  {
+    "task_id": "TODO-540",
+    "title": "LinkedIn educational post – schedule draft for Monday publish",
+    "description": "Low-cognitive delegation candidate. Pull saved outline from Obsidian drafts folder. Pre-populate post draft in LinkedIn scheduler (or Buffer). Do not compose from scratch — use existing outline. Schedule for Monday 2026-03-09 08:00 publish. Addresses 8-day content cadence gap. Estimated time: 15 min.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-06",
+    "tags": [
+      "linkedin",
+      "content",
+      "low-cognitive",
+      "execute-today",
+      "scheduling"
+    ],
+    "created_at": "2026-03-06T09:20:00-06:00"
+  },
+  {
+    "task_id": "TODO-541",
+    "title": "Draft Q3 group program progression block",
+    "description": "",
+    "status": "cancelled",
+    "priority": "medium",
+    "due_date": "2026-05-09",
+    "tags": [
+      "programming",
+      "group-cohort"
+    ],
+    "created_at": "2026-05-08T10:35:00+08:00",
+    "_noise": true,
+    "_status": "cancelled"
+  },
+  {
+    "task_id": "TODO-542",
+    "title": "Evaluate CEU program shortlist – build decision matrix and select program",
+    "description": "Four programs received via email (MSG-5041 NSCA ASCS, MSG-5042 PMI FHCC, MSG-5043 SSC ASSSC via Renata Voss referral, MSG-5044 ECA PNSC). Apply hard floors: (1) must award NSCA-recognized CEUs for CSCS recert, (2) total cost ≤ $800, (3) no mandatory Mon–Thu morning attendance. Then Pareto analysis and weighted ranking. Log decision in Notion coaching-policy page and Obsidian decision note. Create enrollment follow-up todo.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-18",
+    "tags": [
+      "continuing-education",
+      "NSCA",
+      "recertification",
+      "decision"
+    ],
+    "created_at": "2026-04-17T17:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-543",
+    "title": "Enroll in NSCA ASCS program before May 9 registration deadline",
+    "description": "Selected program: NSCA Advanced S&C Specialist Certificate (ASCS). Cost: $749. 2.0 NSCA CEUs. Register at https://www.nsca.example/education/ascs-spring2026. Deadline: May 9, 2026. Budget this against Q2 professional development line.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-05",
+    "tags": [
+      "continuing-education",
+      "NSCA",
+      "enrollment",
+      "deadline"
+    ],
+    "created_at": "2026-04-18T15:45:00-05:00"
+  },
+  {
+    "task_id": "TODO-544",
+    "title": "Log CEU program decision in Notion coaching-policy page and Obsidian decision note",
+    "description": "Document the full evaluation matrix, hard-floor eliminations, Pareto analysis, and final rationale for selecting NSCA ASCS over SSC ASSSC. Update Notion coaching-policy page (NPAG-17) and create Obsidian decision note (OBSN-10). Cross-reference enrollment todo TODO-543.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-18",
+    "tags": [
+      "continuing-education",
+      "documentation",
+      "notion",
+      "obsidian"
+    ],
+    "created_at": "2026-04-18T15:50:00-05:00"
+  },
+  {
+    "task_id": "TODO-545",
+    "title": "Cross-check cohort supplement poll results against all 12 participant health disclosures",
+    "description": "Pull each cohort participant's Notion health disclosure profile. Extract hard contraindication tags (renal, cardiovascular, medication interactions). Cross-check against majority-preferred stack (pre-workout + creatine loading). Flag any participant whose constraint is triggered. Document findings before finalizing protocol.",
+    "status": "done",
+    "priority": "high",
+    "due_date": "2026-03-29",
+    "tags": [
+      "cohort",
+      "supplement",
+      "health-review",
+      "contraindication"
+    ],
+    "created_at": "2026-03-27T09:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-546",
+    "title": "Select compliant alternative supplement stack for spring cohort and document decision in Obsidian",
+    "description": "After identifying creatine loading contraindication for at least one participant, identify compliant alternatives (electrolyte protocol, maintenance-dose creatine, low-stimulant options). Select highest-satisfaction compliant option. Document in Obsidian with explicit rationale for excluding the majority-preferred stack. Update Notion cohort page with approved protocol and permanent exclusion flag.",
+    "status": "done",
+    "priority": "high",
+    "due_date": "2026-03-29",
+    "tags": [
+      "cohort",
+      "supplement",
+      "decision-log",
+      "obsidian",
+      "notion"
+    ],
+    "created_at": "2026-03-27T09:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-547",
+    "title": "Draft and send cohort-wide supplement protocol email",
+    "description": "Draft email to cohort-spring2026@devonrossperformance.example communicating approved supplement stack. Note that individual health profiles informed the selection without disclosing any participant's specific condition. Reference the approved electrolyte + maintenance creatine protocol. Send before end of day 2026-03-29.",
+    "status": "done",
+    "priority": "high",
+    "due_date": "2026-03-29",
+    "tags": [
+      "cohort",
+      "supplement",
+      "email",
+      "communication"
+    ],
+    "created_at": "2026-03-27T09:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-548",
+    "title": "Decline NovaPeak pre-workout bundle offer – loading protocol excluded from cohort",
+    "description": "Reply to NovaPeak Nutrition partnerships email declining the pre-workout + creatine loading bundle. Reason: hard contraindication identified in cohort health review. Keep response professional; leave door open for individual client contexts.",
+    "status": "done",
+    "priority": "medium",
+    "due_date": "2026-03-29",
+    "tags": [
+      "vendor",
+      "supplement",
+      "cohort",
+      "outbound"
+    ],
+    "created_at": "2026-03-28T08:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-550",
+    "title": "Prep brief – Ironside referral partnership call with Marcus Teel (Feb 17)",
+    "description": "Before the 20-min call Tuesday at 9am: review email thread with Marcus (MSG-5051 through MSG-5053), pull Notion cohort launch hub and venue conflict log for relationship context, surface open todos tied to the call, and draft a concise prep brief covering objectives, key background, and specific questions to raise (referral structure, exclusivity terms, revenue-share framing, facility access rate).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-02-17",
+    "tags": [
+      "ironside",
+      "partnership",
+      "prep",
+      "call"
+    ],
+    "created_at": "2026-02-16T08:15:00-06:00"
+  },
+  {
+    "task_id": "TODO-551",
+    "title": "Follow up with Marcus Teel post-call – next steps on referral agreement",
+    "description": "After the Feb 17 call: send a brief follow-up email summarizing agreed points, any open items, and proposed next steps (e.g. draft terms, facility access trial, formal referral agreement). Reference call notes.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-02-18",
+    "tags": [
+      "ironside",
+      "partnership",
+      "follow-up"
+    ],
+    "created_at": "2026-02-16T08:20:00-06:00"
+  },
+  {
+    "task_id": "TODO-552",
+    "title": "Review Trainerize weekly summary – identify 6 zero-workout clients (Feb 9–15)",
+    "description": "Trainerize weekly digest flagged 6 clients with zero workouts logged for the week of Feb 9–15. Cross-reference against adherence tracker (WB-1) and apply 24-hour missed-session outreach rule where applicable. Note: Brendan Holt and Casey Drummond already flagged separately.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-02-17",
+    "tags": [
+      "adherence",
+      "trainerize",
+      "client-outreach"
+    ],
+    "created_at": "2026-02-16T07:30:00-06:00"
+  },
+  {
+    "task_id": "TODO-553",
+    "title": "URGENT: Respond to Marcus Teel – confirm kickoff venue decision by EOD Friday Mar 31",
+    "description": "Marcus Teel (Ironside Athletic Club) confirmed double-booking for May 12 cohort kickoff. Three options offered: (1) reschedule to June 9, (2) hybrid pivot with 6 in-person + Zoom, (3) alternative venue via Priya Nair at CrossFit Lakeview. Decision must be communicated to Marcus by EOD Friday March 31 or the June 9 hold is released. Once decided, draft and send revised logistics email to all 12 cohort participants.",
+    "status": "pending",
+    "priority": "urgent",
+    "due_date": "2026-03-31",
+    "tags": [
+      "cohort",
+      "venue",
+      "urgent",
+      "facility"
+    ],
+    "created_at": "2026-03-29T10:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-554",
+    "title": "Review Trainerize weekly summary – flag zero-workout and anomalous-logging clients",
+    "description": "Trainerize weekly summary (Mar 23–29) shows 5 clients with zero logged workouts including Brendan Holt (3rd consecutive week, identical RPE pattern flagged). Casey Drummond also zero-logged and sent a direct email. Review full list, cross-reference adherence tracker, and identify clients requiring 24-hr outreach per missed-session policy.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-30",
+    "tags": [
+      "adherence",
+      "missed-session",
+      "trainerize",
+      "review"
+    ],
+    "created_at": "2026-03-30T06:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-555",
+    "title": "Brendan Holt credibility review – schedule direct verification conversation before next programming cycle",
+    "description": "Coach forum digest (Mar 28) and Trainerize summary both flag Brendan Holt for statistically improbable logging patterns (identical RPE 7/10 and rep counts across 6+ sessions). Peer warning received. Must conduct credibility review and direct verification conversation before issuing next programming cycle. Do not issue new program until resolved.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-03",
+    "tags": [
+      "client-risk",
+      "credibility",
+      "brendan-holt",
+      "adherence"
+    ],
+    "created_at": "2026-03-30T06:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-556",
+    "title": "Reply to Casey Drummond – re-engagement outreach (missed-session 24hr rule)",
+    "description": "Casey Drummond emailed Mar 29 acknowledging missed sessions and requesting program flexibility. Respond within 24 hours per missed-session outreach policy. Offer a modified schedule or check-in format. Flag in adherence tracker.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-03-30",
+    "tags": [
+      "adherence",
+      "missed-session",
+      "casey-drummond",
+      "re-engagement"
+    ],
+    "created_at": "2026-03-30T06:20:00-05:00"
+  },
+  {
+    "task_id": "TODO-557",
+    "title": "Darnell Shaw – initiate physician clearance process and add permanent renal contraindication flag to Notion profile",
+    "description": "Darnell Shaw's profile requires a permanent renal contraindication flag to prevent future supplement recommendations conflicting with his single-kidney condition. Physician clearance process not yet initiated. Add flag to Notion client profile and draft physician clearance request template for Darnell to send to his doctor. Do not issue any supplement recommendations until clearance is on file.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-04",
+    "tags": [
+      "client-risk",
+      "supplement-safety",
+      "darnell-shaw",
+      "physician-clearance"
+    ],
+    "created_at": "2026-03-30T06:25:00-05:00"
+  },
+  {
+    "task_id": "TODO-558",
+    "title": "LinkedIn content – resume posting cadence (8-day gap, next post due today)",
+    "description": "LinkedIn educational content cadence has been missed for 8 days. Next post is overdue. Pull from saved outlines in Obsidian (LinkedIn Content Queue note). Target: publish one post today to reset cadence. Planned topics: hip hinge mechanics breakdown or recovery science mini-article.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-03-30",
+    "tags": [
+      "linkedin",
+      "content",
+      "marketing",
+      "overdue"
+    ],
+    "created_at": "2026-03-30T06:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-559",
+    "title": "Q2 tax estimate prep – begin income/expense reconciliation (due June 15)",
+    "description": "Quarterly tax estimate due 2026-06-15. Schedule a dedicated reconciliation block in early April. Pull coaching income (online + in-person + cohort), business expenses, and NSCA membership from finance records. Use Devon Ross Performance Q2 2026 Tax Estimate Worksheet (WB-2).",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-10",
+    "tags": [
+      "tax",
+      "finance",
+      "admin",
+      "quarterly"
+    ],
+    "created_at": "2026-03-30T06:35:00-05:00"
+  },
+  {
+    "task_id": "TODO-560",
+    "title": "Investigate and enable disabled scheduler jobs JOB-701, JOB-702, JOB-703 (weekly check-in reminders)",
+    "description": "Three weekly_client_checkin_reminder scheduler jobs remain disabled with null last_status. Manual check-in cadence is covering the gap but creates single-point-of-failure risk for the 24-hour missed-session outreach rule across 24 online clients. Review job configs, resolve any blockers, and enable all three jobs. Verify with a test run before relying on automation.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-03",
+    "tags": [
+      "automation",
+      "scheduler",
+      "check-in",
+      "risk"
+    ],
+    "created_at": "2026-03-30T06:40:00-05:00"
+  },
+  {
+    "task_id": "TODO-561",
+    "title": "Send cohort onboarding deadline clarification email to all 12 participants",
+    "description": "Deadline conflict identified across Gmail (April 25 in MSG-5060) and Notion/reminder email (April 28 in MSG-5061 and NPAG-22). April 28 is the authoritative deadline. Draft and send a clarification email to cohort-spring2026@devonrossperformance.example explicitly superseding the April 25 reference and confirming April 28 as the single deadline. Reference OBSN-14 for decision rationale.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-15",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "deadline",
+      "urgent",
+      "spring-2026"
+    ],
+    "created_at": "2026-04-15T09:45:00-05:00"
+  },
+  {
+    "task_id": "TODO-562",
+    "title": "Update NPAG-22 onboarding tracker – mark deadline conflict resolved",
+    "description": "After clarification email is sent, update the callout block in NPAG-22 (Spring 2026 Cohort – Onboarding Submission Tracker) to reflect that the April 25 / April 28 conflict has been resolved and April 28 is confirmed. Also update NPAG-23 resolution log checklist.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-15",
+    "tags": [
+      "cohort",
+      "notion",
+      "onboarding",
+      "spring-2026"
+    ],
+    "created_at": "2026-04-15T09:47:00-05:00"
+  },
+  {
+    "task_id": "TODO-563",
+    "title": "Audit all future cohort deadline communications for cross-channel consistency before sending",
+    "description": "Root cause of the April 25/28 conflict: Notion was updated but the supersession was not made explicit in the participant-facing email. Going forward, before any deadline-related email goes to cohort participants, verify that (1) Notion reflects the same date, (2) any prior email stating a different date is explicitly superseded in the new message, and (3) an Obsidian decision log entry documents any deadline change. Create a checklist template in Obsidian for this.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-17",
+    "tags": [
+      "cohort",
+      "process",
+      "communication",
+      "audit",
+      "spring-2026"
+    ],
+    "created_at": "2026-04-15T09:50:00-05:00"
+  },
+  {
+    "task_id": "TODO-564",
+    "title": "Follow up with participants who have not submitted onboarding forms by April 22",
+    "description": "As of April 15, only 3 of 12 participants have submitted onboarding forms. Send individual follow-up emails to any participant who has not submitted by April 22 (6 days before the April 28 deadline). Prioritize Darnell Shaw — his health disclosure is a hard gate for supplement protocol due to renal contraindication flag.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-22",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "follow-up",
+      "spring-2026",
+      "darnell-shaw"
+    ],
+    "created_at": "2026-04-15T09:52:00-05:00"
+  },
+  {
+    "task_id": "TODO-565",
+    "title": "DECIDE: Apex CEU early-bird enrollment – enroll now ($149) or defer (window closes EOD 2026-05-13)",
+    "description": "Early-bird window for Apex CEU Institute's Advanced Periodization & Load Management course (15 CEU hours, NSCA Category A) closes 2026-05-13 23:59 CT. Early-bird: $149 non-refundable. Standard: $229. PROBLEM: Confirmed CEU balance is 24/30 hours — only 6.0 hours of headroom remain. Course offers 15 hours, meaning 9 hours would be unusable and non-refundable. Expected wasted spend (~$89) exceeds the $80 early-bird discount. Decision: DO NOT ENROLL. Log rationale in Obsidian (OBSN-16) and update Notion CEU tracker (NPAG-24).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-13",
+    "tags": [
+      "ceu",
+      "professional-development",
+      "finance",
+      "decision",
+      "time-sensitive"
+    ],
+    "created_at": "2026-05-12T09:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-566",
+    "title": "Find ≤6 CEU-hour NSCA Category A course to complete recertification cycle before 2026-12-31",
+    "description": "After declining Apex CEU early-bird (15 hrs exceeds 6.0 hr headroom), need to identify a replacement course that fits remaining CEU headroom exactly. Requirements: NSCA CSCS-approved, Category A preferred (already at 18 hrs Category A — minimum satisfied, but Category A is higher value), ≤6.0 CEU hours, ideally self-paced. Check NSCA course catalog and Apex CEU catalog for options. No urgency — cycle closes December 31, 2026.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-09-30",
+    "tags": [
+      "ceu",
+      "nsca",
+      "professional-development",
+      "recertification"
+    ],
+    "created_at": "2026-05-13T11:45:00-05:00"
+  },
+  {
+    "task_id": "TODO-567",
+    "title": "Update Notion CEU tracker (NPAG-24) – mark Apex course as DECLINED, confirm decision log linked",
+    "description": "Following the CEU early-bird decision (OBSN-16), update NPAG-24 to reflect: Apex Advanced Periodization course = DECLINED (structural mismatch — 15 CEU hrs vs. 6.0 hr headroom). Confirm Obsidian decision log is linked. Mark TXN-6003 draft record as not executed.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-05-14",
+    "tags": [
+      "ceu",
+      "notion",
+      "admin",
+      "professional-development"
+    ],
+    "created_at": "2026-05-13T11:50:00-05:00"
+  },
+  {
+    "task_id": "TODO-568",
+    "title": "Verify NSCA CEU portal reflects 24.0 confirmed hours – cross-check against Notion tracker",
+    "description": "NSCA automated email (MSG-5065, as of May 1) shows 24.0 confirmed hours. ASCS credit confirmed April 28 (MSG-5066). Spot-check NSCA member portal to confirm no discrepancy before relying on this balance for future enrollment decisions. Low urgency but important for data integrity.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-05-20",
+    "tags": [
+      "ceu",
+      "nsca",
+      "verification",
+      "recertification"
+    ],
+    "created_at": "2026-05-13T12:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-569",
+    "title": "Generate consolidated weekly schedule view – week of April 22",
+    "description": "Pull all calendar events for the week of April 22–26 across in-person blocks, online check-in windows, cohort coordination sessions, admin blocks, and external calls. Consolidate into a single chronological timeline, flag event types, identify time overlaps, cross-reference affected contacts and recent email threads, annotate conflicts with resolution priority, and save summary to notes.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-22",
+    "tags": [
+      "scheduling",
+      "conflict-audit",
+      "weekly-review",
+      "admin"
+    ],
+    "created_at": "2026-04-22T08:45:00-05:00"
+  },
+  {
+    "task_id": "TODO-570",
+    "title": "Resolve scheduling conflict – Jordan Hayes intake call vs. Thursday morning 1:1 block",
+    "description": "EVT-335 (Jordan Hayes intake call, 9:00–9:30am Thu Apr 23) overlaps with the tail end of EVT-336 (Thursday morning in-person 1:1 block, 6:00–9:00am). Confirm whether in-person block reliably ends by 9:00am or if buffer is needed. If buffer required, reschedule Jordan Hayes call to 9:30am or later. Email Jordan to confirm revised time.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-22",
+    "tags": [
+      "scheduling",
+      "conflict",
+      "prospect",
+      "jordan-hayes"
+    ],
+    "created_at": "2026-04-22T09:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-571",
+    "title": "Confirm Friday program design block is protected – no external calls scheduled",
+    "description": "Verify no external meetings or calls have been booked over the Friday April 24 program design block (EVT-338, 9am–5pm). Check recent emails from Marcus Teel, Jordan Hayes, and cohort participants for any scheduling requests that may have been acknowledged but not yet calendared.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-04-22",
+    "tags": [
+      "scheduling",
+      "admin",
+      "program-design"
+    ],
+    "created_at": "2026-04-22T09:20:00-05:00"
+  },
+  {
+    "task_id": "TODO-572",
+    "title": "Save consolidated weekly schedule summary to notes",
+    "description": "After completing the conflict audit for the week of April 22, save the annotated consolidated schedule to notes (NOTE service) for reference during the week. Include: chronological event list by day, event type labels, flagged conflicts with affected parties and resolution priority, and any pending scheduling todos.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-22",
+    "tags": [
+      "scheduling",
+      "notes",
+      "weekly-review"
+    ],
+    "created_at": "2026-04-22T09:25:00-05:00"
+  },
+  {
+    "task_id": "TODO-573",
+    "title": "Decline PureForm bulk offer – reply to Sophia Reyes, request future promo window",
+    "description": "Reply to MSG-5072. Decline the 48-hour bulk purchase offer for PureForm Electrolyte Base. Explain that the cohort supplement protocol is not yet finalized (physician clearance and contraindication audit pending). Ask whether PureForm runs similar promotions periodically and request to be notified of the next window.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-23",
+    "tags": [
+      "vendor",
+      "supplement",
+      "cohort",
+      "decision"
+    ],
+    "created_at": "2026-04-22T10:50:00-05:00"
+  },
+  {
+    "task_id": "TODO-574",
+    "title": "Send Darnell Shaw physician clearance letter template",
+    "description": "Draft and send a brief physician clearance letter template to Darnell Shaw (darnell.shaw@gmail.example) so he can bring it to his nephrologist appointment. Template should specify: (1) client has single-kidney condition, (2) coach is requesting clearance for low-electrolyte supplement use (PureForm Electrolyte Base — ingredient list attached), (3) creatine loading is already excluded and not under review. Unblocks TODO-526 and NPAG-26 physician clearance status.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-24",
+    "tags": [
+      "client",
+      "renal-flag",
+      "supplement",
+      "physician-clearance",
+      "darnell-shaw"
+    ],
+    "created_at": "2026-04-22T10:52:00-05:00"
+  },
+  {
+    "task_id": "TODO-575",
+    "title": "Run cohort-wide contraindication audit – propagate exclusion flags to all 12 profiles",
+    "description": "Review all 12 spring cohort participant profiles in Notion. Apply permanent exclusion flag for Apex Pre-Workout Ignite + creatine loading stack to any profile that does not already have it. Cross-reference onboarding health disclosures to identify any additional contraindications. Update NPAG-27 (cohort supplement protocol) with audit completion status. This is a hard precondition for finalizing the supplement protocol and any future bulk purchase.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-28",
+    "tags": [
+      "cohort",
+      "supplement",
+      "contraindication",
+      "audit",
+      "notion"
+    ],
+    "created_at": "2026-04-22T10:55:00-05:00"
+  },
+  {
+    "task_id": "TODO-576",
+    "title": "Calendar block: cohort supplement protocol finalization sprint (post-clearance)",
+    "description": "Once Darnell Shaw physician clearance is received and contraindication audit is complete, block 2 hours to finalize the cohort supplement protocol in Notion (NPAG-27), update all participant profiles, and contact PureForm for standard or promotional pricing. Do not schedule this block until both preconditions are confirmed closed.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-05",
+    "tags": [
+      "cohort",
+      "supplement",
+      "protocol",
+      "planning"
+    ],
+    "created_at": "2026-04-22T11:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-577",
+    "title": "Confirm Ironside partnership call with Marcus Teel – send calendar invite",
+    "description": "Reply confirmed for Wed April 29 at 11:00 AM. Need to send calendar invite to marcus.teel@ironsideathletic.example and create the EVT in calendar. Agenda: referral fee structure, facility access logistics, co-programming opportunities.",
+    "status": "in_progress",
+    "priority": "high",
+    "due_date": "2026-04-22",
+    "tags": [
+      "ironside",
+      "partnership",
+      "scheduling",
+      "marcus-teel"
+    ],
+    "created_at": "2026-04-22T14:45:00-05:00"
+  },
+  {
+    "task_id": "TODO-578",
+    "title": "Formalize Ironside Athletic Club referral partnership terms – post-call follow-up",
+    "description": "After the April 29 call with Marcus Teel: document agreed referral fee structure, facility access terms, and any co-programming arrangements. Update Notion vendor evaluation page and log final terms. Send written summary to Marcus for confirmation.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-04-30",
+    "tags": [
+      "ironside",
+      "partnership",
+      "referral",
+      "marcus-teel",
+      "post-call"
+    ],
+    "created_at": "2026-04-22T15:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-579",
+    "title": "Review Trainerize weekly summary – flag adherence-drop clients",
+    "description": "Trainerize weekly summary for April 14–20 arrived. 5 clients with 0 workouts, 4 with 3+ consecutive missed sessions. Cross-check against adherence tracker and trigger 24-hr outreach rule for flagged clients. Casey Drummond and Brendan Holt both flagged again.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-04-23",
+    "tags": [
+      "trainerize",
+      "adherence",
+      "client-review",
+      "weekly-summary"
+    ],
+    "created_at": "2026-04-22T08:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-580",
+    "title": "Log contact note on Marcus Teel record – confirmed call slot and agenda",
+    "description": "Update CON-224 (Marcus Teel) with note confirming Wed April 29 11:00 AM call, agenda items (referral fee structure, facility access logistics, co-programming), and email confirmation thread reference (MSG-5076, MSG-5077, MSG-5079).",
+    "status": "completed",
+    "priority": "medium",
+    "due_date": "2026-04-22",
+    "tags": [
+      "ironside",
+      "marcus-teel",
+      "contact-note",
+      "crm"
+    ],
+    "created_at": "2026-04-22T15:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-581",
+    "title": "Decline PureForm VitalStack Pro offer – document reasoning and send formal response",
+    "description": "Following full claim verification (OBSN-20), all three major vendor claims are either unverifiable or externally contradicted: NSF cert #NSF-2026-PF-0041 not found in registry per SCF digest; Renata Voss endorsement confirmed fabricated; creatine monohydrate (5g) in ingredient list directly contraindicated for Darnell Shaw (single kidney). PureForm Electrolyte Base (already approved, NPAG-27) remains the compliant alternative. Draft a formal decline email to Tyler Wren (offers@pureformnutrition.example) citing inability to verify NSF status and ingredient contraindication. Do NOT commit to any purchase or distribution. Attach OBSN-20 decision note reference in internal records.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "supplement-vendor",
+      "cohort",
+      "safety",
+      "verification",
+      "decline"
+    ],
+    "created_at": "2026-05-06T12:05:00-05:00"
+  },
+  {
+    "task_id": "TODO-582",
+    "title": "Update NPAG-27 (cohort supplement exclusion registry) with VitalStack Pro findings",
+    "description": "Add PureForm VitalStack Pro to the cohort supplement exclusion registry (NPAG-27) with the following flags: (1) NSF cert unverifiable — Cert #NSF-2026-PF-0041 not found in public registry as of 2026-05-05; (2) contains creatine monohydrate 5g — contraindicated for single-kidney participants (Darnell Shaw); (3) coach endorsements fabricated — Renata Voss confirmed no endorsement given. Mark as distribution-blocked. Reference OBSN-20 for full decision log.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "supplement-vendor",
+      "notion",
+      "cohort",
+      "safety",
+      "exclusion-registry"
+    ],
+    "created_at": "2026-05-06T12:08:00-05:00"
+  },
+  {
+    "task_id": "TODO-583",
+    "title": "Confirm PureForm Electrolyte Base distribution to all 12 cohort participants",
+    "description": "PureForm Electrolyte Base (NSF Cert #NSF-2025-PFE-0017, renal-safe, already approved per NPAG-27) is the compliant replacement stack. Confirm that all 12 spring cohort participants have received or been directed to the approved product before the May 12 kickoff. Cross-check participant roster (NPAG-2) for any additional health disclosures that may require individual screening.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-10",
+    "tags": [
+      "supplement",
+      "cohort",
+      "distribution",
+      "safety"
+    ],
+    "created_at": "2026-05-06T12:15:00-05:00"
+  },
+  {
+    "task_id": "TODO-584",
+    "title": "Flag PureForm Nutrition vendor credibility risk to SCF moderators",
+    "description": "Renata Voss confirmed her name was used without consent in PureForm's VitalStack Pro pitch. Forward MSG-5080 and MSG-5083 to SCF moderators to support the community vendor alert already posted in the May 5 digest. Optional: coordinate with Renata on whether a formal cease-and-desist is warranted.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-05-09",
+    "tags": [
+      "supplement-vendor",
+      "peer-network",
+      "credibility",
+      "SCF"
+    ],
+    "created_at": "2026-05-06T12:20:00-05:00"
+  },
+  {
+    "task_id": "TODO-585",
+    "title": "Reconcile spring cohort onboarding deadline across all three channels",
+    "description": "Three channels show three different onboarding submission deadlines: participant email (May 1), Notion hub (May 8), Obsidian planning note (May 5). Gap is 7 days — exceeds 3-day threshold. Must identify authoritative date, apply conservative-deadline principle, and send clarifying email to all 12 participants before anyone misses the window. Update Notion tracker and Obsidian log after resolution.",
+    "status": "completed",
+    "priority": "high",
+    "due_date": "2026-05-06",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "deadline",
+      "urgent",
+      "spring-2026"
+    ],
+    "created_at": "2026-05-05T17:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-586",
+    "title": "Send clarifying onboarding deadline email to all 12 spring cohort participants",
+    "description": "Draft and send a single clarifying email to cohort-spring2026@devonrossperformance.example acknowledging the deadline inconsistency across channels, stating the authoritative deadline (May 8), and specifying exactly what must be submitted: health disclosure, waiver, supplement form, training history questionnaire. Reference MSG-5084 as the original email with the incorrect date.",
+    "status": "completed",
+    "priority": "high",
+    "due_date": "2026-05-06",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "email",
+      "spring-2026"
+    ],
+    "created_at": "2026-05-06T08:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-587",
+    "title": "Follow up with 5 non-submitters before May 8 onboarding deadline",
+    "description": "As of 2026-05-06, 5 cohort participants have not submitted complete onboarding packages. Health disclosures are outstanding — supplement protocol and programming decisions are blocked. Send individual follow-up messages to each non-submitter. Casey Drummond (MSG-5087) is partially complete — prioritize. Internal action cutoff: May 6. Hard deadline: May 8.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "follow-up",
+      "spring-2026"
+    ],
+    "created_at": "2026-05-06T11:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-588",
+    "title": "Update Notion onboarding tracker (NPAG-29) with reconciled deadline and submission status",
+    "description": "Update NPAG-29 to reflect: authoritative deadline confirmed as May 8, conflict resolution logged in NPAG-30, current submission status (7 submitted / 5 pending as of May 5). Ensure the deadline conflict flag is cleared once clarifying email is confirmed sent.",
+    "status": "completed",
+    "priority": "medium",
+    "due_date": "2026-05-06",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "notion",
+      "spring-2026"
+    ],
+    "created_at": "2026-05-06T09:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-589",
+    "title": "DECISION: Enroll or decline ASCS Module 4 early-bird ($149) – deadline May 10",
+    "description": "Apex CEU Institute early-bird window closes May 10. Module 4 = 1.5 NSCA-approved CEUs. Before deciding, must reconcile actual CEU headroom against NSCA portal status (MSG-5065) and Module 3 completion (MSG-5089). If confirmed + in-progress CEUs already meet the 6.0 cycle ceiling, enrollment produces zero recertification value. See OBSN-23 for prior risk flag. Cross-check NPAG-31 tracker — may be stale. Related: TXN-6007 (Module 1, $189, non-refundable), TXN-6008 (Module 3, $165, non-refundable), TXN-6009 (Module 4, $149, pending).",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-09",
+    "tags": [
+      "ceu",
+      "nsca",
+      "professional-development",
+      "finance",
+      "decision"
+    ],
+    "created_at": "2026-05-05T09:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-590",
+    "title": "Update NPAG-31 CEU tracker – correct stale headroom figure after Module 3 confirmation",
+    "description": "Notion CEU tracker (NPAG-31) was last updated 2026-04-15 and states 3.0 CEUs remaining headroom. This is incorrect — Module 3 (1.5 CEUs, completed 2026-05-03) was not reflected. After submitting Module 3 certificate to NSCA portal, update tracker to show: confirmed = 6.0 CEUs, remaining headroom = 0.0 CEUs. Also flag that NPAG-31 overstated headroom, which contributed to the Module 4 enrollment ambiguity.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-09",
+    "tags": [
+      "ceu",
+      "notion",
+      "tracker-update",
+      "nsca"
+    ],
+    "created_at": "2026-05-06T11:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-591",
+    "title": "Submit Module 3 CEU certificate to NSCA member portal",
+    "description": "ASCS Module 3 (Metabolic Conditioning & Energy Systems) was completed 2026-05-03. Certificate is available in Apex CEU Institute portal. Must be manually submitted to NSCA member portal to be applied to the 2024–2026 recertification cycle. Once submitted, confirmed total = 6.0 CEUs = cycle ceiling. Do this before the Module 4 enrollment deadline (May 10) to confirm headroom = 0 and support the decline decision.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-08",
+    "tags": [
+      "ceu",
+      "nsca",
+      "recertification",
+      "admin"
+    ],
+    "created_at": "2026-05-06T11:05:00-05:00"
+  },
+  {
+    "task_id": "TODO-592",
+    "title": "Log Module 4 decline decision in OBSN-24 and close out CEU decision thread",
+    "description": "After confirming headroom = 0 and declining Module 4 early-bird, update OBSN-24 with final decision outcome. Mark TODO-589 (enrollment decision) and TODO-590 (tracker update) as complete. Archive TXN-6009 pending record as 'declined — not processed.' Close out the CEU decision thread so it doesn't resurface as an open item.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-05-10",
+    "tags": [
+      "ceu",
+      "decision-log",
+      "obsidian",
+      "admin"
+    ],
+    "created_at": "2026-05-06T11:10:00-05:00"
+  },
+  {
+    "task_id": "TODO-593",
+    "title": "LinkedIn cadence recovery – publish 4 compliant posts (Week 18)",
+    "description": "Agent audit of OBSN-25 draft queue complete. Drafts A and C cleared as-is. Drafts B and D blocked and redrafted (compliant versions in OBSN-26 Appendix B and C). Schedule all 4 compliant posts across May 6–9 to resume weekly cadence after 8-day gap. Do not publish original Drafts B or D under any circumstances.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-09",
+    "tags": [
+      "linkedin",
+      "content",
+      "cadence",
+      "compliance",
+      "confidentiality"
+    ],
+    "created_at": "2026-05-06T11:20:00-05:00"
+  },
+  {
+    "task_id": "TODO-594",
+    "title": "Obtain client content consent – athlete featured in Draft D load progression",
+    "description": "Draft D (8-week squat progression) was blocked for publishing specific client load data without written consent. Before any version using real load numbers can be published, the athlete must sign the content consent template (NPAG-34). In the interim, the percentage-based redraft (OBSN-26 Appendix C) is the compliant substitute. Add consent form to next check-in conversation with this client.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-13",
+    "tags": [
+      "linkedin",
+      "consent",
+      "client-data",
+      "compliance",
+      "content-policy"
+    ],
+    "created_at": "2026-05-06T11:25:00-05:00"
+  },
+  {
+    "task_id": "TODO-595",
+    "title": "Review NPAG-34 content consent template with legal / coach association guidelines",
+    "description": "Content consent template drafted 2026-05-06 per NPAG-34. Needs review against NSCA coaching ethics guidelines and any applicable state-level client data handling rules before it can be sent to clients. Low urgency but should be resolved before Q3 onboarding cycle.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-06-01",
+    "tags": [
+      "legal",
+      "compliance",
+      "content-policy",
+      "onboarding"
+    ],
+    "created_at": "2026-05-06T12:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-596",
+    "title": "Verify: does any already-published LinkedIn post expose Darnell Shaw renal contraindication?",
+    "description": "During draft audit, risk log flagged that Draft B's health disclosure language (single kidney + supplement stack details) was HIGH risk. Before closing the audit, confirm that no previously published post (prior to 2026-04-28) contains similar identifying health context for Darnell Shaw or any other cohort participant. If found, flag for deletion or clarifying edit.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "linkedin",
+      "audit",
+      "client-safety",
+      "darnell-shaw",
+      "confidentiality"
+    ],
+    "created_at": "2026-05-06T11:35:00-05:00"
+  },
+  {
+    "task_id": "TODO-597",
+    "title": "24hr outreach – Casey Drummond (4 consecutive missed weeks, re-engagement requested)",
+    "description": "Casey replied to re-engagement email and asked to talk. Schedule and conduct re-engagement call this week. Per Devon's 24-hour missed-session outreach rule, this is overdue — Casey has been flagged for 4 consecutive missed weeks. Priority: same-day or next-session response.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-06",
+    "tags": [
+      "client-outreach",
+      "re-engagement",
+      "adherence",
+      "24hr-rule"
+    ],
+    "created_at": "2026-05-05T07:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-598",
+    "title": "Initiate Darnell Shaw physician clearance process + add renal contraindication flag to Notion profile",
+    "description": "Darnell Shaw has a single-kidney condition. His Notion client profile requires a permanent renal contraindication flag to block future supplement recommendations (specifically Apex Pre-Workout Ignite + creatine loading stack). Physician clearance process has not yet been initiated. Both actions are safety obligations — flag in Notion and draft physician clearance request letter this week.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-08",
+    "tags": [
+      "client-safety",
+      "physician-clearance",
+      "supplement-flag",
+      "darnell-shaw",
+      "renal-contraindication"
+    ],
+    "created_at": "2026-04-28T09:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-599",
+    "title": "Brendan Holt credibility review – schedule direct verification conversation before next programming cycle",
+    "description": "Peer warning received via coach forum digest flagging Brendan Holt for potential workout-logging fabrication. Evidence mapping session completed (see NOTE-118). Direct verification conversation with Brendan must happen before next programming cycle begins. Task has been deferred multiple weeks due to end-of-week fatigue. Decision block scheduled EVT-356 (May 7). Do not defer again.",
+    "status": "in_progress",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "client-outreach",
+      "credibility-review",
+      "brendan-holt",
+      "verification",
+      "deferred"
+    ],
+    "created_at": "2026-04-21T10:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-600",
+    "title": "Review Trainerize weekly summary – identify and triage all zero-workout and partial-completion clients",
+    "description": "Trainerize weekly digest (Apr 28–May 4) flagged 5 zero-workout clients and 4 partial-completion clients. Review individual dashboards to confirm which clients trigger the 24-hour outreach rule. Cross-reference with adherence tracker (WB-1 / WB-3) to identify any with 3+ consecutive missed sessions. Produce ranked outreach list for the week.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-06",
+    "tags": [
+      "adherence",
+      "trainerize",
+      "client-review",
+      "digest"
+    ],
+    "created_at": "2026-05-05T06:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-601",
+    "title": "Reconcile spring cohort onboarding submission deadline across all channels",
+    "description": "Onboarding submission deadline is stated inconsistently across participant-facing emails, the Notion cohort launch hub (NPAG-1), and internal Obsidian notes. Cross-channel reconciliation required. Send clarifying email to all 12 cohort participants before the earliest stated deadline passes. Incomplete health disclosures block supplement and programming decisions for the May 12 launch.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "deadline-reconciliation",
+      "participant-comms",
+      "supplement-safety"
+    ],
+    "created_at": "2026-05-04T11:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-602",
+    "title": "Activate JOB-701, JOB-702, JOB-703 – weekly_client_checkin_reminder scheduler jobs",
+    "description": "Three scheduler jobs (JOB-701, JOB-702, JOB-703) for weekly_client_checkin_reminder remain disabled with null last_status — never activated. Manual check-in cadence is covering the gap but creates single-point-of-failure risk for the 24-hour missed-session outreach rule across 24 online clients. Review job configs, confirm cron expressions and action targets, then enable all three. Low-risk but overdue.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-08",
+    "tags": [
+      "automation",
+      "scheduler",
+      "check-in",
+      "online-clients",
+      "risk-mitigation"
+    ],
+    "created_at": "2026-04-30T09:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-603",
+    "title": "URGENT: Reply to Marcus Teel – confirm June 9 kickoff venue decision by EOD Fri May 8",
+    "description": "Marcus Teel (Ironside Athletic Club) needs Devon's decision on the June 9 reschedule offer by EOD Friday May 8 or the hold will be released. Options: (1) Accept June 9 full-floor reschedule, (2) Hybrid May 12 using smaller studio (8-person cap, doesn't fit full cohort of 12), (3) Alternative venue. Decision must be made and communicated to all 12 cohort participants. Reference MSG-5100.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-08",
+    "tags": [
+      "urgent",
+      "venue",
+      "cohort-kickoff",
+      "ironside"
+    ],
+    "created_at": "2026-05-06T12:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-604",
+    "title": "24-hr missed-session outreach – Darnell Shaw (4th consecutive miss)",
+    "description": "Trainerize alert (MSG-5104) confirms Darnell Shaw missed his May 5 Lower Body Strength A session — 4th consecutive miss. Devon's 24-hour outreach rule requires contact by EOD May 6. Note: Darnell also has active renal contraindication flag pending in Notion — do not recommend any supplements in this outreach. Keep message focused on re-engagement and schedule check-in.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-06",
+    "tags": [
+      "missed-session",
+      "24hr-rule",
+      "client-outreach",
+      "darnell-shaw"
+    ],
+    "created_at": "2026-05-06T09:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-605",
+    "title": "Review Trainerize weekly summary – triage 5 zero-workout clients",
+    "description": "Weekly Trainerize summary (MSG-5098) shows 5 clients with zero logged workouts Apr 28–May 4: Brendan Holt, Casey Drummond, Darnell Shaw, Keisha Morales, Tomás Reyes. Cross-reference with adherence tracker. Brendan Holt has active credibility review pending (log fabrication concern from forum digest). Casey Drummond sent a direct message (MSG-5102). Darnell Shaw has separate missed-session alert. Prioritize outreach order.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "trainerize",
+      "adherence",
+      "weekly-review",
+      "missed-session"
+    ],
+    "created_at": "2026-05-06T09:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-606",
+    "title": "Reply to Casey Drummond – re-engagement + schedule adjustment conversation",
+    "description": "Casey reached out proactively (MSG-5102) acknowledging missed sessions and work stress. Respond with empathy, validate the outreach, and offer a schedule adjustment or reduced-volume option. This satisfies the 24-hr missed-session rule. Casey is adherence-flagged (3+ missed sessions). Do not let this slip — Casey is at dropout risk.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-06",
+    "tags": [
+      "client-outreach",
+      "missed-session",
+      "adherence",
+      "casey-drummond"
+    ],
+    "created_at": "2026-05-06T12:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-607",
+    "title": "Reply to Tyler Wren – prospect intake response (referred by Priya Nair)",
+    "description": "Tyler Wren (tyler.wren@gmail.example) sent an inbound inquiry (MSG-5103) referred by Priya Nair. Strong-fit prospect: 34M, 4x/week barbell, clear goals, no health flags. Respond with intake process overview, confirm current availability, and send intake form link. Note: cohort is full at 12 — this would be 1:1 online coaching.",
+    "status": "pending",
+    "priority": "medium",
+    "due_date": "2026-05-08",
+    "tags": [
+      "prospect",
+      "intake",
+      "referral",
+      "tyler-wren"
+    ],
+    "created_at": "2026-05-06T14:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-608",
+    "title": "Reconcile cohort onboarding deadline discrepancy – reply to Jordan Hayes + update all channels",
+    "description": "Jordan Hayes flagged (MSG-5105) that the onboarding deadline is stated as May 8 on the website but May 10 in the participant email. This is an active issue: inconsistent deadlines across channels risk incomplete health disclosures that gate supplement and programming decisions. Steps: (1) Determine correct deadline, (2) Update website and Notion cohort hub, (3) Reply to Jordan with correct date, (4) Send clarifying email to all 12 participants.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-07",
+    "tags": [
+      "cohort",
+      "onboarding",
+      "deadline",
+      "compliance",
+      "jordan-hayes"
+    ],
+    "created_at": "2026-05-06T14:30:00-05:00"
+  },
+  {
+    "task_id": "TODO-609",
+    "title": "Brendan Holt credibility review – cross-check May 5 log claims against Trainerize timestamps",
+    "description": "Forum digest (MSG-5099) reinforces peer warning about workout log fabrication patterns. Brendan Holt (MSG-5106) claims all 4 sessions completed this week and a 385 lb deadlift PR — but Trainerize weekly summary (MSG-5098) lists him as zero logged workouts Apr 28–May 4. Discrepancy requires immediate cross-check: review Trainerize log timestamps, check for rapid-succession entries, compare against any wearable sync data. Credibility conversation pending before next programming cycle.",
+    "status": "pending",
+    "priority": "high",
+    "due_date": "2026-05-08",
+    "tags": [
+      "brendan-holt",
+      "credibility-review",
+      "log-fabrication",
+      "compliance"
+    ],
+    "created_at": "2026-05-06T15:00:00-05:00"
+  },
+  {
+    "task_id": "TODO-610",
+    "title": "Do NOT engage NovaPeak follow-up until vendor evaluation decision is finalized",
+    "description": "NovaPeak Nutrition sent a follow-up (MSG-5101) with manufactured urgency (May 15 deadline for enhanced commission). Devon's prior evaluation flagged information asymmetry and unverifiable claims. The spring cohort supplement protocol also has an active exclusion flag for Apex Pre-Workout Ignite + creatine loading stack due to Darnell Shaw's renal contraindication. Do not commit to any NovaPeak product distribution until vendor evaluation is complete and supplement safety review is resolved. Log as monitor/noise — no reply needed this week.",
+    "status": "pending",
+    "priority": "low",
+    "due_date": "2026-05-15",
+    "tags": [
+      "vendor",
+      "novapeak",
+      "supplement-safety",
+      "monitor"
+    ],
+    "created_at": "2026-05-06T15:30:00-05:00"
+  }
+]

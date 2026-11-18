@@ -1,0 +1,42 @@
+[
+  {
+    "transaction_id": "TXN-6001",
+    "date": "2026-04-18",
+    "amount": 749.0,
+    "currency": "USD",
+    "merchant": "NSCA – National Strength and Conditioning Association",
+    "category": "professional_development",
+    "description": "NSCA Advanced S&C Specialist Certificate (ASCS) – Spring 2026 enrollment. 2.0 NSCA CEUs for CSCS recertification. Registration deadline May 9, 2026. Access window May 1 – July 31, 2026.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6002",
+    "date": "2026-03-14",
+    "amount": 189.0,
+    "currency": "USD",
+    "merchant": "NSCA – National Strength and Conditioning Association",
+    "category": "professional_development",
+    "description": "NSCA Applied Strength & Conditioning Science (ASCS) – Spring 2026 Module enrollment fee. 6.0 Category A CEU hours. Non-refundable.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6004",
+    "date": "2026-03-18",
+    "amount": 47.94,
+    "currency": "USD",
+    "merchant": "PureForm Nutrition",
+    "category": "supplies_supplements",
+    "description": "PureForm Electrolyte Base – 3-unit sample pack (individual client trial, pre-cohort evaluation). Standard retail price. Non-bulk order.",
+    "receipt_url": ""
+  },
+  {
+    "transaction_id": "TXN-6005",
+    "date": "2026-04-10",
+    "amount": 89.0,
+    "currency": "USD",
+    "merchant": "Apex Nutrition Direct",
+    "category": "supplies_supplements",
+    "description": "Apex Pre-Workout Ignite – 2-unit purchase (pre-contraindication-flag; purchased before Darnell Shaw renal flag was identified on 2026-05-17 per OBSN-5). NOTE: This product is now permanently excluded from cohort protocol. Remaining units should not be distributed to cohort participants.",
+    "receipt_url": ""
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "persona_id": "HX_HML_10_T08_urgent_parent_teacher_conference_present",
+  "name": "He Meilan",
+  "email": "hemeilan2026@gmail.example",
+  "role": "full-time mother",
+  "organization": "",
+  "communication_style": "professional",
+  "domain_knowledge": [
+    "finance",
+    "ops",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-01"
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "job_id": "JOB-701",
+    "name": "weekly_vendor_checkin_reminder",
+    "description": "Send a weekly reminder to check in with preferred vendors on availability for upcoming season",
+    "cron_expression": "0 9 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_vendor_checkin_reminder",
+    "created_by": "Rachel Summers",
+    "tags": [
+      "vendors",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Decided this is unnecessary — handled manually during Monday admin time",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-702",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Weekly reminder to follow up with floral and catering vendors on pending confirmations",
+    "cron_expression": "0 9 * * 2",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_reminder_notification",
+    "created_by": "Rachel Summers",
+    "tags": [
+      "vendor",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Decided this is redundant — already tracked in the client folders",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-703",
+    "name": "weekly_vendor_checkin_reminder",
+    "description": "Send a weekly reminder to check in with key vendors on upcoming event deliverables",
+    "cron_expression": "0 9 * * 2",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_vendor_checkin_reminder",
+    "created_by": "rachel@rachelsummersevents.example",
+    "tags": [
+      "vendors",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Decided this is unnecessary — vendor follow-ups are already tracked in the CRM.",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted_scheduled_job"
+  },
+  {
+    "job_id": "JOB-704",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Send a weekly reminder to follow up with linen and floral vendors on outstanding quotes",
+    "cron_expression": "0 9 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_reminder_notification",
+    "created_by": "Rachel Summers",
+    "tags": [
+      "vendor",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Created to prompt Monday morning vendor check-ins, decided to handle manually instead",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-705",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Weekly reminder to follow up with vendors on pending confirmations for events in the next 30 days",
+    "cron_expression": "0 9 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_internal_reminder",
+    "created_by": "Rachel Summers",
+    "tags": [
+      "vendor",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Created to automate vendor follow-up nudges, then deleted — existing to-do list and calendar reminders already cover this",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-706",
+    "name": "florist_backup_outreach_reminder",
+    "description": "Weekly reminder to follow up on florist backup vendor outreach — triggered by Bloom & Branch price increase affecting 3 active weddings. Intended to prompt Rachel to send the Blossom Floral inquiry draft or confirm a decision to stay with Bloom & Branch.",
+    "cron_expression": "0 9 * * 3",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_reminder_email",
+    "created_by": "rachel@rachelsummersevents.example",
+    "tags": [
+      "florist",
+      "backup-vendor",
+      "bloom-and-branch",
+      "reminder"
+    ],
+    "notes": "Created 2026-03-06 after writing the Blossom Floral draft. Never enabled. Draft also never sent. Job and draft both abandoned simultaneously.",
+    "execution_history": []
+  },
+  {
+    "job_id": "JOB-707",
+    "name": "veridian_rfp_vendor_quote_nudge",
+    "description": "Automated nudge to check on outstanding vendor quotes (ClearSignal AV, Harvest Table catering) needed before Veridian RFP writing block. Intended to fire every Tuesday and Thursday until all three quotes confirmed.",
+    "cron_expression": "0 10 * * 2,4",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_reminder_email",
+    "created_by": "rachel@rachelsummersevents.example",
+    "tags": [
+      "veridian-rfp",
+      "vendor-quote",
+      "clearsignal",
+      "harvest-table",
+      "reminder"
+    ],
+    "notes": "Created 2026-03-07 alongside TODO-561. Never enabled. Quotes still pending as of 2026-03-11.",
+    "execution_history": []
+  },
+  {
+    "job_id": "JOB-708",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Send a weekly reminder to follow up with preferred vendors on availability for upcoming season",
+    "cron_expression": "0 9 * * 2",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_vendor_followup_reminder",
+    "created_by": "Rachel Summers",
+    "tags": [
+      "vendor",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Created then removed — decided to handle this manually instead",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-709",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Send a weekly reminder to check in with preferred vendors on availability for upcoming season. Decided this is already handled via calendar blocks — job not needed.",
+    "cron_expression": "0 9 * * 2",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_internal_reminder",
+    "created_by": "rachel@rachelsummersevents.example",
+    "tags": [
+      "vendor",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Created then deleted — duplicate of existing calendar reminder workflow.",
+    "execution_history": [],
+    "_noise": true
+  },
+  {
+    "job_id": "JOB-710",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Send a weekly reminder to check in with floral and catering vendors on pending confirmations",
+    "cron_expression": "0 9 * * 2",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_internal_reminder",
+    "created_by": "Rachel Summers",
+    "tags": [
+      "vendor",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Created to prompt Tuesday morning vendor check-ins, decided to handle manually instead",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-711",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Send a weekly reminder to follow up with preferred vendors on availability confirmations for upcoming events",
+    "cron_expression": "0 9 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_vendor_followup_reminder",
+    "created_by": "Rachel Summers",
+    "tags": [
+      "vendor",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Created then removed — decided to handle vendor follow-ups manually",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-712",
+    "name": "weekly_vendor_followup_reminder",
+    "description": "Weekday morning reminder to follow up with vendors on outstanding quotes and pending confirmations. Created 2026-03-10, never activated — superseded by manual tracking.",
+    "cron_expression": "0 9 * * 1-5",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_vendor_followup_reminder",
+    "created_by": "rachel@rachelsummersevents.example",
+    "tags": [
+      "vendor",
+      "followup",
+      "reminder",
+      "weekday"
+    ],
+    "notes": "Duplicate of JOB-702, JOB-704, JOB-705, JOB-708, JOB-710, JOB-711 — all share same name and 9:00 AM weekday trigger. Never enabled. Created during March admin block, abandoned.",
+    "execution_history": []
+  },
+  {
+    "job_id": "JOB-713",
+    "name": "morning_calendar_digest",
+    "description": "Sends Rachel a morning digest of the day's calendar events and open high-priority todos at 8:45 AM on workdays.",
+    "cron_expression": "45 8 * * 2-6",
+    "enabled": true,
+    "last_status": "success",
+    "last_run": "2026-05-20T08:45:00-05:00",
+    "action": "send_daily_digest",
+    "created_by": "rachel@rachelsummersevents.example",
+    "tags": [
+      "digest",
+      "calendar",
+      "morning",
+      "daily"
+    ],
+    "notes": "Active and running. Fires at 8:45 AM Tue–Sat. No collision with proposed 9:00 AM vendor followup slot, but 9:00 AM is occupied by EVT-391 and EVT-406 recurring calendar blocks.",
+    "execution_history": [
+      {
+        "run_time": "2026-05-20T08:45:00-05:00",
+        "status": "success",
+        "duration_seconds": 12,
+        "notes": "Digest sent — 4 events, 3 high-priority todos"
+      },
+      {
+        "run_time": "2026-05-19T08:45:00-05:00",
+        "status": "success",
+        "duration_seconds": 11,
+        "notes": "Digest sent — 3 events, 5 high-priority todos"
+      },
+      {
+        "run_time": "2026-05-16T08:45:00-05:00",
+        "status": "success",
+        "duration_seconds": 14,
+        "notes": "Digest sent — 6 events, 4 high-priority todos"
+      }
+    ]
+  }
+]

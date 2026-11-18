@@ -1,0 +1,346 @@
+[
+  {
+    "note_id": "NOTE-101",
+    "title": "florist follow-up",
+    "created_at": "2026-02-26T17:15:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-102",
+    "title": "backup DJ contact for spring weddings",
+    "created_at": "2026-03-06T10:05:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-104",
+    "title": "florist backup options",
+    "created_at": "2026-03-12T12:15:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-105",
+    "title": "florist backup options",
+    "created_at": "2026-03-20T14:10:00+08:00",
+    "content": "Petal & Bloom - 555-0142, Bloom House - check website",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-108",
+    "title": "florist callback reminder",
+    "created_at": "2026-03-26T17:05:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-109",
+    "title": "Inbox Triage — 2026-04-11",
+    "created_at": "2026-04-11T10:30:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "## Inbox Triage — Saturday April 11, 2026\n\n### VERIDIAN RFP THREAD\n\n**MSG-5031 — Harvest Table Catering: Final Quote Received** [HIGH]\n- Quote: $16,084 total for 2-day catering (100 pax)\n- Valid 30 days; LOI required by April 30 to hold date\n- Previous model used $14,500 → overage of ~$1,584 vs. modeled line\n- ACTION: Pull into Veridian budget model (WB-6); re-run foyer-in vs. foyer-out scenarios with this actuals\n- Notion: Update NPAG-5 (RFP Working File) and NPAG-3 (Quote Tracker) with confirmed catering figure\n\n**MSG-5032 — ClearSignal AV: Revised Quote Received** [HIGH]\n- Quote: $7,200 (revised down from $7,800 — backup operator trimmed)\n- Valid through May 15\n- Previous model used $7,800 → saves $600 vs. model; partial offset on catering overage\n- ACTION: Update budget model with $7,200 AV figure; note net budget impact\n- Notion: Update NPAG-6 (Vendor Notes — ClearSignal AV) with confirmed rate\n\n**MSG-5036 — Priya Nair / Veridian: RFP Timeline Confirmed** [HIGH]\n- RFP proposal due to Marcus no later than May 18 (procurement deadline May 19)\n- No new scope changes\n- ACTION: Confirm EVT writing block aligns with May 18 delivery; check calendar\n- Unblocks: Foyer decision (NPAG-7) must resolve before writing block — still gate item\n\n---\n\n### KOWALSKI-REYES / FLORAL CONFLICT THREAD\n\n**MSG-5033 — Dana Kowalski: Urgent Client Flag** [URGENT]\n- Dana heard Sienna's voicemail and is now aware of a potential rate change\n- Believes original $3,200 quote is locked; no budget flexibility\n- Requesting same-day call\n- Dual-assurance conflict now surfaced with client — resolution CANNOT wait\n- ACTION: Call Dana today (Sat). Do not confirm or deny until Sienna path is clear. Prepare talking points.\n- Cross-ref: TODO-527 (floral conflict resolution), NPAG-9 (Rate Conflict Log)\n\n**MSG-5035 — Sienna Voss / Bloom & Branch: Decision Deadline April 14** [URGENT]\n- Sienna offers two paths: (a) substitutions to hold $3,200, or (b) original spec at $3,580\n- Decision required by April 14 to place stem orders\n- This is the operative vendor offer — need Dana's buy-in on substitutions to resolve dual-assurance\n- ACTION: Use substitution offer as resolution path. Present to Dana on call today. If Dana accepts subs, confirm to Sienna by EOD Monday April 13.\n- Notion: Update NPAG-9 with Sienna's offer terms and April 14 deadline\n\n---\n\n### NOISE / NO ACTION REQUIRED\n\n**MSG-5034 — Meridian Auto-Confirmation** — automated duplicate, already read, no action\n**MSG-5037 — Event Pro Insider Newsletter** — low priority, no action\n**MSG-5038 — Harvest Table Duplicate Email** — duplicate, already flagged by sender, discard\n\n---\n\n### TODO CROSS-REFERENCE\n\n- TODO-524 (Confirm three open vendor quotes): Harvest Table ✓ and ClearSignal AV ✓ now received. Venue foyer rate already confirmed (MSG per prior thread). All three quotes now in — TODO-524 can be marked complete.\n- TODO-527 (Floral conflict resolution): NOW URGENT — Dana's message surfaces the conflict. Deadline to act: April 14 (Sienna's stem order cutoff).\n- TODO-525 (Send revised Veridian budget model to Marcus): BLOCKED pending foyer-in/out decision + now catering actuals update. Re-run model first.\n\n---\n\n### NOTION PAGES TO UPDATE\n- NPAG-3 (2026 Corporate RFP Tracker): mark catering + AV quotes received\n- NPAG-5 (Veridian 2026 RFP Working File): update catering to $16,084, AV to $7,200\n- NPAG-6 (Vendor Notes — ClearSignal AV): log confirmed $7,200 rate\n- NPAG-9 (Bloom & Branch Rate Conflict Log): add Sienna's substitution offer + April 14 deadline",
+    "duration_minutes": 35
+  },
+  {
+    "note_id": "NOTE-110",
+    "title": "Kowalski-Reyes Floral Call Prep — April 11",
+    "created_at": "2026-04-11T11:15:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "## Dana Kowalski Call Prep — Floral Conflict Resolution\n\n**Situation summary:**\nSienna (Bloom & Branch) raised wholesale costs ~12% in late March. Rachel gave Dana an assurance of locked $3,200 pricing. Sienna left a voicemail that tipped Dana off. Dana is now alarmed and wants a same-day call.\n\n**Sienna's offer on the table:**\n- Option A: Hold $3,200 with two substitutions (lisianthus for garden roses in arch; reduce cocktail bud vases 14→9)\n- Option B: Original full spec at $3,580\n- Decision deadline: April 14 (stem order cutoff)\n\n**Goal for this call:**\nPresent Option A to Dana as the resolution path. Frame the substitutions as a design upgrade, not a downgrade. Do not volunteer the $3,580 figure unless Dana pushes.\n\n**Talking points:**\n1. Acknowledge Dana heard something concerning — validate the concern\n2. Explain wholesale market conditions briefly (don't over-explain)\n3. Present lisianthus as an intentional design choice (comparable texture/volume, locally sourced = fresher)\n4. Confirm bud vase count reduction is cosmetically minimal at cocktail hour\n5. Confirm total remains $3,200 if Dana accepts the subs\n6. Get verbal yes on call; follow up with written confirmation by Monday\n\n**Do NOT:**\n- Confirm the original spec at $3,200 (not available unless Rachel absorbs $380)\n- Mention the $3,580 figure preemptively\n- Promise anything about other affected weddings on this call\n\n**Next action if Dana accepts:** Email Sienna by EOD Monday April 13 to confirm sub path + place order.\n**Next action if Dana refuses subs:** Escalate — consider Rachel absorbing partial overage ($190 split) or renegotiating with Sienna directly.",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-111",
+    "title": "florist follow-up questions",
+    "created_at": "2026-04-02T09:08:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-112",
+    "title": "florist backup options",
+    "created_at": "2026-04-07T10:22:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-113",
+    "title": "venue deposit follow-up",
+    "created_at": "2026-04-10T13:15:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-116",
+    "title": "Pre-Season Priority Triage Brief — Week of April 17, 2026",
+    "created_at": "2026-04-17T10:00:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "# Pre-Season Priority Triage Brief\nGenerated: 2026-04-17 | For assistant reference — open each workday\n\n---\n\n## RANKED ACTION LIST\n\n### TIER 1 — GATE ITEMS (must resolve before downstream work can proceed)\n\n**#1 — Bloom & Branch Dual-Assurance Conflict (TODO-539)**\n- Due: April 20 (before April 21 client call)\n- Call with Sienna Voss scheduled TODAY April 17 at 11:00 AM (EVT-339)\n- Risk: incompatible written/verbal assurances to vendor AND client; contract dispute or vendor loss across 3 spring weddings\n- Action: Resolve on call — negotiate carve-out or clarify who absorbs delta. Then send Dana Kowalski written update same day (TODO-543).\n\n**#2 — Veridian Foyer In/Out Decision (TODO-540)**\n- Due: April 18 (before April 22 writing block)\n- Call with Marcus Chen scheduled April 18 at 10:00 AM (EVT-340)\n- Risk: $700 over $45K ceiling; RFP cannot be drafted until scope is locked\n- Action: Prepare two scenarios (foyer-in with offset cuts vs. foyer-out) before the call. Confirm decision in writing to Marcus post-call.\n\n---\n\n### TIER 2 — HIGH PRIORITY (deadline within 5 days, blocks other work)\n\n**#3 — Chase Harvest Table + ClearSignal Quotes (TODO-541)**\n- Due: April 21 (needed before April 22 writing block)\n- Follow-up block scheduled April 23 (EVT-343) — but if writing block holds April 22, quotes must be in hand by April 21\n- Action: Send follow-up emails TODAY; escalate to phone calls April 18 if no response.\n\n**#4 — Kowalski-Reyes First-Wedding Prep Checklist (TODO-544)**\n- Due: April 19 review\n- Wedding: May 9 (22 days out)\n- Action: Pull checklist, identify non-floral open items, assign assistant tasks before April 21 client call.\n\n---\n\n### TIER 3 — MEDIUM PRIORITY (this week, no immediate gate dependency)\n\n**#5 — Send Dana Kowalski Written Floral Update (TODO-543)**\n- Due: April 20\n- Blocked by: TODO-539 (Bloom & Branch call)\n- Action: Draft holding message now; send final version after Sienna Voss call resolves.\n\n**#6 — Draft Priority Brief Note for Assistant (TODO-542)**\n- Due: TODAY April 17\n- Action: This document IS the deliverable. Save to notes. ✓\n\n---\n\n## INBOX SIGNALS REQUIRING ACTION\n- MSG-5045 (Dana Kowalski, April 16): Asking for written rate protection confirmation → feeds TODO-543\n- MSG-5046 (Sienna Voss / Bloom & Branch, April 16): Demanding written assurance from Rachel before finalizing May order sheets → gate item for TODO-539\n- MSG-5047 (Marcus Chen, April 17): Confirms $45K is a hard cap; requests call before drafting → confirms TODO-540 urgency\n- MSG-5048 (EventPro Insider newsletter): No action required — noise\n\n---\n\n## TWO-WEEK CALENDAR GATE CHECK (April 17–30)\n| Date | Event | Gate Item? |\n|------|-------|------------|\n| Apr 17 11:00 | Sienna Voss call (EVT-339) | YES — Bloom & Branch conflict |\n| Apr 18 10:00 | Marcus Chen call (EVT-340) | YES — Veridian foyer decision |\n| Apr 21 14:00 | Kowalski-Reyes client call (EVT-341) | YES — needs floral resolution first |\n| Apr 22 09:00 | Veridian RFP Writing Block (EVT-342) | YES — needs foyer decision + all quotes |\n| Apr 23 09:00 | Vendor quote follow-up (EVT-343) | Supporting — Harvest Table + ClearSignal |\n\n---\n\n## ITEMS WITH NO MATCHING PREP TASK (gaps identified)\n- EVT-341 (April 21 client call): No task exists to prepare the Kowalski-Reyes full vendor status summary for the call — assistant should pull all open items by April 20 EOD.\n- EVT-342 (April 22 writing block): No task exists to pre-stage the RFP outline/template before the block — add 30-min prep slot April 21 PM.\n\n---\n\n## SUGGESTED DAILY HANDLING ORDER\n- **Today (Apr 17):** Sienna Voss call → resolve floral conflict → draft Dana holding email → chase Harvest Table + ClearSignal by email → save this brief\n- **Apr 18:** Marcus Chen call → lock foyer decision → send written scope confirmation → pull Kowalski-Reyes checklist\n- **Apr 19:** Review first-wedding checklist → assign assistant tasks → prep Kowalski-Reyes call agenda\n- **Apr 20:** Send Dana Kowalski written floral update → confirm all vendor quotes received\n- **Apr 21:** Kowalski-Reyes client call → pre-stage RFP outline for writing block\n- **Apr 22:** Veridian RFP Writing Block — DO NOT schedule calls this morning",
+    "duration_minutes": 90
+  },
+  {
+    "note_id": "NOTE-117",
+    "title": "Inbox Triage — 2026-04-17",
+    "created_at": "2026-04-17T09:45:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "## Inbox Triage — April 17, 2026\n\n### Unread messages reviewed this session\n\n**MSG-5045 — Dana Kowalski (April 16)**\nSubject: Floral pricing confirmation request\nSignal: Client is anxious and wants written rate protection. She references a verbal assurance Rachel gave. This is the client side of the dual-assurance conflict. Cannot respond with confirmation until Sienna Voss call resolves. → Draft holding reply; do not confirm or deny in writing yet.\nAction: TODO-543 created. Feeds into EVT-341 prep.\n\n**MSG-5046 — Sienna Voss / Bloom & Branch (April 16)**\nSubject: Rate adjustment — affected bookings\nSignal: Vendor is also pushing for written assurance that Rachel Summers Events will cover any client-contract delta. This is the vendor side of the same conflict. Both parties have been told incompatible things. Sienna has Thursday afternoon open for a call — EVT-339 already scheduled for TODAY at 11 AM, which is better.\nAction: Confirm EVT-339 is on. Prepare resolution options before the call.\n\n**MSG-5047 — Marcus Chen (April 17)**\nSubject: Veridian foyer scope / RFP alignment\nSignal: Marcus confirms $45K is a hard finance cap, not a soft target. He wants a call before drafting. EVT-340 already scheduled April 18 at 10 AM. This validates that the foyer decision is a true gate item.\nAction: Prepare foyer-in vs. foyer-out scenario summary before April 18 call.\n\n**MSG-5048 — EventPro Insider newsletter (April 15)**\nSubject: Weekly digest\nSignal: None actionable. Floral pricing trend article is contextually relevant but adds no new information beyond what Bloom & Branch already communicated directly.\nAction: Archive. No task created.\n\n### Summary\n3 of 4 unread messages are actionable and directly feed existing high-priority workstreams. No new workstreams opened. Priority brief (NOTE-116) updated to reflect inbox signals.",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-118",
+    "title": "Kowalski-Reyes — Two-Week Run-of-Show Review (2026-04-30)",
+    "created_at": "2026-04-30T11:45:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "## Run-of-Show Review — Kowalski-Reyes Wedding (May 9, 2026)\n\n**Review date:** April 30, 2026\n**Wedding date:** Saturday, May 9, 2026\n**Venue:** Grandview Venue\n\n### Scheduling Conflict Flagged\nDuring the two-week run-of-show pass, a coverage gap was identified:\n- **10:00 AM – 12:30 PM:** Rachel must be at the bridal suite for getting-ready coordination and vendor check-in (florist, hair/makeup, photographer)\n- **10:30 AM – 12:00 PM:** Ceremony setup walkthrough with venue coordinator requires a second person to manage vendor arrivals at the loading dock simultaneously\n- **Gap:** Rachel cannot be in two places at once during the 10:00–12:30 AM window. A secondary coordinator is needed for vendor check-in and loading dock management.\n\n### Coverage Need\n- **Date:** Saturday, May 9, 2026\n- **Hours:** 10:00 AM – 9:00 PM (full day, ceremony + reception)\n- **Role:** Secondary day-of coordinator — vendor arrivals, timeline management, bridal party logistics, reception flow support\n\n### Options to Evaluate\n1. **Hire freelance day-of coordinator** — paid, professional commitment, no relationship risk\n2. **Ask colleague from network** — free or low-cost, but requires checking relationship history and availability first\n\n### Action\n- Check colleague availability first (Lena Vasquez — warm relationship, has helped before)\n- If unavailable, reach out to known freelance coordinators (Tara Bloom flagged as strong option — Grandview reference)\n- Decision needed by May 2 to allow run-of-show alignment call before the wedding",
+    "duration_minutes": 90
+  },
+  {
+    "note_id": "NOTE-119",
+    "title": "Day-of Coverage Decision Log — Kowalski-Reyes (2026-05-01)",
+    "created_at": "2026-05-01T16:00:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "## Day-of Coverage Decision — Kowalski-Reyes Wedding\n\n**Decision date:** May 1, 2026\n**Coverage gap:** May 9, 10:00 AM – 9:00 PM (secondary coordinator role)\n\n### Option 1: Hire Freelance Coordinator (Tara Bloom)\n- **Rate:** $650 flat / 10 hours; OT $65/hr\n- **Availability:** Confirmed open May 9\n- **Reliability signals:** Worked Grandview Venue twice; Marcus Bell reference; recommended by Lena Vasquez\n- **Relationship cost:** None — new vendor relationship, no capital at risk\n- **Risk:** Low. Professional commitment, standard freelance agreement available.\n\n### Option 2: Ask Colleague (Lena Vasquez)\n- **Relationship history:** Warm, mutual-help exchanges over past two seasons; last contact ~3 weeks ago (April 10 email re: vendor referral)\n- **Availability:** UNAVAILABLE — Harrington-Park wedding at Lakeview on May 9\n- **Outcome:** Not viable\n\n### Decision: HIRE TARA BLOOM\n**Rationale:**\n- Colleague option checked first per relationship-capital protocol — Lena was the right ask given warm history, but she's booked.\n- Tara Bloom has strong reliability signals (Grandview reference, Lena endorsement) and confirmed availability.\n- $650 is within acceptable day-of staffing budget for a wedding of this size.\n- No relationship capital risk — this is a straightforward vendor booking.\n\n### Next Steps\n- Send booking confirmation email to Tara Bloom (include run-of-show, venue address, May 2 alignment call)\n- Create calendar hold for Tara on May 9\n- Update Kowalski-Reyes Notion event record\n- Mark TODO-545 complete",
+    "duration_minutes": 30
+  },
+  {
+    "note_id": "NOTE-123",
+    "title": "florist follow-up",
+    "created_at": "2026-03-05T16:45:00-05:00",
+    "participants": [],
+    "content": "Need to follow up with Sienna re: whether the new rate applies to existing contracts or only new bookings. Also — should I be looking at Blossom Floral as a backup? Claire Fontaine did good work on the Harmon wedding last fall. Check her availability for May–Aug window.",
+    "duration_minutes": 0
+  },
+  {
+    "note_id": "NOTE-124",
+    "title": "florist backup options",
+    "created_at": "2026-03-07T10:30:00-05:00",
+    "participants": [],
+    "content": "Backup florist candidates:\n1. Blossom Floral Studio — Claire Fontaine. Did Harmon wedding Oct 2025. Good quality, similar aesthetic. Need to check spring availability.\n2. Petal & Stem Co. — haven't worked with them. Seen at bridal expo. Would need a trial.\n3. Hold with Bloom & Branch and negotiate — risky given dual-assurance situation.\n\nDraft email to Claire sitting in drafts. Haven't sent. Hesitating because if Sienna finds out I'm shopping alternatives mid-season it could damage the relationship across all three weddings.",
+    "duration_minutes": 0
+  },
+  {
+    "note_id": "NOTE-125",
+    "title": "florist callback reminder",
+    "created_at": "2026-03-10T17:55:00-05:00",
+    "participants": [],
+    "content": "Reminder to self: still haven't called Sienna back after her voicemail on March 4. Also haven't sent the Blossom Floral draft. Two cancelled tasks on this. Need to make a decision — either commit to Bloom & Branch at new rate (and figure out how to tell Dana) or send the backup inquiry and accept the relationship risk. Can't keep deferring.",
+    "duration_minutes": 0
+  },
+  {
+    "note_id": "NOTE-126",
+    "title": "Abandoned Outreach Audit — March 11 Self-Scan",
+    "created_at": "2026-03-11T09:45:00-05:00",
+    "participants": [],
+    "content": "Quick self-audit of things I started but didn't finish this week:\n\n1. Blossom Floral draft (MSG-5058) — written March 6, never sent. Two cancelled tasks. Three florist notes with no resolution. STALLED.\n2. ClearSignal AV follow-up (MSG-5059) — draft written March 7, never sent. Follow-up call on calendar March 9 — didn't happen. TODO-561 cancelled. Quote still missing. Veridian RFP blocked.\n3. Grandview venue inquiry (MSG-5060) — draft written March 9, status unclear. No Notion update, no reply. Low priority but needs to be closed.\n4. JOB-701 through JOB-705 — all still disabled. Set up the scheduler jobs weeks ago and never turned them on. Vendor follow-up reminders sitting idle.\n\nPattern: I keep starting outreach and then stopping. Florist situation is the worst — three notes, two cancelled tasks, one unsent draft. Need to make the call today.",
+    "duration_minutes": 15
+  },
+  {
+    "note_id": "NOTE-128",
+    "title": "End-of-Day Triage Decision Log — 2026-03-20",
+    "created_at": "2026-03-20T17:15:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "## Triage Log — Tuesday March 20, 2026\n\n### Energy State Assessment\n- Work started: 09:00 (inbox triage + weekly to-do review, EVT-372)\n- Current time: ~17:15\n- Elapsed work hours: ~8.25 hrs\n- Completed calendar blocks today: 3 (EVT-372 admin block 09:00–10:00; EVT-371 ClearSignal vendor check-in 10:30–11:00; EVT-370 client call Priya Nair 14:00–14:45)\n- Back-to-back sequences: EVT-371 and EVT-370 were separated by only 3 hrs but both were calls — moderate fatigue signal\n- Assessment: Late-day, 8+ hours in, two calls completed. High-cognitive work (budget modeling, dual-assurance resolution) is not appropriate for this window. Low-cognitive confirmations and delegation tasks are appropriate.\n\n### Triage Decisions\n\n**DO NOW (low-cognitive, hard deadline today)**\n- TODO-567: Send holding reply to Dana Kowalski. She emailed this morning asking for EOW floral confirmation. Cannot confirm rate yet (conflict unresolved) but must acknowledge today to prevent escalation. Estimated 10 min. Templated holding language — no deep thinking required.\n\n**SIMPLIFY / HOLDING PATH (high-cognitive, soft external deadline)**\n- Bloom & Branch (Sienna Voss) expects EOW confirmation. Rather than attempting full resolution tonight, the holding path is: defer resolution to tomorrow morning focus block, and ensure Dana gets a non-committal acknowledgment today (covered by TODO-567). Sienna's email (MSG-5065) does not require a same-day reply — her EOW window is Friday.\n\n**DEFER TO TOMORROW FOCUS BLOCKS (high-cognitive, no hard deadline today)**\n- TODO-568: Bloom & Branch dual-assurance resolution → EVT-368, 09:00–10:30 tomorrow\n- TODO-569: Veridian RFP budget remodel (foyer-IN trim) → EVT-369, 11:00–12:30 tomorrow\n- Rationale: Both require sustained analytical focus. Tomorrow is Wednesday — no client calls currently scheduled before noon. Focus blocks pre-blocked on calendar. Deferral does not create a pile-up before any hard deadline this week.\n\n**DELEGATE TO LENA (delegatable regardless of load)**\n- TODO-570: Vendor quote follow-up nudges (Harvest Table + ClearSignal) → handoff via MSG-5063\n- TODO-571: Kowalski-Reyes Notion floral conflict note → handoff via MSG-5063\n- Rationale: Both are routine, templated, no judgment calls required. Lena can execute by 10:00 AM tomorrow.\n\n### Risks Flagged\n- Florist backup vendor decision (TODO-572) remains unresolved and is a compounding risk if Bloom & Branch conflict escalates. Scheduled for next available focus window after dual-assurance resolution — no later than end of next week.\n- Veridian foyer-in/out decision must be locked before RFP writing block. Budget remodel tomorrow (TODO-569) is the gate item.\n\n### Tomorrow's Focus Window Confirmation\n- 09:00–10:30: Open ✓ (EVT-368 blocked)\n- 11:00–12:30: Open ✓ (EVT-369 blocked)\n- No client calls before noon on 3/21 — deferral is safe.",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-129",
+    "title": "Lena Handoff Brief — Week of March 21",
+    "created_at": "2026-03-20T17:30:00-05:00",
+    "participants": [
+      "Rachel Summers",
+      "Lena Vasquez"
+    ],
+    "content": "## Assistant Handoff — Tasks for Lena, Morning of March 21\n\nHi Lena — three items from today's triage. Please complete all three by 10:00 AM and send me a quick confirmation text when done.\n\n---\n\n### Task 1: Harvest Table Catering — Quote Follow-Up Email\n**To:** quotes@harvesttablecatering.example\n**Subject:** Veridian 2026 Catering Quote — Follow-Up\n**Body (draft):**\nHi there,\nI'm following up on our catering inquiry from early March for the Veridian Technologies Leadership Summit (approx. 100 guests, Sept 18–19, 2026 at the Meridian Conference Center). We haven't yet received a quote and wanted to check in on timing. Could you confirm receipt of our original request and let us know when we can expect the quote? The 100-guest headcount is still accurate.\nThank you,\nLena Vasquez\nOn behalf of Rachel Summers Events\n\n---\n\n### Task 2: ClearSignal AV — Quote Confirmation Email\n**To:** av@clearsignal.example\n**CC:** rachel@rachelsummersevents.example\n**Subject:** Veridian 2026 AV Quote — Confirming Receipt of Request\n**Body (draft):**\nHi,\nJust checking in to confirm you received our AV quote request for the Veridian Technologies Leadership Summit (Sept 18–19, 2026, Meridian Conference Center). Could you confirm receipt and provide an ETA for the quote? We're working toward a proposal deadline and want to make sure we have your numbers in time.\nThank you,\nLena Vasquez\nOn behalf of Rachel Summers Events\n\n---\n\n### Task 3: Notion Update — Kowalski-Reyes Wedding Record\n**Page:** Kowalski-Reyes Wedding — Event Record\n**Section:** Floral\n**Add this note:**\n'Bloom & Branch rate conflict under review as of 2026-03-20. Rachel to resolve dual-assurance issue before final floral confirmation. No changes to floral order until further notice.'\nDo not change any other fields.\n\n---\n\nThat's it for now. I'll handle the Bloom & Branch resolution and Veridian budget work myself tomorrow morning. Thanks!",
+    "duration_minutes": 15
+  },
+  {
+    "note_id": "NOTE-130",
+    "title": "Veridian Scope Call — Manual Notes 2026-02-20",
+    "created_at": "2026-02-20T10:05:00-05:00",
+    "participants": [
+      "Marcus Chen",
+      "Priya Nair",
+      "Rachel Summers"
+    ],
+    "content": "Veridian scope call — Feb 20, 10am\n\nAttendees: Marcus Chen, Priya Nair, me\n\nScope confirmed:\n- Sept 18–19 at Meridian\n- ~100 attendees\n- 3 breakout rooms (Priya said might go to 4 — TBD)\n- Foyer: Marcus wants it if budget works\n\nAction items (my notes):\n1. Priya to confirm headcount + breakout count → by Feb 25\n2. ME — follow up ClearSignal AV for final quote → send to Marcus/Priya by Feb 26\n   [NOTE: I wrote 'Priya to chase AV vendor' here but I think Marcus said it was on me — need to check recording]\n3. Marcus — internal sign-off on $45K or escalate to CFO → by Mar 4\n4. Priya — send brand deck + logo assets → by Feb 24\n\nBudget narrative: Marcus asked for a revised version. Didn't write down a deadline — thought it was 'end of next week' but not sure. CHECK RECORDING.\n\nGeneral: Marcus reiterated $45K ceiling is firm. Priya seemed flexible on breakout count. Good call overall.",
+    "duration_minutes": 50
+  },
+  {
+    "note_id": "NOTE-131",
+    "title": "Quick ref — Veridian action item discrepancy flag",
+    "created_at": "2026-02-20T11:30:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "Flagged after reviewing MTG-7001 auto-summary vs. my handwritten notes:\n\nDISCREPANCY 1 — Budget narrative deadline:\n  My notes: no deadline written, thought 'end of next week'\n  Recording summary: firm commitment to deliver by 2026-02-27\n  → RECORDING IS AUTHORITATIVE. Deadline = Feb 27.\n\nDISCREPANCY 2 — AV vendor follow-up owner:\n  My notes: initially wrote 'Priya to chase AV vendor', then second-guessed myself\n  Recording summary: Rachel owns AV follow-up, written confirmation to Marcus + Priya by Feb 26\n  → RECORDING IS AUTHORITATIVE. This is on me, due Feb 26.\n\nAll other items match between sources.\n\nFINAL RECONCILED ACTION ITEMS:\n1. Rachel — Revised budget narrative (foyer-in, line-item justifications) → to Marcus Chen → DUE Feb 27\n2. Rachel — ClearSignal AV final quote confirmation → written confirmation to Marcus + Priya → DUE Feb 26\n3. Priya Nair — Headcount + breakout session count → to Rachel → DUE Feb 25\n4. Marcus Chen — Internal $45K ceiling sign-off or CFO escalation → DUE Mar 4\n5. Priya Nair — Brand deck + logo/color assets → to Rachel → DUE Feb 24\n\nNext steps: send Priya and Marcus their items by email; add my items to todo; create calendar reminders for all five.",
+    "duration_minutes": 15
+  },
+  {
+    "note_id": "NOTE-132",
+    "title": "Crunch Day Execution Plan — 2026-04-22 (Agent-Generated)",
+    "created_at": "2026-04-22T09:15:00-05:00",
+    "participants": [
+      "rachel@rachelsummersevents.example",
+      "lena.vasquez.events@gmail.example"
+    ],
+    "content": "## Cognitive Load Assessment — 2026-04-22\n\n**Signals assessed at 09:15:**\n- Calendar density: 4 events before 14:00, including 3 high-stakes calls (Dana Kowalski, Sienna Voss/Bloom & Branch, Kowalski-Reyes venue prep)\n- Elapsed focused hours: 0 (day just starting — peak window intact)\n- Unresolved high-stakes threads: 4\n  1. Bloom & Branch dual-assurance conflict (hard deadline Apr 24)\n  2. Veridian RFP draft (hard deadline Apr 25, internal client review May 1)\n  3. Dana Kowalski day-of-change escalation (client waiting since 08:47)\n  4. Veridian foyer in/out decision (gate item for RFP writing)\n- New unread signals: MSG-5071 (Dana escalation), MSG-5072 (Sienna Voss amendment deadline), MSG-5074 (Lena available)\n\n---\n\n## Task Classification\n\n| Task | Deadline Hardness | Cognitive Load | Deferral Safety | Delegation Feasibility |\n|---|---|---|---|---|\n| Veridian RFP Writing Block | Hard (Apr 25) | High | Not today | No — Rachel only |\n| Bloom & Branch conflict call (Sienna) | Hard (Apr 24) | High | Not today | No — Rachel only |\n| Dana Kowalski call | Hard (today — client waiting) | High | Low | Partial (Lena can triage/hold) |\n| Marcus Chen reply (foyer/RFP timing) | Soft (Apr 25 draft) | Medium | Yes — today PM | Yes (Lena holding reply) |\n| Vendor confirmation emails (Harvest Table, ClearSignal) | Soft | Low | Yes | Yes — Lena |\n| Notion log updates | Soft | Low | Yes | Yes — Lena |\n| Florist backup vendor research | Soft (no hard date) | High | Yes — Apr 23 | No — Rachel only |\n| Kowalski-Reyes venue prep call | Soft (scheduled) | Medium | Low | No |\n\n---\n\n## Reordered Execution Plan\n\n### PEAK WINDOW — 09:30–11:45 (Front-load high-cognitive + hard-deadline)\n\n**09:30–10:00 — Veridian RFP Writing Block (start)**\n- Rationale: Hard deadline Apr 25, highest cognitive load, peak energy intact. Even 30 min of outline progress before calls begin preserves momentum. Do NOT skip this block to answer emails.\n- Risk: EVT-380 (Dana call) was originally at 10:00 — CONFLICT. Resolution: Lena sends holding reply to Dana now, call pushed to 10:30.\n\n**10:30–11:00 — Call: Dana Kowalski (EVT-380, rescheduled)**\n- Rationale: Hard deadline (client escalation, rate lock demand, day-of-change request). Must happen today. Cognitive load: high but bounded — clear agenda (rate lock + arch add-on quote).\n- Risk flag: Back-to-back with Sienna Voss call at 11:00. Insert 10-min buffer. Do not let Dana call run over.\n- Prep: Confirm Bloom & Branch rate status before calling Dana — do NOT make new assurances until Sienna call is complete. If Dana presses for rate lock confirmation, say: 'I'm finalizing the amendment with Bloom & Branch this morning and will send written confirmation by noon.'\n\n**11:00–11:45 — Call: Sienna Voss / Bloom & Branch (EVT-381)**\n- Rationale: Hard deadline Apr 24 for signed amendment. Three-wedding exposure. Dual-assurance conflict must be resolved here. Cognitive load: very high.\n- Risk flag: This call follows Dana Kowalski call with minimal buffer. If Dana call runs long or is emotionally draining, cognitive load mismatch risk is HIGH. Mitigation: keep Dana call to 25 min max; have Sienna call agenda written before 10:30.\n- Outcome needed: (1) Carve-out or amendment for Kowalski-Reyes at original rate OR documented new rate with client notification plan; (2) Same for Hartley and Pemberton; (3) Written confirmation to send Dana by noon.\n\n---\n\n### MID-DAY BRIDGE — 12:00–13:00\n\n**12:00–12:30 — Debrief + written confirmation to Dana Kowalski**\n- Rationale: Low cognitive (templated email), hard deadline (promised by noon). Lena can draft, Rachel approves and sends.\n\n**13:00–13:30 — Kowalski-Reyes venue walk-through prep call (EVT-384)**\n- Rationale: Already scheduled, medium cognitive, structured agenda. Proceed as planned.\n\n---\n\n### AFTERNOON BATCH — 14:00–15:30 (Low-cognitive admin)\n\n**14:00–15:30 — Admin Batch (EVT-382)**\n- Vendor confirmation emails: Harvest Table, ClearSignal → DELEGATE to Lena\n- Notion updates: floral conflict log, foyer status → DELEGATE to Lena\n- Draft reply to Marcus Chen (MSG-5073): holding acknowledgment, confirm Apr 25 draft target, note foyer decision pending → Lena drafts, Rachel approves\n- Review Lena's drafts and send\n\n---\n\n### DEFERRED — Tomorrow Morning Peak Block (Apr 23)\n\n**Florist backup vendor research (EVT-383 created, Apr 23 09:00–10:30)**\n- Rationale: No hard deadline today. High cognitive load — requires focused research, not fatigued afternoon work. Repeated abandonment pattern noted in prior notes; protected morning hold is the only way this gets done. Absorption room confirmed on Apr 23 calendar.\n\n---\n\n## Delegation Handoff to Lena Vasquez\n\nLena confirmed available from 1pm (MSG-5074). Handoff tasks (TODO-580):\n1. Holding reply to Dana Kowalski — send immediately\n2. Vendor confirmation emails — Harvest Table + ClearSignal\n3. Notion log updates — post Rachel debrief\n4. Draft Marcus Chen reply for Rachel review\n\n---\n\n## Risk Flags\n\n- **CRITICAL**: Dana Kowalski call and Sienna Voss call back-to-back before noon. If either runs long or escalates emotionally, cognitive load for the second call will be severely degraded. Buffer is essential.\n- **HIGH**: Making any new rate assurance to Dana before Sienna call is resolved would recreate the dual-assurance problem. Script Dana call carefully.\n- **MEDIUM**: Veridian RFP writing block is fragmented by morning calls. 30-min start at 09:30 is better than nothing; full block must be protected on Apr 23 or Apr 24.\n- **LOW**: Florist backup research has been deferred multiple times. Apr 23 hold must not be moved.",
+    "duration_minutes": 0
+  },
+  {
+    "note_id": "NOTE-133",
+    "title": "Lena Vasquez — Delegation Handoff Note (Apr 22 Crunch Day)",
+    "created_at": "2026-04-22T09:22:00-05:00",
+    "participants": [
+      "rachel@rachelsummersevents.example",
+      "lena.vasquez.events@gmail.example"
+    ],
+    "content": "Hi Lena — thanks for flagging your availability. Here's what I need from you today:\n\n**IMMEDIATE (before 10:00am):**\n1. Send a holding reply to Dana Kowalski (dana.kowalski@gmail.example) — subject 'Re: Kowalski-Reyes — Floral Update Needed ASAP'. Text: 'Hi Dana, Rachel received your message and will call you at 10:30am this morning to discuss the floral arch and rate confirmation. She's looking forward to connecting. — Lena, on behalf of Rachel Summers Events'\n\n**AFTERNOON (after 1pm):**\n2. Send vendor quote follow-up to Harvest Table Catering (quotes@harvesttablecatering.example): 'Hi, following up on our catering quote request for the Veridian 2026 Leadership Summit (100 guests). Could you confirm the quote is still on track? We're finalizing the RFP this week. Thanks — Lena, Rachel Summers Events'\n3. Send vendor quote follow-up to ClearSignal AV (av@clearsignal.example): same format, re: AV quote for Veridian 2026.\n4. After I debrief you on the Bloom & Branch call outcome, update the Kowalski-Reyes floral conflict log in Notion.\n5. Draft a reply to Marcus Chen (marcus.chen@veridiantech.example) re: MSG-5073 — confirm Apr 25 draft target, note foyer decision is being finalized. I'll review and send.\n\nI'll call you after the Sienna Voss call (~noon) to debrief. Thank you!",
+    "duration_minutes": 0
+  },
+  {
+    "note_id": "NOTE-134",
+    "title": "EventPro Insider Digest — April 2026 (Issues #112–#114)",
+    "created_at": "2026-04-22T10:30:00-05:00",
+    "participants": [],
+    "content": "# EventPro Insider — Consolidated Reading Digest\nSaved: 2026-04-22 | Source: Issues #112, #113, #114 (MSG-5075, MSG-5076, MSG-5077)\nFor review during next buffer block (Monday admin time).\n\n---\n\n## ⚠️ FLAGGED: Directly Intersects Active Issues\n\n### 1. Florist Rate Surge + Backup Vendor Gap (→ Bloom & Branch / Kowalski-Reyes)\n**Source: Issues #112, #113, #114**\n- Spring 2026 wholesale flower prices running 12–20% above 2025 levels; import disruptions + late frost cited.\n- Florists pushing mid-contract rate adjustments — planners with no escalation clause have grounds to hold original rate, but expect pushback.\n- **Critical warning (Issue #113):** Do NOT make dual assurances — telling vendor one thing and client another creates contract exposure. Resolve vendor side first, then go to client with options.\n- Substitution (domestic stems for imported) is fastest resolution for fixed-budget clients.\n- Backup florist availability tightening for spring 2026 — Issue #114 says: 'if you haven't confirmed a backup, do it this week.'\n- Issue #113 backup vendor framework: do a soft intro call, keep a one-page vendor profile, confirm availability + rough pricing. Primary vendor negotiates differently when they know you have a backup.\n\n**→ Action relevance:** Bloom & Branch dual-assurance conflict with Sienna Voss + Dana Kowalski needs resolution before Kowalski-Reyes wedding. Backup florist decision is overdue — spring availability window is closing.\n\n---\n\n### 2. Veridian RFP — Budget Ceiling Conversation + Confirmed Quote Requirement\n**Source: Issues #112, #113, #114**\n- Issue #114: If more than 5% over client ceiling, have the conversation BEFORE submitting — don't submit an over-budget proposal without flagging it.\n- Frame overage around value: reference what the add-on delivers (e.g., networking time, satisfaction scores), not just the cost delta.\n- Give client a clear binary: in or out, with dollar impact of each. Don't leave them guessing.\n- Issue #112: Lock all vendor quotes before writing the proposal — unconfirmed line items are #1 source of post-award budget disputes.\n- Issue #113: Returning clients — include a 'since last time' section; reference prior event outcomes to anchor the new proposal.\n- Tiered budget table (Base / Recommended / Premium) signals trade-off awareness even if client only wants one number.\n\n**→ Action relevance:** Veridian RFP is currently ~$700 over $45K ceiling (foyer-in scenario). Foyer in/out decision must be resolved before RFP writing block. Marcus Chen notification pending. Issue #114 framework directly applies.\n\n---\n\n### 3. Client Scope Creep — 4-Week Danger Zone\n**Source: Issues #112, #114**\n- 67% of day-of scope change requests arrive in the 3–5 week window pre-event.\n- Scope freeze clause (T-30 days) is standard best practice — changes after require written approval + possible change-order fee.\n- Issue #114 case study: document requests in writing within 2 hours; send formal change-order within 24 hours; hold a call to explain (not negotiate); most clients withdraw unreasonable requests once they see real cost + timeline impact.\n- Distinguish cosmetic changes (low risk) from structural changes (vendor subs, layout shifts, guest count ±10%) — latter need formal change order.\n- Brief vendors on scope freeze date so they don't accept client-direct change requests without planner sign-off.\n\n**→ Action relevance:** Active client demanding day-of changes 4 weeks pre-event. Issue #114 case study is a direct playbook for this situation.\n\n---\n\n## General Industry Takeaways (Lower Urgency)\n\n### Vendor Contract Best Practices\n- Get written rate locks at contract signing — verbal holds not holding in 2026.\n- Build 10–15% floral contingency line into all spring/summer budgets.\n- If florist raises rates, request itemized breakdown first — increases often concentrated in specific SKUs, not across the board.\n\n### RFP Proposal Structure\n- Lead with client-ceiling-anchored scenario, then offer upgrade path.\n- Show your math — clients trust planners who surface the $250 difference between two formats.\n- Executive summary: event objective, proposed format, total investment, one differentiating value statement.\n\n### Backup Vendor Roster\n- One backup per critical vendor category (florist, caterer, AV) per season.\n- Soft intro call is enough — not a full RFP.\n- Keep a one-page vendor profile: contact, lead time, minimum order, style notes.\n\n---\n\n## Low-Signal (Skipped)\n- MSG-5078: Weekly member digest — webinars, deals, industry calendar. No actionable content for current active issues. Archived.\n\n---\n\n*Next step: Review flagged items during Monday buffer block. Bloom & Branch backup decision is most time-sensitive given spring availability window.*",
+    "duration_minutes": 0
+  },
+  {
+    "note_id": "NOTE-135",
+    "title": "Inbox Triage — 2026-04-22",
+    "created_at": "2026-04-22T10:00:00-05:00",
+    "participants": [],
+    "content": "# Inbox Triage — April 22, 2026\n\n## Newsletter / Low-Priority (Filtered)\n- MSG-5075: EventPro Insider Issue #112 — newsletter, extracted to digest NOTE-134\n- MSG-5076: EventPro Insider Issue #113 — newsletter, extracted to digest NOTE-134\n- MSG-5077: EventPro Insider Issue #114 — newsletter, extracted to digest NOTE-134\n- MSG-5078: EventPro Insider Weekly Member Digest — low signal, noted in digest, no action needed\n\n## Actionable Client/Vendor Messages (Not Touched)\n- All active client and vendor threads left in inbox — no reclassification applied.\n\n## Output\n- Consolidated digest saved to NOTE-134: EventPro Insider Digest — April 2026 (Issues #112–#114)\n- Three active-issue flags surfaced: Bloom & Branch conflict, Veridian RFP budget ceiling, scope creep client\n- Review scheduled for next Monday buffer block",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-136",
+    "title": "Pending Action Digest — April 22 Working Block Orientation",
+    "created_at": "2026-04-22T09:00:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "Quick-scan digest of top pending items as of April 22, 2026. Pulled from full task list and filtered to actionable pending/in-progress items.\n\n--- TOP PRIORITY ITEMS ---\n\n1. [URGENT] Bloom & Branch dual-assurance conflict (TODO-583) — Due Apr 25\n   Incompatible assurances given to Sienna Voss and Dana Kowalski. Must call both parties and align on a single resolution before Kowalski-Reyes wedding. Affects three active weddings. No calendar block yet — schedule immediately.\n\n2. [URGENT] Florist backup decision (TODO-584) — Due Apr 24 — OVERDUE RISK\n   Claire Fontaine (Blossom Floral Studio) responded Apr 17 with availability and pricing. Research has been circling for weeks without a decision. Must soft-confirm contingency vendor before Bloom & Branch conflict is resolved. EVT-386 block scheduled today (Apr 22, 2–4pm).\n\n3. [URGENT] Veridian foyer in/out decision + Marcus Chen notification (TODO-585) — Due Apr 23\n   Marcus Chen emailed this morning (MSG-5082) confirming $45K ceiling is firm. Foyer at $1,650 pushes budget ~$700 over even after full trim. Decision gate before RFP writing block. EVT-387 call scheduled tomorrow 9am.\n\n4. [HIGH] Chase three pending vendor quotes — Veridian RFP (TODO-586) — Due Apr 23\n   Catering (Harvest Table), AV (ClearSignal), foyer (Meridian) — foyer now confirmed at $1,650. Catering and AV still pending. Must lock before writing block (EVT-389, Apr 28).\n\n5. [HIGH] Kowalski day-of change requests — respond to Dana (TODO-587) — Due Apr 26\n   Dana emailed Apr 20 (MSG-5079) with three floral scope changes. Any changes touching florals must be handled carefully given active Bloom & Branch conflict. EVT-388 review block Apr 24.\n\n6. [HIGH] Day-of staffing — Kowalski-Reyes May 9 (TODO-588) — Due Apr 28\n   Lena Vasquez unavailable (MSG-5083, replied Apr 21). Tara Bloom is next candidate. EVT-390 calls scheduled Apr 25.\n\n7. [HIGH] Veridian RFP draft to Marcus Chen (TODO-589) — Due May 1\n   Writing block EVT-389 scheduled Apr 28. Blocked by items 3 and 4 above.\n\n8. [MEDIUM] Floral rate impact analysis update — three affected weddings (TODO-590) — Due Apr 29\n   WB-5 needs updated Bloom & Branch rates. Dependent on conflict resolution outcome (item 1).",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-137",
+    "title": "Florist Backup — Blossom Floral Studio Research Summary",
+    "created_at": "2026-04-22T14:15:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "Research summary compiled during EVT-386 florist backup block.\n\nPrimary candidate: Blossom Floral Studio (Claire Fontaine)\n- Email: claire.fontaine@blossomfloralstudio.example\n- Responded Apr 17 (MSG-5081) — has May and June availability\n- Base package $4,200 for 150–180 guest wedding (ceremony + reception)\n- Pricing roughly comparable to pre-increase Bloom & Branch rates\n- Tone: professional, low-pressure, aware of B&B relationship\n- Next step: send event brief for formal quote; do NOT commit until B&B conflict resolution path is clear\n\nSecondary candidates (not yet contacted):\n- Wildflower & Co. — seen at industry mixer Feb 2026, no direct contact yet\n- Petal & Stem Studio — worked with them 2023, relationship warm but capacity unknown for spring\n\nDecision: Soft-confirm Blossom Floral Studio as contingency. Send event brief for Kowalski-Reyes scope by Apr 24. Do not disclose to Dana Kowalski or Sienna Voss until B&B conflict is resolved.\n\nRisk note: If B&B relationship cannot be preserved, Blossom Floral Studio needs 3–4 weeks lead time minimum. May 9 wedding is 17 days out — this is tight. Hartley and Osei-Mensah weddings have more runway.",
+    "duration_minutes": 45
+  },
+  {
+    "note_id": "NOTE-138",
+    "title": "Parallel Vendor Outreach — Phased Execution Log (2026-04-22)",
+    "created_at": "2026-04-22T12:30:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "## Execution Summary — 2026-04-22 Morning Block\n\nFour sub-tasks queued for batch execution before afternoon RFP writing block. Pre-execution conflict analysis identified a logical dependency between sub-tasks (2) and (3) that required serialization. Full phased plan documented below.\n\n---\n\n## Conflict Analysis\n\n**Sub-task (1):** Florist backup inquiry to Blossom Floral Studio\n- Writes: new outbound Gmail thread (MSG-5084)\n- Reads: CON (Claire Fontaine contact), OBSN-6 (florist alternatives note)\n- Dependencies: none shared with other sub-tasks\n\n**Sub-task (2):** Rate-conflict resolution email to Sienna Voss at Bloom & Branch\n- Writes: new outbound Gmail thread (MSG-5085); implicitly commits a negotiation position on the Bloom & Branch conflict\n- Reads: NPAG-9 (Bloom & Branch vendor notes), NPAG-8 (Kowalski-Reyes event record)\n- Dependencies: LOGICALLY COUPLED with sub-task (3) — email must reflect same position as Notion log\n\n**Sub-task (3):** Update Bloom & Branch rate conflict log in Notion (NPAG-9)\n- Writes: NPAG-22 (new child page under NPAG-9 documenting resolution position)\n- Reads: NPAG-8 (Kowalski-Reyes event record — read-only for context)\n- Dependencies: LOGICALLY COUPLED with sub-task (2) — log must be written before email to prevent log lagging behind live commitment\n\n**Sub-task (4):** Update Veridian RFP vendor quote tracker in Notion (NPAG-13)\n- Writes: NPAG-23 (new child page under NPAG-13 with current quote status)\n- Reads: NPAG-13, WB-6 (budget lock sheet), prior email thread with Meridian/Harvest Table/ClearSignal\n- Dependencies: none shared with sub-tasks (1), (2), or (3)\n\n---\n\n## Conflict Matrix\n\n| | Sub-task 1 | Sub-task 2 | Sub-task 3 | Sub-task 4 |\n|---|---|---|---|---|\n| Sub-task 1 | — | Independent | Independent | Independent |\n| Sub-task 2 | Independent | — | LOGICALLY COUPLED | Independent |\n| Sub-task 3 | Independent | LOGICALLY COUPLED | — | Independent |\n| Sub-task 4 | Independent | Independent | Independent | — |\n\nNote: Sub-tasks (2) and (3) share no physical resource (different Notion pages, different Gmail threads) but are logically coupled because the email to Sienna Voss commits a negotiation position that must be consistent with the Notion conflict log. Isolation via separate pages or draft emails does not resolve this risk — the conflict is content consistency, not file locking.\n\n---\n\n## Phased Execution Plan\n\n**Phase 1 (Parallel):** Sub-tasks (1) and (4)\n- Rationale: fully independent — different Gmail recipient, different Notion page, no shared state\n- Executed: 2026-04-22 ~10:00–10:20 AM\n- Results: MSG-5084 sent to Claire Fontaine (Blossom Floral Studio); NPAG-23 created under NPAG-13\n\n**Phase 2 (Serial — order matters):**\n- Step 2a: Sub-task (3) — write Notion conflict log first to lock documented resolution position\n  - Executed: 2026-04-22 ~11:30 AM\n  - Result: NPAG-22 created under NPAG-9 with full resolution terms\n- Step 2b: Sub-task (2) — send email to Sienna Voss with language matching logged position\n  - Executed: 2026-04-22 ~11:45 AM\n  - Result: MSG-5085 sent; language consistent with NPAG-22\n  - Order rationale: writing the log before sending the email ensures the documented position is never behind a live commitment; reversing the order (email first) would create a window where an outbound commitment exists with no corresponding internal record\n\n---\n\n## Downstream Actions Unblocked\n\n- Florist contingency decision: Blossom Floral Studio inquiry sent; reply received same day (MSG-5086); call to be scheduled by 2026-04-25 (TODO-592)\n- Bloom & Branch conflict: resolution position locked in NPAG-22 and committed via MSG-5085; awaiting Sienna Voss confirmation (TODO-593)\n- Veridian RFP: quote tracker updated in NPAG-23; Marcus Chen foyer notification queued (TODO-594); RFP writing block remains gated on 2 pending quotes + foyer decision\n- Hargrove-Patel + Delacroix floral budget parameters: to be sent to Sienna within 5 business days (TODO-595)",
+    "duration_minutes": 90
+  },
+  {
+    "note_id": "NOTE-139",
+    "title": "Florist backup — Blossom Floral Studio first contact notes",
+    "created_at": "2026-04-22T14:45:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "Claire Fontaine replied same day to backup inquiry (MSG-5086). Key data points:\n\n- May availability: limited, filling fast\n- June availability: more room\n- Backup/secondary arrangements: open to it with established planner relationships\n- Lead time: 6–8 weeks standard; 3–4 weeks possible for streamlined package\n- Mid-tier full package (ceremony + reception, ~120 guests): $3,800–$5,500\n\nCall options offered: Thu Apr 24 10am–12pm OR Fri Apr 25 after 2pm.\n\nNext step: confirm call time — Thu Apr 24 preferred (earlier resolution). Add to calendar. Bring: spring wedding dates, guest counts, style briefs for any weddings where Bloom & Branch is at risk.",
+    "duration_minutes": 10
+  },
+  {
+    "note_id": "NOTE-140",
+    "title": "Weekly Action Plan — Week of 2026-05-06",
+    "created_at": "2026-05-06T09:15:00-05:00",
+    "participants": [
+      "Rachel Summers",
+      "Lena Vasquez"
+    ],
+    "content": "# Weekly Action Plan — Week of May 6–10, 2026\n\nGenerated: 2026-05-06 | Anchor: Pre-Kowalski-Reyes wedding (Sat May 9) + Veridian RFP deadline May 20\n\n---\n\n## THIS WEEK'S REALITY CHECK\n\n- **Wednesday May 6**: Planning block (this doc), then open for calls/tasks\n- **Thursday May 7**: Kowalski call 11am, Veridian budget lock block 2–4pm\n- **Friday May 8**: Florist backup research block 10–11:30am, final vendor confirmations\n- **Saturday May 9**: KOWALSKI-REYES WEDDING — full day, no desk work\n- **Sunday May 10**: Off\n- **Monday May 11**: Admin buffer / post-wedding debrief\n\nEffective working blocks this week: ~14 hours across Wed–Fri before the wedding.\n\n---\n\n## PROJECT PRIORITIES THIS WEEK\n\n### 1. KOWALSKI-REYES — FLORAL CONFLICT RESOLUTION [CRITICAL / RACHEL]\nDeadline: Before Thursday 11am call with Dana\n- Sienna Voss (Bloom & Branch) needs written confirmation by end of week on rate carve-out decision\n- Dana Kowalski emailed this morning — anxious, waiting on floral price confirmation\n- Rachel must decide: honor contract rate for Kowalski-Reyes (absorb or negotiate with Sienna), or disclose increase to Dana\n- Cannot go into Thursday's call without a position\n- TODO: Draft resolution position before Thursday call (Rachel)\n- TODO: Send written confirmation to Sienna Voss by Friday EOD (Rachel)\n- TODO: Confirm floral line item verbally with Dana on Thursday call (Rachel)\n\n### 2. VERIDIAN RFP — FOYER DECISION + BUDGET LOCK [CRITICAL / RACHEL]\nDeadline: Thursday May 7 (budget lock block 2–4pm)\n- Foyer confirmed at $1,650 vs. modeled $1,400 — $250 overage on top of existing ~$700 gap to $45K ceiling\n- Marcus Chen confirmed May 20 RFP deadline is hard (email today)\n- Marcus prefers foyer IN if numbers work — needs to be looped in before budget is locked\n- Three vendor quotes still pending: catering (Harvest Table), AV (ClearSignal), venue foyer (confirmed)\n- TODO: Pull Veridian budget model (WB-6) and run foyer-in vs. foyer-out final scenario (Rachel, Thu block)\n- TODO: Call Marcus Chen to confirm foyer decision before locking (Rachel, Thu afternoon)\n- TODO: Follow up with Harvest Table and ClearSignal for outstanding quotes — OVERDUE (Lena, Wed)\n\n### 3. FLORIST BACKUP — DECISION REQUIRED [HIGH / RACHEL + LENA]\nDeadline: Friday May 8\n- Research has been started and abandoned multiple times — no backup confirmed\n- Risk: if Bloom & Branch conflict escalates, three spring weddings have no florist contingency\n- TODO: Rachel to make go/no-go decision on Blossom Floral Studio (Claire Fontaine) as primary backup (Rachel, Fri block)\n- TODO: Lena to draft outreach email to two additional backup florists for Rachel review (Lena, Thu)\n- TODO: Rachel to send at least one backup florist inquiry by Friday EOD (Rachel)\n\n### 4. KOWALSKI-REYES — DAY-OF LOGISTICS [HIGH / LENA LEAD]\nDeadline: Friday May 8 (day before wedding)\n- Final vendor confirmations: caterer, venue, DJ, transportation\n- Day-of timeline distributed to all vendors\n- Staff brief sent to Lena\n- TODO: Lena to call all vendors for day-of confirmation (Lena, Wed–Thu)\n- TODO: Rachel to finalize and send day-of timeline to vendor team (Rachel, Thu morning)\n- TODO: Lena to prepare day-of kit checklist (Lena, Fri)\n\n### 5. VERIDIAN RFP — WRITING PREP [MEDIUM / RACHEL]\nDeadline: Writing block starts May 12\n- Cannot begin writing until budget is locked and foyer decision is made\n- Proposal structure exists in DECK-1 and NPAG-5\n- TODO: Rachel to confirm all vendor quotes are in and budget is locked before May 11 EOD (Rachel)\n- TODO: Lena to pull together vendor confirmation emails into one folder for Rachel reference (Lena, Fri)\n\n---\n\n## DELEGATION SPLIT\n\n**Rachel owns**: Floral conflict resolution, Veridian budget lock + Marcus call, florist backup decision, Kowalski-Reyes day-of timeline, all client-facing communications\n\n**Lena owns**: Vendor day-of confirmation calls, backup florist draft outreach, Harvest Table + ClearSignal quote follow-up, day-of kit prep, vendor email folder organization\n\n---\n\n## OVERDUE / STALLED ITEMS CARRIED FORWARD\n\n- Florist backup outreach — started 3x, never sent. Must close this week.\n- Harvest Table quote follow-up — flagged as overdue in prior triage. Lena to call Wed AM.\n- ClearSignal AV quote — pending since late April. Lena to follow up Wed.\n- Sienna Voss written confirmation — verbal loop has been open too long. Written resolution by Fri.\n\n---\n\n## NOTES FOR MONDAY DEBRIEF (May 11)\n\n- Post-wedding debrief with Lena\n- Confirm all Veridian quotes are in hand\n- Begin RFP writing block May 12 only if budget is locked",
+    "duration_minutes": 75
+  },
+  {
+    "note_id": "NOTE-141",
+    "title": "Triage Scan — 2026-05-06 Morning",
+    "created_at": "2026-05-06T08:45:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "Quick inbox + task scan before planning block.\n\nEMAILS IN:\n- Lena checked in — available Tue/Thu mornings, ready to take vendor follow-ups. Good.\n- Marcus Chen confirmed May 20 RFP deadline is hard. Procurement committee May 22. No flex.\n- Dana Kowalski emailed — anxious about floral pricing, wants confirmation. Hasn't heard back since last week. This is a problem.\n- Sienna Voss (Bloom & Branch) — needs written answer by end of week on rate carve-out. She's been absorbing the cost difference for two weeks. Pressure is real.\n\nTODO LIST SCAN:\n- Florist backup: still no decision. Third time this has appeared in a triage note.\n- Harvest Table quote: overdue. Lena needs to call today or tomorrow.\n- ClearSignal AV: also pending. Same.\n- Veridian foyer decision: gate item before writing block. Must happen Thu.\n- Kowalski-Reyes day-of timeline: not yet drafted. Wedding is Saturday.\n\nCALENDAR THIS WEEK:\n- Thu 11am: Dana call — must have floral position ready before this\n- Thu 2–4pm: Veridian budget lock block\n- Fri 10–11:30am: Florist backup block\n- Sat: Wedding day — no desk work\n\nPRIORITY ORDER FOR PLANNING BLOCK:\n1. Floral conflict resolution position (before Thu call)\n2. Veridian foyer + budget lock (Thu block)\n3. Florist backup decision (Fri)\n4. Kowalski day-of logistics (Lena lead, Fri)\n5. Veridian writing prep (post-wedding week)",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-142",
+    "title": "Veridian RFP Schedule Reversal — Decision Log 2026-05-06",
+    "created_at": "2026-05-06T14:15:00-05:00",
+    "participants": [
+      "Rachel Summers"
+    ],
+    "content": "SITUATION: Priya Nair emailed at 9:14 AM (MSG-5092) to flag that Marcus Chen cannot give scope sign-off until Thu May 8 EOD at earliest, Fri May 9 worst case. Marcus confirmed directly at 11:02 AM (MSG-5093). Both characterize the delay as a soft estimate tied to CFO budget review — not a hard gate with a locked date.\n\nIMPACT ON CALENDAR: Veridian RFP Writing Block was scheduled Wed May 6 (or this week). Scope sign-off now arrives AFTER the original block start. Kowalski-Reyes check-in is Thu May 7 14:30–15:30 — fixed, cannot move. RFP submission deadline is May 20 — immovable.\n\nSECTION AUDIT:\n  Scope-independent (can write now): executive narrative intro, Rachel Summers Events credential/bio section, Summit logistics framework (general), vendor bios (Meridian, Harvest Table, ClearSignal), formatting and template build, appendix placeholders.\n  Scope-dependent (need locked figures): all budget tables, line-item justifications, foyer-in/foyer-out decision language, per-head catering cost narrative, AV package tier description, total cost summary, ROI framing tied to specific line items.\n\nTHREE STRATEGIES EVALUATED:\n  (A) Hold partial block — write scope-independent sections Wed–Thu, hold scope-dependent sections for Fri/Sat after sign-off. COST: fragmented draft, requires context-switch back into RFP mid-week alongside Kowalski-Reyes prep. BENEFIT: preserves momentum, no deadline compression.\n  (B) Shift full block to Fri May 8 afternoon + Sat May 9 morning once sign-off confirmed. COST: compresses writing time to ~8–10 hrs, no buffer if sign-off slips to Fri. BENEFIT: unified draft session, cleaner document.\n  (C) Cancel block, rebuild schedule after full scope lock. COST: highest deadline pressure, loses ~5 working days before May 20. BENEFIT: maximum clarity. NOT VIABLE given 14-day runway to submission.\n\nDECISION: Strategy A selected. Rationale: 14 days remain to submission; scope-independent sections represent roughly 40% of draft volume and are fully writable now. Partial block preserves output. If Marcus signs off Thu EOD, Fri + weekend slot (EVT-399) covers all scope-dependent content with ~10 days to polish and submit. If sign-off slips to Fri May 9, same slot still works with tighter but manageable margin. Strategy B rejected because it depends on sign-off being confirmed Thursday, which Priya flagged as soft. Strategy C rejected as unnecessary given available time.\n\nACTIONS TAKEN:\n  - EVT-398 renamed to reflect scope-independent sections only.\n  - EVT-399 created for scope-dependent block Fri May 9 09:00–14:00 (contingent on sign-off).\n  - Replied to Priya (MSG-5094) confirming adjusted plan and requesting firm sign-off date anchor.\n  - TODO-607 created: get firm sign-off date from Marcus.\n  - Notion NPAG-26 updated with schedule change log.\n\nFLAG: If Marcus sign-off slips past Fri May 9, reassess immediately — at that point Strategy B collapses and a weekend writing sprint becomes mandatory.",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-144",
+    "title": "Veridian Scope Call Prep — May 7 Brief",
+    "created_at": "2026-05-06T10:30:00-05:00",
+    "participants": [
+      "rachel@rachelsummersevents.example"
+    ],
+    "content": "## Veridian 2026 Leadership Summit — Scope Alignment Call\n**Date/Time:** Thursday, May 7, 2026 at 2:00 PM CT\n**Zoom:** https://zoom.example/j/92847561038 | Passcode: 7741\n**Attendees:** Marcus Chen (Director, People & Culture), Priya Nair (EA to CEO — joins ~30 min mark)\n\n---\n\n## Context\nReturning client. 2025 summit ran smoothly; Marcus confirmed positive feedback post-event. 2026 RFP is in active development. Budget ceiling: $45,000 (client-stated, firm per Marcus's March email). RFP writing block scheduled May 20 — this call is the gate.\n\n---\n\n## Marcus's Agenda Items (from his May 2 email)\n1. Budget ceiling alignment — line items still in flux\n2. Foyer space — wants Rachel's recommendation\n3. Catering format — plated dinner (2025) vs. reception-style cocktail hour (leadership preference)\n\n---\n\n## Open Decisions Rachel Must Resolve or Raise\n\n### 1. Foyer In/Out — GATE ITEM\n- Meridian foyer confirmed at $1,650 (vs. modeled $1,400; negotiation target was $1,200)\n- With foyer included, client-facing subtotal is ~$700 over $45K ceiling even after full trim\n- Three scenarios to present:\n  - **A) Drop foyer:** Saves $1,650. Budget lands comfortably under $45K. Recommend if Marcus won't flex ceiling.\n  - **B) Keep foyer + reset ceiling:** Ask Marcus to approve $45,700 ceiling. Requires explicit client sign-off.\n  - **C) Keep foyer + catering format swap:** Reception-style vs. plated could save $800–$1,200 at 98 pax. Marcus already floated this — may be the path of least resistance.\n- **Rachel's lean:** Option C if Marcus confirms the catering format preference; Option A if he wants to stay hard at $45K.\n\n### 2. Vendor Quote Status\n| Vendor | Item | Status | Amount |\n|---|---|---|---|\n| The Meridian | Venue + AV pre-function | Confirmed | $1,650 (foyer add-on) |\n| Harvest Table Catering | Dinner, 98–100 pax | PENDING | Est. $18,500–$19,200 |\n| ClearSignal AV | Full AV package | PENDING | Est. $6,800 |\n\n- Harvest Table and ClearSignal quotes still outstanding as of May 6. If not received before call, present 2025 actuals as placeholders and flag as estimates.\n- Attendee count update from Priya (May 1): 98 confirmed, down from 105. May affect catering minimum — confirm with Harvest Table.\n\n### 3. Dietary Requirements\n- 11 attendees with restrictions (up from 7 in 2025): 4 vegetarian, 3 gluten-free, 2 vegan, 2 nut allergy\n- Flag to Harvest Table post-call once catering format is confirmed\n\n---\n\n## Notion Pages to Reference\n- Veridian Technologies — Leadership Summit 2026 RFP Working File (NPAG-14 / updated with budget lock)\n- Veridian 2026 RFP — Foyer Line Item Status Change Log (NPAG-20)\n- Veridian Technologies — Client Profile (NPAG-2)\n\n## Budget Workbooks\n- Veridian 2026 RFP — Final Budget Lock (Foyer-IN Scenario) — WB-6\n- Veridian 2026 RFP — Trim Analysis Scenarios (Foyer Pivot) — WB-4\n\n---\n\n## Call Objectives\n1. Confirm foyer decision (in or out) — get Marcus's explicit answer\n2. Confirm catering format preference (plated vs. reception-style)\n3. Validate budget ceiling — is $45K firm or is there flex to ~$45,700?\n4. Note any program changes (speakers, breakout sessions, evening event)\n5. Confirm RFP delivery timeline — May 20 writing block on track\n\n---\n\n## Post-Call Actions (pre-populated)\n- Update Notion RFP working file with foyer decision\n- Send confirmed budget model to Marcus for sign-off\n- Release Harvest Table and ClearSignal from hold once format confirmed\n- Update TODO queue and calendar blocks accordingly",
+    "duration_minutes": 60
+  },
+  {
+    "note_id": "NOTE-145",
+    "title": "Veridian 2026 — Open Vendor Quote Tracker (Pre-RFP)",
+    "created_at": "2026-04-28T09:00:00-05:00",
+    "participants": [
+      "rachel@rachelsummersevents.example"
+    ],
+    "content": "## Veridian 2026 RFP — Vendor Quote Status (as of 2026-05-06)\n\n### Confirmed\n- **The Meridian Conference Center** — Venue rental (main ballroom + breakout rooms): $14,200 confirmed per rate card (Jamie Okafor, j.okafor@themeridianhotel.example)\n- **The Meridian — Foyer Add-On**: $1,650 confirmed (rate card 2026). Originally modeled at $1,400. Decision pending — see foyer pivot log.\n\n### Pending\n- **Harvest Table Catering** — Dinner service, 98–100 pax. Quote requested 2026-04-14. Follow-up sent 2026-04-28. No response as of 2026-05-06. Estimate: $18,500–$19,200 based on 2025 actuals + 4% inflation.\n- **ClearSignal AV** — Full AV package (main stage, breakout mics, livestream). Quote requested 2026-04-14. Verbal estimate from Derek Holt: ~$6,800. Written quote not yet received.\n\n### Notes\n- Both pending quotes needed before RFP writing block (May 20)\n- If not received by May 9, escalate to phone calls\n- Attendee count revised to 98 (Priya Nair, 2026-05-01) — may affect Harvest Table minimum tier",
+    "duration_minutes": 20
+  }
+]

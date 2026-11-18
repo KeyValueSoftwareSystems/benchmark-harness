@@ -1,0 +1,162 @@
+[
+  {
+    "note_id": "NOTE-101",
+    "title": "tempo run progressions for endurance block",
+    "created_at": "2026-02-16T10:45:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-104",
+    "title": "off-season block ideas",
+    "created_at": "2026-03-19T13:40:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-105",
+    "title": "periodization block ideas",
+    "created_at": "2026-03-20T11:08:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-106",
+    "title": "deload week timing thoughts",
+    "created_at": "2026-03-24T08:40:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-107",
+    "title": "possible deload week structure for online cohort",
+    "created_at": "2026-03-31T08:55:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-110",
+    "title": "mobility circuit ideas for group cohort",
+    "created_at": "2026-05-11T08:30:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-111",
+    "title": "possible deload week timing for online clients",
+    "created_at": "2026-05-12T11:10:00+08:00",
+    "content": "",
+    "participants": [],
+    "duration_minutes": 0,
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "note_id": "NOTE-112",
+    "title": "Prep Brief – Ironside Referral Partnership Call (Marcus Teel, Feb 17)",
+    "created_at": "2026-02-16T09:00:00-06:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "## Call Overview\n- Date/Time: Tuesday Feb 17, 9:00–9:20am\n- Format: Phone or Zoom (Marcus to confirm)\n- Contact: Marcus Teel, Facility Director, Ironside Athletic Club\n- Duration: 20 minutes\n\n## Background: How We Got Here\nThe Ironside relationship originated from the spring cohort kickoff venue conflict. Ironside double-booked the facility for the originally scheduled in-person kickoff date. Devon worked directly with Marcus Teel to resolve the conflict — ultimately rescheduling the in-person kickoff to June 9 (EVT-318). The resolution was handled professionally on both sides. On Feb 13, Marcus proactively reached out to propose a referral partnership, citing Devon's client profile as a strong fit for Ironside's membership base. Two cohort participants have already expressed interest in Ironside membership following the kickoff visit.\n\n## Call Objectives\n1. Understand what Ironside is actually proposing — warm intro referral, landing page, or something more structured\n2. Clarify whether exclusivity is on the table (Ironside not referring competing coaches)\n3. Establish preferred-partner facility access terms for Devon's in-person sessions\n4. Gauge openness to revenue-share framing vs. flat referral fee vs. access-rate discount\n5. Determine next steps — is this a handshake arrangement or does it go to a written agreement?\n\n## Key Questions to Raise\n- Referral structure: How does Ironside currently handle coach referrals? Is there an existing program or are we building from scratch?\n- Volume expectations: How many member referrals per month is Marcus realistically projecting?\n- Exclusivity: Would Ironside commit to not referring competing S&C coaches during the partnership term? What's the scope (geography, specialty)?\n- Revenue share: Is Marcus open to a % of first-month coaching revenue from referred clients, or does he prefer a flat finder's fee or reciprocal access discount?\n- Facility access rate: What does a preferred-partner rate look like for Devon's in-person session blocks (currently ~14 in-person clients)?\n- Trial period: Would a 90-day pilot make sense before formalizing terms?\n- Decision timeline: Is Marcus looking to move quickly or is this exploratory?\n\n## Open To-Dos Tied to This Call\n- TODO-550: Prep brief (this document)\n- TODO-551: Post-call follow-up email with summary + next steps\n- Respond to Marcus Teel – confirm kickoff venue decision (already resolved, but confirm in call that June 9 is locked)\n\n## Risks / Watch Items\n- Don't over-commit on exclusivity without understanding what 'competing coach' means to Ironside\n- Revenue-share framing may complicate client relationship transparency — flag if it comes up\n- Facility access rate negotiation should be anchored to current session volume (~14 in-person clients, Tue–Thu morning blocks)\n- Keep the call to 20 min — Marcus set the duration; don't let it run over on first contact\n\n## Relationship Tone\nMarcus was professional and solution-oriented during the venue conflict. He moved quickly to accommodate the reschedule. The referral outreach was warm and specific — not a generic pitch. Approach the call as a peer conversation, not a sales meeting.",
+    "duration_minutes": 45
+  },
+  {
+    "note_id": "NOTE-113",
+    "title": "Morning Digest – 2026-03-30: Priority Triage Summary",
+    "created_at": "2026-03-30T06:55:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "DIGEST SUMMARY – Monday March 30, 2026\n\nURGENT TIER:\n1. Marcus Teel venue decision (TODO-553) – EOD Friday deadline. June 9 hold expires if no response. Three options on table. Must decide and communicate to all 12 cohort participants before May 12 launch.\n\nHIGH TIER:\n2. Trainerize weekly summary review (TODO-554) – 5 zero-workout clients flagged including Brendan Holt (anomalous logging pattern, 3rd week). Casey Drummond also zero-logged and reached out directly.\n3. Brendan Holt credibility review (TODO-555) – Forum digest + Trainerize both flag identical RPE/rep patterns. Do not issue next program until verified.\n4. Casey Drummond re-engagement reply (TODO-556) – 24hr rule applies. She emailed last night requesting flexibility.\n5. Darnell Shaw physician clearance + Notion flag (TODO-557) – Still not initiated. Renal contraindication flag missing from profile. Supplement risk unresolved.\n\nMEDIUM TIER:\n6. LinkedIn content cadence (TODO-558) – 8-day gap. Post overdue today. Use saved Obsidian outlines.\n7. Q2 tax estimate prep (TODO-559) – Due June 15. Schedule reconciliation block in early April.\n8. Scheduler jobs JOB-701/702/703 (TODO-560) – Still disabled. Manual coverage is a single point of failure.\n\nCALENDAR CROSS-REFERENCE:\n- EVT-323: Marcus Teel venue decision deadline is Friday EOD — same-day decision block needed this week.\n- EVT-324: In-person client block starts at 07:00 today — triage window is now.\n- EVT-325: Tax prep block scheduled April 4.\n\nUNREAD HIGH-PRIORITY EMAILS:\n- MSG-5055: Forum digest flagging Brendan Holt logging anomaly + renal contraindication thread.\n- MSG-5056: Marcus Teel venue resolution options — EOD Friday deadline.\n- MSG-5057: Trainerize summary — 5 zero-workout clients, Brendan Holt pattern flagged.\n- MSG-5058: Casey Drummond direct outreach — missed sessions, requesting flexibility.",
+    "duration_minutes": 25
+  },
+  {
+    "note_id": "NOTE-114",
+    "title": "Cohort Supplement Protocol – Exclusion Flag Decision Log (Mar 30)",
+    "created_at": "2026-03-30T07:00:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "DECISION: Apex Pre-Workout Ignite + creatine loading stack is permanently excluded from Spring 2026 cohort supplement recommendations due to confirmed renal contraindication in at least one participant (Darnell Shaw, single-kidney condition).\n\nCompliant alternative approved: PureForm Electrolyte Base.\n\nACTION ITEMS:\n- Add permanent exclusion flag to Notion cohort launch hub (NPAG-1) blocking Apex Pre-Workout Ignite + creatine loading stack from future cohort recommendation batches.\n- Distribute PureForm Electrolyte Base recommendation to all 12 cohort participants — not yet completed as of Mar 30.\n- Darnell Shaw individual profile flag (NPAG-9 or equivalent) — physician clearance process not yet initiated.\n\nRisk note: Until Darnell Shaw's Notion profile has a permanent renal contraindication flag, any future supplement batch recommendation workflow could inadvertently include contraindicated products. This is a standing open risk item.",
+    "duration_minutes": 15
+  },
+  {
+    "note_id": "NOTE-116",
+    "title": "Weekly Schedule Consolidation – Week of April 22, 2026",
+    "created_at": "2026-04-22T10:05:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "# Consolidated Weekly Schedule – April 22–26, 2026\n\n## MONDAY April 21 (prior day context)\n- No events logged. Marcus Teel email (MSG-5068) received 9:14am re: June 9 venue confirmation and his OOO April 24–25. READ REQUIRED before Wednesday coordination block.\n\n## WEDNESDAY April 22\n- 06:00–09:00 | IN-PERSON CLIENT BLOCK | Iron House Gym (EVT-333) [recurring]\n- 09:00–10:00 | ADMIN – Weekly Schedule Consolidation & Conflict Audit (EVT-332)\n- 10:30–11:30 | COHORT – Week 10 Check-In Digest Review (EVT-334)\n\n## THURSDAY April 23\n- 06:00–09:00 | IN-PERSON CLIENT BLOCK | Iron House Gym (EVT-336) [recurring]\n- 09:00–09:30 | EXTERNAL CALL – Jordan Hayes Prospect Intake (EVT-335) [Zoom]\n  ⚠️ CONFLICT FLAGGED: EVT-335 starts at 09:00, same as end of EVT-336. In-person block may run to 09:00 with no buffer. Risk: late departure from gym → missed or delayed intake call.\n  Affected parties: Jordan Hayes (prospect, external commitment — email thread MSG-5070 confirms he expects this slot)\n  Commitment type: SOFT-EXTERNAL (not yet formally confirmed in writing, but prospect is expecting it)\n  Resolution priority: MEDIUM — reschedule to 09:30am Thu or move to Fri morning before program design block. Email Jordan today (Wed) to confirm.\n\n## FRIDAY April 24\n- 09:00–17:00 | ADMIN – Program Design Block (EVT-338) [recurring, protected]\n- 14:00–15:00 | ADHERENCE REVIEW – Casey Drummond + 3 Flagged Clients (EVT-339)\n  NOTE: EVT-339 sits inside the program design block window — this is intentional (internal sub-block), not a conflict. Casey Drummond email (MSG-5071) received Mon Apr 20 requesting schedule adjustment conversation. Adherence review block covers this.\n  ⚠️ SECONDARY FLAG: Marcus Teel is OOO April 24–25 (per MSG-5068). Any venue coordination questions must be resolved by EOD Wednesday or wait until Monday April 27.\n\n## SATURDAY April 25\n- 08:00–11:00 | OPEN HOURS – Drop-In / Async Client Support | Iron House Gym (EVT-340) [recurring]\n\n---\n\n## CONFLICT SUMMARY\n\n### CONFLICT 1 – Jordan Hayes Intake Call vs. Thursday Morning 1:1 Block\n- Events: EVT-335 (intake call 09:00) / EVT-336 (in-person block ends 09:00)\n- Affected: Jordan Hayes (prospect), Devon (coach)\n- Commitment type: Soft-external (prospect expects call but not formally confirmed in writing)\n- Resolution priority: MEDIUM\n- Action: Reschedule EVT-335 to 09:30am Thu Apr 23 or move to Fri morning. Email Jordan today. (TODO-570)\n\n### SECONDARY FLAG – Marcus Teel OOO April 24–25\n- Not a calendar conflict but a communication window constraint.\n- Any venue or partnership questions must be sent by EOD Wed Apr 22.\n- Related: EVT-334 (cohort coordination block Wed 10:30) is the right window to draft any Teel follow-up.\n\n---\n\n## PENDING SCHEDULING TODOS CROSS-REFERENCED\n- TODO-569: This consolidation task (in progress)\n- TODO-570: Resolve Jordan Hayes intake call conflict (pending)\n- TODO-571: Verify Friday program design block is clear of external calls (pending)\n- TODO-572: Save this note (complete upon save)\n- TODO-502 (existing): Cohort participant comms — still pending; no new calendar block added this week for it. Risk: drifting again.\n- TODO-538 (existing): Brendan Holt credibility review — not calendared this week. Continues to defer. Flag for Monday scheduling.\n\n---\n\n## NOTES FOR THE WEEK\n- Marcus Teel confirmed June 9 venue. No action needed on venue this week beyond optional A/V setup question.\n- Casey Drummond adherence conversation is calendared Friday — do not let it slip to async email.\n- Jordan Hayes is warm — resolve the intake call timing today so momentum doesn't drop.\n- Cohort onboarding deadline (April 24) is this Friday. Watch for non-submitters in the digest review block Wednesday.",
+    "duration_minutes": 55
+  },
+  {
+    "note_id": "NOTE-117",
+    "title": "Conflict Audit Log – Week of April 22 (Raw Findings)",
+    "created_at": "2026-04-22T09:55:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "Raw audit findings before clean summary was written.\n\nEvents pulled for April 22–26:\n- EVT-332: Wed 09:00–10:00 Admin/Audit block\n- EVT-333: Wed 06:00–09:00 In-person clients (Iron House)\n- EVT-334: Wed 10:30–11:30 Cohort coordination\n- EVT-335: Thu 09:00–09:30 Jordan Hayes intake call (Zoom)\n- EVT-336: Thu 06:00–09:00 In-person clients (Iron House)\n- EVT-337: Thu 09:00–09:30 CONFLICT FLAG marker\n- EVT-338: Fri 09:00–17:00 Program design block\n- EVT-339: Fri 14:00–15:00 Adherence review (sub-block inside EVT-338)\n- EVT-340: Sat 08:00–11:00 Open hours\n\nContacts cross-referenced:\n- Jordan Hayes (CON-220): prospect, email MSG-5070 confirms he expects Thu morning call\n- Marcus Teel (CON-206 per existing data): OOO Apr 24–25 per MSG-5068\n- Casey Drummond (CON-221): adherence flag, email MSG-5071 received Apr 20\n\nGmail threads reviewed:\n- MSG-5068: Teel venue confirmation + OOO notice\n- MSG-5069: Cohort broadcast sent this morning\n- MSG-5070: Jordan Hayes reply confirming morning availability\n- MSG-5071: Casey Drummond adherence/schedule adjustment request\n\nTodo items with scheduling relevance:\n- TODO-569, TODO-570, TODO-571, TODO-572 (new this session)\n- TODO-502: cohort comms still pending — no new calendar block\n- TODO-538: Brendan Holt review — not on calendar this week\n\nConflicts identified: 1 hard overlap (EVT-335/EVT-336), 1 communication window constraint (Teel OOO).\nNo other overlaps detected.",
+    "duration_minutes": 10
+  },
+  {
+    "note_id": "NOTE-118",
+    "title": "Ironside Referral Partnership – Pre-Call Prep Notes (April 29)",
+    "created_at": "2026-04-22T15:30:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "Call with Marcus Teel confirmed: Wed April 29, 11:00–11:30 AM.\n\nContext:\n- Ironside Athletic Club is the revised venue for the spring cohort in-person kickoff (June 9 date, post double-booking resolution).\n- Marcus is the facility director and primary contact for both the venue arrangement and the referral partnership discussion.\n- Referral partnership was flagged as a parallel opportunity during the venue conflict resolution process.\n\nCall objectives:\n1. Referral fee structure — agree on a per-client referral rate or flat monthly arrangement.\n2. Facility access logistics — confirm terms for cohort session use (dates, capacity, equipment access, cost).\n3. Co-programming / cross-promotion — assess whether joint content or member cross-referral makes sense.\n\nPrep items before call:\n- Review Notion vendor evaluation page for Ironside (NPAG context).\n- Pull email thread history (MSG-5076 inbound, MSG-5077 reply sent, MSG-5079 confirmation).\n- Have Q2 revenue projections handy to anchor referral fee negotiation.\n\nSlot selection rationale:\n- Tue Apr 28 7:00 AM: CONFLICT — in-person client block EVT-343 runs 6:00–9:30 AM.\n- Thu Apr 30 2:00 PM: CONFLICT — cohort coordination block EVT-345 runs 1:30–3:30 PM.\n- Wed Apr 29 11:00 AM: CLEAR — morning in-person block ends by 9:30 AM; 90-min prep buffer available (EVT-346 blocked 10:00–11:00 AM for prep).",
+    "duration_minutes": 20
+  },
+  {
+    "note_id": "NOTE-119",
+    "title": "Working Session – Ironside Partnership Terms: Referral Fee Benchmarking",
+    "created_at": "2026-04-22T16:00:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "Quick benchmarking pass before the April 29 call.\n\nIndustry referral fee norms for fitness coaching / facility partnerships:\n- Per-client flat fee: $50–$150 per converted referral is common for independent coaches.\n- Revenue share: 10–15% of first month's coaching revenue per referred client.\n- Reciprocal arrangement: mutual referrals with no cash exchange — works when both parties have comparable client volumes.\n\nDevon's current online rate: $250/month (standard), $350/month (premium). In-person: $400–$600/month.\nSuggested opening position: $75 flat per converted referral, or reciprocal arrangement if Marcus has outbound referral volume.\n\nFacility access for cohort:\n- Need to confirm per-session rate vs. monthly block booking.\n- Ironside confirmed capacity for 12-person group — verify equipment availability for strength-focused programming.\n- Parking and access logistics for participants needed before June 9 kickoff comms go out.\n\nNext step: bring these benchmarks into the April 29 call. Document agreed terms in Notion vendor page post-call.",
+    "duration_minutes": 25
+  },
+  {
+    "note_id": "NOTE-120",
+    "title": "Weekly Schedule Preview – May 20–26: Prep Flags and Conflict Map",
+    "created_at": "2026-05-19T16:00:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "## Weekly Preview: May 20–26, 2026\n\nGenerated: 2026-05-19 EOD\n\n---\n\n### EVT-364 | Tue May 19, 9:45am – Call: Marcus Teel – Ironside Referral Partnership Terms\n**CONFLICT FLAG:** Only 15-minute buffer after in-person client block (EVT-363, ends 9:30am). No time to decompress or pull up notes between sessions.\n**Prep needed:** Finalize partnership terms talking points and venue resolution update before stepping into the studio Tuesday morning. Have notes open on phone or tablet for immediate access at 9:45.\n\n---\n\n### EVT-365 | Wed May 20, 10:00am – DECISION BLOCK: Cohort Kickoff Venue Final Call + Participant Comms\n**Prep needed:** Resolution path must be chosen before this block — not during it. Review Working Session note (OBSN) on venue conflict resolution paths. Draft participant email template in advance so the block is execution-only. All 12 participants need updated logistics.\n\n---\n\n### EVT-366 | Wed May 20, 1:00pm – DECISION BLOCK: Brendan Holt Credibility Review\n**CONFLICT FLAG:** Two high-stakes decision blocks on the same day (EVT-365 at 10am, EVT-366 at 1pm). 90-minute gap is insufficient recovery for back-to-back confrontation-level cognitive tasks. Consider moving one block to Thursday if EVT-369 (Darnell Shaw) can shift.\n**Prep needed:** Evidence mapping note must be complete before this block. Do not enter this block in research mode.\n\n---\n\n### EVT-368 | Thu May 21, 10:00am – Spring Cohort Coordination Block: Onboarding Deadline Reconciliation\n**Prep needed:** Pull the three conflicting deadline sources (participant emails, Notion launch hub, Obsidian notes) before the block. Identify the earliest stated date. Draft clarifying email to all 12 participants. Incomplete health disclosures gate supplement and programming decisions — this is not a deferrable item.\n\n---\n\n### EVT-369 | Thu May 21, 2:00pm – Darnell Shaw Physician Clearance Follow-Up Block\n**CONFLICT FLAG:** Thu May 21 has back-to-back high-load blocks: in-person clients 6–9am (EVT-370), cohort coordination 10–11:30am (EVT-368), then this block at 2pm. Three demanding blocks in one day.\n**Prep needed:** Confirm whether physician outreach has been initiated. If not, draft clearance request letter before this block. Update Notion client profile with permanent renal contraindication flag regardless of clearance status.\n\n---\n\n### EVT-371 | Fri May 22, 9:00am – Friday Program Design Block\n**Prep needed:** Reserve 30–45 min within this block for cohort supplement protocol update (Apex exclusion flag + PureForm distribution confirmation). Lower cognitive load than the Wed/Thu decision blocks — good fit for Friday energy. Also use this window to catch up on LinkedIn content cadence (8-day gap as of May 20).",
+    "duration_minutes": 45
+  },
+  {
+    "note_id": "NOTE-121",
+    "title": "Conflict Map – Wed May 20 Dual Decision Block Risk",
+    "created_at": "2026-05-19T16:50:00-05:00",
+    "participants": [
+      "devon@devonrossperformance.example"
+    ],
+    "content": "## Cognitive Load Risk: Two High-Stakes Decision Blocks on Wed May 20\n\n**Block 1:** EVT-365 – Cohort Kickoff Venue Final Call + Participant Comms (10:00–11:30am)\n- Stakes: High. Affects 12 participants. Venue conflict with Marcus Teel / Ironside Athletic Club unresolved. Communication must go out before May 12 launch.\n- Cognitive demand: High deliberation + drafting.\n\n**Block 2:** EVT-366 – Brendan Holt Credibility Review (1:00–2:00pm)\n- Stakes: High. Potential fabrication confrontation. Credibility review requires careful framing to avoid false accusation or premature trust repair.\n- Cognitive demand: High interpersonal + ethical reasoning.\n\n**Gap between blocks:** 90 minutes (11:30am–1:00pm). Insufficient for full cognitive recovery after a high-deliberation session.\n\n**Risk:** End-of-week fatigue pattern documented in prior triage notes. Wednesday is mid-week but follows Tuesday in-person block + Marcus Teel call. Accumulated load by 1pm Wednesday may replicate the end-of-week deferral pattern that has already delayed the Brendan Holt review for multiple weeks.\n\n**Mitigation options:**\n1. Move EVT-366 to Thursday afternoon (swap with or append to EVT-369 window if Darnell Shaw block can be shortened).\n2. Accept the schedule but pre-commit to a decision rule for Brendan Holt before entering the block (e.g., if log discrepancy > 3 sessions, initiate direct verification call).\n3. Treat Wed EVT-366 as evidence review only; schedule the actual conversation with Brendan Holt for a separate block with full energy.",
+    "duration_minutes": 30
+  }
+]

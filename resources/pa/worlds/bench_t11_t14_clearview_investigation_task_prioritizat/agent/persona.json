@@ -1,0 +1,17 @@
+{
+  "persona_id": "T11_T14_clearview_investigation_task_prioritizat",
+  "name": "Priya Iyer",
+  "email": "priya.iyer@morningledger.example",
+  "role": "investigative journalist",
+  "organization": "The Morning Ledger",
+  "communication_style": "analytical, methodical",
+  "domain_knowledge": [
+    "client management",
+    "finance",
+    "procurement",
+    "project management",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-01"
+}

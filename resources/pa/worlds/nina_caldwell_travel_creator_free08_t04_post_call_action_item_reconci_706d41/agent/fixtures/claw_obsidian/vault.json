@@ -1,0 +1,79 @@
+[
+  {
+    "note_id": "OBSN-1",
+    "title": "Lisbon Trip — Early Planning Notes & Deliverable Brainstorm",
+    "folder": "Trips/Lisbon-2026",
+    "tags": [
+      "lisbon",
+      "press-trip",
+      "deliverables",
+      "planning",
+      "visit-lisbon"
+    ],
+    "content": "# Lisbon Press Trip — Early Planning Notes\n_Created during initial scoping, before contract finalized_\n\n## Trip Basics\n- Dates: May 12–19, 2026 (7 nights)\n- Partner: Visit Lisbon (via Marco Ferreira)\n- Status at time of writing: verbal confirmation, contract pending\n\n## Anticipated Deliverables (pre-contract draft)\n- 2 x Instagram Reels — likely 30–45 sec, destination highlights\n- 1 x Blog post — aiming for 1,200–1,500 words, SEO-focused on 'best neighborhoods in Lisbon'\n- 3 x Instagram Feed Photos — one per neighborhood (Alfama, Belém, one TBD)\n- Deadline: probably end of May or early June — TBD once contract arrives\n\n## Content Angles to Explore\n- Alfama fado scene at dusk\n- Belém pastéis de nata + Jerónimos Monastery\n- LX Factory Sunday market\n- Tram 28 route\n- Sintra day trip if itinerary allows\n\n## Notes\n- No Stories requirement discussed yet — may come up in contract\n- Shot list not confirmed — waiting on Marco\n- Budget for props/styling: check with accountant re: trip expense deductions\n\n## Open Questions\n- Will they provide a shot list or leave creative direction to me?\n- Any exclusivity clause on Lisbon content post-trip?\n- Portal submission process — need login credentials from Marco",
+    "outlinks": [],
+    "inlinks": [],
+    "created_at": "2026-02-20T10:15:00+00:00",
+    "last_updated": "2026-02-28T16:40:00+00:00"
+  },
+  {
+    "note_id": "OBSN-2",
+    "title": "Lisbon Trip — On-Road Content Schedule Draft",
+    "folder": "Trips/Lisbon-2026",
+    "tags": [
+      "lisbon",
+      "press-trip",
+      "content-schedule",
+      "on-road"
+    ],
+    "content": "# Lisbon On-Road Content Schedule — Draft\n_Working draft for packing and shoot planning_\n\n## Day-by-Day Shoot Plan\n\n**May 12 (Arrival)** — Check-in, golden hour walk near hotel, grab 1–2 ambient feed shots\n**May 13** — Alfama morning shoot (Reel #1 candidate), fado dinner (hosted)\n**May 14** — Belém: Jerónimos + pastéis de nata (feed photo + Reel B-roll)\n**May 15** — Sintra day trip (coach 09:00) — landscape shots, feed photo\n**May 16** — LX Factory + Mouraria (feed photos, Reel #2 candidate), hosted dinner\n**May 17** — Buffer day: re-shoots, blog notes, interview any local contacts\n**May 18** — Final walk, pack, review footage\n**May 19** — Departure\n\n## Deliverable Tracker (working)\n- Reel #1: Alfama — target May 13 shoot\n- Reel #2: LX Factory/Mouraria — target May 16 shoot\n- Blog post: draft on May 17, publish within 2 weeks of return\n- Feed photos: 3 minimum (Alfama, Belém, Sintra) — may expand\n\n## Gear Checklist\n- Sony A7IV + 24-70mm\n- DJI Osmo Pocket 3 (Reels)\n- Rode Wireless GO II\n- ND filters\n- Portable charger x2\n\n## Notes\n- This schedule predates final contract — deliverable counts may change\n- No Stories planned yet in this draft",
+    "outlinks": [
+      "OBSN-1"
+    ],
+    "inlinks": [],
+    "created_at": "2026-03-10T09:30:00+00:00",
+    "last_updated": "2026-03-10T11:00:00+00:00"
+  },
+  {
+    "note_id": "OBSN-3",
+    "title": "Lisbon Deliverable Deadline — Reconciliation Annotation",
+    "folder": "Trips/Lisbon-2026",
+    "tags": [
+      "lisbon",
+      "deliverables",
+      "deadline",
+      "reconciliation"
+    ],
+    "content": "# Lisbon Deliverable Deadline — Reconciliation Annotation\n\n> Added: 2026-05-06\n\n## Context\n\nDuring pre-departure review I noticed the deliverable deadline appears differently across sources. This note annotates the discrepancy for on-road reference.\n\n## Source Dates\n\n| Source | Date | Notes |\n|---|---|---|\n| Signed content agreement (NPAG-15) | **May 28, 2026** | Section 3.1 — authoritative |\n| Marco email Apr 14 (MSG-5047) | May 30, 2026 | Informal restatement, post-contract |\n| Marco email Apr 28 (MSG-5092) | May 26, 2026 | Preferred but explicitly non-binding |\n| My calendar EVT-309 | May 28, 2026 | Matches contract ✅ |\n| My calendar EVT-310 | May 27, 2026 | Personal buffer (-1 day) ✅ |\n| OBSN-1 (early planning) | May 30, 2026 | Captured from early Marco email — outdated |\n\n## Resolution\n\n- **Hard deadline: May 28** (contract controls)\n- **Personal action deadline: May 27** (1-day buffer)\n- Clarification email sent to Marco on May 6 — see MSG-5094\n- Awaiting Marco's confirmation before finalizing post-trip production schedule\n\n## Action\n\n- [ ] Marco reply received and logged → update NPAG-38 and close TODO-582\n- [ ] If no reply by May 10, follow up before departure\n\n## Links\n- [[Lisbon Trip — Early Planning Notes & Deliverable Brainstorm]] (OBSN-1)\n- [[Lisbon Trip — On-Road Content Schedule Draft]] (OBSN-2)\n- NPAG-38 (Notion reconciliation log)\n",
+    "outlinks": [
+      "OBSN-1",
+      "OBSN-2"
+    ],
+    "inlinks": [
+      "OBSN-1",
+      "OBSN-2"
+    ],
+    "created_at": "2026-05-06T13:00:00+01:00",
+    "last_updated": "2026-05-06T13:00:00+01:00"
+  },
+  {
+    "note_id": "OBSN-4",
+    "title": "Lisbon Trip — Shot List & Content Angle Notes",
+    "folder": "Trips/Lisbon-2026",
+    "tags": [
+      "lisbon",
+      "content",
+      "shot-list",
+      "press-trip"
+    ],
+    "content": "# Lisbon Trip — Shot List & Content Angle Notes\n\n> Created: 2026-05-05 | Pre-departure brainstorm\n\n## Blog Post Angles\n\n1. **'Lisbon in 7 Days: The Press Trip Itinerary I Didn't Expect'** — honest, behind-the-scenes tone; disclose partnership per NPAG-1\n2. **'Sintra & Cascais Day Trip: What the Instagram Photos Don't Show'** — focus on logistics, crowds, real costs\n\n## Reel Concepts (6 required per contract)\n\n- Arrival + first impressions: Bairro Alto neighborhood walk\n- Pastéis de Belém morning routine\n- Tram 28 — the reality vs. the aesthetic\n- Sintra palace interiors — architecture focus\n- Cascais waterfront golden hour\n- Packing debrief / gear used on trip\n\n## Newsletter Feature\n\n- 'What a Sponsored Trip to Lisbon Actually Looks Like' — transparency angle\n- Include affiliate links: accommodation, train tickets (Comboios de Portugal), day-trip tours\n- Disclosure block required per NPAG-1 Section 2\n\n## Gear Checklist\n\n- Sony A7IV + 24-70mm f/2.8\n- DJI Osmo Pocket 3 (B-roll + Reels)\n- Joby GorillaPod\n- 3x ND filters\n- 2x 256GB CFexpress cards\n\n## Deadline Reminder\n\n⚠️ Hard deadline: **May 28** (contract). Personal target: **May 27**. See OBSN-3 for full reconciliation.\n",
+    "outlinks": [
+      "OBSN-1",
+      "OBSN-2",
+      "OBSN-3"
+    ],
+    "inlinks": [],
+    "created_at": "2026-05-05T16:30:00+01:00",
+    "last_updated": "2026-05-06T13:15:00+01:00"
+  }
+]

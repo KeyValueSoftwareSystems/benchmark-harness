@@ -1,0 +1,53 @@
+[
+  {
+    "ticket_id": "TK-801",
+    "title": "Venue deposit invoice not showing in finance dashboard",
+    "reporter": "rachel@rachelsummersevents.example",
+    "created_at": "2026-02-20T15:55:00+08:00",
+    "priority": "low",
+    "status": "open",
+    "description": "The deposit invoice submitted for the Riverside venue on Feb 18 does not appear in the finance dashboard under pending payments. Checked filters — still not visible. Need to confirm whether this is a sync delay or a data entry issue.",
+    "tags": [
+      "finance",
+      "invoice",
+      "venue"
+    ],
+    "assignee": "",
+    "department": "Operations",
+    "_noise": true
+  },
+  {
+    "ticket_id": "TK-802",
+    "title": "Catering vendor contact not syncing to CRM",
+    "reporter": "rachel@rachelsummersevents.example",
+    "created_at": "2026-02-25T10:15:00+08:00",
+    "priority": "low",
+    "status": "open",
+    "description": "Added a new catering vendor contact last week but the record does not appear in the CRM vendor list. Tried refreshing and re-searching. Realized the contact was saved under the wrong category — not a system issue.",
+    "tags": [
+      "crm",
+      "contacts",
+      "vendor"
+    ],
+    "assignee": "",
+    "department": "Operations",
+    "_noise": true
+  },
+  {
+    "ticket_id": "TK-803",
+    "title": "Calendar sync not showing Saturday event block",
+    "reporter": "rachel@rachelsummersevents.example",
+    "created_at": "2026-03-24T10:05:00+08:00",
+    "priority": "low",
+    "status": "abandoned",
+    "description": "Saturday event block not appearing in synced calendar view — realised I had the wrong calendar layer toggled off. Not an issue.",
+    "tags": [
+      "calendar",
+      "sync"
+    ],
+    "assignee": "",
+    "department": "Operations",
+    "_noise": true,
+    "_status": "abandoned_ticket_draft"
+  }
+]
