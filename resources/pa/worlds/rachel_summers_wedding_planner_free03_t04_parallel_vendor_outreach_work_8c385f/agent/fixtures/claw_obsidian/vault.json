@@ -1,0 +1,133 @@
+[
+  {
+    "note_id": "OBSN-1",
+    "title": "Corporate Event Planning — Budget Benchmarks & Norms",
+    "folder": "Corporate Events/Reference",
+    "tags": [
+      "corporate",
+      "benchmarks",
+      "budget",
+      "rfp"
+    ],
+    "content": "# Corporate Event Budget Benchmarks\n*Last updated: Feb 2026*\n\n## Per-Head Cost Ranges (Full-Day Corporate, 75–150 pax)\n\n| Line Item | Low | Mid | High |\n|---|---|---|---|\n| Venue (room + basic AV) | $120/head | $200/head | $320/head |\n| Catering (breakfast + lunch + breaks) | $85/head | $115/head | $160/head |\n| AV/Production (full-day tech) | $35/head | $55/head | $90/head |\n| Floral/Décor | $15/head | $22/head | $40/head |\n| Photography (half-day) | $18/head | $28/head | $45/head |\n| Printed materials + signage | $8/head | $14/head | $22/head |\n| Planner fee (flat, corporate tier) | — | $4,500–$6,500 | — |\n\n## Notes\n- Boston-area venues trending 8–12% higher YoY in 2026 vs 2025\n- Catering inflation running ~6–8% in 2026; get updated quotes early\n- AV costs relatively stable; ClearSignal has been reliable and competitive\n- Floral vendors: significant variance in 2026 pricing; get 2–3 quotes\n\n## Typical Corporate Event Timeline (from signed contract)\n- T-16 weeks: Venue hold confirmed\n- T-12 weeks: Vendor contracts signed\n- T-8 weeks: Catering menu finalized, dietary confirmed\n- T-6 weeks: AV/run-of-show walkthrough\n- T-3 weeks: Client delivers branded assets\n- T-1 week: Final headcount, printed materials to printer\n- Day-of: Rachel on-site from load-in through dinner reception close",
+    "outlinks": [
+      "OBSN-2"
+    ],
+    "inlinks": [],
+    "created_at": "2025-11-10T10:00:00-05:00",
+    "last_updated": "2026-02-20T15:30:00-05:00"
+  },
+  {
+    "note_id": "OBSN-2",
+    "title": "Corporate RFP Proposal Template — Notes",
+    "folder": "Corporate Events/Reference",
+    "tags": [
+      "corporate",
+      "rfp",
+      "proposal",
+      "template"
+    ],
+    "content": "# Corporate RFP Proposal — Structure Notes\n\n## What returning clients want to see\n- One-page executive summary (event vision, date, venue, total investment)\n- Itemized budget table with per-head breakdown\n- Vendor slate with brief rationale for each selection\n- Timeline overview (key milestones from contract to day-of)\n- Reference to prior event outcomes (shows continuity and trust)\n\n## Veridian-specific notes\n- Marcus shares proposal directly with CFO (Priya Nair) — keep language clean and non-jargony\n- Sub-$45K keeps it below CFO sign-off threshold; model to $42–44K to give Marcus room\n- Always include a 'what's new this year' section — they like to see evolution, not copy-paste\n- Dietary accommodations table is appreciated (they've mentioned it twice)\n\n## Common RFP mistakes to avoid\n- Vague vendor descriptions ('a local florist') — name the vendor and their specialty\n- Missing contingency line — always include 3–5% buffer\n- No cancellation/rescheduling policy summary — corporate clients need this for internal approval\n\n## Pricing strategy\n- Rachel's fee for returning corporate clients: $5,000–$5,500 flat (bump from $4,500 given scope growth)\n- Frame total investment as 'per-person' in summary — $420–440/head sounds more digestible than $44K total",
+    "outlinks": [],
+    "inlinks": [
+      "OBSN-1"
+    ],
+    "created_at": "2025-12-05T09:00:00-05:00",
+    "last_updated": "2026-02-26T10:00:00-05:00"
+  },
+  {
+    "note_id": "OBSN-3",
+    "title": "Venue Research — The Meridian Conference Center",
+    "folder": "Corporate Events/Venues",
+    "tags": [
+      "venue",
+      "corporate",
+      "boston",
+      "meridian"
+    ],
+    "content": "# The Meridian Conference Center — Venue Notes\n\n## Capacity & Spaces\n- Ballroom A: 120 seated theater / 90 seated rounds / 150 reception\n- Ballroom B: 80 seated theater / 60 seated rounds\n- Breakout rooms (3): 20–25 pax each\n- Pre-function foyer: 150 standing — good for registration and networking\n- Executive suite / green room: available on request, $350/day add-on\n\n## Pricing (2025 actuals — expect 8–10% increase for 2026)\n- Ballroom A full day: $12,500\n- Breakout rooms (3): $3,600 ($1,200 each)\n- In-house AV package (basic): $2,300\n- Parking: complimentary for up to 80 vehicles; valet available at $18/car\n\n## Notes from 2025 Veridian event\n- Coordinator: Jamie Okafor (responsive, good to work with)\n- Load-in allowed from 7:00 AM day-of\n- Preferred caterer list exists but outside caterers permitted with $500 kitchen access fee\n- Noise curfew: 10:00 PM\n- For 100 pax in 2026: recommend requesting pre-function foyer for registration to address the cramped feedback from 2025\n\n## 2026 Considerations\n- Contact Jamie early — September weekends book fast\n- Ask about new AV package pricing; they upgraded the system in late 2025",
+    "outlinks": [],
+    "inlinks": [],
+    "created_at": "2025-08-15T11:00:00-05:00",
+    "last_updated": "2026-02-24T09:00:00-05:00"
+  },
+  {
+    "note_id": "OBSN-4",
+    "title": "Florist Alternatives — Corporate Events",
+    "folder": "Corporate Events/Vendors",
+    "tags": [
+      "florist",
+      "vendor",
+      "corporate",
+      "alternatives"
+    ],
+    "content": "# Florist Alternatives for Corporate Events\n\n## Context\nBloom & Branch flagged after Veridian 2025 — style mismatch + 18% price increase in Feb 2026. Need alternatives for 2026 corporate proposals.\n\n## Options Researched\n\n### Petal & Stem Co.\n- Specialty: modern, structured arrangements — good fit for corporate aesthetic\n- Pricing: ~$18–24/head for corporate reception décor (mid-range)\n- Contact: hello@petalandstem.example\n- Notes: Used by two other planners in my network; strong reviews for corporate work\n\n### Foliage Forward Events\n- Specialty: sustainable/biophilic design — trending for tech companies\n- Pricing: ~$22–30/head; premium but justifiable for right client\n- Contact: via website inquiry form\n- Notes: Newer vendor, less track record but impressive portfolio\n\n### City Bloom Studio\n- Specialty: high-volume corporate; less bespoke but reliable execution\n- Pricing: ~$14–18/head; competitive\n- Notes: Good fallback if budget is tight; won't wow but won't disappoint\n\n## Recommendation for Veridian 2026\nLead with Petal & Stem Co. — style aligns with what Marcus described wanting, pricing fits the budget model, and network references are solid.",
+    "outlinks": [],
+    "inlinks": [],
+    "created_at": "2026-02-22T14:30:00-05:00",
+    "last_updated": "2026-02-26T11:00:00-05:00"
+  },
+  {
+    "note_id": "OBSN-5",
+    "title": "Corporate Event Planning — Budget Benchmarks & Norms",
+    "folder": "Corporate Events/Reference",
+    "tags": [
+      "budget",
+      "benchmarks",
+      "corporate",
+      "rfp",
+      "catering",
+      "av",
+      "floral"
+    ],
+    "content": "# Corporate Event Budget Benchmarks & Norms\n\n## Overview\nReference benchmarks for corporate events in the 75–150 pax range, NYC/tri-state market. Updated from 2024–2025 actuals and industry contacts.\n\n## Catering (per head, full-day corporate)\n- **Floor (basic):** $75–$80/head — continental breakfast, boxed lunch, afternoon break\n- **Mid-range (standard):** $85–$95/head — plated or buffet lunch, AM/PM breaks, passed apps at cocktail hour\n- **Premium:** $100–$120/head — multi-course plated, premium bar, chef stations\n- **2025 Harvest Table actual (Veridian, 100 pax):** $88/head → $8,800 total\n- **2026 realistic floor for comparable package:** $90–$92/head → $9,000–$9,200 for 100 pax\n- **Note:** Food cost inflation running ~5–7% YoY in NYC catering market as of early 2026. $92/head is a defensible floor; $95 is a safe midpoint estimate.\n\n## AV & Production (full-day, 100 pax, hybrid-capable)\n- **Floor (basic in-house):** $2,000–$3,500 — venue-provided AV, no hybrid\n- **Mid-range (external vendor, hybrid):** $6,500–$8,500 — dedicated AV company, screens, mics, streaming\n- **Premium (full production):** $10,000–$18,000 — LED walls, broadcast-quality streaming, full crew\n- **2025 ClearSignal actual (Veridian):** $7,200\n- **2026 realistic floor (same scope, returning vendor):** $7,000–$7,200\n\n## Floral & Décor (corporate, 100 pax)\n- **Floor (minimal):** $1,800–$2,500 — registration table arrangement, simple centerpieces\n- **Mid-range (standard):** $3,500–$4,500 — stage backdrop, 8–10 centerpieces, registration, directional\n- **Premium:** $5,500–$8,000 — full floral design, custom installations\n- **2025 Bloom & Branch actual (Veridian):** $3,800\n- **2026 realistic floor (same scope):** $3,800 — revert to 2025 actuals, skip premium add-ons\n- **Note:** Bloom & Branch raised prices ~8% for 2026 on premium tiers; base package pricing held. See [[Florist Alternatives — Corporate Events]] for backup options.\n\n## Venue (full-day, 100 pax, NYC-adjacent conference center)\n- **Floor:** $4,500–$6,000 — basic conference room, no add-ons\n- **Mid-range:** $6,000–$9,000 — ballroom or large conference space, standard setup\n- **Premium:** $10,000+ — luxury hotel ballroom, full-service\n- **Meridian Grand Ballroom 2026:** $6,200 (flat from 2025)\n- **Foyer add-on 2026:** $1,400 (up from $1,150 in 2025 — 22% increase)\n\n## Contingency\n- Standard: 5–8% of event subtotal\n- Minimum recommended floor: $1,800–$2,000 for 100-pax corporate event\n- Do not compress below $1,800 without client acknowledgment\n\n## Planner Fee (Rachel Summers Events)\n- Corporate events: $4,800–$6,500 depending on scope and lead time\n- Standard for returning client, full-service: $5,200\n- Always structured as separate line item outside client event budget cap",
+    "outlinks": [
+      "OBSN-4"
+    ],
+    "inlinks": [
+      "OBSN-2"
+    ],
+    "created_at": "2026-02-15T09:00:00-05:00",
+    "last_updated": "2026-02-28T16:00:00-05:00"
+  },
+  {
+    "note_id": "OBSN-6",
+    "title": "Florist Alternatives — Corporate Events",
+    "folder": "Corporate Events/Vendors",
+    "tags": [
+      "floral",
+      "vendors",
+      "corporate",
+      "alternatives",
+      "budget"
+    ],
+    "content": "# Florist Alternatives — Corporate Events\n\n## Context\nBloom & Branch Studio is the primary florist for corporate events. Their 2026 pricing increase (~8% on premium tiers) prompted a review of alternatives for budget-sensitive proposals.\n\n## Primary: Bloom & Branch Studio\n- Contact: Nadia Bloom, nadia@bloomandbranchstudio.example\n- 2025 Veridian actual: $3,800 (stage backdrop, 10 centerpieces, registration, directional signage florals)\n- 2026 base package: $3,800 (held flat — increase only on premium/custom tiers)\n- **Recommendation:** Stick with Bloom & Branch at base package for Veridian 2026. Do not add premium tier add-ons. Saves ~$400 vs. initial 2026 estimate of $4,200.\n\n## Alternative 1: GreenLeaf Studio\n- Contact: Tom Reyes, events@greenleafstudio.example\n- Specialty: Corporate and conference events, minimalist aesthetic\n- Pricing (100 pax corporate, comparable scope): $3,200–$3,600\n- Notes: Used for Hartwell Group event 2024 — solid execution, slightly less lush than Bloom & Branch. Good option if budget requires further compression below $3,800. Lead time: 6 weeks minimum.\n- Risk: Not familiar with Meridian venue layout; would need site visit.\n\n## Alternative 2: Petal & Press\n- Contact: via website only — petal-and-press.example\n- Pricing: $2,800–$3,400 for comparable scope\n- Notes: Newer vendor, limited corporate portfolio. Not recommended for a returning client event where consistency matters.\n\n## Decision Framework\n- If Veridian 2026 budget requires floral below $3,800: use GreenLeaf Studio at $3,400 (saves $400 vs. Bloom & Branch base).\n- If budget allows $3,800: stay with Bloom & Branch for relationship continuity and venue familiarity.\n- Do not use Petal & Press for a client of Veridian's profile.",
+    "outlinks": [
+      "OBSN-5"
+    ],
+    "inlinks": [
+      "OBSN-5"
+    ],
+    "created_at": "2026-02-22T11:30:00-05:00",
+    "last_updated": "2026-02-27T14:00:00-05:00"
+  },
+  {
+    "note_id": "OBSN-7",
+    "title": "Veridian 2026 — Foyer Pivot Decision Log (2026-03-26)",
+    "folder": "Corporate Events/Active",
+    "tags": [
+      "veridian-rfp",
+      "budget-pivot",
+      "decision-log",
+      "meridian"
+    ],
+    "content": "# Veridian 2026 — Foyer Pivot Decision Log\n**Date:** 2026-03-26\n**Anchor event:** Meridian rate card email received (MSG-5010)\n\n## What Changed\nMeridian confirmed foyer add-on at **$1,650** — not $1,400 (modeled in WB-3) and not $1,200 (negotiation target). Rate is firm per venue language. This arrived the morning of 2026-03-26, after the informal budget preview had already been sent to Marcus Chen.\n\n## Execution State at Time of Pivot\n- Budget preview sent: YES (TODO-507 complete) — Marcus has seen a figure near $44,950 (trimmed model) or $47,450 (base model); need to confirm exactly what was shared.\n- Foyer positioned as: solved registration-flow solution for 100-pax layout\n- RFP writing block: EVT-303, days away\n- Open quotes: Harvest Table catering + ClearSignal AV — both still pending as of today\n\n## Cross-Reference Check\n- [[OBSN-1]] Budget Benchmarks: Foyer/pre-function space typically runs $1,200–$1,800 for 100-pax corporate events in this market. $1,650 is within normal range but above the modeled figure.\n- [[OBSN-3]] Venue Research — Meridian: Foyer flagged as 'strongly recommended' for 100-pax registration flow due to main ballroom entry bottleneck. Not flagged as operationally mandatory — note from site visit mentions that a well-staffed single-entry setup with staggered arrival windows can work for groups up to 110 pax. Foyer-free is viable but requires tighter day-of coordination.\n\n## Decision Axes\n| Option | Budget Impact | Operational Risk | Client Relationship Risk |\n|--------|--------------|-----------------|------------------------|\n| A — Drop foyer | -$1,650, lands ~$44,050 | Medium — re-pitch registration layout | Low-Medium — need to re-frame |\n| B — Absorb at $1,650, find cuts | Depends on pending quotes | High — two quotes still open | Low if cuts found cleanly |\n| C — Reset ceiling with Marcus | +$700 ask | Low | Medium — ceiling was a hard parameter |\n\n## Recommendation (Pre-Call)\nLead with Option A in Marcus call/email — frame as a rate confirmation that opens a layout conversation, not a budget failure. Foyer-free is operationally viable per OBSN-3 site notes. If Marcus pushes back on registration flow, offer Option B contingent on pending quotes landing favorably.\n\n## Actions Taken Today\n- MSG-5011: Email sent to Marcus resetting foyer line item, proposing 15-min call\n- TODO-509: Created — foyer decision gate item, due 2026-03-27\n- TODO-510: Updated — negotiation blocked, low priority\n- TODO-511: Created — re-run trim analysis under three scenarios\n- NPAG-7: Created — foyer status change log in Notion RFP working file\n- EVT-307: Decision deadline block added for 2026-03-27 09:00\n- EVT-308: Call slot held with Marcus for 2026-03-27 10:00\n- EVT-303: Pre-block prep note to be added flagging foyer decision as gate item",
+    "outlinks": [
+      "OBSN-1",
+      "OBSN-3"
+    ],
+    "inlinks": [],
+    "created_at": "2026-03-26T15:30:00-05:00",
+    "last_updated": "2026-03-26T15:45:00-05:00"
+  }
+]

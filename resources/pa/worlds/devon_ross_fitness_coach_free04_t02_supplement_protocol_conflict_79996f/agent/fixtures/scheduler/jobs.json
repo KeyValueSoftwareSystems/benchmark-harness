@@ -1,0 +1,176 @@
+[
+  {
+    "job_id": "JOB-701",
+    "name": "weekly_client_checkin_reminder",
+    "description": "Send a weekly reminder to review pending client check-in notes before Friday program design block",
+    "cron_expression": "0 8 * * 5",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_checkin_reminder",
+    "created_by": "Devon Ross",
+    "tags": [
+      "clients",
+      "reminder",
+      "weekly"
+    ],
+    "notes": "Created then removed — decided to handle this manually",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-702",
+    "name": "weekly_client_checkin_reminder",
+    "description": "Send a reminder to review weekly check-in submissions from online clients",
+    "cron_expression": "0 9 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_checkin_review_reminder",
+    "created_by": "devon@devonrossperformance.example",
+    "tags": [
+      "clients",
+      "check-in",
+      "weekly"
+    ],
+    "notes": "Created then removed — decided to handle this manually during Monday morning review",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-703",
+    "name": "weekly_client_checkin_reminder",
+    "description": "Send a reminder to review online client check-in submissions every Monday morning",
+    "cron_expression": "0 7 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_checkin_review_reminder",
+    "created_by": "Devon Ross",
+    "tags": [
+      "clients",
+      "online",
+      "reminder"
+    ],
+    "notes": "Decided this is unnecessary — handled manually during morning review",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-704",
+    "name": "linkedin_content_publish_reminder",
+    "description": "Twice-weekly reminder to draft and publish LinkedIn educational content per Devon's planned 2x/week cadence. Triggers a task prompt and optional draft template push to Notion buffer page.",
+    "cron_expression": "0 9 * * 2,4",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "send_content_reminder_notification",
+    "created_by": "devon@devonrossperformance.example",
+    "tags": [
+      "linkedin",
+      "content-cadence",
+      "marketing"
+    ],
+    "notes": "Created 2026-05-01 alongside content calendar setup. Never enabled — Devon intended to activate after first post went live but did not follow through. Related calendar block EVT-311 created 2026-06-05.",
+    "execution_history": []
+  },
+  {
+    "job_id": "JOB-705",
+    "name": "cohort_participant_checkin_digest",
+    "description": "Weekly digest job that aggregates Trainerize activity for all 12 Spring 2026 cohort participants and surfaces zero-activity flags to Devon's inbox every Monday at 07:00.",
+    "cron_expression": "0 7 * * 1",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "generate_cohort_activity_digest",
+    "created_by": "devon@devonrossperformance.example",
+    "tags": [
+      "cohort",
+      "adherence",
+      "weekly-digest"
+    ],
+    "notes": "Created 2026-05-10 in preparation for cohort launch. Intended to be enabled on kickoff week (May 12). Never activated — likely blocked by venue conflict resolution work consuming that week's admin time. Cohort launch page NPAG-1 references this job by name.",
+    "execution_history": []
+  },
+  {
+    "job_id": "JOB-706",
+    "name": "darnell_shaw_supplement_flag_check",
+    "description": "Pre-programming-cycle check that scans any pending supplement recommendations for Darnell Shaw and blocks delivery if renal contraindication flag is not cleared by physician. Intended as a safety gate before each new block.",
+    "cron_expression": "0 8 1 * *",
+    "enabled": false,
+    "last_status": "never_run",
+    "last_run": null,
+    "action": "check_client_contraindication_flags",
+    "created_by": "devon@devonrossperformance.example",
+    "tags": [
+      "darnell-shaw",
+      "medical-flag",
+      "supplement-safety"
+    ],
+    "notes": "Created 2026-05-17 immediately after the creatine loading interception incident (see OBSN-5). Physician clearance process was never initiated, so the flag in Notion was never formally set. Job left disabled pending clearance — but clearance was never requested.",
+    "execution_history": []
+  },
+  {
+    "job_id": "JOB-707",
+    "name": "weekly_client_checkin_reminder",
+    "description": "Send a weekly prompt to review async client check-in submissions every Monday morning",
+    "cron_expression": "0 7 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_internal_reminder",
+    "created_by": "Devon Ross",
+    "tags": [
+      "clients",
+      "check-in",
+      "weekly"
+    ],
+    "notes": "Decided manual review is fine; automated reminder not needed",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-708",
+    "name": "weekly_client_checkin_reminder",
+    "description": "Send a reminder to review weekly check-in responses from online clients",
+    "cron_expression": "0 9 * * 1",
+    "enabled": false,
+    "last_status": null,
+    "last_run": null,
+    "action": "send_checkin_review_reminder",
+    "created_by": "Devon Ross",
+    "tags": [
+      "clients",
+      "check-in",
+      "weekly"
+    ],
+    "notes": "Decided to handle this manually instead — deleting",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted"
+  },
+  {
+    "job_id": "JOB-709",
+    "name": "weekly_program_reminder",
+    "description": "Send a weekly reminder to online clients to log their session RPE and notes before Sunday midnight",
+    "cron_expression": "0 18 * * 5",
+    "enabled": false,
+    "last_status": "",
+    "last_run": "",
+    "action": "send_client_reminder_notification",
+    "created_by": "devon@devonrossperformance.example",
+    "tags": [
+      "reminder",
+      "clients",
+      "weekly"
+    ],
+    "notes": "Decided this is redundant with the existing automated check-in prompt. Deleted before first run.",
+    "execution_history": [],
+    "_noise": true,
+    "_status": "deleted_scheduled_job"
+  }
+]

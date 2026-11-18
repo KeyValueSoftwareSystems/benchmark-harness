@@ -1,0 +1,14 @@
+{
+  "persona_id": "T21_T06_consolidate_q2_planning_meetings_across",
+  "name": "Jorge Alvarez",
+  "email": "jorge.alvarez@crucible.example",
+  "role": "senior product manager on the platform team",
+  "organization": "Crucible",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "client management",
+    "finance",
+    "scheduling"
+  ],
+  "execution_date": "2026-04-07"
+}

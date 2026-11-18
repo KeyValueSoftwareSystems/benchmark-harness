@@ -1,0 +1,117 @@
+[
+  {
+    "meeting_id": "MTG-7002",
+    "topic": "Prospective Client Intro Call — Nadia Roth (Illustrators Alliance referral)",
+    "host": "mia@mialeeillustation.example",
+    "start_time": "2026-04-22T14:00:00-07:00",
+    "duration_minutes": 45,
+    "join_url": "https://zoom.example/j/94821037465",
+    "passcode": "371049",
+    "status": "scheduled",
+    "participants": [
+      {
+        "email": "mia@mialeeillustation.example",
+        "role": "host",
+        "status": "accepted"
+      },
+      {
+        "email": "nadia.roth@illustratorsalliance.example",
+        "role": "attendee",
+        "status": "accepted"
+      }
+    ],
+    "recordings": [],
+    "created_at": "2026-04-18T15:00:00-07:00",
+    "updated_at": "2026-04-18T15:00:00-07:00"
+  },
+  {
+    "meeting_id": "MTG-7003",
+    "topic": "Greenfield Press — WIP Sketch Review (3 Cover Variations)",
+    "host": "mia@mialeeillustation.example",
+    "start_time": "2026-04-29T13:00:00-07:00",
+    "duration_minutes": 45,
+    "join_url": "https://zoom.example/j/93710284651",
+    "passcode": "482017",
+    "status": "scheduled",
+    "participants": [
+      {
+        "email": "mia@mialeeillustation.example",
+        "role": "host",
+        "status": "accepted"
+      },
+      {
+        "email": "dana.whitfield@greenfieldpress.example",
+        "role": "attendee",
+        "status": "invited"
+      },
+      {
+        "email": "p.nair@greenfieldpress.example",
+        "role": "attendee",
+        "status": "invited"
+      }
+    ],
+    "recordings": [],
+    "created_at": "2026-04-22T12:00:00-07:00",
+    "updated_at": "2026-04-22T12:00:00-07:00"
+  },
+  {
+    "meeting_id": "MTG-7004",
+    "topic": "Greenfield Press — WIP Sketch Review (3 Cover Variations)",
+    "host": "mia@mialeeillustation.example",
+    "start_time": "2026-05-06T11:00:00-07:00",
+    "duration_minutes": 60,
+    "join_url": "https://zoom.example/j/94821037465",
+    "passcode": "GP2026",
+    "status": "scheduled",
+    "participants": [
+      {
+        "email": "mia@mialeeillustation.example",
+        "role": "host",
+        "status": "accepted"
+      },
+      {
+        "email": "dana.whitfield@greenfieldpress.example",
+        "role": "attendee",
+        "status": "accepted"
+      },
+      {
+        "email": "p.nair@greenfieldpress.example",
+        "role": "attendee",
+        "status": "accepted"
+      }
+    ],
+    "recordings": [],
+    "created_at": "2026-04-29T14:00:00-07:00",
+    "updated_at": "2026-05-05T11:00:00-07:00"
+  },
+  {
+    "meeting_id": "MTG-7005",
+    "topic": "Greenfield Press — WIP Sketch Review (3 Cover Variations)",
+    "host": "mia@mialeeillustation.example",
+    "start_time": "2026-05-21T11:00:00-07:00",
+    "duration_minutes": 60,
+    "join_url": "https://zoom.example/j/94827361045",
+    "passcode": "371624",
+    "status": "scheduled",
+    "participants": [
+      {
+        "email": "mia@mialeeillustation.example",
+        "role": "host",
+        "status": "accepted"
+      },
+      {
+        "email": "dana.whitfield@greenfieldpress.example",
+        "role": "attendee",
+        "status": "accepted"
+      },
+      {
+        "email": "p.nair@greenfieldpress.example",
+        "role": "attendee",
+        "status": "accepted"
+      }
+    ],
+    "recordings": [],
+    "created_at": "2026-05-14T16:00:00-07:00",
+    "updated_at": "2026-05-19T10:30:00-07:00"
+  }
+]

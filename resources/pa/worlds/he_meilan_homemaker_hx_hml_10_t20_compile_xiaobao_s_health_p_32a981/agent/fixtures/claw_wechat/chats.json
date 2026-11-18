@@ -1,0 +1,2149 @@
+[
+  {
+    "chat_id": "WCC-0001",
+    "name": "He Family Extended Family",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "He Jianguo (husband)",
+      "He Father",
+      "He Mother",
+      "He Sister"
+    ],
+    "last_message": "Meilan, you must come back for Spring Festival this year, your dad has been talking about it for ages",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Mother",
+        "content": "Meilan, what time are you planning to come back to Sichuan for Spring Festival this year? Your dad and I are thinking of preparing your favorite boiled fish for New Year's Eve dinner",
+        "timestamp": "2026-02-10T19:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "He Father",
+        "content": "Yes, the two kids haven't seen Grandpa and Grandma in ages either. Dabao is already in fourth grade, so he can bring his winter homework back to do here",
+        "timestamp": "2026-02-10T19:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Sister",
+        "content": "Sis, I've already bought my tickets home, arriving on the 28th of the twelfth lunar month and leaving on the 8th of the first lunar month. What about you?",
+        "timestamp": "2026-02-11T14:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "He Meilan",
+        "content": "Mom, Jiangguo and I are still discussing it. Xiaobao is only 3, and long-distance travel is hard on him. Also, Jiangguo's parents want us to go back to Shandong too",
+        "timestamp": "2026-02-11T20:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Mother",
+        "content": "Then once you've decided, please tell us early so I can prepare. If you really have to go to both places, could you spend New Year's Eve at our place?",
+        "timestamp": "2026-02-12T10:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-02-12T10:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0002",
+    "name": "Wang Family",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "He Jianguo (husband)",
+      "Wang Father (father-in-law)",
+      "Wang Mother (mother-in-law)",
+      "Wang Brother (brother-in-law)"
+    ],
+    "last_message": "Meilan, have you booked the flights yet? It'll only get more expensive if you wait",
+    "unread_count": 5,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "6",
+        "sender": "Wang Mother (mother-in-law)",
+        "content": "Jiangguo, Meilan, when are you coming back to Shandong this Spring Festival? I've already had your dad clear out the guest room",
+        "timestamp": "2026-02-09T18:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "He Jianguo (husband)",
+        "content": "Mom, we're still checking flight prices, they're rising sharply during the Spring Festival period",
+        "timestamp": "2026-02-09T21:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Wang Father (father-in-law)",
+        "content": "Never mind the ticket price, you only come back once a year. Dabao and Xiaobao both need to come back, Grandpa and Grandma miss them",
+        "timestamp": "2026-02-10T08:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "Wang Brother (brother-in-law)",
+        "content": "Brother, sister-in-law, I checked, tickets from the 29th of the twelfth month to the 6th of the first month are the most expensive. How about you come on the 27th of the twelfth month instead? You could stay a few extra days",
+        "timestamp": "2026-02-11T16:40:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "Wang Mother (mother-in-law)",
+        "content": "Yes, come early, we'll make dumplings together. Meilan, what have your parents arranged on your side?",
+        "timestamp": "2026-02-12T19:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "11",
+        "sender": "He Meilan",
+        "content": "Mom, my parents also want us to go back. We're trying to find a way to make both sides work",
+        "timestamp": "2026-02-13T10:50:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "12",
+        "sender": "Wang Mother (mother-in-law)",
+        "content": "Meilan, have you booked the flights yet? It'll only get more expensive if you wait. How about coming to Shandong first, and then going to Sichuan?",
+        "timestamp": "2026-02-14T09:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-02-14T09:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0003",
+    "name": "Neighborhood Pet Mutual-Help Group",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Zhang Li",
+      "Liu Ming",
+      "Chen Xiao",
+      "Wang Fei",
+      "Zhao Jing"
+    ],
+    "last_message": "Paid pet boarding during Spring Festival, discounted prices",
+    "unread_count": 12,
+    "muted": true,
+    "messages": [
+      {
+        "message_id": "13",
+        "sender": "Zhang Li",
+        "content": "Is everyone going home for Spring Festival? My cat needs someone to look after it for a few days",
+        "timestamp": "2026-02-08T15:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "14",
+        "sender": "Chen Xiao",
+        "content": "I'm not going home for Spring Festival, so I can help look after pets. Cats and dogs are both fine, 50 yuan a day",
+        "timestamp": "2026-02-08T16:10:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "15",
+        "sender": "He Meilan",
+        "content": "Do you need someone to come to the house or should the pet board with me? I have a cat, and I might need boarding for about 10 days over Spring Festival",
+        "timestamp": "2026-02-13T14:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "16",
+        "sender": "Chen Xiao",
+        "content": "@He Meilan Either option works. If it's boarding, I have a dedicated room at home. Home visits are 60 yuan a day. For 10 days there's a discount: boarding 450 yuan, home visits 550 yuan",
+        "timestamp": "2026-02-13T15:45:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-02-13T15:45:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0004",
+    "name": "He Jianguo (husband)",
+    "type": "private",
+    "members": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "last_message": "I checked, if we go to both places, the budget could go over 8000",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "17",
+        "sender": "He Meilan",
+        "content": "Honey, we need to settle the Spring Festival plans. Both sets of parents are pushing us",
+        "timestamp": "2026-02-12T21:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "18",
+        "sender": "He Jianguo",
+        "content": "I know. I checked the flights, round trip to Chengdu for 3 people is about 4500, and to Jinan round trip is 3800. Going to both places means over 8000 just for flights",
+        "timestamp": "2026-02-12T21:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "19",
+        "sender": "He Meilan",
+        "content": "There's also the gift budget, gifts for both sets of parents and relatives, I estimate 3000-4000. Add 500 for pet boarding, and it could come to 12000 in total",
+        "timestamp": "2026-02-12T22:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "20",
+        "sender": "He Jianguo",
+        "content": "That budget is a bit too much. Also, Dabao's tutoring classes start on the 8th of the first month, so if we go to both places, the schedule would be very tight",
+        "timestamp": "2026-02-12T22:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "21",
+        "sender": "He Meilan",
+        "content": "How about this: New Year's Eve through the 3rd day at your place, and the 4th through the 7th at mine? That way Dabao can get back in time for class on the 8th",
+        "timestamp": "2026-02-13T08:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "22",
+        "sender": "He Jianguo",
+        "content": "We can consider that. But flying from Shandong to Sichuan on the 4th, would the flights be expensive? I'll check tonight",
+        "timestamp": "2026-02-13T08:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "23",
+        "sender": "He Jianguo",
+        "content": "I checked, if we go to both places, the budget could go over 8000. How about we go to my place this year and yours next year?",
+        "timestamp": "2026-02-14T07:50:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-02-14T07:50:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0005",
+    "name": "Grade 4 Class 2 Parents Group",
+    "type": "group",
+    "members": [
+      "hemeilan2026@gmail.example",
+      "parent.wang@qq.example",
+      "parent.li@163.example",
+      "parent.zhao@gmail.example",
+      "parent.sun@qq.example",
+      "chen.fang@elite-edu.example"
+    ],
+    "last_message": "Teacher Chen just confirmed - March 21 is the official deadline!",
+    "unread_count": 8,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "parent.wang@qq.example",
+        "content": "Everyone, I heard from another parent that we need to pay by Wednesday March 19, not Friday! The slots fill up fast!",
+        "timestamp": "2026-01-21T19:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "parent.li@163.example",
+        "content": "Yes! Teacher Chen mentioned it verbally during pickup yesterday. She said the bus company needs final headcount by Wednesday evening.",
+        "timestamp": "2026-01-21T20:02:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "parent.zhao@gmail.example",
+        "content": "Wait, I just checked the school's official WeChat account. Look at this screenshot - it says March 20 is the deadline.",
+        "timestamp": "2026-01-21T20:15:00+08:00",
+        "message_type": "image",
+        "media_url": "wechat://media/school_announcement_screenshot_20260121.jpg"
+      },
+      {
+        "message_id": "4",
+        "sender": "parent.sun@qq.example",
+        "content": "I'm confused now. The email I got from Teacher Chen says Friday March 21. Which one is correct?",
+        "timestamp": "2026-01-21T20:28:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "parent.wang@qq.example",
+        "content": "Better safe than sorry - I'm paying tomorrow (Wednesday) just in case. Don't want my kid to miss out!",
+        "timestamp": "2026-01-21T20:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "parent.li@163.example",
+        "content": "Good idea. The early bird gets the worm. I heard last year some kids couldn't go because parents waited until the last day.",
+        "timestamp": "2026-01-21T20:42:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "Hi everyone, I want to clarify - is the March 19 date something Teacher Chen confirmed officially, or is it just what you heard verbally?",
+        "timestamp": "2026-01-23T21:10:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "chen.fang@elite-edu.example",
+        "content": "Dear parents, I see there's some confusion. The OFFICIAL deadline for payment and consent forms is Friday, March 21, as stated in my email. The March 19 and 20 dates are not accurate. However, I do encourage early payment to help us plan better. Please refer to my official email for all details.",
+        "timestamp": "2026-01-24T08:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-24T08:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0006",
+    "name": "Neighborhood Moms' Parenting Exchange Group",
+    "type": "group",
+    "members": [
+      "hemeilan2026@gmail.example",
+      "mom.zhang@qq.example",
+      "mom.liu@163.example",
+      "mom.chen@gmail.example"
+    ],
+    "last_message": "Anyone know where to buy good quality kids' raincoats?",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "mom.zhang@qq.example",
+        "content": "Anyone know where to buy good quality kids' raincoats? My son's school has a spring outing coming up.",
+        "timestamp": "2026-01-23T15:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "mom.liu@163.example",
+        "content": "Try Decathlon! They have great outdoor gear for kids. Not too expensive either.",
+        "timestamp": "2026-01-23T15:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "mom.chen@gmail.example",
+        "content": "I bought mine on Taobao. Search for 'children's outdoor raincoat' - lots of options under 50 RMB.",
+        "timestamp": "2026-01-23T16:10:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-23T16:10:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0007",
+    "name": "Chen Xiao",
+    "type": "private",
+    "members": [
+      "hemeilan2026",
+      "chenxiao1978"
+    ],
+    "last_message": "Okay Meilan sis, see you then!",
+    "unread_count": 0,
+    "muted": false,
+    "last_updated": "2026-01-28T16:45:00+08:00",
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "hemeilan2026",
+        "content": "Xiao Chen, do your family have any travel plans for Spring Festival?",
+        "timestamp": "2026-01-25T14:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "chenxiao1978",
+        "content": "No, Meilan sis, we're staying in Beijing for New Year this year. My parents are coming to join us. What about you?",
+        "timestamp": "2026-01-25T14:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "hemeilan2026",
+        "content": "We're still going back and forth 😅 We might go back to our hometown",
+        "timestamp": "2026-01-25T14:38:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "chenxiao1978",
+        "content": "Understood, it really isn't easy looking after both sets of elders",
+        "timestamp": "2026-01-25T14:40:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "hemeilan2026",
+        "content": "By the way, how are your orange cat and Mimi doing lately?",
+        "timestamp": "2026-01-28T15:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "chenxiao1978",
+        "content": "They're good! Orange has gotten quite chubby 😂",
+        "timestamp": "2026-01-28T16:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "hemeilan2026",
+        "content": "Haha, ours too. Let's go for a walk together sometime",
+        "timestamp": "2026-01-28T16:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "chenxiao1978",
+        "content": "Okay Meilan sis, see you then!",
+        "timestamp": "2026-01-28T16:45:00+08:00",
+        "message_type": "text"
+      }
+    ]
+  },
+  {
+    "chat_id": "WCC-0008",
+    "name": "Small Class 3 Parents Group",
+    "type": "group",
+    "members": [
+      "hemeilan2026@gmail.example",
+      "zhang.xiaoli@qq.example",
+      "wang.min@163.example",
+      "liu.jing@qq.example",
+      "chen.hua@gmail.example",
+      "zhao.yan@qq.example",
+      "teacher.sun@kindergarten.example"
+    ],
+    "last_message": "Thanks for the heads up about the clinic!",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "teacher.sun@kindergarten.example",
+        "sender_name": "Sun Teacher",
+        "content": "Parents, reminder: Tomorrow is the parent-teacher conference for Group B families (surnames L-Z). Please arrive by 3:30 PM.",
+        "timestamp": "2026-03-19T16:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "zhang.xiaoli@qq.example",
+        "sender_name": "Zhang Xiaoli",
+        "content": "Just FYI - I had an appointment at Community Clinic for my daughter's vaccination next Monday (March 24), but my neighbor who works there told me this morning that they're doing facility maintenance that day. Only emergency services available. She said they're supposed to call everyone to reschedule but the phone system has been down.",
+        "timestamp": "2026-03-20T10:23:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "wang.min@163.example",
+        "sender_name": "Wang Min",
+        "content": "Oh no! I have an appointment there on Monday too! Did they give you a new date?",
+        "timestamp": "2026-03-20T10:26:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "zhang.xiaoli@qq.example",
+        "sender_name": "Zhang Xiaoli",
+        "content": "My neighbor said they're trying to reschedule everyone to Wednesday or Friday. But she mentioned the official email system hasn't been updated yet - typical bureaucracy! I'm just going to call them directly tomorrow to confirm.",
+        "timestamp": "2026-03-20T10:29:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "liu.jing@qq.example",
+        "sender_name": "Liu Jing",
+        "content": "Thanks for sharing! This is so frustrating. I wonder how many people will show up Monday not knowing...",
+        "timestamp": "2026-03-20T10:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "chen.hua@gmail.example",
+        "sender_name": "Chen Hua",
+        "content": "I checked their official WeChat account - no announcement about maintenance. But Zhang Xiaoli's info is usually reliable. Better safe than sorry!",
+        "timestamp": "2026-03-20T11:02:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "zhao.yan@qq.example",
+        "sender_name": "Zhao Yan",
+        "content": "Thanks for the heads up about the clinic!",
+        "timestamp": "2026-03-20T14:18:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-20T14:18:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0009",
+    "name": "Liu Fang",
+    "type": "individual",
+    "members": [
+      "He Meilan",
+      "Liu Fang"
+    ],
+    "last_message": "Okay, it's settled then! I'll pick up Xiaobao next Wednesday",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Fang sis, are you there? I'd like to ask you for a favor",
+        "timestamp": "2026-03-10T14:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Liu Fang",
+        "content": "I'm here! What's up?",
+        "timestamp": "2026-03-10T14:32:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Meilan",
+        "content": "This Wednesday (March 12th) at 5 PM, could you help pick up Xiaobao from swimming class? It's at the community pool. I need to take Dabao to piano at that time, so there's a clash 😅",
+        "timestamp": "2026-03-10T14:33:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Liu Fang",
+        "content": "No problem! I'm going to get my Niuniu that day anyway, so I can pick up Xiaobao as well. Do you want me to take him straight to your place, or bring him to my place to play for a while?",
+        "timestamp": "2026-03-10T14:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Meilan",
+        "content": "That's great! Maybe bring him to your place to play for a bit? I should be able to get there around 5:45 to pick him up. That won't hold you up, will it?",
+        "timestamp": "2026-03-10T14:36:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Liu Fang",
+        "content": "Not at all! The two kids can play together. You don't need to rush, just come before 6 is fine",
+        "timestamp": "2026-03-10T14:37:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "He Meilan",
+        "content": "Thank you! Next week I'll also pick up Niuniu for you once, just tell me whichever day you need",
+        "timestamp": "2026-03-10T14:38:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Liu Fang",
+        "content": "Haha, don't be silly! Helping each other as neighbors is only natural. But if you really want to help, next Thursday I have a prenatal checkup at the hospital, so I might need you to pick up Niuniu for me 😄",
+        "timestamp": "2026-03-10T14:40:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "He Meilan",
+        "content": "No problem! What time next Thursday? I'll note it on my calendar",
+        "timestamp": "2026-03-10T14:41:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "Liu Fang",
+        "content": "4:30 PM, when kindergarten lets out. I might not get home until 5:30",
+        "timestamp": "2026-03-10T14:42:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "11",
+        "sender": "He Meilan",
+        "content": "Okay, it's settled then! I'll pick up Xiaobao next Wednesday",
+        "timestamp": "2026-03-10T14:43:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-10T14:43:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0010",
+    "name": "Chen Xiao",
+    "type": "individual",
+    "members": [
+      "He Meilan",
+      "Chen Xiao"
+    ],
+    "last_message": "No problem, just let me know whenever you need anything!",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Chen Xiao, sorry to bother you~",
+        "timestamp": "2026-03-10T19:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Chen Xiao",
+        "content": "Meilan sis, what's up? 😊",
+        "timestamp": "2026-03-10T19:18:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Meilan",
+        "content": "I wanted to ask you something. This Thursday (March 13th) afternoon Xiaobao has a vaccination at 3:30 at the children's hospital. Then Dabao has a math tutoring class at 4. The timing should work, but I'm worried about lines at the hospital or Xiaobao having a reaction after the shot, which could cause delays",
+        "timestamp": "2026-03-10T19:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "He Meilan",
+        "content": "If I really can't make it in time, could you help pick up Dabao? It's at Elite Education Center, and your son also takes classes there, right?",
+        "timestamp": "2026-03-10T19:21:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "Chen Xiao",
+        "content": "Yes, my Xiaoyu is there too. No problem! I work from home on Thursdays, so my time is flexible. If you can't make it in time, just WeChat me and I'll go pick up Dabao",
+        "timestamp": "2026-03-10T19:23:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "He Meilan",
+        "content": "Thank you so much! I hope it won't be needed, but having you as a backup gives me a lot of peace of mind. I'll try my best to get there",
+        "timestamp": "2026-03-10T19:24:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "Chen Xiao",
+        "content": "Don't mention it! Looking after two kids really isn't easy, I understand completely. I have just one and I can barely keep up 😅",
+        "timestamp": "2026-03-10T19:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "He Meilan",
+        "content": "Haha, we help each other! Anytime you need something, just say so. By the way, one weekend we could bring the two kids out to play together, they're close in age so they should get along",
+        "timestamp": "2026-03-10T19:27:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "Chen Xiao",
+        "content": "Great idea! So this weekend? We could go to the community activity room or the park",
+        "timestamp": "2026-03-10T19:28:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "He Meilan",
+        "content": "My husband is away on a business trip and hasn't come back yet this weekend, so I'm a bit stretched managing two kids alone. How about next weekend? Then the four of us adults can look after the kids together and have a chat",
+        "timestamp": "2026-03-10T19:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "11",
+        "sender": "Chen Xiao",
+        "content": "No problem, just let me know whenever you need anything!",
+        "timestamp": "2026-03-10T19:31:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-10T19:31:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0011",
+    "name": "He Jianguo (husband)",
+    "type": "private",
+    "members": [
+      "He Meilan",
+      "Wang Jianguo"
+    ],
+    "last_message": "Honey, can you call me today? It's urgent",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Honey, I just noticed a serious time conflict on January 29th. Dabao's parent-teacher meeting (2:30-3:15 PM) and Xiaobao's specialist appointment (2:45-3:30) overlap.",
+        "timestamp": "2026-01-27T08:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "He Meilan",
+        "content": "The teacher says Dabao has to attend the parent-teacher meeting, since they'll discuss his declining English grades. I've already paid a 300 yuan non-refundable deposit for Xiaobao's specialist appointment, and the next slot isn't until the end of March.",
+        "timestamp": "2026-01-27T08:01:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Meilan",
+        "content": "Can you take leave on the afternoon of the 29th? Your calendar shows a 2 PM meeting, can it be rescheduled? Or could you go to one of the two?",
+        "timestamp": "2026-01-27T08:02:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "He Meilan",
+        "content": "If you really can't, I'm thinking of having Liu Fang take Xiaobao to the doctor, but I'd still prefer you help out. Both of these matter a lot.",
+        "timestamp": "2026-01-27T08:03:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Meilan",
+        "content": "Honey, can you call me today? It's urgent",
+        "timestamp": "2026-01-27T08:15:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-27T08:15:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0012",
+    "name": "He Jianguo (husband)",
+    "type": "private",
+    "members": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "last_message": "Wife, the Shenzhen project may be pushed to Friday night this week, so I might not be back until then. Can you take the robotics class on Thursday?",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Jianguo",
+        "content": "Next month's business trip schedule is out, I'll send it to you. January 20-24 in Shenzhen, 27-30 in Beijing, and February 3-7 in Guangzhou for that big project, which may take 5 days",
+        "timestamp": "2026-01-15T20:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "He Meilan",
+        "content": "So many trips? 😰 Our eldest's piano class and our second child's swimming class are at the same time on Wednesday, I can't be in two places if you're away",
+        "timestamp": "2026-01-15T20:32:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Jianguo",
+        "content": "Maybe ask whether Liu Fang can help pick up? Or see whether the piano teacher can reschedule the class?",
+        "timestamp": "2026-01-15T20:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "He Meilan",
+        "content": "I'll look at which days in the next few weeks are most in conflict, then set priorities. I may need to contact your mom or my sister two weeks in advance",
+        "timestamp": "2026-01-15T20:40:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Jianguo",
+        "content": "Wife, the Shenzhen project may be pushed to Friday night this week, so I might not be back until then. Can you take the robotics class on Thursday?",
+        "timestamp": "2026-01-22T12:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "He Meilan",
+        "content": "Thursday? Wait, isn't our second child booked for a vaccination on Thursday afternoon? He has to be at the community clinic by 3:30, and robotics starts at 4... There's no way to make that work",
+        "timestamp": "2026-01-22T12:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "He Jianguo",
+        "content": "So what now? Can the vaccine be rescheduled?",
+        "timestamp": "2026-01-22T12:22:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "He Meilan",
+        "content": "The clinic says it has to be done this week, we can't delay any further. I need to find someone to pick up one of them, or also reschedule the piano class to free up some time",
+        "timestamp": "2026-01-22T12:25:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-22T12:25:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0013",
+    "name": "He Meifang (Sister)",
+    "type": "private",
+    "members": [
+      "He Meilan",
+      "He Meifang"
+    ],
+    "last_message": "Sis, can you pick up our eldest next Wednesday? Jianguo has another business trip",
+    "unread_count": 1,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Fangfang, can I ask you something? Could your company let you leave a bit early next Wednesday around 4 PM?",
+        "timestamp": "2026-01-20T19:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "He Meifang",
+        "content": "What's up, sis? Jianguo has another trip?",
+        "timestamp": "2026-01-20T19:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Meilan",
+        "content": "Yes, he's traveling a lot this month. Next Wednesday the eldest has piano at 4:30, and the second has swimming at 5, I can't pick up both by myself",
+        "timestamp": "2026-01-20T19:50:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "He Meifang",
+        "content": "Next Wednesday... let me see if we have any important meetings. Sis, you check whether you can reschedule or get Liu Fang to help, and I'll check my calendar tomorrow and confirm for you",
+        "timestamp": "2026-01-20T20:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Meilan",
+        "content": "Okay, no rush, you check first. I'm also thinking of other options",
+        "timestamp": "2026-01-20T20:05:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-20T20:05:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0014",
+    "name": "He Jianguo (husband)",
+    "type": "private",
+    "members": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "last_message": "Safe travels, call me when you land tomorrow",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Honey, I'm exhausted today. There are a few important decisions I need your input on. I've put together some notes, and I'll analyze them in detail tomorrow morning when I'm in a better state, but there's one fairly urgent matter that needs confirming tonight.",
+        "timestamp": "2026-03-13T21:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "He Meilan",
+        "content": "About Xiaobao's specialist appointment with Dr. Liu Zhenghua:\n\nThe booking window closes tomorrow at 12 noon, and a 300 yuan non-refundable booking deposit is required. But Xiaobao must have no fever for 48 hours before the visit.\n\nI recorded Xiaobao's temperatures for the past three days:\n- March 11: highest 38.1°C, dropping to 37.4°C in the evening\n- March 12: highest 37.4°C, back to normal at 36.9°C in the evening\n- March 13 (today): normal all day, 36.8°C in the morning, 37.0°C at noon, 36.9°C at 6 PM\n\nIf his temperature is still normal when I take it at 10 PM tonight, that would satisfy the 48 hours without fever. The earliest appointment is March 16.\n\nI estimate the chance that Xiaobao stays fever-free is 70-80%, but if we book and he gets a fever, the 300 yuan is wasted. If we don't book, the next booking window may be 2-3 weeks away.\n\nDo you think this risk is acceptable, or is it safer to wait for the next booking window?\n\nPlease reply by 10 AM tomorrow so I can decide whether to book.",
+        "timestamp": "2026-03-13T21:05:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Meilan",
+        "content": "There are two other decisions that aren't urgent, and we can discuss them when you're back:\n\n1. Dabao's English tutoring isn't working well, and I'm considering switching providers (this involves calculating the refund)\n2. We need to compare options for renewing our family insurance\n\nI'll research these two tomorrow morning when I have more energy, and prepare a summary for you.",
+        "timestamp": "2026-03-13T21:08:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-13T21:08:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0015",
+    "name": "He Jianguo (husband)",
+    "type": "individual",
+    "members": [
+      "hemeilan2026@wechat.example",
+      "hejianguo1985@wechat.example"
+    ],
+    "last_message": "Safe travels! Call me when you land.",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "hemeilan2026@wechat.example",
+        "content": "Honey, the school asked today for me to give a presentation at 2 PM about Dabao's learning progress, for school leaders. I'm updating last semester's template, mainly using his recent math score (92), his English tutoring attendance records, and the learning behaviors I've observed over the past two months. Teacher Chen says this is a chance to show the results of home-school cooperation.",
+        "timestamp": "2026-01-11T12:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "hemeilan2026@wechat.example",
+        "content": "Key data points: math score 92, 8th in the grade; English tutoring perfect attendance in December, but his score dropped from 82 to 78; teachers' feedback in the parent group has been very positive (saying he has leadership and empathy). I'll emphasize our family's investment in education (Elite English 8800 yuan, piano 200 yuan a week) to show how much parents value education.",
+        "timestamp": "2026-01-11T12:32:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "hemeilan2026@wechat.example",
+        "content": "There are some data gaps (the latest Chinese and science scores aren't out yet), so I've prepared a verbal explanation that the midterm exams are still in progress. I'll tell you the details of the meeting after it's over. How's your business trip going?",
+        "timestamp": "2026-01-11T12:33:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-11T12:33:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0016",
+    "name": "Small Class 3 Parents Group",
+    "type": "group",
+    "members": [
+      "Teacher Wang",
+      "He Meilan",
+      "Li Xiaohong",
+      "Zhang Mei",
+      "Chen Wei",
+      "Liu Jing",
+      "Wang Fang",
+      "Zhao Min",
+      "Sun Li",
+      "Zhou Yan",
+      "Huang Xin",
+      "Wu Qing",
+      "Xu Hua",
+      "Ma Lin",
+      "Gao Feng"
+    ],
+    "last_message": "Does anyone know if the community clinic is really closed next week?",
+    "unread_count": 8,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Li Xiaohong",
+        "content": "Urgent! I heard the Community Health Clinic is closing for maintenance February 10-15! My daughter's vaccination is scheduled for the 13th. Has anyone else heard about this?",
+        "timestamp": "2026-02-09T19:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Zhang Mei",
+        "content": "Really?? My son also has an appointment on the 14th. Where did you hear this?",
+        "timestamp": "2026-02-09T19:47:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Li Xiaohong",
+        "content": "My neighbor told me. She said her sister works at the clinic and mentioned they're doing equipment upgrades. I'm so worried - should we reschedule?",
+        "timestamp": "2026-02-09T19:50:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Chen Wei",
+        "content": "I just called the clinic but no one answered. It's after hours though. Will try again tomorrow morning.",
+        "timestamp": "2026-02-09T20:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "Liu Jing",
+        "content": "I received a confirmation email from them yesterday for my appointment on the 12th. Nothing mentioned about closure. Maybe it's just a rumor?",
+        "timestamp": "2026-02-09T20:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Zhang Mei",
+        "content": "But what if the rumor is true and they forgot to notify us? Better safe than sorry!",
+        "timestamp": "2026-02-09T20:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "Wang Fang",
+        "content": "I'm confused now. Should we all call to confirm individually?",
+        "timestamp": "2026-02-09T21:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Zhao Min",
+        "content": "Does anyone know if the community clinic is really closed next week?",
+        "timestamp": "2026-02-10T07:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-02-10T07:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0017",
+    "name": "He Jianguo (husband)",
+    "type": "direct",
+    "members": [
+      "He Meilan",
+      "He Jianguo"
+    ],
+    "last_message": "I'll check the budget spreadsheet tonight when I'm back from this client meeting.",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Honey, during Spring Festival every platform is running formula promotions, and I'm researching the best way to buy. We still have over 4000 left in our March budget, for 15 cans of formula plus other supplements. Do you think I should prioritize price or safety? Pinduoduo is cheapest but it's not the official flagship store.",
+        "timestamp": "2026-02-25T11:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "He Jianguo",
+        "content": "Safety first, price second. Xiaobao's formula is not something to risk on fakes. If Pinduoduo isn't officially authorized, forget it, even if it's a few hundred cheaper it isn't worth it. You could ask Dr. Zhao which platforms they recommend?",
+        "timestamp": "2026-02-25T11:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Meilan",
+        "content": "Okay, I'll confirm the authorization first. Also, JD and Tmall come out about the same in price, but the discount rules are different. I'm working out whether buying from two separate platforms could trigger better full-reduction deals. I might need to buy some baby care products to make up the order.",
+        "timestamp": "2026-02-25T11:40:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "He Jianguo",
+        "content": "Whatever you decide, you know these things better than I do. Just remember to stay within budget. The Q1 infant nutrition budget cap is 6000, right? We've already spent around 2000.",
+        "timestamp": "2026-02-25T11:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Meilan",
+        "content": "Right, which is why I'm so stressed. At current prices, 15 cans will likely go over budget. I'm considering buying in two batches: 10 cans now and 5 more in early March using next month's budget. Or reduce to 12 cans, which lasts 4 months.",
+        "timestamp": "2026-02-25T12:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "He Jianguo",
+        "content": "Buying in two batches might mean missing the promotion, right? And logistics are unreliable during Spring Festival. How about this: if we're just slightly over budget, we can move a bit from my discretionary budget. But only if you make sure it's genuine and authorized.",
+        "timestamp": "2026-02-25T12:10:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "He Meilan",
+        "content": "Thanks honey! But I still want to work out all the options first and see whether we can solve this within budget. Douyin has a livestream tonight with an extra coupon, but I'd have to watch for 2 hours. Do you think it's worth it?",
+        "timestamp": "2026-02-25T12:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "He Jianguo",
+        "content": "Two hours is quite long... Tonight you have to pick Dabao up from school and bathe Xiaobao. If the coupon is only 50-100, I think it's better to save the time for other things. Unless you can watch your phone while doing housework?",
+        "timestamp": "2026-02-25T12:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "He Meilan",
+        "content": "You're right. I'll focus on comparing the JD and Tmall options. I'll put together a detailed cost breakdown this afternoon, and when you're back tonight we can look at the final plan together.",
+        "timestamp": "2026-02-25T12:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "He Jianguo",
+        "content": "Okay. I'll check the budget spreadsheet tonight when I'm back from this client meeting.",
+        "timestamp": "2026-02-25T12:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-02-25T12:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0018",
+    "name": "Neighborhood Moms' Parenting Exchange Group",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Liu Fang",
+      "Chen Xiao",
+      "Wang Li",
+      "Zhang Min",
+      "Li Jing",
+      "Zhao Wei"
+    ],
+    "last_message": "Does any mom know how Dr. Liu Zhenghua at the children's hospital is?",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Ladies, can anyone recommend a pediatrician? Xiaobao has had repeated fevers lately and I want to try a different doctor",
+        "timestamp": "2026-02-04T19:15:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Liu Fang",
+        "content": "A colleague recommended Dr. Liu Zhenghua at the city children's hospital. He specializes in fevers and is said to be very thorough",
+        "timestamp": "2026-02-04T19:18:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Zhang Min",
+        "content": "I know Dr. Liu! He treated my second child for pneumonia last year. His manner is excellent and he explains the condition in great detail",
+        "timestamp": "2026-02-04T19:22:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Wang Li",
+        "content": "But Dr. Liu is hard to get an appointment with, you have to book in advance. I waited two weeks last time to get one",
+        "timestamp": "2026-02-04T19:25:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "Chen Xiao",
+        "content": "Dr. Chen Ming at the community health center is good too, and he can do home visits, so you don't have to bring sick kids around",
+        "timestamp": "2026-02-04T19:30:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Li Jing",
+        "content": "I recommend Dr. Zhao Meiling at Sunshine Children's Hospital! I've had both my kids seen by her, she's very experienced",
+        "timestamp": "2026-02-04T19:35:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "He Meilan",
+        "content": "Thanks everyone! I'll look into these doctors first",
+        "timestamp": "2026-02-04T19:40:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Zhao Wei",
+        "content": "[Spring Children's Health Checkup Package] Original price 2800 yuan, now 1400 yuan! Includes a comprehensive exam + expert consultation 👶 [link]",
+        "timestamp": "2026-02-05T10:20:00+08:00",
+        "type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "He Meilan",
+        "content": "Does any mom know how Dr. Liu Zhenghua at the children's hospital is? About how much does the appointment cost?",
+        "timestamp": "2026-02-06T08:30:00+08:00",
+        "type": "text"
+      }
+    ],
+    "last_updated": "2026-02-06T08:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0019",
+    "name": "Neighborhood Swimming Parents Group",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Zhang Wei",
+      "Li Hua",
+      "Wang Min",
+      "Chen Li",
+      "Zhao Jing",
+      "Liu Ming (Coach)"
+    ],
+    "last_message": "Zhang Wei: Coach Liu is really dedicated! My daughter enjoys every lesson now 😊",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "He Meilan",
+        "content": "Hello, moms! I'd like to recommend Coach Liu Ming at City Swim Center. My Xiaobao has been learning with him for two months, and the coach is very patient, with a strong safety awareness. Before every lesson he carefully checks the equipment, and after lessons he gives parents feedback on their child's progress. If you're looking for a swimming coach, consider Coach Liu 👍",
+        "timestamp": "2025-12-18T19:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Zhang Wei",
+        "content": "@He Meilan Thanks for the recommendation! I'm looking for a swimming coach for my daughter. What does Coach Liu charge? About how much for one semester?",
+        "timestamp": "2025-12-18T20:12:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "He Meilan",
+        "content": "@Zhang Wei 2800 yuan for one semester, 16 lessons, one hour each. Good value, and Coach Liu keeps class sizes well controlled, with at most 6 kids per class so he can look after each child.",
+        "timestamp": "2025-12-18T20:28:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Li Hua",
+        "content": "I'd like to know too! My son is 5 and has no background, is that okay?",
+        "timestamp": "2025-12-19T08:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Meilan",
+        "content": "@Li Hua Absolutely! Coach Liu is especially good at teaching kids with no background, he uses games to help them get over their fear of water. My Xiaobao was scared of water at first too, and now he can swim 5 meters on his own 😊",
+        "timestamp": "2025-12-19T09:03:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Zhang Wei",
+        "content": "@He Meilan Great! I've already contacted Coach Liu and I'm going to sign my daughter up for the spring semester. Thanks for the recommendation! 🙏",
+        "timestamp": "2025-12-22T14:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "Wang Min",
+        "content": "@Zhang Wei I'd like to sign up too! Can we go together? Then the kids can get to know each other 😊",
+        "timestamp": "2025-12-22T15:10:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Zhang Wei",
+        "content": "@Wang Min Of course! I've booked the Saturday 3 PM class, you can also book that time slot.",
+        "timestamp": "2025-12-22T15:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "Chen Li",
+        "content": "Seeing everyone recommend Coach Liu, I've signed my son up too! Already paid the 2800 yuan tuition.",
+        "timestamp": "2025-12-28T16:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "Zhang Wei",
+        "content": "Coach Liu is really dedicated! My daughter enjoys every lesson now 😊",
+        "timestamp": "2026-01-11T18:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-11T18:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0020",
+    "name": "Zhang Wei",
+    "type": "individual",
+    "members": [
+      "He Meilan",
+      "Zhang Wei"
+    ],
+    "last_message": "He Meilan: Weiwei, I'd like to talk with you about Coach Liu...",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Zhang Wei",
+        "content": "Meilan, thank you for recommending Coach Liu! My daughter has had two lessons and it's going very well 👍",
+        "timestamp": "2026-01-11T19:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "He Meilan",
+        "content": "That's good! 😊",
+        "timestamp": "2026-01-11T19:20:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-01-11T19:20:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0021",
+    "name": "Grade 4 Parents Swimming Interest Group",
+    "type": "group",
+    "members": [
+      "Zhang Wei",
+      "Liu Fang",
+      "Chen Xiao",
+      "He Meilan",
+      "Wang Min",
+      "Li Hua",
+      "Zhao Jing"
+    ],
+    "last_message": "My child has signed up too, I heard the early-bird price ends on April 3rd",
+    "unread_count": 12,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Zhang Wei",
+        "content": "Has anyone signed their child up for the Aqua Star summer camp? I saw there's an early-bird discount",
+        "timestamp": "2026-03-26T19:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Liu Fang",
+        "content": "I'm considering it! I heard you have to pass a level test before you can register",
+        "timestamp": "2026-03-26T19:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Chen Xiao",
+        "content": "My child took the test last week, the coach says results take about a week",
+        "timestamp": "2026-03-26T19:42:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Wang Min",
+        "content": "The early-bird deadline is April 3rd! I asked at the front desk yesterday, they said the discount is over 800 yuan",
+        "timestamp": "2026-03-27T08:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "Li Hua",
+        "content": "But their website says April 8th? Which one is right?",
+        "timestamp": "2026-03-27T08:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Zhao Jing",
+        "content": "I called and customer service said April 8th is the final deadline, but registering before April 3rd gets extra membership points",
+        "timestamp": "2026-03-27T10:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "Zhang Wei",
+        "content": "Is the deposit refundable? What if my child doesn't pass the test?",
+        "timestamp": "2026-03-27T11:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Wang Min",
+        "content": "The front desk says it's refundable if the child fails the test, but they deduct a 200 yuan handling fee. If you cancel yourself, though, it's not refundable",
+        "timestamp": "2026-03-27T11:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "Liu Fang",
+        "content": "Another parent told me the deposit is 500 yuan, where did you see 1000 yuan?",
+        "timestamp": "2026-03-28T14:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "Chen Xiao",
+        "content": "The official website says a 1000 yuan deposit, maybe the front desk was quoting last year's 500 price?",
+        "timestamp": "2026-03-28T14:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "11",
+        "sender": "Li Hua",
+        "content": "My child has signed up too, I heard the early-bird price ends on April 3rd",
+        "timestamp": "2026-03-29T16:40:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-29T16:40:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0022",
+    "name": "Liu Ting",
+    "type": "individual",
+    "members": [
+      "hemeilan2026@gmail.example",
+      "liuting.music@student.edu.example"
+    ],
+    "last_message": "Okay Sis He, see you then!",
+    "unread_count": 0,
+    "muted": false,
+    "last_updated": "2026-03-15T14:20:00+08:00",
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "Xiao Liu, you're coming to the community event too?",
+        "timestamp": "2026-03-15T14:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "liuting.music@student.edu.example",
+        "content": "Yes, Sis He, my mom asked me to come and help 😊",
+        "timestamp": "2026-03-15T14:17:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "Okay Sis He, see you then!",
+        "timestamp": "2026-03-15T14:20:00+08:00",
+        "message_type": "text"
+      }
+    ]
+  },
+  {
+    "chat_id": "WCC-0023",
+    "name": "Zhang Wei",
+    "type": "private",
+    "members": [
+      "hemeilan2026@gmail.example",
+      "zhangwei2026@qq.example"
+    ],
+    "last_message": "Okay Meilan, I understand every child is different. Take care of Xiaobao first, and we'll keep observing on our end.",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "Zhang Wei, I want to tell you something. Xiaobao hasn't been settling in well at Coach Liu's classes lately, he's been crying hard in the last two lessons and won't get in the water. I'm considering switching him to a different coach.",
+        "timestamp": "2026-03-30T19:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "zhangwei2026@qq.example",
+        "content": "Oh? Is that so? My Niuniu had her first lesson last Saturday and seemed fine. Coach Liu is quite patient.",
+        "timestamp": "2026-03-30T19:47:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "Maybe every child adapts differently. Xiaobao may not be suited to Coach Liu's teaching style. I don't know what to do either, since I'm the one who recommended you to go there in the first place 😓",
+        "timestamp": "2026-03-30T19:50:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "zhangwei2026@qq.example",
+        "content": "Meilan, don't overthink it! Every child really is different, and Xiaobao is only 3, so he may need a longer adjustment period. If you feel it's not a good fit, switch, it's for the child's sake. Things are fine on our end.",
+        "timestamp": "2026-03-30T19:53:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "But the tuition is non-refundable, you know... I feel really bad about it. If I switch coaches now, would it look like I was irresponsible with my earlier recommendation?",
+        "timestamp": "2026-03-30T19:56:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "zhangwei2026@qq.example",
+        "content": "Okay Meilan, I understand every child is different. Take care of Xiaobao first, and we'll keep observing on our end.",
+        "timestamp": "2026-03-30T20:02:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-30T20:02:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0024",
+    "name": "Swimming Course Consultation Group",
+    "type": "group",
+    "members": [
+      "hemeilan2026@gmail.example",
+      "zhangwei2026@qq.example",
+      "lijing888@163.example",
+      "liufang2024@qq.example",
+      "parent4@qq.example",
+      "parent5@163.example"
+    ],
+    "last_message": "Coach Liu definitely has a lot of experience, my child is improving fast!",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "Sisters, does anyone know Coach Liu Ming at AquaKids? I'm considering signing Xiaobao up for his classes.",
+        "timestamp": "2026-03-15T14:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "liufang2024@qq.example",
+        "content": "I know Coach Liu! He's taught a lot of children and has a good reputation. His teaching is fairly systematic and standardized.",
+        "timestamp": "2026-03-15T14:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "That's great! I'm planning to take Xiaobao to try it this weekend. If it works well, I'll recommend it to everyone.",
+        "timestamp": "2026-03-15T14:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "zhangwei2026@qq.example",
+        "content": "@He Meilan Meilan, my Niuniu also wants to learn swimming, can we sign up together?",
+        "timestamp": "2026-03-16T10:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "hemeilan2026@gmail.example",
+        "content": "@Zhang Wei Sure! I tried a lesson with Xiaobao yesterday, and Coach Liu really is quite professional. Let's sign up for the spring class together.",
+        "timestamp": "2026-03-16T10:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "lijing888@163.example",
+        "content": "I'd also like to sign my son up. Could we group-book? More people might mean a discount.",
+        "timestamp": "2026-03-16T15:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "parent4@qq.example",
+        "content": "Coach Liu definitely has a lot of experience, my child is improving fast!",
+        "timestamp": "2026-03-31T16:20:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-31T16:20:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0025",
+    "name": "He Jianguo (husband)",
+    "type": "individual",
+    "members": [
+      "hemeilan",
+      "wangjianguo"
+    ],
+    "last_message": "Baby formula is on special tonight, I've added it to the cart, let's check out tomorrow together",
+    "unread_count": 1,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "wangjianguo",
+        "content": "Honey, I saw at my business hotel that JD has a flash sale on baby formula, 150 yuan a can cheaper than what we usually buy!",
+        "timestamp": "2026-03-31T21:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "wangjianguo",
+        "content": "I've put it in the cart already. Buying 3 cans saves 450, and it also qualifies for the spend 1500 get 100 off promotion. Take a look tomorrow and we can check out together.",
+        "timestamp": "2026-03-31T21:46:30+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "wangjianguo",
+        "content": "The brand is BrightBaby, the reviews are good and lots of people buy it. It ends tonight at 11:59, don't miss it.",
+        "timestamp": "2026-03-31T21:47:15+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "wangjianguo",
+        "content": "I'm flying back tomorrow afternoon, should be home around 7 PM. If you're in a hurry, go ahead and order, it's all the same family account anyway.",
+        "timestamp": "2026-03-31T21:50:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-31T21:50:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0026",
+    "name": "Grade 4 Class 2 Parents Group",
+    "type": "group",
+    "members": [
+      "Teacher Chen Fang",
+      "He Meilan",
+      "Zhang Wei",
+      "Liu Fang",
+      "Wang Xiaohong",
+      "Li Ming",
+      "Chen Xiao",
+      "Zhao Hua",
+      "Sun Li"
+    ],
+    "last_message": "Teacher Chen: Parents, please check your email for important meeting notice.",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Teacher Chen Fang",
+        "content": "Good morning parents! Quick update on this week's activities. The math unit test results are very good overall - our class average improved by 3 points compared to last month. Well done to all students!",
+        "timestamp": "2026-03-27T08:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Zhang Wei",
+        "content": "Teacher Chen, thank you! My daughter said Dabao (He Zihao) helped her understand a difficult geometry problem. Please thank him for being such a helpful classmate!",
+        "timestamp": "2026-03-27T09:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Teacher Chen Fang",
+        "content": "Yes, Dabao is always willing to help his classmates. He has a good understanding of math concepts and explains them patiently. This is exactly the kind of collaborative learning we encourage!",
+        "timestamp": "2026-03-27T09:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Liu Fang",
+        "content": "I noticed the English homework has been more challenging lately. Is this part of preparing for middle school entrance exams?",
+        "timestamp": "2026-03-28T19:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "Teacher Chen Fang",
+        "content": "Yes, we're gradually increasing difficulty to help students prepare for the transition. Some students are adapting well, while others need more support. If your child is struggling, please let me know so we can provide additional guidance.",
+        "timestamp": "2026-03-28T20:10:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Teacher Chen Fang",
+        "content": "Parents, please check your email for an important meeting notice. Some of you will be contacted individually. Thank you for your cooperation!",
+        "timestamp": "2026-04-01T12:05:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-04-01T12:05:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0027",
+    "name": "He Jianguo (husband)",
+    "type": "private",
+    "members": [
+      "hemeilan2026@wechat",
+      "wang.jianguo@wechat"
+    ],
+    "last_message": "I'll check the wellness policy details with HR tomorrow morning and send you the exact reimbursement cap and merchant requirements.",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "hemeilan2026@wechat",
+        "content": "I see Tmall is running a formula promotion and says we can use the company wellness allowance. What's your company's reimbursement policy? Is there a cap?",
+        "timestamp": "2026-03-30T14:50:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "wang.jianguo@wechat",
+        "content": "I think it's a 1500 yuan cap per quarter, and infant nutrition products should be eligible. I'll ask HR tomorrow morning about the merchant requirements and the invoice deadline.",
+        "timestamp": "2026-03-30T15:05:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "hemeilan2026@wechat",
+        "content": "Okay, if it's confirmed we can claim 1500, then Tmall's discount is only 8%, but after the reimbursement we'd only pay 1168 yuan, which is much cheaper than JD's 15% discount (2465 yuan).",
+        "timestamp": "2026-03-30T15:12:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "wang.jianguo@wechat",
+        "content": "Your calculation is right. I'll confirm tomorrow morning and let you know right away. Q1 invoices are due March 31st, so we need to hurry.",
+        "timestamp": "2026-03-30T15:18:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "hemeilan2026@wechat",
+        "content": "There's also a 20% group-buy deal on Pinduoduo, but the seller isn't on Dr. Zhao's authorized list, so I don't dare buy it. Xiaobao's formula safety comes first, we can't risk his health to save a few dollars.",
+        "timestamp": "2026-03-30T15:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "wang.jianguo@wechat",
+        "content": "Yes, that decision is right. The risk of fake formula is too high, it's not worth risking it to save a few hundred.",
+        "timestamp": "2026-03-30T15:28:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "wang.jianguo@wechat",
+        "content": "I'll check the wellness policy details with HR tomorrow morning and send you the exact reimbursement cap and merchant requirements.",
+        "timestamp": "2026-03-30T20:15:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-30T20:15:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0028",
+    "name": "Little Star Kindergarten Small Class Parents Group",
+    "type": "group",
+    "members": [
+      "Zhang Wei",
+      "Liu Mei",
+      "Wang Qiang",
+      "Chen Li",
+      "He Meilan",
+      "Zhao Jing",
+      "Sun Hua",
+      "Li Na",
+      "Teacher Wang"
+    ],
+    "last_message": "Has anyone else had their vaccination appointment cancelled?",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Zhang Wei",
+        "content": "Just got a call from Community Clinic - they cancelled my daughter's vaccination appointment tomorrow. Said the clinic is closed for equipment maintenance this whole week!",
+        "timestamp": "2026-03-31T15:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Liu Mei",
+        "content": "Really? I also have an appointment on Wednesday. Did they say when they'll reopen?",
+        "timestamp": "2026-03-31T15:22:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Zhang Wei",
+        "content": "They said probably next week, but not sure exactly when. They'll call to reschedule.",
+        "timestamp": "2026-03-31T15:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Wang Qiang",
+        "content": "I went there this morning for my son's checkup and they turned me away at the door. There's a maintenance notice posted but no specific dates.",
+        "timestamp": "2026-03-31T15:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "Chen Li",
+        "content": "That's strange. I received an email confirmation yesterday for Wednesday's appointment and it didn't mention any closure.",
+        "timestamp": "2026-03-31T15:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Zhao Jing",
+        "content": "Same here! My appointment email looks valid but now I'm worried about wasting a trip.",
+        "timestamp": "2026-03-31T15:40:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "Liu Mei",
+        "content": "Maybe the email system hasn't updated yet? This happened last year during their renovation too - emails kept going out even though they were closed.",
+        "timestamp": "2026-03-31T15:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Sun Hua",
+        "content": "I'd call them directly to confirm. Better safe than dragging a toddler there for nothing!",
+        "timestamp": "2026-03-31T16:00:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "Teacher Wang",
+        "content": "Parents, I heard from the clinic nurse (she's a parent here too) that there's some confusion. The vaccination department might still be open even though other departments are closed. Best to call and verify your specific appointment.",
+        "timestamp": "2026-03-31T16:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "Li Na",
+        "content": "Has anyone else had their vaccination appointment cancelled?",
+        "timestamp": "2026-03-31T16:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-31T16:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0029",
+    "name": "Neighborhood Moms' Group Buy",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Zhang Wei",
+      "Liu Fang",
+      "Chen Xiao",
+      "Wang Xiaohong",
+      "+15 others"
+    ],
+    "last_message": "Attention everyone! Lots of formula on Pinduoduo is fake, my friend's baby drank it, had an allergy and was hospitalized 😱",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Liu Fang",
+        "content": "Sisters, has anyone bought formula on Pinduoduo for the Spring Festival sale? The prices are so cheap, over 200 less than JD!",
+        "timestamp": "2026-03-29T20:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Zhang Wei",
+        "content": "I bought it once, but the QR code on the can wouldn't scan, something feels off...",
+        "timestamp": "2026-03-29T20:18:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Wang Xiaohong",
+        "content": "Attention everyone! Lots of formula on Pinduoduo is fake, my friend's baby drank it, had an allergy and was hospitalized 😱 The doctors at the children's hospital say they've already seen several cases this quarter, all from people who bought cheap formula",
+        "timestamp": "2026-03-29T20:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Chen Xiao",
+        "content": "Better to buy from the official flagship stores, even if it costs more, it's safer. I only buy from the official Tmall and JD stores. It's not as cheap, but I have peace of mind",
+        "timestamp": "2026-03-29T20:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-29T20:30:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0030",
+    "name": "Neighborhood Moms' Parenting Exchange Group",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Zhang Wei",
+      "Li Hua",
+      "Wang Min",
+      "Chen Jing",
+      "+45 others"
+    ],
+    "last_message": "Zhang Wei: Everyone be careful with Pinduoduo formula deals during Spring Festival! I got burned last year with counterfeit products...",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Zhang Wei",
+        "content": "Everyone be careful with Pinduoduo baby formula deals! Last year during Spring Festival sale, I bought 10 cans of 'NutriGrow' at 480 RMB/can (seemed like great deal). When my daughter started having diarrhea, I checked the cans more carefully - the packaging had subtle differences from hospital pharmacy version. Barcode verification showed they were likely counterfeit. Lost 4,800 RMB and my daughter suffered for 2 weeks. Now I only buy from JD official store or hospital, even if more expensive.",
+        "timestamp": "2026-03-29T20:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Li Hua",
+        "content": "Thanks for the warning! I use JD PLUS membership, the 88 RMB/year fee pays for itself with baby product discounts. Got 5% off on everything plus free fast shipping.",
+        "timestamp": "2026-03-29T20:22:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Wang Min",
+        "content": "Tmall 88VIP is expensive (888 RMB/year) but if you shop across Alibaba platforms (Taobao, Tmall, Ele.me) it's worth it. I calculated I save about 1,500 RMB per year on groceries and baby stuff combined.",
+        "timestamp": "2026-03-29T20:28:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Chen Jing",
+        "content": "Douyin live stream prices look tempting but I don't trust new sellers with my baby's nutrition. Too many fake products on those platforms. Stick to authorized stores only!",
+        "timestamp": "2026-03-29T20:35:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Meilan",
+        "content": "Thank you all for sharing! This is really helpful. I'm planning a bulk purchase for Q2 and will definitely stick to JD or Tmall official stores only. Better safe than sorry when it comes to Xiaobao's health.",
+        "timestamp": "2026-03-29T20:45:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-29T20:45:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0031",
+    "name": "He + Wang Family Spring Festival Dinner Group",
+    "type": "group",
+    "members": [
+      "He Jianguo",
+      "Wang Xiulan",
+      "Liu Meizhen",
+      "He Meilan",
+      "Uncle Wang",
+      "Aunt Liu",
+      "Sister He Meixia"
+    ],
+    "last_message": "That settles it then, seafood hotpot! Does everyone agree?",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Uncle Wang",
+        "content": "For the Spring Festival family dinner, I suggest seafood hotpot! It has a lovely festive atmosphere",
+        "timestamp": "2026-03-28T10:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Aunt Liu",
+        "content": "Good idea! I love seafood hotpot too, and the kids should like it as well",
+        "timestamp": "2026-03-28T10:18:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Sister He Meixia",
+        "content": "Agreed! Seafood hotpot is nutritious, and everyone can cook the vegetables together, it's lively",
+        "timestamp": "2026-03-28T10:22:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Wang Xiulan",
+        "content": "I think seafood hotpot is a good choice too, let's go with that",
+        "timestamp": "2026-03-28T10:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "He Jianguo",
+        "content": "If everyone agrees, I have no objection. Meilan, what do you think?",
+        "timestamp": "2026-03-28T10:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Liu Meizhen",
+        "content": "That settles it then, seafood hotpot! Does everyone agree?",
+        "timestamp": "2026-03-28T10:35:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-28T10:35:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0032",
+    "name": "Community Group Buy Deals Group",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Zhang Wei",
+      "Li Hua",
+      "Wang Qing",
+      "Group Admin"
+    ],
+    "last_message": "Today's special: imported milk, buy two get one free!",
+    "unread_count": 5,
+    "muted": true,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Group Admin",
+        "content": "Today's special: imported milk, buy two get one free!",
+        "timestamp": "2026-03-28T09:00:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-28T09:00:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0033",
+    "name": "Neighborhood Moms' Parenting Exchange Group",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Zhang Wei",
+      "Liu Fang",
+      "Chen Xiao",
+      "Wang Xiaohong",
+      "Li Jing",
+      "Zhao Min",
+      "Sun Ying"
+    ],
+    "last_message": "Be very careful with Pinduoduo formula sellers during Spring Festival sales!",
+    "unread_count": 3,
+    "muted": false,
+    "messages": [
+      {
+        "message_id": "1",
+        "sender": "Li Jing",
+        "content": "Sisters, has anyone bought NutriGrow formula from the Pinduoduo group buy? The price is amazing - 399 per can!",
+        "timestamp": "2026-03-30T19:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "2",
+        "sender": "Zhao Min",
+        "content": "I joined that group last week! Already received 6 cans. Packaging looks identical to the ones from JD. Saved over 1000 RMB! 😊",
+        "timestamp": "2026-03-30T19:47:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "3",
+        "sender": "Wang Xiaohong",
+        "content": "Wait, be careful! My cousin's baby had a severe allergic reaction to 'NutriGrow' from Pinduoduo last month. Turned out to be counterfeit - the batch number didn't verify in the official system. She's still dealing with the hospital bills. 😰",
+        "timestamp": "2026-03-30T20:12:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "4",
+        "sender": "Zhao Min",
+        "content": "Oh no! How can you tell if it's fake? Mine has QR codes...",
+        "timestamp": "2026-03-30T20:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "5",
+        "sender": "Wang Xiaohong",
+        "content": "Fake ones can have QR codes too! You need to scan it through the official NutriGrow WeChat mini-program, not just any random QR scanner. My cousin's showed 'batch number not found' when she checked after the reaction. The Pinduoduo seller refused refund because she'd opened 2 cans already.",
+        "timestamp": "2026-03-30T20:18:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "6",
+        "sender": "Liu Fang",
+        "content": "This is scary! I almost joined that group buy yesterday. The 'limited time' pressure made me want to rush. Good thing I waited.",
+        "timestamp": "2026-03-30T20:25:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "7",
+        "sender": "Chen Xiao",
+        "content": "I asked my pediatrician about this. She said during Spring Festival sales, counterfeit baby products spike because sellers know parents are trying to save money on bulk purchases. She only recommends official flagship stores on JD or Tmall - the ones with blue 'Official' badges.",
+        "timestamp": "2026-03-30T20:42:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "8",
+        "sender": "Zhang Wei",
+        "content": "But official stores are so expensive! 580 per can vs 399 - that's almost 200 RMB difference. For 15 cans that's 3000 RMB savings! 😭",
+        "timestamp": "2026-03-30T20:55:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "9",
+        "sender": "Wang Xiaohong",
+        "content": "My cousin's hospital bill was 8000 RMB for the allergic reaction treatment. Plus the emotional trauma of seeing her baby suffer. Not worth any savings. 😢",
+        "timestamp": "2026-03-30T21:02:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "message_id": "10",
+        "sender": "Chen Xiao",
+        "content": "Exactly. My doctor said if the price is more than 15% below official retail (580 RMB), it's a major red flag. 399 is 31% below - way too suspicious.",
+        "timestamp": "2026-03-30T21:08:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-30T21:08:00+08:00"
+  },
+  {
+    "chat_id": "WCC-0034",
+    "name": "Small Class 3 Parents Group",
+    "type": "group",
+    "members": [
+      "He Meilan",
+      "Wang Xiaohong (Nurse)",
+      "Teacher Liu",
+      "Parent_Zhang",
+      "Parent_Li",
+      "Parent_Chen",
+      "Parent_Zhao",
+      "Parent_Sun"
+    ],
+    "last_message": "Nurse Wang: Parents please note, several children in the class have recently shown rash symptoms, please keep an eye on your children's health at home",
+    "unread_count": 0,
+    "muted": false,
+    "messages": [
+      {
+        "sender": "Wang Xiaohong (Nurse)",
+        "content": "Good afternoon parents, this afternoon little Xiaobao He had a mild rash and fussiness during nap time, with a normal temperature of 37.2°C. We have informed the parents to pick him up early. Please keep an eye on whether your own children show similar symptoms in the coming days. If so, seek medical care promptly and let the kindergarten know. Thank you for your cooperation!",
+        "timestamp": "2026-03-26T15:45:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "sender": "He Meilan",
+        "content": "Hello Nurse Wang, I'm Xiaobao's mom. Xiaobao still has the rash after coming home, and this evening he started running a slight fever. I've booked a specialist at the children's hospital for April 2nd. May I ask whether any other children in the class have had similar symptoms?",
+        "timestamp": "2026-03-28T20:30:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "sender": "Wang Xiaohong (Nurse)",
+        "content": "@He Meilan Right now only Xiaobao has this, it's not a group issue. It could be an individual allergy or another cause, and I'd suggest taking him to a doctor for a detailed check. Once Xiaobao recovers, he will need a doctor's certificate before returning to school. Wishing Xiaobao a speedy recovery!",
+        "timestamp": "2026-03-28T21:15:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "sender": "Parent_Zhang",
+        "content": "Mrs. He, my child had something similar before, and we later found it was a formula allergy. Have you changed formula recently?",
+        "timestamp": "2026-03-29T09:20:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "sender": "He Meilan",
+        "content": "@Mrs. Zhang Yes! We switched to a new formula at the end of February (NutriGrow HA Pro). Since switching, he's had three fevers this month, which never happened so often before. I'm torn about whether to switch back, but I've forgotten the brand name of the old formula 😓",
+        "timestamp": "2026-03-29T10:05:00+08:00",
+        "message_type": "text"
+      },
+      {
+        "sender": "Parent_Zhang",
+        "content": "That's very likely the formula! When my child kept running fevers after switching formula, the doctor said it was protein allergy. I'd suggest stopping the new formula right away and seeing whether the symptoms improve. We switched to BabyComfort Sensitive then, which is designed for allergy-prone kids, and it worked well.",
+        "timestamp": "2026-03-29T10:30:00+08:00",
+        "message_type": "text"
+      }
+    ],
+    "last_updated": "2026-03-29T10:30:00+08:00"
+  }
+]

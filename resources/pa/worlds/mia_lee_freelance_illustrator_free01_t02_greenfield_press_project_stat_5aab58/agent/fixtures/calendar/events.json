@@ -1,0 +1,1370 @@
+[
+  {
+    "event_id": "EVT-301",
+    "title": "⚠️ DEADLINE: Artboard Collective Final Payment Due — All 3 Bundles",
+    "start_time": "2026-05-02T09:00:00-07:00",
+    "end_time": "2026-05-02T09:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-302",
+    "title": "Reminder: Artboard Collective final payment closes in 24 hrs — confirm price-match or pay",
+    "start_time": "2026-05-01T09:00:00-07:00",
+    "end_time": "2026-05-01T09:15:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-303",
+    "title": "AC Price-Match Follow-Up Check — reply expected by today",
+    "start_time": "2026-04-28T10:00:00-07:00",
+    "end_time": "2026-04-28T10:20:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-304",
+    "title": "CreativePro Flash Deal Expiry — Editorial Photo Ref Library (last chance to switch)",
+    "start_time": "2026-04-25T17:00:00-07:00",
+    "end_time": "2026-04-25T17:15:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-305",
+    "title": "Review Artboard Collective price-match reply — act or escalate",
+    "start_time": "2026-04-18T10:00:00-07:00",
+    "end_time": "2026-04-18T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-306",
+    "title": "Admin: Scan open loops — todos without calendar blocks (weekly check)",
+    "start_time": "2026-04-20T10:00:00-07:00",
+    "end_time": "2026-04-20T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-307",
+    "title": "⚠️ Greenfield Press contract reply deadline — follow up or escalate to call",
+    "start_time": "2026-04-25T10:00:00-07:00",
+    "end_time": "2026-04-25T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-308",
+    "title": "DEADLINE: Greenfield Press signed contract must be in place",
+    "start_time": "2026-04-28T10:00:00-07:00",
+    "end_time": "2026-04-28T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-309",
+    "title": "🎨 HARD DEADLINE: Greenfield Press — 3 Cover Finals Due",
+    "start_time": "2026-05-12T10:00:00-07:00",
+    "end_time": "2026-05-12T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-310",
+    "title": "Admin: Review outstanding invoices > 30 days (~$8,400)",
+    "start_time": "2026-04-28T11:00:00-07:00",
+    "end_time": "2026-04-28T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-311",
+    "title": "⚠️ Greenfield Press — Check Dana reply on interim payment checkpoint (do not advance to finals)",
+    "start_time": "2026-03-28T10:00:00-07:00",
+    "end_time": "2026-03-28T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-312",
+    "title": "Sketch Review — Greenfield Press 3 Cover Variations (send to Dana Whitfield)",
+    "start_time": "2026-03-28T14:00:00-07:00",
+    "end_time": "2026-03-28T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Remote / Email",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-313",
+    "title": "🚚 DECISION DUE: Greenfield Press — Rush vs. Standard Shipping (confirm by EOD)",
+    "start_time": "2026-05-02T16:00:00-07:00",
+    "end_time": "2026-05-02T16:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-314",
+    "title": "📦 Ship Greenfield Press physical proofs (drop-off window closes ~6–8 PM)",
+    "start_time": "2026-05-08T14:00:00-07:00",
+    "end_time": "2026-05-08T17:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "FedEx Office — nearest drop-off location",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-315",
+    "title": "Admin: Reconcile Greenfield shipping expense in finance records",
+    "start_time": "2026-05-11T10:00:00-07:00",
+    "end_time": "2026-05-11T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-316",
+    "title": "🔴 HARD DEADLINE: Meridian Magazine — March Issue Editorial Finals Due (5pm PT)",
+    "start_time": "2026-02-24T17:00:00-08:00",
+    "end_time": "2026-02-24T17:30:00-08:00",
+    "attendees": [],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-317",
+    "title": "⚠️ REVISED DEADLINE: Harbor Press Spring Cover + Spot Illo Finals (noon PT) — COLLISION WITH MERIDIAN WINDOW",
+    "start_time": "2026-02-25T12:00:00-08:00",
+    "end_time": "2026-02-25T12:30:00-08:00",
+    "attendees": [],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-318",
+    "title": "Illustration Work Block — Harbor Press Spring Cover (deep work, no interruptions)",
+    "start_time": "2026-02-19T10:00:00-08:00",
+    "end_time": "2026-02-19T16:00:00-08:00",
+    "attendees": [],
+    "location": "Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-319",
+    "title": "Admin: Meridian + Harbor Press Conflict Resolution — Draft Outreach + Update Client Logs",
+    "start_time": "2026-02-16T10:00:00-08:00",
+    "end_time": "2026-02-16T12:00:00-08:00",
+    "attendees": [],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-320",
+    "title": "🎨 HARD DEADLINE: Greenfield Press — 3 Cover Finals Due",
+    "start_time": "2026-06-08T10:00:00-07:00",
+    "end_time": "2026-06-08T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-321",
+    "title": "FedEx Drop-Off Window — Greenfield Press Print Proofs",
+    "start_time": "2026-06-08T13:00:00-07:00",
+    "end_time": "2026-06-08T14:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "FedEx Ship Center, 2nd Ave",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-322",
+    "title": "Admin: Review outstanding invoices > 30 days (~$8,400)",
+    "start_time": "2026-06-08T15:00:00-07:00",
+    "end_time": "2026-06-08T16:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-323",
+    "title": "Q2 Estimated Tax — Final Prep & Filing Block",
+    "start_time": "2026-06-10T10:00:00-07:00",
+    "end_time": "2026-06-10T13:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-324",
+    "title": "Check-In Call: Dana Whitfield — Greenfield Press Cover Review",
+    "start_time": "2026-06-11T11:00:00-07:00",
+    "end_time": "2026-06-11T11:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-325",
+    "title": "⚠️ TAX DEADLINE: Q2 Estimated Payment Due — IRS",
+    "start_time": "2026-06-15T10:00:00-07:00",
+    "end_time": "2026-06-15T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-326",
+    "title": "Admin Day — Invoicing, Follow-Ups & Weekly Planning",
+    "start_time": "2026-04-13T10:00:00-07:00",
+    "end_time": "2026-04-13T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-327",
+    "title": "🎨 Deep Work — Greenfield Press Cover Finals (Variation 1 & 2)",
+    "start_time": "2026-04-14T10:00:00-07:00",
+    "end_time": "2026-04-14T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-328",
+    "title": "Coastline Quarterly — Cover Brief Review Call (Rosa Santos)",
+    "start_time": "2026-04-15T14:00:00-07:00",
+    "end_time": "2026-04-15T14:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "r.santos@coastlinequarterly.example"
+    ],
+    "location": "Zoom / Phone",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-329",
+    "title": "Admin: Thursday Invoicing Block — Outstanding Invoice Follow-Up",
+    "start_time": "2026-04-16T10:00:00-07:00",
+    "end_time": "2026-04-16T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-330",
+    "title": "Weekly Priority Triage — Compile Ranked Action List",
+    "start_time": "2026-03-30T10:00:00-07:00",
+    "end_time": "2026-03-30T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-331",
+    "title": "🎨 Greenfield Press — Cover Variation Work Block (V1 sketch)",
+    "start_time": "2026-04-01T10:00:00-07:00",
+    "end_time": "2026-04-01T14:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-332",
+    "title": "Admin: Outstanding Invoice Follow-Up Calls (4 clients)",
+    "start_time": "2026-03-31T10:00:00-07:00",
+    "end_time": "2026-03-31T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-333",
+    "title": "Coastline Quarterly — April spot illo color palette reply",
+    "start_time": "2026-04-02T13:00:00-07:00",
+    "end_time": "2026-04-02T13:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "r.santos@coastlinequarterly.example"
+    ],
+    "location": "Remote",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-334",
+    "title": "Admin: Scheduler Consolidation — disable old duplicate jobs (JOB-701–706, JOB-708)",
+    "start_time": "2026-06-15T10:00:00-07:00",
+    "end_time": "2026-06-15T10:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-335",
+    "title": "Social Post — Facebook + LinkedIn (Greenfield Press cover WIP)",
+    "start_time": "2026-06-13T15:00:00-07:00",
+    "end_time": "2026-06-13T15:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-336",
+    "title": "🧾 Q2 Tax Estimate — Dependency Mapping Session",
+    "start_time": "2026-04-07T10:00:00-07:00",
+    "end_time": "2026-04-07T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-337",
+    "title": "WB-1 / WB-2 Reconciliation — Fix Keying Errors (TODO-544)",
+    "start_time": "2026-04-08T10:00:00-07:00",
+    "end_time": "2026-04-08T12:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-338",
+    "title": "Log Blick Receipt + Reconcile TXN-6025 in WB-1 (TODO-546)",
+    "start_time": "2026-04-08T13:00:00-07:00",
+    "end_time": "2026-04-08T14:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-339",
+    "title": "⚠️ Q2 Tax Estimate — Overdue Invoice Decision Gate (count as income?)",
+    "start_time": "2026-04-14T10:00:00-07:00",
+    "end_time": "2026-04-14T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-340",
+    "title": "Q2 Income Summary — Final Tally + Draft Estimated Payment (EVT-323 prep)",
+    "start_time": "2026-06-09T10:00:00-07:00",
+    "end_time": "2026-06-09T13:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-341",
+    "title": "💰 CASH FLOW TRIAGE: Sequence AC payment, supplies reimbursement, Pressline Tranche 2, Q2 tax reserve",
+    "start_time": "2026-05-23T10:00:00-07:00",
+    "end_time": "2026-05-23T11:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-342",
+    "title": "Admin: Confirm Greenfield deposit cleared — release Pressline Tranche 2 decision",
+    "start_time": "2026-05-26T10:00:00-07:00",
+    "end_time": "2026-05-26T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-343",
+    "title": "⚠️ Q2 Estimated Tax Payment Due — IRS deadline",
+    "start_time": "2026-06-15T09:00:00-07:00",
+    "end_time": "2026-06-15T09:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-344",
+    "title": "Admin: Finalize Q2 income summary — attach real dollar figure to TXN-6026 tax placeholder",
+    "start_time": "2026-06-01T10:00:00-07:00",
+    "end_time": "2026-06-01T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-345",
+    "title": "⚠️ Pressline Tranche 2 Decision Deadline — Review before committing $480",
+    "start_time": "2026-05-21T10:00:00-07:00",
+    "end_time": "2026-05-21T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-346",
+    "title": "Admin: Pressline Tranche 2 — Final go/no-go (90-day window closes ~Jun 16)",
+    "start_time": "2026-06-02T10:00:00-07:00",
+    "end_time": "2026-06-02T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-347",
+    "title": "Invoice Collections Check — confirm cash position before any discretionary spend",
+    "start_time": "2026-05-26T10:00:00-07:00",
+    "end_time": "2026-05-26T10:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-348",
+    "title": "🚨 Greenfield Press — Scope Change Email Received — Review & Respond",
+    "start_time": "2026-05-09T13:00:00-07:00",
+    "end_time": "2026-05-09T14:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Studio / Home Office",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-349",
+    "title": "Greenfield Press — Tight Sketches Delivery (all 3 covers)",
+    "start_time": "2026-05-05T16:00:00-07:00",
+    "end_time": "2026-05-05T17:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Remote / Email Delivery",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-350",
+    "title": "Block: Greenfield Press Finals — Color + Render (Cover 1 & 2)",
+    "start_time": "2026-05-10T10:00:00-07:00",
+    "end_time": "2026-05-10T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-351",
+    "title": "Block: Greenfield Press Finals — Color + Render (Cover 3) + File Prep",
+    "start_time": "2026-05-11T10:00:00-07:00",
+    "end_time": "2026-05-11T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-352",
+    "title": "Coastline Quarterly — Cover Brief Review Call (Rosa Santos)",
+    "start_time": "2026-06-02T11:00:00-07:00",
+    "end_time": "2026-06-02T11:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "r.santos@coastlinequarterly.example"
+    ],
+    "location": "Zoom: https://meet.zoom.example/j/94821057364",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-353",
+    "title": "⏰ REMINDER: Rosa Santos — Send Color Palette PDF + Cover Template (deadline TODAY EOD ET)",
+    "start_time": "2026-06-05T09:00:00-07:00",
+    "end_time": "2026-06-05T09:15:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-354",
+    "title": "🎨 DEADLINE: Coastline Quarterly — 2 Sketch Concepts Due to Rosa Santos",
+    "start_time": "2026-06-10T17:00:00-07:00",
+    "end_time": "2026-06-10T17:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-355",
+    "title": "💰 Send Invoice — Coastline Quarterly $2,400 (after sketch approval)",
+    "start_time": "2026-06-12T10:00:00-07:00",
+    "end_time": "2026-06-12T10:15:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-356",
+    "title": "🎨 HARD DEADLINE: Coastline Quarterly — Final Illustration Due (print-ready, 300dpi, CMYK)",
+    "start_time": "2026-06-25T17:00:00-07:00",
+    "end_time": "2026-06-25T17:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-357",
+    "title": "⚠️ HOLD: Harlow & Vane onboarding — DO NOT proceed until countersigned contract received",
+    "start_time": "2026-03-06T10:00:00-08:00",
+    "end_time": "2026-03-06T10:30:00-08:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-358",
+    "title": "Follow up: H&V contracts — rights clause counter-proposal response deadline",
+    "start_time": "2026-03-07T10:00:00-08:00",
+    "end_time": "2026-03-07T10:30:00-08:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-359",
+    "title": "Greenfield Press — Scope Resolution Call (Dana Whitfield)",
+    "start_time": "2026-04-24T11:00:00-07:00",
+    "end_time": "2026-04-24T11:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Video call (link TBD from Dana's invite)",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-360",
+    "title": "⚠️ CONFLICT FLAG: Greenfield Press 4th variation add-on — decision deadline",
+    "start_time": "2026-04-25T10:00:00-07:00",
+    "end_time": "2026-04-25T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-361",
+    "title": "⚠️ DEADLINE: Finalize Greenfield Press Invoice — Ship by EOD",
+    "start_time": "2026-04-22T10:00:00-07:00",
+    "end_time": "2026-04-22T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-362",
+    "title": "Greenfield Press — Reimbursement Cap Confirmation Deadline (Dana reply expected)",
+    "start_time": "2026-04-24T10:00:00-07:00",
+    "end_time": "2026-04-24T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-363",
+    "title": "Admin: Greenfield Press Invoice Send — confirm no calendar conflicts",
+    "start_time": "2026-04-22T14:00:00-07:00",
+    "end_time": "2026-04-22T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-364",
+    "title": "Admin: Q2 Tax Estimate Prep — gather receipts & income summary",
+    "start_time": "2026-04-28T10:00:00-07:00",
+    "end_time": "2026-04-28T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-365",
+    "title": "🗓️ Admin Day — invoices, email triage, tax prep",
+    "start_time": "2026-04-20T10:00:00-07:00",
+    "end_time": "2026-04-20T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-366",
+    "title": "Prospective Client Intro Call — Nadia Roth (Illustrators Alliance referral)",
+    "start_time": "2026-04-22T14:00:00-07:00",
+    "end_time": "2026-04-22T14:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "nadia.roth@illustratorsalliance.example"
+    ],
+    "location": "Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-367",
+    "title": "Greenfield Press — WIP Sketch Review Call (tentative, Dana/Priya)",
+    "start_time": "2026-04-29T13:00:00-07:00",
+    "end_time": "2026-04-29T13:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example",
+      "p.nair@greenfieldpress.example"
+    ],
+    "location": "Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-368",
+    "title": "Meridian Magazine — Sketch Review Deadline (send by EOD)",
+    "start_time": "2026-04-30T17:00:00-07:00",
+    "end_time": "2026-04-30T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-369",
+    "title": "🎨 HARD DEADLINE: Meridian Magazine — Final Art Due",
+    "start_time": "2026-05-08T18:00:00-07:00",
+    "end_time": "2026-05-08T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-370",
+    "title": "Focus Block — Greenfield Press Cover Work (Variation 1 & 2)",
+    "start_time": "2026-04-23T10:00:00-07:00",
+    "end_time": "2026-04-23T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-371",
+    "title": "Focus Block — Greenfield Press Cover Work (Variation 3)",
+    "start_time": "2026-04-24T10:00:00-07:00",
+    "end_time": "2026-04-24T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-372",
+    "title": "Admin: Follow up on overdue invoices > 30 days",
+    "start_time": "2026-04-25T10:00:00-07:00",
+    "end_time": "2026-04-25T11:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-373",
+    "title": "Coastline Quarterly — Cover Brief Expected (now delayed to May 5)",
+    "start_time": "2026-04-25T10:00:00-07:00",
+    "end_time": "2026-04-25T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-374",
+    "title": "🎨 HARD DEADLINE: Greenfield Press — 3 Cover Finals Due",
+    "start_time": "2026-05-12T10:00:00-07:00",
+    "end_time": "2026-05-12T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-375",
+    "title": "Coastline Quarterly — Sketch Delivery Deadline (2 options due)",
+    "start_time": "2026-04-30T10:00:00-07:00",
+    "end_time": "2026-04-30T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-376",
+    "title": "Admin: Active Project Status Digest — Monday Briefing",
+    "start_time": "2026-04-27T10:00:00-07:00",
+    "end_time": "2026-04-27T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-377",
+    "title": "Harbor Press Books — Finals Deadline (post-scope-expansion)",
+    "start_time": "2026-05-28T10:00:00-07:00",
+    "end_time": "2026-05-28T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-378",
+    "title": "⚠️ Harlow & Vane — Contract Response Expected (escalate if no reply)",
+    "start_time": "2026-04-25T10:00:00-07:00",
+    "end_time": "2026-04-25T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-379",
+    "title": "Q2 Tax Estimate — Filing Deadline",
+    "start_time": "2026-06-15T10:00:00-07:00",
+    "end_time": "2026-06-15T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-380",
+    "title": "⚠️ VENDOR DEADLINE: Colorphase Supply — $1,240 Final Payment Due",
+    "start_time": "2026-05-09T09:00:00-07:00",
+    "end_time": "2026-05-09T09:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-381",
+    "title": "Pressline Studio Tranche 2 Rate-Lock Claimed Expiry — Verify Before Paying",
+    "start_time": "2026-05-10T10:00:00-07:00",
+    "end_time": "2026-05-10T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-382",
+    "title": "Admin: Q2 Cash-Flow Sequencing — Map All Demands vs. Confirmed Inflows",
+    "start_time": "2026-05-06T10:00:00-07:00",
+    "end_time": "2026-05-06T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-383",
+    "title": "⚠️ IRS Q2 Estimated Tax Payment Due — Hard Legal Deadline",
+    "start_time": "2026-06-15T09:00:00-07:00",
+    "end_time": "2026-06-15T10:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-384",
+    "title": "🎨 HARD DEADLINE: Greenfield Press — 3 Cover Finals Due",
+    "start_time": "2026-05-12T09:00:00-07:00",
+    "end_time": "2026-05-12T10:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-385",
+    "title": "Deep Work: Greenfield Press — Cover Finals Export (all 3 files)",
+    "start_time": "2026-05-07T10:00:00-07:00",
+    "end_time": "2026-05-07T14:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-386",
+    "title": "Deep Work: Greenfield Press — Proof Print + Package for Shipping",
+    "start_time": "2026-05-08T10:00:00-07:00",
+    "end_time": "2026-05-08T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-387",
+    "title": "Admin: Greenfield Press — Finalize Invoice + Notion Log Update",
+    "start_time": "2026-05-11T10:00:00-07:00",
+    "end_time": "2026-05-11T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-388",
+    "title": "FedEx Drop-Off — Greenfield Press Physical Proof",
+    "start_time": "2026-05-08T13:00:00-07:00",
+    "end_time": "2026-05-08T13:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "FedEx — 1234 Sunset Blvd, Los Angeles CA",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-389",
+    "title": "Admin Block — Weekly open-loop review (Greenfield delivery week)",
+    "start_time": "2026-05-11T09:00:00-07:00",
+    "end_time": "2026-05-11T10:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-390",
+    "title": "Greenfield Press — WIP Sketch Review (3 Cover Variations)",
+    "start_time": "2026-05-06T11:00:00-07:00",
+    "end_time": "2026-05-06T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example",
+      "p.nair@greenfieldpress.example"
+    ],
+    "location": "Zoom — link in MTG-7004",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-391",
+    "title": "🎨 HARD DEADLINE: Greenfield Press — 3 Cover Finals Due",
+    "start_time": "2026-05-12T09:00:00-07:00",
+    "end_time": "2026-05-12T09:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-392",
+    "title": "Work block — Greenfield Press Cover C rework (paper texture figure concept)",
+    "start_time": "2026-05-07T10:00:00-07:00",
+    "end_time": "2026-05-07T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-393",
+    "title": "Admin: Greenfield Press contract addendum follow-up (4th cover add-on countersignature)",
+    "start_time": "2026-05-04T10:00:00-07:00",
+    "end_time": "2026-05-04T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-394",
+    "title": "🎨 HARD DEADLINE: Greenfield Press — 3 Cover Finals Due (FedEx drop-off by 3 PM)",
+    "start_time": "2026-05-12T10:00:00-07:00",
+    "end_time": "2026-05-12T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Studio / FedEx Drop-Off",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-395",
+    "title": "Greenfield Press — File Export & Proof Print Prep Block",
+    "start_time": "2026-05-11T10:00:00-07:00",
+    "end_time": "2026-05-11T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-396",
+    "title": "Editorial Illustration Intensive — Workshop Day 1",
+    "start_time": "2026-05-09T09:00:00-07:00",
+    "end_time": "2026-05-09T17:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "San Francisco Design Center, Room 4B",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-397",
+    "title": "Editorial Illustration Intensive — Workshop Day 2",
+    "start_time": "2026-05-10T09:00:00-07:00",
+    "end_time": "2026-05-10T17:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "San Francisco Design Center, Room 4B",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-398",
+    "title": "⚠️ DECISION DEADLINE: Workshop Early-Bird Registration Closes (11:59 PM PT)",
+    "start_time": "2026-05-08T17:00:00-07:00",
+    "end_time": "2026-05-08T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-399",
+    "title": "🔁 Revisit Workshop Registration — Check if Early-Bird Still Open & Greenfield Deadline Confirmed",
+    "start_time": "2026-05-08T10:00:00-07:00",
+    "end_time": "2026-05-08T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-400",
+    "title": "⚠️ DEADLINE: Pressline Studio Tranche 2 Rate-Lock Expires (act by EOD)",
+    "start_time": "2026-05-09T09:00:00-07:00",
+    "end_time": "2026-05-09T09:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-401",
+    "title": "⚠️ DEADLINE: Editorial Illustration Workshop Early-Bird Closes (midnight PT)",
+    "start_time": "2026-05-10T10:00:00-07:00",
+    "end_time": "2026-05-10T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-402",
+    "title": "Admin: ProfDev Spend Decision — Workshop + Tranche 2 + AC Refund Analysis",
+    "start_time": "2026-05-06T10:00:00-07:00",
+    "end_time": "2026-05-06T11:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-403",
+    "title": "Editorial Illustration Intensive — Day 1 (online, live)",
+    "start_time": "2026-06-20T10:00:00-07:00",
+    "end_time": "2026-06-20T16:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Online (Zoom)",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-404",
+    "title": "⚠️ HARD DEADLINE: Artboard Collective Final Payment — All 3 Bundles (or forfeit deposits)",
+    "start_time": "2026-05-26T10:00:00-07:00",
+    "end_time": "2026-05-26T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-405",
+    "title": "AC Pre-Order: Review price-match reply + run net loss/gain calc — decide pay/abandon/hold",
+    "start_time": "2026-05-20T10:00:00-07:00",
+    "end_time": "2026-05-20T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-406",
+    "title": "Admin: Confirm AC bundle payments processed (or document forfeitures)",
+    "start_time": "2026-05-27T10:00:00-07:00",
+    "end_time": "2026-05-27T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-407",
+    "title": "Greenfield Press — WIP Sketch Review (3 Cover Variations)",
+    "start_time": "2026-05-21T11:00:00-07:00",
+    "end_time": "2026-05-21T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example",
+      "p.nair@greenfieldpress.example"
+    ],
+    "location": "Zoom — link in meeting invite (MTG-7005)",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-408",
+    "title": "Pre-call prep block — Greenfield Press WIP sketch review",
+    "start_time": "2026-05-21T10:00:00-07:00",
+    "end_time": "2026-05-21T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "home studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-409",
+    "title": "🎨 HARD DEADLINE: Greenfield Press — 3 Cover Finals Due",
+    "start_time": "2026-05-12T18:00:00-07:00",
+    "end_time": "2026-05-12T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-410",
+    "title": "Greenfield Press — post-sketch-review revision window check-in",
+    "start_time": "2026-05-26T14:00:00-07:00",
+    "end_time": "2026-05-26T14:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Zoom — TBD",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-411",
+    "title": "🚚 SHIP TODAY: Greenfield Press Finals — FedEx drop-off by 3 PM",
+    "start_time": "2026-05-20T10:00:00-07:00",
+    "end_time": "2026-05-20T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "FedEx Ship Center, Los Angeles CA",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-412",
+    "title": "Admin: Send overdue invoice follow-ups — Harlow & Vane + Coastline Quarterly",
+    "start_time": "2026-05-21T10:00:00-07:00",
+    "end_time": "2026-05-21T11:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-413",
+    "title": "Harbor Press Books — New Brief Kickoff Call",
+    "start_time": "2026-05-21T14:00:00-07:00",
+    "end_time": "2026-05-21T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "art.director@harborpressbooks.example"
+    ],
+    "location": "Zoom",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-414",
+    "title": "⚠️ HARD DEADLINE: Greenfield Press proof set must arrive Portland by EOB",
+    "start_time": "2026-05-12T09:00:00-07:00",
+    "end_time": "2026-05-12T17:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Greenfield Press Production Office, Portland OR",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-415",
+    "title": "Check-In Call — Dana Whitfield (Greenfield Press) — Cover Variations Progress",
+    "start_time": "2026-05-20T14:00:00-07:00",
+    "end_time": "2026-05-20T15:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Zoom — link in Dana's confirmation email",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-416",
+    "title": "Admin: Greenfield Press — pre-call inbox triage + briefing prep",
+    "start_time": "2026-05-20T11:30:00-07:00",
+    "end_time": "2026-05-20T12:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-417",
+    "title": "🗓️ Admin Monday — Weekly Priority Triage + Invoice Follow-Up",
+    "start_time": "2026-06-01T10:00:00-07:00",
+    "end_time": "2026-06-01T12:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "weekly"
+  },
+  {
+    "event_id": "EVT-418",
+    "title": "⚠️ HARD DEADLINE: Greenfield Press — Cover B Corrected File Due (EOD)",
+    "start_time": "2026-06-04T17:00:00-07:00",
+    "end_time": "2026-06-04T18:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-419",
+    "title": "💰 Q2 Estimated Tax Payment Due — IRS + CA FTB",
+    "start_time": "2026-06-15T10:00:00-07:00",
+    "end_time": "2026-06-15T11:00:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "quarterly"
+  },
+  {
+    "event_id": "EVT-420",
+    "title": "LinkedIn Post — May Editorial Recap (scheduled publish)",
+    "start_time": "2026-06-03T11:00:00-07:00",
+    "end_time": "2026-06-03T11:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-421",
+    "title": "Invoice Chase Block — Meridian Magazine + Harbor Press + Coastline",
+    "start_time": "2026-06-03T14:00:00-07:00",
+    "end_time": "2026-06-03T15:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home Studio",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-422",
+    "title": "Greenfield Press — Project Close-Out Check-In Call (Dana Whitfield)",
+    "start_time": "2026-06-05T15:00:00-07:00",
+    "end_time": "2026-06-05T15:45:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example",
+      "dana.whitfield@greenfieldpress.example"
+    ],
+    "location": "Phone / Zoom (Dana to send link)",
+    "recurring": "none"
+  },
+  {
+    "event_id": "EVT-423",
+    "title": "Admin: Greenfield Press — confirm Cover C sign-off + trigger invoice follow-up",
+    "start_time": "2026-06-03T10:00:00-07:00",
+    "end_time": "2026-06-03T10:30:00-07:00",
+    "attendees": [
+      "mia@mialeeillustation.example"
+    ],
+    "location": "Home studio",
+    "recurring": "none"
+  }
+]

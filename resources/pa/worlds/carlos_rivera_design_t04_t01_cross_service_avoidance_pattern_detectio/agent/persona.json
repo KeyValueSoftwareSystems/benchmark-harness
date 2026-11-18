@@ -1,0 +1,17 @@
+{
+  "persona_id": "T04_T01_cross_service_avoidance_pattern_detectio",
+  "name": "Cristian Ruiz Design",
+  "email": "cristian.ruiz.design@gmail.example",
+  "role": "",
+  "organization": "Gmail",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "client management",
+    "finance",
+    "proactive patrol",
+    "procurement",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-04-05"
+}

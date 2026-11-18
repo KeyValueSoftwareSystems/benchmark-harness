@@ -1,0 +1,1490 @@
+[
+  {
+    "page_id": "NPAG-1",
+    "title": "Veridian Technologies — Leadership Summit 2025 Event Record",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "contact": "Marcus Chen",
+      "event_date": "2025-09-19",
+      "venue": "The Meridian Conference Center",
+      "attendance": 85,
+      "status": "completed",
+      "event_type": "corporate"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Event Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Annual Leadership Summit for Veridian Technologies. Full-day format, 85 attendees (VP-level and above). Held at The Meridian Conference Center, Ballroom A + 3 breakout rooms."
+      },
+      {
+        "type": "heading_2",
+        "text": "Vendor Selections"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Venue: The Meridian Conference Center — $18,400 (room rental + AV package)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Catering: Harvest Table Catering — $9,775 (breakfast, lunch, afternoon break; $115/head)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "AV/Production: ClearSignal AV — $4,200 (full-day tech support, livestream to 2 overflow rooms)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Floral/Décor: Bloom & Branch Studio — $1,850 (dinner reception centerpieces, lobby arrangements)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Photography: Lena Park Photography — $2,100 (half-day, keynote + group shots)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Budget Actuals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Total spend: $38,620. Original budget: $40,000. Came in $1,380 under budget. Rachel's planning fee: $4,500 (flat rate, corporate tier)."
+      },
+      {
+        "type": "heading_2",
+        "text": "Post-Event Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Client satisfaction: 4.6/5. AV and catering received top marks. Floral vendor (Bloom & Branch) did not match agreed arrangement style for dinner reception — client flagged this. Registration area felt cramped for 85 pax; recommend requesting the pre-function foyer for 100+ headcount. Overall smooth execution. Client confirmed interest in rebooking for 2026."
+      },
+      {
+        "type": "heading_2",
+        "text": "Standing Client Preferences"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Prefers full-day Friday or Saturday format to minimize weekday disruption"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Requires dedicated quiet room for executive prep/green room"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Dietary: 12 vegetarian, 3 vegan, 2 gluten-free — must be clearly labeled"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Branded signage and printed programs required (client provides assets by T-3 weeks)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "No hard alcohol at lunch; wine/beer acceptable at dinner reception only"
+      }
+    ],
+    "archived": false,
+    "created_at": "2025-09-22T10:00:00-05:00",
+    "last_updated": "2026-02-24T16:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-2",
+    "title": "Veridian Technologies — Client Profile",
+    "parent_page_id": "NPAG-1",
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "industry": "B2B SaaS / HR Tech",
+      "primary_contact": "Marcus Chen",
+      "relationship_since": "2024",
+      "events_completed": 2,
+      "tier": "corporate-returning"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Client Background"
+      },
+      {
+        "type": "paragraph",
+        "text": "Veridian Technologies is a mid-size B2B SaaS company (~320 employees) focused on HR and workforce management software. HQ in downtown Boston. Primary event contact is Marcus Chen, VP of People Operations — responsive, detail-oriented, approves budgets internally before sign-off from CFO."
+      },
+      {
+        "type": "heading_2",
+        "text": "Event History"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "2024: Q4 All-Hands (offsite, 60 pax) — The Langham Boston. Budget: $22,000. Smooth execution, first engagement."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "2025: Annual Leadership Summit (85 pax) — The Meridian. Budget: $40,000 actual $38,620. Strong outcome, client re-engaged for 2026."
+      },
+      {
+        "type": "heading_2",
+        "text": "Decision-Making Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Marcus has budget authority up to ~$45K; anything above requires CFO sign-off (Priya Nair). Proposal must include itemized line-item breakdown — Marcus shares directly with finance. Turnaround from proposal to signed contract has been 10–14 days in prior engagements. Prefers PDF proposals with a one-page executive summary up front."
+      },
+      {
+        "type": "heading_2",
+        "text": "Communication Preferences"
+      },
+      {
+        "type": "paragraph",
+        "text": "Email preferred for formal comms. Responsive within same business day. Occasional Zoom check-ins (30 min max). Does not use project management tools — all coordination via email and shared Google Drive folder."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-01-10T09:00:00-05:00",
+    "last_updated": "2026-02-25T10:15:00-05:00"
+  },
+  {
+    "page_id": "NPAG-3",
+    "title": "2026 Corporate RFP Tracker",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Rachel Summers",
+      "status": "in_progress",
+      "rfp_deadline": "2026-05-20",
+      "client": "Veridian Technologies"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "RFP Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "Proposal due: May 20, 2026. Client confirmed scope via email 2026-02-23. Targeting September 18–19, 2026 at The Meridian (availability TBC). Estimated attendance: ~100 pax."
+      },
+      {
+        "type": "heading_2",
+        "text": "Research Checklist"
+      },
+      {
+        "type": "to_do",
+        "text": "Pull 2025 event actuals from Notion event record",
+        "checked": true
+      },
+      {
+        "type": "to_do",
+        "text": "Review Marcus feedback email (post-event survey summary)",
+        "checked": true
+      },
+      {
+        "type": "to_do",
+        "text": "Check Obsidian for corporate event benchmarks and process notes",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Cross-reference budget actuals in tracking sheet",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Get updated pricing from Harvest Table and ClearSignal AV",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Identify replacement floral vendor (Bloom & Branch flagged)",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Confirm Meridian availability for Sept 18–19",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Draft proposal document",
+        "checked": false
+      },
+      {
+        "type": "heading_2",
+        "text": "Key Risks"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Florist price increases last week may affect décor line — need to source alternative or adjust budget"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "100 pax vs 85 last year: need to confirm Meridian can accommodate in same room config or upgrade"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Budget ceiling likely ~$43–45K; must model carefully to stay under CFO sign-off threshold"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-25T09:00:00-05:00",
+    "last_updated": "2026-02-26T09:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-4",
+    "title": "Vendor Notes — Bloom & Branch Studio",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "vendor_type": "florist",
+      "status": "flagged",
+      "last_used": "2025-09-19"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Used for Veridian 2025 Leadership Summit dinner reception. Arrangement style did not match the agreed mood board — delivered loose garden-style arrangements when structured modern centerpieces were specified. Client noticed and flagged in post-event survey."
+      },
+      {
+        "type": "paragraph",
+        "text": "Additionally, Bloom & Branch raised their corporate event rates by approximately 18% as of mid-February 2026. Previous quote for comparable scope was $1,850; new estimate would be ~$2,180. Given the performance issue and price increase, recommend sourcing an alternative for the 2026 Veridian proposal. Potential alternatives to research: Petal & Stem Co., Foliage Forward Events."
+      }
+    ],
+    "archived": false,
+    "created_at": "2025-09-22T11:00:00-05:00",
+    "last_updated": "2026-02-22T14:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-5",
+    "title": "Veridian Technologies — Leadership Summit 2026 RFP Working File",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "contact": "Marcus Chen",
+      "event_date": "2026-09-18 – 2026-09-19",
+      "rfp_due": "2026-05-20",
+      "status": "In Progress",
+      "budget_cap": "$45,000 (client-facing, excl. planner fee)",
+      "planner_fee": "$5,200",
+      "headcount": 100,
+      "venue": "The Meridian Conference Center (preferred)"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Budget Cap Confirmation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Marcus Chen confirmed via email (2026-02-18) that the $45,000 ceiling is the client-facing event budget — planner fee is handled separately and is NOT included in the cap. This is consistent with the 2025 engagement structure."
+      },
+      {
+        "type": "heading_2",
+        "text": "Current Model Status (as of 2026-02-28)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Current RFP model total (client-facing, excl. planner fee): $47,450. Over cap by ~$2,450. Trim analysis in WB-3-S2 identifies $1,600 in realistic reductions bringing revised total to ~$44,950 — under cap with $2,000 contingency preserved."
+      },
+      {
+        "type": "heading_2",
+        "text": "Pending Vendor Confirmations — Must Resolve Before RFP Submission"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "1. Harvest Table catering quote (formal 2026 pricing): Expected mid-March. Current model uses $92/head ($9,200 for 100 pax). If quote comes in at $98/head ($9,800), model goes over cap by ~$800 — would require additional trim elsewhere. Direction: likely upward pressure."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "2. ClearSignal AV quote: Requested 2026 hold at 2025 rate ($7,200). Model uses $7,000 revised estimate. If ClearSignal holds 2025 rate, model gains $200 of headroom. Direction: neutral to slightly favorable if multi-year relationship holds."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "3. Meridian foyer add-on: 2026 rate card shows $1,400 (up from $1,150 in 2025). Model proposes negotiating to $1,200 with Jamie Okafor. If Meridian holds firm at $1,400, model needs to absorb $200 elsewhere. Direction: slight upward pressure; negotiation possible."
+      },
+      {
+        "type": "heading_2",
+        "text": "Key Decisions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Planner fee of $5,200 is preserved and excluded from client cap per Marcus Chen's email. Contingency buffer of $2,000 (~4.5% of revised subtotal) is held as a floor — not to be reduced. All trim comes from venue negotiation, catering rate floor, AV rate hold, and floral reversion to 2025 actuals."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-20T11:00:00-05:00",
+    "last_updated": "2026-02-28T17:45:00-05:00"
+  },
+  {
+    "page_id": "NPAG-6",
+    "title": "Vendor Notes — ClearSignal AV",
+    "parent_page_id": "NPAG-2",
+    "database_id": null,
+    "properties": {
+      "vendor_type": "AV & Production",
+      "primary_contact": "Derek Foss",
+      "email": "dfoss@clearsignalavpro.example",
+      "phone": "212-555-0293",
+      "relationship_since": "2023",
+      "last_used": "2025-09 (Veridian Leadership Summit 2025)"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "2025 Engagement Summary"
+      },
+      {
+        "type": "paragraph",
+        "text": "ClearSignal handled full AV for the Veridian Leadership Summit 2025 at The Meridian. Package included: main stage screens (2x), wireless lapel and handheld mics (4 total), hybrid streaming setup (Zoom Webinar), confidence monitor, and on-site tech for full day. Final invoice: $7,200."
+      },
+      {
+        "type": "heading_2",
+        "text": "2026 Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reached out 2026-02-25 to request 2026 quote for same scope. Derek indicated they are holding rates for returning clients where possible but have a 3–5% increase on streaming/hybrid components due to platform licensing costs. Formal quote expected by mid-March. Estimate for model: $7,000–$7,500. Using $7,000 in revised trim model as negotiated floor."
+      },
+      {
+        "type": "heading_2",
+        "text": "Recommendation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Strong preference to retain ClearSignal — Derek knows the Meridian room layout and the Veridian team's hybrid needs. Switching vendors for $200–$500 savings is not worth the coordination risk. Flag as pending but low-risk."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-25T14:30:00-05:00",
+    "last_updated": "2026-02-28T10:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-7",
+    "title": "Veridian 2026 RFP — Foyer Line Item Status Change Log",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "status": "DECISION PENDING",
+      "related_event": "Veridian Leadership Summit 2026",
+      "last_updated_by": "Rachel Summers",
+      "date_flagged": "2026-03-26"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Foyer Add-On — Status Change: CONFIRMED — OVER MODEL"
+      },
+      {
+        "type": "paragraph",
+        "text": "As of 2026-03-26, the Meridian Conference Center foyer add-on rate is confirmed at $1,650 for the full event day (2026 rate card, MSG-5010). This supersedes the $1,400 figure modeled in WB-3 and the $1,200 negotiation target. The venue has stated the rate is firm with no discount headroom."
+      },
+      {
+        "type": "heading_3",
+        "text": "Budget Impact"
+      },
+      {
+        "type": "paragraph",
+        "text": "Previous modeled subtotal (with $1,400 foyer, post-trim): ~$44,950. Revised subtotal with $1,650 foyer: ~$45,200. Gap vs. $45,000 ceiling: +$200 at minimum; effective gap after accounting for trim shortfall: approximately +$700. Informal budget preview already sent to Marcus Chen (TODO-507 completed) — Marcus has seen a figure near $44,950 or the pre-trim $47,450 model."
+      },
+      {
+        "type": "heading_3",
+        "text": "Three Scenarios (Trim Analysis Re-Run Required — TODO-511)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Scenario A — Keep foyer at $1,650: Revised subtotal ~$45,700. Gap vs. ceiling: +$700. Requires either ceiling reset conversation with Marcus or additional cuts."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Scenario B — Drop foyer entirely: Removes $1,650 from model. Estimated subtotal ~$44,050. Under ceiling by ~$950. Requires re-pitching registration flow to Marcus; check OBSN-3 for foyer-free layout precedent."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Scenario C — Keep foyer, find $450+ offsetting cut in catering or AV: Risky — both Harvest Table and ClearSignal quotes still pending as of 2026-03-26. Cannot model reliably until quotes arrive (expected EOD 2026-03-27)."
+      },
+      {
+        "type": "heading_3",
+        "text": "Decision Gate"
+      },
+      {
+        "type": "paragraph",
+        "text": "Email sent to Marcus Chen 2026-03-26 (MSG-5011) requesting foyer in/out decision before RFP writing block (EVT-303). Decision deadline: EOD 2026-03-27 (EVT-307). If no response by deadline, default to Scenario B (drop foyer) to protect writing block schedule."
+      },
+      {
+        "type": "heading_3",
+        "text": "Negotiation Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "TODO-508 (Negotiate foyer rate with Jamie Okafor) updated to BLOCKED / LOW PRIORITY. Rate card language is firm; counter-offer at $1,400 not recommended. Revisit only if Marcus confirms foyer is in scope and ceiling is adjusted. See TODO-510."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-26T10:45:00-05:00",
+    "last_updated": "2026-03-26T14:50:00-05:00"
+  },
+  {
+    "page_id": "NPAG-8",
+    "title": "Kowalski-Reyes Wedding — Event Record",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "event_date": "2026-05-09",
+      "couple": "Dana Kowalski & Marco Reyes",
+      "venue": "The Elm & Ivy Estate",
+      "status": "Active — Final Prep",
+      "planner": "Rachel Summers"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Event Overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wedding date: May 9, 2026. Venue: The Elm & Ivy Estate. Guest count: 110. Ceremony + seated dinner reception."
+      },
+      {
+        "type": "heading_2",
+        "text": "Vendor Roster"
+      },
+      {
+        "type": "paragraph",
+        "text": "Florist: Bloom & Branch Studio (Sophie Marchetti). Contracted package: full ceremony arch + reception centerpieces (8 tables) + bridal party florals. Contracted price: $3,500. Contract signed 2026-02-18."
+      },
+      {
+        "type": "paragraph",
+        "text": "Caterer: Lakeview Catering Co. Photographer: Jenna Park Photography. DJ: SoundWave Events."
+      },
+      {
+        "type": "heading_2",
+        "text": "Budget Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Total client budget: $28,000. Floral line: $3,500 (contracted). Contingency reserve: $800. NOTE (added 2026-04-26): Bloom & Branch rate increase of ~18% would bring floral to ~$4,130 — delta of $630 vs. contracted price. Contingency is $800 so absorption is technically possible but wipes reserve entirely."
+      },
+      {
+        "type": "heading_2",
+        "text": "Client Communication Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-02-18: Contract signed. Rachel verbally confirmed to Dana that Bloom & Branch would hold the $3,500 floral price through the wedding date."
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-04-19 (approx): Phone call with Sophie Marchetti re: spring rate increases. Rachel said she would 'work with them' on the new rate structure across all three affected weddings. NOT documented in client files at time of call — flagged as oversight."
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-04-22: Dana emailed asking for written confirmation of price hold."
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-04-25: Dana followed up — no response yet. URGENT."
+      },
+      {
+        "type": "heading_2",
+        "text": "Open Issues"
+      },
+      {
+        "type": "paragraph",
+        "text": "⚠️ CONFLICT: Rachel holds two incompatible commitments — price-hold assurance to Dana (Feb 18, verbal + implied by contract) vs. rate-cooperation assurance to Sophie (Apr 19, verbal only). Must resolve before May 9. See audit block EVT-309."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-18T11:00:00-05:00",
+    "last_updated": "2026-04-26T09:45:00-05:00"
+  },
+  {
+    "page_id": "NPAG-9",
+    "title": "Vendor Notes — Bloom & Branch Studio (Rate Conflict Log)",
+    "parent_page_id": "NPAG-4",
+    "database_id": null,
+    "properties": {
+      "vendor": "Bloom & Branch Studio",
+      "owner": "Sophie Marchetti",
+      "status": "Active — Rate Dispute",
+      "affected_weddings": "Kowalski-Reyes, Chen-Okafor, Patel-Williams"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Rate Increase — Spring 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sophie notified Rachel ~April 14 that wholesale costs (labor + imported stems) have risen significantly. New rate structure: +18% across all packages. Formal email received April 23."
+      },
+      {
+        "type": "heading_2",
+        "text": "Affected Weddings & Dollar Impact"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. Kowalski-Reyes (May 9): Contracted $3,500 → new rate ~$4,130. Delta: +$630.\n2. Chen-Okafor (Jun 27): Contracted $3,800 → new rate ~$4,484. Delta: +$684.\n3. Patel-Williams (Aug 23): Contracted $4,100 → new rate ~$4,838. Delta: +$738."
+      },
+      {
+        "type": "heading_2",
+        "text": "Commitment Audit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Client-side (Dana Kowalski): Verbal price-hold assurance given Feb 18 at contract signing. Supported by signed contract at $3,500 — written instrument. Stronger commitment."
+      },
+      {
+        "type": "paragraph",
+        "text": "Vendor-side (Sophie Marchetti): Verbal assurance ~Apr 19 phone call that Rachel would 'work with them' on new rates across all three weddings. No written record. Weaker commitment — relational, not contractual."
+      },
+      {
+        "type": "heading_2",
+        "text": "Resolution Options"
+      },
+      {
+        "type": "paragraph",
+        "text": "Option A — Absorb delta from contingency (Kowalski-Reyes only): $630 delta fits within $800 contingency. Honors client price-hold. Renegotiate with Sophie for a Kowalski-Reyes carve-out at contracted rate; apply new rate only to Chen-Okafor and Patel-Williams where there is more lead time for client disclosure."
+      },
+      {
+        "type": "paragraph",
+        "text": "Option B — Disclose to Dana with options memo: Transparent disclosure of rate increase, offer three options (absorb, substitute florist, partial scope reduction). Preserves trust but risks client distress 2 weeks pre-event."
+      },
+      {
+        "type": "paragraph",
+        "text": "Option C — Source substitute florist: See Obsidian florist-alternatives note. Risky at 13 days out — availability and style match uncertain."
+      },
+      {
+        "type": "heading_2",
+        "text": "Recommended Path"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pursue Option A for Kowalski-Reyes: negotiate carve-out with Sophie, absorb $630 from contingency, do not disclose to Dana. For Chen-Okafor and Patel-Williams: proactive client disclosure with revised budget options — sufficient lead time exists. Do NOT repeat dual-assurance pattern."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-26T10:15:00-05:00",
+    "last_updated": "2026-04-26T10:15:00-05:00"
+  },
+  {
+    "page_id": "NPAG-10",
+    "title": "Veridian Technologies — Leadership Summit 2026 RFP Working File (Budget Lock Update)",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "contact": "Marcus Chen",
+      "rfp_due": "2026-05-20",
+      "status": "Proposal Draft In Progress",
+      "budget_ceiling": "$45,000",
+      "foyer_decision": "IN — confirmed by Marcus Chen 2026-04-01",
+      "locked_total": "$44,650"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Budget Lock Summary — Updated 2026-04-01"
+      },
+      {
+        "type": "paragraph",
+        "text": "Foyer-IN scenario confirmed via email from Marcus Chen (MSG-5021) at 9:14 AM on 2026-04-01. This resolves the gate item blocking the RFP writing block."
+      },
+      {
+        "type": "paragraph",
+        "text": "Confirmed vendor quotes reconciled into WB-6 (Final Budget Lock workbook):\n- Harvest Table Catering: $19,900 confirmed (MSG-5022, received 2026-03-31) — $600 under model\n- ClearSignal AV: $8,000 confirmed (MSG-5023, received 2026-03-31) — $400 under model\n- Meridian Foyer: $1,650 confirmed (rate card) — $250 over model"
+      },
+      {
+        "type": "paragraph",
+        "text": "Net effect: confirmed total = $44,650. Clears $45,000 ceiling with $350 headroom. Contingency buffer trimmed to $1,100 (from modeled $1,400) to achieve clearance."
+      },
+      {
+        "type": "heading_2",
+        "text": "Open Items / Verbal Disclosure Flags"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Contingency buffer is tighter than standard for a 100-person two-day event. Any scope additions (AV streaming, extra reception hour, floral upgrades) will require a change order."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "ClearSignal quote expires 2026-04-15 — contract must be signed before that date to hold pricing."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Harvest Table quote valid through 2026-04-30; 25% deposit required to hold date."
+      },
+      {
+        "type": "heading_2",
+        "text": "Proposal Deck"
+      },
+      {
+        "type": "paragraph",
+        "text": "Slide deck DECK-1 (Veridian 2026 Leadership Summit — RFP Proposal) created and in progress. Investment summary and logistics slides prioritized. See DECK-1 for current draft state."
+      },
+      {
+        "type": "heading_2",
+        "text": "To-Do Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "TODO-516 (Confirm three open vendor quotes before Veridian RFP writing block) — marked complete 2026-04-01.\nTODO-519 (Resolve Veridian foyer decision before RFP writing block) — marked complete 2026-04-01."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-01T11:00:00-05:00",
+    "last_updated": "2026-04-01T16:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-11",
+    "title": "Veridian 2026 RFP — Vendor Quote Reconciliation Log",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "created_by": "Rachel Summers",
+      "status": "Complete — all quotes confirmed"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Quote Reconciliation — 2026-04-01"
+      },
+      {
+        "type": "paragraph",
+        "text": "All three pending vendor quotes are now confirmed. This log documents the reconciliation against WB-3 (original budget model) and WB-4 (trim analysis scenarios)."
+      },
+      {
+        "type": "heading_3",
+        "text": "ClearSignal AV"
+      },
+      {
+        "type": "paragraph",
+        "text": "Quote received: 2026-03-31 (MSG-5023)\nConfirmed total: $8,000\nWB-3 modeled figure: $8,400\nVariance: -$400 (favorable)\nScope: Full two-day AV production, 100-person summit. Does NOT include streaming (+$1,400 if needed).\nQuote expiry: 2026-04-15\nAction: Accepted. Entered into WB-6 as locked figure."
+      },
+      {
+        "type": "heading_3",
+        "text": "Harvest Table Catering"
+      },
+      {
+        "type": "paragraph",
+        "text": "Quote received: 2026-03-31 (MSG-5022)\nConfirmed total: $19,900 (100 guests, Day 1 full day + evening reception, Day 2 full day)\nWB-3 modeled figure: $20,500\nVariance: -$600 (favorable)\nQuote expiry: 2026-04-30\nAction: Accepted. Entered into WB-6 as locked figure."
+      },
+      {
+        "type": "heading_3",
+        "text": "Meridian Foyer Add-On"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rate confirmed via Meridian rate card (previously logged in NPAG-7).\nConfirmed rate: $1,650\nWB-3 modeled figure: $1,400\nVariance: +$250 (unfavorable)\nFoyer decision: IN — confirmed by Marcus Chen 2026-04-01 (MSG-5021)\nAction: Accepted at confirmed rate. Entered into WB-6."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-01T11:30:00-05:00",
+    "last_updated": "2026-04-01T13:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-13",
+    "title": "Veridian 2026 RFP — Vendor Quote Status (Post-Triage Update 2026-04-11)",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "owner": "Rachel Summers",
+      "project": "Veridian 2026 Leadership Summit RFP",
+      "status": "quotes-complete",
+      "last_updated": "2026-04-11"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Vendor Quote Status — All Three Confirmed"
+      },
+      {
+        "type": "paragraph",
+        "text": "As of April 11, all three outstanding vendor quotes required before the RFP writing block have been received and recorded."
+      },
+      {
+        "type": "table",
+        "text": "Vendor | Modeled | Confirmed | Delta\nHarvest Table Catering | $14,500 | $16,084 | +$1,584\nClearSignal AV | $7,800 | $7,200 | -$600\nMeridian Foyer Add-On | $1,400 | $1,650 | +$250\nNet vs. model | — | — | +$1,234 over"
+      },
+      {
+        "type": "paragraph",
+        "text": "With confirmed figures, total confirmed overage vs. original model is approximately +$1,234. Combined with existing budget pressure (~$700 over $45K ceiling from foyer confirmation), revised client-facing subtotal requires recalculation in WB-6 before foyer-in/out decision is finalized."
+      },
+      {
+        "type": "heading_2",
+        "text": "Next Actions"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Pull confirmed figures into WB-6 (Veridian RFP Final Budget Lock) and re-run foyer-in/out scenarios"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Resolve foyer-in vs. foyer-out gate item (EVT calendar block + Marcus Chen notification still required)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Update NPAG-3 (RFP Tracker) quote status fields to confirmed"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Harvest Table LOI deadline: April 30 — flag for follow-through after foyer decision"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-11T11:05:00-05:00",
+    "last_updated": "2026-04-11T11:05:00-05:00"
+  },
+  {
+    "page_id": "NPAG-14",
+    "title": "Kowalski-Reyes Wedding — Day-of Staffing Update (Secondary Coordinator)",
+    "parent_page_id": "NPAG-8",
+    "database_id": null,
+    "properties": {
+      "event": "Kowalski-Reyes Wedding",
+      "event_date": "2026-05-09",
+      "update_type": "staffing",
+      "status": "confirmed",
+      "updated_by": "Rachel Summers",
+      "updated_at": "2026-05-01"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Secondary Day-of Coordinator — Confirmed"
+      },
+      {
+        "type": "paragraph",
+        "text": "A scheduling conflict identified during the two-week run-of-show review (2026-04-30) required adding a secondary day-of coordinator for the Kowalski-Reyes wedding."
+      },
+      {
+        "type": "heading_3",
+        "text": "Coverage Gap"
+      },
+      {
+        "type": "paragraph",
+        "text": "10:00 AM – 12:30 PM overlap: Rachel needed simultaneously at bridal suite (vendor check-in, getting-ready coordination) and ceremony setup walkthrough (loading dock vendor arrivals). A second coordinator is required for the full day to maintain timeline integrity."
+      },
+      {
+        "type": "heading_3",
+        "text": "Coordinator Booked: Tara Bloom (Freelance)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Name: Tara Bloom | Email: tara.bloom.events@gmail.example | Phone: (312) 555-0847"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rate: $650 flat / 10 hours (OT: $65/hr) | Coverage: May 9, 10:00 AM – 9:00 PM"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reference: Marcus Bell, Grandview Venue (two prior events). Endorsed by Lena Vasquez."
+      },
+      {
+        "type": "heading_3",
+        "text": "Decision Rationale"
+      },
+      {
+        "type": "paragraph",
+        "text": "Colleague option (Lena Vasquez) checked first — unavailable (Harrington-Park wedding May 9). Freelance hire is the appropriate path: strong reliability signals, no relationship capital risk, rate within budget. Booking confirmation sent 2026-05-01; alignment call scheduled 2026-05-02."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-05-01T16:30:00-05:00",
+    "last_updated": "2026-05-01T16:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-15",
+    "title": "Vendor Notes — Tara Bloom (Freelance Day-of Coordinator)",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "vendor_type": "freelance_coordinator",
+      "status": "active",
+      "first_booking": "2026-05-09",
+      "rating": "TBD — first engagement"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Tara Bloom — Freelance Day-of Coordinator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Contact: tara.bloom.events@gmail.example | (312) 555-0847 | Chicago, IL"
+      },
+      {
+        "type": "heading_3",
+        "text": "Rate Card (2026)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Day rate: $650 / 10 hours. Overtime: $65/hr. Includes 1-hour pre-event setup walkthrough. Standard freelance agreement available on request."
+      },
+      {
+        "type": "heading_3",
+        "text": "References & Reliability Signals"
+      },
+      {
+        "type": "paragraph",
+        "text": "Worked Grandview Venue as secondary coordinator on two occasions (2024–2025 seasons). Reference: Marcus Bell, Grandview Venue. Endorsed by Lena Vasquez (peer planner, Chicago market)."
+      },
+      {
+        "type": "heading_3",
+        "text": "Booking History"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-05-09: Kowalski-Reyes Wedding (secondary coordinator, full day). First engagement with Rachel Summers Events. Alignment call: 2026-05-02."
+      },
+      {
+        "type": "heading_3",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sourced via outreach on 2026-05-01 after colleague option (Lena Vasquez) was unavailable. Comfortable running 100–150 guest receptions as secondary. Brings vendor coordination binder and emergency kit."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-05-01T16:45:00-05:00",
+    "last_updated": "2026-05-01T16:45:00-05:00"
+  },
+  {
+    "page_id": "NPAG-16",
+    "title": "Vendor Outreach Log — Stalled Threads (March 2026)",
+    "parent_page_id": "NPAG-3",
+    "database_id": null,
+    "properties": {
+      "owner": "Rachel Summers",
+      "status": "draft",
+      "last_updated": "2026-03-11"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Stalled Vendor Outreach — Identified 2026-03-11"
+      },
+      {
+        "type": "paragraph",
+        "text": "This page tracks vendor outreach threads that were initiated but not completed as of the March 11 self-audit. Cross-referenced against gmail drafts, cancelled todos, and disabled scheduler jobs."
+      },
+      {
+        "type": "heading_3",
+        "text": "1. Blossom Floral Studio — Florist Backup Inquiry"
+      },
+      {
+        "type": "paragraph",
+        "text": "Draft email written 2026-03-06 (MSG-5058). Never sent. Two tasks created and cancelled (TODO-559, TODO-560). Three notes with florist follow-up content (NOTE-123, NOTE-124, NOTE-125). Scheduler job JOB-706 created but never enabled. No confirmed outcome. ELEVATED RISK — intersects with Bloom & Branch dual-assurance conflict and Kowalski-Reyes wedding prep."
+      },
+      {
+        "type": "heading_3",
+        "text": "2. ClearSignal AV — Veridian RFP Quote"
+      },
+      {
+        "type": "paragraph",
+        "text": "Draft follow-up email written 2026-03-07 (MSG-5059). Never sent. Calendar block for follow-up call on 2026-03-09 (EVT-364) — no corresponding sent email, no note, no Notion update. TODO-561 cancelled. JOB-707 created but never enabled. Quote still pending. ELEVATED RISK — gate item for Veridian RFP budget lock."
+      },
+      {
+        "type": "heading_3",
+        "text": "3. Grandview Venue — Backup Inquiry"
+      },
+      {
+        "type": "paragraph",
+        "text": "Draft email written 2026-03-09 (MSG-5060). Status unclear — may still be in drafts. No reply, no Notion update, no todo. Low priority if Meridian confirmed, but thread should be formally closed."
+      },
+      {
+        "type": "heading_3",
+        "text": "Next Actions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Priority 1: Make florist backup decision today — send Blossom Floral draft or formally close and commit to Bloom & Branch negotiation path.\nPriority 2: Call Derek Holt (ClearSignal) directly — email approach has failed twice.\nPriority 3: Close Grandview thread — send or discard draft, log outcome."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-11T10:00:00-05:00",
+    "last_updated": "2026-03-11T10:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-17",
+    "title": "ClearSignal AV — Quote Status (Veridian 2026 RFP)",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "owner": "Rachel Summers",
+      "vendor": "ClearSignal AV",
+      "contact": "Derek Holt",
+      "status": "quote_pending",
+      "last_updated": "2026-03-11"
+    },
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Quote requested for Veridian 2026 Leadership Summit AV package — main ballroom, 200 pax, full A/V + livestream. Initial inquiry sent [date unclear — draft may not have been sent]. Follow-up call scheduled 2026-03-09, did not occur. As of 2026-03-11, no quote received and no confirmed outreach sent."
+      },
+      {
+        "type": "paragraph",
+        "text": "Action required: Direct phone call to Derek Holt. Email approach has stalled twice. Quote is a gate item for Veridian RFP budget finalization."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-11T10:15:00-05:00",
+    "last_updated": "2026-03-11T10:15:00-05:00"
+  },
+  {
+    "page_id": "NPAG-18",
+    "title": "End-of-Day Triage — 2026-03-20 Task Reorder Log",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "date": "2026-03-20",
+      "type": "triage-log",
+      "status": "complete"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Triage Summary — Tuesday March 20, 2026"
+      },
+      {
+        "type": "paragraph",
+        "text": "End-of-day task reorder completed at ~17:15. Energy state: 8.25 hrs elapsed, 3 calendar blocks completed (admin, vendor call, client call). High-cognitive work deferred to tomorrow's pre-blocked focus windows."
+      },
+      {
+        "type": "heading_3",
+        "text": "DO NOW"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TODO-567 — Holding reply to Dana Kowalski (floral budget). Low-cognitive, hard deadline today. Est. 10 min."
+      },
+      {
+        "type": "heading_3",
+        "text": "DEFER TO TOMORROW"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TODO-568 — Bloom & Branch dual-assurance resolution → EVT-368 (09:00–10:30, 3/21)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TODO-569 — Veridian RFP budget remodel foyer-IN trim → EVT-369 (11:00–12:30, 3/21)"
+      },
+      {
+        "type": "heading_3",
+        "text": "DELEGATED TO LENA"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TODO-570 — Vendor quote nudges (Harvest Table + ClearSignal). Handoff: MSG-5063."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TODO-571 — Kowalski-Reyes Notion floral conflict note. Handoff: MSG-5063."
+      },
+      {
+        "type": "heading_3",
+        "text": "Open Risk"
+      },
+      {
+        "type": "paragraph",
+        "text": "Florist backup vendor decision (TODO-572) still unresolved. Must be addressed no later than end of week of March 27 to maintain contingency coverage before Bloom & Branch conflict resolution."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-20T17:20:00-05:00",
+    "last_updated": "2026-03-20T17:20:00-05:00"
+  },
+  {
+    "page_id": "NPAG-19",
+    "title": "Kowalski-Reyes Wedding — Floral Conflict Holding Status (2026-03-20)",
+    "parent_page_id": "NPAG-8",
+    "database_id": null,
+    "properties": {
+      "status": "conflict-under-review",
+      "last_updated_by": "Rachel Summers",
+      "date": "2026-03-20"
+    },
+    "blocks": [
+      {
+        "type": "callout",
+        "text": "⚠️ FLORAL CONFLICT HOLD — Do not confirm or modify floral order until dual-assurance resolution is complete."
+      },
+      {
+        "type": "paragraph",
+        "text": "Bloom & Branch rate conflict under review as of 2026-03-20. Rachel gave incompatible assurances to vendor (Sienna Voss) and client (Dana Kowalski) regarding post-March-15 price increase. Resolution targeted for morning of March 21 (focus block 09:00–10:30)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Dana Kowalski emailed 2026-03-20 requesting EOW confirmation that floral budget is holding. Holding reply sent today (MSG-5064 thread). Full resolution communication to both parties pending tomorrow's focus block."
+      },
+      {
+        "type": "paragraph",
+        "text": "Sienna Voss (Bloom & Branch) expects confirmation by EOW (Friday March 20). Window is intact — resolution on March 21 leaves Thursday and Friday for communication."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-03-20T17:25:00-05:00",
+    "last_updated": "2026-03-20T17:25:00-05:00"
+  },
+  {
+    "page_id": "NPAG-20",
+    "title": "Veridian 2026 — Scope Call Action Item Reconciliation (2026-02-20)",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "event": "Leadership Summit 2026",
+      "date": "2026-02-20",
+      "status": "complete",
+      "owner": "Rachel Summers"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Purpose"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reconcile auto-generated meeting summary (MTG-7001) against manual call notes (NOTE-130) taken during the Feb 20 scope alignment call with Marcus Chen and Priya Nair. Resolve discrepancies in favor of the meeting recording as authoritative source."
+      },
+      {
+        "type": "heading_2",
+        "text": "Discrepancies Found"
+      },
+      {
+        "type": "paragraph",
+        "text": "DISCREPANCY 1 — Budget narrative deadline:\n  Manual notes: no deadline recorded; estimated 'end of next week'\n  Recording (authoritative): firm verbal commitment at 00:34:12 — deliver by 2026-02-27\n  Resolution: deadline is February 27. Rachel owns this item."
+      },
+      {
+        "type": "paragraph",
+        "text": "DISCREPANCY 2 — AV vendor follow-up owner:\n  Manual notes: initially written as 'Priya to chase AV vendor' (then second-guessed in notes)\n  Recording (authoritative): Rachel owns AV follow-up; written confirmation to Marcus + Priya by Feb 26\n  Resolution: Rachel owns this item, due Feb 26."
+      },
+      {
+        "type": "heading_2",
+        "text": "Final Reconciled Action Item List"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. RACHEL — Revised budget narrative (foyer-in, line-item justifications) → to Marcus Chen → DUE 2026-02-27\n2. RACHEL — ClearSignal AV final quote written confirmation → to Marcus + Priya → DUE 2026-02-26\n3. PRIYA NAIR — Headcount + breakout session count (3 vs. 4) → to Rachel → DUE 2026-02-25\n4. PRIYA NAIR — Brand deck + logo/color assets → to Rachel → DUE 2026-02-24\n5. MARCUS CHEN — Internal $45K ceiling sign-off or CFO escalation → DUE 2026-03-04"
+      },
+      {
+        "type": "heading_2",
+        "text": "Actions Taken"
+      },
+      {
+        "type": "paragraph",
+        "text": "- Email sent to Marcus Chen (MSG-5067) with his action item only\n- Email sent to Priya Nair (MSG-5068) with her action items only\n- Rachel's items added to todo list: TODO-573 (budget narrative), TODO-574 (AV confirmation)\n- Calendar deadline reminders created: EVT-373 (AV, Feb 26), EVT-374 (budget narrative, Feb 27), EVT-375 (Priya brand deck, Feb 24), EVT-376 (Priya headcount, Feb 25), EVT-377 (Marcus ceiling, Mar 4)\n- Writing block blocked: EVT-378 (Feb 26, 2–5pm)"
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-20T14:00:00-05:00",
+    "last_updated": "2026-02-20T14:15:00-05:00"
+  },
+  {
+    "page_id": "NPAG-21",
+    "title": "Veridian Technologies — Leadership Summit 2026 RFP Working File (Scope Lock Update)",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "event": "Leadership Summit 2026",
+      "status": "in-progress",
+      "last_updated_by": "Rachel Summers",
+      "phase": "Pre-RFP / Scope Locked"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Scope Status — Updated 2026-02-20"
+      },
+      {
+        "type": "paragraph",
+        "text": "Scope alignment call completed Feb 20 with Marcus Chen and Priya Nair. Scope is now locked pending Priya's headcount/breakout confirmation (due Feb 25)."
+      },
+      {
+        "type": "paragraph",
+        "text": "Confirmed scope: Sept 18–19 2026, The Meridian Conference Center, ~100 attendees, 3 breakout rooms (possibly 4 — Priya to confirm by Feb 25), foyer add-on preferred by client if budget allows."
+      },
+      {
+        "type": "heading_2",
+        "text": "Open Dependencies Before RFP Draft"
+      },
+      {
+        "type": "paragraph",
+        "text": "1. ClearSignal AV final quote — Rachel to obtain and send written confirmation to client by Feb 26\n2. Revised budget narrative (foyer-in) — Rachel to deliver to Marcus by Feb 27\n3. Priya: brand deck by Feb 24, headcount + breakout count by Feb 25\n4. Marcus: $45K ceiling sign-off or CFO escalation by Mar 4\n5. Foyer in/out decision — pending budget narrative review and Marcus ceiling decision"
+      },
+      {
+        "type": "heading_2",
+        "text": "Notes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Action item reconciliation completed — two discrepancies between manual notes and recording resolved in favor of recording. See NPAG-20 for full reconciliation log."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-02-20T14:20:00-05:00",
+    "last_updated": "2026-02-20T14:20:00-05:00"
+  },
+  {
+    "page_id": "NPAG-22",
+    "title": "Vendor Notes — Bloom & Branch Studio (Rate Conflict Log) — Resolution Entry 2026-04-22",
+    "parent_page_id": "NPAG-9",
+    "database_id": null,
+    "properties": {
+      "vendor": "Bloom & Branch Studio",
+      "contact": "Sienna Voss",
+      "email": "owner@bloomandbranch.example",
+      "log_type": "conflict_resolution",
+      "resolution_date": "2026-04-22",
+      "status": "resolved — email sent, awaiting vendor confirmation"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Rate Conflict Resolution — Documented Position (2026-04-22)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rachel committed to the following resolution position on 2026-04-22 and sent a corresponding email to Sienna Voss at owner@bloomandbranch.example (MSG-5085) at 11:45 AM."
+      },
+      {
+        "type": "heading_3",
+        "text": "Resolution Terms"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Kowalski-Reyes (2026-05-31): Rachel absorbs rate delta from planning fee. Sienna invoices at new rate. No client-facing change."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Hargrove-Patel (2026-06-14): Client informed and agreed in principle to modest floral budget increase. Updated budget parameters to be sent to Sienna within the week."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Delacroix (2026-07-19): Same as Hargrove-Patel — client informed, agreed in principle, updated parameters pending."
+      },
+      {
+        "type": "heading_3",
+        "text": "Dual-Assurance Risk — Resolved"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prior to this entry, Rachel had given incompatible assurances to Sienna Voss (vendor) and Dana Kowalski (client) regarding who would bear the rate increase on the Kowalski-Reyes wedding. This log entry documents the binding resolution: Rachel absorbs the Kowalski-Reyes delta personally. The email to Sienna (MSG-5085) reflects this position exactly. Dana Kowalski has not been re-contacted; her existing assurance (no cost increase to her) remains valid and is now honored by Rachel's absorption commitment."
+      },
+      {
+        "type": "heading_3",
+        "text": "Next Steps"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Await Sienna Voss confirmation of resolution terms."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Send updated floral budget parameters for Hargrove-Patel and Delacroix to Sienna within 5 business days."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Schedule 15-min alignment call with Sienna before 2026-05-31."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Monitor for Sienna's reply; escalate to backup vendor (Blossom Floral Studio — Claire Fontaine, MSG-5084 sent 2026-04-22) if no response by 2026-04-25."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T11:30:00-05:00",
+    "last_updated": "2026-04-22T11:30:00-05:00"
+  },
+  {
+    "page_id": "NPAG-23",
+    "title": "Veridian 2026 RFP — Vendor Quote Tracker (Status Update 2026-04-22)",
+    "parent_page_id": "NPAG-13",
+    "database_id": null,
+    "properties": {
+      "client": "Veridian Technologies",
+      "event": "Leadership Summit 2026",
+      "tracker_type": "vendor_quote_status",
+      "last_updated": "2026-04-22",
+      "rfp_budget_ceiling": "$45,000",
+      "current_modeled_total": "$45,700 (foyer-IN scenario)",
+      "status": "3 quotes pending — RFP writing block gated"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Vendor Quote Status — Updated 2026-04-22"
+      },
+      {
+        "type": "paragraph",
+        "text": "This tracker reflects the current state of all vendor quotes required before the Veridian 2026 RFP writing block can proceed. Three quotes remain outstanding. The foyer line item (Meridian Conference Center) is confirmed but the foyer-in vs. foyer-out decision is still pending client sign-off from Marcus Chen."
+      },
+      {
+        "type": "heading_3",
+        "text": "Quote Status by Vendor"
+      },
+      {
+        "type": "table",
+        "text": "Vendor | Line Item | Quoted Amount | Status | Notes\nThe Meridian Conference Center | Venue (main) | $18,500 | CONFIRMED | Rate card confirmed per MSG-5060\nThe Meridian Conference Center | Foyer add-on | $1,650 | CONFIRMED — DECISION PENDING | Confirmed at $1,650 vs. modeled $1,400; foyer-in/out decision must come from Marcus Chen before RFP draft\nHarvest Table Catering | Catering (100 pax) | TBD | PENDING — follow-up sent | Quote requested; follow-up sent per MSG-5083; awaiting revised quote\nClearSignal AV | AV package | TBD | PENDING — quote requested | Initial inquiry sent; no response yet\nContingency (5%) | — | ~$2,100 (foyer-IN) | MODELED | Held at 5% of subtotal per standard practice"
+      },
+      {
+        "type": "heading_3",
+        "text": "Budget Ceiling Status"
+      },
+      {
+        "type": "paragraph",
+        "text": "Client ceiling: $45,000. Current modeled total (foyer-IN, pending catering + AV actuals): ~$45,700 — approximately $700 over ceiling. Foyer-OUT scenario reduces total by $1,650 and brings budget to ~$44,050, providing ~$950 of headroom. Decision on foyer inclusion must be made by Marcus Chen before RFP writing block. Rachel to notify Marcus Chen of the $700 overage and request a go/no-go on the foyer line item."
+      },
+      {
+        "type": "heading_3",
+        "text": "Gate Conditions for RFP Writing Block"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "[ ] Harvest Table Catering quote received and entered"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "[ ] ClearSignal AV quote received and entered"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "[ ] Marcus Chen foyer decision confirmed (in or out)"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "[ ] Budget model updated with actuals and confirmed within $45K ceiling"
+      },
+      {
+        "type": "heading_3",
+        "text": "Update Log"
+      },
+      {
+        "type": "paragraph",
+        "text": "2026-04-22 10:00 AM — Tracker updated during Phase 1 parallel execution block. Foyer rate confirmed at $1,650 (vs. $1,400 modeled). Catering and AV quotes still outstanding. Foyer decision flagged as gate item. Marcus Chen notification pending."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-04-22T10:00:00-05:00",
+    "last_updated": "2026-04-22T10:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-24",
+    "title": "Weekly Action Plan — 2026-05-06 (Kowalski-Reyes Week)",
+    "parent_page_id": null,
+    "database_id": null,
+    "properties": {
+      "owner": "Rachel Summers",
+      "week_of": "2026-05-06",
+      "status": "active",
+      "projects": [
+        "Kowalski-Reyes",
+        "Veridian RFP",
+        "Florist Backup",
+        "General Admin"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Week of May 6–10, 2026 — Action Plan"
+      },
+      {
+        "type": "callout",
+        "text": "⚠️ WEDDING SATURDAY MAY 9 — All critical decisions must be made by Friday EOD. No desk work Saturday."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 1 — Kowalski-Reyes Floral Conflict [CRITICAL]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dana Kowalski emailed this morning — anxious, waiting on floral price confirmation. Sienna Voss (Bloom & Branch) needs written carve-out decision by Friday EOD. Rachel must have a position before Thursday 11am call. See NOTE-140 for full resolution framework."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 2 — Veridian RFP Budget Lock [CRITICAL]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Foyer confirmed $1,650 (modeled $1,400). Total gap ~$700 to $45K ceiling. Marcus Chen confirmed May 20 deadline is hard. Budget lock block Thursday 2–4pm. Must call Marcus before locking foyer line. Harvest Table + ClearSignal quotes still outstanding — Lena following up Wednesday."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 3 — Florist Backup Decision [HIGH]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Third week this has appeared without resolution. Blossom Floral Studio (Claire Fontaine) is primary candidate. Go/no-go decision Friday morning block. Lena drafting outreach to two additional candidates by Thursday EOD."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 4 — Kowalski-Reyes Day-Of Logistics [HIGH / LENA LEAD]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lena: vendor day-of confirmation calls by Thursday EOD. Rachel: finalize and send day-of timeline Friday noon."
+      },
+      {
+        "type": "heading_2",
+        "text": "Priority 5 — Veridian RFP Writing Prep [MEDIUM]"
+      },
+      {
+        "type": "paragraph",
+        "text": "Writing block starts May 12. Cannot begin until budget locked and all quotes in. Lena to organize vendor email folder by Friday."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-05-06T09:45:00-05:00",
+    "last_updated": "2026-05-06T09:45:00-05:00"
+  },
+  {
+    "page_id": "NPAG-25",
+    "title": "Kowalski-Reyes Wedding — Day-Of Logistics Checklist (May 9)",
+    "parent_page_id": "NPAG-8",
+    "database_id": null,
+    "properties": {
+      "owner": "Rachel Summers",
+      "event_date": "2026-05-09",
+      "status": "in-progress",
+      "assigned_to": [
+        "Rachel Summers",
+        "Lena Vasquez"
+      ]
+    },
+    "blocks": [
+      {
+        "type": "heading_1",
+        "text": "Kowalski-Reyes — Day-Of Logistics (May 9, 2026)"
+      },
+      {
+        "type": "heading_2",
+        "text": "Vendor Confirmation Status (as of May 6)"
+      },
+      {
+        "type": "to_do",
+        "text": "Caterer — day-of confirmation call [Lena, Wed/Thu]",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Venue coordinator — confirm setup window and access [Lena, Wed/Thu]",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "DJ — confirm arrival time and equipment load-in [Lena, Wed/Thu]",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Transportation — confirm shuttle schedule and driver contact [Lena, Wed/Thu]",
+        "checked": false
+      },
+      {
+        "type": "to_do",
+        "text": "Florist (Bloom & Branch / Sienna Voss) — confirm delivery window and setup [Rachel, after conflict resolution]",
+        "checked": false
+      },
+      {
+        "type": "heading_2",
+        "text": "Day-Of Timeline — DRAFT PENDING"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rachel to draft and send to vendor team by Friday May 8 noon. Lena to provide vendor contact sheet first."
+      },
+      {
+        "type": "heading_2",
+        "text": "Staff Brief"
+      },
+      {
+        "type": "paragraph",
+        "text": "Lena: prepare day-of kit checklist and personal brief by Friday morning."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-05-06T10:00:00-05:00",
+    "last_updated": "2026-05-06T10:00:00-05:00"
+  },
+  {
+    "page_id": "NPAG-26",
+    "title": "Veridian 2026 RFP — Schedule Change Log (Scope Delay 2026-05-06)",
+    "parent_page_id": "NPAG-5",
+    "database_id": null,
+    "properties": {
+      "status": "in-progress",
+      "owner": "Rachel Summers",
+      "last_updated": "2026-05-06T14:50:00-05:00",
+      "submission_deadline": "2026-05-20",
+      "writing_block_status": "partially_shifted"
+    },
+    "blocks": [
+      {
+        "type": "heading_2",
+        "text": "Schedule Change — 2026-05-06"
+      },
+      {
+        "type": "paragraph",
+        "text": "Trigger: Priya Nair email (MSG-5092) received 09:14 AM confirmed Marcus Chen cannot provide scope sign-off until Thu May 8 EOD (soft) or Fri May 9 (worst case) due to internal CFO budget review. Marcus confirmed directly via MSG-5093."
+      },
+      {
+        "type": "heading_3",
+        "text": "Original Plan vs. Adjusted Plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Original: Full RFP writing block this week with all sections; assumed scope lock in hand. Adjusted: Writing block split into two phases. Phase 1 (Wed–Thu May 6–7, EVT-398): scope-independent sections only — intro narrative, vendor bios, logistics framework shell, credential section, template build. Phase 2 (Fri May 9, EVT-399): scope-dependent sections — budget tables, foyer decision language, per-head cost narrative, AV tier justification, total cost summary. Phase 2 contingent on Marcus sign-off arriving Thu EOD."
+      },
+      {
+        "type": "heading_3",
+        "text": "Strategy Selected: A (Partial Hold)"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rationale: 14 days remain to May 20 submission deadline. Scope-independent sections (~40% of draft volume) written in Phase 1 preserve momentum. Phase 2 slot on Fri May 9 provides adequate time for remaining content if sign-off arrives on schedule. Strategy B (full block shift) rejected as it depends on a soft date. Strategy C (cancel and rebuild) rejected as unnecessary given available runway."
+      },
+      {
+        "type": "heading_3",
+        "text": "Risk Flag"
+      },
+      {
+        "type": "paragraph",
+        "text": "If Marcus sign-off slips past Fri May 9, Phase 2 block must be rescheduled into weekend (May 9–10) writing sprint. At that point available writing time compresses to ~9 days before deadline. Reassess immediately if no confirmation by Thu May 8 noon — see TODO-607."
+      },
+      {
+        "type": "heading_3",
+        "text": "Actions Logged"
+      },
+      {
+        "type": "bulleted_list",
+        "text": "EVT-398 retitled to scope-independent block only."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "EVT-399 created: Fri May 9 09:00–14:00, scope-dependent sections."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Reply sent to Priya Nair (MSG-5094) requesting firm sign-off date."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "TODO-607, TODO-608, TODO-609, TODO-610 created."
+      },
+      {
+        "type": "bulleted_list",
+        "text": "Decision rationale logged in NOTE-142."
+      }
+    ],
+    "archived": false,
+    "created_at": "2026-05-06T14:50:00-05:00",
+    "last_updated": "2026-05-06T14:50:00-05:00"
+  }
+]

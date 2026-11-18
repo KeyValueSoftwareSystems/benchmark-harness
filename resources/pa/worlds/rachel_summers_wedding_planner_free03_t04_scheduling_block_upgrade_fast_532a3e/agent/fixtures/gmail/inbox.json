@@ -1,0 +1,1816 @@
+[
+  {
+    "message_id": "MSG-5001",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Annual Leadership Summit — Thinking Ahead for September",
+    "date": "2026-02-23T10:15:00-05:00",
+    "body": "Hi Rachel,\n\nGreat to hear from you! Yes, we're definitely planning to move forward with the Leadership Summit again this September — likely the 18th or 19th. The team loved how last year's event came together at The Meridian.\n\nA few things we'd want to carry over: the breakout room setup worked really well, and the catered lunch from Harvest Table was a hit. We'd probably want to bump attendance from 85 to around 100 this year given the team growth.\n\nBudget-wise, we're working with roughly the same envelope as last year — maybe 5–8% more room. I'll need a formal proposal by May 20th for internal sign-off.\n\nLet me know if you want to set up a call to walk through the details.\n\nBest,\nMarcus\nVP of People Operations, Veridian Technologies",
+    "labels": [
+      "corporate",
+      "rfp",
+      "returning-client"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5002",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Re: Annual Leadership Summit — Thinking Ahead for September",
+    "date": "2026-02-24T11:30:00-05:00",
+    "body": "Marcus,\n\nSo glad to hear it — I've already been pulling together notes from last year to get a head start on the proposal. The Meridian is a great anchor; I'll check their September availability this week.\n\nI'll plan to have a full proposal to you well ahead of the May 20th deadline. Would a brief call the week of March 9th work to align on any new priorities before I finalize numbers?\n\nTalk soon,\nRachel\nRachel Summers Events",
+    "labels": [
+      "corporate",
+      "rfp",
+      "sent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5003",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Veridian Leadership Summit 2025 — Post-Event Feedback",
+    "date": "2026-02-15T09:45:00-05:00",
+    "body": "Rachel,\n\nJust circling back with the internal feedback summary from the September 2025 summit — I realized I never sent this over formally.\n\nOverall score: 4.6/5 from attendees. Highlights: AV setup was seamless, the afternoon keynote room flip was executed perfectly, and catering got strong marks. One recurring note was that the morning registration felt a bit cramped — worth thinking about for next year if we grow the headcount.\n\nThe one vendor hiccup was with the floral centerpieces for the dinner reception; the arrangement style didn't quite match what we'd discussed. Not a dealbreaker but worth flagging for the next RFP.\n\nHappy to share the full survey export if useful.\n\nMarcus",
+    "labels": [
+      "corporate",
+      "feedback",
+      "post-event"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5004",
+    "from": "noreply@themeridianhotel.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Venue Inquiry Confirmation — The Meridian Conference Center",
+    "date": "2026-02-25T14:02:00-05:00",
+    "body": "Dear Rachel,\n\nThank you for your inquiry regarding event space availability at The Meridian Conference Center. We have received your request for September 18–19, 2026.\n\nA member of our events team will be in touch within 2 business days to confirm availability and provide updated pricing for the 2026 season.\n\nFor reference, your inquiry ID is MCC-2026-0892.\n\nWarm regards,\nThe Meridian Events Team",
+    "labels": [
+      "venue",
+      "corporate",
+      "inquiry"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5005",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "",
+    "subject": "Re: Venue availability question",
+    "date": "2026-02-18T14:40:00+08:00",
+    "body": "Hi, I wanted to follow up on the availability for the spring dates we discussed. I was thinking",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5006",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Leadership Summit — Budget Parameters",
+    "date": "2026-02-18T14:22:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for the preliminary scope outline — it looks great. A few things from our side before you build out the full RFP model:\n\n1. Budget ceiling: We're working with an informal cap of $45,000 all-in on the event side. That's the number I need to defend internally, so please treat it as a hard ceiling for the proposal. Your planning fee sits outside that figure as far as I'm concerned — we've always handled that separately and I don't expect that to change.\n\n2. Headcount: Still targeting 100 attendees, same as 2025.\n\n3. Venue: We'd love to stay at The Meridian if availability works out. The foyer add-on we used for the cocktail hour last year was a nice touch — worth pricing in again, though I know it's an add-on.\n\n4. Catering: Harvest Table did a solid job in 2025. If their pricing has moved, let me know — we can have a conversation, but I'd rather not switch vendors unless the delta is significant.\n\nLet me know if you need anything else from me before you finalize the model. Looking forward to seeing the proposal.\n\nBest,\nMarcus\n\nMarcus Chen\nDirector of Operations, Veridian Technologies",
+    "labels": [
+      "client",
+      "corporate",
+      "rfp",
+      "veridian"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5007",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Re: Veridian 2026 Leadership Summit — Budget Parameters",
+    "date": "2026-02-19T10:05:00-05:00",
+    "body": "Hi Marcus,\n\nPerfect — this is exactly what I needed to frame the model. A few quick confirmations:\n\n- $45,000 hard ceiling, event-side only (my planning fee is separate — noted and appreciated).\n- 100 pax, same format as 2025.\n- Meridian as primary venue; I'll price the foyer add-on as a line item so you can see the delta clearly.\n- Harvest Table as preferred caterer — I'll reach out for a 2026 quote this week.\n\nI'm also going to get a fresh AV quote from ClearSignal since their 2025 rate was a bit of a placeholder. I'll flag any line items where I'm still waiting on confirmed numbers so you know what's firm vs. estimated when you see the draft.\n\nTarget to have the model to you well ahead of the May 20 RFP deadline. I'll be in touch.\n\nBest,\nRachel\n\nRachel Summers Events\nrachel@rachelsummersevents.example | 917-555-0184",
+    "labels": [
+      "client",
+      "corporate",
+      "rfp",
+      "veridian",
+      "sent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5008",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests",
+    "date": "2026-02-27T11:40:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for reaching out! We'd love to work with you again on the Veridian event.\n\nWe're still finalizing our 2026 pricing sheet — our food costs have moved a bit since last year and we want to make sure we give you an accurate number rather than a placeholder. We expect to have a formal quote ready by mid-March.\n\nAs a rough heads-up: our 2025 per-head rate for a comparable package (plated lunch + AM/PM breaks + cocktail-hour passed apps) was $88/head. We're anticipating the 2026 rate will land somewhere in the $92–$98/head range depending on menu selections, but please don't hold us to that until the formal quote is issued.\n\nWe'll be in touch as soon as the quote is ready.\n\nWarm regards,\nSophie Tran\nEvents Sales, Harvest Table Catering\nquotes@harvesttablecatering.example",
+    "labels": [
+      "vendor",
+      "catering",
+      "rfp",
+      "veridian"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5009",
+    "from": "noreply@themeridianhotel.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Meridian Conference Center — 2026 Rate Card & Availability Update",
+    "date": "2026-02-24T09:15:00-05:00",
+    "body": "Dear Rachel,\n\nThank you for your continued partnership with The Meridian Conference Center.\n\nPlease find below our 2026 rate summary for your reference:\n\n- Grand Ballroom (full day, up to 150 pax): $6,200\n- Breakout Suite A + B (full day, per room): $1,100\n- Foyer / Pre-function Space (half-day add-on): $1,400\n- AV package (basic in-house): $2,200\n- Standard setup/teardown: included\n\nNote: The foyer add-on rate has increased from $1,150 (2025) to $1,400 for 2026 due to updated staffing costs. All other rates are held flat from 2025.\n\nFor September 18–19, 2026 availability: the Grand Ballroom is currently tentatively held per your inquiry. We will need a signed hold agreement by April 15 to confirm.\n\nPlease reach out to Jamie Okafor directly with any questions.\n\nBest regards,\nThe Meridian Events Team",
+    "labels": [
+      "vendor",
+      "venue",
+      "rfp",
+      "veridian"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5010",
+    "from": "noreply@themeridianhotel.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Meridian Conference Center — 2026 Rate Card Confirmed (Foyer Add-On Update)",
+    "date": "2026-03-26T09:14:00-05:00",
+    "body": "Dear Rachel,\n\nThank you for your continued interest in the Meridian Conference Center for your 2026 events. As discussed, please find below our confirmed 2026 pricing for the spaces relevant to your inquiry.\n\n--- CONFIRMED 2026 RATE CARD (Effective January 1, 2026) ---\n\nMain Ballroom (full-day, up to 150 pax): $12,500\nBreakout Room A (half-day): $950\nBreakout Room B (half-day): $950\nRegistration / Pre-Function Foyer Add-On (full event day, up to 120 pax): $1,650\n  — Note: This reflects a 2026 rate adjustment from the 2025 rate of $1,400. The foyer add-on is booked as a supplement to the main ballroom package and cannot be reserved independently.\n\nAV Infrastructure Package (house system, basic): $2,200\nParking Validation Block (100 vehicles, full day): $800\n\nAll rates are exclusive of applicable taxes and service fees (8.5%). A 30% deposit is required to hold any date; full payment due 60 days prior to event.\n\nPlease note that the foyer add-on rate of $1,650 is firm for 2026 and reflects increased facility maintenance and staffing costs. We are not in a position to offer discounts below this rate for the current booking year.\n\nFor the September 18–19, 2026 dates you inquired about, both the main ballroom and foyer remain available as of this communication. Availability is not guaranteed until a deposit is received.\n\nIf you have questions, please contact Jamie Okafor directly at j.okafor@themeridianhotel.example or 312-555-0174.\n\nWarm regards,\nMeridian Conference Center Events Team\nnoreply@themeridianhotel.example",
+    "labels": [
+      "inbox",
+      "vendor",
+      "veridian-rfp",
+      "rate-card"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5011",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Veridian 2026 Summit — Foyer Line Item: Rate Confirmed, Quick Decision Needed Before Drafting",
+    "date": "2026-03-26T14:32:00-05:00",
+    "body": "Hi Marcus,\n\nQuick update before we move into the proposal writing phase — I want to flag this now so it doesn't become a surprise in the draft.\n\nThe Meridian just sent over their confirmed 2026 rate card this morning. The foyer add-on — which I included in the budget preview I sent you last week as the registration-flow solution for 100 pax — is confirmed at $1,650 for the full event day. That's $250 higher than the figure I modeled, and the venue has indicated the rate is firm with no discount headroom for 2026.\n\nWhat this means for the budget: with the foyer at $1,650, the revised client-facing subtotal comes in approximately $700 over the $45K ceiling even after the other line-item trims I had already applied. So I need a quick scope decision from you before I start drafting the proposal — ideally by end of day Friday, March 27.\n\nThe two paths I'd recommend we discuss:\n\n(A) Drop the foyer add-on entirely. This recovers $1,650 and brings the budget comfortably under $45K. It does mean we redesign the registration flow — I have some precedent for foyer-free setups at 100 pax that work well, and I can walk you through the layout.\n\n(B) Keep the foyer at $1,650 and have a brief conversation about adjusting the ceiling to ~$45,700, or I find an offsetting cut in catering or AV once those final quotes come in (both still pending — expected by end of this week).\n\nI don't want to frame this as a budget problem — it's a rate confirmation that landed after the preview, and it's a straightforward scope call. A 15-minute call tomorrow morning or a quick async reply would be enough to unblock the draft.\n\nAre you available Thursday March 26 at 3:30 PM CT, or would Friday morning work better?\n\nThanks,\nRachel\n\nRachel Summers Events\nrachel@rachelsummersevents.example\n312-555-0198",
+    "labels": [
+      "sent",
+      "veridian-rfp",
+      "client-communication"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5012",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests (Quote Follow-Up)",
+    "date": "2026-03-25T11:47:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for your patience — we're still finalizing our 2026 corporate menu pricing with our kitchen team. We expect to have a full quote to you by end of day Friday, March 27. Apologies for the delay; we had a staffing change in our events department that pushed our timeline back slightly.\n\nJust to confirm the parameters we're quoting against: seated lunch + cocktail reception, 100 guests, September 18 at the Meridian Conference Center, standard corporate package with dietary accommodation options. Let us know if anything has changed.\n\nBest,\nHarvest Table Catering\nquotes@harvesttablecatering.example",
+    "labels": [
+      "inbox",
+      "vendor",
+      "veridian-rfp"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5013",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Floral pricing — need confirmation before we finalize",
+    "date": "2026-04-22T10:14:00-05:00",
+    "body": "Hi Rachel,\n\nI just want to make sure we're still locked in at the original floral quote. When we signed the contract back in February you told me Bloom & Branch would hold that price through the wedding date — $3,500 all-in for ceremony and reception. I've been budgeting around that number and honestly we don't have room to absorb anything higher.\n\nI heard through a friend that some florists are raising rates this spring. Can you confirm in writing that our price is protected? I don't want any surprises six weeks out.\n\nThanks,\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "client"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5014",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Rate adjustment — following up on our conversation",
+    "date": "2026-04-23T09:45:00-05:00",
+    "body": "Rachel,\n\nFollowing up on our call last week. As I mentioned, our wholesale costs have gone up significantly — labor and imported stems both. The new rate structure adds roughly 18% across the board, which for a full ceremony + reception package at the Kowalski-Reyes scale comes out to around $4,130.\n\nI really appreciated you saying you'd work with us on rolling this out across the three weddings you have with us this season. That meant a lot and I've been planning around that understanding. I know it puts you in a tough spot with clients, but I wanted to follow up and get a sense of timeline — when can we formalize the revised numbers?\n\nBest,\nSophie\nBloom & Branch Studio",
+    "labels": [
+      "inbox",
+      "vendor",
+      "bloom-and-branch"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5015",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "owner@bloomandbranch.example",
+    "subject": "Re: Rate adjustment — following up on our conversation",
+    "date": "2026-04-23T14:30:00-05:00",
+    "body": "Hi Sophie,\n\nThank you for following up. I want to be straightforward with you — I'm in the middle of reviewing my notes and commitments across all three affected weddings before I can give you a firm answer on the revised rate structure. I need a few days to work through the numbers and figure out what's actually possible.\n\nI'll be back to you by end of week. I appreciate your patience.\n\nRachel",
+    "labels": [
+      "sent",
+      "vendor",
+      "bloom-and-branch"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5016",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Floral pricing — need confirmation before we finalize",
+    "date": "2026-04-25T11:02:00-05:00",
+    "body": "Rachel — just checking in since I haven't heard back yet. The wedding is May 9th and I really need to know we're solid on the floral budget. Please let me know today if possible.\n\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "client",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5021",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — Foyer Decision",
+    "date": "2026-04-01T09:14:00-05:00",
+    "body": "Hi Rachel,\n\nAfter reviewing the numbers you sent over, we've decided to go ahead and include the foyer. The additional networking space is worth it for our executive attendees, and the $1,650 rate is acceptable given the Meridian's overall value.\n\nSo to confirm: foyer-IN scenario is locked. Please use that as the basis for the proposal.\n\nOne thing I want to flag — our $45K ceiling is firm. If the foyer pushes us over, I'd rather see trims elsewhere (catering per-head, AV package tier, or contingency buffer) than drop the foyer. Happy to discuss on a quick call if needed, but I trust your judgment on where to find the headroom.\n\nLooking forward to seeing the draft.\n\nBest,\nMarcus\n\nMarcus Chen\nDirector of Operations, Veridian Technologies\nmarcus.chen@veridiantech.example",
+    "labels": [
+      "veridian",
+      "rfp",
+      "decision",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5022",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests (Quote Follow-Up)",
+    "date": "2026-03-31T11:42:00-05:00",
+    "body": "Hi Rachel,\n\nApologies for the delay — we had a staffing change in our events team. Here is our confirmed quote for the Veridian Technologies Leadership Summit, September 18–19, 2026 at The Meridian Conference Center.\n\nService: Full-day catering for 100 guests (Day 1 + Day 2)\n  - Continental breakfast: $18/person/day\n  - Working lunch (plated): $42/person/day\n  - Afternoon break service: $12/person/day\n  - Day 1 evening reception (passed apps + bar): $55/person\n\nTotal per-person (Day 1 full day + evening): $127\nTotal per-person (Day 2 full day, no evening): $72\nBlended total for 100 guests across both days: $19,900\n\nThis quote is valid through April 30, 2026. A 25% deposit is required to hold the date.\n\nPlease let us know if you'd like to adjust any service tiers.\n\nWarm regards,\nHarvest Table Catering Events Team\nquotes@harvesttablecatering.example",
+    "labels": [
+      "veridian",
+      "rfp",
+      "catering",
+      "vendor-quote",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5023",
+    "from": "av@clearsignal.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "ClearSignal AV — Confirmed Quote for Veridian Technologies Summit 2026",
+    "date": "2026-03-31T14:05:00-05:00",
+    "body": "Hi Rachel,\n\nThank you for your patience. Please find our confirmed quote below for the Veridian Technologies Leadership Summit at The Meridian Conference Center, September 18–19, 2026.\n\nScope: Full two-day AV production for 100-person corporate summit\n  - Main stage LED screen + projection system: $2,200\n  - Wireless microphone package (4 handhelds, 4 lapels): $850\n  - Live sound system + engineer (both days): $1,800\n  - Confidence monitors + presenter support: $400\n  - Lighting package (stage wash + ambient): $950\n  - On-site AV technician (2 days): $1,200\n  - Setup/strike labor: $600\n\nTotal AV Package: $8,000\n\nNote: This quote does not include streaming or recording services. If live-stream capability is needed, add $1,400.\n\nQuote valid through April 15, 2026. 50% deposit required at contract signing.\n\nBest,\nDerek Holt\nSenior Account Manager, ClearSignal AV\nav@clearsignal.example | (312) 555-0174",
+    "labels": [
+      "veridian",
+      "rfp",
+      "av",
+      "vendor-quote",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5024",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Re: Veridian 2026 Summit — Proposal Draft Ready",
+    "date": "2026-04-01T17:48:00-05:00",
+    "body": "Hi Marcus,\n\nGreat news — the proposal draft is complete and ready for your review. I've incorporated the foyer-IN scenario as confirmed, and the finalized budget comes in at $44,850, which clears your $45,000 ceiling with $150 to spare.\n\nA few notes on how I got there:\n- Catering: locked at $19,900 (Harvest Table confirmed quote, received 3/31)\n- AV: locked at $8,000 (ClearSignal confirmed quote, received 3/31)\n- Venue + foyer: $14,200 base + $1,650 foyer = $15,850 (Meridian rate card confirmed)\n- Coordination fee + contingency: $1,100 (trimmed from original $1,400 model to clear ceiling)\n\nOne open item to flag verbally during our presentation: the contingency buffer is tighter than I'd normally carry at this event size. If any scope additions come up post-signing (e.g., AV streaming, additional reception hour), we'll need a change order. I'll note this in the deck.\n\nI'll send the full proposal deck link separately. Let me know if you'd like to connect before the presentation.\n\nBest,\nRachel\n\nRachel Summers Events\nrachel@rachelsummersevents.example | (773) 555-0192",
+    "labels": [
+      "veridian",
+      "rfp",
+      "sent",
+      "proposal"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5025",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "",
+    "subject": "Re: Venue availability question",
+    "date": "2026-03-20T09:22:00+08:00",
+    "body": "Hi, I wanted to follow up on the availability for the garden terrace in late May — actually, I'll call instead.",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true,
+    "_noise": true,
+    "_status": "discarded_draft"
+  },
+  {
+    "message_id": "MSG-5026",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Leadership Summit — Scope Call This Week",
+    "date": "2026-05-09T10:22:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for reaching out. Thursday at 2 PM works well for me. I've blocked it on my end.\n\nA few things I'd like to cover on the call:\n1. Final headcount — we're now projecting 95–105 attendees, up slightly from our earlier estimate of 90.\n2. The foyer question — I saw your note that there's a rate update. Want to understand the delta and whether it's worth keeping in scope.\n3. Breakout room configuration — we may need a third breakout for the afternoon sessions.\n4. Catering: any update on the Harvest Table quote? We had good feedback on them from 2025.\n\nI'll have Priya on the call as well — she's been tracking the internal budget approval and will have the latest ceiling number confirmed by then.\n\nLooking forward to it.\n\nBest,\nMarcus\n\nMarcus Chen\nVP, People Operations\nVeridian Technologies",
+    "labels": [
+      "veridian",
+      "rfp",
+      "client"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5027",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Re: Veridian 2026 Leadership Summit — Scope Call This Week",
+    "date": "2026-05-09T14:05:00-05:00",
+    "body": "Hi Marcus,\n\nPerfect — Thursday May 14 at 2 PM is confirmed on my end. I'll send a calendar invite shortly.\n\nGreat that Priya will be joining — having the budget ceiling confirmed in real time will be really helpful given where we are in the modeling.\n\nI'll come prepared with:\n- Current budget model summary (line-item breakdown)\n- The foyer rate situation and two scenario options (foyer-in vs. foyer-out)\n- Updated headcount assumptions and how they affect catering and room config\n- Status on the three open vendor quotes (catering, AV, foyer)\n\nOne thing I want to flag ahead of the call: the Meridian foyer add-on came in at $1,650 vs. the $1,400 I had modeled. That $250 delta, combined with a few other line items, puts us about $700 over the $45K ceiling in the current foyer-in scenario. I want to walk through both paths with you on Thursday so we can make a clean decision and I can move straight into drafting.\n\nTalk soon,\nRachel\n\nRachel Summers Events\nrachel@rachelsummersevents.example",
+    "labels": [
+      "veridian",
+      "rfp",
+      "client",
+      "sent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5028",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Veridian 2026 Summit — Budget Ceiling Confirmation (Pre-Call)",
+    "date": "2026-05-12T09:47:00-05:00",
+    "body": "Hi Rachel,\n\nJust a quick note ahead of Thursday's call with Marcus. Finance signed off this morning — the approved ceiling for the 2026 Leadership Summit is confirmed at $45,000 all-in, inclusive of planner fee. There is no flexibility above that number without a separate approval cycle, which would take 3–4 weeks and is not something Marcus wants to trigger.\n\nSo the $45K is a hard cap for purposes of the RFP.\n\nAlso wanted to mention: Marcus is particularly interested in the foyer question because the 2025 event used the main hall only and a few attendees commented that the networking flow felt cramped. So there's a real preference for the foyer if it can fit — but not at the cost of blowing the budget.\n\nSee you Thursday.\n\nPriya Nair\nChief of Staff, People Operations\nVeridian Technologies",
+    "labels": [
+      "veridian",
+      "rfp",
+      "budget",
+      "client"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5029",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests (Quote Follow-Up)",
+    "date": "2026-05-11T11:30:00-05:00",
+    "body": "Hi Rachel,\n\nApologies for the delay — our events coordinator was out last week. Attached is the updated quote for the Veridian Leadership Summit, revised for 100 guests (we've built in a ±10% flex buffer).\n\nSummary:\n- Full-day catering package (breakfast, AM break, plated lunch, PM break, cocktail reception): $18,500 for 100 pax\n- Per-head overage above 100: $185/person\n- This quote is valid through June 30, 2026\n\nLet us know if you'd like to adjust the package (e.g. drop cocktail reception to reduce cost).\n\nBest,\nHarvest Table Catering",
+    "labels": [
+      "veridian",
+      "vendor",
+      "catering",
+      "quote"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5030",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "",
+    "subject": "Re: venue availability question",
+    "date": "2026-03-26T11:45:00+08:00",
+    "body": "Hi, I wanted to follow up on the availability for",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5031",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests (Final Quote)",
+    "date": "2026-04-10T10:22:00-05:00",
+    "body": "Hi Rachel,\n\nApologies for the delay — we've had a busy spring. Here is our final quote for the Veridian Leadership Summit, September 18–19, 2026 at The Meridian.\n\nFull-day catering package (100 guests):\n- Day 1: Welcome reception + plated dinner — $8,400\n- Day 2: Continental breakfast + working lunch + afternoon break — $5,200\n- Staff, setup, breakdown, rentals (linens/glassware): included\n- Service gratuity (18%): $2,484\n\nTotal quote: $16,084\n\nNote: This quote is valid for 30 days. We do require a signed letter of intent to hold the date beyond April 30.\n\nLet me know if you have questions or need a line-item breakdown.\n\nBest,\nTerri Wallace\nHarvest Table Catering",
+    "labels": [
+      "inbox",
+      "veridian-rfp",
+      "vendor-quote"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5032",
+    "from": "av@clearsignal.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — AV Quote",
+    "date": "2026-04-09T14:05:00-05:00",
+    "body": "Rachel,\n\nThanks for the follow-up. Attached is our revised quote for ClearSignal AV services at The Meridian, Sept 18–19 2026.\n\nScope: 2-day general session AV (main ballroom), breakout room support (2 rooms), LED stage backdrop, livestream package for remote attendees.\n\nTotal: $7,200 (revised down from $7,800 — we trimmed the backup operator line since Meridian has in-house tech support on site).\n\nThis quote is firm through May 15. Happy to hop on a call if you want to walk through it.\n\nDerek Holt\nClearSignal AV",
+    "labels": [
+      "inbox",
+      "veridian-rfp",
+      "vendor-quote"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5033",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Kowalski-Reyes — Floral Update",
+    "date": "2026-04-11T09:47:00-05:00",
+    "body": "Hi Rachel,\n\nI just want to make sure we're on the same page. When we last spoke (I think it was around March 28?), you told me the Bloom & Branch pricing was locked in at the original quote. But I got a voicemail from someone there — Sienna — saying there might be a rate adjustment coming? That's not what we agreed to.\n\nWe are four weeks out. I need to know right now if our floral budget is holding at $3,200 or if we're looking at a number change. Marco and I already stretched the budget and there is no room to absorb anything.\n\nPlease call me today if possible.\n\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "urgent",
+      "client-flag"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5034",
+    "from": "noreply@themeridianhotel.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Meridian Conference Center — Booking Inquiry Auto-Confirmation",
+    "date": "2026-04-08T08:01:00-05:00",
+    "body": "Thank you for your inquiry to The Meridian Conference Center. This is an automated confirmation that your availability request for September 18–19, 2026 has been received and is on file.\n\nA member of our events team will follow up separately if any action is required.\n\nThis message requires no reply.\n\nThe Meridian Events Team",
+    "labels": [
+      "inbox",
+      "auto-confirm",
+      "meridian"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5035",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Kowalski-Reyes Wedding — Floral Scope Clarification",
+    "date": "2026-04-10T16:30:00-05:00",
+    "body": "Hi Rachel,\n\nFollowing up on our call last week. I want to make sure we're aligned before I order stems for the Kowalski-Reyes event.\n\nAs I mentioned, our wholesale costs went up roughly 12% in late March (imported ranunculus and garden roses are the main drivers). We can hold the Kowalski-Reyes quote at $3,200 only if we make two substitutions: swap the garden roses in the ceremony arch for locally sourced lisianthus, and reduce the cocktail hour bud vases from 14 to 9.\n\nIf the client needs the original spec, the revised figure would be $3,580.\n\nI understand you may have already communicated a locked price to the client — I want to find a workable path here, but I do need a decision by April 14 so I can place orders.\n\nSienna Voss\nBloom & Branch Studio",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "vendor-quote",
+      "floral-conflict"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5036",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — General Logistics Check-In",
+    "date": "2026-04-07T11:15:00-05:00",
+    "body": "Hi Rachel,\n\nJust a quick note — Marcus asked me to loop in and let you know the RFP submission window is still on track for the week of May 19. He wants to make sure the proposal is in his hands no later than May 18 so he has a day to review before it goes to procurement.\n\nNo new requirements from our side, just confirming the timeline holds. Let us know if you need anything.\n\nPriya Nair\nExecutive Assistant to Marcus Chen\nVeridian Technologies",
+    "labels": [
+      "inbox",
+      "veridian-rfp",
+      "timeline"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5037",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Event Pro Insider — April Newsletter: Top Catering Trends 2026",
+    "date": "2026-04-09T07:00:00-05:00",
+    "body": "Hi Rachel,\n\nYour April edition of Event Pro Insider is here! This month we cover:\n- Farm-to-table catering: Is the trend plateauing?\n- AV tech upgrades planners are booking in 2026\n- How to negotiate vendor contracts in a rising-cost environment\n\nRead the full issue at eventproinsider.example/april2026\n\nUnsubscribe | Manage preferences",
+    "labels": [
+      "inbox",
+      "newsletter",
+      "low-priority"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5038",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests (Duplicate Confirmation)",
+    "date": "2026-04-10T10:24:00-05:00",
+    "body": "Hi Rachel,\n\nPlease disregard this message — our system sent a duplicate confirmation for the quote email sent moments ago. The authoritative quote is in the previous message.\n\nSorry for any confusion.\n\nTerri Wallace\nHarvest Table Catering",
+    "labels": [
+      "inbox",
+      "duplicate",
+      "ignore"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5039",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — Quick Note on Our End",
+    "date": "2026-05-07T10:14:00-05:00",
+    "body": "Hi Rachel,\n\nJust a heads-up — Marcus is traveling May 8–9 but confirmed he's still available for your scheduled call on May 9 at 11am (he'll dial in from the road). No agenda changes on our end.\n\nAlso, I wanted to flag that our internal approval window for the RFP closes May 22, so the May 20 submission date Marcus mentioned is firm. Please let us know if anything shifts on your side.\n\nBest,\nPriya\nExecutive Assistant to Marcus Chen\nVeridian Technologies",
+    "labels": [
+      "inbox",
+      "veridian",
+      "rfp"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5040",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Kowalski-Reyes — Floral Walkthrough Reschedule",
+    "date": "2026-05-07T14:52:00-05:00",
+    "body": "Rachel,\n\nSorry for the back-and-forth. I can't do Thursday the 8th anymore — Marco has a work thing that afternoon and I want him there for the floral conversation given everything going on with the pricing. Can we move to Friday May 9 at 2pm instead? Or Monday May 11?\n\nAlso I still haven't heard anything definitive about whether the original quote is locked or not. I need to know before we finalize the ceremony arch design. Please advise.\n\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5041",
+    "from": "j.okafor@themeridianhotel.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: May 9 Site Walk — Confirming Time",
+    "date": "2026-05-06T11:30:00-05:00",
+    "body": "Hi Rachel,\n\nConfirmed — I have you down for a site walk on Friday May 9 at 10:00am. We'll do the main ballroom, the pre-function foyer, and the AV booth. Should take about 45 minutes.\n\nParking validation available at the front desk. See you then.\n\nBest,\nJamie Okafor\nEvents Sales Manager\nThe Meridian Conference Center",
+    "labels": [
+      "inbox",
+      "meridian",
+      "site-walk"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5042",
+    "from": "av@clearsignal.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: ClearSignal AV — Veridian 2026 Quote Status",
+    "date": "2026-05-08T09:05:00-05:00",
+    "body": "Rachel,\n\nApologies for the delay. Our estimator has been out sick. I can have the full AV quote for the Veridian 2026 Leadership Summit (100 pax, Sept 18–19, Meridian Conference Center) to you by end of day Friday May 9.\n\nQuick clarification question: does the quote need to include the foyer pre-function space, or just the main ballroom? Let me know and I'll make sure the line items are scoped correctly.\n\nDerek Holt\nClearSignal AV",
+    "labels": [
+      "inbox",
+      "clearsignal",
+      "veridian",
+      "rfp"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5043",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "claire.fontaine@blossomfloralstudio.example",
+    "subject": "Re: Floral proposal for the Henderson wedding – a few questions",
+    "date": "2026-04-15T17:30:00+08:00",
+    "body": "Hi Claire, thanks for sending over the updated proposal. I wanted to ask about the substitution for the garden roses — ",
+    "labels": [
+      "DRAFT"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5044",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.bell@grandviewvenue.example",
+    "subject": "Availability inquiry – late September reception",
+    "date": "2026-04-16T09:45:00+08:00",
+    "body": "",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5045",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Floral Arrangements — Can We Still Lock In the Original Pricing?",
+    "date": "2026-04-16T10:22:00-05:00",
+    "body": "Hi Rachel,\n\nI've been thinking about our conversation last week and I'm still really worried about the budget impact from Bloom & Branch's price increase. You mentioned we'd be protected from the new rates — can you confirm that in writing? Marco and I have already stretched to the top of our budget and we can't absorb another $400–600 on florals.\n\nAlso, I know we talked about this, but I want to make sure the ceremony arch design is still locked. Can you send me the final floral brief so I can review before our call?\n\nThanks,\nDana",
+    "labels": [
+      "inbox",
+      "urgent",
+      "kowalski-reyes"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5046",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Spring 2026 Rate Adjustment — Affected Bookings",
+    "date": "2026-04-16T14:05:00-05:00",
+    "body": "Rachel,\n\nFollowing up on our call last week. As I mentioned, the new pricing applies to all events booked after April 1st that haven't had a signed floral contract. I want to make sure we're aligned before I finalize the order sheets for May.\n\nFor Kowalski-Reyes specifically — you said we'd honor the original quote, but I need written confirmation from you that Rachel Summers Events will cover any difference if the client's contract doesn't reflect the updated rate. I can't hold the old pricing indefinitely without that assurance.\n\nCan we get on a call this week to sort this out? I have Thursday afternoon open.\n\nSienna\nBloom & Branch Studio",
+    "labels": [
+      "inbox",
+      "urgent",
+      "vendor",
+      "bloom-branch"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5047",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — Quick Check-In Before RFP Draft",
+    "date": "2026-04-17T09:15:00-05:00",
+    "body": "Rachel,\n\nThanks for the heads-up on the foyer situation. I've looped in Priya on our end. We're still firm on the $45K ceiling — that's a hard cap from finance, not a soft target. If the foyer pushes us over, we need to know now so we can decide whether to scope it out entirely or find another offset.\n\nI'd like to get on a call before you start drafting. Can you do Friday morning? I want to make sure we're aligned on scope before you invest time in the proposal.\n\nMarcus",
+    "labels": [
+      "inbox",
+      "veridian",
+      "rfp"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5048",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "This Week in Events: Spring Vendor Pricing Trends + RFP Best Practices",
+    "date": "2026-04-15T08:00:00-05:00",
+    "body": "EVENT PRO INSIDER — Weekly Digest\n\nThis week's highlights:\n• Floral industry pricing up 8–12% YoY heading into spring 2026 — how to protect client budgets\n• Writing corporate RFPs that win: scope clarity before you draft\n• Venue add-on fees: what to negotiate vs. what to accept\n• Spotlight: Managing day-of change requests without losing client trust\n\nRead the full issue at eventproinsider.example/weekly\n\nUnsubscribe | Manage preferences",
+    "labels": [
+      "inbox",
+      "newsletter"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5049",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "",
+    "subject": "Re: Venue availability follow-up",
+    "date": "2026-04-27T10:20:00+08:00",
+    "body": "Hi, I wanted to follow up on the availability question from last week —",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5050",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "hello@freelancecoordinator.example",
+    "subject": "Day-of Coordinator Inquiry — May 9 Wedding (Kowalski-Reyes)",
+    "date": "2026-05-01T10:15:00-05:00",
+    "body": "Hi Tara,\n\nI hope you're well! I'm reaching out because I have a day-of coordination coverage need for a wedding on Saturday, May 9 and I believe you've done freelance day-of work in the past.\n\nHere's the quick overview:\n- Event: Kowalski-Reyes Wedding\n- Date: Saturday, May 9, 2026\n- Coverage needed: 10:00 AM – 9:00 PM (ceremony + reception)\n- Role: Secondary day-of coordinator — vendor check-in, timeline management, bridal party wrangling, and reception flow\n\nI'm looking for someone reliable with at least 3 years of day-of experience. Could you let me know your availability and day rate for this date? I'd also appreciate a quick reference or two if we haven't worked together directly before.\n\nHoping to confirm coverage by end of this week.\n\nBest,\nRachel Summers\nRachel Summers Events\n(312) 555-0192",
+    "labels": [
+      "vendor-outreach",
+      "kowalski-reyes",
+      "day-of-coverage"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5051",
+    "from": "tara.bloom.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Day-of Coordinator Inquiry — May 9 Wedding (Kowalski-Reyes)",
+    "date": "2026-05-01T13:42:00-05:00",
+    "body": "Hi Rachel!\n\nGreat to hear from you. May 9 works — I'm currently open that date. Here's my info:\n\n**Day Rate:** $650 (10-hour coverage, includes 1 hr pre-event setup walkthrough)\n**Overtime:** $65/hr beyond 10 hours\n**What I bring:** Full vendor coordination binder, timeline management, emergency kit, and I'm comfortable running a 100–150 guest reception solo as secondary.\n\nI've worked with Grandview Venue twice in the past two seasons — happy to have Marcus Bell vouch for me if that helps. I can also send you my standard freelance agreement.\n\nLet me know if you'd like to hop on a quick call to align on the run-of-show. I'm available tomorrow afternoon.\n\nTara Bloom\nFreelance Day-of Coordinator\n(312) 555-0847",
+    "labels": [
+      "vendor-outreach",
+      "kowalski-reyes",
+      "day-of-coverage"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5052",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "lena.vasquez.events@gmail.example",
+    "subject": "Quick ask — May 9 availability?",
+    "date": "2026-05-01T10:30:00-05:00",
+    "body": "Hi Lena,\n\nHope your spring season is going smoothly! I have a scheduling gap on May 9 for the Kowalski-Reyes wedding and I'm exploring options before I go the freelance route.\n\nAny chance you're free that Saturday and would be open to helping as a secondary coordinator? It would be roughly 10 AM–9 PM. Happy to return the favor — I know you have a busy June.\n\nNo pressure at all if the timing doesn't work. Just wanted to check before I booked out.\n\nRachel",
+    "labels": [
+      "colleague-network",
+      "kowalski-reyes",
+      "day-of-coverage"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5053",
+    "from": "lena.vasquez.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Quick ask — May 9 availability?",
+    "date": "2026-05-01T15:18:00-05:00",
+    "body": "Rachel! So good to hear from you.\n\nUnfortunately May 9 is a no-go for me — I have the Harrington-Park wedding at Lakeview that day, full lead. I'm so sorry I can't help!\n\nHave you tried Tara Bloom? She did a great job as secondary at the Delacroix wedding last fall — very professional, clients loved her. I think she freelances regularly.\n\nGood luck with the Kowalski-Reyes event — sounds like a beautiful one!\n\nLena",
+    "labels": [
+      "colleague-network",
+      "kowalski-reyes"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5054",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "lena.vasquez.events@gmail.example",
+    "subject": "This Week's Priority Stack — Pre-Audit Heads Up",
+    "date": "2026-05-18T09:15:00-04:00",
+    "body": "Hi Lena,\n\nHeading into a dense few days and wanted to flag the priority stack before we hit the thick of it.\n\nThis week is genuinely overloaded. I'm doing a full calendar audit this morning to map every conflict across the next 3–4 weeks. Here's what I need you to hold on your end:\n\n1. **Kowalski-Reyes floral call** (Sienna Voss / Bloom & Branch) — I need to be the one on that call. Do NOT reschedule it or delegate any budget conversation to anyone else until I've resolved the dual-assurance issue. I'll brief you after.\n\n2. **Veridian RFP writing block (May 20)** — This block is at risk if the three pending vendor quotes don't land by EOD May 19. If you haven't heard from Harvest Table or ClearSignal by 4pm Tuesday, send a nudge from your address referencing my earlier emails.\n\n3. **Marcus Chen call (May 19, 10am)** — Hard constraint. Do not let anything move into that slot.\n\nI'll send you the full conflict resolution note by EOD today once the audit is done.\n\nMore soon,\nRachel",
+    "labels": [
+      "assistant",
+      "priority",
+      "audit"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5055",
+    "from": "av@clearsignal.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: ClearSignal AV Quote — Veridian 2026 Summit",
+    "date": "2026-05-17T14:42:00-04:00",
+    "body": "Hi Rachel,\n\nApologies for the delay — our estimator was out Thursday and Friday. We're finalizing your quote now and expect to have it over to you by end of day Tuesday, May 19.\n\nThe scope you sent (full-day general session + two breakout rooms, Sept 18–19 at The Meridian) is what we're pricing against. If anything has changed on the breakout room count, let us know before Tuesday morning and we can adjust before we finalize.\n\nThanks for your patience,\nDerek Holt\nClearSignal AV",
+    "labels": [
+      "vendor",
+      "av",
+      "veridian-rfp",
+      "pending-quote"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5056",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Can we move our check-in? Also a few things I want to go over",
+    "date": "2026-05-17T11:08:00-04:00",
+    "body": "Rachel,\n\nHey! I know we have our check-in scheduled for Thursday the 21st at 11am but something came up — is there any way to move it to Wednesday morning instead? Like 10 or 10:30?\n\nAlso I wanted to flag a few things I've been thinking about since our last call:\n- I saw some really gorgeous altar arch inspo on Instagram and want to talk through whether we can swap the arrangement style\n- Marco's mom is now pushing hard for a cocktail hour extension by 30 minutes — I know we talked about the venue timeline but can we revisit?\n- Bloom & Branch — I keep seeing their prices seem higher than what some of my friends paid. Are we locked in? Could we shop around?\n\nLet me know on timing!\nDana",
+    "labels": [
+      "client",
+      "kowalski-reyes",
+      "reschedule-request"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5057",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider — May 2026: Managing Client Scope Creep Pre-Wedding",
+    "date": "2026-05-16T08:00:00-04:00",
+    "body": "EventPro Insider | May 2026 Newsletter\n\n**This Month: Managing Scope Creep in the Final Four Weeks**\n\nWith the high season now fully underway, we're hearing from planners across the country about the familiar pre-wedding pressure: clients who were calm and decisive during planning suddenly become revision-hungry as the date approaches.\n\nIn this issue:\n- Why the 4-week mark triggers change requests (and how to redirect)\n- Contract language that protects you without damaging the relationship\n- Scripts for saying 'no' to day-of vendor swaps\n- Real-world case: a planner who held the line on a florist change 3 weeks out\n\nRead the full issue at eventproinsider.example/may2026\n\nUntil next month,\nThe EventPro Insider Team",
+    "labels": [
+      "newsletter",
+      "industry"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5058",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "claire.fontaine@blossomfloralstudio.example",
+    "subject": "Florist Backup Inquiry — Spring 2026 Weddings",
+    "date": "2026-03-06T10:14:00-05:00",
+    "body": "Hi Claire,\n\nI'm reaching out because I'm evaluating backup floral options for three spring weddings currently contracted with another studio. I'd love to get a sense of your availability and pricing for late May through August 2026 before I commit to anything.\n\nCould you share your current rate sheet and let me know if you have capacity for 3 events in that window?\n\nThanks,\nRachel",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5059",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "av@clearsignal.example",
+    "subject": "Veridian 2026 Summit — AV Quote Follow-Up",
+    "date": "2026-03-07T14:22:00-05:00",
+    "body": "Hi Derek,\n\nFollowing up on my inquiry from last week regarding AV services for the Veridian Technologies Leadership Summit in September 2026 at The Meridian Conference Center. I need a firm quote for the main ballroom setup (200 pax, full A/V, livestream capability) before I can finalize the RFP budget model.\n\nCan you confirm pricing by end of week? I'm on a tight deadline.\n\nBest,\nRachel Summers\nRachel Summers Events",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5060",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.bell@grandviewvenue.example",
+    "subject": "Venue Inquiry — Backup Option for Corporate Event Sept 2026",
+    "date": "2026-03-09T11:05:00-05:00",
+    "body": "Hi Marcus,\n\nI wanted to check in on availability at Grandview for a corporate event in mid-September 2026 — roughly 200 attendees, two-day format. This is exploratory at this stage; I have a primary venue in discussion but want to understand my options.\n\nDo you have Sept 18–19 open? What's the ballpark for a full buyout?\n\nThanks,\nRachel",
+    "labels": [
+      "DRAFT"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5061",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Event Pro Insider — March 2026 Newsletter: Vendor Rate Trends & Spring Season Prep",
+    "date": "2026-03-10T08:00:00-05:00",
+    "body": "Good morning, Rachel!\n\nIn this month's issue:\n• Floral pricing up 12–18% industry-wide — how planners are managing client expectations\n• AV vendor capacity crunch: book early for Q3 events\n• Corporate RFP season: tips for competitive proposals\n• Venue spotlight: boutique hotel conference spaces gaining ground\n\nRead the full issue at eventproinsider.example/march2026\n\nUnsubscribe | Manage preferences",
+    "labels": [
+      "INBOX",
+      "newsletter"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5062",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "",
+    "subject": "Re: Linen rental pricing question",
+    "date": "2026-05-12T11:40:00+08:00",
+    "body": "Hi, I wanted to follow up on the pricing we discussed last week — actually, let me check the original quote first before sending this.",
+    "labels": [
+      "DRAFT",
+      "DISCARDED"
+    ],
+    "is_read": true,
+    "_noise": true
+  },
+  {
+    "message_id": "MSG-5063",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "lena.vasquez.events@gmail.example",
+    "subject": "Quick tasks for tomorrow — handoff notes from today's triage",
+    "date": "2026-03-20T17:45:00-05:00",
+    "body": "Hi Lena,\n\nWrapping up a packed Tuesday and handing off a few items for you to tackle tomorrow morning before I'm back at my desk.\n\n1. VENDOR FOLLOW-UP NUDGE — Harvest Table Catering: We still haven't received the updated quote for the Veridian 2026 event (100 pax, Sept 18–19). Please send a polite follow-up to quotes@harvesttablecatering.example referencing our original inquiry from early March. Subject line: 'Veridian 2026 Catering Quote — Follow-Up.' Keep it brief — just ask for an ETA on the quote and confirm the 100-guest headcount is still the right number.\n\n2. NOTION UPDATE — Kowalski-Reyes Event Record: Please open the Kowalski-Reyes Wedding Event Record in Notion and add a note under the Floral section: 'Bloom & Branch rate conflict under review as of 2026-03-20. Rachel to resolve dual-assurance issue before final floral confirmation. No changes to floral order until further notice.' Do not change any other fields.\n\n3. CONFIRMATION EMAIL — ClearSignal AV: Please send a brief email to av@clearsignal.example confirming that we are still expecting their AV quote for the Veridian 2026 Leadership Summit (Sept 18–19, Meridian Conference Center). Ask if they can confirm receipt of our original request and provide an ETA. CC me.\n\nI'll handle the Veridian budget modeling and the Bloom & Branch dual-assurance resolution myself tomorrow morning — those need my full attention and aren't delegatable right now.\n\nThanks so much,\nRachel",
+    "labels": [
+      "delegation",
+      "assistant-handoff",
+      "veridian",
+      "kowalski-reyes"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5064",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Floral update — just checking in",
+    "date": "2026-03-20T11:22:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for the note last week. I just want to make sure we're still locked in with Bloom & Branch at the original pricing — Marco and I budgeted based on what you told us in January and we really can't absorb any increases at this point. We've already stretched on the venue.\n\nCan you confirm by end of week that the floral budget is holding? I don't want any surprises four weeks out.\n\nThanks,\nDana",
+    "labels": [
+      "client",
+      "kowalski-reyes",
+      "floral",
+      "urgent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5065",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Spring 2026 Rate Adjustment — Your Accounts",
+    "date": "2026-03-19T14:05:00-05:00",
+    "body": "Rachel,\n\nFollowing up on our call last week. As I mentioned, the new pricing applies to all new orders placed after March 15. I understood from our conversation that you were on board with the adjustment for your spring bookings and would communicate it to your clients accordingly.\n\nI want to make sure we're aligned before I finalize the order sheets for Kowalski-Reyes and the other two accounts. Can you confirm by end of this week?\n\nAppreciate the partnership as always.\n\nSienna\nBloom & Branch Studio",
+    "labels": [
+      "vendor",
+      "floral",
+      "bloom-and-branch",
+      "conflict"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5066",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "This week in events: Spring vendor pricing trends + RFP season tips",
+    "date": "2026-03-20T08:00:00-05:00",
+    "body": "Good morning, Rachel!\n\nThis week's Event Pro Insider digest:\n\n• Spring 2026 floral pricing up 8–14% industry-wide — how to talk to clients about budget adjustments\n• RFP season is here: 5 things corporate clients want to see in your proposal\n• Day-of coordinator shortage in mid-sized markets: what planners are doing\n• Venue foyer add-ons: worth it or budget trap?\n\nRead the full digest at eventproinsider.example.\n\nHappy planning,\nThe Event Pro Insider Team",
+    "labels": [
+      "newsletter",
+      "industry"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5067",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Veridian 2026 Summit — Your Action Items from Today's Scope Call",
+    "date": "2026-02-20T13:15:00-05:00",
+    "body": "Hi Marcus,\n\nThanks for a productive call this morning — good to get the scope locked in.\n\nPer the meeting recording, here is your confirmed action item:\n\n• Obtain internal sign-off on the $45K budget ceiling, or escalate to your CFO for a ceiling review — deadline March 4.\n\nFor your reference, I'll have the revised budget narrative (foyer-in scenario with full line-item justifications) in your inbox by February 27, and the ClearSignal AV written confirmation by February 26.\n\nLet me know if anything looks off from your end.\n\nBest,\nRachel\nRachel Summers Events",
+    "labels": [
+      "veridian",
+      "corporate",
+      "sent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5068",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "priya.nair@veridiantech.example",
+    "subject": "Veridian 2026 Summit — Your Action Items from Today's Scope Call",
+    "date": "2026-02-20T13:22:00-05:00",
+    "body": "Hi Priya,\n\nGreat to connect this morning. Quick follow-up with your confirmed action items from the scope call:\n\n1. Share Veridian brand deck and updated logo/color assets with me — by February 24.\n2. Confirm internal headcount and final breakout session count (3 vs. 4) — by February 25.\n\nPlease send both to rachel@rachelsummersevents.example. The breakout count in particular will affect the room layout and catering setup, so the Feb 25 date is a real dependency for me.\n\nThanks again — looking forward to making this one even better than last year.\n\nBest,\nRachel\nRachel Summers Events",
+    "labels": [
+      "veridian",
+      "corporate",
+      "sent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5069",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — Your Action Items from Today's Scope Call",
+    "date": "2026-02-20T15:48:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for the quick turnaround on this — very helpful to have it in writing.\n\nI'll get the brand deck over to you by Monday the 23rd if I can, definitely by the 24th. Headcount I'll need to check with our HR team but Feb 25 should be fine.\n\nOn the breakout rooms — I'm leaning toward 4 but Marcus has final say. I'll flag it to him today.\n\nTalk soon,\nPriya\n\nPriya Nair | Events & Operations\nVeridian Technologies",
+    "labels": [
+      "veridian",
+      "corporate",
+      "inbox"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5070",
+    "from": "av@clearsignal.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Corporate AV — Quote Request",
+    "date": "2026-02-20T16:30:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for reaching out. We have your Sept 18–19 dates noted and are pulling together the full quote for 100-person general session + 3 breakout rooms at the Meridian.\n\nWe should have numbers to you by end of day Tuesday Feb 24. If the breakout count changes to 4, just let us know before then and we'll adjust.\n\nBest,\nDerek\nClearSignal AV",
+    "labels": [
+      "veridian",
+      "av",
+      "vendor",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5071",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Kowalski-Reyes — Floral Update Needed ASAP",
+    "date": "2026-04-22T08:47:00-05:00",
+    "body": "Rachel,\n\nI've been waiting to hear back on the floral situation. I know you said Bloom & Branch would hold our original pricing, but I just got a message from a friend who used them last month and she said they raised rates across the board. Can you confirm in writing that our contract price is locked? I need to know before I finalize the rehearsal dinner budget this week.\n\nAlso — I know we're four weeks out but I want to add a floral arch at the ceremony exit. Can we make that happen? I'm happy to pay for it but I need a number today if possible.\n\nThanks,\nDana",
+    "labels": [
+      "urgent",
+      "client",
+      "wedding"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5072",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Spring 2026 Weddings — Rate Adjustment Follow-Up",
+    "date": "2026-04-22T09:14:00-05:00",
+    "body": "Hi Rachel,\n\nJust following up on our call last week. As I mentioned, the new pricing applies to all contracts not yet countersigned with the updated rate schedule. I want to be clear: the Kowalski-Reyes order is one of the three affected accounts. I understand this puts you in a difficult spot, but I can't hold the old rate without a signed amendment by end of this week.\n\nI also want to flag that the Hartley and Pemberton orders are in the same situation. If we can get all three resolved by Friday April 24, I can waive the retroactive adjustment fee.\n\nLet me know how you'd like to proceed.\n\nSienna\nBloom & Branch Studio",
+    "labels": [
+      "urgent",
+      "vendor",
+      "florist",
+      "conflict"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5073",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 RFP — Timing Check",
+    "date": "2026-04-21T16:30:00-05:00",
+    "body": "Rachel,\n\nJust checking in — Priya mentioned you were targeting this week for the draft RFP. We have a budget review internally on May 1st and it would really help to have your proposal in hand before then so we can align on numbers. Is April 25 still realistic for a first draft?\n\nAlso, any update on the foyer question? We talked about it briefly but I don't think we landed on a firm answer. Happy to do a quick 15-min call if that helps.\n\nThanks,\nMarcus",
+    "labels": [
+      "rfp",
+      "client",
+      "corporate"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5074",
+    "from": "lena.vasquez.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Available today — anything you need delegated?",
+    "date": "2026-04-22T09:02:00-05:00",
+    "body": "Hi Rachel,\n\nJust a heads-up that I'm free from 1pm onward today if you have anything you want me to take off your plate. I can handle vendor confirmation emails, Notion updates, or any follow-up calls that don't need you specifically. Let me know!\n\nLena",
+    "labels": [
+      "assistant",
+      "internal"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5075",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider — Issue #112: Spring Vendor Rate Surge & How Top Planners Are Responding",
+    "date": "2026-04-14T09:15:00-05:00",
+    "body": "EventPro Insider | Issue #112 | April 14, 2026\n\n---\n\nSPRING VENDOR RATE SURGE: WHAT'S DRIVING IT AND WHAT TO DO\n\nFloral and catering vendors across the Northeast and Midwest are reporting 8–18% price increases for spring 2026 bookings, citing higher wholesale flower costs (particularly peonies, ranunculus, and garden roses), labor shortages, and fuel surcharges on delivery. Several planners in our community survey reported mid-contract rate adjustments from florists — a practice that was rare before 2023 but has become more common as vendor margins tighten.\n\nKey takeaways:\n• Get written rate locks at contract signing — verbal holds are not holding.\n• Build a 10–15% floral contingency line into all spring/summer budgets.\n• If a florist raises rates post-contract, request an itemized breakdown before negotiating; most increases are concentrated in specific SKUs (e.g., imported stems), not across the board.\n• Identify one backup florist per region before season starts — not after a conflict surfaces.\n\n---\n\nRFP SEASON BEST PRACTICES: CORPORATE EVENT PROPOSALS THAT WIN\n\nWith Q2 corporate RFP season in full swing, planners are competing on more than price. Clients increasingly want to see scenario-based budget modeling (e.g., foyer vs. no-foyer, buffet vs. plated) rather than a single line-item estimate. Proposals that show two or three budget scenarios with clear trade-off notes are closing at a higher rate than single-scenario bids.\n\nKey takeaways:\n• Lead with a client-ceiling-anchored scenario, then offer an upgrade path.\n• Show your math: clients trust planners who surface the $250 difference between two catering formats, not just the total.\n• Lock all vendor quotes before writing the proposal — unconfirmed line items are the #1 source of post-award budget disputes.\n• For returning clients, reference prior event outcomes (attendance, satisfaction, cost-per-head) to anchor the new proposal.\n\n---\n\nSCOPE CREEP IN WEDDING PLANNING: THE 4-WEEK DANGER ZONE\n\nData from our planner community survey: 67% of day-of scope change requests arrive in the 3–5 week window before the event. Common triggers include venue layout changes, guest count adjustments, and late vendor substitutions. Planners who set a formal 'scope freeze' date in their contracts — typically 30 days pre-event — report significantly fewer disputes and last-minute cost overruns.\n\nKey takeaways:\n• Add a scope freeze clause to all contracts: changes after T-30 days require written approval and may incur a change-order fee.\n• When a client pushes for late changes, document the request in writing immediately — even a quick email summary protects you.\n• Distinguish between cosmetic changes (low risk, often accommodatable) and structural changes (vendor substitutions, layout shifts, guest count ±10%) — the latter need a formal change order.\n• Brief your vendors on the scope freeze date so they know not to accept client-direct change requests without your sign-off.\n\n---\n\nALSO IN THIS ISSUE:\n• Venue contract red flags to watch in 2026 (p. 4)\n• Member spotlight: How one planner built a 3-vendor backup roster in 60 days\n• Tool review: Budget modeling templates for corporate RFPs\n\nRead the full issue at eventproinsider.example/issue-112\n\n---\nEventPro Insider | Unsubscribe | Manage Preferences",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5076",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider — Issue #113: Negotiating Mid-Season Vendor Conflicts + RFP Proposal Structures That Close",
+    "date": "2026-04-17T09:10:00-05:00",
+    "body": "EventPro Insider | Issue #113 | April 17, 2026\n\n---\n\nNEGOTIATING MID-SEASON VENDOR CONFLICTS: A FRAMEWORK\n\nWhen a vendor raises prices mid-season — after you've already quoted clients — you're caught between two relationships. Planners who handle this well follow a consistent pattern: they separate the negotiation with the vendor from the communication with the client, and they resolve the vendor side first before going back to the client.\n\nKey takeaways:\n• Don't make promises to the client until you know what the vendor will actually hold. Dual assurances (telling the vendor one thing and the client another) create contract exposure.\n• With the vendor: ask for a grandfathered rate on already-contracted events, or a phased increase that applies only to new bookings. Most vendors will negotiate if you have volume (multiple events).\n• With the client: frame the conversation around options, not problems. Present the rate increase alongside a solution (absorbed cost, substitution, or adjusted scope) rather than just the bad news.\n• Document every conversation. If a vendor later claims you agreed to the new rate, your email trail is your protection.\n\n---\n\nRFP PROPOSAL STRUCTURES THAT CLOSE IN 2026\n\nCorporate clients are more budget-conscious this year, and RFP reviewers are comparing proposals side by side. Structure matters as much as price.\n\nKey takeaways:\n• Open with a one-page executive summary: event objective, proposed format, total investment, and one differentiating value statement.\n• Use a tiered budget table: Base Package / Recommended Package / Premium Option. Even if the client only wants one number, showing the tiers signals that you understand trade-offs.\n• Returning clients: include a 'since last time' section — what's changed in vendor landscape, what you've pre-negotiated, what's new this year.\n• Confirm all vendor quotes before submission. A proposal with 'estimated' line items signals risk to a procurement-minded client.\n\n---\n\nBACKUP VENDOR STRATEGY: BUILDING YOUR BENCH BEFORE YOU NEED IT\n\nThe planners least stressed during vendor conflicts are the ones who built backup relationships during the off-season — not after a crisis hit. A backup vendor isn't a replacement; it's a negotiating anchor and a safety net.\n\nKey takeaways:\n• Identify one backup per critical vendor category (florist, caterer, AV) per season.\n• Do a soft introduction call — not a full RFP — just enough to know their availability, style, and rough pricing.\n• Keep a one-page vendor profile for each backup: contact, lead time, minimum order, style notes.\n• If your primary vendor knows you have a backup, they negotiate differently.\n\n---\n\nALSO IN THIS ISSUE:\n• Spring 2026 venue availability snapshot: what's still open\n• Member Q&A: handling client-direct vendor contact\n• Checklist: 30-day pre-event scope freeze implementation\n\nRead the full issue at eventproinsider.example/issue-113\n\n---\nEventPro Insider | Unsubscribe | Manage Preferences",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5077",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider — Issue #114: Budget Ceiling Conversations with Corporate Clients + Florist Market Update",
+    "date": "2026-04-21T09:05:00-05:00",
+    "body": "EventPro Insider | Issue #113 | April 21, 2026\n\n---\n\nBUDGET CEILING CONVERSATIONS WITH CORPORATE CLIENTS: HOW TO RESET WITHOUT LOSING THE DEAL\n\nOne of the most common RFP-season challenges: your vendor quotes come in above the client's stated ceiling, and you have to decide whether to absorb, cut, or have the conversation. Planners who handle this well treat the ceiling as a starting point for a trade-off discussion, not a hard wall that kills the proposal.\n\nKey takeaways:\n• If you're within 5% of the ceiling, present a trim scenario alongside the full proposal — let the client choose.\n• If you're more than 5% over, have the conversation before submitting. Submitting an over-budget proposal without flagging it signals poor planning.\n• Frame the overage around value, not cost: 'The foyer add-on is $250 more than modeled, but it adds 40 minutes of pre-session networking that historically drives attendance satisfaction scores.'\n• For returning clients, reference what they spent last year and what the cost-per-head delta is — context makes the number feel smaller.\n• Always give the client a clear binary: in or out, with the dollar impact of each. Don't leave them guessing.\n\n---\n\nFLORIST MARKET UPDATE: SPRING 2026\n\nWholesale flower prices are running 12–20% above spring 2025 levels, driven by import disruptions and a late frost in key domestic growing regions. Planners should expect florists to push for rate adjustments on any contract signed before February 2026 that didn't include a price-escalation clause.\n\nKey takeaways:\n• If your florist contract has no escalation clause, you have grounds to hold the original rate — but expect pushback.\n• Substitution is often the fastest resolution: swap imported stems for domestic alternatives at similar visual impact.\n• For clients with fixed floral budgets, present a 'same look, adjusted stems' option rather than a straight price increase.\n• Spring 2026 backup florist availability is tightening — if you haven't confirmed a backup, do it this week.\n\n---\n\nSCOPE CREEP CASE STUDY: THE CLIENT WHO WANTED EVERYTHING AT T-28 DAYS\n\nA planner in our community shared a case where a wedding client requested a full venue layout change, two vendor substitutions, and a guest count increase of 15 — all at 28 days pre-event. Here's how she handled it:\n1. Acknowledged the requests in writing within 2 hours.\n2. Sent a formal change-order document within 24 hours, itemizing cost and timeline impact for each change.\n3. Held a 30-minute call to walk through the change order — not to negotiate, but to explain.\n4. Client approved two of four changes; the other two were withdrawn once the cost and timeline impact was clear.\n\nKey takeaways:\n• Speed of documentation is your best tool — the faster you put it in writing, the less room for 'I didn't realize' later.\n• Change orders don't have to be adversarial — frame them as 'here's what it takes to make this happen.'\n• Most clients withdraw unreasonable requests once they see the real cost and timeline impact.\n\n---\n\nALSO IN THIS ISSUE:\n• Corporate event AV trends for 2026: what clients are asking for\n• Member poll results: how planners are handling florist rate increases\n• Template: change-order email for late client requests\n\nRead the full issue at eventproinsider.example/issue-114\n\n---\nEventPro Insider | Unsubscribe | Manage Preferences",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5078",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider — Weekly Digest: Member Deals, Upcoming Webinars & Industry Calendar",
+    "date": "2026-04-20T08:45:00-05:00",
+    "body": "EventPro Insider | Weekly Member Digest | April 20, 2026\n\n---\n\nUPCOMING WEBINARS\n• April 29: 'Vendor Contract Essentials for 2026' — register at eventproinsider.example/webinars\n• May 6: 'Corporate RFP Writing Workshop' — limited seats\n• May 13: 'Managing Client Expectations in High-Season' — free for members\n\n---\n\nMEMBER DEALS THIS WEEK\n• 15% off planning software subscriptions (see partner page)\n• Free venue sourcing consultation with EventSpace Pro (new partner)\n• Discounted liability insurance renewal rates through PlannerShield\n\n---\n\nINDUSTRY CALENDAR\n• April 25: Regional Planners Network spring mixer — Chicago\n• May 2: NACE local chapter meeting — check your region\n• May 15: EventPro Insider annual survey opens — share your data, get the full report\n\n---\n\nFEATURED MEMBER RESOURCE\nDownload this month's free template: 'Vendor Rate Change Response Email' — a plug-and-play email for communicating florist or caterer price increases to clients without damaging the relationship.\n\nDownload at eventproinsider.example/resources/rate-change-template\n\n---\nEventPro Insider | Unsubscribe | Manage Preferences",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5079",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "A few changes I'd like to make — Kowalski-Reyes May 9",
+    "date": "2026-04-20T18:42:00-05:00",
+    "body": "Hi Rachel,\n\nI know we're getting close but I've been thinking about a few things and wanted to run them by you before it's too late.\n\n1. I'd like to swap the centerpiece style from the tall arrangements to something lower and more garden-style — I saw something on Instagram that felt more \"us.\"\n2. Can we add a small floral arch at the cocktail hour entrance? Even something simple.\n3. I want to change the ceremony aisle markers from the ribbon-tied bunches to something with more greenery.\n\nI realize the florist situation has been a little complicated lately — you mentioned something about pricing — but I'm hoping these changes are doable. Can we talk this week?\n\nThanks,\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "day-of-changes",
+      "client"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5080",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Kowalski-Reyes — Confirming Our Conversation",
+    "date": "2026-04-21T11:15:00-05:00",
+    "body": "Rachel,\n\nFollowing up on our call last week. I want to make sure we're on the same page before I finalize the order for the Kowalski-Reyes event.\n\nMy understanding from our conversation was that the new rate schedule applies to this wedding — the client was going to be informed and the contract addendum would reflect the updated pricing. I've held the inventory allocation based on that assumption.\n\nIf that's changed, I need to know now. I have another inquiry for that weekend and I've been holding it pending your confirmation.\n\nAlso — I haven't heard back about the other two spring weddings (Hartley and Osei-Mensah). Are those proceeding at the new rates as well?\n\nSienna\nBloom & Branch Studio",
+    "labels": [
+      "inbox",
+      "bloom-and-branch",
+      "conflict",
+      "urgent",
+      "florist"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5081",
+    "from": "claire.fontaine@blossomfloralstudio.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Spring 2026 Availability — Blossom Floral Studio",
+    "date": "2026-04-17T14:30:00-05:00",
+    "body": "Hi Rachel,\n\nGreat to hear from you! Yes, we do have availability for May and June 2026 — currently have three weekends open in May and two in June.\n\nFor a wedding of the scale you described (150–180 guests, full ceremony + reception florals), our base package starts at $4,200 with custom add-ons priced separately. I can put together a more detailed quote if you can share the event brief.\n\nI know you've worked with Bloom & Branch for a while — happy to chat informally if you're just exploring options. No pressure.\n\nBest,\nClaire Fontaine\nBlossom Floral Studio",
+    "labels": [
+      "inbox",
+      "florist-backup",
+      "blossom-floral",
+      "vendor"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5082",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — Foyer Line Item Update",
+    "date": "2026-04-22T09:05:00-05:00",
+    "body": "Rachel,\n\nThanks for the heads-up on the foyer rate. $1,650 is higher than what we discussed in the informal preview — I thought we were looking at something closer to $1,400.\n\nI want to be direct: the $45K ceiling is firm. We don't have flexibility to go over, and I'd rather have a clean proposal that fits the budget than a negotiation conversation after the fact.\n\nIf the foyer pushes us over, let's talk about whether it's worth including at all. I'm open to a call this week if you need to work through the numbers.\n\nMarcus",
+    "labels": [
+      "inbox",
+      "veridian-rfp",
+      "budget",
+      "foyer-decision",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5083",
+    "from": "lena.vasquez.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: May 9 Day-of Coordinator — Availability Check",
+    "date": "2026-04-21T16:50:00-05:00",
+    "body": "Hi Rachel,\n\nSorry for the slow reply — I was on-site all weekend. May 9 is actually already booked for me, I took a last-minute gig about two weeks ago. I should have flagged it sooner, my apologies.\n\nI'm free May 16 and May 23 if either of those are useful for other events you have coming up.\n\nHope you find someone for the 9th!\nLena",
+    "labels": [
+      "inbox",
+      "staffing",
+      "kowalski-reyes",
+      "day-of"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5084",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "claire.fontaine@blossomfloralstudio.example",
+    "subject": "Florist Backup Inquiry — Spring 2026 Wedding Season Availability",
+    "date": "2026-04-22T10:15:00-05:00",
+    "body": "Hi Claire,\n\nI'm Rachel Summers — independent wedding and event planner based locally, running about 22 weddings per year. I'm reaching out because I'm building out my preferred vendor list for spring 2026 and want to explore whether Blossom Floral Studio has capacity to take on backup or overflow work for a few upcoming dates.\n\nI have several weddings in the May–August window and am looking for a reliable florist partner who can step in on relatively short notice if my primary vendor relationship hits a snag. I'd love to know:\n\n1. Your general availability for May and June 2026 (particularly weekends)\n2. Whether you take on backup/secondary bookings or prefer to be the primary vendor\n3. Your typical lead time for a full wedding floral package (ceremony + reception, ~120 guests)\n4. A ballpark range for a mid-tier package so I can assess fit against client budgets\n\nI've heard good things about your work from a few colleagues in the local planning community and would love to get a conversation going. Happy to jump on a quick call this week or next if that's easier.\n\nThanks so much,\nRachel Summers\nRachel Summers Events\nrachel@rachelsummersevents.example",
+    "labels": [
+      "sent",
+      "vendor-outreach",
+      "florist-backup"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5085",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "owner@bloomandbranch.example",
+    "subject": "Bloom & Branch — Rate Increase Resolution: Kowalski-Reyes + Affected Weddings",
+    "date": "2026-04-22T11:45:00-05:00",
+    "body": "Hi Sienna,\n\nThank you for your patience while I worked through the implications of the rate adjustment on my end. I want to be straightforward with you about where things stand and how I'd like to move forward.\n\nAfter reviewing all three affected client budgets, here is the position I'm committing to:\n\n**Kowalski-Reyes (May 31, 2026):** I will absorb the rate difference on this wedding from my planning fee rather than pass it to the client. The contract was signed under the prior rate, and I want to honor that without putting you in an awkward position. You should invoice at your new rate; I'll reconcile on my side.\n\n**The other two affected weddings (Hargrove-Patel, June 14; Delacroix, July 19):** Both clients have been informed of the market-rate adjustment and have agreed in principle to a modest floral budget increase. I'll send you updated budget parameters for each within the week so you can revise your quotes accordingly.\n\nI want to be clear: I value our working relationship and I'm not looking to renegotiate your pricing. The new rates are fair given current market conditions. My goal here is simply to make sure each client's contract and your invoices are in alignment going forward.\n\nCan you confirm receipt of this and let me know if the Kowalski-Reyes arrangement works on your end? I'd also like to lock in a brief call — 15 minutes — sometime this week to make sure we're fully aligned before the May 31 date.\n\nThanks, Sienna.\n\nRachel Summers\nRachel Summers Events",
+    "labels": [
+      "sent",
+      "vendor",
+      "bloom-and-branch",
+      "conflict-resolution"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5086",
+    "from": "claire.fontaine@blossomfloralstudio.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Florist Backup Inquiry — Spring 2026 Wedding Season Availability",
+    "date": "2026-04-22T14:30:00-05:00",
+    "body": "Hi Rachel,\n\nWhat a lovely note — thank you for reaching out! We've heard your name come up in the local planning community as well, so this is a great connection to make.\n\nTo answer your questions quickly:\n\n1. We do have some weekend availability in May and June 2026, though May is filling up fast. June has more room.\n2. We're open to backup/secondary arrangements with planners we have an established relationship with — it's something we do selectively.\n3. For a full ceremony + reception package at ~120 guests, we typically need 6–8 weeks lead time for a standard build; 3–4 weeks is possible for a streamlined package with limited custom elements.\n4. Mid-tier full package range: $3,800–$5,500 depending on florals, season, and complexity.\n\nI'd love to hop on a call. I'm free Thursday April 24 between 10am–12pm or Friday April 25 after 2pm. Let me know what works.\n\nLooking forward to it!\nClaire Fontaine\nBlossom Floral Studio",
+    "labels": [
+      "inbox",
+      "vendor-outreach",
+      "florist-backup"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5087",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Event Pro Insider — April 22 Digest: Floral Pricing Trends + Corporate RFP Season Tips",
+    "date": "2026-04-22T08:00:00-05:00",
+    "body": "Good morning, Rachel!\n\nThis week in Event Pro Insider:\n\n• FLORAL PRICING UPDATE: Wholesale rose and peony costs up 12–18% YoY heading into spring season. Planners report renegotiating 1 in 4 floral contracts. Tips for managing client expectations inside.\n\n• CORPORATE RFP SEASON: Q2 is peak RFP submission time. Our checklist for a winning proposal — venue, catering, AV, and contingency line items — is now available in the resource library.\n\n• VENDOR SPOTLIGHT: Three florists in the metro area expanding capacity for 2026 — see if any are in your market.\n\n• READER Q&A: 'How do I handle a vendor rate increase mid-contract?' — answered by three senior planners.\n\nRead the full digest at eventproinsider.example/april-22-2026\n\n— The Event Pro Insider Team",
+    "labels": [
+      "inbox",
+      "newsletter",
+      "industry"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5088",
+    "from": "lena.vasquez.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: This week — tasks I can take off your plate",
+    "date": "2026-05-05T10:14:00-05:00",
+    "body": "Hi Rachel,\n\nJust checking in before the week kicks off. I've cleared my Tuesday and Thursday mornings for whatever you need. Based on what we talked about Friday, I'm guessing Veridian vendor follow-ups and maybe some Kowalski-Reyes logistics?\n\nLet me know what you want me to own vs. what needs to stay with you. Happy to draft the florist backup outreach emails too if you've landed on a direction there.\n\nLena",
+    "labels": [
+      "inbox",
+      "assistant",
+      "weekly-planning"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5089",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — RFP Timeline Check-In",
+    "date": "2026-05-05T14:32:00-05:00",
+    "body": "Rachel,\n\nThanks for the heads-up. We're still targeting the May 20 deadline on our end — the procurement committee meets May 22 and needs the proposal in hand before that. No flexibility there.\n\nOn the foyer question: I've flagged it internally. My preference is to keep it in if the numbers work, but I understand if you need to make a call before the draft is finalized. Just loop me in before you lock the budget line.\n\nMarcus",
+    "labels": [
+      "inbox",
+      "veridian",
+      "rfp",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5090",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Flowers — still waiting to hear back",
+    "date": "2026-05-06T09:07:00-05:00",
+    "body": "Rachel,\n\nI know you said you'd have an update by end of last week but I haven't heard anything. We're 3 weeks out and I'm getting anxious. Can you please confirm that the floral pricing we agreed on in our contract is still locked? Marco and I budgeted very carefully and we can't absorb a surprise right now.\n\nAlso — are we still on for the final walkthrough call this week?\n\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "urgent",
+      "florist-conflict"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5091",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Spring pricing — follow-up",
+    "date": "2026-05-06T11:45:00-05:00",
+    "body": "Rachel,\n\nSienna here. I want to make sure we're on the same page before the Kowalski-Reyes event. I know we've been going back and forth but I need a clear answer: are we applying the new rate schedule to all three May/June weddings, or are you asking me to hold the old rate for Kowalski-Reyes specifically?\n\nI can't hold the old rate indefinitely — my supplier costs went up and I've already absorbed two weeks of the difference. If we're doing a carve-out for one wedding, I need that confirmed in writing by end of this week so I can adjust my invoicing.\n\nPlease call me or reply here. I need to know.\n\nSienna Voss\nBloom & Branch Studio",
+    "labels": [
+      "inbox",
+      "bloom-branch",
+      "florist-conflict",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5092",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Veridian 2026 Summit — Scope Sign-Off Delay (Marcus Out Until Thursday)",
+    "date": "2026-05-06T09:14:00-05:00",
+    "body": "Hi Rachel,\n\nI wanted to give you a heads-up before your writing block this week. Marcus's internal budget review with our CFO is still in progress — the revised capex allocation for Q3 events hasn't cleared finance yet, and until it does, he can't give formal scope sign-off on the Summit proposal.\n\nHis current estimate is that he'll have clearance by end of day Thursday, May 8, at the earliest. That said, this is a soft estimate — if the CFO review slips to Friday we'd be looking at May 9. I can't give you a hard date yet, but I wanted you to hear it directly rather than find out mid-draft.\n\nMarcus is aware I'm reaching out and he'll follow up separately once he has a confirmed date. In the meantime, please let me know if you need anything from our side to keep things moving.\n\nSorry for the short notice — I know you had the block penciled in.\n\nBest,\nPriya Nair\nExecutive Assistant to Marcus Chen\nVeridian Technologies",
+    "labels": [
+      "inbox",
+      "veridian",
+      "rfp",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5093",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — Scope Sign-Off Delay (Marcus Out Until Thursday)",
+    "date": "2026-05-06T11:02:00-05:00",
+    "body": "Rachel,\n\nPriya looped me in — she's right, and I wanted to confirm directly. The CFO review is taking longer than expected and I can't give you the go-ahead on scope until that clears. Best case is Thursday EOD (May 8); worst case is Friday morning (May 9).\n\nI know this creates a timing problem for your writing block. I'm sorry for the disruption. Once I have sign-off in hand I'll email you immediately with a firm confirmation and we can get on a short call if needed to run through any final questions before you dive in.\n\nAppreciate your patience — the content you've already pulled together has been excellent and I don't want a finance process delay to create unnecessary schedule pressure.\n\nTalk soon,\nMarcus",
+    "labels": [
+      "inbox",
+      "veridian",
+      "rfp"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5094",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "priya.nair@veridiantech.example",
+    "subject": "Re: Veridian 2026 Summit — Scope Sign-Off Delay (Marcus Out Until Thursday)",
+    "date": "2026-05-06T13:45:00-05:00",
+    "body": "Hi Priya,\n\nThank you for the heads-up — and thank you to Marcus for following up directly as well. I really appreciate the transparency.\n\nI've reviewed my calendar and I have a couple of options for absorbing the delay without compromising the submission deadline. I'll hold the writing block time but use it for scope-independent sections (intro narrative, logistics framework, vendor credential pages) so the week isn't lost. If Marcus can confirm sign-off by Thursday EOD, I can shift the budget and scope-dependent sections to Friday and weekend and still meet the submission window.\n\nCould you ask Marcus to send a firm sign-off date as soon as he has it — even a one-line email works? That anchor is all I need to finalize the rescheduled block.\n\nThanks again,\nRachel\nRachel Summers Events",
+    "labels": [
+      "sent",
+      "veridian",
+      "rfp"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5095",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Event Pro Insider — May Edition: RFP Season Tips + Corporate Client Retention",
+    "date": "2026-05-06T08:00:00-05:00",
+    "body": "Good morning, Rachel!\n\nThis month in Event Pro Insider:\n• 5 RFP writing shortcuts that impress corporate clients\n• How to handle scope creep before it hits your contract\n• Vendor rate negotiation strategies for spring 2026\n• Real planner stories: managing last-minute client changes\n\nClick through to read the full edition.\n\n— The Event Pro Insider Team",
+    "labels": [
+      "inbox",
+      "newsletter"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5096",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Leadership Summit — Scope Call Confirmation",
+    "date": "2026-05-02T10:14:00-05:00",
+    "body": "Hi Rachel,\n\nConfirmed on my end — Thursday May 7 at 2:00 PM CT works well. Priya will join for the second half once we get into the program flow and attendee logistics.\n\nA few things I'd like to make sure we cover:\n1. Budget ceiling — I know there were some line items still in flux. Want to make sure we're aligned before you finalize the proposal.\n2. Foyer space — still on the fence about whether we need it. Happy to hear your recommendation.\n3. Catering format — we had a plated dinner in 2025 but leadership has floated the idea of a reception-style cocktail hour instead.\n\nLet me know if you want to send a brief agenda beforehand. Looking forward to it.\n\nBest,\nMarcus\n\nMarcus Chen | Director of People & Culture\nVeridian Technologies\nmarcus.chen@veridiantech.example",
+    "labels": [
+      "veridian",
+      "rfp-2026",
+      "scope-call",
+      "inbox"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5097",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Veridian 2026 Summit — Attendee Count Update + Dietary Notes",
+    "date": "2026-05-01T14:47:00-05:00",
+    "body": "Hi Rachel,\n\nJust a quick heads-up ahead of Thursday's call — we've finalized our internal RSVP process and the confirmed attendee count is now 98, down from the 105 we were modeling earlier. That may affect catering minimums, so wanted to flag it before you run final numbers.\n\nAlso, we have 11 attendees with dietary restrictions this year (up from 7 in 2025): 4 vegetarian, 3 gluten-free, 2 vegan, 2 nut allergy. Harvest Table should be able to accommodate but worth confirming.\n\nI'll join the call around the 30-minute mark once Marcus has walked through the budget and venue questions.\n\nThanks,\nPriya\n\nPriya Nair | Executive Assistant to the CEO\nVeridian Technologies\npriya.nair@veridiantech.example",
+    "labels": [
+      "veridian",
+      "rfp-2026",
+      "attendees",
+      "inbox"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5098",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Re: Veridian 2026 Leadership Summit — Scope Call Confirmation",
+    "date": "2026-05-02T15:30:00-05:00",
+    "body": "Hi Marcus,\n\nPerfect — Thursday May 7 at 2:00 PM CT is locked in on my end. I'll send a Zoom link shortly.\n\nYour agenda items are exactly what I had flagged too. I'll put together a short pre-call brief so we can move efficiently. On the foyer — I do have a recommendation ready, and there's a budget implication I want to walk you through in context rather than over email.\n\nSee you Thursday.\n\nBest,\nRachel\n\nRachel Summers Events\nrachel@rachelsummersevents.example\n(512) 555-0174",
+    "labels": [
+      "veridian",
+      "rfp-2026",
+      "scope-call",
+      "sent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5099",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "This Week in Corporate Events: AV Trends, Catering Minimums, and Venue Negotiation Tips",
+    "date": "2026-05-05T08:00:00-05:00",
+    "body": "Good morning, Rachel!\n\nThis week's Event Pro Insider digest covers:\n• How top planners are navigating post-pandemic AV cost inflation\n• Catering minimum thresholds: what's negotiable in 2026\n• Venue foyer and pre-function space: when the add-on is worth it\n• Reader Q&A: handling client budget resets mid-proposal\n\nRead the full issue at eventproinsider.example/may-5-2026\n\nHappy planning,\nThe Event Pro Insider Team",
+    "labels": [
+      "newsletter",
+      "industry"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5100",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Veridian 2026 Summit — Post-Call Action Items & Next Steps",
+    "date": "2026-05-06T10:45:00-05:00",
+    "body": "Hi Marcus,\n\nThank you for the time yesterday — it was a productive call and I feel good about where we've landed on scope.\n\nFollowing up with your action item from the call:\n\n• Review revised budget model (foyer-IN scenario, $45K ceiling stress-test) once I send it over, and confirm whether the ceiling is met or flag any scope adjustments needed. Deadline: Tuesday, May 13 EOD.\n\nOn my end, I'll have the revised budget model and the written headcount cap confirmation from Meridian to you by Friday, May 9 EOD — both items are on my list for this week.\n\nOne note I want to flag: Priya mentioned a possible live-stream component during the call. I've asked her to send over the full AV spec by Monday, May 12. Once I have that, I'll incorporate any scope impact into the model before you review it. If the live-stream adds materially to the AV line, I'll flag it separately rather than burying it.\n\nLooking forward to getting the draft RFP in front of you soon.\n\nBest,\nRachel\nRachel Summers Events\nrachel@rachelsummersevents.example",
+    "labels": [
+      "veridian",
+      "corporate",
+      "sent",
+      "rfp-2026"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5101",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "priya.nair@veridiantech.example",
+    "subject": "Veridian 2026 Summit — Your Action Item from Yesterday's Call",
+    "date": "2026-05-06T10:55:00-05:00",
+    "body": "Hi Priya,\n\nGreat to connect yesterday. Quick follow-up with your action item from the scope call:\n\n• Confirm Veridian's internal AV spec and attendee A/V requirements, and send the completed spec sheet to me. Deadline: Monday, May 12 EOD.\n\nAs discussed, if the live-stream component is confirmed, please include the expected stream format and any technical requirements in the spec — I'll hold a placeholder line item in the budget model until I hear from you.\n\nNo rush on a reply to this email; just wanted to make sure you had the deadline in writing. If anything changes on your end before Monday, feel free to reach out.\n\nThanks again,\nRachel\nRachel Summers Events\nrachel@rachelsummersevents.example",
+    "labels": [
+      "veridian",
+      "corporate",
+      "sent",
+      "rfp-2026"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5102",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Summit — Your Action Item from Yesterday's Call",
+    "date": "2026-05-06T13:22:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for the quick follow-up — appreciated. Confirmed on my end. I'll have the AV spec to you by Monday EOD. The live-stream question is still being decided internally but I'll include a note either way so you can plan accordingly.\n\nTalk soon,\nPriya",
+    "labels": [
+      "veridian",
+      "corporate",
+      "rfp-2026"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5103",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Event Pro Insider — May 2026: Corporate Event Trends + RFP Best Practices",
+    "date": "2026-05-06T08:05:00-05:00",
+    "body": "Good morning, Rachel!\n\nThis month in Event Pro Insider:\n• Corporate event RFP trends for H2 2026\n• How top planners are handling AV cost inflation\n• Venue negotiation tactics that actually work\n• Florist sourcing in a tight market\n\nRead the full issue at eventproinsider.example/may2026\n\nUnsubscribe | Manage preferences",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5104",
+    "from": "owner@bloomandbranch.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Rate Adjustment — Contracted 2026 Weddings",
+    "date": "2026-05-16T10:22:00-05:00",
+    "body": "Hi Rachel,\n\nThank you for reaching out about the contracted weddings. I want to be straightforward with you: the new pricing reflects a 14% increase in our wholesale flower costs since January, and we simply can't hold the old rates across the board.\n\nThat said, I do value our working relationship and I'm willing to discuss a partial carve-out for weddings that were contracted before April 1. For those events, I can offer to split the delta 50/50 — meaning we absorb half and the client absorbs half — rather than passing the full increase through.\n\nThis offer applies to Kowalski-Reyes, Chen-Okafor, and Patel-Williams. I can't go further than that without taking a loss on materials.\n\nLet me know how you'd like to proceed. I'd prefer to resolve this before the end of next week so our team can finalize order sheets.\n\nBest,\nSienna Voss\nBloom & Branch Studio",
+    "labels": [
+      "vendor",
+      "florist",
+      "rate-conflict",
+      "urgent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5105",
+    "from": "claire.fontaine@blossomfloralstudio.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Availability Check — Spring 2026 Wedding Dates",
+    "date": "2026-05-17T14:05:00-05:00",
+    "body": "Hi Rachel,\n\nGreat to hear from you! I've checked our calendar against the three dates you mentioned.\n\nHere's where we stand:\n- May 31 (Kowalski-Reyes): AVAILABLE — we have one other event that morning but it wraps by noon; a late-afternoon or evening wedding is fully workable.\n- June 14 (Chen-Okafor): AVAILABLE — open date for us.\n- August 23 (Patel-Williams): AVAILABLE — no conflicts.\n\nI should be transparent: for a same-season switch this late, we'd need a signed agreement and 40% deposit within 5 business days of confirmation to hold the dates. Our spring pricing is current and I can send a full quote within 24 hours of your go-ahead.\n\nWe've worked together before and I'd love to be part of your season. Just say the word.\n\nWarm regards,\nClaire Fontaine\nBlossom Floral Studio",
+    "labels": [
+      "vendor",
+      "florist",
+      "backup",
+      "availability"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5106",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Floral Update — Kowalski-Reyes Wedding",
+    "date": "2026-05-19T09:48:00-05:00",
+    "body": "Rachel,\n\nI appreciate you looping me in, but I have to be honest — I'm frustrated. When we signed the contract in January, the floral line was $4,200 and that's what we budgeted for. Marco and I don't have flexibility to absorb a surprise increase 11 days before the wedding.\n\nI understand vendors have costs, but that's between you and them, isn't it? Our contract says $4,200 for florals and I expect that to be honored.\n\nCan you confirm in writing that our floral cost will not change? I need that reassurance before I can focus on anything else this week.\n\nDana",
+    "labels": [
+      "client",
+      "kowalski-reyes",
+      "floral",
+      "urgent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5107",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "lena.vasquez.events@gmail.example",
+    "subject": "Internal Handoff — Bloom & Branch Resolution + Follow-Up Items",
+    "date": "2026-05-20T11:30:00-05:00",
+    "body": "Hi Lena,\n\nQuick handoff note before I get into the client and vendor comms today.\n\nBloom & Branch situation is resolved — here's the summary by wedding:\n\n1. Kowalski-Reyes (May 31): Absorbing the full delta ($420) from contingency. Dana has been assured the contracted price holds. Do NOT discuss any florist change with her — we're staying with Bloom & Branch and eating the cost. Contingency headroom after this: ~$380.\n\n2. Chen-Okafor (June 14): Passing 50% of delta ($275) to client per the carve-out Sienna offered. I'll send the amendment today. You'll need to follow up with James Chen-Okafor to get the amendment countersigned by May 27.\n\n3. Patel-Williams (Aug 23): Switching to Blossom Floral Studio. Lead time is sufficient (95 days out), Claire confirmed availability, and their quote comes in $310 under the original Bloom & Branch contracted amount even at new rates. Please reach out to Claire Fontaine (claire.fontaine@blossomfloralstudio.example) to initiate the agreement and deposit process — deadline is May 27 for the 5-business-day window.\n\nAlso: please update NPAG-9 and the per-wedding Notion records with these decisions once I've sent the outbound comms.\n\nThanks,\nRachel",
+    "labels": [
+      "internal",
+      "lena",
+      "handoff",
+      "florist"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5108",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests (Final Quote Confirmation)",
+    "date": "2026-05-16T10:22:00-05:00",
+    "body": "Hi Rachel,\n\nFollowing up on our earlier exchange — here is our confirmed, locked quote for the Veridian 2026 Leadership Summit catering package (100 guests, Sept 18–19):\n\n• Plated dinner service (Day 1): $8,200\n• Working lunch + AM/PM breaks (Day 2): $4,950\n• Staffing & setup: $1,850\n• Total confirmed: $15,000\n\nThis supersedes the $14,200 figure we discussed in March. The increase reflects updated protein costs and a staffing rate adjustment effective May 1. This quote is valid through June 30, 2026 and represents our firm floor — no further reduction is available at this volume.\n\nPlease confirm receipt and let us know if you'd like a formal contract issued.\n\nBest,\nDerek Holt\nHarvest Table Catering",
+    "labels": [
+      "veridian-rfp",
+      "vendor-quote",
+      "catering"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5109",
+    "from": "av@clearsignal.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Veridian 2026 Summit — AV Quote Confirmed (No Change)",
+    "date": "2026-05-16T14:05:00-05:00",
+    "body": "Rachel,\n\nJust confirming our AV package for the Veridian 2026 Leadership Summit remains as quoted:\n\n• Full AV production (main ballroom, 2 days): $6,800\n• Breakout room mics + display (x2 rooms): $1,200\n• On-site tech lead (both days): included\n• Total confirmed: $8,000\n\nThis matches the figure in your working model exactly. No adjustments needed. Quote locked through July 1, 2026.\n\nLet me know when you're ready to move to contract.\n\nSienna Voss\nClearSignal AV",
+    "labels": [
+      "veridian-rfp",
+      "vendor-quote",
+      "av"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5110",
+    "from": "j.okafor@themeridianhotel.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Veridian 2026 Summit — Foyer Line Item: Rate Confirmed",
+    "date": "2026-05-17T09:48:00-05:00",
+    "body": "Hi Rachel,\n\nAs discussed, I'm confirming in writing that the Meridian Conference Center foyer add-on for Sept 18–19, 2026 is priced at $1,650 for the two-day block (cocktail hour setup + pre-session networking use). This is a firm rate — our events team reviewed and there is no flexibility below this figure given the date hold and staffing commitment.\n\nFor reference, I understand your working model had this at $1,400. The $250 difference reflects our updated 2026 rate card for foyer activations, which I sent over in March.\n\nPlease let me know your decision on whether to include the foyer in the final scope. We need confirmation by end of day May 21 to hold the space.\n\nBest,\nJamie Okafor\nEvents Sales Manager, The Meridian Conference Center",
+    "labels": [
+      "veridian-rfp",
+      "vendor-quote",
+      "venue",
+      "foyer-decision"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5111",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider: Corporate AV Trends for Fall 2026 — What Planners Are Booking Now",
+    "date": "2026-05-19T08:00:00-05:00",
+    "body": "Good morning, Rachel!\n\nThis week in EventPro Insider:\n\n• Hybrid AV setups surge 34% for Q3/Q4 corporate bookings — are you spec'ing the right package?\n• Venue foyer activations: the new cocktail-hour upgrade clients are requesting\n• Catering cost benchmarks for 2026: what $150/head actually buys in major metros\n• RFP writing tips: how to present budget ranges vs. locked figures to corporate clients\n\nRead the full issue at eventproinsider.example/may-19-2026\n\nUnsubscribe | Manage preferences",
+    "labels": [
+      "newsletter",
+      "industry"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5112",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "marcus.chen@veridiantech.example",
+    "subject": "Veridian 2026 Leadership Summit — RFP Proposal Submitted",
+    "date": "2026-05-20T15:47:00-05:00",
+    "body": "Hi Marcus,\n\nPlease find attached the Veridian Technologies 2026 Leadership Summit RFP proposal.\n\nFinal budget comes in at $44,850 — just under the $45,000 ceiling. As we discussed this morning, the Meridian foyer add-on is confirmed at $1,650 (vs. the $1,400 I had modeled earlier). I've rebalanced the AV contingency and printed materials lines to absorb the delta, so the overall number holds.\n\nAll three vendor quotes are locked:\n• Harvest Table Catering — $18,200 (100 pax, plated dinner + cocktail hour)\n• ClearSignal AV — $8,400 (full A/V package, Sept 18–19)\n• Meridian Foyer Add-On — $1,650 (confirmed with Jamie Okafor)\n\nI've included the full line-item breakdown in the proposal. Let me know if you'd like to walk through any section on a call.\n\nLooking forward to your feedback.\n\nBest,\nRachel\nRachel Summers Events\nrachel@rachelsummersevents.example",
+    "labels": [
+      "sent",
+      "veridian-rfp",
+      "corporate"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5113",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "owner@bloomandbranch.example",
+    "subject": "Following Up — Kowalski-Reyes Floral Pricing + Call Today at 4pm",
+    "date": "2026-05-20T09:55:00-05:00",
+    "body": "Hi Sienna,\n\nJust confirming our call today at 4:00 PM to work through the pricing situation on Kowalski-Reyes and the other two spring weddings.\n\nI want to come to this conversation with a clear head and find a path that works for both of us. I know I've been slow to get back to you on this — I appreciate your patience, and I want to make sure we resolve it properly before Saturday.\n\nI'll have the contract terms and the current budget sheets pulled up. Talk soon.\n\nRachel",
+    "labels": [
+      "sent",
+      "bloom-and-branch",
+      "kowalski-reyes",
+      "vendor"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5114",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Leadership Summit — RFP Proposal Submitted",
+    "date": "2026-05-20T17:22:00-05:00",
+    "body": "Hi Rachel,\n\nThank you — received and forwarding to Marcus now. He's in back-to-back meetings this afternoon but I know he was expecting this today. I'll make sure he has it first thing tomorrow.\n\nQuick note: we may want to schedule a brief review call for early next week once he's had a chance to read through. I'll check his calendar and send a hold.\n\nThanks again,\nPriya\n\nPriya Nair | Executive Assistant to Marcus Chen\nVeridian Technologies",
+    "labels": [
+      "inbox",
+      "veridian-rfp",
+      "corporate"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5115",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Wedding Weekend — Quick Check-In",
+    "date": "2026-05-20T11:34:00-05:00",
+    "body": "Rachel! Three days!! I can't believe it's almost here.\n\nI just wanted to check in — we haven't heard anything about the flowers since last week and I'm starting to get a little anxious. Sienna was so lovely when we met with her but I remember you mentioned there might be a small pricing thing to sort out. Is everything confirmed on that end?\n\nAlso — is the run-of-show finalized? Marco wants to know what time the first dance is scheduled so he can tell his parents.\n\nSorry for all the questions. We're just so excited!\n\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "client"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5116",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "TO SELF: scheduler cleanup — do NOT enable new vendor reminder job until audit done",
+    "date": "2026-05-20T09:33:00-05:00",
+    "body": "Rachel —\n\nBefore you enable that new vendor follow-up reminder job, STOP.\n\nI just pulled the scheduler list and there are already 7 jobs named weekly_vendor_followup_reminder sitting there disabled and never run. If you enable a new one at 9:00 AM you'll have 8 near-identical jobs stacked at the same time.\n\nAlso: 9:00 AM is when your calendar blocks start (EVT-391, EVT-406). A job firing at exactly 9:00 AM is going to ping you mid-block-start every morning.\n\nAudit note saved as NOTE-155. Recommendation is:\n- Enable JOB-702 as the one canonical job, trigger at 9:17 AM\n- Delete the other 6 duplicates\n- Separately decide on JOB-706 (florist backup — still relevant) and JOB-707 (Veridian RFP nudge — deadline is today, probably archive)\n\nDo NOT touch any jobs until you've reviewed NOTE-155 and confirmed.\n\n— R",
+    "labels": [
+      "self-note",
+      "scheduler",
+      "action-required"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5117",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider: Automate Your Vendor Follow-Up Workflow — 5 Scheduler Tips",
+    "date": "2026-05-20T07:15:00-05:00",
+    "body": "Hi Rachel,\n\nThis week in EventPro Insider: how top planners are using automated scheduler jobs to stay on top of vendor follow-ups without cluttering their inboxes.\n\n→ Tip 1: Use a single canonical job with a staggered trigger — avoid the 9:00 AM pile-up\n→ Tip 2: Name your jobs consistently so duplicates are easy to spot\n→ Tip 3: Archive one-off project jobs (like RFP nudges) once the deadline passes\n→ Tip 4: Cross-reference your scheduler against open todos weekly\n→ Tip 5: Don't create new jobs when a disabled one already does the job\n\nRead the full guide →\n\nEventPro Insider | Unsubscribe",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5118",
+    "from": "quotes@harvesttablecatering.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: 2026 Corporate Event Catering Inquiry — 100 Guests (Quote Follow-Up)",
+    "date": "2026-05-19T14:22:00-05:00",
+    "body": "Hi Rachel,\n\nApologies for the delay — our pricing team has been slammed this week. I can confirm we'll have the updated quote for the Veridian 100-guest lunch service to you by end of day tomorrow (May 20).\n\nThe per-head rate will be in the $68–$74 range depending on the menu tier you select. I'll include a breakdown of both options.\n\nThanks for your patience.\n\nBest,\nDerek\nHarvest Table Catering",
+    "labels": [
+      "vendor",
+      "veridian",
+      "catering",
+      "quote-pending"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5119",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "av@clearsignal.example",
+    "subject": "Re: Veridian 2026 AV Quote — Following Up (3rd Request)",
+    "date": "2026-05-20T09:52:00-05:00",
+    "body": "Hi Derek,\n\nFollowing up again on the AV quote for the Veridian 2026 Leadership Summit — I've reached out twice now and the RFP deadline is today.\n\nIf I don't hear back by noon I'll need to use the placeholder figure from our last engagement and note it as estimated in the proposal.\n\nPlease let me know either way.\n\nThanks,\nRachel\nRachel Summers Events",
+    "labels": [
+      "vendor",
+      "veridian",
+      "av",
+      "quote-pending",
+      "urgent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5120",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "⚠️ SELF-NOTE: Do NOT enable JOB-706 or JOB-707 until scheduler audit is done",
+    "date": "2026-06-01T10:14:00-04:00",
+    "body": "Rachel —\n\nDo not activate JOB-706 (florist_backup_outreach_reminder) or JOB-707 (veridian_rfp_vendor_quote_nudge) until you have done a full audit of the scheduler job list.\n\nI noticed this morning that there are multiple jobs with the name 'weekly_vendor_followup_reminder' running (or sitting enabled) in the scheduler. I don't know how many duplicates there are or which one is canonical. If I enable two more jobs on top of that mess, vendors are going to get spammed with redundant reminders and I'll have no idea which job fired which message.\n\nHARD STOP: zero new scheduler jobs enabled until:\n1. Full enumeration of all scheduler jobs (enabled, disabled, never-run, null-status)\n2. Duplicate weekly_vendor_followup_reminder jobs identified and all but one archived\n3. Canonical job confirmed and tested\n4. JOB-706 and JOB-707 individually assessed for current relevance before any activation\n\nThis is a gate. Do not skip it.\n\n— Rachel",
+    "labels": [
+      "self-note",
+      "scheduler",
+      "audit",
+      "freeze"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5121",
+    "from": "priya.nair@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 RFP — Vendor Quote Follow-Up",
+    "date": "2026-06-02T11:30:00-04:00",
+    "body": "Hi Rachel,\n\nJust a quick note — Marcus confirmed this morning that the RFP document you submitted last week has been received and is currently in internal review with the procurement committee. No further vendor quote details are needed from your side at this stage.\n\nWe'll be in touch once the committee has completed their initial pass, likely by end of next week.\n\nThanks again for the thorough submission.\n\nBest,\nPriya Nair\nExecutive Assistant to Marcus Chen\nVeridian Technologies",
+    "labels": [
+      "veridian",
+      "rfp",
+      "inbox"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5122",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "SELF-NOTE: florist backup — still need to confirm contingency before activating JOB-706",
+    "date": "2026-06-03T09:05:00-04:00",
+    "body": "Rachel —\n\nQuick reminder to self: JOB-706 (florist_backup_outreach_reminder) is sitting at never_run. Before I even think about enabling it, I need to have actually decided on a backup florist. Right now I have notes from May 8 with Blossom Floral Studio as the leading candidate (Claire Fontaine), but I haven't sent a formal inquiry or confirmed availability for the three affected weddings.\n\nIf I enable JOB-706 without a confirmed backup candidate, the reminder job will fire and I'll have nothing to say. That's worse than not sending anything.\n\nAction needed BEFORE enabling JOB-706:\n- Confirm Claire Fontaine / Blossom Floral Studio availability for Kowalski-Reyes and the two other affected weddings\n- Get a rate card\n- Only then does JOB-706 make sense as an ongoing nudge\n\nAlso: the scheduler audit freeze is still in effect. JOB-706 cannot be enabled regardless until duplicates are resolved.\n\n— Rachel",
+    "labels": [
+      "self-note",
+      "florist",
+      "scheduler",
+      "job-706"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5123",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "EventPro Insider: Automate Your Vendor Follow-Ups — 5 Scheduler Tips",
+    "date": "2026-06-02T08:00:00-04:00",
+    "body": "Hi Rachel,\n\nThis week in EventPro Insider: how top planners are using automated reminder schedulers to stay on top of vendor follow-ups without the manual overhead.\n\n→ Tip 1: Set a single canonical weekly reminder job — don't duplicate across projects\n→ Tip 2: Tag jobs by vendor category so you can audit at a glance\n→ Tip 3: Archive stale jobs before adding new ones\n→ Tip 4: Always test a new job in staging before enabling in production\n→ Tip 5: Review your scheduler job list quarterly\n\nRead the full article at eventproinsider.example/scheduler-tips-2026\n\n— The EventPro Insider Team",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5124",
+    "from": "lena.vasquez.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Unavailable — June 10 Vendor Briefing & Site Walk",
+    "date": "2026-06-02T10:14:00-05:00",
+    "body": "Hi Rachel,\n\nSorry for the short notice — I just confirmed a prior commitment that I completely forgot I'd agreed to back in April. I won't be able to make the June 10 vendor briefing and site walk for the Hargrove-Lindqvist fall wedding.\n\nI know the timing is rough with everything else on your plate this week. Happy to prep any intake notes or vendor contact sheets in advance if that helps whoever covers it.\n\nLet me know what you need from me.\n\nLena",
+    "labels": [
+      "inbox",
+      "staffing",
+      "urgent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5125",
+    "from": "hello@eventreadystaffing.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Freelance Coordinator Availability — Half-Day June 10",
+    "date": "2026-06-03T11:42:00-05:00",
+    "body": "Hi Rachel,\n\nThanks for reaching out! We do have availability on June 10 for a half-day block (up to 5 hours). Our current half-day rate for a senior coordinator is $285, which includes travel within the metro area.\n\nTurnaround for booking confirmation is typically 24–48 hours once we receive a signed engagement form. We'd need the venue address, a brief scope summary, and your preferred start time.\n\nWe've worked with you before — the Calloway-Park wedding in October 2025 — so we already have your standard briefing format on file, which should speed things up.\n\nLet us know if you'd like to proceed.\n\nBest,\nEventReady Staffing\nhello@eventreadystaffing.example | (312) 555-0174",
+    "labels": [
+      "inbox",
+      "staffing",
+      "vendor"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5126",
+    "from": "tara.bloom.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Quick catch-up? / June availability",
+    "date": "2026-06-01T14:55:00-05:00",
+    "body": "Rachel! Yes, let's catch up soon — it's been a minute. June is actually pretty packed for me. I have a wedding the 6th, a corporate brunch the 13th, and I'm covering a colleague's rehearsal dinner the 14th. So I'm basically booked solid through mid-June.\n\nHope your season is going well — sounds like you're slammed as usual. Let's grab coffee in July?\n\nTara",
+    "labels": [
+      "inbox",
+      "network",
+      "colleague"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5127",
+    "from": "rachel@rachelsummersevents.example",
+    "to": "hello@eventreadystaffing.example",
+    "subject": "Booking Request — Freelance Coordinator, June 10 Half-Day",
+    "date": "2026-06-03T14:08:00-05:00",
+    "body": "Hi,\n\nThanks for the quick turnaround. I'd like to move forward with booking a senior coordinator for June 10.\n\nDetails:\n- Date: Wednesday, June 10, 2026\n- Time: 9:00 AM – 1:00 PM (half-day, 4 hours)\n- Location: Hargrove-Lindqvist site walk — Elmwood Estate, 4820 Elmwood Drive\n- Scope: Vendor briefing coordination (florist, caterer, venue manager), site walk facilitation, intake notes for fall wedding planning file\n\nPlease send over the engagement form and I'll turn it around same day.\n\nThanks,\nRachel Summers\nRachel Summers Events\n(312) 555-0198",
+    "labels": [
+      "sent",
+      "staffing",
+      "vendor"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5128",
+    "from": "lena.vasquez.events@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Half-Day Availability This Week — Veridian Prep Brief",
+    "date": "2026-06-02T10:14:00-05:00",
+    "body": "Hi Rachel,\n\nYes, I'm free Wednesday morning (June 3) — I can block 8:30–12:30 for the Veridian pre-call brief if you want to send me the Notion links and the budget workbook tonight or first thing tomorrow. I've done the RFP digest format before so I know what you need: vendor quote log, budget delta summary, foyer decision context, and a one-page scope brief for Marcus.\n\nJust confirm by end of day Tuesday and I'll hold the slot. My half-day rate is $180 as usual.\n\nLena",
+    "labels": [
+      "inbox",
+      "lena",
+      "veridian",
+      "delegation"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5129",
+    "from": "marcus.chen@veridiantech.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Re: Veridian 2026 Scope Call — Confirming Thursday June 4",
+    "date": "2026-06-02T14:47:00-05:00",
+    "body": "Rachel,\n\nThursday at 11 AM works on my end. I'll send a calendar hold. I do want to come in with the foyer question resolved if possible — Priya flagged it again this morning. If you can have a budget summary and a clear foyer-in vs. foyer-out recommendation ready before we get on, that would save us a lot of back-and-forth.\n\nLooking forward to it.\n\nMarcus",
+    "labels": [
+      "inbox",
+      "veridian",
+      "scope-call",
+      "urgent"
+    ],
+    "is_read": true
+  },
+  {
+    "message_id": "MSG-5130",
+    "from": "dana.kowalski@gmail.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "Quick check-in before the wedding — floral question",
+    "date": "2026-06-01T19:22:00-05:00",
+    "body": "Hi Rachel,\n\nJust wanted to touch base before things get crazy. I know we talked about the floral pricing a few weeks ago and you said the rate was locked — I just want to make sure that's still the case? Sienna mentioned something to Marco at the tasting last week that made him a little nervous. Can we do a quick call this week to confirm everything is still on track?\n\nThanks,\nDana",
+    "labels": [
+      "inbox",
+      "kowalski-reyes",
+      "floral",
+      "urgent"
+    ],
+    "is_read": false
+  },
+  {
+    "message_id": "MSG-5131",
+    "from": "noreply@eventproinsider.example",
+    "to": "rachel@rachelsummersevents.example",
+    "subject": "June Roundup: Delegation Strategies for Solo Event Planners",
+    "date": "2026-06-02T08:00:00-05:00",
+    "body": "Event Pro Insider — June 2026\n\nThis month we're covering: when to delegate vs. DIY your admin prep, how top solo planners protect their peak-energy morning windows, and a roundup of part-time coordinator platforms for high-season overflow.\n\nRead the full issue at eventproinsider.example/june2026\n\nUnsubscribe | Manage preferences",
+    "labels": [
+      "newsletter",
+      "inbox"
+    ],
+    "is_read": false
+  }
+]

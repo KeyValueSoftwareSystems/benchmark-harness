@@ -1,0 +1,15 @@
+{
+  "persona_id": "FREE01_T02_greenfield_press_project_status_digest_c",
+  "name": "Mia Lee",
+  "email": "mia@mialeeillustation.example",
+  "role": "freelance illustrator",
+  "organization": "Mia Lee Illustration LLC",
+  "communication_style": "direct, detail-oriented",
+  "domain_knowledge": [
+    "finance",
+    "info aggregation",
+    "scheduling",
+    "support operations"
+  ],
+  "execution_date": "2026-06-03"
+}
